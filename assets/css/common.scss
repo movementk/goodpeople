@@ -72,12 +72,6 @@ a {
 	}
 }
 
-/*.container {
-    @media(min-width: $xl) {
-        min-width: 1200px;
-    }
-}*/
-
 .container,
 .container-fluid {
     padding-left: 10px;
@@ -125,5 +119,11 @@ a {
                 }
             }
         }
+    }
+}
+
+.container {
+    @media(min-width: $xl) {
+        min-width: 1200px;
     }
 }

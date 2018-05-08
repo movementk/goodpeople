@@ -34,11 +34,6 @@ a {
     box-shadow: none;
     text-decoration: none; }
 
-/*.container {
-    @media(min-width: $xl) {
-        min-width: 1200px;
-    }
-}*/
 .container,
 .container-fluid {
   padding-left: 10px;
@@ -353,6 +348,10 @@ a {
         .container-fluid .row .col-lg-12 {
           padding-left: 15px;
           padding-right: 15px; } }
+
+@media (min-width: 1200px) {
+  .container {
+    min-width: 1200px; } }
 
 body {
   min-width: 320px;
