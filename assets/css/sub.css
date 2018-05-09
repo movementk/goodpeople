@@ -1,6 +1,7 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 @import url("//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css");
+@import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -349,9 +350,11 @@ a {
           padding-left: 15px;
           padding-right: 15px; } }
 
-@media (min-width: 1200px) {
-  .container {
-    min-width: 1200px; } }
+.container {
+  max-width: 100%; }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1200px; } }
 
 .sub #content {
   min-height: 500px;
