@@ -555,4 +555,67 @@ section {
     section .section-header .lnb-nav {
       padding-top: 80px; } }
 
+.search-form {
+  position: relative; }
+  .search-form .form-group input[type="text"] {
+    width: 100%;
+    background-color: #f3f5fa; }
+  .search-form .form-group .form-control {
+    font-size: 13px;
+    color: #aaa;
+    line-height: 45px;
+    font-weight: 300;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    padding-left: 20px; }
+  .search-form .btn-search .btn-default {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 45px;
+    padding: 0;
+    font-size: 14px;
+    color: #144199;
+    background: none !important; }
+    .search-form .btn-search .btn-default i {
+      position: relative;
+      top: -2px; }
+  @media (min-width: 768px) {
+    .search-form .form-group .form-control {
+      font-size: 14px;
+      line-height: 50px; }
+    .search-form .btn-search .btn-default {
+      height: 50px; } }
+
+.paging {
+  text-align: center; }
+  .paging .pagination {
+    display: inline-block;
+    margin: 0; }
+    .paging .pagination > li {
+      display: inline-block; }
+      .paging .pagination > li.first a:hover, .paging .pagination > li.first a:focus, .paging .pagination > li.prev a:hover, .paging .pagination > li.prev a:focus {
+        background-color: #fff !important; }
+      .paging .pagination > li.active a {
+        display: block;
+        background-color: #eb6100;
+        font-weight: 400;
+        color: #fff; }
+      .paging .pagination > li a {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        color: #999;
+        border-radius: 50%;
+        line-height: 30px;
+        padding: 0;
+        border: 0;
+        font-family: 'Roboto', sans-serif; }
+        .paging .pagination > li a i {
+          color: #aaa;
+          font-weight: 300; }
+
 /*# sourceMappingURL=test.css.map */

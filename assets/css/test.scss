@@ -269,3 +269,103 @@ section {
 		}
 	}
 }
+
+
+//search-form 검색하기
+.search-form {
+	position: relative;
+	.form-group {
+		input[type="text"] {
+			width: 100%;
+			background-color: #f3f5fa;
+		}
+		.form-control {
+			font-size: 13px;
+			color: #aaa;
+			line-height: 45px;
+			font-weight: 300;
+			border: 0;
+			border-radius: 0;
+			padding: 0;
+			padding-left: 20px;
+		}
+	}
+	.btn-search {
+		.btn-default {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 50px;
+			height: 45px;
+			padding: 0;
+			font-size: 14px;
+			color: #144199;
+			background: none !important;
+			i {
+				position: relative;
+				top: -2px;
+			}
+		}
+	}
+	@media(min-width: $md) {
+		.form-group {
+			.form-control {
+				font-size: 14px;
+				line-height: 50px;
+			}
+		}
+		.btn-search {
+			.btn-default {
+				height: 50px;
+			}
+		}
+	}
+}
+
+//paging
+.paging {
+	text-align: center;
+	.pagination {
+		display: inline-block;
+		margin: 0;
+		> li {
+			display: inline-block;
+			&.first, &.prev {
+				a {
+					&:hover ,&:focus {
+						background-color: #fff !important;
+					}
+				}
+            }
+			&.active {
+				a {
+					display: block;
+					
+					background-color: #eb6100;
+					font-weight: 400;
+					color: #fff;
+				}
+			}
+			a {
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				font-size: 15px;
+				color: #999;
+				border-radius: 50%;
+				line-height: 30px;
+				padding: 0;
+				border: 0;
+				@include roboto();
+				i {
+					color: #aaa;
+					font-weight: 300;
+				}
+			}
+		}
+	}
+}
+
+
+
+
