@@ -1,5 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" href="/assets/css/sub.css">
+<link rel="stylesheet" href="/assets/css/test.css">
 </head>
 <body class="sub">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
@@ -98,6 +98,22 @@
 					</nav>
 				</div>
 			</section>
+  			
+  			<div style="margin: 50px 0; border:"></div>
+   			<!-- search-form -->
+			<div class="search-form">
+				<form action="#">
+					<div class="form-group">
+						<input type="text" id="search" class="form-control" placeholder="검색어를 입력해 주세요">
+						<label for="search" class="sr-only">검색하기</label>
+					</div>
+					<p class="btn-search">
+						<button type="submit" class="btn btn-default">
+							<i></i>
+						</button>
+					</p>
+				</form>
+			</div>
     	</div>
     </main>
     
