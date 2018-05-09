@@ -241,12 +241,45 @@
             </div>
         </article>
         
-        <!-- campaign-review -->
+        <!-- campaign-review 
         <article class="campaign-review">
             <div class="container-fluid">
                 <div class="review-slide">
-                    
+                    <div class="review-details review-1">
+                        <a href="#">
+                            <div class="details">
+                                <h3>캠페인 후기</h3>
+                                <p class="summary">
+                                    지구촌에 헐벗고 굶주리고 병들어 덧없이 죽어가는 
+                                    어린(천하보다 귀한) 영혼이 없기를...
+                                </p>
+                                <div class="btn-area"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="review-details review-1">
+                        <a href="#">
+                            <div class="details">
+                                <h3>캠페인 후기</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
+            </div>
+        </article>
+        -->
+        
+        <!-- global-business -->
+        <article class="global-business">
+            <div class="business internal">
+                <a href="#">
+                    1
+                </a>
+            </div>
+            <div class="business overseas">
+                <a href="#">
+                    2
+                </a>
             </div>
         </article>
         
@@ -367,6 +400,59 @@
                 ]
             });
             
+            // Campaign review Slider
+            $(window).ready(function (){
+                $('.review-slide').slick({
+                    dots: false,
+                    infinite: true,
+                    autoplaySpeed: 5000,
+                    cssEase: 'linear',
+                    pauseOnHover: false,
+                    pauseOnFocus: false,
+                });
+            });
+            
+            // global-business
+            $('.global-business').slick({
+                autoplay: false,
+                dots: false,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        autoplay: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: false,
+                        infinite: false,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: false,
+                        dots: false,
+                        infinite: false,
+                    }
+                },
+                {
+                    breakpoint: 320,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: false,
+                        dots: false,
+                        infinite: false,
+                    }
+                }
+                ]
+            });
             
         });
     </script>

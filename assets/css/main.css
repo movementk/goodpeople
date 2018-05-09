@@ -867,5 +867,26 @@ a {
 .campaign-review {
   padding: 20px 0;
   background-color: #fff; }
+  .campaign-review .review-slide {
+    position: relative; }
+    .campaign-review .review-slide .review-details {
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+      .campaign-review .review-slide .review-details.review-1 {
+        background-image: url(/assets/images/main/bg_campaign_review_sm.jpg); }
+      .campaign-review .review-slide .review-details.review-2 {
+        background-image: url(/assets/images/main/bg_campaign_review_sm.jpg); }
+      .campaign-review .review-slide .review-details a {
+        display: table;
+        width: 100%; }
+        .campaign-review .review-slide .review-details a .details {
+          display: table-cell;
+          vertical-align: middle; }
+  @media (min-width: 768px) {
+    .campaign-review .review-slide .review-details.review-1 {
+      background-image: url(/assets/images/main/bg_campaign_review_lg.jpg); }
+    .campaign-review .review-slide .review-details.review-2 {
+      background-image: url(/assets/images/main/bg_campaign_review_lg.jpg); } }
 
 /*# sourceMappingURL=main.css.map */
