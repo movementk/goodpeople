@@ -241,44 +241,67 @@
             </div>
         </article>
         
-        <!-- campaign-review 
+        <!-- campaign-review -->
         <article class="campaign-review">
             <div class="container-fluid">
                 <div class="review-slide">
-                    <div class="review-details review-1">
-                        <a href="#">
+                    <div class="review review-1">
+                        <div class="content">
                             <div class="details">
                                 <h3>캠페인 후기</h3>
                                 <p class="summary">
-                                    지구촌에 헐벗고 굶주리고 병들어 덧없이 죽어가는 
+                                    지구촌에 헐벗고 굶주리고 병들어 덧없이 죽어가는 <br class="d-none d-md-block">
                                     어린(천하보다 귀한) 영혼이 없기를...
                                 </p>
-                                <div class="btn-area"></div>
+                                <div class="more-btn">
+                                    <a href="#" class="btn btn-default" role="button">자세히 보기</a>
+                                </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
-                    <div class="review-details review-1">
-                        <a href="#">
+                    <div class="review review-1">
+                        <div class="content">
                             <div class="details">
                                 <h3>캠페인 후기</h3>
+                                <p class="summary">
+                                    지구촌에 헐벗고 굶주리고 병들어 덧없이 죽어가는 <br class="d-none d-md-block">
+                                    어린(천하보다 귀한) 영혼이 없기를...
+                                </p>
+                                <div class="more-btn">
+                                    <a href="#" class="btn btn-default" role="button">자세히 보기</a>
+                                </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </article>
-        -->
+        
         
         <!-- global-business -->
         <article class="global-business">
             <div class="business internal">
                 <a href="#">
-                    1
+                    <div class="item-img">
+                        <p class="or">해외사업</p>
+                        <img src="/assets/images/main/img_global_business01.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="details">
+                        <small>해외아동결연</small>
+                        <h4>아이들이 꿈꿀 수 있도록 해주세요</h4>
+                    </div>
                 </a>
             </div>
             <div class="business overseas">
                 <a href="#">
-                    2
+                    <div class="item-img">
+                        <p class="bl">국내사업</p>
+                        <img src="/assets/images/main/img_global_business02.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="details">
+                        <small>사랑의 의료봉사</small>
+                        <h4>구멍난 뼈, 위험신호를 알려요</h4>
+                    </div>
                 </a>
             </div>
         </article>
@@ -429,26 +452,7 @@
                         slidesToScroll: 1,
                         dots: false,
                         infinite: false,
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        autoplay: false,
-                        dots: false,
-                        infinite: false,
-                    }
-                },
-                {
-                    breakpoint: 320,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        autoplay: false,
-                        dots: false,
-                        infinite: false,
+                        dots: true,
                     }
                 }
                 ]

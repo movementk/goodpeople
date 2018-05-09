@@ -869,24 +869,189 @@ a {
   background-color: #fff; }
   .campaign-review .review-slide {
     position: relative; }
-    .campaign-review .review-slide .review-details {
+    .campaign-review .review-slide .slick-arrow {
+      position: absolute;
+      top: 50%;
+      margin-top: -17px;
+      width: 20px;
+      height: 35px;
+      z-index: 1;
+      border: 0;
+      cursor: pointer;
+      border-radius: 5px;
+      text-indent: -9999px;
+      background-color: #fff;
       background-repeat: no-repeat;
       background-position: 50% 50%;
+      background-size: 6px auto; }
+      .campaign-review .review-slide .slick-arrow.slick-prev {
+        left: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        background-image: url(/assets/images/main/btn_slide_left.gif); }
+      .campaign-review .review-slide .slick-arrow.slick-next {
+        right: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        background-image: url(/assets/images/main/btn_slide_right.gif); }
+    .campaign-review .review-slide .review {
+      height: 180px;
+      background-repeat: no-repeat;
+      background-position: 100% 50%;
       background-size: cover; }
-      .campaign-review .review-slide .review-details.review-1 {
+      .campaign-review .review-slide .review.review-1 {
         background-image: url(/assets/images/main/bg_campaign_review_sm.jpg); }
-      .campaign-review .review-slide .review-details.review-2 {
+      .campaign-review .review-slide .review.review-2 {
         background-image: url(/assets/images/main/bg_campaign_review_sm.jpg); }
-      .campaign-review .review-slide .review-details a {
+      .campaign-review .review-slide .review .content {
         display: table;
         width: 100%; }
-        .campaign-review .review-slide .review-details a .details {
+        .campaign-review .review-slide .review .content .details {
+          text-align: center;
           display: table-cell;
+          height: 180px;
+          padding: 0 30px;
           vertical-align: middle; }
+          .campaign-review .review-slide .review .content .details h3 {
+            font-size: 13px;
+            color: #111;
+            margin-bottom: 15px;
+            font-family: 'NanumSquare', sans-serif; }
+          .campaign-review .review-slide .review .content .details .summary {
+            font-size: 15px;
+            color: #111;
+            font-weight: 600;
+            line-height: 22px;
+            word-break: keep-all;
+            font-family: 'Iropke Batang', serif; }
+          .campaign-review .review-slide .review .content .details .more-btn {
+            margin-top: 20px; }
+            .campaign-review .review-slide .review .content .details .more-btn .btn-default {
+              width: 120px;
+              height: 35px;
+              line-height: 33px;
+              font-size: 13px;
+              color: #111;
+              padding: 0;
+              border-radius: 0;
+              border: 1px solid #111;
+              background: none !important; }
   @media (min-width: 768px) {
-    .campaign-review .review-slide .review-details.review-1 {
-      background-image: url(/assets/images/main/bg_campaign_review_lg.jpg); }
-    .campaign-review .review-slide .review-details.review-2 {
-      background-image: url(/assets/images/main/bg_campaign_review_lg.jpg); } }
+    .campaign-review .review-slide .slick-arrow {
+      width: 33px;
+      height: 52px;
+      margin-top: -26px;
+      background-size: 10px auto; }
+    .campaign-review .review-slide .review {
+      height: 310px;
+      background-position: 50% 50%; }
+      .campaign-review .review-slide .review.review-1 {
+        background-image: url(/assets/images/main/bg_campaign_review_lg.jpg); }
+      .campaign-review .review-slide .review.review-2 {
+        background-image: url(/assets/images/main/bg_campaign_review_lg.jpg); }
+      .campaign-review .review-slide .review .content .details {
+        height: 310px;
+        text-align: left;
+        padding-left: 60px;
+        padding-right: 0; }
+        .campaign-review .review-slide .review .content .details h3 {
+          font-size: 16px;
+          margin-bottom: 30px; }
+        .campaign-review .review-slide .review .content .details .summary {
+          font-size: 25px;
+          line-height: 46px; }
+        .campaign-review .review-slide .review .content .details .more-btn {
+          margin-top: 40px; }
+          .campaign-review .review-slide .review .content .details .more-btn .btn-default {
+            width: 160px;
+            height: 45px;
+            line-height: 43px;
+            font-size: 14px; } }
+  @media (min-width: 1200px) {
+    .campaign-review {
+      padding: 100px 6%; }
+      .campaign-review .review-slide .review {
+        height: 370px; }
+        .campaign-review .review-slide .review .content .details {
+          height: 370px;
+          padding-left: 100px; }
+          .campaign-review .review-slide .review .content .details h3 {
+            font-size: 18px;
+            margin-bottom: 40px; }
+          .campaign-review .review-slide .review .content .details .summary {
+            font-size: 28px;
+            line-height: 46px; }
+          .campaign-review .review-slide .review .content .details .more-btn {
+            margin-top: 60px; }
+            .campaign-review .review-slide .review .content .details .more-btn .btn-default {
+              -webkit-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.15s;
+              transition-duration: 0.15s;
+              -webkit-transition-timing-function: linear;
+              transition-timing-function: linear;
+              -webkit-transition-delay: 0s;
+              transition-delay: 0s; }
+              .campaign-review .review-slide .review .content .details .more-btn .btn-default:hover, .campaign-review .review-slide .review .content .details .more-btn .btn-default:focus {
+                opacity: .7; } }
+
+.global-business {
+  background-color: #f3f5fa; }
+  .global-business .slick-arrow {
+    display: none !important; }
+  .global-business .business > a {
+    position: relative;
+    display: block; }
+    .global-business .business > a .item-img .img-fluid {
+      width: 100%; }
+    .global-business .business > a .item-img > p {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 80px;
+      line-height: 30px;
+      display: block;
+      text-align: center;
+      font-size: 12px;
+      color: #fff;
+      font-family: 'NanumSquare', sans-serif; }
+      .global-business .business > a .item-img > p.or {
+        background-color: #f5a100; }
+      .global-business .business > a .item-img > p.bl {
+        background-color: #144199; }
+    .global-business .business > a .details {
+      text-align: center;
+      margin-top: 25px;
+      font-family: 'NanumSquare', sans-serif; }
+      .global-business .business > a .details small {
+        font-size: 13px;
+        color: #111;
+        display: inline-block;
+        margin-bottom: 15px; }
+        .global-business .business > a .details small:before {
+          content: "[ "; }
+        .global-business .business > a .details small:after {
+          content: " ]"; }
+      .global-business .business > a .details h4 {
+        font-size: 16px;
+        color: #111;
+        font-weight: 400; }
+  .global-business .slick-dots {
+    text-align: center;
+    margin-top: 25px; }
+    .global-business .slick-dots li {
+      display: inline-block; }
+      .global-business .slick-dots li button {
+        display: block;
+        cursor: pointer;
+        width: 12px;
+        height: 12px;
+        text-indent: -99999px;
+        border: 0;
+        margin: 0 5px;
+        border-radius: 50%;
+        background-color: #ccc; }
+      .global-business .slick-dots li.slick-active button {
+        background-color: #eb6100; }
 
 /*# sourceMappingURL=main.css.map */
