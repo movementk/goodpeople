@@ -98,9 +98,10 @@
 					</nav>
 				</div>
 			</section>
-  			
+ 			
   			<div style="margin: 50px 0; border:"></div>
-   			<!-- search-form -->
+ 
+			<!-- search-form -->
 			<div class="search-form">
 				<form action="#">
 					<div class="form-group">
@@ -109,11 +110,53 @@
 					</div>
 					<p class="btn-search">
 						<button type="submit" class="btn btn-default">
-							<i></i>
+							<i class="icon-search"></i>
 						</button>
 					</p>
 				</form>
 			</div>
+   	
+   			<div style="margin: 50px 0; border:"></div>
+   			
+   			<nav class="paging" aria-lable="Page navigation">
+   				<ol class="pagination">
+   					<li class="first">
+   						<a href="#none" aria-label="Previous">
+   							<i class="icon-angle-double-left"></i>
+   						</a>
+   					</li>
+   					<li class="prev">
+   						<a href="#none" aria-label="Previous">
+   							<i class="icon-left-open-1"></i>
+   						</a>
+   					</li>
+   					<li class="active">
+   						<a href="#none">1</a>
+   					</li>
+   					<li>
+   						<a href="#none">2</a>
+   					</li>
+   					<li>
+   						<a href="#none">3</a>
+   					</li>
+   					<li>
+   						<a href="#none">4</a>
+   					</li>
+   					<li>
+   						<a href="#none">5</a>
+   					</li>
+   					<li class="next">
+   						<a href="#none" aria-label="Next">
+   							<i class="icon-right-open-1"></i>
+   						</a>
+   					</li>
+   					<li class="last">
+   						<a href="#none" aria-label="Next">
+   							<i class="icon-angle-double-right"></i>
+   						</a>
+   					</li>
+   				</ol>	
+   			</nav>
     	</div>
     </main>
     
@@ -139,7 +182,14 @@
 				$(this).addClass('active');
 			});
 		});
-	
+		
+		//paging active
+		$(document).ready(function(){
+			$('.paging .pagination li').click(function(){
+				$('.paging .pagination li').removeClass('active');
+				$(this).addClass('active');
+			});
+		});
 	</script>
 </body>
 </html>
