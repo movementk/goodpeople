@@ -359,6 +359,14 @@ a {
 #content {
   min-height: 600px; }
 
+.ex-txt {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  margin: 40px 0 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid pink; }
+
 .page-header .sub-visual {
   display: table;
   position: relative;
@@ -380,90 +388,88 @@ a {
     text-shadow: 0px 6px 7px rgba(0, 0, 0, 0.5); }
     .page-header .sub-visual h2 span {
       color: #eb6100; }
-.page-header .container {
-  padding: 0; }
-  .page-header .container .path-nav {
-    position: relative;
-    width: 100%;
-    background-color: #144199;
-    box-shadow: 0px 6px 7px 0px rgba(0, 0, 0, 0.22); }
-    .page-header .container .path-nav .breadcrumb-list {
-      display: inline-block;
-      font-size: 0;
-      width: 100%; }
-      .page-header .container .path-nav .breadcrumb-list > li {
-        position: relative;
-        width: 50%;
-        line-height: 50px;
+.page-header .container .path-nav {
+  position: relative;
+  width: 100%;
+  background-color: #144199;
+  box-shadow: 0px 6px 7px 0px rgba(0, 0, 0, 0.22); }
+  .page-header .container .path-nav .breadcrumb-list {
+    display: inline-block;
+    font-size: 0;
+    width: 100%; }
+    .page-header .container .path-nav .breadcrumb-list > li {
+      position: relative;
+      width: 50%;
+      line-height: 50px;
+      padding-left: 15px;
+      display: inline-block; }
+      .page-header .container .path-nav .breadcrumb-list > li:after {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        content: " ";
+        height: 16px;
+        display: block;
+        margin-top: -8px;
+        border-left: 1px solid #0a2066;
+        border-right: 1px solid #1e62cc; }
+      .page-header .container .path-nav .breadcrumb-list > li:first-child {
+        display: none; }
+      .page-header .container .path-nav .breadcrumb-list > li > a {
+        display: block;
+        width: 100%;
+        font-size: 13px;
+        color: #fff; }
+        .page-header .container .path-nav .breadcrumb-list > li > a > i {
+          font-style: normal; }
+          .page-header .container .path-nav .breadcrumb-list > li > a > i:after {
+            position: absolute;
+            top: 0;
+            right: 15px;
+            display: inline-block;
+            font-family: "fontello";
+            content: "\E803";
+            font-size: 12px; }
+      .page-header .container .path-nav .breadcrumb-list > li > .depth-1 {
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        z-index: 10;
+        width: 100%;
         padding-left: 15px;
-        display: inline-block; }
-        .page-header .container .path-nav .breadcrumb-list > li:after {
-          position: absolute;
-          top: 50%;
-          right: 0;
-          content: " ";
-          height: 16px;
-          display: block;
-          margin-top: -8px;
-          border-left: 1px solid #0a2066;
-          border-right: 1px solid #1e62cc; }
-        .page-header .container .path-nav .breadcrumb-list > li:first-child {
-          display: none; }
-        .page-header .container .path-nav .breadcrumb-list > li > a {
-          display: block;
-          width: 100%;
-          font-size: 13px;
-          color: #fff; }
-          .page-header .container .path-nav .breadcrumb-list > li > a > i {
-            font-style: normal; }
-            .page-header .container .path-nav .breadcrumb-list > li > a > i:after {
-              position: absolute;
-              top: 0;
-              right: 15px;
-              display: inline-block;
-              font-family: "fontello";
-              content: "\E803";
-              font-size: 12px; }
-        .page-header .container .path-nav .breadcrumb-list > li > .depth-1 {
-          display: none;
-          position: absolute;
-          top: 50px;
-          left: 0;
-          z-index: 10;
-          width: 100%;
-          padding-left: 15px;
-          background-color: red; }
-          .page-header .container .path-nav .breadcrumb-list > li > .depth-1 li {
-            display: block; }
-            .page-header .container .path-nav .breadcrumb-list > li > .depth-1 li a {
-              display: block;
-              font-size: 12px; }
-          .page-header .container .path-nav .breadcrumb-list > li > .depth-1.toggle {
-            display: block; }
-        .page-header .container .path-nav .breadcrumb-list > li > .depth-2 {
-          display: none;
-          position: absolute;
-          top: 50px;
-          left: 0;
-          z-index: 10;
-          width: 100%;
-          padding-left: 15px;
-          background-color: red; }
-          .page-header .container .path-nav .breadcrumb-list > li > .depth-2 li {
-            display: block; }
-            .page-header .container .path-nav .breadcrumb-list > li > .depth-2 li a {
-              display: block;
-              font-size: 12px; }
-          .page-header .container .path-nav .breadcrumb-list > li > .depth-2.toggle {
+        background-color: red; }
+        .page-header .container .path-nav .breadcrumb-list > li > .depth-1 li {
+          display: block; }
+          .page-header .container .path-nav .breadcrumb-list > li > .depth-1 li a {
             display: block;
-            -webkit-transition-property: all;
-            transition-property: all;
-            -webkit-transition-duration: 0.15s;
-            transition-duration: 0.15s;
-            -webkit-transition-timing-function: linear;
-            transition-timing-function: linear;
-            -webkit-transition-delay: 0s;
-            transition-delay: 0s; }
+            font-size: 12px; }
+        .page-header .container .path-nav .breadcrumb-list > li > .depth-1.toggle {
+          display: block; }
+      .page-header .container .path-nav .breadcrumb-list > li > .depth-2 {
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        padding-left: 15px;
+        background-color: red; }
+        .page-header .container .path-nav .breadcrumb-list > li > .depth-2 li {
+          display: block; }
+          .page-header .container .path-nav .breadcrumb-list > li > .depth-2 li a {
+            display: block;
+            font-size: 12px; }
+        .page-header .container .path-nav .breadcrumb-list > li > .depth-2.toggle {
+          display: block;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
 @media (min-width: 768px) {
   .page-header .sub-visual {
     height: 265px; }
@@ -557,18 +563,21 @@ section {
 
 .search-form {
   position: relative; }
-  .search-form .form-group input[type="text"] {
-    width: 100%;
-    background-color: #f3f5fa; }
-  .search-form .form-group .form-control {
-    font-size: 13px;
-    color: #aaa;
-    line-height: 45px;
-    font-weight: 300;
-    border: 0;
-    border-radius: 0;
-    padding: 0;
-    padding-left: 20px; }
+  .search-form .form-group {
+    margin: 0; }
+    .search-form .form-group input[type="text"] {
+      width: 100%;
+      background-color: #f3f5fa; }
+    .search-form .form-group .form-control {
+      font-size: 13px;
+      color: #aaa;
+      line-height: 45px;
+      font-weight: 300;
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+      padding-left: 20px;
+      box-shadow: none; }
   .search-form .btn-search .btn-default {
     position: absolute;
     top: 0;
@@ -618,77 +627,151 @@ section {
           color: #aaa;
           font-weight: 300; }
 
-.board-list {
-  /*@media(min-width: $xl) {
-  	> li {
-  		padding-bottom: 40px;
-  		a {
-  			.board-info {
-  				figure {
-  					min-width: 370px;
-  				}
-  				.details {
-  					vertical-align: middle;
-  					padding-left: 60px;
-  					h4 {
-  						line-height: 27px;
-  					}
-  					p {
-  						margin-top: 10px;
-  					}
-  					> ul {
-  						margin-top: 50px;
-  					}
-  				}
-  			}
-  		}
-  	}
-  }*/ }
+.board-list > li {
+  border-bottom: 1px solid #dfdfdf;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .board-list > li:first-child {
+    padding-top: 0; }
+  .board-list > li a {
+    display: block; }
+    .board-list > li a .board-info figure img {
+      width: 100%; }
+    .board-list > li a .board-info .details {
+      padding-top: 20px; }
+      .board-list > li a .board-info .details h4 {
+        font-size: 14px;
+        color: #333;
+        line-height: 25px;
+        font-weight: 400; }
+      .board-list > li a .board-info .details p {
+        font-size: 13px;
+        color: #666;
+        line-height: 22px;
+        margin-top: 15px; }
+      .board-list > li a .board-info .details > .icon-list {
+        font-size: 0;
+        margin-top: 20px; }
+        .board-list > li a .board-info .details > .icon-list li {
+          display: inline-block;
+          font-size: 12px;
+          color: #aaa;
+          padding-right: 25px; }
+          .board-list > li a .board-info .details > .icon-list li:last-child {
+            padding-right: 0; }
+          .board-list > li a .board-info .details > .icon-list li i {
+            padding-right: 5px; }
+            .board-list > li a .board-info .details > .icon-list li i:before {
+              margin: 0; }
+@media (min-width: 768px) {
   .board-list > li {
-    border-bottom: 1px solid #dfdfdf;
-    padding-top: 30px;
-    padding-bottom: 30px; }
-    .board-list > li a {
-      display: block; }
-      .board-list > li a .board-info figure img {
-        width: 100%; }
-      .board-list > li a .board-info .details {
-        padding-top: 20px; }
-        .board-list > li a .board-info .details h4 {
-          font-size: 14px;
-          color: #333;
-          line-height: 25px;
-          font-weight: 400; }
-        .board-list > li a .board-info .details p {
-          font-size: 13px;
-          color: #666;
-          line-height: 22px;
-          margin-top: 15px; }
-        .board-list > li a .board-info .details > ul {
-          font-size: 0;
-          margin-top: 20px; }
-          .board-list > li a .board-info .details > ul li {
-            display: inline-block;
-            font-size: 12px;
-            color: #aaa;
-            padding-right: 25px; }
-            .board-list > li a .board-info .details > ul li i {
-              padding-right: 5px; }
-  @media (min-width: 768px) {
-    .board-list > li {
-      padding-top: 40px;
-      padding-bottom: 50px; }
-      .board-list > li a .board-info .details {
-        padding-top: 0;
-        padding-left: 20px; }
-        .board-list > li a .board-info .details h4 {
-          font-size: 16px;
-          line-height: 25px; }
-        .board-list > li a .board-info .details p {
-          font-size: 14px;
-          line-height: 26px;
-          margin-top: 10px; }
-        .board-list > li a .board-info .details > ul {
-          margin-top: 30px; } }
+    padding-top: 40px;
+    padding-bottom: 50px; }
+    .board-list > li a .board-info .details {
+      padding-top: 0;
+      padding-left: 20px; }
+      .board-list > li a .board-info .details h4 {
+        font-size: 16px;
+        line-height: 25px; }
+      .board-list > li a .board-info .details p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-top: 10px; }
+      .board-list > li a .board-info .details > .icon-list {
+        margin-top: 30px; } }
+@media (min-width: 1200px) {
+  .board-list > li {
+    padding-bottom: 40px; }
+    .board-list > li a .board-info .details {
+      padding-top: 20px;
+      padding-left: 30px; }
+      .board-list > li a .board-info .details h4 {
+        line-height: 27px; }
+      .board-list > li a .board-info .details p {
+        margin-top: 10px; }
+      .board-list > li a .board-info .details > .icon-list {
+        margin-top: 60px; } }
+
+.board-list-2 > li {
+  overflow: hidden;
+  padding: 20px 10px;
+  border-bottom: 1px solid #dfdfdf; }
+  .board-list-2 > li:first-child {
+    padding-top: 0; }
+  .board-list-2 > li h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400; }
+  .board-list-2 > li .icon-list {
+    float: left;
+    font-size: 0;
+    margin-top: 15px; }
+    .board-list-2 > li .icon-list li {
+      display: inline-block;
+      font-size: 12px;
+      color: #aaa;
+      padding-right: 20px;
+      font-family: 'Roboto', sans-serif; }
+      .board-list-2 > li .icon-list li:last-child {
+        padding-right: 0; }
+      .board-list-2 > li .icon-list li i {
+        padding-right: 10px; }
+        .board-list-2 > li .icon-list li i:before {
+          margin: 0; }
+  .board-list-2 > li > .btn-result {
+    float: right;
+    display: inline-block;
+    margin-top: 10px; }
+    .board-list-2 > li > .btn-result a.btn {
+      box-shadow: none; }
+      .board-list-2 > li > .btn-result a.btn:hover, .board-list-2 > li > .btn-result a.btn:focus {
+        opacity: .7; }
+    .board-list-2 > li > .btn-result a.btn-xs {
+      display: inline-block;
+      width: 70px;
+      font-size: 12px !important;
+      color: #666;
+      line-height: 25px;
+      border: 1px solid #ccc;
+      padding: 0;
+      border-radius: 0; }
+    .board-list-2 > li > .btn-result a.btn-gray {
+      color: #999;
+      border: 1px solid #f3f3f3;
+      background-color: #f3f3f3; }
+@media (min-width: 768px) {
+  .board-list-2 > li {
+    padding: 30px 15px 30px 20px; }
+    .board-list-2 > li h3 {
+      font-size: 16px; }
+    .board-list-2 > li .icon-list {
+      margin-top: 20px; }
+      .board-list-2 > li .icon-list li {
+        padding-right: 30px; }
+    .board-list-2 > li > .btn-result {
+      float: right;
+      display: inline-block;
+      margin-top: 0;
+      vertical-align: top; }
+      .board-list-2 > li > .btn-result a.btn {
+        box-shadow: none; }
+        .board-list-2 > li > .btn-result a.btn:hover, .board-list-2 > li > .btn-result a.btn:focus {
+          opacity: .7; }
+      .board-list-2 > li > .btn-result a.btn-xs {
+        display: inline-block;
+        width: 70px;
+        font-size: 12px !important;
+        color: #666;
+        line-height: 25px;
+        border: 1px solid #ccc;
+        padding: 0;
+        border-radius: 0; }
+      .board-list-2 > li > .btn-result a.btn-gray {
+        color: #999;
+        border: 1px solid #f3f3f3;
+        background-color: #f3f3f3; } }
 
 /*# sourceMappingURL=test.css.map */

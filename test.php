@@ -79,27 +79,29 @@
     <!-- Content -->
     <main id="content" class="">
     	<div class="container">
-    		<!--<div class="page-wrap"></div>-->
+    		
+    		<p class="ex-txt">페이지 인트로</p>
+    		
 			<section>
 				<div class="section-header">
 					<h3 class="section-title">소개</h3>
 					<nav class="lnb-nav">
 						<ul>
 							<li class="active">
-								<a href="#none">비전과가치</a>
+								<a href="#">비전과가치</a>
 							</li>
 							<li>
-								<a href="#none">걸어온길</a>
+								<a href="#">걸어온길</a>
 							</li>
 							<li>
-								<a href="#none">인사말</a>
+								<a href="#">인사말</a>
 							</li>
 						</ul>
 					</nav>
 				</div>
 			</section>
  			
-  			<div style="margin: 50px 0; border:"></div>
+  			<p class="ex-txt">검색</p>
  
 			<!-- search-form -->
 			<div class="search-form">
@@ -116,59 +118,59 @@
 				</form>
 			</div>
    	
-   			<div style="margin: 50px 0; border:"></div>
+   			<p class="ex-txt">페이징</p>
    			
    			<nav class="paging">
    				<ol class="pagination">
    					<li class="first">
-   						<a href="#none">
+   						<a href="#">
    							<i class="icon-angle-double-left"></i>
    						</a>
    					</li>
    					<li class="prev">
-   						<a href="#none">
+   						<a href="#">
    							<i class="icon-left-open-1"></i>
    						</a>
    					</li>
    					<li class="active">
-   						<a href="#none">1</a>
+   						<a href="#">1</a>
    					</li>
    					<li>
-   						<a href="#none">2</a>
+   						<a href="#">2</a>
    					</li>
    					<li>
-   						<a href="#none">3</a>
+   						<a href="#">3</a>
    					</li>
    					<li>
-   						<a href="#none">4</a>
+   						<a href="#">4</a>
    					</li>
    					<li>
-   						<a href="#none">5</a>
+   						<a href="#">5</a>
    					</li>
    					<li class="next">
-   						<a href="#none">
+   						<a href="#">
    							<i class="icon-right-open-1"></i>
    						</a>
    					</li>
    					<li class="last">
-   						<a href="#none">
+   						<a href="#">
    							<i class="icon-angle-double-right"></i>
    						</a>
    					</li>
    				</ol>	
    			</nav>
    			
-   			<div style="margin: 50px 0; border:"></div>
+   			<p class="ex-txt">게시판1</p>
    			
    			<!--  board 게시판 -->
    			<ul class="board-list">
    				<li>
-   					<a href="#none">
+   					<a href="#">
 						<div class="board-info">
 							<div class="row">
 								<div class="col-12 col-md-6 col-xl-5">
 									<figure>
-										<img src="/assets/images/sub/img_board_none.jpg" class="img-fluid" alt="">
+										<img src="/assets/images/sub/img_board01.jpg" class="img-fluid" alt="">
 									</figure>
 								</div>
 								<div class="col-12 col-md-6 col-xl-7">
@@ -177,7 +179,7 @@
 										<p>
 											굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다
 										</p>
-										<ul>
+										<ul class="icon-list">
 											<li>
 												<i class="icon-user"></i> 굿피플
 											</li>
@@ -195,7 +197,7 @@
 					</a>
    				</li>
    				<li>
-   					<a href="#none">
+   					<a href="#">
 						<div class="board-info">
 							<div class="row">
 								<div class="col-12 col-md-6 col-xl-5">
@@ -209,7 +211,7 @@
 										<p>
 											굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다 굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다
 										</p>
-										<ul>
+										<ul class="icon-list">
 											<li>
 												<i class="icon-user"></i> 굿피플
 											</li>
@@ -226,32 +228,73 @@
 						</div>
 					</a>
    				</li>
-   				<!--<li>
-   					<a href="#none">
-						<div class="board-info">
-							<figure>
-								<img src="/assets/images/sub/img_board_none.jpg" alt="">
-							</figure>
-							<div class="details">
-								<h4>한국코와주식회사, 굿피플과 함께 취약계층 건강증진에 나서  한국코와주식회사, 굿피플과 함께 취약계층 건강증진에 나서</h4>
-								<p>
-									굿피플에 전해진 종합비타민 '큐피코와골드α정' 25,000개가 소외계층을 위해 사용되었습니다.굿피플에 전해진 종합비타민 '큐피코와골드α정' 25,000개가 소외계층을 위해 사용되었습니다.
-								</p>
-								<ul>
-									<li>
-										<i class="icon-user"></i> 굿피플
-									</li>
-									<li>
-										<i class="icon-calendar-empty"></i> 2018-05-01
-									</li>
-									<li>
-										<i class="icon-eye"></i> 1,234
-									</li>
-								</ul>
-							</div>
-						</div>
-					</a>
-   				</li>-->
+   			</ul>
+   			
+   			<p class="ex-txt">게시판2</p>
+   			
+   			<ul class="board-list-2">
+   				<li>
+					<h3>
+						<a href="#">
+							사랑의의료봉사, 고려대학교 교우회 감사패 수상
+						</a>
+					</h3>
+					<ul class="icon-list">
+						<li>
+							<i class="icon-calendar-empty"></i>2018-05-01
+						</li>
+						<li>
+							<i class="icon-eye"></i> 1,234
+						</li>
+					</ul>
+   				</li>
+   				<li>
+					<h3>
+						<a href="#">
+							사랑의의료봉사, 고려대학교 교우회 감사패 수상
+							사랑의의료봉사, 고려대학교 교우회 감사패 수상
+							사랑의의료봉사, 고려대학교 교우회 감사패 수상
+						</a>
+					</h3>
+					<ul class="icon-list">
+						<li>
+							<i class="icon-calendar-empty"></i>2018-05-01
+						</li>
+						<li>
+							<i class="icon-eye"></i> 1,234
+						</li>
+					</ul>
+   				</li>
+   				<li>
+					<h3>
+						<a href="#">
+							사랑의의료봉사, 고려대학교 교우회 감사패 수상
+						</a>
+					</h3>
+					<ul class="icon-list">
+						<li>
+							<i class="icon-calendar-empty"></i>2018-05-01
+						</li>
+					</ul>
+  					<div class="btn-result">
+  						<a href="#" class="btn btn-xs" role="button">답변보기</a>
+  					</div>
+   				</li>
+   				<li>
+					<h3>
+						<a href="#">
+							사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상
+						</a>
+					</h3>
+					<ul class="icon-list">
+						<li>
+							<i class="icon-calendar-empty"></i>2018-05-01
+						</li>
+					</ul>
+  					<div class="btn-result">
+  						<a href="#" class="btn btn-xs btn-gray" role="button">답변완료</a>
+  					</div>
+   				</li>
    			</ul>
     	</div>
     </main>
