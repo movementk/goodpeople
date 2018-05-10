@@ -2,6 +2,7 @@ $(function(){
     // jumbotrons visual Slider
     $(window).ready(function (){
         $('.jumbotrons').slick({
+            autoplay: true,
             dots: true,
             infinite: true,
             autoplaySpeed: 5000,
