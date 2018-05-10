@@ -19,7 +19,7 @@
 					<div class="col-12 col-xl-8">
 						<ul class="breadcrumb-list">
 							<li>
-								<a href="\">
+								<a href="#">
 									<i class="icon-home"></i>
 								</a>
 							</li>
@@ -118,15 +118,15 @@
    	
    			<div style="margin: 50px 0; border:"></div>
    			
-   			<nav class="paging" aria-lable="Page navigation">
+   			<nav class="paging">
    				<ol class="pagination">
    					<li class="first">
-   						<a href="#none" aria-label="Previous">
+   						<a href="#none">
    							<i class="icon-angle-double-left"></i>
    						</a>
    					</li>
    					<li class="prev">
-   						<a href="#none" aria-label="Previous">
+   						<a href="#none">
    							<i class="icon-left-open-1"></i>
    						</a>
    					</li>
@@ -146,17 +146,113 @@
    						<a href="#none">5</a>
    					</li>
    					<li class="next">
-   						<a href="#none" aria-label="Next">
+   						<a href="#none">
    							<i class="icon-right-open-1"></i>
    						</a>
    					</li>
    					<li class="last">
-   						<a href="#none" aria-label="Next">
+   						<a href="#none">
    							<i class="icon-angle-double-right"></i>
    						</a>
    					</li>
    				</ol>	
    			</nav>
+   			
+   			<div style="margin: 50px 0; border:"></div>
+   			
+   			<!--  board 게시판 -->
+   			<ul class="board-list">
+   				<li>
+   					<a href="#none">
+						<div class="board-info">
+							<div class="row">
+								<div class="col-12 col-md-6 col-xl-5">
+									<figure>
+										<img src="/assets/images/sub/img_board_none.jpg" class="img-fluid" alt="">
+									</figure>
+								</div>
+								<div class="col-12 col-md-6 col-xl-7">
+									<div class="details">
+										<h4>사랑의의료봉사, 고려대학교 교우회 감사패 수상</h4>
+										<p>
+											굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다
+										</p>
+										<ul>
+											<li>
+												<i class="icon-user"></i> 굿피플
+											</li>
+											<li>
+												<i class="icon-calendar-empty"></i> 2018-05-01
+											</li>
+											<li>
+												<i class="icon-eye"></i> 1,234
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+   				</li>
+   				<li>
+   					<a href="#none">
+						<div class="board-info">
+							<div class="row">
+								<div class="col-12 col-md-6 col-xl-5">
+									<figure>
+										<img src="/assets/images/sub/img_board_none.jpg" class="img-fluid" alt="">
+									</figure>
+								</div>
+								<div class="col-12 col-md-6 col-xl-7">
+									<div class="details">
+										<h4>사랑의의료봉사, 고려대학교 교우회 감사패 수상 사랑의의료봉사, 고려대학교 교우회 감사패 수상</h4>
+										<p>
+											굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다 굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다
+										</p>
+										<ul>
+											<li>
+												<i class="icon-user"></i> 굿피플
+											</li>
+											<li>
+												<i class="icon-calendar-empty"></i> 2018-05-01
+											</li>
+											<li>
+												<i class="icon-eye"></i> 1,234
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+   				</li>
+   				<!--<li>
+   					<a href="#none">
+						<div class="board-info">
+							<figure>
+								<img src="/assets/images/sub/img_board_none.jpg" alt="">
+							</figure>
+							<div class="details">
+								<h4>한국코와주식회사, 굿피플과 함께 취약계층 건강증진에 나서  한국코와주식회사, 굿피플과 함께 취약계층 건강증진에 나서</h4>
+								<p>
+									굿피플에 전해진 종합비타민 '큐피코와골드α정' 25,000개가 소외계층을 위해 사용되었습니다.굿피플에 전해진 종합비타민 '큐피코와골드α정' 25,000개가 소외계층을 위해 사용되었습니다.
+								</p>
+								<ul>
+									<li>
+										<i class="icon-user"></i> 굿피플
+									</li>
+									<li>
+										<i class="icon-calendar-empty"></i> 2018-05-01
+									</li>
+									<li>
+										<i class="icon-eye"></i> 1,234
+									</li>
+								</ul>
+							</div>
+						</div>
+					</a>
+   				</li>-->
+   			</ul>
     	</div>
     </main>
     
