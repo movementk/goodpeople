@@ -277,7 +277,6 @@
             </div>
         </article>
         
-        
         <!-- global-business -->
         <article class="global-business">
             <div class="business internal">
@@ -306,6 +305,49 @@
             </div>
         </article>
         
+        <!-- sponsorship -->
+        <section class="sponsorship-info">
+            <div class="container-fluid">
+                <div class="info-list">
+                    <ul class="row">
+                        <li class="col-12 col-xl-7">
+                            <article class="ars">
+                                <h3>ARS 후원</h3>
+                                <p>여러분의 후원으로 우리가 사는 세상이 변합니다.</p>
+                                <strong class="or">060-700-1544</strong>
+                                <span class="note">(건당 10,000원)</span>
+                            </article>
+                            <article class="inquiry">
+                                <h3>후원문의</h3>
+                                <strong class="bl">1577-3034</strong>
+                                <p class="d-none d-xl-block title-txt">후원계좌</p>
+                                <dl>
+                                    <dt>
+                                        <img src="/assets/images/main/logo_wooribank.png" alt="">
+                                    </dt>
+                                    <dd>1005-381-201801 (사)굿피플인터내셔널</dd>
+                                </dl>
+                            </article>
+                        </li>
+                        <li class="col-12 col-xl-5">
+                            <article class="give">
+                                <h3>후원하기</h3>
+                                <div class="btn-area more">
+                                    <a href="#" class="btn btn-lg btn-orange" role="button">해외 아동후원 바로가기</a>
+                                    <a href="#" class="btn btn-lg btn-blue" role="button">국내 아동후원 바로가기</a>
+                                </div>
+                                <div class="btn-area global-spon">
+                                    <a href="#" class="btn btn-sm" role="button">정기 후원하기</a>
+                                    <a href="#" class="btn btn-sm" role="button">일시 후원하기</a>
+                                    <a href="#" class="btn btn-sm" role="button">특별 후원하기</a>
+                                    <a href="#" class="btn btn-sm" role="button">기업 후원하기</a>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>
@@ -326,15 +368,15 @@
                 });
             });
             $('.jumbotrons').on('afterChange', function(event, slick, currentSlide, nextSlide){
-                $(".slick-slide").removeClass("action");
+                $(".slick-slide.visual-list").removeClass("action");
                 setTimeout(function(){ 
-                    $(".slick-active").addClass("action"); 
+                    $(".slick-active.visual-list").addClass("action"); 
                     /*console.log('init'); */
                 }, 500);
             });
             $(".jumbotrons").on("init", function(event,slick){
                 setTimeout(function(){ 
-                    $(".slick-active").addClass("action"); 
+                    $(".slick-active.visual-list").addClass("action"); 
                     /*console.log('init'); */
                 }, 500);
             });
