@@ -1149,16 +1149,16 @@ body {
       padding-right: 35px;
       background: none !important;
       box-shadow: none !important; }
-      #site-map .btn-area .btn p {
+      #site-map .btn-area .btn span {
         display: block;
         font-size: 17px;
         color: #555;
         line-height: 68px;
         opacity: 1;
         box-shadow: none !important; }
-        #site-map .btn-area .btn p.open-txt {
+        #site-map .btn-area .btn span.open-txt {
           display: block; }
-        #site-map .btn-area .btn p.close-txt {
+        #site-map .btn-area .btn span.close-txt {
           display: none; }
       #site-map .btn-area .btn:after {
         position: absolute;
@@ -1172,9 +1172,9 @@ body {
       #site-map .btn-area .btn.close-map:after {
         content: "\E807";
         font-family: "fontello"; }
-      #site-map .btn-area .btn.close-map p.open-txt {
+      #site-map .btn-area .btn.close-map span.open-txt {
         display: none; }
-      #site-map .btn-area .btn.close-map p.close-txt {
+      #site-map .btn-area .btn.close-map span.close-txt {
         display: block; }
   #site-map .page-list {
     width: 100%;

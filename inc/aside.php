@@ -1,7 +1,7 @@
 <!-- 모바일 태블릿 버튼 -->
 <div class="nav-btn-area">
     <button type="button" class="btn btn-nav">
-        <p class="sr-only">메뉴열기</p>
+        <i class="sr-only">메뉴열기</i>
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
@@ -15,10 +15,10 @@
         <div class="nav-header">
             <div class="top-nav">
                 <div class="dropdown language">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         KOR
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton-3">
                     <a class="dropdown-item" href="#">ENG</a>
                     </div>
                 </div>

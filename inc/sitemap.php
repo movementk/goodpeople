@@ -2,8 +2,8 @@
 <nav id="site-map" class="d-none d-xl-block active">
     <div class="btn-area">
         <button type="button" class="btn btn-map close-map">
-            <p class="close-txt">사이트맵 접기</p>
-            <p class="open-txt">사이트맵 열기</p>
+            <span class="close-txt">사이트맵 접기</span>
+            <span class="open-txt">사이트맵 열기</span>
         </button>
     </div>
     <div class="page-list">
