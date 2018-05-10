@@ -721,7 +721,7 @@
                             width: 120px;
                             height: 35px;
                             line-height: 33px;
-                            font-size: 13px;
+                            font-size: 12px;
                             color: #111;
                             padding: 0;
                             border-radius: 0;
@@ -880,8 +880,8 @@
             button {
                 display: block;
                 cursor: pointer;
-                width: 12px;
-                height: 12px;
+                width: 15px;
+                height: 15px;
                 text-indent: -99999px;
                 border: 0;
                 margin: 0 5px;
@@ -940,19 +940,20 @@
                 .item-img {
                     > p {
                         left: 30px;
-                        width: 150px;
-                        height: 50px;
-                        line-height: 50px;
-                        font-size: 18px;
+                        width: 110px;
+                        height: 40px;
+                        line-height: 40px;
+                        font-size: 14px;
                     }
                 }
                 .details {
                     text-align: left;
-                    padding: 40px 6%;
+                    padding: 30px 6%;
                     margin: 0;
                     border: 1px solid #ccc;
                     small {
                         font-size: 16px;
+                        margin-bottom: 15px;
                     }
                     h4 {
                         font-size: 22px;
@@ -1102,6 +1103,11 @@
                         strong {
                             font-size: 45px;
                             margin: 0;
+                        }
+                        &.ars {
+                            strong {
+                                letter-spacing: -2px;
+                            }
                         }
                         &.give {
                             margin-top: 60px;
@@ -1260,9 +1266,6 @@
                             }
                             &.ars {
                                 width: 48%;
-                                strong {
-                                    letter-spacing: -2px;
-                                }                                
                             }
                             &.inquiry {
                                 width: 52%;
@@ -1294,6 +1297,7 @@
         }
     }
     @media(min-width: $md) {
+        padding-bottom: 60px;
         ul {
             li {
                 &:nth-of-type(2) ~ li {
@@ -1307,8 +1311,6 @@
                 .sns {
                     position: relative;
                     display: block;
-                    display: table;
-                    height: 100%;
                     width: 100%;
                     @include nns();
                     .icon-img {
@@ -1319,47 +1321,100 @@
                             width: 60px;
                         }
                     }
-                    .link-box {
-                        display: table-cell;
-                        width: 100%;
-                        height: 100%;
-                        vertical-align: middle;
+                    .play-icon {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        margin-top: -45px;
+                        margin-left: -42px;
+                        .icon-play {
+                            color: #fff;
+                            font-size: 60px;
+                        }
                     }
-                    .content {
+                    .details {
                         position: absolute;
                         top: 0;
                         left: 0;
-                        display: table;
                         width: 100%;
                         height: 100%;
-                        .details {
-                            padding: 80px 15% 0;
-                            p {
-                                font-size: 14px;
-                                line-height: 28px;
-                                color: #fff;
-                                word-break: keep-all;
-                            }
-                            .more-btn {
-                                position: absolute;
-                                bottom: 15%;
-                                left: 0;
-                                width: 100%;
-                                padding: 0 15%;
-                                .btn-white {
-                                    display: inline-block;
-                                    width: 100%;
-                                    height: 40px;
-                                    font-size: 13px;
-                                    color: #fff;
-                                    font-weight: 300;
-                                    line-height: 38px;
-                                    text-align: center;
-                                    padding: 0;
-                                    border: 1px solid #fff;
-                                    border-radius: 0;
-                                    @include noto();
+                        padding: 80px 15% 0;
+                        > div {
+                            width: 100%;
+                            &.content-body {
+                                height: 60%;
+                                .mCSB_container {
+                                    margin-right: 15px !important;
                                 }
+                                .mCSB_draggerContainer {
+                                    left: 10px !important;
+                                }
+                                p {
+                                    font-size: 14px;
+                                    line-height: 28px;
+                                    color: #fff;
+                                    word-break: keep-all;
+                                }
+                            }
+                            &.content-foot {
+                                height: 40%;
+                                .more-btn {
+                                    margin-top: 30px;
+                                    .btn-white {
+                                        display: inline-block;
+                                        width: 100%;
+                                        height: 40px;
+                                        font-size: 13px;
+                                        color: #fff;
+                                        font-weight: 300;
+                                        line-height: 38px;
+                                        text-align: center;
+                                        padding: 0;
+                                        border: 1px solid #fff;
+                                        border-radius: 0;
+                                        @include noto();
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $lg) {
+        ul {
+            li {
+                .sns {
+                    .icon-img {
+                        img {
+                            width: 65px;
+                        }
+                    }
+                    .details {
+                        padding: 0 15% 0;
+                        > div {
+                            &.content-title {
+                                position: relative;
+                                height: 30%;
+                                h4 {
+                                    position: absolute;
+                                    top: 60%;
+                                    left: 0;
+                                    font-size: 23px;
+                                    color: #fff;
+                                    font-weight: bold;
+                                    @include roboto();
+                                }
+                            }
+                            &.content-body {
+                                height: 45%;
+                                p {
+                                    font-size: 15px;
+                                }
+                            }
+                            &.content-foot {
+                                height: 35%;
                             }
                         }
                     }
@@ -1371,34 +1426,145 @@
         ul {
             li {
                 .sns {
-                    margin: 0 !important;
+                    margin-top: 0 !important;
                     .icon-img {
                         img {
-                            width: 65px;
+                            width: 55px;
                         }
                     }
                     .details {
-                        padding: 0 15% !important;
-                        .box {
-                            display: block;
-                            width: 100%;
-                            
-                            &.box1 {
-                                height: 20%;
-                                background-color: orange;
+                        padding-top: 70px;
+                        > div {
+                            &.content-title {
+                                display: none !important;
                             }
-                            &.box2 {
-                                height: 55%;
-                                background-color: red;
+                            &.content-body {
+                                height: 60%;
+                                p {
+                                    font-size: 13px;
+                                    line-height: 24px;
+                                }
                             }
-                            &.box3 {
-                                height: 25%;
-                                background-color: pink;
+                            &.content-foot {
+                                height: 40%;
+                                .more-btn {
+                                    margin-top: 15px;
+                                    .btn-white {
+                                        height: 35px;
+                                        line-height: 32px;
+                                        @include transition();
+                                        &.btn-blue {
+                                            &:hover, &:focus {
+                                                font-weight: 400;
+                                                color: #38559f;
+                                                background-color: #fff;
+                                            }
+                                        }
+                                        &.btn-green {
+                                            &:hover, &:focus {
+                                                font-weight: 400;
+                                                color: #2db400;
+                                                background-color: #fff;
+                                            }
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
-                    .link-box {
-
+                    &.youtube {
+                        a {
+                            .play-icon {
+                                margin-top: -32px;
+                                margin-left: -34px;
+                                .icon-play {
+                                    font-size: 46px;
+                                    @include transition();
+                                }
+                            }
+                            &:hover, &:focus {
+                                .play-icon {
+                                    .icon-play {
+                                        color: #ff0000;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.instagram {
+                        a {
+                            &:after {
+                                @include transition();
+                                display: block;
+                                content: " ";
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                opacity: 0;
+                                background-size: 80px auto;
+                                background-image: url(/assets/images/main/icon_instagram_hover.png);
+                                background-repeat: no-repeat;
+                                background-position: 50% 50%;
+                            }
+                            &:hover {
+                                &:after {
+                                    width: 100%;
+                                    height: 100%;
+                                    opacity: 1;
+                                    background-color: rgba(0, 0, 0, .4);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: 1400px) {
+        ul {
+            li {
+                .sns {
+                    .details {
+                        padding-top: 0;
+                        > div {
+                            &.content-title {
+                                height: 35%;
+                                display: block !important;
+                                h4 {
+                                    top: 60%;
+                                    font-size: 22px;
+                                }
+                            }
+                            &.content-body {
+                                height: 35%;
+                                p {
+                                    font-size: 14px;
+                                    line-height: 26px;
+                                }
+                            }
+                            &.content-foot {
+                                height: 30%;
+                                .more-btn {
+                                    margin-top: 25px;
+                                    .btn-white {
+                                        display: inline-block;
+                                        width: 100%;
+                                        height: 40px;
+                                        font-size: 13px;
+                                        color: #fff;
+                                        font-weight: 300;
+                                        line-height: 38px;
+                                        text-align: center;
+                                        padding: 0;
+                                        border: 1px solid #fff;
+                                        border-radius: 0;
+                                        @include noto();
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }

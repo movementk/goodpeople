@@ -925,7 +925,7 @@ a {
               width: 120px;
               height: 35px;
               line-height: 33px;
-              font-size: 13px;
+              font-size: 12px;
               color: #111;
               padding: 0;
               border-radius: 0;
@@ -1042,8 +1042,8 @@ a {
       .global-business .slick-dots li button {
         display: block;
         cursor: pointer;
-        width: 12px;
-        height: 12px;
+        width: 15px;
+        height: 15px;
         text-indent: -99999px;
         border: 0;
         margin: 0 5px;
@@ -1081,17 +1081,18 @@ a {
       background-color: #fff; }
       .global-business .business > a .item-img > p {
         left: 30px;
-        width: 150px;
-        height: 50px;
-        line-height: 50px;
-        font-size: 18px; }
+        width: 110px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px; }
       .global-business .business > a .details {
         text-align: left;
-        padding: 40px 6%;
+        padding: 30px 6%;
         margin: 0;
         border: 1px solid #ccc; }
         .global-business .business > a .details small {
-          font-size: 16px; }
+          font-size: 16px;
+          margin-bottom: 15px; }
         .global-business .business > a .details h4 {
           font-size: 22px; }
       .global-business .business.internal > a .details {
@@ -1193,6 +1194,8 @@ a {
         .sponsorship-info .info-list > ul > li article strong {
           font-size: 45px;
           margin: 0; }
+        .sponsorship-info .info-list > ul > li article.ars strong {
+          letter-spacing: -2px; }
         .sponsorship-info .info-list > ul > li article.give {
           margin-top: 60px;
           overflow: hidden; }
@@ -1292,8 +1295,6 @@ a {
         font-size: 53px; }
       .sponsorship-info .info-list > ul > li:first-child article.ars {
         width: 48%; }
-        .sponsorship-info .info-list > ul > li:first-child article.ars strong {
-          letter-spacing: -2px; }
       .sponsorship-info .info-list > ul > li:first-child article.inquiry {
         width: 52%; }
         .sponsorship-info .info-list > ul > li:first-child article.inquiry dl dd {
@@ -1306,79 +1307,199 @@ a {
     .sns-issue ul li .mobile-link .icon-btn {
       display: inline-block; }
   @media (min-width: 768px) {
-    .sns-issue ul li:nth-of-type(2) ~ li .sns {
-      margin-top: 20px; }
-    .sns-issue ul li .img-fluid {
-      width: 100%; }
-    .sns-issue ul li .sns {
-      position: relative;
-      display: block;
-      display: table;
-      height: 100%;
-      width: 100%;
-      font-family: 'NanumSquare', sans-serif; }
-      .sns-issue ul li .sns .icon-img {
-        position: absolute;
-        top: 0;
-        left: 0; }
-        .sns-issue ul li .sns .icon-img img {
-          width: 60px; }
-      .sns-issue ul li .sns .link-box {
-        display: table-cell;
+    .sns-issue {
+      padding-bottom: 60px; }
+      .sns-issue ul li:nth-of-type(2) ~ li .sns {
+        margin-top: 20px; }
+      .sns-issue ul li .img-fluid {
+        width: 100%; }
+      .sns-issue ul li .sns {
+        position: relative;
+        display: block;
         width: 100%;
-        height: 100%;
-        vertical-align: middle; }
-      .sns-issue ul li .sns .content {
+        font-family: 'NanumSquare', sans-serif; }
+        .sns-issue ul li .sns .icon-img {
+          position: absolute;
+          top: 0;
+          left: 0; }
+          .sns-issue ul li .sns .icon-img img {
+            width: 60px; }
+        .sns-issue ul li .sns .play-icon {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin-top: -45px;
+          margin-left: -42px; }
+          .sns-issue ul li .sns .play-icon .icon-play {
+            color: #fff;
+            font-size: 60px; }
+        .sns-issue ul li .sns .details {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          padding: 80px 15% 0; }
+          .sns-issue ul li .sns .details > div {
+            width: 100%; }
+            .sns-issue ul li .sns .details > div.content-body {
+              height: 60%; }
+              .sns-issue ul li .sns .details > div.content-body .mCSB_container {
+                margin-right: 15px !important; }
+              .sns-issue ul li .sns .details > div.content-body .mCSB_draggerContainer {
+                left: 10px !important; }
+              .sns-issue ul li .sns .details > div.content-body p {
+                font-size: 14px;
+                line-height: 28px;
+                color: #fff;
+                word-break: keep-all; }
+            .sns-issue ul li .sns .details > div.content-foot {
+              height: 40%; }
+              .sns-issue ul li .sns .details > div.content-foot .more-btn {
+                margin-top: 30px; }
+                .sns-issue ul li .sns .details > div.content-foot .more-btn .btn-white {
+                  display: inline-block;
+                  width: 100%;
+                  height: 40px;
+                  font-size: 13px;
+                  color: #fff;
+                  font-weight: 300;
+                  line-height: 38px;
+                  text-align: center;
+                  padding: 0;
+                  border: 1px solid #fff;
+                  border-radius: 0;
+                  font-family: 'Noto Sans KR', sans-serif; } }
+  @media (min-width: 992px) {
+    .sns-issue ul li .sns .icon-img img {
+      width: 65px; }
+    .sns-issue ul li .sns .details {
+      padding: 0 15% 0; }
+      .sns-issue ul li .sns .details > div.content-title {
+        position: relative;
+        height: 30%; }
+        .sns-issue ul li .sns .details > div.content-title h4 {
+          position: absolute;
+          top: 60%;
+          left: 0;
+          font-size: 23px;
+          color: #fff;
+          font-weight: bold;
+          font-family: 'Roboto', sans-serif; }
+      .sns-issue ul li .sns .details > div.content-body {
+        height: 45%; }
+        .sns-issue ul li .sns .details > div.content-body p {
+          font-size: 15px; }
+      .sns-issue ul li .sns .details > div.content-foot {
+        height: 35%; } }
+  @media (min-width: 1200px) {
+    .sns-issue ul li .sns {
+      margin-top: 0 !important; }
+      .sns-issue ul li .sns .icon-img img {
+        width: 55px; }
+      .sns-issue ul li .sns .details {
+        padding-top: 70px; }
+        .sns-issue ul li .sns .details > div.content-title {
+          display: none !important; }
+        .sns-issue ul li .sns .details > div.content-body {
+          height: 60%; }
+          .sns-issue ul li .sns .details > div.content-body p {
+            font-size: 13px;
+            line-height: 24px; }
+        .sns-issue ul li .sns .details > div.content-foot {
+          height: 40%; }
+          .sns-issue ul li .sns .details > div.content-foot .more-btn {
+            margin-top: 15px; }
+            .sns-issue ul li .sns .details > div.content-foot .more-btn .btn-white {
+              height: 35px;
+              line-height: 32px;
+              -webkit-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.15s;
+              transition-duration: 0.15s;
+              -webkit-transition-timing-function: linear;
+              transition-timing-function: linear;
+              -webkit-transition-delay: 0s;
+              transition-delay: 0s; }
+              .sns-issue ul li .sns .details > div.content-foot .more-btn .btn-white.btn-blue:hover, .sns-issue ul li .sns .details > div.content-foot .more-btn .btn-white.btn-blue:focus {
+                font-weight: 400;
+                color: #38559f;
+                background-color: #fff; }
+              .sns-issue ul li .sns .details > div.content-foot .more-btn .btn-white.btn-green:hover, .sns-issue ul li .sns .details > div.content-foot .more-btn .btn-white.btn-green:focus {
+                font-weight: 400;
+                color: #2db400;
+                background-color: #fff; }
+      .sns-issue ul li .sns.youtube a .play-icon {
+        margin-top: -32px;
+        margin-left: -34px; }
+        .sns-issue ul li .sns.youtube a .play-icon .icon-play {
+          font-size: 46px;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+      .sns-issue ul li .sns.youtube a:hover .play-icon .icon-play, .sns-issue ul li .sns.youtube a:focus .play-icon .icon-play {
+        color: #ff0000; }
+      .sns-issue ul li .sns.instagram a:after {
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s;
+        display: block;
+        content: " ";
         position: absolute;
         top: 0;
         left: 0;
-        display: table;
         width: 100%;
-        height: 100%; }
-        .sns-issue ul li .sns .content .details {
-          padding: 80px 15% 0; }
-          .sns-issue ul li .sns .content .details p {
-            font-size: 14px;
-            line-height: 28px;
-            color: #fff;
-            word-break: keep-all; }
-          .sns-issue ul li .sns .content .details .more-btn {
-            position: absolute;
-            bottom: 15%;
-            left: 0;
+        height: 100%;
+        opacity: 0;
+        background-size: 80px auto;
+        background-image: url(/assets/images/main/icon_instagram_hover.png);
+        background-repeat: no-repeat;
+        background-position: 50% 50%; }
+      .sns-issue ul li .sns.instagram a:hover:after {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.4); } }
+  @media (min-width: 1400px) {
+    .sns-issue ul li .sns .details {
+      padding-top: 0; }
+      .sns-issue ul li .sns .details > div.content-title {
+        height: 35%;
+        display: block !important; }
+        .sns-issue ul li .sns .details > div.content-title h4 {
+          top: 60%;
+          font-size: 22px; }
+      .sns-issue ul li .sns .details > div.content-body {
+        height: 35%; }
+        .sns-issue ul li .sns .details > div.content-body p {
+          font-size: 14px;
+          line-height: 26px; }
+      .sns-issue ul li .sns .details > div.content-foot {
+        height: 30%; }
+        .sns-issue ul li .sns .details > div.content-foot .more-btn {
+          margin-top: 25px; }
+          .sns-issue ul li .sns .details > div.content-foot .more-btn .btn-white {
+            display: inline-block;
             width: 100%;
-            padding: 0 15%; }
-            .sns-issue ul li .sns .content .details .more-btn .btn-white {
-              display: inline-block;
-              width: 100%;
-              height: 40px;
-              font-size: 13px;
-              color: #fff;
-              font-weight: 300;
-              line-height: 38px;
-              text-align: center;
-              padding: 0;
-              border: 1px solid #fff;
-              border-radius: 0;
-              font-family: 'Noto Sans KR', sans-serif; } }
-  @media (min-width: 1200px) {
-    .sns-issue ul li .sns {
-      margin: 0 !important; }
-      .sns-issue ul li .sns .icon-img img {
-        width: 65px; }
-      .sns-issue ul li .sns .details {
-        padding: 0 15% !important; }
-        .sns-issue ul li .sns .details .box {
-          display: block;
-          width: 100%; }
-          .sns-issue ul li .sns .details .box.box1 {
-            height: 20%;
-            background-color: orange; }
-          .sns-issue ul li .sns .details .box.box2 {
-            height: 55%;
-            background-color: red; }
-          .sns-issue ul li .sns .details .box.box3 {
-            height: 25%;
-            background-color: pink; } }
+            height: 40px;
+            font-size: 13px;
+            color: #fff;
+            font-weight: 300;
+            line-height: 38px;
+            text-align: center;
+            padding: 0;
+            border: 1px solid #fff;
+            border-radius: 0;
+            font-family: 'Noto Sans KR', sans-serif; } }
 
 /*# sourceMappingURL=main.css.map */

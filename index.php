@@ -366,30 +366,30 @@
                             <i class="icon-img">
                                 <img src="/assets/images/main/icon_facebook_lg.jpg" alt="facebook icon">
                             </i>
-                            <div class="content">
-                                <div class="content-title">
-                                    
+                            <div class="details">
+                                <div class="d-none d-lg-block content-title">
+                                    <h4>GPinternational</h4>
                                 </div>
-                                <div class="content-body">
-                                    
+                                <div class="content-body scoll-event">
+                                    <p>
+                                        굿피플은 국내 아동결연사업을 통해 성주와 
+                                        같이 가족해체로 고통받는 아이들을 돕고 
+                                        있습니다.
+                                        굿피플과 함께 아이들의 손을 따뜻하게 
+                                        잡아주세요.
+                                        <br>후원 문의 ▶ 02-783-2291~3
+                                        굿피플은 국내 아동결연사업을 통해 성주와 
+                                        같이 가족해체로 고통받는 아이들을 돕고 
+                                        있습니다.
+                                        굿피플과 함께 아이들의 손을 따뜻하게 
+                                        잡아주세요.
+                                    </p>
                                 </div>
-                                <div class="btn-more">
-                                    
+                                <div class="content-foot">
+                                    <div class="more-btn">
+                                        <a href="#" class="btn btn-white btn-blue" role="button">더 보기</a>
+                                    </div>
                                 </div>
-                                
-                                
-                                
-                                
-                                <div class="details">
-                                    <div class="box box1"></div>
-                                    <div class="box box2"></div>
-                                    <div class="box box3"></div>
-                                </div>
-                                
-                                
-                                
-                                
-                                
                             </div>
                         </div>
                     </li>
@@ -425,8 +425,11 @@
                             <i class="icon-img">
                                 <img src="/assets/images/main/icon_blog_lg.jpg" alt="naver blocg icon">
                             </i>
-                            <div class="content">
-                                <div class="details">
+                            <div class="details">
+                                <div class="d-none d-lg-block content-title">
+                                    <h4>GPinternational</h4>
+                                </div>
+                                <div class="content-body scoll-event">
                                     <p>
                                         굿피플은 국내 아동결연사업을 통해 성주와 
                                         같이 가족해체로 고통받는 아이들을 돕고 
@@ -434,9 +437,16 @@
                                         굿피플과 함께 아이들의 손을 따뜻하게 
                                         잡아주세요.
                                         <br>후원 문의 ▶ 02-783-2291~3
+                                        굿피플은 국내 아동결연사업을 통해 성주와 
+                                        같이 가족해체로 고통받는 아이들을 돕고 
+                                        있습니다.
+                                        굿피플과 함께 아이들의 손을 따뜻하게 
+                                        잡아주세요.
                                     </p>
+                                </div>
+                                <div class="content-foot">
                                     <div class="more-btn">
-                                        <a href="#" class="btn btn-white" role="button">더 보기</a>
+                                        <a href="#" class="btn btn-white btn-green" role="button">더 보기</a>
                                     </div>
                                 </div>
                             </div>
@@ -457,6 +467,11 @@
                                     <figure>
                                         <img src="/assets/images/main/img_youtube.jpg" class="img-fluid" alt="youtube img">
                                     </figure>
+                                    <div class="play-icon">
+                                        <i class="icon-play">
+                                            <span class="sr-only">동영상 페이지 이동</span>
+                                        </i>
+                                    </div>
                                 </a>
                             </div>
                         </div>
@@ -498,87 +513,91 @@
             });
             
             // support-business
-            $('.support-business').slick({
-                autoplay: false,
-                dots: false,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 4,
-                slidesToScroll: 4,
-                responsive: [
-                {
-                    breakpoint: 1200,
-                    settings: {
-                        autoplay: false,
-                        slidesToShow: 2.5,
-                        slidesToScroll: 1,
-                        dots: false,
-                        infinite: false,
+            $(window).ready(function (){
+                $('.support-business').slick({
+                    autoplay: false,
+                    dots: false,
+                    infinite: false,
+                    speed: 300,
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            autoplay: false,
+                            slidesToShow: 2.5,
+                            slidesToScroll: 1,
+                            dots: false,
+                            infinite: false,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                            autoplay: false,
+                            dots: false,
+                            infinite: false,
+                        }
+                    },
+                    {
+                        breakpoint: 320,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                            autoplay: false,
+                            dots: false,
+                            infinite: false,
+                        }
                     }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
-                        autoplay: false,
-                        dots: false,
-                        infinite: false,
-                    }
-                },
-                {
-                    breakpoint: 320,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
-                        autoplay: false,
-                        dots: false,
-                        infinite: false,
-                    }
-                }
-                ]
+                    ]
+                });
             });
             
             // support-business
-            $('.goodpeople-news').slick({
-                autoplay: false,
-                dots: false,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                responsive: [
-                {
-                    breakpoint: 1200,
-                    settings: {
-                        autoplay: false,
-                        slidesToShow: 1.5,
-                        slidesToScroll: 1,
-                        dots: false,
-                        infinite: false,
+            $(window).ready(function (){
+                $('.goodpeople-news').slick({
+                    autoplay: false,
+                    dots: false,
+                    infinite: false,
+                    speed: 300,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            autoplay: false,
+                            slidesToShow: 1.5,
+                            slidesToScroll: 1,
+                            dots: false,
+                            infinite: false,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            autoplay: false,
+                            dots: false,
+                            infinite: false,
+                        }
+                    },
+                    {
+                        breakpoint: 320,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            autoplay: false,
+                            dots: false,
+                            infinite: false,
+                        }
                     }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        autoplay: false,
-                        dots: false,
-                        infinite: false,
-                    }
-                },
-                {
-                    breakpoint: 320,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        autoplay: false,
-                        dots: false,
-                        infinite: false,
-                    }
-                }
-                ]
+                    ]
+                });
             });
             
             // Campaign review Slider
@@ -594,28 +613,35 @@
             });
             
             // global-business
-            $('.global-business').slick({
-                autoplay: false,
-                dots: false,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                responsive: [
-                {
-                    breakpoint: 1200,
-                    settings: {
-                        autoplay: false,
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        dots: false,
-                        infinite: false,
-                        dots: true,
+            $(window).ready(function (){
+                $('.global-business').slick({
+                    autoplay: false,
+                    dots: false,
+                    infinite: false,
+                    speed: 300,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            autoplay: false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            dots: false,
+                            infinite: false,
+                            dots: true,
+                        }
                     }
-                }
-                ]
+                    ]
+                });
             });
             
+            
+            // sns 리스트 스크롤바 
+            $(window).on("load",function() {
+                $(".scoll-event").mCustomScrollbar();
+            });
         });
     </script>
 </body>
