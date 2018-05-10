@@ -137,6 +137,12 @@
       "css": "eye",
       "code": 59405,
       "src": "elusive"
+    },
+    {
+      "uid": "3e290a111c0f3ee3acbf7b5f17ccc04a",
+      "css": "play",
+      "code": 59406,
+      "src": "typicons"
     }
   ]
 }
