@@ -366,6 +366,113 @@ section {
 	}
 }
 
+//board 게시판 -1 
+.board-list {
+	> li {
+		border-bottom: 1px solid #dfdfdf;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		a {
+			display: block;
+			.board-info {
+				figure {
+					img {
+						width: 100%;
+					}
+				}
+				.details {
+					padding-top: 20px;
+					h4 {
+						font-size: 14px;
+						color: #333;
+						line-height: 25px;
+						font-weight: 400;
+					}
+					p {
+						font-size: 13px;
+						color: #666;
+						line-height: 22px;
+						margin-top: 15px;
+					}
+					> ul {
+						font-size: 0;
+						margin-top: 20px;
+						li {
+							display: inline-block;
+							font-size: 12px;
+							color: #aaa;
+							padding-right: 25px;
+							i {
+								padding-right: 5px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	@media(min-width: $md) {
+		> li {
+			padding-top: 40px;
+			padding-bottom: 50px;
+			a {
+				.board-info {
+					display: table;
+					figure {
+						/*min-width: 290px;*/
+						width: 390px;
+						display: table-cell;
+						vertical-align: middle;
+					}
+					.details {
+						display: table-cell;
+						vertical-align: top;
+						padding-top: 0;
+						/*padding-left: 40px;*/
+						padding-left: 20px;
+						h4 {
+							font-size: 16px;
+							line-height: 25px;
+						}
+						p {
+							font-size: 14px;
+							line-height: 26px;
+							margin-top: 10px;
+						}
+						> ul {
+							margin-top: 30px;
+						}
+					}
+				}
+			}
+		}
+	}
+	/*@media(min-width: $xl) {
+		> li {
+			padding-bottom: 40px;
+			a {
+				.board-info {
+					figure {
+						min-width: 370px;
+					}
+					.details {
+						vertical-align: middle;
+						padding-left: 60px;
+						h4 {
+							line-height: 27px;
+						}
+						p {
+							margin-top: 10px;
+						}
+						> ul {
+							margin-top: 50px;
+						}
+					}
+				}
+			}
+		}
+	}*/
+}
 
 
 

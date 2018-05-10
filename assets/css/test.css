@@ -618,4 +618,87 @@ section {
           color: #aaa;
           font-weight: 300; }
 
+.board-list {
+  /*@media(min-width: $xl) {
+  	> li {
+  		padding-bottom: 40px;
+  		a {
+  			.board-info {
+  				figure {
+  					min-width: 370px;
+  				}
+  				.details {
+  					vertical-align: middle;
+  					padding-left: 60px;
+  					h4 {
+  						line-height: 27px;
+  					}
+  					p {
+  						margin-top: 10px;
+  					}
+  					> ul {
+  						margin-top: 50px;
+  					}
+  				}
+  			}
+  		}
+  	}
+  }*/ }
+  .board-list > li {
+    border-bottom: 1px solid #dfdfdf;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .board-list > li a {
+      display: block; }
+      .board-list > li a .board-info figure img {
+        width: 100%; }
+      .board-list > li a .board-info .details {
+        padding-top: 20px; }
+        .board-list > li a .board-info .details h4 {
+          font-size: 14px;
+          color: #333;
+          line-height: 25px;
+          font-weight: 400; }
+        .board-list > li a .board-info .details p {
+          font-size: 13px;
+          color: #666;
+          line-height: 22px;
+          margin-top: 15px; }
+        .board-list > li a .board-info .details > ul {
+          font-size: 0;
+          margin-top: 20px; }
+          .board-list > li a .board-info .details > ul li {
+            display: inline-block;
+            font-size: 12px;
+            color: #aaa;
+            padding-right: 25px; }
+            .board-list > li a .board-info .details > ul li i {
+              padding-right: 5px; }
+  @media (min-width: 768px) {
+    .board-list > li {
+      padding-top: 40px;
+      padding-bottom: 50px; }
+      .board-list > li a .board-info {
+        display: table; }
+        .board-list > li a .board-info figure {
+          /*min-width: 290px;*/
+          width: 390px;
+          display: table-cell;
+          vertical-align: middle; }
+        .board-list > li a .board-info .details {
+          display: table-cell;
+          vertical-align: top;
+          padding-top: 0;
+          /*padding-left: 40px;*/
+          padding-left: 20px; }
+          .board-list > li a .board-info .details h4 {
+            font-size: 16px;
+            line-height: 25px; }
+          .board-list > li a .board-info .details p {
+            font-size: 14px;
+            line-height: 26px;
+            margin-top: 10px; }
+          .board-list > li a .board-info .details > ul {
+            margin-top: 30px; } }
+
 /*# sourceMappingURL=test.css.map */
