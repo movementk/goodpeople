@@ -359,4 +359,149 @@ a {
 #content {
   min-height: 600px; }
 
+.page-header .page-summary {
+  width: 100%;
+  height: 140px;
+  padding-top: 40px;
+  text-align: center;
+  background-image: url(/assets/images/sub/bg_page_header_sm.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover; }
+  .page-header .page-summary h2 {
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+    line-height: 30px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif; }
+    .page-header .page-summary h2 span {
+      color: #eb6100; }
+@media (min-width: 768px) {
+  .page-header .page-summary {
+    height: 265px;
+    padding-top: 80px;
+    background-image: url(/assets/images/sub/bg_page_header_lg.jpg); }
+    .page-header .page-summary h2 {
+      font-size: 18px; } }
+
+.page-path {
+  position: relative;
+  margin: 0 -10px;
+  background-color: #144199;
+  box-shadow: 0px 6px 7px 0px rgba(0, 0, 0, 0.22); }
+  .page-path .breadcrumb {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    background: none; }
+    .page-path .breadcrumb > li {
+      position: relative;
+      display: inline-block;
+      font-size: 13px;
+      width: 50%; }
+      .page-path .breadcrumb > li:after {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        display: block;
+        margin-top: -8px;
+        content: " ";
+        height: 16px;
+        border-left: 1px solid #0a2066;
+        border-right: 1px solid #1e62cc; }
+      .page-path .breadcrumb > li:last-child:after {
+        display: none; }
+      .page-path .breadcrumb > li .dropdown {
+        width: 100%;
+        min-width: 100%; }
+        .page-path .breadcrumb > li .dropdown .btn-secondary {
+          width: 100%;
+          min-width: 100%;
+          font-size: 13px;
+          font-weight: 300;
+          line-height: 50px;
+          text-align: left;
+          padding: 0 15px;
+          border: 0;
+          border-radius: 0;
+          background: none;
+          box-shadow: none !important; }
+          .page-path .breadcrumb > li .dropdown .btn-secondary:after {
+            float: right;
+            font-size: 12px;
+            border: 0;
+            margin-right: 15px;
+            content: "\F004";
+            font-family: "fontello"; }
+        .page-path .breadcrumb > li .dropdown.show .btn-secondary:after {
+          content: "\F005"; }
+        .page-path .breadcrumb > li .dropdown.show .dropdown-menu {
+          width: 100%;
+          min-width: 100%;
+          margin: 0;
+          padding: 0;
+          border-radius: 0;
+          transform: translate3d(0px, 50px, 0px) !important; }
+          .page-path .breadcrumb > li .dropdown.show .dropdown-menu > a {
+            font-size: 13px;
+            color: #333;
+            padding: 0 15px;
+            line-height: 50px;
+            border-bottom: 1px solid #ccc; }
+            .page-path .breadcrumb > li .dropdown.show .dropdown-menu > a:last-child {
+              border-bottom: 0; }
+  @media (min-width: 768px) {
+    .page-path {
+      margin: -30px 0 0 0; }
+      .page-path .breadcrumb > li {
+        width: 200px; }
+        .page-path .breadcrumb > li:last-child:after {
+          display: block; }
+        .page-path .breadcrumb > li .dropdown .btn-secondary {
+          font-size: 15px;
+          line-height: 60px; }
+        .page-path .breadcrumb > li .dropdown.show .dropdown-menu {
+          transform: translate3d(0px, 60px, 0px) !important; }
+          .page-path .breadcrumb > li .dropdown.show .dropdown-menu > a {
+            font-size: 15px;
+            line-height: 40px; }
+        .page-path .breadcrumb > li.home {
+          width: 70px;
+          text-align: center; }
+          .page-path .breadcrumb > li.home a {
+            display: inline-block;
+            line-height: 58px; }
+            .page-path .breadcrumb > li.home a .icon-home {
+              font-size: 17px;
+              color: #fff; } }
+  @media (min-width: 1200px) {
+    .page-path .zoom {
+      position: absolute;
+      top: 50%;
+      right: 30px;
+      margin-top: -10px; }
+      .page-path .zoom > a {
+        position: relative;
+        display: inline-block;
+        font-size: 13px;
+        line-height: 20px;
+        color: #fff;
+        padding-right: 20px;
+        margin-left: 30px; }
+        .page-path .zoom > a:first-child {
+          margin-left: 0; }
+        .page-path .zoom > a.in:after {
+          position: absolute;
+          top: 0;
+          right: 0;
+          content: "+"; }
+        .page-path .zoom > a.out:after {
+          position: absolute;
+          top: 0;
+          right: 0;
+          float: right;
+          content: "-"; } }
+
 /*# sourceMappingURL=sub.css.map */

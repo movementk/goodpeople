@@ -18,7 +18,7 @@
 				<div class="row">
 					<div class="col-12 col-xl-8">
 						<ul class="breadcrumb-list">
-							<li>
+							<li class="home">
 								<a href="#">
 									<i class="icon-home"></i>
 								</a>
