@@ -678,27 +678,17 @@ section {
     .board-list > li {
       padding-top: 40px;
       padding-bottom: 50px; }
-      .board-list > li a .board-info {
-        display: table; }
-        .board-list > li a .board-info figure {
-          /*min-width: 290px;*/
-          width: 390px;
-          display: table-cell;
-          vertical-align: middle; }
-        .board-list > li a .board-info .details {
-          display: table-cell;
-          vertical-align: top;
-          padding-top: 0;
-          /*padding-left: 40px;*/
-          padding-left: 20px; }
-          .board-list > li a .board-info .details h4 {
-            font-size: 16px;
-            line-height: 25px; }
-          .board-list > li a .board-info .details p {
-            font-size: 14px;
-            line-height: 26px;
-            margin-top: 10px; }
-          .board-list > li a .board-info .details > ul {
-            margin-top: 30px; } }
+      .board-list > li a .board-info .details {
+        padding-top: 0;
+        padding-left: 20px; }
+        .board-list > li a .board-info .details h4 {
+          font-size: 16px;
+          line-height: 25px; }
+        .board-list > li a .board-info .details p {
+          font-size: 14px;
+          line-height: 26px;
+          margin-top: 10px; }
+        .board-list > li a .board-info .details > ul {
+          margin-top: 30px; } }
 
 /*# sourceMappingURL=test.css.map */

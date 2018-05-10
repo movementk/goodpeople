@@ -348,6 +348,122 @@
                 </div>
             </div>
         </section>
+        
+        <!-- sns-issue -->
+        <article class="sns-issue">
+            <div class="container-fluid">
+                <ul class="row">
+                    <li class="col-3 col-md-6 col-xl-3">
+                        <div class="mobile-link d-md-none">
+                            <a href="#" target="_blank" class="icon-btn">
+                                <img src="/assets/images/main/btn_facebook_sm.jpg" alt="facebook">
+                            </a>
+                        </div>
+                        <div class="sns facebook d-none d-md-block">
+                            <div class="bg-backdrop">
+                                <img src="/assets/images/main/bg_backdrop_facebook.jpg" class="img-fluid" alt="facebook background">
+                            </div>
+                            <i class="icon-img">
+                                <img src="/assets/images/main/icon_facebook_lg.jpg" alt="facebook icon">
+                            </i>
+                            <div class="content">
+                                <div class="content-title">
+                                    
+                                </div>
+                                <div class="content-body">
+                                    
+                                </div>
+                                <div class="btn-more">
+                                    
+                                </div>
+                                
+                                
+                                
+                                
+                                <div class="details">
+                                    <div class="box box1"></div>
+                                    <div class="box box2"></div>
+                                    <div class="box box3"></div>
+                                </div>
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-3 col-md-6 col-xl-3">
+                        <div class="mobile-link d-md-none">
+                            <a href="#" target="_blank" class="icon-btn">
+                                <img src="/assets/images/main/btn_insta_sm.jpg" alt="instagram">
+                            </a>
+                        </div>
+                        <div class="sns instagram d-none d-md-block">
+                            <div class="link-box">
+                                <a href="#">
+                                    <i class="icon-img">
+                                        <img src="/assets/images/main/icon_insta_lg.jpg" alt="">
+                                    </i>
+                                    <figure>
+                                        <img src="/assets/images/main/img_instagram.jpg" class="img-fluid" alt="instagram img">
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-3 col-md-6 col-xl-3">
+                        <div class="mobile-link d-md-none">
+                            <a href="#" target="_blank" class="icon-btn">
+                                <img src="/assets/images/main/btn_blog_sm.jpg" alt="naver blog">
+                            </a>
+                        </div>
+                        <div class="sns n-blog d-none d-md-block">
+                            <div class="bg-backdrop">
+                                <img src="/assets/images/main/bg_backdrop_blog.jpg" class="img-fluid" alt="naver blog background">
+                            </div>
+                            <i class="icon-img">
+                                <img src="/assets/images/main/icon_blog_lg.jpg" alt="naver blocg icon">
+                            </i>
+                            <div class="content">
+                                <div class="details">
+                                    <p>
+                                        굿피플은 국내 아동결연사업을 통해 성주와 
+                                        같이 가족해체로 고통받는 아이들을 돕고 
+                                        있습니다.
+                                        굿피플과 함께 아이들의 손을 따뜻하게 
+                                        잡아주세요.
+                                        <br>후원 문의 ▶ 02-783-2291~3
+                                    </p>
+                                    <div class="more-btn">
+                                        <a href="#" class="btn btn-white" role="button">더 보기</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-3 col-md-6 col-xl-3">
+                        <div class="mobile-link d-md-none">
+                            <a href="#" target="_blank" class="icon-btn">
+                                <img src="/assets/images/main/btn_youtube_sm.jpg" alt="youtube">
+                            </a>
+                        </div>
+                        <div class="sns youtube d-none d-md-block">
+                            <div class="link-box">
+                                <a href="#">
+                                    <i class="icon-img">
+                                        <img src="/assets/images/main/icon_youtube_lg.jpg" alt="youtube icon">
+                                    </i>
+                                    <figure>
+                                        <img src="/assets/images/main/img_youtube.jpg" class="img-fluid" alt="youtube img">
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </article>
     </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>

@@ -200,7 +200,7 @@
 							<div class="row">
 								<div class="col-12 col-md-6 col-xl-5">
 									<figure>
-										<img src="/assets/images/sub/img_board_none.jpg" class="img-fluid" alt="">
+										<img src="/assets/images/sub/img_board_none.jpg" alt="">
 									</figure>
 								</div>
 								<div class="col-12 col-md-6 col-xl-7">

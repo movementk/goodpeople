@@ -417,18 +417,11 @@ section {
 			padding-bottom: 50px;
 			a {
 				.board-info {
-					display: table;
 					figure {
-						/*min-width: 290px;*/
-						width: 390px;
-						display: table-cell;
-						vertical-align: middle;
+
 					}
 					.details {
-						display: table-cell;
-						vertical-align: top;
 						padding-top: 0;
-						/*padding-left: 40px;*/
 						padding-left: 20px;
 						h4 {
 							font-size: 16px;
