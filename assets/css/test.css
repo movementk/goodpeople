@@ -774,4 +774,58 @@ section {
         border: 1px solid #f3f3f3;
         background-color: #f3f3f3; } }
 
+/****************** list ******************/
+.test-list {
+  padding: 60px 0; }
+  .test-list ul li p {
+    font-size: 13px;
+    color: #000;
+    display: inline-block; }
+  .test-list ul li a {
+    display: block;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    margin-bottom: 15px;
+    /*padding-right: 55px;*/ }
+  .test-list ul li .box {
+    display: block;
+    text-align: left;
+    overflow: hidden; }
+    .test-list ul li .box .caleandar {
+      float: left; }
+    .test-list ul li .box .reply {
+      float: right; }
+  @media (min-width: 768px) {
+    .test-list ul li a {
+      padding-right: 70px; }
+    .test-list ul li .box {
+      overflow: visible; }
+      .test-list ul li .box .caleandar {
+        text-align: left; }
+      .test-list ul li .box .reply {
+        position: relative;
+        top: -20px;
+        float: right;
+        z-index: 1;
+        border: 1px solid #ccc;
+        padding: 5px; } }
+  @media (min-width: 1200px) {
+    .test-list ul li {
+      text-align: center; }
+      .test-list ul li a {
+        padding: 0;
+        margin: 0; }
+      .test-list ul li .box {
+        overflow: visible;
+        text-align: right; }
+        .test-list ul li .box .caleandar {
+          float: none; }
+        .test-list ul li .box .reply {
+          position: relative;
+          top: 0;
+          float: none; } }
+
 /*# sourceMappingURL=test.css.map */

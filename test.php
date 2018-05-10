@@ -296,9 +296,34 @@
   					</div>
    				</li>
    			</ul>
+           
+           
+            <div class="test-list">
+                <ul>
+                    <li class="row">
+                        <div class="d-none d-xl-block col-xl-1">
+                            <p class="num">123</p>
+                        </div>
+                        <div class="col-12 col-xl-8">
+                            <a href="#" class="title">
+                                사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 
+                                사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 
+                                사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 
+                            </a>
+                        </div>
+                        <div class="col-12 col-xl-3">
+                            <div class="box">
+                                <p class="caleandar">달력</p>
+                                <p class="reply">답변대기</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            
     	</div>
     </main>
-    
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
