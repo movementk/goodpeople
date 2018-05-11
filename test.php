@@ -102,7 +102,6 @@
 			</section>
  			
   			<p class="ex-txt">검색</p>
- 
 			<!-- search-form -->
 			<div class="search-form">
 				<form action="#">
@@ -119,7 +118,6 @@
 			</div>
    	
    			<p class="ex-txt">페이징</p>
-   			
    			<nav class="paging">
    				<ol class="pagination">
    					<li class="first">
@@ -160,170 +158,235 @@
    				</ol>	
    			</nav>
    			
+   			<p class="ex-txt">icon 리스트</p>
+   			<!--  icon 리스트 -->
+   			<ul class="icon-list">
+   				<li class="user">굿피플</li>
+   				<li class="calendar">2018-05-01</li>
+   				<li class="eye">1,234</li>
+   			</ul>
+   			
+   			
    			<p class="ex-txt">게시판1</p>
-   			
    			<!--  board 게시판 -->
-   			<ul class="board-list">
-   				<li>
-   					<a href="#">
-						<div class="board-info">
-							<div class="row">
-								<div class="col-12 col-md-6 col-xl-5">
-									<figure>
-										<img src="/assets/images/sub/img_board01.jpg" class="img-fluid" alt="">
-									</figure>
-								</div>
-								<div class="col-12 col-md-6 col-xl-7">
-									<div class="details">
-										<h4>사랑의의료봉사, 고려대학교 교우회 감사패 수상</h4>
-										<p>
-											굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다
-										</p>
-										<ul class="icon-list">
-											<li>
-												<i class="icon-user"></i> 굿피플
-											</li>
-											<li>
-												<i class="icon-calendar-empty"></i> 2018-05-01
-											</li>
-											<li>
-												<i class="icon-eye"></i> 1,234
-											</li>
-										</ul>
+   			<div class="board-list-1">
+				<ul>
+					<li>
+						<a href="#">
+							<div class="board-info">
+								<div class="row">
+									<div class="col-12 col-md-6 col-xl-5">
+										<figure>
+											<img src="/assets/images/sub/img_board01.jpg" class="img-fluid" alt="">
+										</figure>
+									</div>
+									<div class="col-12 col-md-6 col-xl-7">
+										<div class="details">
+											<h4>사랑의의료봉사, 고려대학교 교우회 감사패 수상</h4>
+											<p>
+												굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다
+											</p>
+											<ul class="icon-list">
+												<li class="user">굿피플</li>
+												<li class="calendar">2018-05-01</li>
+												<li class="eye">1,234</li>
+											</ul>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-					</a>
-   				</li>
-   				<li>
-   					<a href="#">
-						<div class="board-info">
-							<div class="row">
-								<div class="col-12 col-md-6 col-xl-5">
-									<figure>
-										<img src="/assets/images/sub/img_board_none.jpg" alt="">
-									</figure>
-								</div>
-								<div class="col-12 col-md-6 col-xl-7">
-									<div class="details">
-										<h4>사랑의의료봉사, 고려대학교 교우회 감사패 수상 사랑의의료봉사, 고려대학교 교우회 감사패 수상</h4>
-										<p>
-											굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다 굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다
-										</p>
-										<ul class="icon-list">
-											<li>
-												<i class="icon-user"></i> 굿피플
-											</li>
-											<li>
-												<i class="icon-calendar-empty"></i> 2018-05-01
-											</li>
-											<li>
-												<i class="icon-eye"></i> 1,234
-											</li>
-										</ul>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="board-info">
+								<div class="row">
+									<div class="col-12 col-md-6 col-xl-5">
+										<figure>
+											<img src="/assets/images/sub/img_board_none.jpg" alt="">
+										</figure>
+									</div>
+									<div class="col-12 col-md-6 col-xl-7">
+										<div class="details">
+											<h4>사랑의의료봉사, 고려대학교 교우회 감사패 수상 사랑의의료봉사, 고려대학교 교우회 감사패 수상</h4>
+											<p>
+												굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다 굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다
+											</p>
+											<ul class="icon-list">
+												<li class="user">굿피플</li>
+												<li class="calendar">2018-05-01</li>
+												<li class="eye">1,234</li>
+											</ul>
+										</div>
 									</div>
 								</div>
 							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+   			
+			<p class="ex-txt">게시판2</p>
+           	<div class="board-list-2">
+				<ol>
+					<li class="row">
+						<div class="d-none d-xl-block col-xl-1">
+							<P>123</P>
 						</div>
-					</a>
-   				</li>
-   			</ul>
-   			
-   			<p class="ex-txt">게시판2</p>
-   			
-   			<ul class="board-list-2">
-   				<li>
-					<h3>
-						<a href="#">
-							사랑의의료봉사, 고려대학교 교우회 감사패 수상
-						</a>
-					</h3>
-					<ul class="icon-list">
-						<li>
-							<i class="icon-calendar-empty"></i>2018-05-01
-						</li>
-						<li>
-							<i class="icon-eye"></i> 1,234
-						</li>
+						<div class="col-12 col-xl-8">
+							<h3>
+								<a href="#">
+									사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 
+                                    사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사,
+								</a>
+							</h3>
+						</div>
+						<div class="col-12 col-xl-3">
+							<ul class="icon-list">
+								<li class="calendar">2018-05-01</li>
+                                <li class="reply">
+                                	<p>답변대기</p>
+                                </li>
+							</ul>
+						</div>
+					</li>
+					<li class="row">
+						<div class="d-none d-xl-block col-xl-1">
+							<P>123</P>
+						</div>
+						<div class="col-12 col-xl-8">
+							<h3>
+								<a href="#">
+									사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 
+                                    사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사,
+								</a>
+							</h3>
+						</div>
+						<div class="col-12 col-xl-3">
+							<ul class="icon-list">
+								<li class="calendar">2018-05-01</li>
+                                <li class="reply">
+                                	<p>답변대기</p>
+                                </li>
+							</ul>
+						</div>
+					</li>
+					<li class="row">
+						<div class="d-none d-xl-block col-xl-1">
+							<P>123</P>
+						</div>
+						<div class="col-12 col-xl-8">
+							<h3>
+								<a href="#">
+									사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 
+								</a>
+							</h3>
+						</div>
+						<div class="col-12 col-xl-3">
+							<ul class="icon-list">
+								<li class="calendar">2018-05-01</li>
+                                <li class="reply success">
+                                	<p>답변완료</p>
+                                </li>
+							</ul>
+						</div>
+					</li>
+				</ol>
+           	</div>
+
+            <p class="ex-txt">게시판3</p>
+            <!--  board 게시판 3-->
+            <div class="board-list-3">
+				<ol>
+					<li class="row">
+						<div class="d-none d-xl-block col-xl-1">
+							<P>123</P>
+						</div>
+						<div class="col-12 col-xl-8">
+							<h3>
+								<a href="#">
+									사랑의의료봉사, 고려대학교 교우회 감사패 수상
+								</a>
+							</h3>
+						</div>
+						<div class="col-12 col-xl-3">
+							<ul class="icon-list">
+								<li class="calendar">2018-05-01</li>
+                                <li class="eye">1,234</li>
+							</ul>
+						</div>
+					</li>
+					<li class="row">
+						<div class="d-none d-xl-block col-xl-1">
+							<P>123</P>
+						</div>
+						<div class="col-12 col-xl-8">
+							<h3>
+								<a href="#">
+									사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상
+								</a>
+							</h3>
+						</div>
+						<div class="col-12 col-xl-3">
+							<ul class="icon-list">
+								<li class="calendar">2018-05-01</li>
+                                <li class="eye">1,234</li>
+							</ul>
+						</div>
+					</li>
+					<li class="row">
+						<div class="d-none d-xl-block col-xl-1">
+							<P>123</P>
+						</div>
+						<div class="col-12 col-xl-8">
+							<h3>
+								<a href="#">
+									사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상
+								</a>
+							</h3>
+						</div>
+						<div class="col-12 col-xl-3">
+							<ul class="icon-list">
+								<li class="calendar">2018-05-01</li>
+                                <li class="eye">1,234</li>
+							</ul>
+						</div>
+					</li>
+				</ol>
+           	</div>
+           	
+           	<p class="ex-txt">게시판3</p>
+            <!--  board 게시판 3-->
+           	<aricle class="board-view">
+           		<div class="article-header">
+           			<h4>문의 제목이 노출되는 영역입니다.</h4>
+           			<ul class="icon-list">
+           				<li class="calendar">2018-05-01</li>
+						<li class="eye">1,234</li>
+           			</ul>
+           		</div>
+           		<div class="article-content">
+           			<div class="view-content">
+           				<p>
+           					사용자 문의내용이 노출되는 영역입니다. <br>
+							사용자 문의내용이 노출되는 영역입니다. <br>
+         					사용자 문의내용이 노출되는 영역입니다. <br>
+         					사용자 문의내용이 노출되는 영역입니다. <br>
+         					사용자 문의내용이 노출되는 영역입니다. <br>
+							사용자 문의내용이 노출되는 영역입니다.
+							
+          				</p>
+           				<div class="reply">
+           					<h5></h5>	
+           					<p></p>
+           				</div>
+           			</div>
+           			<ul class="attach">
+           				<li></li>
 					</ul>
-   				</li>
-   				<li>
-					<h3>
-						<a href="#">
-							사랑의의료봉사, 고려대학교 교우회 감사패 수상
-							사랑의의료봉사, 고려대학교 교우회 감사패 수상
-							사랑의의료봉사, 고려대학교 교우회 감사패 수상
-						</a>
-					</h3>
-					<ul class="icon-list">
-						<li>
-							<i class="icon-calendar-empty"></i>2018-05-01
-						</li>
-						<li>
-							<i class="icon-eye"></i> 1,234
-						</li>
-					</ul>
-   				</li>
-   				<li>
-					<h3>
-						<a href="#">
-							사랑의의료봉사, 고려대학교 교우회 감사패 수상
-						</a>
-					</h3>
-					<ul class="icon-list">
-						<li>
-							<i class="icon-calendar-empty"></i>2018-05-01
-						</li>
-					</ul>
-  					<div class="btn-result">
-  						<a href="#" class="btn btn-xs" role="button">답변보기</a>
-  					</div>
-   				</li>
-   				<li>
-					<h3>
-						<a href="#">
-							사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상
-						</a>
-					</h3>
-					<ul class="icon-list">
-						<li>
-							<i class="icon-calendar-empty"></i>2018-05-01
-						</li>
-					</ul>
-  					<div class="btn-result">
-  						<a href="#" class="btn btn-xs btn-gray" role="button">답변완료</a>
-  					</div>
-   				</li>
-   			</ul>
-           
-           
-            <div class="test-list">
-                <ul>
-                    <li class="row">
-                        <div class="d-none d-xl-block col-xl-1">
-                            <p class="num">123</p>
-                        </div>
-                        <div class="col-12 col-xl-8">
-                            <h3>
-                                <a href="#" class="title">
-                                    사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 
-                                    사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 
-                                    사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 
-                                </a>
-                            </h3>
-                        </div>
-                        <div class="col-12 col-xl-3">
-                            <div class="box">
-                                <p class="caleandar">달력</p>
-                                <p class="reply">답변대기</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            
-            
+           			<div class="btn-area"></div>
+           		</div>
+           	</aricle>
     	</div>
     </main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>
