@@ -357,29 +357,7 @@
            					<a href="#" class="btn btn-gray" role="button">수정하기</a>
            					<a href="#" class="btn btn-black" role="button">목록으로</a>
            				</p>
-           			</div>
-           			<!--<div class="page-link-list">
-           				<ul>
-           					<li class="prev">
-           						<dl>
-           							<dt>다음글</dt>
-           							<dd>
-           								<a href="#">다음글이 없습니다.다음글이 없습니다.다음글이 없습니다.다음글이 없습니다.다음글이 없습니다.다음글이 없습니다.다음글이 없습니다.다음글이 없습니다.다음글이 없습니다.다음글이 없습니다.다음글이 없습니다.습니다.다음글이 없습니다.다음글이 없습니다.다음글이 없습니다.다음글이 없습니다.다음글이 없습니다습니다.다음글이 없습니다.다음글이 없습니다.다음글이 없습니다.다음글이 없습니다.다음글이 없습니다</a>
-           							</dd>
-           						</dl>
-           					</li>
-           					<li class="next">
-           						<dl>
-           							<dt>이전글</dt>
-           							<dd>
-           								<a href="#">
-           									굿피플과 함께하는 KCBL 연예인 농구대회
-           								</a>
-           							</dd>
-           						</dl>
-           					</li>
-           				</ul>
-           			</div>-->
+					</div>
            			<div class="test-link-list">
            				<ul>
            					<li class="t-prev">
@@ -402,6 +380,56 @@
            			</div>
            		</div>
            	</aricle>
+           	
+           	<p class="ex-txt">게시판 작성</p>
+         	<!--  board 게시판 작성-->
+         	<div class="write-wrap">
+         		<form action="#">
+         			<div class="table-wrap">
+         				<table class="table">
+         					<tbody>
+         						<tr>
+         							<th>
+         								<label for="title">제목</label>
+         							</th>
+         							<td>
+         								<div class="form-group">
+         									<input type="text" id="title" class="form-control">
+         								</div>
+         							</td>
+         						</tr>
+         						<tr>
+         							<th>
+         								<label for="u-content">내용</label>
+         							</th>
+         							<td>
+         								<div class="form-group">
+         									<textarea id="u-content" class="form-control"></textarea>
+         								</div>
+         							</td>
+         						</tr>
+         						<tr>
+         							<th>
+         								첨부파일
+         							</th>
+         							<td>
+         								<div class="form-group">
+         									<input type="file" id="attach" class="form-control">
+         									<label for="attach"0>찾아보기</label>
+         								</div>
+         							</td>
+         						</tr>
+         					</tbody>
+         				</table>
+         			</div>
+         		</form>
+         	</div>
+         	
+         	
+         	
+         	
+         	
+         	
     	</div>
     </main>
     
