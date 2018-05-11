@@ -55,6 +55,22 @@
         </div>
     </div>
     
+    <!-- page-intro -->
+    <div class="page-intro">
+        <div class="container">
+            <div class="page-title">
+                <h3>소개</h3>
+            </div>
+            <nav class="lnb">
+                <ul class="tab-list">
+                    <li><a href="#">비전과가치</a></li>
+                    <li><a href="#">걸어온길</a></li>
+                    <li class="active"><a href="#">인사말</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
     <!-- Content -->
     <main id="content" class="">
     	<div class="container">
@@ -66,21 +82,24 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script type="text/javascript">
+        // Zoom In Out event
         $(window).on('load', function(){
-            var currentZoomIn = 1;
             var currentZoom = 1;
             $('.in').click(function() {
                 currentZoom += 0.1;
                 $('body').css({
                     zoom: currentZoom,
-                    '-moz-transform': 'scale(' + currentZoomIn + ')'
+                    '-moz-transform': 'scale(' + currentZoom + ')',
+                    '-ms-transform': 'scale(' + currentZoom + ')'
+                    
                 });
             });
             $('.out').click(function() {
                 currentZoom -= 0.1;
                 $('body').css({
                     zoom: currentZoom,
-                    '-moz-transform': 'scale(' + currentZoomIn + ')'
+                    '-moz-transform': 'scale(' + currentZoom + ')',
+                    '-ms-transform': 'scale(' + currentZoom + ')'
                 });
             });
         });
