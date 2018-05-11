@@ -81,29 +81,6 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
-    <script type="text/javascript">
-        // Zoom In Out event
-        $(window).on('load', function(){
-            var currentZoom = 1;
-            $('.in').click(function() {
-                currentZoom += 0.1;
-                $('body').css({
-                    zoom: currentZoom,
-                    '-moz-transform': 'scale(' + currentZoom + ')',
-                    '-ms-transform': 'scale(' + currentZoom + ')'
-                    
-                });
-            });
-            $('.out').click(function() {
-                currentZoom -= 0.1;
-                $('body').css({
-                    zoom: currentZoom,
-                    '-moz-transform': 'scale(' + currentZoom + ')',
-                    '-ms-transform': 'scale(' + currentZoom + ')'
-                });
-            });
-        });
-    </script>
-    
+    <script src="/assets/js/sub.js"></script>
 </body>
 </html>

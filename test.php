@@ -1,5 +1,6 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link rel="stylesheet" href="/assets/css/test.css">
+<link rel="stylesheet" href="/assets/css/sub.css">
 </head>
 <body class="sub">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
@@ -7,99 +8,73 @@
     
     <!-- page-header -->
     <div class="page-header">
-    	<div class="sub-visual">
-			<h2>
-				We bring <span>hope</span> to neighbors<br> 
-				tin despair around the world.
-			</h2>
-    	</div>
-		<div class="container">
-			<nav class="path-nav">
-				<div class="row">
-					<div class="col-12 col-xl-8">
-						<ul class="breadcrumb-list">
-							<li class="home">
-								<a href="#">
-									<i class="icon-home"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									굿피플소개<i></i>
-								</a>
-								<ul class="depth-1">
-									<li>
-										<a href="#">ddff</a>
-										<ul class="depth-2">
-											<li>
-												<a href="#">ddff</a>
-											</li>
-											<li>
-												<a href="#">ddff</a>
-											</li>
-											<li>
-												<a href="#">ddff</a>
-											</li>
-										</ul>
-									</li>
-									<li>
-										<a href="#">ddff</a>
-									</li>
-									<li>
-										<a href="#">ddff</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">
-									소개<i></i>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="d-none d-xl-block col-xl-4">
-						<div class="exposure">
-							<div>
-								<a href="#">
-									확대<i class="icon-plus"></i>
-								</a>
-							</div>
-							<div>
-								<a href="#">
-									축소<i class="icon-minus"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</nav>
-		</div>
-   	</div>
+        <div class="page-summary">
+            <h2>We bring <span>hope</span> to neighbors<br>in despair around the world</h2>
+        </div>
+        <div class="container">
+            <div class="page-path">
+                <ol class="breadcrumb">
+                    <li class="d-none d-md-block home">
+                        <a href="/">
+                            <i class="icon-home"><span class="sr-only">메인이동</span></i>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="dropdown depth-1">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="depth-list-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                굿피플소개
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="depth-list-1">
+                                <a class="dropdown-item" href="#">사업소개</a>
+                                <a class="dropdown-item" href="#">캠페인</a>
+                                <a class="dropdown-item" href="#">소식</a>
+                                <a class="dropdown-item" href="#">후원</a>
+                                <a class="dropdown-item" href="#">나의 후원</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown depth-2">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="depth-list-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                소개
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="depth-list-1">
+                                <a class="dropdown-item" href="#">소개</a>
+                                <a class="dropdown-item" href="#">Good 피플</a>
+                                <a class="dropdown-item" href="#">투명경영</a>
+                                <a class="dropdown-item" href="#">지부안내</a>
+                                <a class="dropdown-item" href="#">찾아오시는 길</a>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+                <div class="d-none d-xl-block zoom">
+                   <a href="javascript:;" class="in" role="button">확대</a>
+                   <a href="javascript:;" class="out" role="button">축소</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- page-intro -->
+    <div class="page-intro">
+        <div class="container">
+            <div class="page-title">
+                <h3>소개</h3>
+            </div>
+            <nav class="lnb">
+                <ul class="tab-list">
+                    <li><a href="#">비전과가치</a></li>
+                    <li><a href="#">걸어온길</a></li>
+                    <li class="active"><a href="#">인사말</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
     
     <!-- Content -->
     <main id="content" class="">
     	<div class="container">
-    		
-    		<p class="ex-txt">페이지 인트로</p>
-    		
-			<section>
-				<div class="section-header">
-					<h3 class="section-title">소개</h3>
-					<nav class="lnb-nav">
-						<ul>
-							<li class="active">
-								<a href="#">비전과가치</a>
-							</li>
-							<li>
-								<a href="#">걸어온길</a>
-							</li>
-							<li>
-								<a href="#">인사말</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</section>
  			
   			<p class="ex-txt">검색</p>
 			<!-- search-form -->
@@ -122,12 +97,16 @@
    				<ol class="pagination">
    					<li class="first">
    						<a href="#">
-   							<i class="icon-angle-double-left"></i>
+   							<i class="icon-angle-double-left">
+   								<span class="sr-only">첫 페이지</span>
+   							</i>
    						</a>
    					</li>
    					<li class="prev">
    						<a href="#">
-   							<i class="icon-left-open-1"></i>
+   							<i class="icon-angle-left">
+   								<span class="sr-only">이전 페이지</span>
+   							</i>
    						</a>
    					</li>
    					<li class="active">
@@ -147,12 +126,16 @@
    					</li>
    					<li class="next">
    						<a href="#">
-   							<i class="icon-right-open-1"></i>
+   							<i class="icon-angle-right">
+   								<span class="sr-only">다음 페이지</span>
+   							</i>
    						</a>
    					</li>
    					<li class="last">
    						<a href="#">
-   							<i class="icon-angle-double-right"></i>
+   							<i class="icon-angle-double-right">
+   								<span class="sr-only">마지막 페이지</span>
+   							</i>
    						</a>
    					</li>
    				</ol>	
@@ -392,7 +375,7 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
-   
+   	<script src="/assets/js/sub.js"></script>
     <script>
 		$(function(){
 			// path-nav
@@ -412,13 +395,13 @@
 			});
 		});
 		
-		//paging active
+		/*//paging active
 		$(document).ready(function(){
 			$('.paging .pagination li').click(function(){
 				$('.paging .pagination li').removeClass('active');
 				$(this).addClass('active');
 			});
-		});
+		});*/
 	</script>
 </body>
 </html>
