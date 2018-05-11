@@ -409,7 +409,8 @@ a {
       color: rgba(255, 255, 255, 0.5); }
   @media (min-width: 768px) {
     .greetings .ceo-message {
-      padding-top: 80px; }
+      padding-top: 80px;
+      padding-bottom: 50px; }
       .greetings .ceo-message h3 {
         font-size: 28px;
         line-height: 40px;

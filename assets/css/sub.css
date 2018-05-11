@@ -490,6 +490,7 @@ label {
           padding: 0 15px;
           border: 0;
           border-radius: 0;
+          transition: none !important;
           background: none;
           box-shadow: none !important; }
           .page-path .breadcrumb > li .dropdown .btn-secondary:after {
@@ -499,24 +500,29 @@ label {
             margin-right: 15px;
             content: "\F004";
             font-family: "fontello"; }
-        .page-path .breadcrumb > li .dropdown.show .btn-secondary:after {
-          content: "\F005"; }
+        .page-path .breadcrumb > li .dropdown.show .btn-secondary {
+          position: relative;
+          z-index: 1;
+          background-color: #eb6100; }
+          .page-path .breadcrumb > li .dropdown.show .btn-secondary:after {
+            content: "\F005"; }
         .page-path .breadcrumb > li .dropdown.show .dropdown-menu {
           width: 100%;
           min-width: 100%;
           margin: 0;
           padding: 0;
+          border: 0;
           font-weight: 300;
           border-radius: 0;
           transform: translate3d(0px, 50px, 0px) !important; }
           .page-path .breadcrumb > li .dropdown.show .dropdown-menu > a {
             font-size: 13px;
-            color: #333;
+            color: #fff;
             padding: 0 15px;
             line-height: 50px;
-            border-bottom: 1px solid #ccc; }
-            .page-path .breadcrumb > li .dropdown.show .dropdown-menu > a:last-child {
-              border-bottom: 0; }
+            background-color: #eb6100; }
+            .page-path .breadcrumb > li .dropdown.show .dropdown-menu > a:focus {
+              background-color: #e74e00; }
   @media (min-width: 768px) {
     .page-path {
       margin: -30px 0 0 0; }
@@ -531,7 +537,7 @@ label {
           transform: translate3d(0px, 60px, 0px) !important; }
           .page-path .breadcrumb > li .dropdown.show .dropdown-menu > a {
             font-size: 15px;
-            line-height: 40px; }
+            line-height: 60px; }
         .page-path .breadcrumb > li.home {
           width: 70px;
           text-align: center; }
@@ -544,6 +550,36 @@ label {
   @media (min-width: 1200px) {
     .page-path {
       box-shadow: 5px -4px 7px 0px rgba(0, 0, 0, 0.22); }
+      .page-path .breadcrumb > li .dropdown .btn-secondary {
+        position: relative;
+        z-index: 1;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important; }
+        .page-path .breadcrumb > li .dropdown .btn-secondary:hover {
+          background-color: #eb6100; }
+      .page-path .breadcrumb > li .dropdown.show .dropdown-menu {
+        transform: translate3d(0px, 60px, 0px) !important; }
+        .page-path .breadcrumb > li .dropdown.show .dropdown-menu > a {
+          font-size: 15px;
+          line-height: 60px;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+          .page-path .breadcrumb > li .dropdown.show .dropdown-menu > a:hover {
+            background-color: #e74e00; }
+      .page-path .breadcrumb > li.home {
+        width: 70px;
+        text-align: center; }
+        .page-path .breadcrumb > li.home a {
+          display: inline-block;
+          line-height: 58px; }
+          .page-path .breadcrumb > li.home a .icon-home {
+            font-size: 17px;
+            color: #fff; }
       .page-path .zoom {
         position: absolute;
         top: 50%;

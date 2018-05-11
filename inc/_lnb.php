@@ -22,11 +22,10 @@
         </li>
         <li>
             <div class="dropdown depth-2">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="depth-list-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="depth-list-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     소개
                 </button>
-                <div class="dropdown-menu" aria-labelledby="depth-list-1">
-                    <a class="dropdown-item" href="#">소개</a>
+                <div class="dropdown-menu" aria-labelledby="depth-list-2">
                     <a class="dropdown-item" href="#">Good 피플</a>
                     <a class="dropdown-item" href="#">투명경영</a>
                     <a class="dropdown-item" href="#">지부안내</a>
