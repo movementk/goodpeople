@@ -14,6 +14,22 @@
 	}
 }
 
+// sub style 초기화
+
+label {
+	font-weight: 400;
+	margin: 0;
+}
+.form-group {
+	margin: 0;
+	padding: 0;
+}
+.form-control {
+	box-shadow: none;
+	border-radius: 0;
+}
+
+
 //btn 공통
 .btn-area {
 	p {
@@ -579,7 +595,6 @@
 	}
 }
 
-
 //search-form 검색하기
 .search-form {
 	position: relative;
@@ -589,16 +604,33 @@
 			width: 100%;
 			background-color: #f3f5fa;
 		}
+		input.form-control::-webkit-input-placeholder { 
+			/* Chrome/Opera/Safari */
+			color: #aaa;
+		}
+		input.form-control::-moz-placeholder { 
+			/* Firefox 19+ */
+			color: #aaa;
+		}
+		input.form-control:-ms-input-placeholder { 
+			/* IE 10+ */
+			color: #aaa;
+		}
+		input.form-control:-moz-placeholder { 
+			/* Firefox 18- */
+			color: #aaa;
+		}
 		.form-control {
 			font-size: 13px;
-			color: #aaa;
+			color: #000;
 			line-height: 45px;
-			font-weight: 300;
+			font-weight: 400;
 			border: 0;
 			border-radius: 0;
 			padding: 0;
 			padding-left: 20px;
 			box-shadow: none;
+			
 		}
 	}
 	.btn-search {
@@ -1015,9 +1047,8 @@
 	}
 	.article-content {
 		.view-content {
-			padding: 30px 10px 0;
+			padding: 30px 10px 35px;
 			border-bottom: 1px solid #dfdfdf;
-			
 			p {
 				font-size: 13px;
 				color: #555;
@@ -1026,7 +1057,6 @@
 			.reply {
 				margin-top: 40px;
 				padding: 20px;
-				margin-bottom: 35px;
 				background-color: #f3f5fa;
 				h5 {
 					font-size: 14px;
@@ -1165,7 +1195,7 @@
 		}
 		.article-content {
 			.view-content {
-				padding: 50px 30px 0;
+				padding: 50px 30px;
 				p {
 					font-size: 14px;
 					line-height: 24px;
@@ -1386,7 +1416,37 @@
     }
 }
 
-
+//게시판 작성
+.write-wrap {
+	.table-wrap {
+		border-top: 2px solid #eb6100;
+		.table {
+			tbody {
+				tr {
+					th {
+						width: 90px;
+						font-size: 13px;
+						color: #000;
+						padding-top: 10px;
+						padding-left: 10px;
+						font-weight: 500;
+						vertical-align: middle;
+						background-color: #f3f5fa;
+					}
+					td {
+						padding: 10px;
+						.form-group {
+							.form-control {
+								font-size: 13px;
+								border: 1px solid #dfdfdf;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
 
 
