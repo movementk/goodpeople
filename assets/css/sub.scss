@@ -322,7 +322,785 @@
 }
 
 
+/************ 아라씨 작업 ************/
 
+.ex-txt {
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    padding: 40px 0 20px;
+	@media(min-width: $md) {
+		font-size: 18px;
+		padding: 50px 0 30px;
+	}
+	@media(min-width: $xl) {
+		font-size: 20px;
+	}
+}
+//page-header 시작
+.page-header {
+	.sub-visual {
+		display: table;
+		position: relative;
+		width: 100%;
+		height: 190px;
+		text-align: center;
+		background-image: url(/assets/images/sub/bg_visual.jpg);
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-size: cover;
+		h2 {
+			display: table-cell;
+			vertical-align: middle;
+			font-size: 18px;
+			line-height: 30px;
+			color: #fff;
+			font-style: italic;
+			font-weight: 300;
+			text-shadow: 0px 6px 7px rgba(0, 0, 0, 0.5); 
+			span {
+				color: #eb6100;
+			}
+		}
+	}
+	.container {
+		.path-nav {
+			position: relative;
+			width: 100%;
+			background-color: #144199;
+			box-shadow: 0px 6px 7px 0px rgba(0, 0, 0, 0.22);
+			.breadcrumb-list {
+				display: inline-block;
+				font-size: 0;
+				width: 100%;
+				> li {
+					position: relative;
+					width: 50%;
+					line-height: 50px;
+					padding-left: 15px;
+					display: inline-block;
+					&:after {
+						position: absolute;
+						top: 50%;
+						right: 0;
+						content: " ";
+						height: 16px;
+						display: block;
+						margin-top: -8px;
+						border-left: 1px solid #0a2066;
+						border-right: 1px solid #1e62cc;
+					}
+					&:first-child {
+						display: none;
+					}
+					> a {
+						display: block;
+						width: 100%;
+						font-size: 13px;
+						color: #fff;
+						> i {
+							font-style: normal;
+							&:after {
+								position: absolute;
+								top: 0;
+								right: 15px;
+								display: inline-block;
+								font-family: "fontello";
+								content: "\E803";
+								font-size: 12px;
+							}
+						}
+					}
+					> .depth-1 {
+						display: none;
+						position: absolute;
+						top: 50px;
+						left: 0;
+						z-index: 10;
+						width: 100%;
+						padding-left: 15px;
+						background-color: red;
+						li {
+							display: block;
+							a {
+								display: block;
+								font-size: 12px;
+							}
+						}
+						&.toggle {
+							display: block;
+						}
+					}
+					
+					> .depth-2 {
+						display: none;
+						position: absolute;
+						top: 50px;
+						left: 0;
+						z-index: 10;
+						width: 100%;
+						padding-left: 15px;
+						background-color: red;
+						li {
+							display: block;
+							a {
+								display: block;
+								font-size: 12px;
+							}
+						}
+						&.toggle {
+							display: block;
+							@include transition();
+						}
+					}
+				}
+			}
+		}
+	}
+	@media(min-width: $md) {
+		.sub-visual {
+			height: 265px;
+		}
+		.container {
+			padding-left: 20px;
+			padding-right: 20px;
+			.path-nav {
+				margin-top: -30px;
+				z-index: 5;
+				.breadcrumb-list {
+					li {
+						width: 200px;
+						line-height: 60px;
+						padding-left: 20px;
+						&:first-child {
+							display: inline-block;
+							width: 70px;
+							text-align: center;
+							padding-left: 0;
+							&:before {
+								display: none;
+							}
+							a {
+								i {
+									&:after {
+										display: none;
+									}
+								}
+							}
+						}
+						a {
+							font-size: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+	@media(min-width: $xl) {
+		.sub-visual {
+			height: 275px; 
+			background-image: url(/assets/images/sub/bg_visual_lg.jpg);
+		}
+		.container {
+			.path-nav {
+				box-shadow: 5px -4px 7px 0px rgba(0, 0, 0, 0.22);
+				.breadcrumb-list {
+				}
+				.exposure {	
+					text-align: right;
+					div {
+						display: inline-block; 
+						padding-right: 30px;
+						line-height: 60px;
+						a {
+							display: block;
+							width: 100%;
+							color: #fff;
+							font-weight: 300;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+//search-form 검색하기
+.search-form {
+	position: relative;
+	.form-group {
+		margin: 0;
+		input[type="text"] {
+			width: 100%;
+			background-color: #f3f5fa;
+		}
+		.form-control {
+			font-size: 13px;
+			color: #aaa;
+			line-height: 45px;
+			font-weight: 300;
+			border: 0;
+			border-radius: 0;
+			padding: 0;
+			padding-left: 20px;
+			box-shadow: none;
+		}
+	}
+	.btn-search {
+		.btn-default {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 50px;
+			height: 45px;
+			padding: 0;
+			font-size: 14px;
+			color: #144199;
+			background: none !important;
+			i {
+				position: relative;
+				top: -2px;
+			}
+		}
+	}
+	@media(min-width: $md) {
+		.form-group {
+			.form-control {
+				font-size: 14px;
+				line-height: 50px;
+			}
+		}
+		.btn-search {
+			.btn-default {
+				height: 50px;
+			}
+		}
+	}
+}
+
+//paging
+.paging {
+	text-align: center;
+	.pagination {
+		display: inline-block;
+		margin: 0;
+		> li {
+			display: inline-block;
+			a {
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				font-size: 15px;
+				color: #999;
+				border-radius: 50%;
+				line-height: 30px;
+				padding: 0;
+				border: 0;
+				@include roboto();
+				i {
+					color: #aaa;
+					font-weight: 300;
+				}
+			}
+			&.first, &.prev {
+				a {
+					background: #fff !important;
+				}
+            }
+			&.active {
+				a {
+					display: block;
+					color: #fff;
+					font-weight: 400;
+					background-color: #eb6100;
+				}
+			}
+		}
+	}
+}
+
+//icon 리스트
+.icon-list {
+	font-size: 0;
+	li {
+		position: relative;
+		display: inline-block;
+		font-size: 12px;
+		color: #aaa;
+		padding-right: 25px;
+		padding-left: 20px;
+		@include roboto();
+		&:last-child {
+			padding-right: 0;
+		}
+		&:before {
+			position: absolute;
+			top: 0;
+			left: 0;
+			font-family: "fontello";
+			font-size: 12px;
+			color: #aaa;
+		}
+		&.user {
+			&:before {
+				content: "\E80C";
+			}
+		}
+		&.calendar {
+			&:before {
+				/*top: 1px;*/
+				content: "\F133";
+			}
+		}
+		&.eye {			
+			&:before {
+				/*top: 2px;*/
+				content: "\E80D";
+			}
+		}
+	}
+}
+ 
+//board 게시판 -1 
+.board-list-1 {
+	> ul {
+		> li {
+			border-bottom: 1px solid #dfdfdf;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			&:first-child {
+				padding-top: 0;
+			}
+			a {
+				display: block;
+				.board-info {
+					figure {
+						img {
+							width: 100%;
+						}
+					}
+					.details {
+						padding-top: 20px;
+						h4 {
+							font-size: 14px;
+							color: #333;
+							line-height: 25px;
+							font-weight: 400;
+						}
+						p {
+							font-size: 13px;
+							color: #666;
+							line-height: 22px;
+							margin-top: 15px;
+						}
+						> .icon-list {
+							margin-top: 20px;
+						}
+					}
+				}
+			}
+		}
+		@media(min-width: $md) {
+			> li {
+				padding-top: 40px;
+				padding-bottom: 50px;
+				a {
+					.board-info {
+						.details {
+							padding-top: 0;
+							padding-left: 20px;
+							h4 {
+								font-size: 16px;
+								line-height: 25px;
+							}
+							p {
+								font-size: 14px;
+								line-height: 26px;
+								margin-top: 10px;
+							}
+							> .icon-list {
+								margin-top: 30px;
+							}
+						}
+					}
+				}
+			}
+		}
+		@media(min-width: $xl) {
+			> li {
+				padding-bottom: 40px;
+				a {
+					.board-info {
+						.details {
+							padding-top: 20px;
+							padding-left: 30px;
+							h4 {
+								line-height: 27px;
+							}
+							p {
+								margin-top: 10px;
+							}
+							> .icon-list {
+								margin-top: 60px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// board 게시판 -2
+/*.board-list-2 {
+	> li {
+		overflow: hidden;
+		padding: 20px 10px;
+		border-bottom: 1px solid #dfdfdf;
+		&:first-child {
+			padding-top: 0;
+		}
+		h3 {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			font-size: 14px;
+			color: #333;
+			font-weight: 400;
+		}
+		.icon-list {
+			float: left;
+			font-size: 0;
+			margin-top: 15px;
+			li {
+				display: inline-block;
+				font-size: 12px;
+				color: #aaa;
+				padding-right: 20px;
+				@include roboto();
+				&:last-child {
+					padding-right: 0;
+				}
+				i {
+					padding-right: 10px;
+					&:before {
+						margin: 0;
+					}
+				}
+			}
+		}
+		> .btn-result {
+			float: right;
+			display: inline-block;
+			margin-top: 10px;
+			a {
+				&.btn {
+					box-shadow: none;
+					&:hover, &:focus {
+						opacity: .7;
+					}
+				}
+				&.btn-xs {  
+					display: inline-block;
+					width: 70px;
+					font-size: 12px !important;
+					color: #666;
+					line-height: 25px;
+					border: 1px solid #ccc;
+					padding: 0;
+					border-radius: 0;
+				}
+				&.btn-gray {
+					color: #999;
+					border: 1px solid #f3f3f3;
+					background-color: #f3f3f3;
+				}
+			}
+		}
+	}
+	@media(min-width: $md) {
+		> li {
+			padding: 30px 15px 30px 20px;
+			h3 {
+				font-size: 16px;
+			}
+			.icon-list {
+				margin-top: 20px;
+				li {
+					padding-right: 30px;
+				}
+			}
+			> .btn-result {
+				float: right;
+				display: inline-block;
+				margin-top: 0;
+				vertical-align: top;
+				a {
+					&.btn {
+						box-shadow: none;
+						&:hover, &:focus {
+							opacity: .7;
+						}
+					}
+					&.btn-xs {  
+						display: inline-block;
+						width: 70px;
+						font-size: 12px !important;
+						color: #666;
+						line-height: 25px;
+						border: 1px solid #ccc;
+						padding: 0;
+						border-radius: 0;
+					}
+					&.btn-gray {
+						color: #999;
+						border: 1px solid #f3f3f3;
+						background-color: #f3f3f3;
+					}
+				}
+			}
+		}
+	}
+}*/
+
+// board 게시판 -2
+.board-list-2 {
+	ol {
+		> li {
+			padding: 25px 10px 20px;
+			border-bottom: 1px solid #dfdfdf;
+			&:first-child {
+				padding-top: 0;
+			}
+			h3 {
+				a {
+					display: block;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					font-size: 14px;
+					color: #333;
+					font-weight: 400;
+				}
+			}
+			.icon-list {
+				display: block;
+                text-align: left;
+                overflow: hidden;
+				margin-top: 10px;
+				li {
+					&.calendar {
+						float: left;
+						padding-right: 0;
+					}
+					&.reply {
+						float: right;
+						padding-left: 0;
+						p {
+							width: 70px;
+							height: 25px;
+							font-size: 12px;
+							color: #666;
+							text-align: center;
+							line-height: 25px;
+							border: 1px solid #ccc;
+						}	
+					}
+					&.success {
+						p {
+							color: #999;
+							border-color: #f3f3f3;
+							background-color: #f3f3f3;
+						}
+					}
+				}
+			}
+		}	
+	}
+	@media(min-width: $md) {
+		ol {
+			> li {
+				padding: 30px 10px;
+				h3 {
+					a {
+						font-size: 16px;
+					}
+				}
+				.icon-list {
+					li {
+						&.calendar {
+							float: none;
+							padding-right: 0;
+						}
+						&.reply {
+							float: none;
+							padding-left: 50px;
+							p {
+								width: 100px;
+								height: 35px;
+								font-size: 14px;
+								line-height: 35px;
+							}	
+						}
+					}
+				}
+			}	
+		}
+	}
+	@media(min-width: $xl) {
+		text-align: center;
+		ol {
+			> li {
+				vertical-align: middle;
+				padding: 18px 10px;
+				p {
+					display: inline-block;
+					font-size: 15px;
+					color: #666;
+					line-height: 35px;
+					/*padding-left: 10px;*/
+					@include roboto();
+				}
+				h3 {
+					margin-left: -15px;
+					a {
+						line-height: 35px;
+					}
+				}
+				.icon-list {
+					padding-left: 20px;
+					margin-top: 0;
+					li {
+						font-size: 14px;
+					}
+				}
+			}	
+		}
+	}
+}
+
+// board 게시판 -3
+.board-list-3 {
+	ol {
+		> li {
+			padding: 25px 10px 20px;
+			border-bottom: 1px solid #dfdfdf;
+			/*&:first-child {
+				padding-top: 0;
+			}*/
+			h3 {
+				a {
+					display: block;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					font-size: 14px;
+					color: #333;
+					font-weight: 400;
+				}
+			}
+			.icon-list {
+                text-align: left;
+				margin-top: 10px;
+			}
+		}	
+	}
+	@media(min-width: $md) {
+		ol {
+			> li {
+				padding: 30px 10px;
+				h3 {
+					a {
+						font-size: 16px;
+					}
+				}
+				.icon-list {
+					margin-top: 20px;
+				}
+			}	
+		}
+	}
+	@media(min-width: $xl) {
+		text-align: center;
+		ol {
+			> li {
+				padding: 25px 10px;
+				p {
+					display: inline-block;
+					font-size: 15px;
+					color: #666;
+					/*padding-left: 10px;*/
+					@include roboto();
+				}
+				h3 {
+					text-align: left;
+					margin-left: -15px;
+					a {
+					}
+				}
+				.icon-list {
+					padding-left: 20px;
+					margin-top: 0;
+					text-align: right;
+					li {
+						font-size: 14px;
+						&.eye {			
+							&:before {
+								top: 2px;
+								content: "\E80D";
+							}
+						}
+					}
+				}
+			}	
+		}
+	}
+}
+
+// board 게시판 view
+.board-view {
+	display: block;
+	padding-bottom: 500px;
+	.article-header {
+		border-top: 2px solid #eb6100;
+		border-bottom: 1px solid #dfdfdf;
+		padding: 30px 10px;
+		h4 {
+			font-size: 16px;
+			line-height: 25px;
+			color: #333;
+		}
+		.icon-list {
+			margin-top: 15px;
+			li {
+				/*padding-right: 35px;*/
+			}
+		}
+	}
+	.article-content {
+		.view-content {
+			padding: 30px 10px 0;
+			p {
+				font-size: 13px;
+				color: #555;
+				line-height: 23px;
+			}
+			.reply {
+				margin-top: 40px;
+				padding: 20px;
+				background-color: #f3f5fa;
+				h5 {
+					font-size: 14px;
+					color: #144199;
+					&:before {
+						content: "";
+					}
+				}
+			}
+		}
+	}
+}
 
 
 
