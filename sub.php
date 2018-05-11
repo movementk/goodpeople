@@ -399,8 +399,8 @@
          							</td>
          						</tr>
          						<tr>
-         							<th>
-         								<label for="u-content">내용</label>
+         							<th class="v-top">
+         								<label for="u-content">문의내용</label>
          							</th>
          							<td>
          								<div class="form-group">
@@ -410,12 +410,11 @@
          						</tr>
          						<tr>
          							<th>
-         								첨부파일
+         								<label for="attach">첨부파일</label>
          							</th>
-         							<td>
+         							<td class="file">
          								<div class="form-group">
          									<input type="file" id="attach" class="form-control">
-         									<label for="attach"0>찾아보기</label>
          								</div>
          							</td>
          						</tr>
