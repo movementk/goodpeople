@@ -22,6 +22,7 @@
             line-height: 30px;
             font-style: italic;
             @include roboto();
+            text-shadow: 0px 6px 7px rgba(0, 0, 0, 0.5); 
             span {
                 color: #eb6100;
             }
@@ -34,7 +35,7 @@
             background-image: url(/assets/images/sub/bg_page_header_lg.jpg);
         }
     }
-    @media(min-width: $md) {
+    @media(min-width: $xl) {
         .page-summary {
             height: 275px;
             padding-top: 105px;
@@ -170,6 +171,7 @@
         }
     }
     @media(min-width: $xl) {
+        box-shadow: 5px -4px 7px 0px rgba(0, 0, 0, 0.22);
         .zoom {
             position: absolute;
             top: 50%;
