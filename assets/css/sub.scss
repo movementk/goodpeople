@@ -18,18 +18,16 @@
 .btn-area {
 	p {
 		font-size: 0;
-		a {
-			display: inline-block;
-			&.btn {
-				padding: 0;
-				border-radius: 0;
-				box-shadow: none;
-				text-align: center;
-				@include transition();
-				&:hover, &:focus {
-					opacity: .7;
-				}
-			}
+		.btn {
+            display: inline-block;
+            padding: 0;
+            border-radius: 0;
+            box-shadow: none;
+            text-align: center;
+            @include transition();
+            &:hover, &:focus {
+                opacity: .7;
+            }
 			&.btn-black {
 				width: 120px;
 				font-size: 13px;
@@ -46,7 +44,7 @@
 			}
 		}
 		@media(min-width: $md) {
-			a {
+			.btn {
 				&.btn-black {
 					width: 170px;
 					font-size: 14px;
@@ -1086,7 +1084,7 @@
 			}
 		}
 		//페이지링크
-		.page-link {
+		.page-link-list {
 			padding: 0;
 			margin: 0;
 			border: 0;
@@ -1208,7 +1206,7 @@
 			.btn-area {
 				padding: 50px 0;
 			}
-			.page-link {
+			.page-link-list {
 				ul {
 					li {
 						padding: 20px;
@@ -1242,7 +1240,7 @@
 					line-height: 26px;
 				}
 			}
-			.page-link {
+			.page-link-list {
 				ul {
 					li {
 						dl {
@@ -1261,6 +1259,187 @@
 		}
 	}
 }
+
+.test-link-list {
+    > ul {
+        border-top: 1px solid #aaa;
+        border-bottom: 1px solid #aaa;
+        > li {
+            padding: 0 10px;
+            > dl {
+                dd {
+                    a {
+                        position: relative;
+                        font-size: 13px;
+                        color: #555;
+                        line-height: 50px;
+                        font-weight: 400;
+                        display: block;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        padding-left: 30px;
+                        text-overflow: ellipsis;
+                        &:before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            font-size: 14px;
+                            color: #000;
+                            font-family: "fontello";
+                        }
+                    }
+                }
+            }
+            &.t-prev {
+                border-bottom: 1px solid #dfdfdf;
+                > dl {
+                    dd {
+                        a {
+                            &:before {
+                                content: "\E802";
+                            }
+                        }
+                    }
+                }
+            }
+            &.t-next {
+                > dl {
+                    dd {
+                        a {
+                            &:before {
+                                content: "\E803";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $md) {
+        > ul {
+            > li {
+                padding: 0 20px;
+                > dl {
+                    dt {
+                        position: relative;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #000;
+                        line-height: 60px;
+                        &:after {
+                            position: absolute;
+                            top: 0;
+                            font-size: 14px;
+                            right: 10px;
+                            font-family: "fontello";
+                        }
+                    }
+                    dd {
+                        a {
+                            font-size: 14px;
+                            padding-left: 20px;
+                            line-height: 60px;
+                            &:before {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                &.t-prev {
+                    > dl {
+                        dt {
+                            &:after {
+                                content: "\E802";
+                            }
+                        }
+                    }
+                }
+                &.t-next {
+                    > dl {
+                        dt {
+                            &:after {
+                                content: "\E803";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $xl) {
+        > ul {
+            > li {
+                > dl {
+                    dt {
+                        &:after {
+                            right: 60px;
+                        }
+                    }
+                    dd {
+                        a {
+                            padding-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

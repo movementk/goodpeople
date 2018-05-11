@@ -395,6 +395,7 @@
                                 height: 10px;
                                 display: block;
                                 background-color: #ee7500;
+                                @include transition($duration: 1.5s);
                                 .d-day {
                                     position: absolute;
                                     top: -46px;

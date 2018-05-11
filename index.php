@@ -115,14 +115,14 @@
                 <div class="section-content">
                     <ul class="row">
                         <li class="col-12 col-md-6 col-xl-4">
-                            <a href="#">
+                            <a href="#" class="campaign-item">
                                 <div class="item">
                                     <p class="ongoing">진행중</p>
                                     <img src="/assets/images/main/img_campaign01.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="details">
                                     <div class="progress-area">
-                                        <div class="state-bar" style="width: 70%;">
+                                        <div class="state-bar" style="width: 0;" data-state="85">
                                             <p class="d-day">D-7</p>
                                         </div>
                                     </div>
@@ -135,14 +135,14 @@
                             </a>
                         </li>
                         <li class="col-12 col-md-6 col-xl-4">
-                            <a href="#">
+                            <a href="#" class="campaign-item">
                                 <div class="item">
                                     <p class="ongoing">진행중</p>
                                     <img src="/assets/images/main/img_campaign02.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="details">
                                     <div class="progress-area">
-                                        <div class="state-bar" style="width: 70%;">
+                                        <div class="state-bar" style="width: 0;" data-state="52">
                                             <p class="d-day">D-7</p>
                                         </div>
                                     </div>
@@ -155,14 +155,14 @@
                             </a>
                         </li>
                         <li class="d-none d-md-block col-md-6 col-xl-4">
-                            <a href="#">
+                            <a href="#" class="campaign-item">
                                 <div class="item">
                                     <p class="ongoing">진행중</p>
                                     <img src="/assets/images/main/img_campaign03.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="details">
                                     <div class="progress-area">
-                                        <div class="state-bar" style="width: 70%;">
+                                        <div class="state-bar" style="width: 0;" data-state="21">
                                             <p class="d-day">D-7</p>
                                         </div>
                                     </div>
@@ -175,14 +175,14 @@
                             </a>
                         </li>
                         <li class="d-none d-md-block d-xl-none col-12 col-md-6 col-xl-4">
-                            <a href="#">
+                            <a href="#" class="campaign-item">
                                 <div class="item">
                                     <p class="ongoing">진행중</p>
                                     <img src="/assets/images/main/img_campaign01.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="details">
                                     <div class="progress-area">
-                                        <div class="state-bar" style="width: 70%;">
+                                        <div class="state-bar" style="width: 0;">
                                             <p class="d-day">D-7</p>
                                         </div>
                                     </div>

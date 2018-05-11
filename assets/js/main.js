@@ -1,6 +1,6 @@
-$(function(){
+(function($){
     // jumbotrons visual Slider
-    $(window).ready(function (){
+    $(window).ready(function(){
         $('.jumbotrons').slick({
             autoplay: true,
             dots: true,
@@ -13,7 +13,7 @@ $(function(){
     });
     $('.jumbotrons').on('afterChange', function(event, slick, currentSlide, nextSlide){
         $(".slick-slide.visual-list").removeClass("action");
-        setTimeout(function(){ 
+        setTimeout(function (){ 
             $(".slick-active.visual-list").addClass("action"); 
             /*console.log('init'); */
         }, 500);
@@ -26,7 +26,7 @@ $(function(){
     });
 
     // support-business
-    $(window).ready(function (){
+    $(window).ready(function(){
         $('.support-business').slick({
             autoplay: false,
             dots: false,
@@ -70,7 +70,7 @@ $(function(){
     });
 
     // support-business
-    $(window).ready(function (){
+    $(window).ready(function(){
         $('.goodpeople-news').slick({
             autoplay: false,
             dots: false,
@@ -114,7 +114,7 @@ $(function(){
     });
 
     // Campaign review Slider
-    $(window).ready(function (){
+    $(window).ready(function(){
         $('.review-slide').slick({
             dots: false,
             infinite: true,
@@ -126,7 +126,7 @@ $(function(){
     });
 
     // global-business
-    $(window).ready(function (){
+    $(window).ready(function(){
         $('.global-business').slick({
             autoplay: false,
             dots: false,
@@ -150,9 +150,21 @@ $(function(){
         });
     });
 
-
     // sns 리스트 스크롤바 
     $(window).on("load",function() {
         $(".scoll-event").mCustomScrollbar();
     });
-});
+    
+    // campaign d-day event
+    $(window).on('load scroll', function() {
+        $('.campaign-item').each(function(index, elem) {
+            if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 2)) {
+                $(elem).addClass('on');
+            }
+
+            $('.on .state-bar').each(function(){
+                $(this).css('width',$(this).attr("data-state")+'%');
+            });
+        });
+    });
+})(jQuery);

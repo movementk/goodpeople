@@ -372,40 +372,39 @@ a {
 
 .btn-area p {
   font-size: 0; }
-  .btn-area p a {
-    display: inline-block; }
-    .btn-area p a.btn {
-      padding: 0;
-      border-radius: 0;
-      box-shadow: none;
-      text-align: center;
-      -webkit-transition-property: all;
-      transition-property: all;
-      -webkit-transition-duration: 0.15s;
-      transition-duration: 0.15s;
-      -webkit-transition-timing-function: linear;
-      transition-timing-function: linear;
-      -webkit-transition-delay: 0s;
-      transition-delay: 0s; }
-      .btn-area p a.btn:hover, .btn-area p a.btn:focus {
-        opacity: .7; }
-    .btn-area p a.btn-black {
+  .btn-area p .btn {
+    display: inline-block;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: center;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; }
+    .btn-area p .btn:hover, .btn-area p .btn:focus {
+      opacity: .7; }
+    .btn-area p .btn.btn-black {
       width: 120px;
       font-size: 13px;
       color: #111;
       line-height: 45px;
       border: 1px solid #111; }
-    .btn-area p a.btn-gray {
+    .btn-area p .btn.btn-gray {
       width: 80px;
       font-size: 13px;
       color: #999;
       line-height: 45px;
       border: 1px solid #ccc; }
   @media (min-width: 768px) {
-    .btn-area p a.btn-black {
+    .btn-area p .btn.btn-black {
       width: 170px;
       font-size: 14px; }
-    .btn-area p a.btn-gray {
+    .btn-area p .btn.btn-gray {
       width: 120px;
       font-size: 14px; } }
 
@@ -1129,26 +1128,26 @@ a {
       margin-right: 10px; }
       .board-view .article-content .btn-area p a:last-child {
         margin-right: 0; }
-  .board-view .article-content .page-link {
+  .board-view .article-content .page-link-list {
     padding: 0;
     margin: 0;
     border: 0;
     color: #555; }
-    .board-view .article-content .page-link:hover {
+    .board-view .article-content .page-link-list:hover {
       background: none; }
-    .board-view .article-content .page-link ul {
+    .board-view .article-content .page-link-list ul {
       border-top: 1px solid #aaa;
       border-bottom: 1px solid #aaa; }
-      .board-view .article-content .page-link ul li {
+      .board-view .article-content .page-link-list ul li {
         color: #555;
         padding: 15px 10px; }
-        .board-view .article-content .page-link ul li:hover {
+        .board-view .article-content .page-link-list ul li:hover {
           background-color: #f9f9f9; }
-        .board-view .article-content .page-link ul li dl dt {
+        .board-view .article-content .page-link-list ul li dl dt {
           display: none; }
-        .board-view .article-content .page-link ul li dl dd {
+        .board-view .article-content .page-link-list ul li dl dd {
           display: inline-block; }
-          .board-view .article-content .page-link ul li dl dd a {
+          .board-view .article-content .page-link-list ul li dl dd a {
             display: inline-block;
             font-size: 13px;
             color: #555;
@@ -1156,17 +1155,17 @@ a {
             text-overflow: ellipsis;
             white-space: nowrap;
             width: 400px; }
-          .board-view .article-content .page-link ul li dl dd:before {
+          .board-view .article-content .page-link-list ul li dl dd:before {
             display: inline-block;
             font-family: "fontello";
             font-size: 14px;
             color: #000;
             margin-right: 20px; }
-        .board-view .article-content .page-link ul li.prev {
+        .board-view .article-content .page-link-list ul li.prev {
           border-bottom: 1px solid #dfdfdf; }
-          .board-view .article-content .page-link ul li.prev dl dd:before {
+          .board-view .article-content .page-link-list ul li.prev dl dd:before {
             content: "\E802"; }
-        .board-view .article-content .page-link ul li.next dl dd:before {
+        .board-view .article-content .page-link-list ul li.next dl dd:before {
           content: "\E803"; }
   @media (min-width: 768px) {
     .board-view .article-header {
@@ -1206,28 +1205,88 @@ a {
         padding-left: 25px; }
     .board-view .article-content .btn-area {
       padding: 50px 0; }
-    .board-view .article-content .page-link ul li {
+    .board-view .article-content .page-link-list ul li {
       padding: 20px; }
-      .board-view .article-content .page-link ul li dl {
+      .board-view .article-content .page-link-list ul li dl {
         font-size: 0; }
-        .board-view .article-content .page-link ul li dl dt {
+        .board-view .article-content .page-link-list ul li dl dt {
           display: inline-block;
           font-size: 14px;
           color: #000;
           font-weight: 400;
           padding-right: 30px; }
-        .board-view .article-content .page-link ul li dl dd {
+        .board-view .article-content .page-link-list ul li dl dd {
           display: inline-block;
           font-weight: 300; }
-          .board-view .article-content .page-link ul li dl dd:before {
+          .board-view .article-content .page-link-list ul li dl dd:before {
             margin-right: 40px; } }
   @media (min-width: 1200px) {
     .board-view .article-content .view-content p {
       font-size: 14px;
       line-height: 26px; }
-    .board-view .article-content .page-link ul li dl dt {
+    .board-view .article-content .page-link-list ul li dl dt {
       padding-right: 50px; }
-    .board-view .article-content .page-link ul li dl dd:before {
+    .board-view .article-content .page-link-list ul li dl dd:before {
       margin-right: 50px; } }
+
+.test-link-list > ul {
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa; }
+  .test-link-list > ul > li {
+    padding: 0 10px; }
+    .test-link-list > ul > li > dl dd a {
+      position: relative;
+      font-size: 13px;
+      color: #555;
+      line-height: 50px;
+      font-weight: 400;
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      padding-left: 30px;
+      text-overflow: ellipsis; }
+      .test-link-list > ul > li > dl dd a:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 14px;
+        color: #000;
+        font-family: "fontello"; }
+    .test-link-list > ul > li.t-prev {
+      border-bottom: 1px solid #dfdfdf; }
+      .test-link-list > ul > li.t-prev > dl dd a:before {
+        content: "\E802"; }
+    .test-link-list > ul > li.t-next > dl dd a:before {
+      content: "\E803"; }
+@media (min-width: 768px) {
+  .test-link-list > ul > li {
+    padding: 0 20px; }
+    .test-link-list > ul > li > dl dt {
+      position: relative;
+      font-size: 14px;
+      font-weight: 400;
+      color: #000;
+      line-height: 60px; }
+      .test-link-list > ul > li > dl dt:after {
+        position: absolute;
+        top: 0;
+        font-size: 14px;
+        right: 10px;
+        font-family: "fontello"; }
+    .test-link-list > ul > li > dl dd a {
+      font-size: 14px;
+      padding-left: 20px;
+      line-height: 60px; }
+      .test-link-list > ul > li > dl dd a:before {
+        display: none; }
+    .test-link-list > ul > li.t-prev > dl dt:after {
+      content: "\E802"; }
+    .test-link-list > ul > li.t-next > dl dt:after {
+      content: "\E803"; } }
+@media (min-width: 1200px) {
+  .test-link-list > ul > li > dl dt:after {
+    right: 60px; }
+  .test-link-list > ul > li > dl dd a {
+    padding-left: 0; } }
 
 /*# sourceMappingURL=sub.css.map */

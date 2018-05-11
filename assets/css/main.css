@@ -691,7 +691,15 @@ a {
           position: relative;
           height: 10px;
           display: block;
-          background-color: #ee7500; }
+          background-color: #ee7500;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 1.5s;
+          transition-duration: 1.5s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
           .campaign-list .section-content > ul > li > a .details .progress-area .state-bar .d-day {
             position: absolute;
             top: -46px;
