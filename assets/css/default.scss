@@ -1125,7 +1125,7 @@ body {
         .copyright {
             font-size: 13px;
             color: #666;
-            font-weight: 500;
+            font-weight: 300;
             margin-top: 15px;
             @include roboto();
         }
@@ -1139,6 +1139,7 @@ body {
             ul {
                 li {
                     address {
+                        font-size: 14px;
                         line-height: 30px;
                     }
                     dl {
@@ -1167,6 +1168,7 @@ body {
             ul {
                 li {
                     address {
+                        font-size: 15px;
                         line-height: 35px;
                     }
                     dl {
