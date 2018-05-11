@@ -14,6 +14,51 @@
 	}
 }
 
+//btn 공통
+.btn-area {
+	p {
+		font-size: 0;
+		a {
+			display: inline-block;
+			&.btn {
+				padding: 0;
+				border-radius: 0;
+				box-shadow: none;
+				text-align: center;
+				@include transition();
+				&:hover, &:focus {
+					opacity: .7;
+				}
+			}
+			&.btn-black {
+				width: 120px;
+				font-size: 13px;
+				color: #111;
+				line-height: 45px;
+				border: 1px solid #111;
+			}
+			&.btn-gray {
+				width: 80px;
+				font-size: 13px;
+				color: #999;
+				line-height: 45px;
+				border: 1px solid #ccc;
+			}
+		}
+		@media(min-width: $md) {
+			a {
+				&.btn-black {
+					width: 170px;
+					font-size: 14px;
+				}
+				&.btn-gray {
+					width: 120px;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
 //page-header 
 .page-header {
     .page-summary {
@@ -1004,22 +1049,27 @@
 			}
 		}
 		.attach {
+			position: relative;;
 			border-bottom: 1px solid #aaa;
 			padding: 15px 10px;
+			&:before {
+				position: absolute;
+				top: 17px;
+				left: 10px;
+				content: "\E80F";
+				font-family: "fontello";
+				font-size: 12px;
+				color: #aaa;
+			}
 			li {
+				padding-left: 20px;
 				line-height: 22px;
 				a {
+					font-size: 13px;
 					color: #aaa;
 					&:hover, &:focus {
 						color: #666;
 					}
-				}
-				&:before {
-					content: "\E80F";
-					font-family: "fontello";
-					font-size: 12px;
-					color: #aaa;
-					margin-right: 15px;
 				}
 			}
 		}
@@ -1048,27 +1098,162 @@
 				border-top: 1px solid #aaa;
 				border-bottom: 1px solid #aaa;
 				li {
-					font-size: 13px;
 					color: #555;
 					padding: 15px 10px;
 					&:hover {
 						background-color: #f9f9f9;
 					}
-					&:before {
-						font-family: "fontello";
-						font-size: 14px;
-						color: #000;
-						margin-right: 20px;
+					dl {
+						dt {
+							display: none;
+						}
+						dd {
+							display: inline-block;
+							a {
+								display: inline-block;
+								font-size: 13px;
+								color: #555;
+								
+								overflow: hidden;
+								text-overflow: ellipsis;
+								white-space: nowrap;
+								width: 400px;
+							}
+							&:before {
+								display: inline-block;
+								font-family: "fontello";
+								font-size: 14px;
+								color: #000;
+								margin-right: 20px;
+							}
+						}
 					}
 					&.prev {
 						border-bottom: 1px solid #dfdfdf;
-						&:before {
-							content: "\E802";
+						dl {
+							dd {									
+								&:before {
+									content: "\E802";
+								}
+							}
 						}
 					}
 					&.next {
+						dl {
+							dd {
+								&:before {
+									content: "\E803";
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	@media(min-width: $md) {
+		.article-header {
+			padding: 40px 20px;
+			h4 {
+				font-size: 20px;
+				line-height: 30px;
+			}
+			.icon-list {
+				margin-top: 20px;
+				li {
+					padding-right: 35px;
+				}
+			}
+		}
+		.article-content {
+			.view-content {
+				padding: 50px 30px 0;
+				p {
+					font-size: 14px;
+					line-height: 24px;
+				}
+				.reply {
+					margin-top: 50px;
+					padding: 40px;
+					h5 {
+						font-size: 15px;
 						&:before {
-							content: "\E803";
+							font-size: 15px;
+						}
+					}
+					p {
+						font-size: 14px;
+						margin-top: 25px;
+					}
+				}
+			}
+			.attach {
+				padding: 20px 20px;
+				li {
+					&:before {
+						margin-right: 20px;
+					}
+				}
+			}
+			.attach {
+				padding: 20px 20px;
+				&:before {
+					top: 23px;
+					left: 20px;
+				}
+				li {
+					padding-left: 25px;
+				}
+			}
+			.btn-area {
+				padding: 50px 0;
+			}
+			.page-link {
+				ul {
+					li {
+						padding: 20px;
+						dl {
+							font-size: 0;
+							dt {
+								display: inline-block;
+								font-size: 14px;
+								color: #000;
+								font-weight: 400;
+								padding-right: 30px;
+							}
+							dd {
+								display: inline-block;
+								font-weight: 300;
+								&:before {
+									margin-right: 40px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	@media(min-width: $xl) {
+		.article-content {
+			.view-content {
+				p {
+					font-size: 14px;
+					line-height: 26px;
+				}
+			}
+			.page-link {
+				ul {
+					li {
+						dl {
+							dt {
+								padding-right: 50px;
+							}
+							dd {
+								&:before {
+									margin-right: 50px;
+								}
+							}
 						}
 					}
 				}
@@ -1077,40 +1262,6 @@
 	}
 }
 
-
-//btn 공통
-.btn-area {
-	p {
-		font-size: 0;
-		a {
-			display: inline-block;
-			&.btn {
-				padding: 0;
-				border-radius: 0;
-				box-shadow: none;
-				text-align: center;
-				@include transition();
-				&:hover, &:focus {
-					opacity: .7;
-				}
-			}
-			&.btn-black {
-				width: 120px;
-				font-size: 13px;
-				color: #111;
-				line-height: 45px;
-				border: 1px solid #111;
-			}
-			&.btn-gray {
-				width: 80px;
-				font-size: 13px;
-				color: #999;
-				line-height: 45px;
-				border: 1px solid #ccc;
-			}
-		}
-	}
-}
 
 
 

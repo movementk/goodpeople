@@ -370,6 +370,45 @@ a {
     #content {
       padding-bottom: 120px; } }
 
+.btn-area p {
+  font-size: 0; }
+  .btn-area p a {
+    display: inline-block; }
+    .btn-area p a.btn {
+      padding: 0;
+      border-radius: 0;
+      box-shadow: none;
+      text-align: center;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .btn-area p a.btn:hover, .btn-area p a.btn:focus {
+        opacity: .7; }
+    .btn-area p a.btn-black {
+      width: 120px;
+      font-size: 13px;
+      color: #111;
+      line-height: 45px;
+      border: 1px solid #111; }
+    .btn-area p a.btn-gray {
+      width: 80px;
+      font-size: 13px;
+      color: #999;
+      line-height: 45px;
+      border: 1px solid #ccc; }
+  @media (min-width: 768px) {
+    .btn-area p a.btn-black {
+      width: 170px;
+      font-size: 14px; }
+    .btn-area p a.btn-gray {
+      width: 120px;
+      font-size: 14px; } }
+
 .page-header .page-summary {
   width: 100%;
   height: 140px;
@@ -1064,20 +1103,25 @@ a {
         color: #000;
         margin-top: 15px; }
   .board-view .article-content .attach {
+    position: relative;
     border-bottom: 1px solid #aaa;
     padding: 15px 10px; }
+    .board-view .article-content .attach:before {
+      position: absolute;
+      top: 17px;
+      left: 10px;
+      content: "\E80F";
+      font-family: "fontello";
+      font-size: 12px;
+      color: #aaa; }
     .board-view .article-content .attach li {
+      padding-left: 20px;
       line-height: 22px; }
       .board-view .article-content .attach li a {
+        font-size: 13px;
         color: #aaa; }
         .board-view .article-content .attach li a:hover, .board-view .article-content .attach li a:focus {
           color: #666; }
-      .board-view .article-content .attach li:before {
-        content: "\E80F";
-        font-family: "fontello";
-        font-size: 12px;
-        color: #aaa;
-        margin-right: 15px; }
   .board-view .article-content .btn-area {
     padding: 30px 0;
     text-align: right; }
@@ -1096,53 +1140,94 @@ a {
       border-top: 1px solid #aaa;
       border-bottom: 1px solid #aaa; }
       .board-view .article-content .page-link ul li {
-        font-size: 13px;
         color: #555;
         padding: 15px 10px; }
         .board-view .article-content .page-link ul li:hover {
           background-color: #f9f9f9; }
-        .board-view .article-content .page-link ul li:before {
-          font-family: "fontello";
-          font-size: 14px;
-          color: #000;
-          margin-right: 20px; }
+        .board-view .article-content .page-link ul li dl dt {
+          display: none; }
+        .board-view .article-content .page-link ul li dl dd {
+          display: inline-block; }
+          .board-view .article-content .page-link ul li dl dd a {
+            display: inline-block;
+            font-size: 13px;
+            color: #555;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 400px; }
+          .board-view .article-content .page-link ul li dl dd:before {
+            display: inline-block;
+            font-family: "fontello";
+            font-size: 14px;
+            color: #000;
+            margin-right: 20px; }
         .board-view .article-content .page-link ul li.prev {
           border-bottom: 1px solid #dfdfdf; }
-          .board-view .article-content .page-link ul li.prev:before {
+          .board-view .article-content .page-link ul li.prev dl dd:before {
             content: "\E802"; }
-        .board-view .article-content .page-link ul li.next:before {
+        .board-view .article-content .page-link ul li.next dl dd:before {
           content: "\E803"; }
-
-.btn-area p {
-  font-size: 0; }
-  .btn-area p a {
-    display: inline-block; }
-    .btn-area p a.btn {
-      padding: 0;
-      border-radius: 0;
-      box-shadow: none;
-      text-align: center;
-      -webkit-transition-property: all;
-      transition-property: all;
-      -webkit-transition-duration: 0.15s;
-      transition-duration: 0.15s;
-      -webkit-transition-timing-function: linear;
-      transition-timing-function: linear;
-      -webkit-transition-delay: 0s;
-      transition-delay: 0s; }
-      .btn-area p a.btn:hover, .btn-area p a.btn:focus {
-        opacity: .7; }
-    .btn-area p a.btn-black {
-      width: 120px;
-      font-size: 13px;
-      color: #111;
-      line-height: 45px;
-      border: 1px solid #111; }
-    .btn-area p a.btn-gray {
-      width: 80px;
-      font-size: 13px;
-      color: #999;
-      line-height: 45px;
-      border: 1px solid #ccc; }
+  @media (min-width: 768px) {
+    .board-view .article-header {
+      padding: 40px 20px; }
+      .board-view .article-header h4 {
+        font-size: 20px;
+        line-height: 30px; }
+      .board-view .article-header .icon-list {
+        margin-top: 20px; }
+        .board-view .article-header .icon-list li {
+          padding-right: 35px; }
+    .board-view .article-content .view-content {
+      padding: 50px 30px 0; }
+      .board-view .article-content .view-content p {
+        font-size: 14px;
+        line-height: 24px; }
+      .board-view .article-content .view-content .reply {
+        margin-top: 50px;
+        padding: 40px; }
+        .board-view .article-content .view-content .reply h5 {
+          font-size: 15px; }
+          .board-view .article-content .view-content .reply h5:before {
+            font-size: 15px; }
+        .board-view .article-content .view-content .reply p {
+          font-size: 14px;
+          margin-top: 25px; }
+    .board-view .article-content .attach {
+      padding: 20px 20px; }
+      .board-view .article-content .attach li:before {
+        margin-right: 20px; }
+    .board-view .article-content .attach {
+      padding: 20px 20px; }
+      .board-view .article-content .attach:before {
+        top: 23px;
+        left: 20px; }
+      .board-view .article-content .attach li {
+        padding-left: 25px; }
+    .board-view .article-content .btn-area {
+      padding: 50px 0; }
+    .board-view .article-content .page-link ul li {
+      padding: 20px; }
+      .board-view .article-content .page-link ul li dl {
+        font-size: 0; }
+        .board-view .article-content .page-link ul li dl dt {
+          display: inline-block;
+          font-size: 14px;
+          color: #000;
+          font-weight: 400;
+          padding-right: 30px; }
+        .board-view .article-content .page-link ul li dl dd {
+          display: inline-block;
+          font-weight: 300; }
+          .board-view .article-content .page-link ul li dl dd:before {
+            margin-right: 40px; } }
+  @media (min-width: 1200px) {
+    .board-view .article-content .view-content p {
+      font-size: 14px;
+      line-height: 26px; }
+    .board-view .article-content .page-link ul li dl dt {
+      padding-right: 50px; }
+    .board-view .article-content .page-link ul li dl dd:before {
+      margin-right: 50px; } }
 
 /*# sourceMappingURL=sub.css.map */
