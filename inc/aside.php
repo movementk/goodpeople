@@ -8,7 +8,6 @@
     </button>
 </div>
 
-
 <!-- 모바일 태블릿 메뉴 -->
 <nav id="nav">
     <div class="nav-wrap">
@@ -19,7 +18,7 @@
                         KOR
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton-3">
-                    <a class="dropdown-item" href="#">ENG</a>
+                        <a class="dropdown-item" href="#">ENG</a>
                     </div>
                 </div>
             </div>
