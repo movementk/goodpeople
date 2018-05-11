@@ -4,5 +4,175 @@
 
 }
 .greetings {
-    padding-bottom: 0;
+    padding-bottom: 0 !important;
+    .ceo-message {
+        padding-top: 40px;
+        h3 {
+            font-size: 22px;
+            color: #eb6100;
+            font-weight: 300;
+            line-height: 36px;
+            margin-bottom: 40px;
+            strong {
+                font-weight: 500;
+            }
+        }
+        p {
+            font-size: 13px;
+            color: #444;
+            line-height: 26px;
+        }
+        dl {
+            margin-top: 40px;
+            overflow: hidden;
+            dt {
+                font-size: 13px;
+                color: #444;
+                font-weight: 300;
+                float: left;
+                margin-right: 20px;
+                padding-top: 18px;
+            }
+            dd {
+                img {
+                    width: 74px;
+                }
+            }
+        }
+        figure {
+            padding: 0 10%;
+            margin-top: 50px;
+            .img-fluid {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+    .vision {
+        padding: 80px 0;
+        text-align: center;
+        background-image: url(/assets/images/introduce/bg_vision_sm.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        p {
+            font-size: 14px;
+            color: #fff;
+            line-height: 26px;
+            margin: 35px 0 20px;
+            text-shadow: 0px 6px 7px rgba(0, 0, 0, 0.5); 
+        }
+        small {
+            display: inline-block;
+            font-size: 13px;
+            color: rgba(#fff, .5);
+        }
+    }
+    @media(min-width: $md) {
+        .ceo-message {
+            padding-top: 80px;
+            h3 {
+                font-size: 28px;
+                line-height: 40px;
+                margin-bottom: 60px;
+            }
+            p {
+                font-size: 14px;
+                line-height: 28px;
+            }
+            dl {
+                margin-top: 50px;
+                overflow: hidden;
+                dt {
+                    font-size: 14px;
+                    padding-top: 30px;
+                }
+                dd {
+                    img {
+                        width: 100px;
+                    }
+                }
+            }
+            figure {
+                padding: 0;
+                margin-top: 0;
+            }
+        }
+        .vision {
+            padding: 120px 0;
+            text-align: left;
+            p {
+                font-size: 20px;
+                line-height: 34px;
+                margin: 40px 0 20px;
+            }
+            small {
+                font-size: 15px;
+            }
+        }
+    }
+    @media(min-width: $xl) {
+        .ceo-message {
+            padding-bottom: 80px;
+            background-image: url(/assets/images/introduce/bg_ceo_message.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+            p {
+                font-size: 14px;
+                line-height: 28px;
+            }
+            figure {
+                margin-top: -84px;
+            }
+        }
+        .vision {
+            padding: 150px 0;
+            background-image: url(/assets/images/introduce/bg_vision_lg.jpg);
+            p {
+                font-size: 22px;
+                line-height: 34px;
+            }
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

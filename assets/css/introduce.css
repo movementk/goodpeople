@@ -357,6 +357,103 @@ a {
       max-width: 1200px; } }
 
 .greetings {
-  padding-bottom: 0; }
+  padding-bottom: 0 !important; }
+  .greetings .ceo-message {
+    padding-top: 40px; }
+    .greetings .ceo-message h3 {
+      font-size: 22px;
+      color: #eb6100;
+      font-weight: 300;
+      line-height: 36px;
+      margin-bottom: 40px; }
+      .greetings .ceo-message h3 strong {
+        font-weight: 500; }
+    .greetings .ceo-message p {
+      font-size: 13px;
+      color: #444;
+      line-height: 26px; }
+    .greetings .ceo-message dl {
+      margin-top: 40px;
+      overflow: hidden; }
+      .greetings .ceo-message dl dt {
+        font-size: 13px;
+        color: #444;
+        font-weight: 300;
+        float: left;
+        margin-right: 20px;
+        padding-top: 18px; }
+      .greetings .ceo-message dl dd img {
+        width: 74px; }
+    .greetings .ceo-message figure {
+      padding: 0 10%;
+      margin-top: 50px; }
+      .greetings .ceo-message figure .img-fluid {
+        display: block;
+        margin: 0 auto; }
+  .greetings .vision {
+    padding: 80px 0;
+    text-align: center;
+    background-image: url(/assets/images/introduce/bg_vision_sm.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; }
+    .greetings .vision p {
+      font-size: 14px;
+      color: #fff;
+      line-height: 26px;
+      margin: 35px 0 20px;
+      text-shadow: 0px 6px 7px rgba(0, 0, 0, 0.5); }
+    .greetings .vision small {
+      display: inline-block;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.5); }
+  @media (min-width: 768px) {
+    .greetings .ceo-message {
+      padding-top: 80px; }
+      .greetings .ceo-message h3 {
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 60px; }
+      .greetings .ceo-message p {
+        font-size: 14px;
+        line-height: 28px; }
+      .greetings .ceo-message dl {
+        margin-top: 50px;
+        overflow: hidden; }
+        .greetings .ceo-message dl dt {
+          font-size: 14px;
+          padding-top: 30px; }
+        .greetings .ceo-message dl dd img {
+          width: 100px; }
+      .greetings .ceo-message figure {
+        padding: 0;
+        margin-top: 0; }
+    .greetings .vision {
+      padding: 120px 0;
+      text-align: left; }
+      .greetings .vision p {
+        font-size: 20px;
+        line-height: 34px;
+        margin: 40px 0 20px; }
+      .greetings .vision small {
+        font-size: 15px; } }
+  @media (min-width: 1200px) {
+    .greetings .ceo-message {
+      padding-bottom: 80px;
+      background-image: url(/assets/images/introduce/bg_ceo_message.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 50%; }
+      .greetings .ceo-message p {
+        font-size: 14px;
+        line-height: 28px; }
+      .greetings .ceo-message figure {
+        margin-top: -84px; }
+    .greetings .vision {
+      padding: 150px 0;
+      background-image: url(/assets/images/introduce/bg_vision_lg.jpg); }
+      .greetings .vision p {
+        font-size: 22px;
+        line-height: 34px; } }
 
 /*# sourceMappingURL=introduce.css.map */
