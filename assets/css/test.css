@@ -941,32 +941,34 @@ section {
             top: 2px;
             content: "\E80D"; } }
 
-.board-view .article-header {
-  border-top: 2px solid #eb6100;
-  border-bottom: 1px solid #dfdfdf;
-  padding: 30px 10px; }
-  .board-view .article-header h4 {
-    font-size: 16px;
-    line-height: 25px;
-    color: #333; }
-  .board-view .article-header .icon-list {
-    margin-top: 15px; }
-    .board-view .article-header .icon-list li {
-      /*padding-right: 35px;*/ }
-.board-view .article-content .view-content {
-  padding: 30px 10px 0; }
-  .board-view .article-content .view-content p {
-    font-size: 13px;
-    color: #555;
-    line-height: 23px; }
-  .board-view .article-content .view-content .reply {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #f3f5fa; }
-    .board-view .article-content .view-content .reply h5 {
-      font-size: 14px;
-      color: #144199; }
-      .board-view .article-content .view-content .reply h5:before {
-        content: ""; }
+.board-view {
+  background: red; }
+  .board-view .article-header {
+    border-top: 2px solid #eb6100;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 30px 10px; }
+    .board-view .article-header h4 {
+      font-size: 16px;
+      line-height: 25px;
+      color: #333; }
+    .board-view .article-header .icon-list {
+      margin-top: 15px; }
+      .board-view .article-header .icon-list li {
+        /*padding-right: 35px;*/ }
+  .board-view .article-content .view-content {
+    padding: 30px 10px 0; }
+    .board-view .article-content .view-content p {
+      font-size: 13px;
+      color: #555;
+      line-height: 23px; }
+    .board-view .article-content .view-content .reply {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #f3f5fa; }
+      .board-view .article-content .view-content .reply h5 {
+        font-size: 14px;
+        color: #144199; }
+        .board-view .article-content .view-content .reply h5:before {
+          content: ""; }
 
 /*# sourceMappingURL=test.css.map */
