@@ -211,66 +211,72 @@
 			<p class="ex-txt">게시판2</p>
            	<div class="board-list-2">
 				<ol>
-					<li class="row">
-						<div class="d-none d-xl-block col-xl-1">
-							<P>123</P>
-						</div>
-						<div class="col-12 col-xl-8">
-							<h3>
-								<a href="#">
-									사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 
-                                    사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사,
-								</a>
-							</h3>
-						</div>
-						<div class="col-12 col-xl-3">
-							<ul class="icon-list">
-								<li class="calendar">2018-05-01</li>
-                                <li class="reply">
-                                	<p>답변대기</p>
-                                </li>
-							</ul>
-						</div>
-					</li>
-					<li class="row">
-						<div class="d-none d-xl-block col-xl-1">
-							<P>123</P>
-						</div>
-						<div class="col-12 col-xl-8">
-							<h3>
-								<a href="#">
-									사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 
-                                    사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사,
-								</a>
-							</h3>
-						</div>
-						<div class="col-12 col-xl-3">
-							<ul class="icon-list">
-								<li class="calendar">2018-05-01</li>
-                                <li class="reply">
-                                	<p>답변대기</p>
-                                </li>
-							</ul>
+					<li>
+						<div class="row">
+							<div class="d-none d-xl-block col-xl-1">
+								<P>123</P>
+							</div>
+							<div class="col-12 col-xl-8">
+								<h3>
+									<a href="#">
+										사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 
+										사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사,
+									</a>
+								</h3>
+							</div>
+							<div class="col-12 col-xl-3">
+								<ul class="icon-list">
+									<li class="calendar">2018-05-01</li>
+									<li class="reply">
+										<p>답변대기</p>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</li>
-					<li class="row">
-						<div class="d-none d-xl-block col-xl-1">
-							<P>123</P>
+					<li>
+						<div class="row">
+							<div class="d-none d-xl-block col-xl-1">
+								<P>123</P>
+							</div>
+							<div class="col-12 col-xl-8">
+								<h3>
+									<a href="#">
+										사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 
+										사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사,
+									</a>
+								</h3>
+							</div>
+							<div class="col-12 col-xl-3">
+								<ul class="icon-list">
+									<li class="calendar">2018-05-01</li>
+									<li class="reply">
+										<p>답변대기</p>
+									</li>
+								</ul>
+							</div>
 						</div>
-						<div class="col-12 col-xl-8">
-							<h3>
-								<a href="#">
-									사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 
-								</a>
-							</h3>
-						</div>
-						<div class="col-12 col-xl-3">
-							<ul class="icon-list">
-								<li class="calendar">2018-05-01</li>
-                                <li class="reply success">
-                                	<p>답변완료</p>
-                                </li>
-							</ul>
+					</li>
+					<li>
+						<div class="row">
+							<div class="d-none d-xl-block col-xl-1">
+								<P>123</P>
+							</div>
+							<div class="col-12 col-xl-8">
+								<h3>
+									<a href="#">
+										사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 
+									</a>
+								</h3>
+							</div>
+							<div class="col-12 col-xl-3">
+								<ul class="icon-list">
+									<li class="calendar">2018-05-01</li>
+									<li class="reply success">
+										<p>답변완료</p>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</li>
 				</ol>
@@ -280,68 +286,74 @@
             <!--  board 게시판 3-->
             <div class="board-list-3">
 				<ol>
-					<li class="row">
-						<div class="d-none d-xl-block col-xl-1">
-							<P>123</P>
-						</div>
-						<div class="col-12 col-xl-8">
-							<h3>
-								<a href="#">
-									사랑의의료봉사, 고려대학교 교우회 감사패 수상
-								</a>
-							</h3>
-						</div>
-						<div class="col-12 col-xl-3">
-							<ul class="icon-list">
-								<li class="calendar">2018-05-01</li>
-                                <li class="eye">1,234</li>
-							</ul>
-						</div>
-					</li>
-					<li class="row">
-						<div class="d-none d-xl-block col-xl-1">
-							<P>123</P>
-						</div>
-						<div class="col-12 col-xl-8">
-							<h3>
-								<a href="#">
-									사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상
-								</a>
-							</h3>
-						</div>
-						<div class="col-12 col-xl-3">
-							<ul class="icon-list">
-								<li class="calendar">2018-05-01</li>
-                                <li class="eye">1,234</li>
-							</ul>
+					<li>
+						<div class="row">
+							<div class="d-none d-xl-block col-xl-1">
+								<P>123</P>
+							</div>
+							<div class="col-12 col-xl-8">
+								<h3>
+									<a href="#">
+										사랑의의료봉사, 고려대학교 교우회 감사패 수상
+									</a>
+								</h3>
+							</div>
+							<div class="col-12 col-xl-3">
+								<ul class="icon-list">
+									<li class="calendar">2018-05-01</li>
+									<li class="eye">1,234</li>
+								</ul>
+							</div>
 						</div>
 					</li>
-					<li class="row">
-						<div class="d-none d-xl-block col-xl-1">
-							<P>123</P>
+					<li>
+						<div class="row">
+							<div class="d-none d-xl-block col-xl-1">
+								<P>123</P>
+							</div>
+							<div class="col-12 col-xl-8">
+								<h3>
+									<a href="#">
+										사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상
+									</a>
+								</h3>
+							</div>
+							<div class="col-12 col-xl-3">
+								<ul class="icon-list">
+									<li class="calendar">2018-05-01</li>
+									<li class="eye">1,234</li>
+								</ul>
+							</div>
 						</div>
-						<div class="col-12 col-xl-8">
-							<h3>
-								<a href="#">
-									사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상
-								</a>
-							</h3>
-						</div>
-						<div class="col-12 col-xl-3">
-							<ul class="icon-list">
-								<li class="calendar">2018-05-01</li>
-                                <li class="eye">1,234</li>
-							</ul>
+					</li>
+					<li>
+						<div class="row">
+							<div class="d-none d-xl-block col-xl-1">
+								<P>123</P>
+							</div>
+							<div class="col-12 col-xl-8">
+								<h3>
+									<a href="#">
+										사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상사랑의의료봉사, 고려대학교 교우회 감사패 수상
+									</a>
+								</h3>
+							</div>
+							<div class="col-12 col-xl-3">
+								<ul class="icon-list">
+									<li class="calendar">2018-05-01</li>
+									<li class="eye">1,234</li>
+								</ul>
+							</div>
 						</div>
 					</li>
 				</ol>
            	</div>
            	
-           	<p class="ex-txt">게시판3</p>
-            <!--  board 게시판 3-->
+           	<p class="ex-txt">게시판뷰</p>
+            <!--  board 게시판 뷰-->
            	<aricle class="board-view">
            		<div class="article-header">
-           			<h4>문의 제목이 노출되는 영역입니다.</h4>
+           			<h4>문의 제목이 노출되는 영역입니다.문의 제목이 노출되는 영역입니다.문의 제목이 노출되는 영역입니다.</h4>
            			<ul class="icon-list">
            				<li class="calendar">2018-05-01</li>
 						<li class="eye">1,234</li>
@@ -359,14 +371,40 @@
 							
           				</p>
            				<div class="reply">
-           					<h5></h5>	
-           					<p></p>
+           					<h5>굿피플 관리자</h5>	
+           					<p>
+           						관리자가 등록한 답변이 노출되는 영역입니다.
+								관리자가 등록한 답변이 노출되는 영역입니다.관
+								리자가 등록한 답변이 노출되는 영역입니다.
+								관리자가 등록한 답변이 노출되는 영역입니다.
+           					</p>
            				</div>
            			</div>
            			<ul class="attach">
-           				<li></li>
+						<li>
+							<a href="#">첨부파일01_파일명.hwp</a>
+						</li>
+						<li>
+							<a href="#">첨부파일01_파일명.hwp</a>
+						</li>
 					</ul>
-           			<div class="btn-area"></div>
+           			<div class="btn-area">
+           				<p>
+           					<a href="#" class="btn btn-gray" role="button">삭제하기</a>
+           					<a href="#" class="btn btn-gray" role="button">수정하기</a>
+           					<a href="#" class="btn btn-black" role="button">목록으로</a>
+           				</p>
+           			</div>
+           			<div class="page-link">
+           				<ul>
+           					<li class="prev">
+           						<a href="#">다음글이 없습니다.</a>
+           					</li>
+           					<li class="next">
+           						<a href="#">굿피플과 함께하는 KCBL 연예인 농구대회</a>
+           					</li>
+           				</ul>
+           			</div>
            		</div>
            	</aricle>
     	</div>
