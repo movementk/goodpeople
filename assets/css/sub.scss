@@ -2,6 +2,16 @@
 
 #content {
 	min-height: 600px;
+	padding-bottom: 60px;
+	@media(min-width: $md) {
+		padding-bottom: 70px;
+	}
+	@media(min-width: $md) {
+		padding-bottom: 100px;
+	}
+	@media(min-width: $xl) {
+		padding-bottom: 120px;
+	}
 }
 
 //page-header 
@@ -109,6 +119,7 @@
                         min-width: 100%;
                         margin: 0;
                         padding: 0;
+						font-weight: 300;
                         border-radius: 0;
                         transform: translate3d(0px, 50px, 0px) !important;
                         > a {
@@ -753,118 +764,6 @@
 }
 
 // board 게시판 -2
-/*.board-list-2 {
-	> li {
-		overflow: hidden;
-		padding: 20px 10px;
-		border-bottom: 1px solid #dfdfdf;
-		&:first-child {
-			padding-top: 0;
-		}
-		h3 {
-			overflow: hidden;
-			text-overflow: ellipsis;
-			white-space: nowrap;
-			font-size: 14px;
-			color: #333;
-			font-weight: 400;
-		}
-		.icon-list {
-			float: left;
-			font-size: 0;
-			margin-top: 15px;
-			li {
-				display: inline-block;
-				font-size: 12px;
-				color: #aaa;
-				padding-right: 20px;
-				@include roboto();
-				&:last-child {
-					padding-right: 0;
-				}
-				i {
-					padding-right: 10px;
-					&:before {
-						margin: 0;
-					}
-				}
-			}
-		}
-		> .btn-result {
-			float: right;
-			display: inline-block;
-			margin-top: 10px;
-			a {
-				&.btn {
-					box-shadow: none;
-					&:hover, &:focus {
-						opacity: .7;
-					}
-				}
-				&.btn-xs {  
-					display: inline-block;
-					width: 70px;
-					font-size: 12px !important;
-					color: #666;
-					line-height: 25px;
-					border: 1px solid #ccc;
-					padding: 0;
-					border-radius: 0;
-				}
-				&.btn-gray {
-					color: #999;
-					border: 1px solid #f3f3f3;
-					background-color: #f3f3f3;
-				}
-			}
-		}
-	}
-	@media(min-width: $md) {
-		> li {
-			padding: 30px 15px 30px 20px;
-			h3 {
-				font-size: 16px;
-			}
-			.icon-list {
-				margin-top: 20px;
-				li {
-					padding-right: 30px;
-				}
-			}
-			> .btn-result {
-				float: right;
-				display: inline-block;
-				margin-top: 0;
-				vertical-align: top;
-				a {
-					&.btn {
-						box-shadow: none;
-						&:hover, &:focus {
-							opacity: .7;
-						}
-					}
-					&.btn-xs {  
-						display: inline-block;
-						width: 70px;
-						font-size: 12px !important;
-						color: #666;
-						line-height: 25px;
-						border: 1px solid #ccc;
-						padding: 0;
-						border-radius: 0;
-					}
-					&.btn-gray {
-						color: #999;
-						border: 1px solid #f3f3f3;
-						background-color: #f3f3f3;
-					}
-				}
-			}
-		}
-	}
-}*/
-
-// board 게시판 -2
 .board-list-2 {
 	ol {
 		> li {
@@ -935,13 +834,7 @@
 						}
 						&.reply {
 							float: none;
-							padding-left: 50px;
-							p {
-								width: 100px;
-								height: 35px;
-								font-size: 14px;
-								line-height: 35px;
-							}	
+							padding-left: 30px;
 						}
 					}
 				}
@@ -1061,7 +954,6 @@
 // board 게시판 view
 .board-view {
 	display: block;
-	padding-bottom: 500px;
 	.article-header {
 		border-top: 2px solid #eb6100;
 		border-bottom: 1px solid #dfdfdf;
@@ -1081,6 +973,8 @@
 	.article-content {
 		.view-content {
 			padding: 30px 10px 0;
+			border-bottom: 1px solid #dfdfdf;
+			
 			p {
 				font-size: 13px;
 				color: #555;
@@ -1089,12 +983,93 @@
 			.reply {
 				margin-top: 40px;
 				padding: 20px;
+				margin-bottom: 35px;
 				background-color: #f3f5fa;
 				h5 {
 					font-size: 14px;
 					color: #144199;
 					&:before {
-						content: "";
+						content: "\E80C";
+						font-family: "fontello";
+						color: #f5a100;
+						font-size: 14px;
+						padding-right: 10px;
+					}
+				}
+				p {
+					font-size: 13px;
+					color: #000;
+					margin-top: 15px;
+				}
+			}
+		}
+		.attach {
+			border-bottom: 1px solid #aaa;
+			padding: 15px 10px;
+			li {
+				line-height: 22px;
+				a {
+					color: #aaa;
+					&:hover, &:focus {
+						color: #666;
+					}
+				}
+				&:before {
+					content: "\E80F";
+					font-family: "fontello";
+					font-size: 12px;
+					color: #aaa;
+					margin-right: 15px;
+				}
+			}
+		}
+		.btn-area {
+			padding: 30px 0;
+			text-align: right;
+			p {
+				a {
+					margin-right: 10px;
+					&:last-child {
+						margin-right: 0;
+					}
+				}
+			}
+		}
+		//페이지링크
+		.page-link {
+			padding: 0;
+			margin: 0;
+			border: 0;
+			color: #555;
+			&:hover {
+				background: none;
+			}
+			ul {
+				border-top: 1px solid #aaa;
+				border-bottom: 1px solid #aaa;
+				li {
+					font-size: 13px;
+					color: #555;
+					padding: 15px 10px;
+					&:hover {
+						background-color: #f9f9f9;
+					}
+					&:before {
+						font-family: "fontello";
+						font-size: 14px;
+						color: #000;
+						margin-right: 20px;
+					}
+					&.prev {
+						border-bottom: 1px solid #dfdfdf;
+						&:before {
+							content: "\E802";
+						}
+					}
+					&.next {
+						&:before {
+							content: "\E803";
+						}
 					}
 				}
 			}
@@ -1103,8 +1078,39 @@
 }
 
 
-
-
+//btn 공통
+.btn-area {
+	p {
+		font-size: 0;
+		a {
+			display: inline-block;
+			&.btn {
+				padding: 0;
+				border-radius: 0;
+				box-shadow: none;
+				text-align: center;
+				@include transition();
+				&:hover, &:focus {
+					opacity: .7;
+				}
+			}
+			&.btn-black {
+				width: 120px;
+				font-size: 13px;
+				color: #111;
+				line-height: 45px;
+				border: 1px solid #111;
+			}
+			&.btn-gray {
+				width: 80px;
+				font-size: 13px;
+				color: #999;
+				line-height: 45px;
+				border: 1px solid #ccc;
+			}
+		}
+	}
+}
 
 
 
