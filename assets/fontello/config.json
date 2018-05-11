@@ -139,9 +139,21 @@
       "src": "elusive"
     },
     {
-      "uid": "ce06b5805120d0c2f8d60cd3f1a4fdb5",
+      "uid": "3e290a111c0f3ee3acbf7b5f17ccc04a",
       "css": "play",
       "code": 59406,
+      "src": "typicons"
+    },
+    {
+      "uid": "7bf14281af5633a597f85b061ef1cfb9",
+      "css": "angle-right",
+      "code": 61701,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f3f90c8c89795da30f7444634476ea4f",
+      "css": "angle-left",
+      "code": 61700,
       "src": "fontawesome"
     }
   ]

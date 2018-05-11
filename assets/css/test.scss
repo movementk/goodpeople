@@ -338,22 +338,6 @@ section {
 		margin: 0;
 		> li {
 			display: inline-block;
-			&.first, &.prev {
-				a {
-					&:hover ,&:focus {
-						background-color: #fff !important;
-					}
-				}
-            }
-			&.active {
-				a {
-					display: block;
-					
-					background-color: #eb6100;
-					font-weight: 400;
-					color: #fff;
-				}
-			}
 			a {
 				display: inline-block;
 				width: 30px;
@@ -368,6 +352,19 @@ section {
 				i {
 					color: #aaa;
 					font-weight: 300;
+				}
+			}
+			&.first, &.prev {
+				a {
+					background: #fff !important;
+				}
+            }
+			&.active {
+				a {
+					display: block;
+					color: #fff;
+					font-weight: 400;
+					background-color: #eb6100;
 				}
 			}
 		}

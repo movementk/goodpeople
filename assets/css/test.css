@@ -605,13 +605,6 @@ section {
     margin: 0; }
     .paging .pagination > li {
       display: inline-block; }
-      .paging .pagination > li.first a:hover, .paging .pagination > li.first a:focus, .paging .pagination > li.prev a:hover, .paging .pagination > li.prev a:focus {
-        background-color: #fff !important; }
-      .paging .pagination > li.active a {
-        display: block;
-        background-color: #eb6100;
-        font-weight: 400;
-        color: #fff; }
       .paging .pagination > li a {
         display: inline-block;
         width: 30px;
@@ -626,6 +619,13 @@ section {
         .paging .pagination > li a i {
           color: #aaa;
           font-weight: 300; }
+      .paging .pagination > li.first a, .paging .pagination > li.prev a {
+        background: #fff !important; }
+      .paging .pagination > li.active a {
+        display: block;
+        color: #fff;
+        font-weight: 400;
+        background-color: #eb6100; }
 
 .icon-list {
   font-size: 0; }
