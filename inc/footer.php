@@ -68,33 +68,33 @@
                     <div class="information">
                         <ul class="sns-list">
                             <li>
-                                <a href="#" class="facebook" role="button">
+                                <a href="https://www.facebook.com/GPInternational" class="facebook" target="_blank" role="button">
                                     <i class="icon-facebook">
                                         <span class="sr-only">페이스북 이동</span>
                                     </i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="instagram" role="button">
+                                <a href="https://www.instagram.com/goodpeoplei/" class="instagram" target="_blank" role="button">
                                     <i class="icon-instagram">
                                         <span class="sr-only">인스타그램 이동</span>
                                     </i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="naver-blog" role="button">
+                                <a href="#" class="naver-blog" target="_blank" role="button">
                                     <span class="sr-only">네이버 블로그 이동</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="youtube" role="button">
+                                <a href="https://www.youtube.com/user/2019788" class="youtube" target="_blank" role="button">
                                     <i class="icon-youtube">
                                         <span class="sr-only">유투브 이동</span>
                                     </i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="naver-happybean" role="button">
+                                <a href="http://happylog.naver.com/goodpeople.do" class="naver-happybean" target="_blank" role="button">
                                     <span class="sr-only">네이버 해피빈 이동</span>
                                 </a>
                             </li>
@@ -133,22 +133,22 @@
                     <ul>
                         <li>
                             <figure>
-                                <img src="/assets/images/main/logo_partners01.gif" class="img-fluid" alt="">
+                                <img src="/assets/images/main/logo_partners01.gif" class="img-fluid" alt="UN경제사회이사회 특별협의지위 획득">
                             </figure>
                         </li>
                         <li>
                             <figure>
-                                <img src="/assets/images/main/logo_partners02.gif" class="img-fluid" alt="">
+                                <img src="/assets/images/main/logo_partners02.gif" class="img-fluid" alt="2011년 보건복지부 봉사대상">
                             </figure>
                         </li>
                         <li>
                             <figure>
-                                <img src="/assets/images/main/logo_partners03.gif" class="img-fluid" alt="">
+                                <img src="/assets/images/main/logo_partners03.gif" class="img-fluid" alt="2010 국무총리 휴먼대상">
                             </figure>
                         </li>
                         <li>
                             <figure>
-                                <img src="/assets/images/main/logo_partners04.gif" class="img-fluid" alt="">
+                                <img src="/assets/images/main/logo_partners04.gif" class="img-fluid" alt="sbs 2011 희망내일 나눔 대상">
                             </figure>
                         </li>
                     </ul>
