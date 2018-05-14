@@ -380,7 +380,6 @@ label {
   .form-group .form-control {
     width: 100%;
     height: 35px;
-    padding: 0;
     border-radius: 0;
     box-shadow: none;
     border: 1px solid #dfdfdf; }
@@ -835,17 +834,7 @@ label {
     display: inline-block;
     margin: 0; }
     .paging .pagination > li {
-      display: inline-block;
-      /*			&.first {
-      				a {
-      					padding-right: 5px;
-      				}
-      			}
-      			&.last {
-      				a {
-      					padding-left: 5px;
-      				}
-      			}*/ }
+      display: inline-block; }
       .paging .pagination > li:first-child a {
         margin-left: 0; }
       .paging .pagination > li:last-child a {
@@ -869,6 +858,10 @@ label {
             margin: 0; }
       .paging .pagination > li.first a, .paging .pagination > li.prev a, .paging .pagination > li.next a, .paging .pagination > li.last a {
         background: #fff !important; }
+      .paging .pagination > li.first a {
+        padding-right: 5px; }
+      .paging .pagination > li.last a {
+        padding-left: 5px; }
       .paging .pagination > li.active a {
         display: block;
         color: #fff;
