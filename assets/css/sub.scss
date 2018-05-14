@@ -531,6 +531,7 @@ label {
 		.form-group {
 			.form-control {
 				font-size: 14px;
+				height: 50px !important;
 				line-height: 50px;
 			}
 		}
@@ -606,6 +607,9 @@ label {
 	}
 	@media(min-width: $md) {
 		.form-group	{
+			select {
+				height: 50px !important;
+			}
 			.form-control {
 				font-size: 14px;
 				height: 50px;
@@ -693,7 +697,29 @@ label {
 			}
 		}
 	}
-}
+	@media(min-width: $md) {
+		.pagination {
+			> li {
+				a {
+					width: 30px;
+					height: 30px;
+					line-height: 30px;
+					margin: 0 5px;
+				}
+				&.first {
+					a {
+						padding-right: 7px;
+					}
+				}
+				&.last {
+					a {
+						padding-left: 7px;
+					}
+				}
+			}
+		}
+	}
+} 
 
 //icon 리스트
 .icon-list {
@@ -1081,7 +1107,7 @@ label {
 			}
 			li {
 				padding-left: 20px;
-				line-height: 22px;
+				line-height: 24px;
 				a {
 					font-size: 13px;
 					color: #aaa;
@@ -1221,6 +1247,7 @@ label {
 				}
 				li {
 					padding-left: 25px;
+					line-height: 26px;
 				}
 			}
 			.btn-area {
@@ -1461,9 +1488,10 @@ label {
 							padding: 10px 0 10px 20px;
 							.form-group {
 								textarea {
-									height: 400px;
+									height: 400px !important;
 								}
 								.form-control {
+									height: 40px;
 									font-size: 14px;
 								}
 							}
@@ -1478,24 +1506,8 @@ label {
 			.table {
 				tbody {
 					tr {
-						th {
-							width: 165px;
-							font-size: 14px;
-							padding-left: 30px;
-							&.v-top {
-								padding-top: 20px; 
-							}
-						}
 						td {
 							padding: 10px 70px 10px 30px; 
-							.form-group {
-								textarea {
-									height: 400px;
-								}
-								.form-control {
-									font-size: 14px;
-								}
-							}
 						}
 					}
 				}
