@@ -52,7 +52,7 @@
 			</div>
 			
 			<p class="ex-txt">검색2</p>
-			<div class="search-form-2">
+			<div class="select-search">
 				<form action="#">
 					<div class="row">
 						<div class="col-4 col-xl-3">
@@ -337,7 +337,7 @@
            	
            	<p class="ex-txt">게시판뷰</p>
             <!--  board 게시판 뷰-->
-           	<aricle class="board-view">
+           	<article class="board-view">
            		<div class="article-header">
            			<h4>문의 제목이 노출되는 영역입니다.문의 제목이 노출되는 영역입니다.문의 제목이 노출되는 영역입니다.</h4>
            			<ul class="icon-list">
@@ -405,7 +405,7 @@
            				</ul>
            			</div>
            		</div>
-           	</aricle>
+           	</article>
            	
            	<p class="ex-txt">게시판 작성</p>
          	<!--  board 게시판 작성-->
