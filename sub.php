@@ -450,11 +450,147 @@
          		</form>
          	</div>
          	
-         	
-         	
-         	
-         	
-         	
+         	<p class="ex-txt">E-book 리스</p>
+         	<!-- news-list sm, md -->
+            <article class="news-table-sm d-xl-none">
+                <div class="ebook-list">
+                    <div class="news-list">
+                        <a href="#">
+                            <div class="details">
+                                <small>2018년 ~ 4~6월호</small>
+                                <h3>2018 Spring Vol.12</h3>
+                            </div>
+                            <div class="item-ebook">
+                                <img src="/assets/images/sub/img_book.jpg" class="img-fluid" alt="">
+                                <div class="hover-box"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-list">
+                        <a href="#">
+                            <div class="details">
+                                <small>2018년 ~ 4~6월호</small>
+                                <h3>2018 Spring Vol.12</h3>
+                            </div>
+                            <div class="item-ebook">
+                                <img src="/assets/images/sub/img_book.jpg" class="img-fluid" alt="">
+                                <div class="hover-box"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="backdrop"></div>
+                </div>
+                <div class="ebook-list">
+                    <div class="news-list">
+                        <a href="#">
+                            <div class="details">
+                                <small>2018년 ~ 4~6월호</small>
+                                <h3>2018 Spring Vol.12</h3>
+                            </div>
+                            <div class="item-ebook">
+                                <img src="/assets/images/sub/img_book.jpg" class="img-fluid" alt="">
+                                <div class="hover-box"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-list">
+                        <a href="#">
+                            <div class="details">
+                                <small>2018년 ~ 4~6월호</small>
+                                <h3>2018 Spring Vol.12</h3>
+                            </div>
+                            <div class="item-ebook">
+                                <img src="/assets/images/sub/img_book.jpg" class="img-fluid" alt="">
+                                <div class="hover-box"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="backdrop"></div>
+                </div>
+            </article>
+            
+            <!-- news-list xl -->
+            <article class="news-table-xl d-none d-xl-block">
+                <div class="ebook-list">
+                    <div class="news-list">
+                        <a href="#">
+                            <div class="details">
+                                <small>2018년 ~ 4~6월호</small>
+                                <h3>2018 Spring Vol.12</h3>
+                            </div>
+                            <div class="item-ebook">
+                                <img src="/assets/images/sub/img_book.jpg" class="img-fluid" alt="">
+                                <div class="hover-box"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-list">
+                        <a href="#">
+                            <div class="details">
+                                <small>2018년 ~ 4~6월호</small>
+                                <h3>2018 Spring Vol.12</h3>
+                            </div>
+                            <div class="item-ebook">
+                                <img src="/assets/images/sub/img_book.jpg" class="img-fluid" alt="">
+                                <div class="hover-box"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-list">
+                        <a href="#">
+                            <div class="details">
+                                <small>2018년 ~ 4~6월호</small>
+                                <h3>2018 Spring Vol.12</h3>
+                            </div>
+                            <div class="item-ebook">
+                                <img src="/assets/images/sub/img_book.jpg" class="img-fluid" alt="">
+                                <div class="hover-box"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="backdrop"></div>
+                </div>
+                <div class="ebook-list">
+                    <div class="news-list">
+                        <a href="#">
+                            <div class="details">
+                                <small>2018년 ~ 4~6월호</small>
+                                <h3>2018 Spring Vol.12</h3>
+                            </div>
+                            <div class="item-ebook">
+                                <img src="/assets/images/sub/img_book.jpg" class="img-fluid" alt="">
+                                <div class="hover-box"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-list">
+                        <a href="#">
+                            <div class="details">
+                                <small>2018년 ~ 4~6월호</small>
+                                <h3>2018 Spring Vol.12</h3>
+                            </div>
+                            <div class="item-ebook">
+                                <img src="/assets/images/sub/img_book.jpg" class="img-fluid" alt="">
+                                <div class="hover-box"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-list">
+                        <a href="#">
+                            <div class="details">
+                                <small>2018년 ~ 4~6월호</small>
+                                <h3>2018 Spring Vol.12</h3>
+                            </div>
+                            <div class="item-ebook">
+                                <img src="/assets/images/sub/img_book.jpg" class="img-fluid" alt="">
+                                <div class="hover-box"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="backdrop"></div>
+                </div>
+            </article>
+            
     	</div>
     </main>
     

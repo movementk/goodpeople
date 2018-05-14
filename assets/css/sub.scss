@@ -1653,6 +1653,217 @@ label {
 	}
 }
 
+// news-list sm md ebook
+.news-table-sm {
+    padding-top: 100px;
+    > .ebook-list {
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 100px;
+        > .news-list {
+            float: left;
+            width: 50%;
+            padding: 0 5px;
+            > a {
+                display: block;
+                .details {
+                    padding-bottom: 20px;
+                    text-align: center;
+                    small {
+                        font-size: 12px;
+                        color: #666;
+                    }
+                    h3 {
+                        font-size: 14px;
+                        color: #333;
+                        font-weight: 500;
+                        @include roboto();
+                        margin-top: 10px;
+                    }
+                }
+                .item-ebook {
+                    position: relative;
+                    z-index: 1;
+                    border: 1px solid #ebebeb;
+                    box-shadow: -4px -4px 15px 0px rgba(0, 0, 0, 0.2);
+                    .img-fluid {
+                        width: 100%;
+                    }
+                    .hover-box {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        display: none;
+                        background-image: url(/assets/images/sub/icon_hover_more.png);
+                        background-repeat: no-repeat;
+                        background-position: 50% 50%;
+                        background-size: 30px auto;
+                        background-color: rgba(#f5a100, .9);
+                    }
+                }
+                &:focus {
+                    .item-ebook {
+                        border-color: #f5a100;
+                        .hover-box {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+        .backdrop {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            z-index: 2;
+            background-image: url(/assets/images/sub/bg_news_table_content_sm.jpg);
+            background-repeat: repeat-x;
+            background-position: 0 100%;
+            &:before {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 100px;
+                content: url(/assets/images/sub/bg_news_table_left_sm.jpg);
+            }
+            &:after {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                height: 100px;
+                content: url(/assets/images/sub/bg_news_table_right_sm.jpg);
+            }
+        }
+    }
+    @media(min-width: $md) {
+        .ebook-list {
+            padding: 0 10px;
+            > .news-list {
+                padding: 0 40px 160px;
+                > a {
+                    .details {
+                        padding-bottom: 30px;
+                        small {
+                            font-size: 13px;
+                        }
+                        h3 {
+                            font-size: 16px;
+                            margin-top: 15px;
+                        }
+                    }
+                    .item-ebook {
+                        box-shadow: -5px -5px 15px 0px rgba(0, 0, 0, 0.3);
+                        .hover-box {
+                            background-size: 60px auto;
+                        }
+                    }
+                }
+            }
+            .backdrop {
+                height: 160px;
+                background-image: url(/assets/images/sub/bg_news_table_content_md.jpg);
+                &:before {
+                    height: 160px;
+                    content: url(/assets/images/sub/bg_news_table_left_md.jpg);
+                }
+                &:after {
+                    height: 160px;
+                    content: url(/assets/images/sub/bg_news_table_right_md.jpg);
+                }
+            }
+        }
+    }
+}
+
+// news-list xl ebook
+.news-table-xl {
+    > .ebook-list {
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 160px;
+        > .news-list {
+            float: left;
+            width: 33.3%;
+            padding: 0 50px;
+            > a {
+                display: block;
+                .details {
+                    padding-bottom: 35px;
+                    text-align: center;
+                    small {
+                        font-size: 13px;
+                        color: #666;
+                    }
+                    h3 {
+                        font-size: 16px;
+                        color: #333;
+                        font-weight: 500;
+                        @include roboto();
+                        margin-top: 15px;
+                    }
+                }
+                .item-ebook {
+                    position: relative;
+                    z-index: 1;
+                    border: 1px solid #ebebeb;
+                    @include transition();
+                    box-shadow: -4px -4px 15px 0px rgba(0, 0, 0, 0.2);
+                    .img-fluid {
+                        width: 100%;
+                    }
+                    .hover-box {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0;
+                        background-image: url(/assets/images/sub/icon_hover_more.png);
+                        background-repeat: no-repeat;
+                        background-position: 50% 50%;
+                        background-size: 60px auto;
+                        background-color: rgba(#f5a100, .9);
+                        @include transition();
+                    }
+                }
+                &:hover, &:focus {
+                    .item-ebook {
+                        border-color: #f5a100;
+                        .hover-box {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+        .backdrop {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 160px;
+            background-image: url(/assets/images/sub/bg_news_table_content_md.jpg);
+            &:before {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 160px;
+                content: url(/assets/images/sub/bg_news_table_left_md.jpg);
+            }
+            &:after {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                height: 160px;
+                content: url(/assets/images/sub/bg_news_table_right_md.jpg);
+            }
+        }
+    }
+}
 
 
 
