@@ -36,7 +36,7 @@
     	<div class="container">
  			
   			<p class="ex-txt">검색</p>
-			<!-- search-form -->
+			<!-- search-form-->
 			<div class="search-form">
 				<form action="#">
 					<div class="form-group">
@@ -48,6 +48,32 @@
 							<i class="icon-search"></i>
 						</button>
 					</p>
+				</form>
+			</div>
+			
+			<p class="ex-txt">검색2</p>
+			<div class="search-form-2">
+				<form action="#">
+					<div class="row">
+						<div class="col-4 col-xl-3">
+							<div class="form-group">
+								<select class="form-control">
+									<option>전체</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-8 col-xl-9">
+							<div class="form-group">
+								<input type="text" id="search2" class="form-control" placeholder="검색어를 입력해 주세요">
+								<label for="search2" class="sr-only">검색하기</label>
+							</div>
+							<p class="btn-search">
+								<button type="submit" class="btn btn-default">
+									<i class="icon-search"></i>
+								</button>
+							</p>
+						</div>
+					</div>
 				</form>
 			</div>
    	
@@ -400,7 +426,7 @@
          						</tr>
          						<tr>
          							<th class="v-top">
-         								<label for="u-content">문의내용</label>
+         								<label for="u-content">내용</label>
          							</th>
          							<td>
          								<div class="form-group">

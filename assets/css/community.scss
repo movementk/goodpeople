@@ -1,0 +1,60 @@
+@import 'common';
+
+// 굿피플 소식  > 소식
+.news-list {
+	article {
+		.article-header {
+			padding-top: 20px;
+		}
+		.article-content {
+			padding-top: 30px;
+			.paging {
+				margin-top: 35px;
+			}
+		}
+	}
+	@media(min-width: $md) {
+		article {
+			.article-header {
+				padding-top: 40px;
+			}
+			.article-content {
+				padding-top: 40px;
+				.paging {
+					margin-top: 50px;  
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
