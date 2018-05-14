@@ -435,6 +435,16 @@ label {
                             }
                         }
                     }
+                    &.active {
+                        a {
+                            &:hover, &:focus {
+                                opacity: 1;
+                                &:after {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -1655,7 +1665,6 @@ label {
 
 // news-list sm md ebook
 .news-table-sm {
-    padding-top: 100px;
     > .ebook-list {
         position: relative;
         overflow: hidden;

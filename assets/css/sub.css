@@ -690,7 +690,11 @@ label {
         width: 100%;
         content: " ";
         opacity: .6;
-        border-bottom: 2px solid #eb6100; } }
+        border-bottom: 2px solid #eb6100; }
+  .page-intro .lnb .tab-list > li.active a:hover, .page-intro .lnb .tab-list > li.active a:focus {
+    opacity: 1; }
+    .page-intro .lnb .tab-list > li.active a:hover:after, .page-intro .lnb .tab-list > li.active a:focus:after {
+      opacity: 1; } }
 
 /************ 아라씨 작업 ************/
 .ex-txt {
@@ -1465,100 +1469,98 @@ label {
     .write-wrap .table-wrap .table tbody tr td .form-group .form-control {
       font-size: 14px; } }
 
-.news-table-sm {
-  padding-top: 100px; }
-  .news-table-sm > .ebook-list {
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 100px; }
-    .news-table-sm > .ebook-list > .news-list {
-      float: left;
-      width: 50%;
-      padding: 0 5px; }
-      .news-table-sm > .ebook-list > .news-list > a {
-        display: block; }
-        .news-table-sm > .ebook-list > .news-list > a .details {
-          padding-bottom: 20px;
-          text-align: center; }
-          .news-table-sm > .ebook-list > .news-list > a .details small {
-            font-size: 12px;
-            color: #666; }
-          .news-table-sm > .ebook-list > .news-list > a .details h3 {
-            font-size: 14px;
-            color: #333;
-            font-weight: 500;
-            font-family: 'Roboto', sans-serif;
-            margin-top: 10px; }
-        .news-table-sm > .ebook-list > .news-list > a .item-ebook {
-          position: relative;
-          z-index: 1;
-          border: 1px solid #ebebeb;
-          box-shadow: -4px -4px 15px 0px rgba(0, 0, 0, 0.2); }
-          .news-table-sm > .ebook-list > .news-list > a .item-ebook .img-fluid {
-            width: 100%; }
-          .news-table-sm > .ebook-list > .news-list > a .item-ebook .hover-box {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            display: none;
-            background-image: url(/assets/images/sub/icon_hover_more.png);
-            background-repeat: no-repeat;
-            background-position: 50% 50%;
-            background-size: 30px auto;
-            background-color: rgba(245, 161, 0, 0.9); }
-        .news-table-sm > .ebook-list > .news-list > a:focus .item-ebook {
-          border-color: #f5a100; }
-          .news-table-sm > .ebook-list > .news-list > a:focus .item-ebook .hover-box {
-            display: block; }
-    .news-table-sm > .ebook-list .backdrop {
+.news-table-sm > .ebook-list {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100px; }
+  .news-table-sm > .ebook-list > .news-list {
+    float: left;
+    width: 50%;
+    padding: 0 5px; }
+    .news-table-sm > .ebook-list > .news-list > a {
+      display: block; }
+      .news-table-sm > .ebook-list > .news-list > a .details {
+        padding-bottom: 20px;
+        text-align: center; }
+        .news-table-sm > .ebook-list > .news-list > a .details small {
+          font-size: 12px;
+          color: #666; }
+        .news-table-sm > .ebook-list > .news-list > a .details h3 {
+          font-size: 14px;
+          color: #333;
+          font-weight: 500;
+          font-family: 'Roboto', sans-serif;
+          margin-top: 10px; }
+      .news-table-sm > .ebook-list > .news-list > a .item-ebook {
+        position: relative;
+        z-index: 1;
+        border: 1px solid #ebebeb;
+        box-shadow: -4px -4px 15px 0px rgba(0, 0, 0, 0.2); }
+        .news-table-sm > .ebook-list > .news-list > a .item-ebook .img-fluid {
+          width: 100%; }
+        .news-table-sm > .ebook-list > .news-list > a .item-ebook .hover-box {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: none;
+          background-image: url(/assets/images/sub/icon_hover_more.png);
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          background-size: 30px auto;
+          background-color: rgba(245, 161, 0, 0.9); }
+      .news-table-sm > .ebook-list > .news-list > a:focus .item-ebook {
+        border-color: #f5a100; }
+        .news-table-sm > .ebook-list > .news-list > a:focus .item-ebook .hover-box {
+          display: block; }
+  .news-table-sm > .ebook-list .backdrop {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    background-image: url(/assets/images/sub/bg_news_table_content_sm.jpg);
+    background-repeat: repeat-x;
+    background-position: 0 100%; }
+    .news-table-sm > .ebook-list .backdrop:before {
       position: absolute;
       bottom: 0;
       left: 0;
-      width: 100%;
       height: 100px;
-      z-index: 2;
-      background-image: url(/assets/images/sub/bg_news_table_content_sm.jpg);
-      background-repeat: repeat-x;
-      background-position: 0 100%; }
-      .news-table-sm > .ebook-list .backdrop:before {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        height: 100px;
-        content: url(/assets/images/sub/bg_news_table_left_sm.jpg); }
-      .news-table-sm > .ebook-list .backdrop:after {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        height: 100px;
-        content: url(/assets/images/sub/bg_news_table_right_sm.jpg); }
-  @media (min-width: 768px) {
-    .news-table-sm .ebook-list {
-      padding: 0 10px; }
-      .news-table-sm .ebook-list > .news-list {
-        padding: 0 40px 160px; }
-        .news-table-sm .ebook-list > .news-list > a .details {
-          padding-bottom: 30px; }
-          .news-table-sm .ebook-list > .news-list > a .details small {
-            font-size: 13px; }
-          .news-table-sm .ebook-list > .news-list > a .details h3 {
-            font-size: 16px;
-            margin-top: 15px; }
-        .news-table-sm .ebook-list > .news-list > a .item-ebook {
-          box-shadow: -5px -5px 15px 0px rgba(0, 0, 0, 0.3); }
-          .news-table-sm .ebook-list > .news-list > a .item-ebook .hover-box {
-            background-size: 60px auto; }
-      .news-table-sm .ebook-list .backdrop {
+      content: url(/assets/images/sub/bg_news_table_left_sm.jpg); }
+    .news-table-sm > .ebook-list .backdrop:after {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 100px;
+      content: url(/assets/images/sub/bg_news_table_right_sm.jpg); }
+@media (min-width: 768px) {
+  .news-table-sm .ebook-list {
+    padding: 0 10px; }
+    .news-table-sm .ebook-list > .news-list {
+      padding: 0 40px 160px; }
+      .news-table-sm .ebook-list > .news-list > a .details {
+        padding-bottom: 30px; }
+        .news-table-sm .ebook-list > .news-list > a .details small {
+          font-size: 13px; }
+        .news-table-sm .ebook-list > .news-list > a .details h3 {
+          font-size: 16px;
+          margin-top: 15px; }
+      .news-table-sm .ebook-list > .news-list > a .item-ebook {
+        box-shadow: -5px -5px 15px 0px rgba(0, 0, 0, 0.3); }
+        .news-table-sm .ebook-list > .news-list > a .item-ebook .hover-box {
+          background-size: 60px auto; }
+    .news-table-sm .ebook-list .backdrop {
+      height: 160px;
+      background-image: url(/assets/images/sub/bg_news_table_content_md.jpg); }
+      .news-table-sm .ebook-list .backdrop:before {
         height: 160px;
-        background-image: url(/assets/images/sub/bg_news_table_content_md.jpg); }
-        .news-table-sm .ebook-list .backdrop:before {
-          height: 160px;
-          content: url(/assets/images/sub/bg_news_table_left_md.jpg); }
-        .news-table-sm .ebook-list .backdrop:after {
-          height: 160px;
-          content: url(/assets/images/sub/bg_news_table_right_md.jpg); } }
+        content: url(/assets/images/sub/bg_news_table_left_md.jpg); }
+      .news-table-sm .ebook-list .backdrop:after {
+        height: 160px;
+        content: url(/assets/images/sub/bg_news_table_right_md.jpg); } }
 
 .news-table-xl > .ebook-list {
   position: relative;

@@ -450,7 +450,7 @@
          		</form>
          	</div>
          	
-         	<p class="ex-txt">E-book 리스</p>
+         	<p class="ex-txt">E-book 리스트</p>
          	<!-- news-list sm, md -->
             <article class="news-table-sm d-xl-none">
                 <div class="ebook-list">
