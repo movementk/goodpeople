@@ -23,12 +23,15 @@ label {
 .form-group {
     margin: 0;
 	padding: 0;
-    .form-control {
-        width: 100%;
-		height: 35px;
-		border-radius: 0;
-		box-shadow: none;
-        border: 1px solid #dfdfdf;
+}
+.form-control {
+    width: 100%;
+    height: 35px;
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid #dfdfdf;
+    @media(min-width: $md) {
+        height: 40px;
     }
 }
 .table {
@@ -39,9 +42,23 @@ label {
 }
 .btn {
 	padding: 0;
-	box-shadow: none !important;
 	border: 0;
 	border-radius: 0;
+	box-shadow: none !important;
+}
+input[type="text"] {
+    &.form-control::-webkit-input-placeholder { 
+        color: #aaa;
+    }
+    &.form-control::-moz-placeholder { 
+        color: #aaa;
+    }
+    &.form-control:-ms-input-placeholder { 
+        color: #aaa;
+    }
+    &.form-control:-moz-placeholder { 
+        color: #aaa;
+    }
 }
 
 //btn 공통
@@ -480,22 +497,6 @@ label {
 			width: 100%;
 			background-color: #f3f5fa;
 		}
-		input.form-control::-webkit-input-placeholder { 
-			/* Chrome/Opera/Safari */
-			color: #aaa;
-		}
-		input.form-control::-moz-placeholder { 
-			/* Firefox 19+ */
-			color: #aaa;
-		}
-		input.form-control:-ms-input-placeholder { 
-			/* IE 10+ */
-			color: #aaa;
-		}
-		input.form-control:-moz-placeholder { 
-			/* Firefox 18- */
-			color: #aaa;
-		}
 		.form-control {
 			font-size: 13px;
 			color: #000;
@@ -552,22 +553,6 @@ label {
 		select {
 			height: 45px !important;
 			color: #aaa !important;
-		}
-		input.form-control::-webkit-input-placeholder { 
-			/* Chrome/Opera/Safari */
-			color: #aaa;
-		}
-		input.form-control::-moz-placeholder { 
-			/* Firefox 19+ */
-			color: #aaa;
-		}
-		input.form-control:-ms-input-placeholder { 
-			/* IE 10+ */
-			color: #aaa;
-		}
-		input.form-control:-moz-placeholder { 
-			/* Firefox 18- */
-			color: #aaa;
 		}
 		.form-control {
 			font-size: 13px;
@@ -1491,7 +1476,6 @@ label {
 									height: 400px !important;
 								}
 								.form-control {
-									height: 40px;
 									font-size: 14px;
 								}
 							}
