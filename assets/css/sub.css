@@ -1495,7 +1495,7 @@ label {
         position: relative;
         z-index: 1;
         border: 1px solid #ebebeb;
-        box-shadow: -4px -4px 15px 0px rgba(0, 0, 0, 0.2); }
+        box-shadow: -2px -2px 5px 0px rgba(0, 0, 0, 0.2); }
         .news-table-sm > .ebook-list > .news-list > a .item-ebook .img-fluid {
           width: 100%; }
         .news-table-sm > .ebook-list > .news-list > a .item-ebook .hover-box {
