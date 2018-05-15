@@ -283,7 +283,7 @@
         </ul>
         <div class="quick-menu">
             <ul class="member">
-                <li><a href="#">로그아웃</a></li>
+                <li><a href="/member/login.php">로그인</a></li>
                 <li><a href="#">회원가입</a></li>
                 <li><a href="#">자료실</a></li>
             </ul>

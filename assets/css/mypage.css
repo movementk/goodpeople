@@ -356,4 +356,306 @@ a {
     .container {
       max-width: 1200px; } }
 
+.children-list .list-type1 > ul > li {
+  padding: 30px 20px;
+  border: 1px solid #e2e2e2;
+  background-color: #f9fafc; }
+  .children-list .list-type1 > ul > li ~ li {
+    margin-top: 20px; }
+  .children-list .list-type1 > ul > li figure {
+    padding: 0 25px; }
+    .children-list .list-type1 > ul > li figure .img-fluid {
+      display: block;
+      margin: 0 auto; }
+  .children-list .list-type1 > ul > li .details {
+    margin-top: 30px; }
+    .children-list .list-type1 > ul > li .details > ul > li dl {
+      overflow: hidden; }
+      .children-list .list-type1 > ul > li .details > ul > li dl dt {
+        float: left;
+        clear: both;
+        width: 70px;
+        font-size: 13px;
+        color: #333;
+        font-weight: 500;
+        line-height: 26px; }
+      .children-list .list-type1 > ul > li .details > ul > li dl dd {
+        display: block;
+        font-size: 13px;
+        color: #666;
+        font-weight: 400;
+        line-height: 26px; }
+    .children-list .list-type1 > ul > li .details hr {
+      display: block;
+      margin: 30px 0;
+      border-top: 1px solid #dfdfdf; }
+    .children-list .list-type1 > ul > li .details .summary strong {
+      font-size: 13px;
+      color: #333;
+      font-weight: 500; }
+    .children-list .list-type1 > ul > li .details .summary p {
+      font-size: 13px;
+      color: #666;
+      line-height: 24px;
+      margin-top: 20px; }
+    .children-list .list-type1 > ul > li .details .btn-area {
+      margin-top: 30px; }
+      .children-list .list-type1 > ul > li .details .btn-area p .btn {
+        text-align: center; }
+        .children-list .list-type1 > ul > li .details .btn-area p .btn.btn-lg {
+          font-size: 13px;
+          color: #666;
+          width: 100%; }
+        .children-list .list-type1 > ul > li .details .btn-area p .btn.btn-white {
+          line-height: 33px;
+          border: 1px solid #999;
+          background: none; }
+        .children-list .list-type1 > ul > li .details .btn-area p .btn:hover, .children-list .list-type1 > ul > li .details .btn-area p .btn:focus {
+          opacity: 1;
+          color: #fff;
+          border-color: #eb6100;
+          background-color: #eb6100; }
+.children-list .list-type1 > .paging {
+  margin-top: 30px; }
+@media (min-width: 768px) {
+  .children-list .list-type1 > ul > li {
+    padding: 50px 20px; }
+    .children-list .list-type1 > ul > li ~ li {
+      margin-top: 30px; }
+    .children-list .list-type1 > ul > li figure {
+      padding: 0 40px 0 0; }
+    .children-list .list-type1 > ul > li .details {
+      margin-top: 0;
+      padding-right: 40px; }
+      .children-list .list-type1 > ul > li .details > ul > li dl dt {
+        font-size: 14px;
+        line-height: 30px;
+        width: 125px; }
+      .children-list .list-type1 > ul > li .details > ul > li dl dd {
+        font-size: 14px;
+        line-height: 30px; }
+      .children-list .list-type1 > ul > li .details .summary strong {
+        font-size: 14px; }
+      .children-list .list-type1 > ul > li .details .btn-area {
+        margin-top: 40px; }
+        .children-list .list-type1 > ul > li .details .btn-area p .btn.btn-lg {
+          width: 150px;
+          height: 40px;
+          line-height: 38px; } }
+@media (min-width: 1200px) {
+  .children-list .list-type1 > ul > li {
+    padding: 50px 0; }
+    .children-list .list-type1 > ul > li ~ li {
+      margin-top: 50px; }
+    .children-list .list-type1 > ul > li figure {
+      padding: 0; }
+    .children-list .list-type1 > ul > li .details {
+      padding-right: 50px; }
+      .children-list .list-type1 > ul > li .details > ul {
+        overflow: hidden; }
+        .children-list .list-type1 > ul > li .details > ul > li {
+          float: left;
+          width: 50%;
+          text-align: left; }
+          .children-list .list-type1 > ul > li .details > ul > li dl dt {
+            font-size: 15px;
+            line-height: 36px;
+            width: 100px; }
+          .children-list .list-type1 > ul > li .details > ul > li dl dd {
+            font-size: 15px;
+            line-height: 36px; }
+      .children-list .list-type1 > ul > li .details hr {
+        margin: 35px 0; }
+      .children-list .list-type1 > ul > li .details .summary strong {
+        font-size: 15px; }
+      .children-list .list-type1 > ul > li .details .summary p {
+        font-size: 14px;
+        margin-top: 20px;
+        line-height: 28px; }
+      .children-list .list-type1 > ul > li .details .btn-area {
+        margin-top: 30px; }
+        .children-list .list-type1 > ul > li .details .btn-area p .btn.btn-white {
+          font-size: 14px; }
+  .children-list .list-type1 > .paging {
+    margin-top: 50px; } }
+.children-list .list-type2 > ul > li > a {
+  text-align: center;
+  display: block; }
+  .children-list .list-type2 > ul > li > a figure .img-fluid {
+    display: block;
+    margin: 0 auto; }
+  .children-list .list-type2 > ul > li > a figure figcaption {
+    margin-top: 20px; }
+    .children-list .list-type2 > ul > li > a figure figcaption dl dt {
+      font-size: 12px;
+      color: #666;
+      font-weight: 400;
+      margin-bottom: 10px; }
+    .children-list .list-type2 > ul > li > a figure figcaption dl dd {
+      font-size: 13px;
+      color: #333;
+      font-weight: 400; }
+.children-list .list-type2 > ul > li:nth-of-type(2) ~ li > a {
+  margin-top: 30px; }
+.children-list .list-type2 > .paging {
+  margin-top: 40px; }
+@media (min-width: 768px) {
+  .children-list .list-type2 > ul > li > a figure figcaption {
+    margin-top: 30px; }
+    .children-list .list-type2 > ul > li > a figure figcaption dl dt {
+      font-size: 13px; }
+    .children-list .list-type2 > ul > li > a figure figcaption dl dd {
+      font-size: 15px; }
+  .children-list .list-type2 > ul > li:nth-of-type(2) ~ li > a {
+    margin-top: 0px; }
+  .children-list .list-type2 > ul > li:nth-of-type(3) ~ li > a {
+    margin-top: 60px; }
+  .children-list .list-type2 > .paging {
+    margin-top: 60px; } }
+@media (min-width: 1200px) {
+  .children-list .list-type2 > ul > li > a figure figcaption dl dt {
+    font-size: 14px; }
+  .children-list .list-type2 > ul > li > a figure figcaption dl dd {
+    font-size: 16px; }
+  .children-list .list-type2 > ul > li:nth-of-type(3) ~ li > a {
+    margin-top: 0; }
+  .children-list .list-type2 > ul > li:nth-of-type(4) ~ li > a {
+    margin-top: 70px; }
+  .children-list .list-type2 > .paging {
+    margin-top: 80px; } }
+
+.children-view .children-details .article-content {
+  padding: 30px 20px;
+  border: 1px solid #e2e2e2;
+  background-color: #f9fafc; }
+  .children-view .children-details .article-content figure {
+    padding: 0 25px; }
+    .children-view .children-details .article-content figure .img-fluid {
+      display: block;
+      margin: 0 auto; }
+  .children-view .children-details .article-content .details {
+    margin-top: 30px; }
+    .children-view .children-details .article-content .details > ul > li dl {
+      overflow: hidden; }
+      .children-view .children-details .article-content .details > ul > li dl dt {
+        float: left;
+        clear: both;
+        width: 70px;
+        font-size: 13px;
+        color: #333;
+        font-weight: 500;
+        line-height: 26px; }
+      .children-view .children-details .article-content .details > ul > li dl dd {
+        display: block;
+        font-size: 13px;
+        color: #666;
+        font-weight: 400;
+        line-height: 26px; }
+    .children-view .children-details .article-content .details hr {
+      display: block;
+      margin: 30px 0;
+      border-top: 1px solid #dfdfdf; }
+    .children-view .children-details .article-content .details .summary strong {
+      font-size: 13px;
+      color: #333;
+      font-weight: 500; }
+    .children-view .children-details .article-content .details .summary p {
+      font-size: 13px;
+      color: #666;
+      line-height: 24px;
+      margin-top: 20px; }
+    .children-view .children-details .article-content .details .btn-letter {
+      margin-top: 30px; }
+      .children-view .children-details .article-content .details .btn-letter p .btn {
+        text-align: center; }
+        .children-view .children-details .article-content .details .btn-letter p .btn.btn-sm {
+          font-size: 13px;
+          color: #666;
+          width: 100%;
+          line-height: 33px;
+          border: 1px solid #999;
+          background: none; }
+        .children-view .children-details .article-content .details .btn-letter p .btn:hover, .children-view .children-details .article-content .details .btn-letter p .btn:focus {
+          opacity: 1;
+          color: #fff;
+          border-color: #eb6100;
+          background-color: #eb6100; }
+.children-view .children-details .btn-area {
+  text-align: right;
+  margin-top: 30px; }
+  .children-view .children-details .btn-area p .btn-white {
+    width: 145px;
+    height: 45px;
+    font-size: 13px;
+    color: #111;
+    text-align: center;
+    line-height: 43px;
+    border: 1px solid #2b2b2b; }
+    .children-view .children-details .btn-area p .btn-white:hover, .children-view .children-details .btn-area p .btn-white:focus {
+      opacity: 1;
+      color: #fff;
+      border-color: #eb6100;
+      background-color: #eb6100; }
+@media (min-width: 768px) {
+  .children-view .children-details .article-content {
+    padding: 50px 20px; }
+    .children-view .children-details .article-content figure {
+      padding: 0 40px 0 0; }
+    .children-view .children-details .article-content .details {
+      margin-top: 0;
+      padding-right: 40px; }
+      .children-view .children-details .article-content .details > ul > li dl dt {
+        font-size: 14px;
+        line-height: 30px;
+        width: 125px; }
+      .children-view .children-details .article-content .details > ul > li dl dd {
+        font-size: 14px;
+        line-height: 30px; }
+      .children-view .children-details .article-content .details .summary strong {
+        font-size: 14px; }
+      .children-view .children-details .article-content .details .btn-letter {
+        margin-top: 40px; }
+        .children-view .children-details .article-content .details .btn-letter p .btn.btn-sm {
+          width: 150px;
+          line-height: 40px; }
+  .children-view .children-details .btn-area p .btn-white {
+    font-size: 14px;
+    width: 170px;
+    height: 45px;
+    line-height: 43px; } }
+@media (min-width: 1200px) {
+  .children-view .children-details .article-content {
+    padding: 50px 0; }
+    .children-view .children-details .article-content figure {
+      padding: 0; }
+    .children-view .children-details .article-content .details {
+      padding-right: 50px; }
+      .children-view .children-details .article-content .details > ul {
+        overflow: hidden; }
+        .children-view .children-details .article-content .details > ul > li {
+          float: left;
+          width: 50%;
+          text-align: left; }
+          .children-view .children-details .article-content .details > ul > li dl dt {
+            font-size: 15px;
+            line-height: 36px;
+            width: 100px; }
+          .children-view .children-details .article-content .details > ul > li dl dd {
+            font-size: 15px;
+            line-height: 36px; }
+      .children-view .children-details .article-content .details hr {
+        margin: 35px 0; }
+      .children-view .children-details .article-content .details .summary strong {
+        font-size: 15px; }
+      .children-view .children-details .article-content .details .summary p {
+        font-size: 14px;
+        margin-top: 20px;
+        line-height: 28px; }
+      .children-view .children-details .article-content .details .btn-letter {
+        margin-top: 30px; }
+        .children-view .children-details .article-content .details .btn-letter p .btn.btn-sm {
+          font-size: 14px; }
+  .children-view .children-details .btn-area {
+    margin-top: 50px; } }
+
 /*# sourceMappingURL=mypage.css.map */

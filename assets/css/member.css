@@ -457,4 +457,10 @@ a {
         .login .login-form .btn-area .btn.btn-lg:hover, .login .login-form .btn-area .btn.btn-lg:focus {
           opacity: .7; } }
 
+.annual-report {
+  padding-top: 50px; }
+  @media (min-width: 768px) {
+    .annual-report {
+      padding-top: 80px; } }
+
 /*# sourceMappingURL=member.css.map */
