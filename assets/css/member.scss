@@ -1,0 +1,168 @@
+@import 'common';
+
+
+// login
+.login {
+    min-height: auto !important;
+    .login-form {
+        padding: 30px 20px;
+        border: 1px solid #ccc;
+        .form-group {
+            .form-control {
+                border: 1px solid #f3f5fa;
+                background-color: #f3f5fa;
+                & ~ .form-control {
+                    margin-top: 10px;
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 15px;
+            overflow: hidden;
+            hr {
+                display: block;
+                border-top: 1px solid #ccc;
+                margin: 30px 0;
+            }
+            .btn {
+                text-align: center;
+                &.btn-lg {
+                    font-size: 14px;
+                    line-height: 40px;
+                    width: 100%;
+                }
+                &.btn-or {
+                    color: #fff;
+                    background-color: #eb6100;
+                }
+                &.btn-md {
+                    width: 100%;
+                    font-size: 12px;
+                    color: #999;
+                    line-height: 28px;
+                    border: 1px solid #ccc;
+                }
+            }
+            > p {
+                float: left;
+                display: block;
+                width: 50%;
+                &:nth-of-type(1) {
+                    padding-right: 5px;
+                }
+                &:nth-of-type(2) {
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+    @media(min-width: $md) {
+        padding-bottom: 150px !important;
+        .login-form {
+            padding: 80px 20%;
+            .form-group {
+                .form-control {
+                    height: 50px;
+                    & ~ .form-control {
+                        margin-top: 15px;
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 25px;
+                overflow: visible;
+                hr {
+                    border-top: 1px solid #fff;
+                }
+                .btn {
+                    text-align: center;
+                    &.btn-lg {
+                        font-size: 16px;
+                        line-height: 50px;
+                    }
+                    &.btn-md {
+                        width: 100px;
+                        float: right;
+                    }
+                }
+                > p {
+                    width: 100%;
+                    padding: 0 !important;
+                    float: none;
+                    overflow: hidden;
+                    & ~ p {
+                        margin-top: 10px;
+                    }
+                    .note {
+                        position: relative;
+                        font-size: 14px;
+                        color: #888;
+                        line-height: 30px;
+                        font-style: normal;
+                        padding-left: 25px;
+                        float: left;
+                        &:before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            font-family: "fontello";
+                        }
+                        &.join {
+                            &:before {
+                                content: "\E80C";
+                            }
+                        }
+                        &.find {
+                            &:before {
+                                content: "\E809";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $xl) {
+        .login-form {
+            padding: 80px 30%;
+            .btn-area {
+                .btn {
+                    &.btn-lg {
+                        @include transition();
+                        &:hover, &:focus {
+                            opacity: .7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
