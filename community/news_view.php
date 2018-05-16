@@ -44,7 +44,11 @@
            			</ul>
            		</div>
            		<div class="article-content">
-           			<div class="view-content">
+           			<!--
+           				.view-content  -> width: 100%;
+           				.center 추가 했을때 -> width: 725px; center정렬
+           			 -->
+           			<div class="view-content center">
            				<div class="item">
            					<img src="/assets/images/community/img_news_view01.jpg" class="img-fluid" alt="">
            					<p>

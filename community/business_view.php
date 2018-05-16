@@ -30,16 +30,23 @@
     	<div class="container">
     		<article class="board-view">
            		<div class="article-header">
+           			<!--
+           				.or -> 해외사업
+           				.bl -> 국내사업
+           			 -->
            			<p class="or">해외사업</p>
            			<h4>사랑의 의료봉사, 고려대학교 교우회 감사패 수상</h4>
            			<ul class="icon-list">
-           				<li class="user">굿피플</li>
            				<li class="calendar">2018-05-01</li>
 						<li class="eye">1,234</li>
            			</ul>
            		</div>
            		<div class="article-content">
-           			<div class="view-content">
+           			<!--
+           				.view-content  -> width: 100%;
+           				.center 추가 했을때 -> width: 725px; center정렬
+           			 -->
+           			<div class="view-content center">
            				<div class="item">
            					<img src="/assets/images/community/img_news_view01.jpg" class="img-fluid" alt="">
            					<p>
