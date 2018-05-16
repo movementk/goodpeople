@@ -608,11 +608,14 @@ input, textarea {
 		.form-group	{
 			select {
 				height: 50px !important;
+                padding-left: 20px !important;
+                padding-right: 20px !important;
 			}
 			.form-control {
 				font-size: 14px;
 				height: 50px;
 				line-height: 50px;
+                padding-left: 20px;
 			}
 		}
 		.btn-search {
