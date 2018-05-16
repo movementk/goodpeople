@@ -358,7 +358,7 @@ a {
       max-width: 1200px; } }
 
 #content {
-  min-height: 600px;
+  min-height: 300px;
   padding-bottom: 60px; }
   @media (min-width: 768px) {
     #content {
@@ -429,13 +429,13 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       width: 120px;
       font-size: 13px;
       color: #111;
-      line-height: 45px;
+      line-height: 43px;
       border: 1px solid #111; }
     .btn-area p .btn.btn-gray {
       width: 80px;
       font-size: 13px;
       color: #999;
-      line-height: 45px;
+      line-height: 43px;
       border: 1px solid #ccc; }
   @media (min-width: 768px) {
     .btn-area p .btn.btn-black {
@@ -766,6 +766,8 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     font-size: 14px;
     color: #144199;
     background: none !important; }
+    .search-form .btn-search .btn-default:hover i, .search-form .btn-search .btn-default:focus i {
+      opacity: .7; }
     .search-form .btn-search .btn-default i {
       position: relative;
       top: -2px; }
@@ -812,6 +814,8 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       font-size: 14px;
       color: #144199;
       background: none !important; }
+      .select-search .btn-search .btn.btn-default:hover i, .select-search .btn-search .btn.btn-default:focus i {
+        opacity: .7; }
       .select-search .btn-search .btn.btn-default i {
         position: relative;
         top: -2px; }
@@ -984,24 +988,26 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     text-align: left;
     overflow: hidden;
     margin-top: 10px; }
-    .board-list-2 ol > li .icon-list li.calendar {
-      float: left;
-      padding-right: 0; }
-    .board-list-2 ol > li .icon-list li.reply {
-      float: right;
-      padding-left: 0; }
-      .board-list-2 ol > li .icon-list li.reply p {
-        width: 70px;
-        height: 25px;
-        font-size: 12px;
-        color: #666;
-        text-align: center;
-        line-height: 25px;
-        border: 1px solid #ccc; }
-    .board-list-2 ol > li .icon-list li.success p {
-      color: #999;
-      border-color: #f3f3f3;
-      background-color: #f3f3f3; }
+    .board-list-2 ol > li .icon-list li {
+      line-height: 25px; }
+      .board-list-2 ol > li .icon-list li.calendar {
+        float: left;
+        padding-right: 0; }
+      .board-list-2 ol > li .icon-list li.reply {
+        float: right;
+        padding-left: 0; }
+        .board-list-2 ol > li .icon-list li.reply p {
+          width: 70px;
+          height: 25px;
+          font-size: 12px;
+          color: #666;
+          text-align: center;
+          line-height: 23px;
+          border: 1px solid #ccc; }
+      .board-list-2 ol > li .icon-list li.success p {
+        color: #999;
+        border-color: #f3f3f3;
+        background-color: #f3f3f3; }
 @media (min-width: 768px) {
   .board-list-2 ol > li {
     padding: 30px 10px; }
@@ -1024,11 +1030,11 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         font-size: 15px;
         color: #666;
         line-height: 35px;
-        /*padding-left: 10px;*/
         font-family: 'Roboto', sans-serif; }
       .board-list-2 ol > li h3 {
         margin-left: -15px; }
         .board-list-2 ol > li h3 a {
+          text-align: left;
           line-height: 35px; }
       .board-list-2 ol > li .icon-list {
         padding-left: 20px;
@@ -1103,7 +1109,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     .board-view .article-content .view-content p {
       font-size: 13px;
       color: #555;
-      line-height: 23px; }
+      line-height: 24px; }
     .board-view .article-content .view-content .reply {
       margin-top: 40px;
       padding: 20px;
@@ -1125,17 +1131,16 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     position: relative;
     border-top: 1px solid #dfdfdf;
     border-bottom: 1px solid #aaa;
-    padding: 20px 10px; }
+    padding: 15px 10px 15px 45px; }
     .board-view .article-content .attach:before {
       position: absolute;
-      top: 23px;
+      top: 20px;
       left: 10px;
       content: "\E80F";
       font-family: "fontello";
       font-size: 12px;
       color: #aaa; }
     .board-view .article-content .attach li {
-      padding-left: 20px;
       line-height: 26px; }
       .board-view .article-content .attach li a {
         font-size: 13px;
@@ -1202,7 +1207,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       padding: 50px 30px; }
       .board-view .article-content .view-content p {
         font-size: 14px;
-        line-height: 24px; }
+        line-height: 26px; }
       .board-view .article-content .view-content .reply {
         margin-top: 50px;
         padding: 40px; }
@@ -1214,16 +1219,11 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
           font-size: 14px;
           margin-top: 25px; }
     .board-view .article-content .attach {
-      padding: 25px 20px; }
-      .board-view .article-content .attach li:before {
-        margin-right: 20px; }
-    .board-view .article-content .attach {
-      padding: 20px 20px; }
+      padding: 20px 10px 20px 50px; }
       .board-view .article-content .attach:before {
-        top: 23px;
+        top: 25px;
         left: 20px; }
       .board-view .article-content .attach li {
-        padding-left: 25px;
         line-height: 28px; }
     .board-view .article-content .btn-area {
       padding: 50px 0; }
@@ -1245,7 +1245,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
   @media (min-width: 1200px) {
     .board-view .article-content .view-content p {
       font-size: 14px;
-      line-height: 26px; }
+      line-height: 28px; }
     .board-view .article-content .page-link-list ul li dl dt {
       padding-right: 50px; }
     .board-view .article-content .page-link-list ul li dl dd:before {
