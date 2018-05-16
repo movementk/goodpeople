@@ -1,6 +1,6 @@
 @import 'common';
 
-// 굿피플 소식  > 소식
+// 굿피플 소식 리스트
 .news-list {
 	article {
 		.article-header {
@@ -29,10 +29,296 @@
 }
 
 
+// 사업소식 리스트
+.business-list {
+	.container {
+		.search-form {
+			margin-bottom: 30px;
+		}
+		.row {
+			li {
+				a {
+					display: block;
+					.item-img {
+						position: relative;
+						img {
+							width: 100%;
+						}
+						p {
+							position: absolute;
+							top: 10px;
+							left: 10px;
+							width: 80px;
+							height: 30px;
+							font-size: 12px;
+							color: #fff;
+							line-height: 30px;
+							text-align: center;
+							&.or {
+								background-color: #f5a100;
+							}
+							&.bl {
+								 background-color: #144199;
+							}
+						}
+					}
+					.details {
+						padding: 25px 0 30px;
+						text-align: center;
+						p {
+							font-size: 13px;
+							color: #666;
+						}
+						h3 {
+							font-size: 14px;
+							color: #333;
+							margin-top: 10px;
+						}
+						.icon-list {
+							margin-top: 20px;
+							li {
+								padding-right: 30px;
+							}
+						}
+					}
+				}
+			}
+		}
+		.paging {
+			margin-top: 30px;
+		}
+	}
+	@media(min-width:  $md) {
+		.container {
+			.row {
+				li {
+					a {
+						.details {
+							padding: 30px 0 50px;
+							p {
+								font-size: 14px;
+							}
+							h3 {
+								font-size: 16px;
+								margin-top: 15px;
+							}
+							.icon-list {
+								margin-top: 30px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	@media(min-width:  $xl) {
+		.container {
+			.search-form {
+				margin-bottom: 60px;
+			}
+			.paging {
+				margin-top: 30px;
+			}
+		}
+	}
+}
 
+//굿피플 소식 뷰
+.news-view {
+	.container {
+		.board-view {
+			.article-header {
+				border-top: none;
+				.icon-list {
+					li {
+						padding-right: 20px;
+					}
+				}
+			}
+			.article-content {
+				.view-content {
+					padding: 30px 10px 60px;
+					.item {
+						display: block;
+						text-align: center;
+						margin-top: 60px;
+						&:first-child {
+							margin-top: 0;
+						}
+						p {
+							margin-top: 30px;
+						}
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $md) {
+		.container {
+			.board-view {
+				.article-header {
+					.icon-list {
+						li {
+							padding-right: 30px;
+						}
+					}
+				}
+				.article-content {
+					.view-content {
+						padding: 50px 20px 55px;
+						.item {
+							margin-top: 75px;
+							&:first-child {
+								margin-top: 0;
+							}
+							p {
+								margin-top: 40px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $xl) {
+		.container {
+			.board-view {
+				.article-header {
+					.icon-list {
+						li {
+							padding-right: 35px;
+						}
+					}
+				}
+				.article-content {
+					.view-content {
+						max-width: 725px;
+						margin: 0 auto;
+						padding: 50px 0 60px;
+						.item {
+							margin-top: 80px;
+							&:first-child {
+								margin-top: 0;
+							}
+							p {
+								margin-top: 35px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
+// 공지사항 리스트
+.notice-list {
+	.container {
+		.search-form {
+			margin-top: 40px;
+		}
+		.board-list-3 {
+			> ol {
+				margin-top: 25px;
+				> li {
+					padding: 25px 20px;
+					&:first-child {
+						padding-top: 0;
+					}
+					.icon-list {
+						li {
+							padding-right: 30px;
+						}
+					}
+				}
+			}
+			.paging {
+				margin-top: 30px;
+				.pagination {
+					li {
+						border: 0;
+						padding: 0;
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $md) {
+		.container {
+			.board-list-3 {
+				> ol {
+					margin-top: 40px;
+					> li {
+						padding: 30px 20px;
+						&:first-child {
+							padding-top: 0;
+						}
+						.icon-list {
+							li {
+								padding-right: 35px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $xl) {
+		.container {
+			.board-list-3 {
+				> ol {
+					margin-top: 25px;
+					> li {
+						padding: 25px 0;
+						&:first-child {
+							padding-top: 0;
+						}
+						.icon-list {
+							li {
+								padding-right: 30px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
-
+//사업소개 상세보기
+.business-view {
+	.board-view {
+		.article-header {
+			text-align: center;
+			padding: 20px;
+			.or {
+				width: 60px;
+				height: 25px;
+				line-height: 25px;
+				color: #fff;
+				text-align: center;
+				background-color: #f5a100;
+				margin: 0 auto;
+			}
+			.bl {
+				width: 60px;
+				height: 25px;
+				line-height: 25px;
+				color: #fff;
+				text-align: center;
+				background-color: #144199;
+				margin: 0 auto;
+			}
+			h4 {
+				font-size: 20px;
+				line-height: 26px;
+				font-weight: 500;
+				margin-top: 15px;
+				@include iropke();
+			}
+		}
+	}
+}
 
 
 

@@ -1034,10 +1034,9 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
 
 .board-list-3 ol > li {
   padding: 25px 10px 20px;
-  border-bottom: 1px solid #dfdfdf;
-  /*&:first-child {
-  	padding-top: 0;
-  }*/ }
+  border-bottom: 1px solid #dfdfdf; }
+  .board-list-3 ol > li:first-child {
+    padding-top: 0; }
   .board-list-3 ol > li h3 a {
     display: block;
     overflow: hidden;
@@ -1096,8 +1095,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       .board-view .article-header .icon-list li {
         /*padding-right: 35px;*/ }
   .board-view .article-content .view-content {
-    padding: 30px 10px 35px;
-    border-bottom: 1px solid #dfdfdf; }
+    padding: 30px 10px 35px; }
     .board-view .article-content .view-content p {
       font-size: 13px;
       color: #555;
@@ -1121,11 +1119,12 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         margin-top: 15px; }
   .board-view .article-content .attach {
     position: relative;
+    border-top: 1px solid #dfdfdf;
     border-bottom: 1px solid #aaa;
-    padding: 15px 10px; }
+    padding: 20px 10px; }
     .board-view .article-content .attach:before {
       position: absolute;
-      top: 17px;
+      top: 23px;
       left: 10px;
       content: "\E80F";
       font-family: "fontello";
@@ -1133,7 +1132,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       color: #aaa; }
     .board-view .article-content .attach li {
       padding-left: 20px;
-      line-height: 24px; }
+      line-height: 26px; }
       .board-view .article-content .attach li a {
         font-size: 13px;
         color: #aaa; }
@@ -1211,7 +1210,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
           font-size: 14px;
           margin-top: 25px; }
     .board-view .article-content .attach {
-      padding: 20px 20px; }
+      padding: 25px 20px; }
       .board-view .article-content .attach li:before {
         margin-right: 20px; }
     .board-view .article-content .attach {
@@ -1221,7 +1220,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         left: 20px; }
       .board-view .article-content .attach li {
         padding-left: 25px;
-        line-height: 26px; }
+        line-height: 28px; }
     .board-view .article-content .btn-area {
       padding: 50px 0; }
     .board-view .article-content .page-link-list ul li {
@@ -1520,18 +1519,5 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       right: 0;
       height: 160px;
       content: url(/assets/images/sub/bg_news_table_right_md.jpg); }
-
-/*.table-wrap .table tbody tr td.file .form-group label {
-    width: 60px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 11px;
-    color: #999;
-    line-height: 28px;
-    text-align: center;
-    border-radius: 30px;
-    border: 1px solid #ccc;
-}*/
 
 /*# sourceMappingURL=sub.css.map */

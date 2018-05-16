@@ -967,9 +967,9 @@ input, textarea {
 		> li {
 			padding: 25px 10px 20px;
 			border-bottom: 1px solid #dfdfdf;
-			/*&:first-child {
+			&:first-child {
 				padding-top: 0;
-			}*/
+			}
 			h3 {
 				a {
 					display: block;
@@ -1062,7 +1062,6 @@ input, textarea {
 	.article-content {
 		.view-content {
 			padding: 30px 10px 35px;
-			border-bottom: 1px solid #dfdfdf;
 			p {
 				font-size: 13px;
 				color: #555;
@@ -1091,12 +1090,13 @@ input, textarea {
 			}
 		}
 		.attach {
-			position: relative;;
+			position: relative;
+			border-top: 1px solid #dfdfdf;
 			border-bottom: 1px solid #aaa;
-			padding: 15px 10px;
+			padding: 20px 10px;
 			&:before {
 				position: absolute;
-				top: 17px;
+				top: 23px;
 				left: 10px;
 				content: "\E80F";
 				font-family: "fontello";
@@ -1105,7 +1105,7 @@ input, textarea {
 			}
 			li {
 				padding-left: 20px;
-				line-height: 24px;
+				line-height: 26px;
 				a {
 					font-size: 13px;
 					color: #aaa;
@@ -1230,7 +1230,7 @@ input, textarea {
 				}
 			}
 			.attach {
-				padding: 20px 20px;
+				padding: 25px 20px;
 				li {
 					&:before {
 						margin-right: 20px;
@@ -1245,7 +1245,7 @@ input, textarea {
 				}
 				li {
 					padding-left: 25px;
-					line-height: 26px;
+					line-height: 28px;
 				}
 			}
 			.btn-area {
@@ -1723,29 +1723,6 @@ input, textarea {
         }
     }
 }
-
-
-
-/*.table-wrap .table tbody tr td.file .form-group label {
-    width: 60px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 11px;
-    color: #999;
-    line-height: 28px;
-    text-align: center;
-    border-radius: 30px;
-    border: 1px solid #ccc;
-}*/
-
-
-
-
-
-
-
-
 
 
 
