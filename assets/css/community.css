@@ -393,7 +393,8 @@ a {
       .business-list .container .row li a .item-img p.bl {
         background-color: #144199; }
   .business-list .container .row li a .details {
-    padding: 25px 0 30px;
+    padding: 25px 0 0;
+    margin-bottom: 30px;
     text-align: center; }
     .business-list .container .row li a .details p {
       font-size: 13px;
@@ -401,6 +402,7 @@ a {
     .business-list .container .row li a .details h3 {
       font-size: 14px;
       color: #333;
+      font-weight: 400;
       margin-top: 10px; }
     .business-list .container .row li a .details .icon-list {
       margin-top: 20px; }
@@ -410,7 +412,8 @@ a {
   margin-top: 30px; }
 @media (min-width: 768px) {
   .business-list .container .row li a .details {
-    padding: 30px 0 50px; }
+    padding: 30px 0 0;
+    margin-bottom: 50px; }
     .business-list .container .row li a .details p {
       font-size: 14px; }
     .business-list .container .row li a .details h3 {
