@@ -192,15 +192,23 @@
 				}
 				.article-content {
 					.view-content {
-						max-width: 725px;
-						margin: 0 auto;
 						padding: 50px 0 60px;
+						&.center {
+							max-width: 725px;
+							margin: 0 auto;
+							.item {
+								p {
+									text-align: center;
+								}
+							}
+						}
 						.item {
 							margin-top: 80px;
 							&:first-child {
 								margin-top: 0;
 							}
 							p {
+								text-align: left;
 								margin-top: 35px;
 							}
 						}
@@ -250,9 +258,6 @@
 					margin-top: 40px;
 					> li {
 						padding: 30px 20px;
-						&:first-child {
-							padding-top: 0;
-						}
 						.icon-list {
 							li {
 								padding-right: 35px;
@@ -270,9 +275,6 @@
 					margin-top: 25px;
 					> li {
 						padding: 25px 0;
-						&:first-child {
-							padding-top: 0;
-						}
 						.icon-list {
 							li {
 								padding-right: 30px;
@@ -316,15 +318,125 @@
 				margin-top: 15px;
 				@include iropke();
 			}
+			.icon-list {
+				li {
+					padding-right: 20px;
+				}
+			}
+		}
+		.article-content {
+			.view-content {
+			    padding: 30px 0 60px;
+				.item {
+					text-align: center;
+					margin-top: 60px;
+					&:first-child {
+						margin-top: 0;
+					}
+					p {
+						margin-top: 30px;
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $md) {
+		.board-view {
+			.article-header {
+				padding: 30px 20px;
+				.or {
+					width: 80px;
+					height: 30px;
+					line-height: 30px;
+				}
+				.bl {
+					width: 80px;
+					height: 30px;
+					line-height: 30px;
+				}
+				h4 {
+					font-size: 33px;
+					line-height: 42px;
+					margin-top: 20px;
+				}
+				.icon-list {
+					li {
+						padding-right: 35px;
+					}
+				}
+			}
+			.article-content {
+				.view-content {
+					padding: 50px 0 55px;
+					.item {
+						margin-top: 80px;
+						p {
+							margin-top: 35px;
+						}
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $xl) {
+		.board-view {
+			.article-header {
+				padding: 40px 20px;
+				h4 {
+					font-size: 33px;
+					line-height: 42px;
+				}
+				.icon-list {
+					margin-top: 30px;
+					li {
+						padding-right: 30px;
+					}
+				}
+			}
+			.article-content {
+				.view-content {
+					padding: 50px 15px 60px;
+					.item {
+						p {
+							text-align: left;
+							margin-top: 40px;
+						}
+					}
+					&.center {
+						max-width: 725px;
+						margin: 0 auto;
+						.item {
+							p {
+								text-align: center;
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 }
 
-
-
-
-
-
+.media-list {
+	article {
+		.article-content {
+			padding-top: 30px;
+			.paging {
+				margin-top: 35px;
+			}
+		}
+	}
+	@media(min-width: $md) {
+		article {
+			.article-content {
+				padding-top: 40px;
+				.paging {
+					margin-top: 50px;  
+				}
+			}
+		}
+	}
+}
 
 
 
