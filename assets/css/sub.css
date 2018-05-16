@@ -784,7 +784,8 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     width: 100%; }
     .select-search .form-group select {
       height: 45px !important;
-      color: #aaa !important; }
+      color: #aaa !important;
+      padding-right: 10px !important; }
     .select-search .form-group .form-control {
       font-size: 13px;
       color: #000;
