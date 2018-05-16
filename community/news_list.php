@@ -25,7 +25,7 @@
             <nav class="lnb">
                 <ul class="tab-list">
                     <li class="active"><a href="/community/news_list.php">소식</a></li>
-                    <li><a href="#">공지사항</a></li>
+                    <li><a href="/community/notice_list.php">공지사항</a></li>
                 </ul>
             </nav>
         </div>
