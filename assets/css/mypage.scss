@@ -534,17 +534,475 @@
 // 편지 리스트 
 .letter-list {
     .article-header {
-        
+        margin: 20px 0;
     }
     .article-content {
-        
+        .table-wrap {
+            .table {
+                margin: 0;
+                thead {
+                    tr {
+                        th {
+                            font-size: 13px;
+                            color: #333;
+                            font-weight: 400;
+                            padding: 15px 0;
+                            vertical-align: middle;
+                            text-align: center;
+                            border-top: 1px solid #999;
+                            border-bottom: 1px solid #999;
+                            &:nth-of-type(1) {
+                                display: none;
+                                @media(min-width: $md) {
+                                    width: 10%;
+                                    display: table-cell;
+                                }
+                            }
+                            &:nth-of-type(2) {
+                                display: none;
+                                @media(min-width: $md) {
+                                    width: 20%;
+                                    display: table-cell;
+                                }
+                                @media(min-width: $xl) {
+                                    width: 15%;
+                                }
+                            }
+                            &:nth-of-type(3) {
+                                width: 40%;
+                                @media(min-width: $md) {
+                                    width: 30%;
+                                }
+                                @media(min-width: $xl) {
+                                    width: 20%;
+                                }
+                            }
+                            &:nth-of-type(4) {
+                                width: 30%;
+                                @media(min-width: $md) {
+                                    width: 30%;
+                                }
+                                @media(min-width: $xl) {
+                                    width: 40%;
+                                }
+                            }
+                            &:nth-of-type(5) {
+                                width: 30%;
+                                @media(min-width: $xl) {
+                                    width: 15%;
+                                }
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            font-size: 13px;
+                            color: #666;
+                            font-weight: 300;
+                            padding: 10px 0;
+                            text-align: center;
+                            vertical-align: middle;
+                            border-top: 0;
+                            border-bottom: 1px solid #dfdfdf;
+                            &:nth-of-type(1) {
+                                display: none;
+                                @media(min-width: $md) {
+                                    width: 10%;
+                                    display: table-cell;
+                                }
+                            }
+                            &:nth-of-type(2) {
+                                display: none;
+                                @media(min-width: $md) {
+                                    width: 20%;
+                                    display: table-cell;
+                                }
+                                @media(min-width: $xl) {
+                                    width: 15%;
+                                }
+                            }
+                            &:nth-of-type(3) {
+                                width: 40%;
+                                @media(min-width: $md) {
+                                    width: 30%;
+                                }
+                                @media(min-width: $xl) {
+                                    width: 20%;
+                                }
+                            }
+                            &:nth-of-type(4) {
+                                width: 30%;
+                                @media(min-width: $md) {
+                                    width: 30%;
+                                }
+                                @media(min-width: $xl) {
+                                    width: 40%;
+                                }
+                            }
+                            &:nth-of-type(5) {
+                                width: 30%;
+                                @media(min-width: $xl) {
+                                    width: 15%;
+                                }
+                            }
+                            &.num, &.date, &.children-num {
+                                @include roboto();
+                            }
+                            .state {
+                                display: inline-block;
+                                width: 70px;
+                                height: 25px;
+                                line-height: 23px;
+                                font-size: 12px;
+                                text-align: center;
+                                &.waiting {
+                                    color: #666;
+                                    border: 1px solid #ccc;
+                                    background: none;
+                                }
+                                &.success {
+                                    color: #999;
+                                    border: 1px solid #f3f3f3;
+                                    background-color: #f3f3f3;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            text-align: right;
+            margin-top: 30px;
+            p {
+                .btn-md {
+                    width: 145px;
+                    height: 45px;
+                    line-height: 43px;
+                    text-align: center;
+                    font-size: 13px;
+                    color: #111;
+                    border: 1px solid #2b2b2b;
+                    &:hover, &:focus {
+                        opacity: 1;
+                        color: #fff;
+                        border-color: #eb6100;
+                        background-color: #eb6100;
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 30px;
+        }
+    }
+    @media(min-width: $md) {
+        .article-header {
+            margin: 20px 0;
+        }
+        .article-content {
+            .table-wrap {
+                .table {
+                    thead {
+                        tr {
+                            th {
+                                font-size: 15px;
+                                padding: 20px 0;
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                font-size: 15px;
+                                .state {
+                                    font-size: 14px;
+                                    width: 100px;
+                                    height: 35px;
+                                    line-height: 33px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                p {
+                    .btn-md {
+                        width: 170px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $xl) {
+        .article-header {
+            margin: 40px 0;
+        }
     }
 }
 
+// 편지보기
+.letter-view {
+    margin-top: 20px;
+    .article-header {
+        padding: 30px 20px;
+        border: 1px solid #e2e2e2;
+        background-color: #f9fafc;
+        figure {
+            .img-fluid {
+                display: block;
+                margin: 0 auto;
+                max-width: 120px;
+            }
+        }
+        .details {
+            margin-top: 30px;
+            > ul {
+                > li {
+                    dl {
+                        overflow: hidden;
+                        dt {
+                            width: 70px;
+                            float: left;
+                            clear: both;
+                            font-size: 13px;
+                            color: #333;
+                            font-weight: 400;
+                            line-height: 26px;
+                        }
+                        dd {
+                            font-size: 13px;
+                            color: #666;
+                            line-height: 26px;
+                            font-weight: 300;
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .article-content {
+        .letter-head {
+            margin-top: 30px;
+            padding: 0 10px 30px;
+            border-bottom: 1px solid #dfdfdf;
+            h3 {
+                font-size: 16px;
+                color: #333;
+                font-weight: 400;
+                line-height: 26px;
+            }
+            .icon-list {
+                margin-top: 15px;
+            }
+        }
+        .letter-body {
+            font-size: 13px;
+            color: #555;
+            line-height: 26px;
+            padding: 30px 10px;
+            border-bottom: 1px solid #dfdfdf;
+        }
+        .btn-area {
+            margin-top: 30px;
+            p {
+                .btn-md {
+                    width: 49%;
+                    height: 45px;
+                    font-size: 13px;
+                    line-height: 43px;
+                    margin-right: 2%;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    &.btn-white {
+                        color: #999;
+                        border: 1px solid #999;
+                    }
+                    &.btn-black {
+                        color: #111;
+                        border: 1px solid #111;
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $md) {
+        margin-top: 40px;
+        .article-header {
+            padding: 30px 0;
+            .details {
+                margin: 0;
+                padding: 38px 0;
+                > ul {
+                    overflow: hidden;
+                    > li {
+                        float: left;
+                        width: 50%;
+                        dl {
+                            dt {
+                                width: 100px;
+                                font-size: 14px;
+                                line-height: 30px;
+                            }
+                            dd {
+                                font-size: 14px;
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .article-content {
+            .letter-head {
+                margin-top: 40px;
+                padding: 0 20px 40px;
+                h3 {
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+                .icon-list {
+                    margin-top: 20px;
+                }
+            }
+            .letter-body {
+                font-size: 14px;
+                padding: 50px 30px;
+            }
+            .btn-area {
+                text-align: right;
+                margin-top: 50px;
+                p {
+                    .btn-md {
+                        width: 170px;
+                        font-size: 14px;
+                        margin-right: 10px;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $xl) {
+        margin-top: 50px;
+        .article-header {
+            padding: 50px 0;
+            .details {
+                padding: 30px 0 29px;
+                > ul {
+                    > li {
+                        dl {
+                            dt {
+                                font-size: 15px;
+                                line-height: 36px;
+                            }
+                            dd {
+                                font-size: 15px;
+                                line-height: 36px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .article-content {
+            .letter-head {
+                margin-top: 50px;
+            }
+            .letter-body {
+                font-size: 14px;
+                padding: 50px 30px;
+            }
+            .btn-area {
+                margin-top: 30px;
+            }
+        }
+    }
+}
 
+// 편지쓰기
+.letter-write, .inquiry-write {
+    .btn-area {
+        margin-top: 30px;
+        p {
+            .btn-md {
+                width: 49%;
+                height: 45px;
+                font-size: 13px;
+                line-height: 43px;
+                margin-right: 2%;
+                background: none;
+                &:last-child {
+                    margin-right: 0;
+                }
+                &.btn-white {
+                    color: #999;
+                    border: 1px solid #999;
+                }
+                &.btn-black {
+                    color: #111;
+                    border: 1px solid #111;
+                }
+            }
+        }
+    }
+    @media(min-width: $md) {
+        .btn-area {
+            margin-top: 50px;
+            text-align: right;
+            p {
+                .btn-md {
+                    width: 170px;
+                    font-size: 14px;
+                    margin-right: 10px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
 
+// 문의 리스트
+.inquiry-list {
+    .search-form {
+        margin-bottom: 25px;
+    }
+    .btn-area {
+        margin-top: 30px;
+        text-align: right;
+    }
+    .paging {
+        margin-top: 30px;
+    }
+    @media(min-width: $md) {
+        .search-form {
+            margin-bottom: 40px;
+        }
+        .btn-area {
+            margin-top: 30px;
+            p {
+                .btn-md {
+                    width: 170px;
+                }
+            }
+        }
+    }
+}
 
-
+// 문의 보기
+.inquiry-view {
+    
+}
 
 
 

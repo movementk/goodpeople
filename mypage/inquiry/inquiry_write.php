@@ -20,15 +20,15 @@
     <div class="page-intro">
         <div class="container">
             <div class="page-title">
-                <h3>나의 후원아동</h3>
+                <h3>문의</h3>
             </div>
         </div>
     </div>
     
     <!-- Content -->
-    <main id="content" class="my-support">
+    <main id="content" class="inquiry">
     	<div class="container">
- 			<article class="letter-write">
+ 			<article class="inquiry-write">
  			    <div class="write-wrap">
                     <form action="#">
                         <div class="table-wrap">

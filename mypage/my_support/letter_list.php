@@ -62,7 +62,147 @@
                     </div>
  			    </div>
  			    <div class="article-content">
- 			        
+ 			        <div class="table-wrap">
+ 			            <table class="table">
+ 			                <thead>
+ 			                    <tr>
+ 			                        <th>번호</th>
+ 			                        <th>편지 작성일</th>
+ 			                        <th>아동번호</th>
+ 			                        <th>아동이름</th>
+ 			                        <th>상태</th>
+ 			                    </tr>
+ 			                </thead>
+                            <!-- 
+                                .waiting 발송대기
+                                .success 발송완료
+                            -->
+ 			                <tbody>
+ 			                    <tr>
+ 			                        <td class="num">123</td>
+ 			                        <td class="date">2018-05-01</td>
+ 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td><p class="state waiting">발송대기</p></td>
+ 			                    </tr>
+ 			                    <tr>
+ 			                        <td class="num">123</td>
+ 			                        <td class="date">2018-05-01</td>
+ 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td><p class="state waiting">발송대기</p></td>
+ 			                    </tr>
+ 			                    <tr>
+ 			                        <td class="num">123</td>
+ 			                        <td class="date">2018-05-01</td>
+ 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td><p class="state success">발송완료</p></td>
+ 			                    </tr>
+ 			                    <tr>
+ 			                        <td class="num">123</td>
+ 			                        <td class="date">2018-05-01</td>
+ 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td><p class="state success">발송완료</p></td>
+ 			                    </tr>
+ 			                    <tr>
+ 			                        <td class="num">123</td>
+ 			                        <td class="date">2018-05-01</td>
+ 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td><p class="state success">발송완료</p></td>
+ 			                    </tr>
+ 			                    <tr>
+ 			                        <td class="num">123</td>
+ 			                        <td class="date">2018-05-01</td>
+ 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td><p class="state success">발송완료</p></td>
+ 			                    </tr>
+ 			                    <tr>
+ 			                        <td class="num">123</td>
+ 			                        <td class="date">2018-05-01</td>
+ 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td><p class="state success">발송완료</p></td>
+ 			                    </tr>
+ 			                    <tr>
+ 			                        <td class="num">123</td>
+ 			                        <td class="date">2018-05-01</td>
+ 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td><p class="state success">발송완료</p></td>
+ 			                    </tr>
+ 			                    <tr>
+ 			                        <td class="num">123</td>
+ 			                        <td class="date">2018-05-01</td>
+ 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td><p class="state waiting">발송대기</p></td>
+ 			                    </tr>
+ 			                    <tr>
+ 			                        <td class="num">123</td>
+ 			                        <td class="date">2018-05-01</td>
+ 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td><p class="state success">발송완료</p></td>
+ 			                    </tr>
+ 			                </tbody>
+ 			            </table>
+ 			        </div>
+ 			        <div class="btn-area">
+ 			            <p>
+ 			                <a href="#" class="btn btn-md" role="button">편지쓰기</a>
+ 			            </p>
+ 			        </div>
+ 			        <nav class="paging">
+                        <ol class="pagination">
+                            <li class="first">
+                                <a href="#">
+                                    <i class="icon-angle-double-left">
+                                        <span class="sr-only">첫 페이지</span>
+                                    </i>
+                                </a>
+                            </li>
+                            <li class="prev">
+                                <a href="#">
+                                    <i class="icon-angle-left">
+                                        <span class="sr-only">이전 페이지</span>
+                                    </i>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="#">1</a>
+                            </li>
+                            <li>
+                                <a href="#">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#">4</a>
+                            </li>
+                            <li>
+                                <a href="#">5</a>
+                            </li>
+                            <li class="next">
+                                <a href="#">
+                                    <i class="icon-angle-right">
+                                        <span class="sr-only">다음 페이지</span>
+                                    </i>
+                                </a>
+                            </li>
+                            <li class="last">
+                                <a href="#">
+                                    <i class="icon-angle-double-right">
+                                        <span class="sr-only">마지막 페이지</span>
+                                    </i>
+                                </a>
+                            </li>
+                        </ol>	
+                    </nav>
  			    </div>
  			</article>
     	</div>
