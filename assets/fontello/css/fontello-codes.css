@@ -15,6 +15,8 @@
 .icon-eye:before { content: '\e80d'; } /* '' */
 .icon-play:before { content: '\e80e'; } /* '' */
 .icon-attach:before { content: '\e80f'; } /* '' */
+.icon-right:before { content: '\e810'; } /* '' */
+.icon-down:before { content: '\e811'; } /* '' */
 .icon-down-open:before { content: '\f004'; } /* '' */
 .icon-up-open:before { content: '\f005'; } /* '' */
 .icon-right-open:before { content: '\f006'; } /* '' */

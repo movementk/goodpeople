@@ -161,6 +161,18 @@
       "css": "attach",
       "code": 59407,
       "src": "websymbols"
+    },
+    {
+      "uid": "4oaz56fmzfvx7vry2o540n9l4z79fz8t",
+      "css": "right",
+      "code": 59408,
+      "src": "typicons"
+    },
+    {
+      "uid": "3838a5aba604532d2dbae5904615ea39",
+      "css": "down",
+      "code": 59409,
+      "src": "mfglabs"
     }
   ]
 }
