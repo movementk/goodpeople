@@ -43,6 +43,9 @@ label {
 		border-top: 0;
 	}
 }
+button {
+    background: none;
+}
 .btn {
 	padding: 0;
 	border: 0;
@@ -1446,6 +1449,7 @@ input, textarea {
 	.table-wrap {
 		border-top: 2px solid #eb6100;
 		.table {
+            margin-bottom: 0;
 			tbody {
 				tr {
 					th {
