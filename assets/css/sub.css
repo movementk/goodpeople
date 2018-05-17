@@ -1040,7 +1040,11 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         padding-left: 20px;
         margin-top: 0; }
         .board-list-2 ol > li .icon-list li {
-          font-size: 14px; } }
+          font-size: 14px; }
+          .board-list-2 ol > li .icon-list li.reply {
+            float: right;
+            padding-left: 0;
+            padding-right: 35px; } }
 
 .board-list-3 ol > li {
   padding: 25px 10px 20px;

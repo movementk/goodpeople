@@ -932,11 +932,11 @@ input, textarea {
 				.icon-list {
 					li {
 						&.calendar {
-							float: none;
+                            float: none;
 							padding-right: 0;
 						}
 						&.reply {
-							float: none;
+                            float: none;
 							padding-left: 30px;
 						}
 					}
@@ -969,6 +969,11 @@ input, textarea {
 					margin-top: 0;
 					li {
 						font-size: 14px;
+                        &.reply {
+                            float: right;
+							padding-left: 0;
+                            padding-right: 35px;
+						}
 					}
 				}
 			}	
