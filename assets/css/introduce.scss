@@ -147,6 +147,7 @@
 			h2 {
 				font-size: 28px;
 				color: #222;
+				font-weight: 400;
 			}
 			strong {
 				display: block;
@@ -175,11 +176,12 @@
 							width: 100%;
 						}
 						figcaption {
-							color: #fff;
-							width: 100%;
 							position: absolute;
-							bottom: 10px;
 							left: 0;
+							bottom: 10px;
+							width: 100%;
+							font-size: 13px;
+							color: #fff;
 							text-align: center;
 						}
 					}
@@ -196,7 +198,7 @@
 				padding: 50px 0;
 				margin-top: 30px;
 				.row {
-					> div {
+					> li {
 						.step {
 							&:after {
 								position: absolute;
@@ -255,6 +257,180 @@
 				}
 			}
 		}
+		@media (min-width: $md) {
+			.section-header {
+				padding-top: 70px;
+				h2 {
+					font-size: 30px;
+				}
+				strong {
+					font-size: 26px;
+					margin-top: 15px;
+				}
+				p {
+					font-size: 14px;
+					line-height: 26px;
+					margin-top: 40px;
+				}
+			}
+			.section-content {
+				padding-top: 50px;
+				> .row {
+					> li {
+						figure {
+							margin-top: 0px;
+						}
+					}
+				}
+				.step-wrap {
+					width: 100%;
+					padding: 70px 0;
+					.row {
+						> li {
+							.step {
+								&:after {
+									position: absolute;
+									top: 0;
+									right: 0;
+									left: auto;
+									width: auto;
+									transform: rotate(-90deg);
+								}
+							}
+							&:first-child {
+								.step {
+									p {
+										margin-top: 10px;
+									}
+									&:after {
+										color: #eb6100;
+									}
+								}
+							}
+							&:nth-of-type(2) {
+								.step {
+									&:after {
+										color: #144199;
+									}
+								}
+							}
+							&:last-child {
+								.step {
+									padding-right: 0;
+									strong {
+										color: #144199;
+									}
+									p {
+										margin-top: 10px;
+									}
+									&:after {
+										display: none;
+									}
+								}
+							}
+							.step {
+								padding-top: 0;
+								padding-bottom: 0;
+								strong {
+									font-size: 20px;
+								}
+								p {
+									font-size: 13px;
+									color: #666;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		/*@media (min-width: $md) {
+			.section-header {
+				padding-top: 70px;
+				h2 {
+					font-size: 30px;
+				}
+				strong {
+					font-size: 26px;
+					margin-top: 15px;
+				}
+				p {
+					font-size: 14px;
+					line-height: 26px;
+					margin-top: 40px;
+				}
+			}
+			.section-content {
+				padding-top: 50px;
+				> .row {
+					> li {
+						figure {
+							margin-top: 0px;
+						}
+					}
+				}
+				.step-wrap {
+					padding: 70px 0;
+					.row {
+						> li {
+							.step {
+								&:after {
+									top: 0;
+									left: auto;
+									right: 0;
+									width: auto;
+									transform: rotate(-90deg);
+									font-size: 24px;
+									font-weight: 400;
+									text-align: center;
+									font-family: "fontello";
+									content: "\E811";
+								}
+							}
+							&:first-child {
+								.step {
+									p {
+										margin-top: 10px;
+									}
+									&:after {
+										color: #eb6100;
+									}
+								}
+							}
+							&:nth-of-type(2) {
+								.step {
+									&:after {
+										color: #144199;
+									}
+								}
+							}
+							&:last-child {
+								.step {
+									padding-bottom: 0;
+									strong {
+										color: #144199;
+									}
+									&:after {
+										display: none;
+									}
+								}
+							}
+							.step {
+								padding-top: 0;
+								padding-bottom: 0;
+								strong {
+									font-size: 20px;
+								}
+								p {
+									font-size: 13px;
+									color: #666;
+								}
+							}
+						}
+					}
+				}
+			}
+		}*/
 	}
 }
 
