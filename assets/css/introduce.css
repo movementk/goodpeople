@@ -457,4 +457,78 @@ a {
         font-size: 22px;
         line-height: 34px; } }
 
+.vision .vision-wrap .section-header {
+  text-align: center;
+  padding-top: 55px; }
+  .vision .vision-wrap .section-header h2 {
+    font-size: 28px;
+    color: #222; }
+  .vision .vision-wrap .section-header strong {
+    display: block;
+    font-size: 22px;
+    color: #eb6100;
+    font-weight: 300;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif; }
+  .vision .vision-wrap .section-header p {
+    font-size: 13px;
+    line-height: 24px;
+    color: #444;
+    margin-top: 30px; }
+.vision .vision-wrap .section-content {
+  padding-top: 30px; }
+  .vision .vision-wrap .section-content > .row > li figure {
+    position: relative;
+    text-align: center;
+    margin-top: 10px; }
+    .vision .vision-wrap .section-content > .row > li figure img {
+      width: 100%; }
+    .vision .vision-wrap .section-content > .row > li figure figcaption {
+      color: #fff;
+      width: 100%;
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      text-align: center; }
+  .vision .vision-wrap .section-content > .row > li:first-child figure {
+    margin-top: 0; }
+  .vision .vision-wrap .section-content .step-wrap {
+    text-align: center;
+    border: 2px solid #f2c27f;
+    padding: 50px 0;
+    margin-top: 30px; }
+    .vision .vision-wrap .section-content .step-wrap .row > div .step:after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+      font-family: "fontello";
+      content: "\E811"; }
+    .vision .vision-wrap .section-content .step-wrap .row > div:first-child .step {
+      padding-top: 0; }
+      .vision .vision-wrap .section-content .step-wrap .row > div:first-child .step strong {
+        color: #eb6100; }
+      .vision .vision-wrap .section-content .step-wrap .row > div:first-child .step:after {
+        color: #eb6100; }
+    .vision .vision-wrap .section-content .step-wrap .row > div:nth-of-type(2) .step:after {
+      color: #144199; }
+    .vision .vision-wrap .section-content .step-wrap .row > div:last-child .step {
+      padding-bottom: 0; }
+      .vision .vision-wrap .section-content .step-wrap .row > div:last-child .step strong {
+        color: #144199; }
+      .vision .vision-wrap .section-content .step-wrap .row > div:last-child .step:after {
+        display: none; }
+    .vision .vision-wrap .section-content .step-wrap .row > div .step {
+      position: relative;
+      padding-top: 50px;
+      padding-bottom: 70px; }
+      .vision .vision-wrap .section-content .step-wrap .row > div .step strong {
+        font-size: 20px; }
+      .vision .vision-wrap .section-content .step-wrap .row > div .step p {
+        font-size: 13px;
+        color: #666; }
+
 /*# sourceMappingURL=introduce.css.map */
