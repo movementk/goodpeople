@@ -47,53 +47,56 @@
         		</div>
         		<div class="section-content">
 					<ul class="row">
-						<li class="col-12 col-md-4 col-xl-3">
+						<li class="col-12 col-md-4">
 							<figure>
-								<img src="/assets/images/introduce/img_vision01.jpg"  class="img-fluid" alt="">
+								<img src="/assets/images/introduce/img_vision01.jpg"  class="img-fluid d-md-none" alt="">
+								<img src="/assets/images/introduce/img_md_vision01.jpg"  class="img-fluid d-none d-md-block" alt="">
 								<figcaption>
-									사랑을 나누고 희망을 세우는 사랑의 메신저
+									사랑을 나누고 희망을 세우는<br class="d-none d-md-block"> 사랑의 메신저
 								</figcaption>
 							</figure>
 						</li>
-						<li class="col-12 col-md-4 col-xl-3">
+						<li class="col-12 col-md-4">
 							<figure>
-								<img src="/assets/images/introduce/img_vision02.jpg"  class="img-fluid" alt="">
+								<img src="/assets/images/introduce/img_vision02.jpg" class="img-fluid d-block d-md-none d-xl-block" alt="">
+								<img src="/assets/images/introduce/img_md_vision02.jpg"  class="img-fluid d-none d-md-block d-xl-none" alt="">
 								<figcaption>
-									아름답고 따뜻한 세상을 만드는 변화의 손길
+									아름답고 따뜻한 세상을<br class="d-none d-md-block"> 만드는 변화의 손길
 								</figcaption>
 							</figure>
 						</li>
-						<li class="col-12 col-md-4 col-xl-3">
+						<li class="col-12 col-md-4">
 							<figure>
-								<img src="/assets/images/introduce/img_vision03.jpg"  class="img-fluid" alt="">
+								<img src="/assets/images/introduce/img_vision03.jpg"  class="img-fluid d-md-none" alt="">
+								<img src="/assets/images/introduce/img_md_vision03.jpg"  class="img-fluid d-none d-md-block" alt="">
 								<figcaption>
-									올바른 도움의 문화를 만드는 기부 천사
+									올바른 도움의 문화를<br class="d-none d-md-block"> 만드는 기부 천사
 								</figcaption>
 							</figure>
 						</li>
 					</ul>
        				<div class="step-wrap">
-       					<div class="row">
-       						<div class="col-12 col-md-4 col-xl-3">
+       					<ol class="row">
+       						<li class="col-12 col-md-4 col-xl-3">
        							<div class="step">
        								<strong>나눔실천</strong>
        								<p>개인/기업 후원자(NGO단체)</p>
        							</div>
-       						</div>
-       						<div class="col-12 col-md-4 col-xl-3">
+       						</li>
+       						<li class="col-12 col-md-4 col-xl-3">
        							<div class="step">
        								<p>
        									<img src="/assets/images/introduce/img_vision_step.jpg" alt="">
        								</p>
        							</div>
-       						</div>
-       						<div class="col-12 col-md-4 col-xl-3">
+							</li>
+       						<li class="col-12 col-md-4 col-xl-3">
        							<div class="step">
        								<strong>세움실천</strong>
        								<p>수혜국/수혜자</p>
        							</div>
-       						</div>
-       					</div>
+       						</li>
+       					</ol>
        				</div>
         		</div>
         	</div>
