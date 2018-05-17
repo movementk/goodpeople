@@ -200,11 +200,22 @@
 				.row {
 					> li {
 						.step {
+                            position: relative;
+                            padding-top: 50px;
+                            padding-bottom: 70px;
+                            strong {
+                                font-size: 20px;
+                            }
+                            p {
+                                font-size: 13px;
+                                color: #666;
+                            }
 							&:after {
 								position: absolute;
 								bottom: 0;
-								left: 0;
-								width: 100%;
+								right: 50%;
+                                margin-right: -10px;
+								display: inline-block;
 								font-size: 24px;
 								font-weight: 400;
 								text-align: center;
@@ -239,18 +250,6 @@
 								&:after {
 									display: none;
 								}
-							}
-						}
-						.step {
-							position: relative;
-							padding-top: 50px;
-							padding-bottom: 70px;
-							strong {
-								font-size: 20px;
-							}
-							p {
-								font-size: 13px;
-								color: #666;
 							}
 						}
 					}
@@ -290,10 +289,10 @@
 							.step {
 								&:after {
 									position: absolute;
-									top: 0;
-									right: 0;
-									left: auto;
-									width: auto;
+									bottom: 50%;
+                                    right: 0;
+                                    margin-bottom: -30px;
+									margin-right: -18px;
 									transform: rotate(-90deg);
 								}
 							}

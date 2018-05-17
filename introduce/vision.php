@@ -77,20 +77,20 @@
 					</ul>
        				<div class="step-wrap">
        					<ol class="row">
-       						<li class="col-12 col-md-4 col-xl-3">
+       						<li class="col-12 col-md-4">
        							<div class="step">
        								<strong>나눔실천</strong>
        								<p>개인/기업 후원자(NGO단체)</p>
        							</div>
        						</li>
-       						<li class="col-12 col-md-4 col-xl-3">
+       						<li class="col-12 col-md-4">
        							<div class="step">
        								<p>
        									<img src="/assets/images/introduce/img_vision_step.jpg" alt="">
        								</p>
        							</div>
 							</li>
-       						<li class="col-12 col-md-4 col-xl-3">
+       						<li class="col-12 col-md-4">
        							<div class="step">
        								<strong>세움실천</strong>
        								<p>수혜국/수혜자</p>

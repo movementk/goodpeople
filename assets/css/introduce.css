@@ -587,16 +587,26 @@ a {
       border: 2px solid #f2c27f;
       padding: 50px 0;
       margin-top: 30px; }
-      .vision .vision-wrap .section-content .step-wrap .row > li .step:after {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        font-size: 24px;
-        font-weight: 400;
-        text-align: center;
-        font-family: "fontello";
-        content: "\E811"; }
+      .vision .vision-wrap .section-content .step-wrap .row > li .step {
+        position: relative;
+        padding-top: 50px;
+        padding-bottom: 70px; }
+        .vision .vision-wrap .section-content .step-wrap .row > li .step strong {
+          font-size: 20px; }
+        .vision .vision-wrap .section-content .step-wrap .row > li .step p {
+          font-size: 13px;
+          color: #666; }
+        .vision .vision-wrap .section-content .step-wrap .row > li .step:after {
+          position: absolute;
+          bottom: 0;
+          right: 50%;
+          margin-right: -10px;
+          display: inline-block;
+          font-size: 24px;
+          font-weight: 400;
+          text-align: center;
+          font-family: "fontello";
+          content: "\E811"; }
       .vision .vision-wrap .section-content .step-wrap .row > li:first-child .step {
         padding-top: 0; }
         .vision .vision-wrap .section-content .step-wrap .row > li:first-child .step strong {
@@ -611,15 +621,6 @@ a {
           color: #144199; }
         .vision .vision-wrap .section-content .step-wrap .row > li:last-child .step:after {
           display: none; }
-      .vision .vision-wrap .section-content .step-wrap .row > li .step {
-        position: relative;
-        padding-top: 50px;
-        padding-bottom: 70px; }
-        .vision .vision-wrap .section-content .step-wrap .row > li .step strong {
-          font-size: 20px; }
-        .vision .vision-wrap .section-content .step-wrap .row > li .step p {
-          font-size: 13px;
-          color: #666; }
   @media (min-width: 768px) {
     .vision .vision-wrap .section-header {
       padding-top: 70px; }
@@ -641,10 +642,10 @@ a {
         padding: 70px 0; }
         .vision .vision-wrap .section-content .step-wrap .row > li .step:after {
           position: absolute;
-          top: 0;
+          bottom: 50%;
           right: 0;
-          left: auto;
-          width: auto;
+          margin-bottom: -30px;
+          margin-right: -18px;
           transform: rotate(-90deg); }
         .vision .vision-wrap .section-content .step-wrap .row > li:first-child .step p {
           margin-top: 10px; }
