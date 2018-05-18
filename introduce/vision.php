@@ -95,6 +95,63 @@
         		</div>
         	</div>
         </section>
+        <!--가치-->
+		<section class="value">
+			<div class="container">
+				<div class="section-header">
+					<h3>굿피플의 미션과 가치</h3>
+					<strong>Good People International</strong>
+					<p>
+						굿피플은 가난, 재난, 질병으로부터 구제하고 자립할 수 있도록 지원하여 모두가 고통받지 않는 행복한 세상을 만들기 위해 존재한다.
+					</p>
+				</div>
+				<div class="section-content">
+					<ul>
+						<li class="global">
+							<div class="item">
+								<img src="/assets/images/introduce/img_value_list01.png" alt="">
+							</div>
+							<h4>Global</h4>
+							<p>
+								굿피플은 전 세계 도움이 필요한 <br>
+								모든 사람들과 함께 한다.
+							</p>
+						</li>
+						<li>
+							<div class="item">
+								<img src="/assets/images/introduce/img_value_list01.png" alt="">
+							</div>
+							<h4>Mission</h4>
+							<p>
+								고통 받는 사람들을 지원하며 <br>
+								행복한 세상을 목표 한다.
+							</p>
+						</li>
+						<li>
+							<div class="item">
+								<img src="/assets/images/introduce/img_value_list01.png" alt="">
+							</div>
+							<h4>Passion</h4>
+							<p>
+								굿피플은 사랑을 실천하기 <br>
+								위해 열정적으로 행동한다.
+							</p>
+						</li>
+						
+						<li>
+							<div class="item">
+								<img src="/assets/images/introduce/img_value_list01.png" alt="">
+							</div>
+							<h4>Integrity</h4>
+							<p>
+								굿피플은 진실되게 말하고, <br>
+								정직하게 실천한다.
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
     </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>

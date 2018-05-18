@@ -283,7 +283,7 @@
 						li {
 							display: table-cell;
 							width: 33.33%;
-							vertical-align: top;
+							vertical-align: middle;
 							padding-top: 0;
 							padding-bottom: 0;
 							p {
@@ -321,6 +321,191 @@
 			}
 		}
 	}
+	.value {
+		text-align: center;
+		padding-top: 70px;
+		padding-bottom: 60px;
+		background-color: #f7f7f7;
+		.section-header	{
+			h3 {
+				font-size: 28px;
+				color: #222;
+				font-weight: 400;
+			}
+			strong {
+				display: block;
+				font-size: 22px;
+				color: #eb6100;
+				font-weight: 300;
+				margin-top: 20px;
+				@include roboto();
+			}
+			p {
+				font-size: 13px;
+				color: #666;
+				line-height: 26px;
+				margin-top: 30px;
+			}
+		}
+		.section-content {
+			margin-top: 45px;
+			ul {
+				li {
+					& ~ li {
+						margin-top: 40px;
+					}
+					&:first-child {
+						margin-top: 0;
+					}
+					h4 {
+						font-size: 16px;
+						color: #222;
+						margin-top: 10px;
+						@include roboto();
+					}	
+					p {
+						font-size: 13px;
+						line-heigt: 18px;
+						color: #666;
+						margin-top: 10px;
+					}
+				}
+			}
+/*			@media (min-width: $md) {
+				margin-top: 60px;
+				ul {
+					overflow: hidden;
+					background-size: contain;
+					background-position: 50% 50%;
+					background-repeat: no-repeat;
+					background-image: url(/assets/images/introduce/bg_value_list.png);
+					li {
+						float: left;
+						width: 50%;
+						padding-top: 15px;
+						& ~ li {
+							margin-top: 0;
+						}
+						&:nth-of-type(3) {
+							padding-top: 0;
+							margin-top: 70px;
+						}
+						&:nth-of-type(4) {
+							padding-top: 0;
+							margin-top: 70px;
+						}
+						&:nth-of-type(odd) {
+							text-align: right;
+							padding-right: 180px;
+						}
+						&:nth-of-type(even) {
+							text-align: left;
+							padding-left: 180px;
+						}
+						p {
+							font-size: 14px;
+							line-height: 20px;
+						}
+					}
+				}
+			}*/
+		}
+		/*@media (min-width: $xl) {
+			background-size: cover;
+			background-image: url(/assets/images/introduce/bg_value_xl.png);
+		}*/
+		@media (min-width: $md) {
+			padding-top: 90px;
+			padding-bottom: 110px;
+			.section-header	{
+				h3 {
+					font-size: 30px;
+				}
+				strong {
+					font-size: 26px;
+				}
+				p {
+					font-size: 14px;
+				}
+			}
+			.section-content {
+				margin-top: 60px;
+				ul {
+					overflow: hidden;
+					background-size: contain;
+					background-position: 50% 50%;
+					background-repeat: no-repeat;
+					background-image: url(/assets/images/introduce/bg_value_list.png);
+					li {
+						float: left;
+						width: 50%;
+						padding-top: 15px;
+						& ~ li {
+							margin-top: 0;
+						}
+						&:nth-of-type(3) {
+							padding-top: 0;
+							margin-top: 70px;
+						}
+						&:nth-of-type(4) {
+							padding-top: 0;
+							margin-top: 70px;
+						}
+						&:nth-of-type(odd) {
+							text-align: right;
+							padding-right: 180px;
+						}
+						&:nth-of-type(even) {
+							text-align: left;
+							padding-left: 180px;
+						}
+						p {
+							font-size: 14px;
+							line-height: 20px;
+						}
+					}
+				}
+			}
+			/*@media (min-width: $xl) {
+				background-size: cover;
+				background-image: url(/assets/images/introduce/bg_value_xl.png);
+			}*/
+		}
+		@media (min-width: $xl) {
+			padding-top: 100px;
+			padding-bottom: 155px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-image: url(/assets/images/introduce/bg_value_xl.png);
+			.section-content {
+				margin-top: 50px;
+				ul {
+					li {
+						padding-top: 25px;
+						&:nth-of-type(3) {
+							margin-top: 100px;
+						}
+						&:nth-of-type(4) {
+							margin-top: 100px;
+						}
+						&:nth-of-type(odd) {
+							padding-right: 200px;
+						}
+						&:nth-of-type(even) {
+							padding-left: 200px;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	
 }
 
 
