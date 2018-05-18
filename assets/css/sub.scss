@@ -1078,17 +1078,33 @@ input, textarea {
 		.icon-list {
 			margin-top: 15px;
 			li {
-				/*padding-right: 35px;*/
+				padding-right: 20px;
 			}
 		}
 	}
 	.article-content {
 		.view-content {
-			padding: 30px 10px 35px;
-			p {
+			padding: 30px 0;
+			&.space {
+				text-align: center;
+				padding: 30px 0 60px;
+				
+			}
+			> p {
+				text-align: left;
 				font-size: 13px;
 				color: #555;
+				padding-left: 10px;
 				line-height: 24px;
+			}
+			> .item {
+				> p {
+					text-align: center;
+					margin-top: 30px;
+				}
+				& ~ .item {
+					margin-top: 55px;
+				}
 			}
 			.reply {
 				margin-top: 40px;
@@ -1231,10 +1247,32 @@ input, textarea {
 		}
 		.article-content {
 			.view-content {
-				padding: 50px 30px;
-				p {
+				padding: 50px 0 60px;
+				> p {
 					font-size: 14px;
 					line-height: 26px;
+					padding-left: 30px;
+				}
+				.item {
+					> img {
+						display: block;
+						margin: 0 auto;
+					}
+					> p {
+						font-size: 14px;
+						line-height: 26px;
+						text-align: center;
+						margin-top: 40px;
+						padding: 0 10px;
+					}
+					& ~ .item {
+						margin-top: 80px;
+					}
+				}
+				&.space {
+					margin: 0 auto;
+					max-width: 725px;
+					padding: 50px 0 60px;
 				}
 				.reply {
 					margin-top: 50px;
@@ -1245,8 +1283,9 @@ input, textarea {
 							font-size: 15px;
 						}
 					}
-					p {
+					> p {
 						font-size: 14px;
+						line-height: 25px;
 						margin-top: 25px;
 					}
 				}
@@ -1293,9 +1332,19 @@ input, textarea {
 	@media(min-width: $xl) {
 		.article-content {
 			.view-content {
+				padding: 45px 0 110px;
 				p {
 					font-size: 14px;
 					line-height: 28px;
+				}
+				> .item {
+					> p {
+						margin-top: 40px;
+					}
+				}
+				&.space {
+					max-width: 725px;
+					margin: 0 auto;
 				}
 			}
 			.page-link-list {

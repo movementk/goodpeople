@@ -1110,13 +1110,23 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     .board-view .article-header .icon-list {
       margin-top: 15px; }
       .board-view .article-header .icon-list li {
-        /*padding-right: 35px;*/ }
+        padding-right: 20px; }
   .board-view .article-content .view-content {
-    padding: 30px 10px 35px; }
-    .board-view .article-content .view-content p {
+    padding: 30px 0; }
+    .board-view .article-content .view-content.space {
+      text-align: center;
+      padding: 30px 0 60px; }
+    .board-view .article-content .view-content > p {
+      text-align: left;
       font-size: 13px;
       color: #555;
+      padding-left: 10px;
       line-height: 24px; }
+    .board-view .article-content .view-content > .item > p {
+      text-align: center;
+      margin-top: 30px; }
+    .board-view .article-content .view-content > .item ~ .item {
+      margin-top: 55px; }
     .board-view .article-content .view-content .reply {
       margin-top: 40px;
       padding: 20px;
@@ -1211,10 +1221,26 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         .board-view .article-header .icon-list li {
           padding-right: 35px; }
     .board-view .article-content .view-content {
-      padding: 50px 30px; }
-      .board-view .article-content .view-content p {
+      padding: 50px 0 60px; }
+      .board-view .article-content .view-content > p {
         font-size: 14px;
-        line-height: 26px; }
+        line-height: 26px;
+        padding-left: 30px; }
+      .board-view .article-content .view-content .item > img {
+        display: block;
+        margin: 0 auto; }
+      .board-view .article-content .view-content .item > p {
+        font-size: 14px;
+        line-height: 26px;
+        text-align: center;
+        margin-top: 40px;
+        padding: 0 10px; }
+      .board-view .article-content .view-content .item ~ .item {
+        margin-top: 80px; }
+      .board-view .article-content .view-content.space {
+        margin: 0 auto;
+        max-width: 725px;
+        padding: 50px 0 60px; }
       .board-view .article-content .view-content .reply {
         margin-top: 50px;
         padding: 40px; }
@@ -1222,8 +1248,9 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
           font-size: 15px; }
           .board-view .article-content .view-content .reply h5:before {
             font-size: 15px; }
-        .board-view .article-content .view-content .reply p {
+        .board-view .article-content .view-content .reply > p {
           font-size: 14px;
+          line-height: 25px;
           margin-top: 25px; }
     .board-view .article-content .attach {
       padding: 20px 10px 20px 50px; }
@@ -1250,9 +1277,16 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
           .board-view .article-content .page-link-list ul li dl dd:before {
             margin-right: 40px; } }
   @media (min-width: 1200px) {
-    .board-view .article-content .view-content p {
-      font-size: 14px;
-      line-height: 28px; }
+    .board-view .article-content .view-content {
+      padding: 45px 0 110px; }
+      .board-view .article-content .view-content p {
+        font-size: 14px;
+        line-height: 28px; }
+      .board-view .article-content .view-content > .item > p {
+        margin-top: 40px; }
+      .board-view .article-content .view-content.space {
+        max-width: 725px;
+        margin: 0 auto; }
     .board-view .article-content .page-link-list ul li dl dt {
       padding-right: 50px; }
     .board-view .article-content .page-link-list ul li dl dd:before {

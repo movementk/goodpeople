@@ -141,24 +141,13 @@
 			.article-content {
 				.view-content {
 					padding: 30px 10px 60px;
-					.item {
-						display: block;
-						text-align: center;
-						margin-top: 60px;
-						&:first-child {
-							margin-top: 0;
-						}
-						p {
-							margin-top: 30px;
-						}
-					}
 				}
 			}
 		}
 	}
-	@media (min-width: $md) {
-		.container {
-			.board-view {
+	/*@media (min-width: $md) {
+		.container { 
+			.board-view { 
 				.article-header {
 					.icon-list {
 						li {
@@ -196,15 +185,6 @@
 				.article-content {
 					.view-content {
 						padding: 50px 0 60px;
-						&.center {
-							max-width: 725px;
-							margin: 0 auto;
-							.item {
-								p {
-									text-align: center;
-								}
-							}
-						}
 						.item {
 							margin-top: 80px;
 							&:first-child {
@@ -219,7 +199,7 @@
 				}
 			}
 		}
-	}
+	}*/
 }
 
 // 공지사항 리스트
