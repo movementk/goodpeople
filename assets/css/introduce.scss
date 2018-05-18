@@ -140,6 +140,7 @@
 
 //비전
 .vision {
+	padding-bottom: 0 !important;
 	.vision-wrap {
 		.section-header {
 			text-align: center;
@@ -371,49 +372,7 @@
 					}
 				}
 			}
-/*			@media (min-width: $md) {
-				margin-top: 60px;
-				ul {
-					overflow: hidden;
-					background-size: contain;
-					background-position: 50% 50%;
-					background-repeat: no-repeat;
-					background-image: url(/assets/images/introduce/bg_value_list.png);
-					li {
-						float: left;
-						width: 50%;
-						padding-top: 15px;
-						& ~ li {
-							margin-top: 0;
-						}
-						&:nth-of-type(3) {
-							padding-top: 0;
-							margin-top: 70px;
-						}
-						&:nth-of-type(4) {
-							padding-top: 0;
-							margin-top: 70px;
-						}
-						&:nth-of-type(odd) {
-							text-align: right;
-							padding-right: 180px;
-						}
-						&:nth-of-type(even) {
-							text-align: left;
-							padding-left: 180px;
-						}
-						p {
-							font-size: 14px;
-							line-height: 20px;
-						}
-					}
-				}
-			}*/
 		}
-		/*@media (min-width: $xl) {
-			background-size: cover;
-			background-image: url(/assets/images/introduce/bg_value_xl.png);
-		}*/
 		@media (min-width: $md) {
 			padding-top: 90px;
 			padding-bottom: 110px;
@@ -466,10 +425,6 @@
 					}
 				}
 			}
-			/*@media (min-width: $xl) {
-				background-size: cover;
-				background-image: url(/assets/images/introduce/bg_value_xl.png);
-			}*/
 		}
 		@media (min-width: $xl) {
 			padding-top: 100px;
@@ -500,12 +455,6 @@
 			}
 		}
 	}
-	
-	
-	
-	
-	
-	
 }
 
 

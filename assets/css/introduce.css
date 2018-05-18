@@ -457,271 +457,227 @@ a {
         font-size: 22px;
         line-height: 34px; } }
 
-.vision .vision-wrap .section-header {
-  text-align: center;
-  padding-top: 55px; }
-  .vision .vision-wrap .section-header h2 {
-    font-size: 28px;
-    color: #222;
-    font-weight: 400; }
-  .vision .vision-wrap .section-header strong {
-    display: block;
-    font-size: 22px;
-    color: #eb6100;
-    font-weight: 300;
-    margin-top: 20px;
-    font-family: 'Roboto', sans-serif; }
-  .vision .vision-wrap .section-header p {
-    font-size: 13px;
-    line-height: 24px;
-    color: #444;
-    margin-top: 30px; }
-.vision .vision-wrap .section-content {
-  padding-top: 30px; }
-  .vision .vision-wrap .section-content > .row > li figure {
-    position: relative;
-    text-align: center;
-    margin-top: 10px; }
-    .vision .vision-wrap .section-content > .row > li figure img {
-      width: 100%; }
-    .vision .vision-wrap .section-content > .row > li figure figcaption {
-      position: absolute;
-      left: 0;
-      bottom: 10px;
-      width: 100%;
-      font-size: 13px;
-      color: #fff;
-      text-align: center; }
-  .vision .vision-wrap .section-content > .row > li:first-child figure {
-    margin-top: 0; }
-  .vision .vision-wrap .section-content .step-wrap {
-    padding: 50px 0;
-    margin-top: 30px;
-    margin-bottom: 85px;
-    border: 2px solid #f2c27f; }
-    .vision .vision-wrap .section-content .step-wrap ol {
-      width: 100%;
-      text-align: center; }
-      .vision .vision-wrap .section-content .step-wrap ol li {
-        position: relative;
-        padding-top: 50px;
-        padding-bottom: 70px; }
-        .vision .vision-wrap .section-content .step-wrap ol li strong {
-          font-size: 20px; }
-        .vision .vision-wrap .section-content .step-wrap ol li p {
-          font-size: 13px;
-          color: #666;
-          margin-top: 5px; }
-        .vision .vision-wrap .section-content .step-wrap ol li:first-child {
-          padding-top: 0; }
-          .vision .vision-wrap .section-content .step-wrap ol li:first-child strong {
-            color: #eb6100; }
-          .vision .vision-wrap .section-content .step-wrap ol li:first-child:after {
-            color: #eb6100; }
-        .vision .vision-wrap .section-content .step-wrap ol li:nth-of-type(2):after {
-          color: #144199; }
-        .vision .vision-wrap .section-content .step-wrap ol li:last-child {
-          padding-bottom: 0; }
-          .vision .vision-wrap .section-content .step-wrap ol li:last-child strong {
-            color: #144199; }
-          .vision .vision-wrap .section-content .step-wrap ol li:last-child:after {
-            display: none; }
-        .vision .vision-wrap .section-content .step-wrap ol li:after {
-          position: absolute;
-          bottom: 0;
-          right: 50%;
-          margin-right: -10px;
-          font-size: 24px;
-          font-weight: 400;
-          font-family: "fontello";
-          content: "\E811"; }
-@media (min-width: 768px) {
+.vision {
+  padding-bottom: 0 !important; }
   .vision .vision-wrap .section-header {
-    padding-top: 70px; }
+    text-align: center;
+    padding-top: 55px; }
     .vision .vision-wrap .section-header h2 {
-      font-size: 30px; }
+      font-size: 28px;
+      color: #222;
+      font-weight: 400; }
     .vision .vision-wrap .section-header strong {
-      font-size: 26px;
-      margin-top: 15px; }
+      display: block;
+      font-size: 22px;
+      color: #eb6100;
+      font-weight: 300;
+      margin-top: 20px;
+      font-family: 'Roboto', sans-serif; }
     .vision .vision-wrap .section-header p {
-      font-size: 14px;
-      line-height: 26px;
-      margin-top: 40px; }
+      font-size: 13px;
+      line-height: 24px;
+      color: #444;
+      margin-top: 30px; }
   .vision .vision-wrap .section-content {
-    padding-top: 50px; }
+    padding-top: 30px; }
     .vision .vision-wrap .section-content > .row > li figure {
-      margin-top: 0px; }
+      position: relative;
+      text-align: center;
+      margin-top: 10px; }
+      .vision .vision-wrap .section-content > .row > li figure img {
+        width: 100%; }
+      .vision .vision-wrap .section-content > .row > li figure figcaption {
+        position: absolute;
+        left: 0;
+        bottom: 10px;
+        width: 100%;
+        font-size: 13px;
+        color: #fff;
+        text-align: center; }
+    .vision .vision-wrap .section-content > .row > li:first-child figure {
+      margin-top: 0; }
     .vision .vision-wrap .section-content .step-wrap {
-      padding: 60px 0;
-      margin-bottom: 115px; }
+      padding: 50px 0;
+      margin-top: 30px;
+      margin-bottom: 85px;
+      border: 2px solid #f2c27f; }
       .vision .vision-wrap .section-content .step-wrap ol {
         width: 100%;
-        display: table; }
+        text-align: center; }
         .vision .vision-wrap .section-content .step-wrap ol li {
-          display: table-cell;
-          width: 33.33%;
-          vertical-align: middle;
-          padding-top: 0;
-          padding-bottom: 0; }
+          position: relative;
+          padding-top: 50px;
+          padding-bottom: 70px; }
+          .vision .vision-wrap .section-content .step-wrap ol li strong {
+            font-size: 20px; }
           .vision .vision-wrap .section-content .step-wrap ol li p {
-            font-size: 14px; }
+            font-size: 13px;
+            color: #666;
+            margin-top: 5px; }
+          .vision .vision-wrap .section-content .step-wrap ol li:first-child {
+            padding-top: 0; }
+            .vision .vision-wrap .section-content .step-wrap ol li:first-child strong {
+              color: #eb6100; }
+            .vision .vision-wrap .section-content .step-wrap ol li:first-child:after {
+              color: #eb6100; }
+          .vision .vision-wrap .section-content .step-wrap ol li:nth-of-type(2):after {
+            color: #144199; }
+          .vision .vision-wrap .section-content .step-wrap ol li:last-child {
+            padding-bottom: 0; }
+            .vision .vision-wrap .section-content .step-wrap ol li:last-child strong {
+              color: #144199; }
+            .vision .vision-wrap .section-content .step-wrap ol li:last-child:after {
+              display: none; }
           .vision .vision-wrap .section-content .step-wrap ol li:after {
             position: absolute;
-            top: 0;
-            right: 0;
-            transform: rotate(-90deg);
+            bottom: 0;
+            right: 50%;
             margin-right: -10px;
             font-size: 24px;
             font-weight: 400;
             font-family: "fontello";
-            content: "\E811"; } }
-@media (min-width: 1200px) {
-  .vision .vision-wrap .section-content .step-wrap {
-    margin-top: 60px;
-    margin-bottom: 120px; }
-    .vision .vision-wrap .section-content .step-wrap ol li strong {
-      font-size: 22px; } }
-.vision .value {
-  text-align: center;
-  padding-top: 70px;
-  padding-bottom: 60px;
-  background-color: #f7f7f7;
-  /*@media (min-width: $xl) {
-  	background-size: cover;
-  	background-image: url(/assets/images/introduce/bg_value_xl.png);
-  }*/ }
-  .vision .value .section-header h3 {
-    font-size: 28px;
-    color: #222;
-    font-weight: 400; }
-  .vision .value .section-header strong {
-    display: block;
-    font-size: 22px;
-    color: #eb6100;
-    font-weight: 300;
-    margin-top: 20px;
-    font-family: 'Roboto', sans-serif; }
-  .vision .value .section-header p {
-    font-size: 13px;
-    color: #666;
-    line-height: 26px;
-    margin-top: 30px; }
-  .vision .value .section-content {
-    margin-top: 45px;
-    /*			@media (min-width: $md) {
-    				margin-top: 60px;
-    				ul {
-    					overflow: hidden;
-    					background-size: contain;
-    					background-position: 50% 50%;
-    					background-repeat: no-repeat;
-    					background-image: url(/assets/images/introduce/bg_value_list.png);
-    					li {
-    						float: left;
-    						width: 50%;
-    						padding-top: 15px;
-    						& ~ li {
-    							margin-top: 0;
-    						}
-    						&:nth-of-type(3) {
-    							padding-top: 0;
-    							margin-top: 70px;
-    						}
-    						&:nth-of-type(4) {
-    							padding-top: 0;
-    							margin-top: 70px;
-    						}
-    						&:nth-of-type(odd) {
-    							text-align: right;
-    							padding-right: 180px;
-    						}
-    						&:nth-of-type(even) {
-    							text-align: left;
-    							padding-left: 180px;
-    						}
-    						p {
-    							font-size: 14px;
-    							line-height: 20px;
-    						}
-    					}
-    				}
-    			}*/ }
-    .vision .value .section-content ul li ~ li {
-      margin-top: 40px; }
-    .vision .value .section-content ul li:first-child {
-      margin-top: 0; }
-    .vision .value .section-content ul li h4 {
-      font-size: 16px;
-      color: #222;
-      margin-top: 10px;
-      font-family: 'Roboto', sans-serif; }
-    .vision .value .section-content ul li p {
-      font-size: 13px;
-      line-heigt: 18px;
-      color: #666;
-      margin-top: 10px; }
+            content: "\E811"; }
   @media (min-width: 768px) {
-    .vision .value {
-      padding-top: 90px;
-      padding-bottom: 110px;
-      /*@media (min-width: $xl) {
-      	background-size: cover;
-      	background-image: url(/assets/images/introduce/bg_value_xl.png);
-      }*/ }
-      .vision .value .section-header h3 {
+    .vision .vision-wrap .section-header {
+      padding-top: 70px; }
+      .vision .vision-wrap .section-header h2 {
         font-size: 30px; }
-      .vision .value .section-header strong {
-        font-size: 26px; }
-      .vision .value .section-header p {
-        font-size: 14px; }
-      .vision .value .section-content {
-        margin-top: 60px; }
-        .vision .value .section-content ul {
-          overflow: hidden;
-          background-size: contain;
-          background-position: 50% 50%;
-          background-repeat: no-repeat;
-          background-image: url(/assets/images/introduce/bg_value_list.png); }
-          .vision .value .section-content ul li {
-            float: left;
-            width: 50%;
-            padding-top: 15px; }
-            .vision .value .section-content ul li ~ li {
-              margin-top: 0; }
-            .vision .value .section-content ul li:nth-of-type(3) {
-              padding-top: 0;
-              margin-top: 70px; }
-            .vision .value .section-content ul li:nth-of-type(4) {
-              padding-top: 0;
-              margin-top: 70px; }
-            .vision .value .section-content ul li:nth-of-type(odd) {
-              text-align: right;
-              padding-right: 180px; }
-            .vision .value .section-content ul li:nth-of-type(even) {
-              text-align: left;
-              padding-left: 180px; }
-            .vision .value .section-content ul li p {
-              font-size: 14px;
-              line-height: 20px; } }
+      .vision .vision-wrap .section-header strong {
+        font-size: 26px;
+        margin-top: 15px; }
+      .vision .vision-wrap .section-header p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-top: 40px; }
+    .vision .vision-wrap .section-content {
+      padding-top: 50px; }
+      .vision .vision-wrap .section-content > .row > li figure {
+        margin-top: 0px; }
+      .vision .vision-wrap .section-content .step-wrap {
+        padding: 60px 0;
+        margin-bottom: 115px; }
+        .vision .vision-wrap .section-content .step-wrap ol {
+          width: 100%;
+          display: table; }
+          .vision .vision-wrap .section-content .step-wrap ol li {
+            display: table-cell;
+            width: 33.33%;
+            vertical-align: middle;
+            padding-top: 0;
+            padding-bottom: 0; }
+            .vision .vision-wrap .section-content .step-wrap ol li p {
+              font-size: 14px; }
+            .vision .vision-wrap .section-content .step-wrap ol li:after {
+              position: absolute;
+              top: 0;
+              right: 0;
+              transform: rotate(-90deg);
+              margin-right: -10px;
+              font-size: 24px;
+              font-weight: 400;
+              font-family: "fontello";
+              content: "\E811"; } }
   @media (min-width: 1200px) {
-    .vision .value {
-      padding-top: 100px;
-      padding-bottom: 155px;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      background-image: url(/assets/images/introduce/bg_value_xl.png); }
-      .vision .value .section-content {
-        margin-top: 50px; }
-        .vision .value .section-content ul li {
-          padding-top: 25px; }
-          .vision .value .section-content ul li:nth-of-type(3) {
-            margin-top: 100px; }
-          .vision .value .section-content ul li:nth-of-type(4) {
-            margin-top: 100px; }
-          .vision .value .section-content ul li:nth-of-type(odd) {
-            padding-right: 200px; }
-          .vision .value .section-content ul li:nth-of-type(even) {
-            padding-left: 200px; } }
+    .vision .vision-wrap .section-content .step-wrap {
+      margin-top: 60px;
+      margin-bottom: 120px; }
+      .vision .vision-wrap .section-content .step-wrap ol li strong {
+        font-size: 22px; } }
+  .vision .value {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    background-color: #f7f7f7; }
+    .vision .value .section-header h3 {
+      font-size: 28px;
+      color: #222;
+      font-weight: 400; }
+    .vision .value .section-header strong {
+      display: block;
+      font-size: 22px;
+      color: #eb6100;
+      font-weight: 300;
+      margin-top: 20px;
+      font-family: 'Roboto', sans-serif; }
+    .vision .value .section-header p {
+      font-size: 13px;
+      color: #666;
+      line-height: 26px;
+      margin-top: 30px; }
+    .vision .value .section-content {
+      margin-top: 45px; }
+      .vision .value .section-content ul li ~ li {
+        margin-top: 40px; }
+      .vision .value .section-content ul li:first-child {
+        margin-top: 0; }
+      .vision .value .section-content ul li h4 {
+        font-size: 16px;
+        color: #222;
+        margin-top: 10px;
+        font-family: 'Roboto', sans-serif; }
+      .vision .value .section-content ul li p {
+        font-size: 13px;
+        line-heigt: 18px;
+        color: #666;
+        margin-top: 10px; }
+    @media (min-width: 768px) {
+      .vision .value {
+        padding-top: 90px;
+        padding-bottom: 110px; }
+        .vision .value .section-header h3 {
+          font-size: 30px; }
+        .vision .value .section-header strong {
+          font-size: 26px; }
+        .vision .value .section-header p {
+          font-size: 14px; }
+        .vision .value .section-content {
+          margin-top: 60px; }
+          .vision .value .section-content ul {
+            overflow: hidden;
+            background-size: contain;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-image: url(/assets/images/introduce/bg_value_list.png); }
+            .vision .value .section-content ul li {
+              float: left;
+              width: 50%;
+              padding-top: 15px; }
+              .vision .value .section-content ul li ~ li {
+                margin-top: 0; }
+              .vision .value .section-content ul li:nth-of-type(3) {
+                padding-top: 0;
+                margin-top: 70px; }
+              .vision .value .section-content ul li:nth-of-type(4) {
+                padding-top: 0;
+                margin-top: 70px; }
+              .vision .value .section-content ul li:nth-of-type(odd) {
+                text-align: right;
+                padding-right: 180px; }
+              .vision .value .section-content ul li:nth-of-type(even) {
+                text-align: left;
+                padding-left: 180px; }
+              .vision .value .section-content ul li p {
+                font-size: 14px;
+                line-height: 20px; } }
+    @media (min-width: 1200px) {
+      .vision .value {
+        padding-top: 100px;
+        padding-bottom: 155px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url(/assets/images/introduce/bg_value_xl.png); }
+        .vision .value .section-content {
+          margin-top: 50px; }
+          .vision .value .section-content ul li {
+            padding-top: 25px; }
+            .vision .value .section-content ul li:nth-of-type(3) {
+              margin-top: 100px; }
+            .vision .value .section-content ul li:nth-of-type(4) {
+              margin-top: 100px; }
+            .vision .value .section-content ul li:nth-of-type(odd) {
+              padding-right: 200px; }
+            .vision .value .section-content ul li:nth-of-type(even) {
+              padding-left: 200px; } }
 
 /*# sourceMappingURL=introduce.css.map */
