@@ -193,64 +193,57 @@
 				}
 			}
 			.step-wrap {
-				text-align: center;
-				border: 2px solid #f2c27f;
 				padding: 50px 0;
 				margin-top: 30px;
-				.row {
-					> li {
-						.step {
-                            position: relative;
-                            padding-top: 50px;
-                            padding-bottom: 70px;
-                            strong {
-                                font-size: 20px;
-                            }
-                            p {
-                                font-size: 13px;
-                                color: #666;
-                            }
-							&:after {
-								position: absolute;
-								bottom: 0;
-								right: 50%;
-                                margin-right: -10px;
-								display: inline-block;
-								font-size: 24px;
-								font-weight: 400;
-								text-align: center;
-								font-family: "fontello";
-								content: "\E811";
-							}
+				margin-bottom: 85px;
+				border: 2px solid #f2c27f;
+				ol {
+					width: 100%;
+					text-align: center;
+					li {
+						position: relative;
+						padding-top: 50px;
+                        padding-bottom: 70px;
+						strong {
+							font-size: 20px;
+						}
+						p {
+							font-size: 13px;
+							color: #666;
+							margin-top: 5px;
 						}
 						&:first-child {
-							.step {
-								padding-top: 0;
-								strong {
-									color: #eb6100;
-								}
-								&:after {
-									color: #eb6100;
-								}
+							padding-top: 0;
+							strong {
+								color: #eb6100;
+							}
+							&:after {
+								color: #eb6100;
 							}
 						}
 						&:nth-of-type(2) {
-							.step {
-								&:after {
-									color: #144199;
-								}
+							&:after {
+								color: #144199;
 							}
 						}
 						&:last-child {
-							.step {
-								padding-bottom: 0;
-								strong {
-									color: #144199;
-								}
-								&:after {
-									display: none;
-								}
+							padding-bottom: 0;
+							strong {
+								color: #144199;
 							}
+							&:after {
+								display: none;
+							}
+						}
+						&:after {
+							position: absolute;
+							bottom: 0;
+							right: 50%;
+							margin-right: -10px;
+							font-size: 24px;
+							font-weight: 400;
+							font-family: "fontello";
+							content: "\E811";
 						}
 					}
 				}
@@ -280,156 +273,53 @@
 							margin-top: 0px;
 						}
 					}
-				}
+				} 
 				.step-wrap {
-					width: 100%;
-					padding: 70px 0;
-					.row {
-						> li {
-							.step {
-								&:after {
-									position: absolute;
-									bottom: 50%;
-                                    right: 0;
-                                    margin-bottom: -30px;
-									margin-right: -18px;
-									transform: rotate(-90deg);
-								}
+					padding: 60px 0;
+					margin-bottom: 115px;
+					ol {
+						width: 100%;
+						display: table;
+						li {
+							display: table-cell;
+							width: 33.33%;
+							vertical-align: top;
+							padding-top: 0;
+							padding-bottom: 0;
+							p {
+								font-size: 14px;
 							}
-							&:first-child {
-								.step {
-									p {
-										margin-top: 10px;
-									}
-									&:after {
-										color: #eb6100;
-									}
-								}
-							}
-							&:nth-of-type(2) {
-								.step {
-									&:after {
-										color: #144199;
-									}
-								}
-							}
-							&:last-child {
-								.step {
-									padding-right: 0;
-									strong {
-										color: #144199;
-									}
-									p {
-										margin-top: 10px;
-									}
-									&:after {
-										display: none;
-									}
-								}
-							}
-							.step {
-								padding-top: 0;
-								padding-bottom: 0;
-								strong {
-									font-size: 20px;
-								}
-								p {
-									font-size: 13px;
-									color: #666;
-								}
+							&:after {
+								position: absolute;
+								top: 0;
+								right: 0;
+								transform: rotate(-90deg);
+								margin-right: -10px;
+								font-size: 24px;
+								font-weight: 400;
+								font-family: "fontello";
+								content: "\E811";
 							}
 						}
 					}
 				}
 			}
 		}
-		/*@media (min-width: $md) {
-			.section-header {
-				padding-top: 70px;
-				h2 {
-					font-size: 30px;
-				}
-				strong {
-					font-size: 26px;
-					margin-top: 15px;
-				}
-				p {
-					font-size: 14px;
-					line-height: 26px;
-					margin-top: 40px;
-				}
-			}
+		@media (min-width: $xl) {
 			.section-content {
-				padding-top: 50px;
-				> .row {
-					> li {
-						figure {
-							margin-top: 0px;
-						}
-					}
-				}
 				.step-wrap {
-					padding: 70px 0;
-					.row {
-						> li {
-							.step {
-								&:after {
-									top: 0;
-									left: auto;
-									right: 0;
-									width: auto;
-									transform: rotate(-90deg);
-									font-size: 24px;
-									font-weight: 400;
-									text-align: center;
-									font-family: "fontello";
-									content: "\E811";
-								}
-							}
-							&:first-child {
-								.step {
-									p {
-										margin-top: 10px;
-									}
-									&:after {
-										color: #eb6100;
-									}
-								}
-							}
-							&:nth-of-type(2) {
-								.step {
-									&:after {
-										color: #144199;
-									}
-								}
-							}
-							&:last-child {
-								.step {
-									padding-bottom: 0;
-									strong {
-										color: #144199;
-									}
-									&:after {
-										display: none;
-									}
-								}
-							}
-							.step {
-								padding-top: 0;
-								padding-bottom: 0;
-								strong {
-									font-size: 20px;
-								}
-								p {
-									font-size: 13px;
-									color: #666;
-								}
+					margin-top: 60px;
+					margin-bottom: 120px;
+					ol {
+						li {
+							strong {
+								font-size: 22px;
 							}
 						}
 					}
 				}
 			}
-		}*/
+		}
 	}
 }
 

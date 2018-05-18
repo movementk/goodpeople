@@ -49,8 +49,8 @@
 					<ul class="row">
 						<li class="col-12 col-md-4">
 							<figure>
-								<img src="/assets/images/introduce/img_vision01.jpg"  class="img-fluid d-md-none" alt="">
-								<img src="/assets/images/introduce/img_md_vision01.jpg"  class="img-fluid d-none d-md-block" alt="">
+								<img src="/assets/images/introduce/img_vision01.jpg"  class="img-fluid d-block d-md-none d-xl-block" alt="">
+								<img src="/assets/images/introduce/img_md_vision01.jpg"  class="img-fluid d-none d-md-block d-xl-none" alt="">
 								<figcaption>
 									사랑을 나누고 희망을 세우는<br class="d-none d-md-block"> 사랑의 메신저
 								</figcaption>
@@ -67,34 +67,28 @@
 						</li>
 						<li class="col-12 col-md-4">
 							<figure>
-								<img src="/assets/images/introduce/img_vision03.jpg"  class="img-fluid d-md-none" alt="">
-								<img src="/assets/images/introduce/img_md_vision03.jpg"  class="img-fluid d-none d-md-block" alt="">
+								<img src="/assets/images/introduce/img_vision03.jpg"  class="img-fluid d-block d-md-none d-xl-block" alt="">
+								<img src="/assets/images/introduce/img_md_vision03.jpg"  class="img-fluid d-none d-md-block d-xl-none" alt="">
 								<figcaption>
 									올바른 도움의 문화를<br class="d-none d-md-block"> 만드는 기부 천사
 								</figcaption>
 							</figure>
 						</li>
 					</ul>
-       				<div class="step-wrap">
-       					<ol class="row">
-       						<li class="col-12 col-md-4">
-       							<div class="step">
-       								<strong>나눔실천</strong>
-       								<p>개인/기업 후원자(NGO단체)</p>
-       							</div>
+      				<div class="step-wrap">
+       					<ol>
+       						<li>
+								<strong>나눔실천</strong>
+								<p>개인/기업 후원자(NGO단체)</p>
        						</li>
-       						<li class="col-12 col-md-4">
-       							<div class="step">
-       								<p>
-       									<img src="/assets/images/introduce/img_vision_step.jpg" alt="">
-       								</p>
+       						<li>
+       							<div class="step-img">
+									<img src="/assets/images/introduce/img_vision_step.jpg" alt="">
        							</div>
 							</li>
-       						<li class="col-12 col-md-4">
-       							<div class="step">
-       								<strong>세움실천</strong>
-       								<p>수혜국/수혜자</p>
-       							</div>
+       						<li>
+								<strong>세움실천</strong>
+								<p>수혜국/수 혜자</p>
        						</li>
        					</ol>
        				</div>
