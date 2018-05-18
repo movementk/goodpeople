@@ -1278,7 +1278,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
             margin-right: 40px; } }
   @media (min-width: 1200px) {
     .board-view .article-content .view-content {
-      padding: 45px 0 110px; }
+      padding: 45px 0 60px; }
       .board-view .article-content .view-content p {
         font-size: 14px;
         line-height: 28px; }
