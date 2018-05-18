@@ -427,68 +427,12 @@ a {
   .business-list .container .paging {
     margin-top: 30px; } }
 
-.news-view {
-  /*@media (min-width: $md) {
-  	.container { 
-  		.board-view { 
-  			.article-header {
-  				.icon-list {
-  					li {
-  						padding-right: 30px;
-  					}
-  				}
-  			}
-  			.article-content {
-  				.view-content {
-  					padding: 50px 20px 55px;
-  					.item {
-  						margin-top: 75px;
-  						&:first-child {
-  							margin-top: 0;
-  						}
-  						p {
-  							margin-top: 40px;
-  						}
-  					}
-  				}
-  			}
-  		}
-  	}
-  }
-  @media (min-width: $xl) {
-  	.container {
-  		.board-view {
-  			.article-header {
-  				.icon-list {
-  					li {
-  						padding-right: 35px;
-  					}
-  				}
-  			}
-  			.article-content {
-  				.view-content {
-  					padding: 50px 0 60px;
-  					.item {
-  						margin-top: 80px;
-  						&:first-child {
-  							margin-top: 0;
-  						}
-  						p {
-  							text-align: left;
-  							margin-top: 35px;
-  						}
-  					}
-  				}
-  			}
-  		}
-  	}
-  }*/ }
-  .news-view .container .board-view .article-header {
-    border-top: none; }
-    .news-view .container .board-view .article-header .icon-list li {
-      padding-right: 20px; }
-  .news-view .container .board-view .article-content .view-content {
-    padding: 30px 10px 60px; }
+.news-view .container .board-view .article-header {
+  border-top: none; }
+  .news-view .container .board-view .article-header .icon-list li {
+    padding-right: 20px; }
+.news-view .container .board-view .article-content .view-content {
+  padding: 30px 10px 60px; }
 
 .notice-list .container .search-form {
   margin-top: 40px; }
