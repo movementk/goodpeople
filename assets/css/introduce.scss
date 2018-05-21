@@ -526,6 +526,9 @@
 						&.on {
 							background-color: #eb6100;
 							border-color: #eb6100;
+							&:hover, &:focus {
+								opacity: 1;
+							}
 							a {
 								color: #fff;
 							}
@@ -534,6 +537,7 @@
 							background-color: #eb6100;
 							border-color: #eb6100;
 							opacity: .5;
+							@include transition();
 							a {
 								color: #fff;
 							}
@@ -555,6 +559,12 @@
 							line-height: 50px;
 						}
 					}
+				}
+			}
+			@media (min-width: $xl) {
+				ol {
+					width: 735px;
+					margin: 40px auto 0;
 				}
 			}
 		}
@@ -588,7 +598,6 @@
                         }
 						.col-12 {
 							> .details {
-								/*position: relative;*/
 								padding-left: 40px; 
 								&:before { 
 									position: absolute;
@@ -659,9 +668,6 @@
 										ul {
 											li {
 												margin-top: 10px;
-	/*											& ~ li {
-													margin-top: 10px;
-												}*/
 											}
 										}
 									}
@@ -672,36 +678,17 @@
 											top: 5px;
 								            left: -5px;
 										}
-										> h3 {
-											position: relative;
-											top: -8px;
-											left: -5px;
-											font-size: 30px;
-											color: #000;
-											font-weight: 600;
-											@include roboto();
-										}
 										> ol {
-											margin-top: 30px;
+											margin-top: 40px;
 											> li {
-												margin-top: 30px;
-												&:first-child {
-													margin-top: 0;
-												}
 												dl {
-													 overflow: hidden;
 													 dt {
-														 float: left;
-														 font-size: 14px;
-														 color: #000;
-														 font-weight: 400;
-
+														 font-size: 16px;
 													 }
 													 dd {
-														 font-size: 13px;
-														 color: #777;
-														 line-height: 22px;
-														 margin-left: 40px;
+														 font-size: 15px;
+														 line-height: 25px;
+														 margin-left: 50px;
 													}
 												}
 											}
@@ -736,7 +723,7 @@
 														float: right;
 													}
 													dd {
-														padding-right: 50px;
+														margin-right: 50px;
 													}
 												}
 											}
@@ -753,6 +740,21 @@
 										text-align: left;
 										margin-top: 75px;
 										padding-left: 50px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			@media (min-width: $xl) {
+				.history-list {
+					> ol {
+						li {
+							.row {
+								.col-12 {
+									.details {
+										padding-bottom: 95px;
 									}
 								}
 							}
