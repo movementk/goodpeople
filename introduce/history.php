@@ -58,7 +58,7 @@
 				</div>
 				<div class="article-content">
 					<div class="content-header">
-						<h2><img src="/assets/images/introduce/img_logo.png" alt=""></h2>
+						<h2><img src="/assets/images/introduce/img_history_logo.png" alt=""></h2>
 					</div>
 					<div class="history-list">
 						<ol>
