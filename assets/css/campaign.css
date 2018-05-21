@@ -356,4 +356,59 @@ a {
     .container {
       max-width: 1200px; } }
 
+.campaign-review .article-header {
+  margin-bottom: 30px; }
+.campaign-review .article-content > ul > li a {
+  display: block; }
+  .campaign-review .article-content > ul > li a .item figure .img-fluid {
+    display: block;
+    width: 100%;
+    margin: 0 auto; }
+  .campaign-review .article-content > ul > li a .details {
+    padding-top: 25px;
+    text-align: center; }
+    .campaign-review .article-content > ul > li a .details small {
+      font-size: 13px;
+      color: #666; }
+    .campaign-review .article-content > ul > li a .details h3 {
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 14px;
+      color: #333;
+      font-weight: 400;
+      margin-top: 15px; }
+    .campaign-review .article-content > ul > li a .details .icon-list {
+      margin-top: 20px; }
+.campaign-review .article-content > ul > li ~ li a {
+  margin-top: 30px; }
+.campaign-review .article-content .paging {
+  margin-top: 60px; }
+@media (min-width: 768px) {
+  .campaign-review .article-content > ul > li a .details {
+    padding-top: 30px; }
+    .campaign-review .article-content > ul > li a .details small {
+      font-size: 14px; }
+    .campaign-review .article-content > ul > li a .details h3 {
+      font-size: 16px;
+      margin-top: 20px; }
+    .campaign-review .article-content > ul > li a .details .icon-list {
+      margin-top: 30px; }
+  .campaign-review .article-content > ul > li ~ li a {
+    margin-top: 0; }
+  .campaign-review .article-content > ul > li:nth-of-type(2) ~ li a {
+    margin-top: 60px; }
+  .campaign-review .article-content .paging {
+    margin-top: 90px; } }
+@media (min-width: 1200px) {
+  .campaign-review .article-header {
+    margin-bottom: 60px; }
+  .campaign-review .article-content > ul > li:nth-of-type(2) ~ li a {
+    margin-top: 0; }
+  .campaign-review .article-content > ul > li:nth-of-type(3) ~ li a {
+    margin-top: 60px; }
+  .campaign-review .article-content .paging {
+    margin-top: 80px; } }
+
 /*# sourceMappingURL=campaign.css.map */

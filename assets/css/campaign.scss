@@ -1,2 +1,115 @@
 @import 'common';
 
+// 캠페인 후기
+.campaign-review {
+    .article-header {
+        margin-bottom: 30px;
+    }
+    .article-content {
+        > ul {
+            > li {
+                a {
+                    display: block;
+                    .item {
+                        figure {
+                            .img-fluid {
+                                display: block;
+                                width: 100%;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                    .details {
+                        padding-top: 25px;
+                        text-align: center;
+                        small {
+                            font-size: 13px;
+                            color: #666;
+                        }
+                        h3 {
+                            display: block;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            font-size: 14px;
+                            color: #333;
+                            font-weight: 400;
+                            margin-top: 15px;
+                        }
+                        .icon-list {
+                            margin-top: 20px;
+                        }
+                    }
+                }
+                & ~ li {
+                    a {
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 60px;
+        }
+    }
+    @media(min-width: $md) {
+        .article-content {
+            > ul {
+                > li {
+                    a {
+                        .details {
+                            padding-top: 30px;
+                            small {
+                                font-size: 14px;
+                            }
+                            h3 {
+                                font-size: 16px;
+                                margin-top: 20px;
+                            }
+                            .icon-list {
+                                margin-top: 30px;
+                            }
+                        }
+                    }
+                    & ~ li {
+                        a {
+                            margin-top: 0;
+                        }
+                    }
+                    &:nth-of-type(2) ~ li {
+                        a {
+                            margin-top: 60px;
+                        }
+                    }
+                }
+            }
+            .paging {
+                margin-top: 90px;
+            }
+        }
+    }
+    @media(min-width: $xl) {
+        .article-header {
+            margin-bottom: 60px;
+        }
+        .article-content {
+            > ul {
+                > li {
+                    &:nth-of-type(2) ~ li {
+                        a {
+                            margin-top: 0;
+                        }
+                    }
+                    &:nth-of-type(3) ~ li {
+                        a {
+                            margin-top: 60px;
+                        }
+                    }
+                }
+            }
+            .paging {
+                margin-top: 80px;
+            }
+        }
+    }
+}
