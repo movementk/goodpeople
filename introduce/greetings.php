@@ -24,8 +24,8 @@
             </div>
             <nav class="lnb">
                 <ul class="tab-list">
-                    <li><a href="#">비전과가치</a></li>
-                    <li><a href="#">걸어온길</a></li>
+                    <li><a href="/introduce/vision.php">비전과가치</a></li>
+                    <li><a href="/introduce/history.php">걸어온길</a></li>
                     <li class="active"><a href="/introduce/greetings.php">인사말</a></li>
                 </ul>
             </nav>
