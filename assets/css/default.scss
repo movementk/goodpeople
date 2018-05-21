@@ -165,7 +165,7 @@ body {
                         font-weight: bold;
                         @include roboto();
                         background: none;
-                        padding-left: 15px;
+                        padding: 0 15px;
                         &:after {
                             float: right;
                             margin-right: 5px;

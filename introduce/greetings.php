@@ -64,7 +64,7 @@
                 </div>
             </div>
         </section>
-        <article class="vision">
+        <article class="target">
             <div class="container">
                 <figure>
                     <img src="/assets/images/introduce/img_logo.png" alt="굿피플 로고">

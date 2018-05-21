@@ -390,20 +390,20 @@ a {
       .greetings .ceo-message figure .img-fluid {
         display: block;
         margin: 0 auto; }
-  .greetings .vision {
+  .greetings .target {
     padding: 80px 0;
     text-align: center;
-    background-image: url(/assets/images/introduce/bg_vision_sm.jpg);
+    background-image: url(/assets/images/introduce/bg_target_sm.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover; }
-    .greetings .vision p {
+    .greetings .target p {
       font-size: 14px;
       color: #fff;
       line-height: 26px;
       margin: 35px 0 20px;
       text-shadow: 0px 6px 7px rgba(0, 0, 0, 0.5); }
-    .greetings .vision small {
+    .greetings .target small {
       display: inline-block;
       font-size: 13px;
       color: rgba(255, 255, 255, 0.5); }
@@ -429,14 +429,14 @@ a {
       .greetings .ceo-message figure {
         padding: 0;
         margin-top: 0; }
-    .greetings .vision {
+    .greetings .target {
       padding: 120px 0;
       text-align: left; }
-      .greetings .vision p {
+      .greetings .target p {
         font-size: 20px;
         line-height: 34px;
         margin: 40px 0 20px; }
-      .greetings .vision small {
+      .greetings .target small {
         font-size: 15px; } }
   @media (min-width: 1200px) {
     .greetings .ceo-message {
@@ -450,10 +450,10 @@ a {
         line-height: 28px; }
       .greetings .ceo-message figure {
         margin-top: -84px; }
-    .greetings .vision {
+    .greetings .target {
       padding: 150px 0;
-      background-image: url(/assets/images/introduce/bg_vision_lg.jpg); }
-      .greetings .vision p {
+      background-image: url(/assets/images/introduce/bg_target_lg.jpg); }
+      .greetings .target p {
         font-size: 22px;
         line-height: 34px; } }
 
@@ -772,15 +772,15 @@ a {
       content: " ";
       display: block;
       border-left: 1px solid #eb6100; }
-    .history article .article-content .history-list > ol li ~ li .row .col-12 .details {
-      margin-top: 70px; }
+    .history article .article-content .history-list > ol li .row .col-12 .details {
+      padding-bottom: 70px; }
     .history article .article-content .history-list > ol li .col-12 > .details {
-      position: relative;
+      /*position: relative;*/
       padding-left: 40px; }
       .history article .article-content .history-list > ol li .col-12 > .details:before {
         position: absolute;
         top: 5px;
-        left: 5px;
+        left: 10px;
         display: block;
         content: " ";
         width: 12px;
@@ -818,8 +818,6 @@ a {
       text-align: center; }
     .history article .article-content .history-list:before {
       left: 50%; }
-    .history article .article-content .history-list > ol li ~ li .row .col-12 .details {
-      margin-top: 75px; }
     .history article .article-content .history-list > ol li div.col-12 > .item-images {
       text-align: right;
       padding-right: 50px; }
@@ -833,13 +831,7 @@ a {
       .history article .article-content .history-list > ol li div.col-12 > .details:before {
         position: absolute;
         top: 5px;
-        left: -20px;
-        display: block;
-        content: " ";
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background-color: #eb6100; }
+        left: -5px; }
       .history article .article-content .history-list > ol li div.col-12 > .details > h3 {
         position: relative;
         top: -8px;
@@ -874,7 +866,7 @@ a {
       .history article .article-content .history-list > ol li div.order-first .details:after {
         position: absolute;
         top: 5px;
-        right: -21px;
+        right: -7px;
         display: block;
         content: " ";
         width: 12px;

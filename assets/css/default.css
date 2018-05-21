@@ -519,7 +519,7 @@ body {
             font-weight: bold;
             font-family: 'Roboto', sans-serif;
             background: none;
-            padding-left: 15px; }
+            padding: 0 15px; }
             #nav .nav-wrap .nav-header .top-nav .language .btn:after {
               float: right;
               margin-right: 5px;
