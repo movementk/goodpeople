@@ -914,16 +914,24 @@ a {
       margin-top: 0; }
     .ambassadors .members > ul > li:nth-of-type(3) a figure {
       margin-top: 0; }
+    .ambassadors .members > ul > li a:hover figure figcaption, .ambassadors .members > ul > li a:focus figure figcaption {
+      color: #fff;
+      background-color: #eb6100;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .ambassadors .members > ul > li a:hover figure figcaption p, .ambassadors .members > ul > li a:focus figure figcaption p {
+        color: #fff; }
     .ambassadors .members > ul > li a figure figcaption {
       font-size: 14px;
       line-height: 30px;
       padding-top: 15px;
       padding-bottom: 15px; }
-      .ambassadors .members > ul > li a figure figcaption:hover, .ambassadors .members > ul > li a figure figcaption:focus {
-        color: #fff;
-        background-color: #eb6100; }
-        .ambassadors .members > ul > li a figure figcaption:hover p, .ambassadors .members > ul > li a figure figcaption:focus p {
-          color: #fff; }
       .ambassadors .members > ul > li a figure figcaption > p {
         font-size: 16px; }
     .ambassadors .members .paging {
