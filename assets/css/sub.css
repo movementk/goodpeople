@@ -1638,9 +1638,8 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       position: relative;
       width: 100%;
       text-align: left;
-      padding-right: 70px;
       white-space: normal;
-      padding: 25px 10px; }
+      padding: 25px 10px 25px 35px; }
       .accordion .card .card-header a strong {
         display: block;
         font-size: 14px;
@@ -1655,21 +1654,19 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
           color: #eb6100;
           font-weight: 500;
           font-family: 'Roboto', sans-serif; }
-      .accordion .card .card-header a.btn-link {
-        background-color: red; }
-        .accordion .card .card-header a.btn-link:after {
-          content: "\E802";
-          position: absolute;
-          top: 50%;
-          right: 0;
-          margin-top: -17px;
-          font-size: 22px;
-          color: #222;
-          opacity: .7;
-          font-weight: 300;
-          font-family: "fontello"; }
-        .accordion .card .card-header a.btn-link:hover, .accordion .card .card-header a.btn-link:focus {
-          text-decoration: none; }
+      .accordion .card .card-header a.btn-link:after {
+        content: "\E802";
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        margin-top: -17px;
+        font-size: 22px;
+        color: #222;
+        opacity: .7;
+        font-weight: 300;
+        font-family: "fontello"; }
+      .accordion .card .card-header a.btn-link:hover, .accordion .card .card-header a.btn-link:focus {
+        text-decoration: none; }
       .accordion .card .card-header a.collapsed {
         background-color: #fff; }
         .accordion .card .card-header a.collapsed:after {
