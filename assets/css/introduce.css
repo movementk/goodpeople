@@ -695,16 +695,10 @@ a {
       width: 50%;
       height: 40px;
       border: 1px solid #ccc; }
-      .history article .article-header ol li.on {
-        background-color: #eb6100;
-        border-color: #eb6100; }
-        .history article .article-header ol li.on a {
-          color: #fff; }
-      .history article .article-header ol li:hover, .history article .article-header ol li:focus {
-        background-color: #eb6100;
-        border-color: #eb6100;
-        opacity: .5; }
-        .history article .article-header ol li:hover a, .history article .article-header ol li:focus a {
+      .history article .article-header ol li.active {
+        border: 1px solid #eb6100; }
+        .history article .article-header ol li.active a {
+          background-color: #eb6100;
           color: #fff; }
       .history article .article-header ol li:first-child {
         border-right: 0; }
@@ -732,27 +726,8 @@ a {
         .history article .article-header ol li {
           display: table-cell;
           width: 1%; }
-          .history article .article-header ol li.on {
-            background-color: #eb6100;
-            border-color: #eb6100; }
-            .history article .article-header ol li.on:hover, .history article .article-header ol li.on:focus {
-              opacity: 1; }
-            .history article .article-header ol li.on a {
-              color: #fff; }
-          .history article .article-header ol li:hover, .history article .article-header ol li:focus {
-            background-color: #eb6100;
-            border-color: #eb6100;
-            opacity: .5;
-            -webkit-transition-property: all;
-            transition-property: all;
-            -webkit-transition-duration: 0.15s;
-            transition-duration: 0.15s;
-            -webkit-transition-timing-function: linear;
-            transition-timing-function: linear;
-            -webkit-transition-delay: 0s;
-            transition-delay: 0s; }
-            .history article .article-header ol li:hover a, .history article .article-header ol li:focus a {
-              color: #fff; }
+          .history article .article-header ol li:first-child {
+            border-right: 1px solid #ccc; }
           .history article .article-header ol li:nth-of-type(2) {
             border-left: 0; }
           .history article .article-header ol li:nth-of-type(3) {
@@ -762,6 +737,22 @@ a {
           .history article .article-header ol li:nth-of-type(4) {
             border-left: 0;
             border-top: 1px solid #ccc; }
+          .history article .article-header ol li.active:hover, .history article .article-header ol li.active:focus {
+            opacity: 1; }
+          .history article .article-header ol li:hover, .history article .article-header ol li:focus {
+            opacity: .7;
+            border-color: #eb6100;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
+            .history article .article-header ol li:hover a, .history article .article-header ol li:focus a {
+              background-color: #eb6100;
+              color: #fff; }
           .history article .article-header ol li a {
             font-size: 16px;
             line-height: 50px; } }
@@ -811,6 +802,7 @@ a {
       .history article .article-content .history-list > ol li .col-12 > .details > ol {
         margin-top: 30px; }
         .history article .article-content .history-list > ol li .col-12 > .details > ol > li {
+          line-height: 22px;
           margin-top: 30px; }
           .history article .article-content .history-list > ol li .col-12 > .details > ol > li:first-child {
             margin-top: 0; }
@@ -820,12 +812,15 @@ a {
               float: left;
               font-size: 14px;
               color: #000;
-              font-weight: 400; }
+              font-weight: 400;
+              line-height: 22px; }
             .history article .article-content .history-list > ol li .col-12 > .details > ol > li dl dd {
               font-size: 13px;
               color: #777;
               line-height: 22px;
               margin-left: 40px; }
+              .history article .article-content .history-list > ol li .col-12 > .details > ol > li dl dd ul li {
+                line-height: 22px; }
   @media (min-width: 768px) {
     .history article .article-content .content-header {
       text-align: center; }
@@ -833,6 +828,7 @@ a {
       left: 50%; }
     .history article .article-content .history-list > ol li div.col-12 > .item-images {
       text-align: right;
+      padding-bottom: 70px;
       padding-right: 50px; }
       .history article .article-content .history-list > ol li div.col-12 > .item-images ul li {
         margin-top: 10px; }
@@ -844,12 +840,17 @@ a {
         left: -5px; }
       .history article .article-content .history-list > ol li div.col-12 > .details > ol {
         margin-top: 40px; }
-        .history article .article-content .history-list > ol li div.col-12 > .details > ol > li dl dt {
-          font-size: 16px; }
-        .history article .article-content .history-list > ol li div.col-12 > .details > ol > li dl dd {
-          font-size: 15px;
-          line-height: 25px;
-          margin-left: 50px; }
+        .history article .article-content .history-list > ol li div.col-12 > .details > ol > li {
+          line-height: 25px; }
+          .history article .article-content .history-list > ol li div.col-12 > .details > ol > li dl dt {
+            font-size: 16px;
+            line-height: 27px; }
+          .history article .article-content .history-list > ol li div.col-12 > .details > ol > li dl dd {
+            font-size: 15px;
+            line-height: 25px;
+            margin-left: 0; }
+            .history article .article-content .history-list > ol li div.col-12 > .details > ol > li dl dd ul li {
+              line-height: 25px; }
     .history article .article-content .history-list > ol li div.order-first .details {
       text-align: right;
       padding-right: 30px; }
@@ -880,5 +881,62 @@ a {
   @media (min-width: 1200px) {
     .history article .article-content .history-list > ol li .row .col-12 .details {
       padding-bottom: 95px; } }
+
+.ambassadors .members {
+  margin-top: 50px; }
+  .ambassadors .members > ul > li ~ li a figure {
+    margin-top: 50px; }
+  .ambassadors .members > ul > li a {
+    display: block; }
+    .ambassadors .members > ul > li a figure img {
+      width: 100%; }
+    .ambassadors .members > ul > li a figure figcaption {
+      font-size: 13px;
+      color: #666;
+      line-height: 24px;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 10px; }
+      .ambassadors .members > ul > li a figure figcaption > p {
+        font-size: 14px;
+        color: #333;
+        font-weight: 400; }
+        .ambassadors .members > ul > li a figure figcaption > p i {
+          margin-right: 5px; }
+  .ambassadors .members .paging {
+    margin-top: 50px; }
+@media (min-width: 768px) {
+  .ambassadors .members {
+    margin-top: 80px; }
+    .ambassadors .members > ul > li ~ li a figure {
+      margin-top: 80px; }
+    .ambassadors .members > ul > li:nth-of-type(2) a figure {
+      margin-top: 0; }
+    .ambassadors .members > ul > li:nth-of-type(3) a figure {
+      margin-top: 0; }
+    .ambassadors .members > ul > li a figure figcaption {
+      font-size: 14px;
+      line-height: 30px;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+      .ambassadors .members > ul > li a figure figcaption:hover, .ambassadors .members > ul > li a figure figcaption:focus {
+        color: #fff;
+        background-color: #eb6100; }
+        .ambassadors .members > ul > li a figure figcaption:hover p, .ambassadors .members > ul > li a figure figcaption:focus p {
+          color: #fff; }
+      .ambassadors .members > ul > li a figure figcaption > p {
+        font-size: 16px; }
+    .ambassadors .members .paging {
+      margin-top: 60px; } }
+@media (min-width: 1200px) {
+  .ambassadors .members > ul > li ~ li a figure {
+    margin-top: 70px; }
+  .ambassadors .members > ul > li:nth-of-type(4) a figure {
+    margin-top: 0; }
+  .ambassadors .members > ul > li a figure figcaption {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .ambassadors .members .paging {
+    margin-top: 80px; } }
 
 /*# sourceMappingURL=introduce.css.map */

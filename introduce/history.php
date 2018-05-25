@@ -42,10 +42,10 @@
 						지구촌 희망건설에 앞장서는 국제구호개발 NGO 역사의 태동이 시작된 순간입니다.
 					</p>
 					<ol>
-						<li class="on">
+						<li >
 							<a href="#">~ 2005</a>
 						</li>
-						<li>
+						<li class="active">
 							<a href="#">2006 ~ 2010</a>
 						</li>
 						<li>
