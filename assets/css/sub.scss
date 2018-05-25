@@ -1799,11 +1799,10 @@ input, textarea {
 		}*/
 		.card-header {
 			padding: 0; 
-			padding: 25px 10px;
 			border-top: 1px solid #ccc;
 			border-bottom: 1px solid #ccc;
 			background-color: #fff;
-			button {
+			/*button {
 				position: relative;
 				width: 100%;
 				text-align: left;
@@ -1844,6 +1843,66 @@ input, textarea {
 					}
 				}
 				&.collapsed {
+					&:after {
+						content: "\E803";
+						position: absolute;
+						top: 50%;
+						right: 0;
+						margin-top: -17px;
+						font-size: 22px;
+						color: #222;
+						opacity: .7;
+						font-weight: 300;
+						font-family: "fontello";
+					}
+				}
+			}*/
+            a {
+				position: relative;
+				width: 100%;
+				text-align: left;
+				padding-right: 70px;
+				white-space: normal;
+                
+                padding: 25px 10px;
+				strong {
+					display: block;
+					font-size: 14px;
+					color: #333;
+					font-weight: 400;
+				}
+				p {
+					font-size: 13px;
+					color: #666;
+					font-weight: 300;
+					margin-top: 20px;
+					> span {
+						color: #eb6100;
+						font-weight: 500;
+						@include roboto();
+					}
+				}
+				&.btn-link {
+                    background-color: red;
+					&:after {
+						content: "\E802";
+						position: absolute;
+						top: 50%;
+						right: 0;
+						margin-top: -17px;
+						font-size: 22px;
+						color: #222;
+						opacity: .7;
+						font-weight: 300;
+						font-family: "fontello";
+					}
+					&:hover, &:focus {
+						text-decoration: none;
+					}
+				}
+				&.collapsed {
+                    
+                   background-color: #fff;
 					&:after {
 						content: "\E803";
 						position: absolute;

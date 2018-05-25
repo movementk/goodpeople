@@ -676,14 +676,14 @@
 			<article class="accordion" id="accordion">
 				<div class="card">
 					<div class="card-header" id="headingOne">
-						<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						<a href="#" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 							<strong>2017년 사업보고서</strong>
 							<p>
 								2017년도 굿피플의 연간 수입총계는
 								<span>21,153,000,000</span>원이며, 
 								다음과 같이 사용되었습니다.
 							</p>
-						</button>
+						</a>
 					</div>
 					<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
 						<div class="card-body">
@@ -693,9 +693,14 @@
 				</div>
 				<div class="card">
 					<div class="card-header" id="headingTwo">
-						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-							Collapsible Group Item #2
-						</button>
+						<a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+							<strong>2017년 사업보고서</strong>
+							<p>
+								2017년도 굿피플의 연간 수입총계는
+								<span>21,153,000,000</span>원이며, 
+								다음과 같이 사용되었습니다.
+							</p>
+						</a>
 					</div>
 					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 						<div class="card-body">
@@ -705,9 +710,14 @@
 				</div>
 				<div class="card">
 					<div class="card-header" id="headingThree">
-						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-							Collapsible Group Item #3
-						</button>
+						<a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+							<strong>2017년 사업보고서</strong>
+							<p>
+								2017년도 굿피플의 연간 수입총계는
+								<span>21,153,000,000</span>원이며, 
+								다음과 같이 사용되었습니다.
+							</p>
+						</a>
 					</div>
 					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
 						<div class="card-body">
