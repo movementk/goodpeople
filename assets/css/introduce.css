@@ -969,33 +969,104 @@ a {
     margin: 50px auto 0; }
     .video-modal .modal-dialog .modal-content {
       padding: 0 10px;
-      border-radius: 0; }
+      border-radius: 0;
+      border-bottom: 0; }
       .video-modal .modal-dialog .modal-content .modal-header {
         overflow: hidden;
-        padding: 20px 0 15px;
-        border-bottom: 0; }
+        padding: 20px 0 15px; }
         .video-modal .modal-dialog .modal-content .modal-header .modal-title {
           font-size: 16px;
           color: #333;
           font-weight: 400; }
         .video-modal .modal-dialog .modal-content .modal-header .close {
+          overflow: hidden;
+          float: right;
           display: block;
           width: 24px;
           height: 24px;
+          line-height: 24px;
           padding: 0;
           margin: 0;
-          opacity: 1;
-          float: right; }
+          opacity: 1; }
           .video-modal .modal-dialog .modal-content .modal-header .close span {
             position: relative;
             top: -3px;
-            display: inline-block;
-            width: 24px;
-            height: 24px;
-            line-height: 24px; }
+            text-align: right; }
           .video-modal .modal-dialog .modal-content .modal-header .close:hover, .video-modal .modal-dialog .modal-content .modal-header .close:focus {
             opacity: .7; }
-      .video-modal .modal-dialog .modal-content .modal-content {
+      .video-modal .modal-dialog .modal-content .modal-body {
+        padding: 0 0 70px;
         border-bottom: 0; }
+        .video-modal .modal-dialog .modal-content .modal-body .comment {
+          overflow-y: scroll;
+          height: 185px;
+          margin-top: 20px;
+          padding: 15px 10px 30px;
+          background-color: #ededed; }
+          .video-modal .modal-dialog .modal-content .modal-body .comment > p {
+            font-size: 13px;
+            line-height: 24px;
+            color: #666; }
+        .video-modal .modal-dialog .modal-content .modal-body .latest-news {
+          margin-top: 40px; }
+          .video-modal .modal-dialog .modal-content .modal-body .latest-news > h5 {
+            font-size: 16px;
+            color: #333;
+            font-weight: 400;
+            margin-bottom: 15px; }
+          .video-modal .modal-dialog .modal-content .modal-body .latest-news ul {
+            border-top: 1px solid #aaa;
+            border-bottom: 1px solid #aaa; }
+            .video-modal .modal-dialog .modal-content .modal-body .latest-news ul li {
+              position: relative;
+              padding: 20px 15px;
+              border-bottom: 1px solid #dfdfdf; }
+              .video-modal .modal-dialog .modal-content .modal-body .latest-news ul li:last-child {
+                border-bottom: 0; }
+              .video-modal .modal-dialog .modal-content .modal-body .latest-news ul li a {
+                display: block;
+                font-size: 13px;
+                color: #222;
+                line-height: 19px;
+                font-weight: 300;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap; }
+              .video-modal .modal-dialog .modal-content .modal-body .latest-news ul li > span {
+                position: absolute;
+                top: 20px;
+                right: 25px;
+                display: block;
+                font-size: 14px;
+                color: #555;
+                font-family: 'Roboto', sans-serif; }
+  @media (min-width: 768px) {
+    .video-modal .modal-dialog {
+      margin: 100px auto 0; }
+      .video-modal .modal-dialog .modal-content {
+        padding: 0 30px; }
+        .video-modal .modal-dialog .modal-content .modal-header {
+          padding: 25px 0 20px; }
+          .video-modal .modal-dialog .modal-content .modal-header .modal-title {
+            font-size: 18px; }
+          .video-modal .modal-dialog .modal-content .modal-header .close {
+            width: 27px;
+            height: 27px;
+            line-height: 27px; }
+        .video-modal .modal-dialog .modal-content .modal-body {
+          padding: 0 0 105px; }
+          .video-modal .modal-dialog .modal-content .modal-body .comment {
+            padding: 20px 25px 20px; }
+            .video-modal .modal-dialog .modal-content .modal-body .comment > p {
+              font-size: 14px;
+              line-height: 26px; }
+          .video-modal .modal-dialog .modal-content .modal-body .latest-news {
+            margin-top: 45px; }
+            .video-modal .modal-dialog .modal-content .modal-body .latest-news ul li a {
+              padding-right: 105px;
+              font-size: 14px; } }
+  @media (min-width: 1200px) {
+    .video-modal .modal-dialog .modal-content .modal-body .latest-news ul li a {
+      font-size: 14px; } }
 
 /*# sourceMappingURL=introduce.css.map */
