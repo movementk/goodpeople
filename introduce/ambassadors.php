@@ -38,7 +38,7 @@
 			<article class="members">
 				<ul class="row">
 					<li class="col-12 col-md-4 col-xl-3">
-						<a href="#">
+						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
 								<img src="/assets/images/introduce/img_ambassadors_list01.jpg" class="img-fluid" alt="">
 								<figcaption>
@@ -49,7 +49,7 @@
 						</a>
 					</li>
 					<li class="col-12 col-md-4 col-xl-3">
-						<a href="#">
+						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
 								<img src="/assets/images/introduce/img_ambassadors_list02.jpg" class="img-fluid" alt="">
 								<figcaption>
@@ -60,7 +60,7 @@
 						</a>
 					</li>
 					<li class="col-12 col-md-4 col-xl-3">
-						<a href="#">
+						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
 								<img src="/assets/images/introduce/img_ambassadors_list03.jpg" class="img-fluid" alt="">
 								<figcaption>
@@ -71,7 +71,7 @@
 						</a>
 					</li>
 					<li class="d-none d-md-block col-md-4 col-xl-3">
-						<a href="#">
+						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
 								<img src="/assets/images/introduce/img_ambassadors_list04.jpg" class="img-fluid" alt="">
 								<figcaption>
@@ -82,7 +82,7 @@
 						</a>
 					</li>
 					<li class="d-none d-md-block col-md-4 col-xl-3">
-						<a href="#">
+						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
 								<img src="/assets/images/introduce/img_ambassadors_list05.jpg" class="img-fluid" alt="">
 								<figcaption>
@@ -93,7 +93,7 @@
 						</a>
 					</li>
 					<li class="d-none d-md-block col-md-4 col-xl-3">
-						<a href="#">
+						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
 								<img src="/assets/images/introduce/img_ambassadors_list06.jpg" class="img-fluid" alt="">
 								<figcaption>
@@ -104,7 +104,7 @@
 						</a>
 					</li>
 					<li class="d-none d-xl-block col-md-4 col-xl-3">
-						<a href="#">
+						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
 								<img src="/assets/images/introduce/img_ambassadors_list07.jpg" class="img-fluid" alt="">
 								<figcaption>
@@ -115,7 +115,7 @@
 						</a>
 					</li>
 					<li class="d-none d-xl-block col-md-4 col-xl-3">
-						<a href="#">
+						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
 								<img src="/assets/images/introduce/img_ambassadors_list08.jpg" class="img-fluid" alt="">
 								<figcaption>
@@ -177,9 +177,31 @@
 		</div>
     </main>
     
+    <!-- video modal popup -->
+    <div class="modal fade video-modal" id="video-popup" tabindex="-1" role="dialog" aria-labelledby="video-popupLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="video-popupLabel">스타나눔대사 박수홍</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Content
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script src="/assets/js/sub.js"></script>
+    <script>
+        $(function(){
+            $('#video-popup').modal('show')
+        });
+    </script>
 </body>
 </html>

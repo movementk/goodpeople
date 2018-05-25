@@ -884,8 +884,8 @@ a {
 
 .ambassadors .members {
   margin-top: 50px; }
-  .ambassadors .members > ul > li ~ li a figure {
-    margin-top: 50px; }
+  .ambassadors .members > ul > li ~ li a {
+    margin-top: 60px; }
   .ambassadors .members > ul > li a {
     display: block; }
     .ambassadors .members > ul > li a figure img {
@@ -895,26 +895,14 @@ a {
       color: #666;
       line-height: 24px;
       text-align: center;
-      padding-top: 20px;
-      padding-bottom: 10px; }
+      padding: 20px 0; }
       .ambassadors .members > ul > li a figure figcaption > p {
         font-size: 14px;
         color: #333;
         font-weight: 400; }
         .ambassadors .members > ul > li a figure figcaption > p i {
           margin-right: 5px; }
-  .ambassadors .members .paging {
-    margin-top: 50px; }
-@media (min-width: 768px) {
-  .ambassadors .members {
-    margin-top: 80px; }
-    .ambassadors .members > ul > li ~ li a figure {
-      margin-top: 80px; }
-    .ambassadors .members > ul > li:nth-of-type(2) a figure {
-      margin-top: 0; }
-    .ambassadors .members > ul > li:nth-of-type(3) a figure {
-      margin-top: 0; }
-    .ambassadors .members > ul > li a:hover figure figcaption, .ambassadors .members > ul > li a:focus figure figcaption {
+    .ambassadors .members > ul > li a:focus figure figcaption {
       color: #fff;
       background-color: #eb6100;
       -webkit-transition-property: all;
@@ -925,26 +913,89 @@ a {
       transition-timing-function: linear;
       -webkit-transition-delay: 0s;
       transition-delay: 0s; }
-      .ambassadors .members > ul > li a:hover figure figcaption p, .ambassadors .members > ul > li a:focus figure figcaption p {
+      .ambassadors .members > ul > li a:focus figure figcaption p {
+        color: #fff; }
+  .ambassadors .members .paging {
+    margin-top: 50px; }
+@media (min-width: 768px) {
+  .ambassadors .members {
+    margin-top: 80px; }
+    .ambassadors .members > ul > li ~ li a {
+      margin-top: 0; }
+    .ambassadors .members > ul > li:nth-of-type(3) ~ li a {
+      margin-top: 80px; }
+    .ambassadors .members > ul > li a:hover figure figcaption {
+      color: #fff;
+      background-color: #eb6100;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .ambassadors .members > ul > li a:hover figure figcaption p {
         color: #fff; }
     .ambassadors .members > ul > li a figure figcaption {
       font-size: 14px;
       line-height: 30px;
-      padding-top: 15px;
-      padding-bottom: 15px; }
+      padding: 15px 0; }
       .ambassadors .members > ul > li a figure figcaption > p {
         font-size: 16px; }
     .ambassadors .members .paging {
       margin-top: 60px; } }
 @media (min-width: 1200px) {
-  .ambassadors .members > ul > li ~ li a figure {
-    margin-top: 70px; }
-  .ambassadors .members > ul > li:nth-of-type(4) a figure {
+  .ambassadors .members > ul > li:nth-of-type(3) ~ li a {
     margin-top: 0; }
+  .ambassadors .members > ul > li:nth-of-type(4) ~ li a {
+    margin-top: 70px; }
   .ambassadors .members > ul > li a figure figcaption {
-    padding-top: 20px;
-    padding-bottom: 20px; }
+    padding: 20px 0; }
   .ambassadors .members .paging {
     margin-top: 80px; } }
+
+/********** video-modal popup **********/
+.modal-open {
+  padding-right: 0 !important; }
+
+.video-modal {
+  padding-left: 10px !important;
+  padding-bottom: 150px;
+  padding-right: 10px !important;
+  background-color: rgba(0, 0, 0, 0.6); }
+  .video-modal .modal-dialog {
+    max-width: 635px !important;
+    margin: 50px auto 0; }
+    .video-modal .modal-dialog .modal-content {
+      padding: 0 10px;
+      border-radius: 0; }
+      .video-modal .modal-dialog .modal-content .modal-header {
+        overflow: hidden;
+        padding: 20px 0 15px;
+        border-bottom: 0; }
+        .video-modal .modal-dialog .modal-content .modal-header .modal-title {
+          font-size: 16px;
+          color: #333;
+          font-weight: 400; }
+        .video-modal .modal-dialog .modal-content .modal-header .close {
+          display: block;
+          width: 24px;
+          height: 24px;
+          padding: 0;
+          margin: 0;
+          opacity: 1;
+          float: right; }
+          .video-modal .modal-dialog .modal-content .modal-header .close span {
+            position: relative;
+            top: -3px;
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            line-height: 24px; }
+          .video-modal .modal-dialog .modal-content .modal-header .close:hover, .video-modal .modal-dialog .modal-content .modal-header .close:focus {
+            opacity: .7; }
+      .video-modal .modal-dialog .modal-content .modal-content {
+        border-bottom: 0; }
 
 /*# sourceMappingURL=introduce.css.map */
