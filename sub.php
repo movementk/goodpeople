@@ -694,11 +694,20 @@
 								</p>
 							</div>
 							<div class="chart-area">
-								<img src="/assets/images/sub/img_chart01.png"
-								 class="img-fluid" alt="">
-								<img src="/assets/images/sub/img_chart02.png"  class="img-fluid" alt="">
-								<img src="/assets/images/sub/img_chart02.png"  class="img-fluid" alt="">
-								<img src="/assets/images/sub/img_chart02.png"  class="img-fluid" alt="">
+								<div class="row">
+									<div class="col-12 col-xl-6">
+										<img src="/assets/images/sub/img_chart01.png" class="img-fluid" alt="">
+									</div>
+									<div class="col-12 col-xl-6">
+										<img src="/assets/images/sub/img_chart02.png"  class="img-fluid" alt="">
+									</div>
+									<div class="col-12 col-xl-6">
+										<img src="/assets/images/sub/img_chart01.png" class="img-fluid" alt="">
+									</div>
+									<div class="col-12 col-xl-6">
+										<img src="/assets/images/sub/img_chart02.png"  class="img-fluid" alt="">
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -716,7 +725,22 @@
 					</div>
 					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 						<div class="card-body">
-							2
+							<div class="btn-area">
+								<p>
+									<a href="#" class="btn btn-blue" role="button">보고서 PDF</a>
+									<a href="#" class="btn btn-gray" role="button">뷰어 다운로드</a>
+								</p>
+							</div>
+							<div class="chart-area">
+								<div class="row">
+									<div class="col-12 col-xl-6">
+										<img src="/assets/images/sub/img_chart01.png" class="img-fluid" alt="">
+									</div>
+									<div class="col-12 col-xl-6">
+										<img src="/assets/images/sub/img_chart02.png"  class="img-fluid" alt="">
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -737,7 +761,22 @@
 					</div>
 					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
 						<div class="card-body">
-							3
+							<div class="btn-area">
+								<p>
+									<a href="#" class="btn btn-blue" role="button">보고서 PDF</a>
+									<a href="#" class="btn btn-gray" role="button">뷰어 다운로드</a>
+								</p>
+							</div>
+							<div class="chart-area">
+								<div class="row">
+									<div class="col-12 col-xl-6">
+										<img src="/assets/images/sub/img_chart01.png" class="img-fluid" alt="">
+									</div>
+									<div class="col-12 col-xl-6">
+										<img src="/assets/images/sub/img_chart02.png"  class="img-fluid" alt="">
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
