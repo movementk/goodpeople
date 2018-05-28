@@ -687,7 +687,19 @@
 					</div>
 					<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
 						<div class="card-body">
-							1
+							<div class="btn-area">
+								<p>
+									<a href="#" class="btn btn-blue" role="button">보고서 PDF</a>
+									<a href="#" class="btn btn-gray" role="button">뷰어 다운로드</a>
+								</p>
+							</div>
+							<div class="chart-area">
+								<img src="/assets/images/sub/img_chart01.png"
+								 class="img-fluid" alt="">
+								<img src="/assets/images/sub/img_chart02.png"  class="img-fluid" alt="">
+								<img src="/assets/images/sub/img_chart02.png"  class="img-fluid" alt="">
+								<img src="/assets/images/sub/img_chart02.png"  class="img-fluid" alt="">
+							</div>
 						</div>
 					</div>
 				</div>
@@ -713,6 +725,10 @@
 						<a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
 							<strong>2017년 사업보고서</strong>
 							<p>
+								2017년도 굿피플의 연간 수입총계는
+								<span>21,153,000,000</span>원이며, 
+								다음과 같이 사용되었습니다.
+								
 								2017년도 굿피플의 연간 수입총계는
 								<span>21,153,000,000</span>원이며, 
 								다음과 같이 사용되었습니다.
