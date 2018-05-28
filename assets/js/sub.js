@@ -1,23 +1,24 @@
-// Zoom In Out event
-$(window).on('load', function(){
-	var currentZoom = 1;
-	$('.in').click(function() {
-		currentZoom += 0.1;
-		$('body').css({
-			zoom: currentZoom,
-			'-moz-transform': 'scale(' + currentZoom + ')',
-			'--webkit-transform': 'scale(' + currentZoom + ')',
-			'-ms-transform': 'scale(' + currentZoom + ')'
-
-		});
-	});
-	$('.out').click(function() {
-		currentZoom -= 0.1;
-		$('body').css({
-			zoom: currentZoom,
-			'-moz-transform': 'scale(' + currentZoom + ')',
-			'--webkit-transform': 'scale(' + currentZoom + ')',
-			'-ms-transform': 'scale(' + currentZoom + ')'
-		});
-	});
-});
+(function($) {
+    //  _ lnb 스크롤 고정 이벤트
+    $(window).on("scroll", function() {
+        if ($('body').width() > 1200) {
+            if ( $(window).scrollTop() > 245 ) {
+                $("body").addClass("scrolled");
+            } else {
+                $("body").removeClass("scrolled");
+            }
+        } else if ($('body').width() > 768) {
+            if ( $(window).scrollTop() > 235 ) {
+                $("body").addClass("scrolled");
+            } else {
+                $("body").removeClass("scrolled");
+            }
+        } else if ($('body').width() > 0) {
+            if ( $(window).scrollTop() > 140 ) {
+                $("body").addClass("scrolled");
+            } else {
+                $("body").removeClass("scrolled");
+            }
+        }
+    });
+})(jQuery);

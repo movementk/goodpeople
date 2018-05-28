@@ -34,8 +34,4 @@
             </div>
         </li>
     </ol>
-    <div class="d-none d-xl-block zoom">
-       <a href="javascript:;" class="in" role="button">확대</a>
-       <a href="javascript:;" class="out" role="button">축소</a>
-    </div>
 </div>

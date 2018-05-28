@@ -15,7 +15,7 @@
                             국제구호개발 NGO 입니다.
                         </p>
                         <figure>
-                            <img src="/assets/images/main/img_introduce.jpg" alt="">
+                            <img src="/assets/images/main/img_introduce.png" alt="">
                         </figure>
                     </div>
                     <div class="page-map">
@@ -70,7 +70,7 @@
                             국제구호개발 NGO 입니다.
                         </p>
                         <figure>
-                            <img src="/assets/images/main/img_introduce.jpg" alt="">
+                            <img src="/assets/images/main/img_introduce.png" alt="">
                         </figure>
                     </div>
                     <div class="page-map">
@@ -125,7 +125,7 @@
                             국제구호개발 NGO 입니다.
                         </p>
                         <figure>
-                            <img src="/assets/images/main/img_introduce.jpg" alt="">
+                            <img src="/assets/images/main/img_introduce.png" alt="">
                         </figure>
                     </div>
                     <div class="page-map">
@@ -180,7 +180,7 @@
                             국제구호개발 NGO 입니다.
                         </p>
                         <figure>
-                            <img src="/assets/images/main/img_introduce.jpg" alt="">
+                            <img src="/assets/images/main/img_introduce.png" alt="">
                         </figure>
                     </div>
                     <div class="page-map">
@@ -235,7 +235,7 @@
                             국제구호개발 NGO 입니다.
                         </p>
                         <figure>
-                            <img src="/assets/images/main/img_introduce.jpg" alt="">
+                            <img src="/assets/images/main/img_introduce.png" alt="">
                         </figure>
                     </div>
                     <div class="page-map">

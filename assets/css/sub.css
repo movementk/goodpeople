@@ -479,9 +479,9 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
 
 .page-path {
   position: relative;
-  margin: 0 -10px;
-  background-color: #144199;
-  box-shadow: 0px 6px 7px 0px rgba(0, 0, 0, 0.22); }
+  width: 100%;
+  box-shadow: 0px 6px 7px 0px rgba(0, 0, 0, 0.22);
+  background-color: #144199; }
   .page-path .breadcrumb {
     font-size: 0;
     margin: 0;
@@ -553,7 +553,8 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
               background-color: #e74e00; }
   @media (min-width: 768px) {
     .page-path {
-      margin: -30px 0 0 0; }
+      width: 724px;
+      margin: -30px auto 0 auto; }
       .page-path .breadcrumb > li {
         width: 200px; }
         .page-path .breadcrumb > li:last-child:after {
@@ -577,6 +578,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
               color: #fff; } }
   @media (min-width: 1200px) {
     .page-path {
+      width: 1170px;
       box-shadow: 5px -4px 7px 0px rgba(0, 0, 0, 0.22); }
       .page-path .breadcrumb > li .dropdown .btn-secondary {
         position: relative;
@@ -638,6 +640,23 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
             font-size: 14px;
             content: "\E805";
             font-family: "fontello"; } }
+
+.scrolled .page-path {
+  position: fixed;
+  top: 55px;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  z-index: 99; }
+  @media (min-width: 768px) {
+    .scrolled .page-path {
+      top: 80px; } }
+  @media (min-width: 1200px) {
+    .scrolled .page-path {
+      top: 90px; }
+      .scrolled .page-path .breadcrumb {
+        width: 1170px;
+        margin: 0 auto; } }
 
 .page-intro .page-title {
   padding: 50px 0 40px;

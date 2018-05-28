@@ -10,9 +10,7 @@
         <div class="page-summary">
             <h2>We bring <span>hope</span> to neighbors<br>in despair around the world</h2>
         </div>
-        <div class="container">
-            <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/_lnb.php'); ?>
-        </div>
+        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/_lnb.php'); ?>
     </div>
     
     <!-- page-intro -->
@@ -781,12 +779,6 @@
 					</div>
 				</div>
 			</article>
-            
-            
-            
-            
-            
-            
     	</div>
     </main>
     

@@ -145,11 +145,12 @@ input, textarea {
         }
     }
 }
+//  page-path
 .page-path {
     position: relative;
-    margin: 0 -10px;
-    background-color: #144199;
+    width: 100%;
     box-shadow: 0px 6px 7px 0px rgba(0, 0, 0, 0.22); 
+    background-color: #144199;
     .breadcrumb {
         font-size: 0;
         margin: 0;
@@ -236,7 +237,8 @@ input, textarea {
         }
     }
     @media(min-width: $md) {
-        margin: -30px 0 0 0;
+        width: 724px;
+        margin: -30px auto 0 auto;
         .breadcrumb {
             > li {
                 width: 200px;
@@ -277,6 +279,7 @@ input, textarea {
         }
     }
     @media(min-width: $xl) {
+        width: 1170px;
         box-shadow: 5px -4px 7px 0px rgba(0, 0, 0, 0.22);
         .breadcrumb {
             > li {
@@ -359,6 +362,28 @@ input, textarea {
         }
     }
 }
+.scrolled {
+    .page-path {
+        position: fixed;
+        top: 55px;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        z-index: 99;
+        @media(min-width: $md) {
+            top: 80px;
+        }
+        @media(min-width: $xl) {
+            top: 90px;
+            .breadcrumb {
+                width: 1170px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+
 
 //page-intro
 .page-intro {
@@ -2013,55 +2038,3 @@ input, textarea {
 		} 
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
