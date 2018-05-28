@@ -1697,11 +1697,11 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       display: table; }
       .accordion .card .card-body > .btn-area {
         display: table-cell;
-        width: 22%;
+        width: 25%;
         vertical-align: top; }
       .accordion .card .card-body .chart-area {
         display: table-cell;
-        width: 78%;
+        width: 75%;
         vertical-align: top;
         padding-top: 0;
         padding-bottom: 80px; } }
