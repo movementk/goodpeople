@@ -1792,15 +1792,16 @@ input, textarea {
 .accordion {
 	.card {
 		border: none;
-		/*&:first-child {
+		border-radius: none;
+		&:first-child {
 			.card-header {
-				border-top: 1px solid #ccc;
+				/*border-top: 1px solid #ccc;*/
 			}
-		}*/
+		}
 		.card-header {
+			border: none;
 			padding: 0; 
-			border-top: 1px solid #ccc;
-			border-bottom: 1px solid #ccc;
+			/*border-bottom: 1px solid #ccc;*/  
 			background-color: #fff;
 			/*button {
 				position: relative;
@@ -1862,11 +1863,10 @@ input, textarea {
 				width: 100%;
 				text-align: left;
 				white-space: normal;
-                padding: 25px 10px 25px 35px;
+                padding: 25px 50px 25px 35px;
 				strong {
 					display: block;
 					font-size: 14px;
-					color: #333;
 					font-weight: 400;
 				}
 				p {
@@ -1881,6 +1881,11 @@ input, textarea {
 					}
 				}
 				&.btn-link {
+					border-top: 1px solid #ccc;
+					background-color: #f9fafc;
+					strong {
+						color: #eb6100;
+					}
 					&:after {
 						content: "\E802";
 						position: absolute;
@@ -1888,7 +1893,7 @@ input, textarea {
 						right: 10px;
 						margin-top: -17px;
 						font-size: 22px;
-						color: #222;
+						color: #eb6100;
 						opacity: .7;
 						font-weight: 300;
 						font-family: "fontello";
@@ -1899,11 +1904,14 @@ input, textarea {
 				}
 				&.collapsed {
                    background-color: #fff;
+					strong {
+						color: #333;
+					}
 					&:after {
 						content: "\E803";
 						position: absolute;
 						top: 50%;
-						right: 0;
+						right: 10px;
 						margin-top: -17px;
 						font-size: 22px;
 						color: #222;
@@ -1914,6 +1922,132 @@ input, textarea {
 				}
 			}
 		}
+		@media (min-width: $md) {
+			.card-header {
+				a {
+					display: table;
+					padding: 20px 100px 20px 40px;
+					strong {
+						width: 25%;
+						display: table-cell; 
+						font-size: 15px;
+						vertical-align: middle;
+					}
+					p {
+						display: table-cell;
+						width: 75%;
+						font-size: 14px;
+						vertical-align: middle;
+						margin-top: 0;
+					}
+					&.btn-link {
+						&:after {
+							right: 20px;
+						}
+					}
+					&.collapsed {
+						&:after {
+							right: 20px;  
+						}
+					}
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			.card-header {
+				a {
+					padding: 30px 100px 30px 45px;
+					strong {
+						font-size: 16px;
+					}
+					p {
+						font-size: 15px;
+					}
+					&.btn-link {
+						&:after {
+							margin-top: -21px;
+							font-size: 28px;
+						}
+					}
+					&.collapsed {
+						&:after {
+							margin-top: -21px;
+							font-size: 28px;
+						}
+					}
+				}
+			}
+		}
+		.card-body {
+			width: 100%;
+			padding: 0;
+			padding: 0 10px;
+			background-color: #f9fafc;
+			.btn-area {
+				p {
+					.btn {
+						display: block;
+						width: 145px;
+						line-height: 40px;
+						font-size: 13px;
+						color: #fff;
+						text-align: center;
+						border-radius: 20px;
+						border: none;
+						& ~ .btn {
+							margin-top: 10px;
+						}
+						&.btn-blue {
+							background-color: #144199;
+						}
+						&.btn-gray {
+							background-color: #8c8c8c;
+						}
+					}
+				}
+			}
+			.chart-area {
+				text-align: center;
+				padding-top: 40px;
+				padding-bottom: 60px;
+				> .img-fluid {
+					& ~ .img-fluid {
+						margin-top: 30px;
+					}
+				}
+			}
+		}
+		@media (min-width: $md) {
+			.card-body {
+				padding-top: 20px;
+				padding-left: 30px;
+				display: table;
+				> .btn-area {
+					display: table-cell;
+					width: 25%; 
+					vertical-align: top;
+				}
+				.chart-area {
+					display: table-cell;
+					width: 75%;
+					vertical-align: top;
+					padding-top: 0;
+					padding-bottom: 80px;
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			.card-body {
+				.chart-area {
+					> .img-fluid {
+						& ~ .img-fluid {
+							/*margin-top: 0;*/
+							/*margin-left: 30px;*/
+						}
+					}
+				}
+			}
+		} 
 	}
 }
 
