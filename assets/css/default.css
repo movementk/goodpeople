@@ -1137,45 +1137,53 @@ body {
 #site-map {
   overflow: hidden; }
   #site-map .btn-area {
-    text-align: center;
+    display: block;
+    width: 100%;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc; }
     #site-map .btn-area .btn {
-      position: relative;
-      display: inline-block;
+      display: block;
+      width: 100%;
       border: 0;
+      text-align: center;
       padding: 0;
       border-radius: 0;
-      padding-right: 35px;
       background: none !important;
       box-shadow: none !important; }
       #site-map .btn-area .btn span {
-        display: block;
+        position: relative;
+        display: inline-block;
         font-size: 16px;
         color: #555;
         line-height: 68px;
         opacity: 1;
+        padding-right: 35px;
         box-shadow: none !important; }
+        #site-map .btn-area .btn span:after {
+          position: absolute;
+          top: 50%;
+          right: 0;
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          font-size: 16px;
+          color: #f5a100;
+          margin-top: -8px;
+          line-height: 16px; }
         #site-map .btn-area .btn span.open-txt {
-          display: block; }
+          display: inline-block; }
+          #site-map .btn-area .btn span.open-txt:after {
+            content: "\E806";
+            font-family: "fontello"; }
         #site-map .btn-area .btn span.close-txt {
           display: none; }
-      #site-map .btn-area .btn:after {
-        position: absolute;
-        top: 0;
-        right: 0;
-        font-size: 16px;
-        color: #f5a100;
-        line-height: 68px;
-        content: "\E806";
-        font-family: "fontello"; }
-      #site-map .btn-area .btn.close-map:after {
-        content: "\E807";
-        font-family: "fontello"; }
       #site-map .btn-area .btn.close-map span.open-txt {
         display: none; }
       #site-map .btn-area .btn.close-map span.close-txt {
-        display: block; }
+        display: inline-block; }
+        #site-map .btn-area .btn.close-map span.close-txt:after {
+          content: "\E807";
+          font-family: "fontello"; }
   #site-map .page-list {
     width: 100%;
     display: none;
