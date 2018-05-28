@@ -1570,68 +1570,10 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
 .accordion .card {
   border: none;
   border-radius: none; }
-  .accordion .card:first-child .card-header {
-    /*border-top: 1px solid #ccc;*/ }
   .accordion .card .card-header {
     border: none;
     padding: 0;
-    /*border-bottom: 1px solid #ccc;*/
-    background-color: #fff;
-    /*button {
-    	position: relative;
-    	width: 100%;
-    	text-align: left;
-    	padding-right: 70px;
-    	white-space: normal;
-    	strong {
-    		display: block;
-    		font-size: 14px;
-    		color: #333;
-    		font-weight: 400;
-    	}
-    	p {
-    		font-size: 13px;
-    		color: #666;
-    		font-weight: 300;
-    		margin-top: 20px;
-    		> span {
-    			color: #eb6100;
-    			font-weight: 500;
-    			@include roboto();
-    		}
-    	}
-    	&.btn-link {
-    		&:after {
-    			content: "\E802";
-    			position: absolute;
-    			top: 50%;
-    			right: 0;
-    			margin-top: -17px;
-    			font-size: 22px;
-    			color: #222;
-    			opacity: .7;
-    			font-weight: 300;
-    			font-family: "fontello";
-    		}
-    		&:hover, &:focus {
-    			text-decoration: none;
-    		}
-    	}
-    	&.collapsed {
-    		&:after {
-    			content: "\E803";
-    			position: absolute;
-    			top: 50%;
-    			right: 0;
-    			margin-top: -17px;
-    			font-size: 22px;
-    			color: #222;
-    			opacity: .7;
-    			font-weight: 300;
-    			font-family: "fontello";
-    		}
-    	}
-    }*/ }
+    background-color: #fff; }
     .accordion .card .card-header a {
       position: relative;
       width: 100%;
@@ -1644,8 +1586,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         font-weight: 400; }
       .accordion .card .card-header a p {
         font-size: 13px;
-        color: #666;
-        font-weight: 300;
+        font-weight: 400;
         margin-top: 20px; }
         .accordion .card .card-header a p > span {
           color: #eb6100;
@@ -1656,6 +1597,8 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         background-color: #f9fafc; }
         .accordion .card .card-header a.btn-link strong {
           color: #eb6100; }
+        .accordion .card .card-header a.btn-link p {
+          color: #222; }
         .accordion .card .card-header a.btn-link:after {
           content: "\E802";
           position: absolute;
@@ -1673,6 +1616,8 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         background-color: #fff; }
         .accordion .card .card-header a.collapsed strong {
           color: #333; }
+        .accordion .card .card-header a.collapsed p {
+          color: #666; }
         .accordion .card .card-header a.collapsed:after {
           content: "\E803";
           position: absolute;
@@ -1740,7 +1685,10 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       text-align: center;
       padding-top: 40px;
       padding-bottom: 60px; }
-      .accordion .card .card-body .chart-area > .img-fluid ~ .img-fluid {
+      .accordion .card .card-body .chart-area .row > div:first-child .img-fluid {
+        margin-top: 0; }
+      .accordion .card .card-body .chart-area .row > div .img-fluid {
+        vertical-align: middle;
         margin-top: 30px; }
   @media (min-width: 768px) {
     .accordion .card .card-body {
@@ -1758,8 +1706,11 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         padding-top: 0;
         padding-bottom: 80px; } }
   @media (min-width: 1200px) {
-    .accordion .card .card-body .chart-area > .img-fluid ~ .img-fluid {
-      /*margin-top: 0;*/
-      /*margin-left: 30px;*/ } }
+    .accordion .card .card-body .chart-area .row > div:first-child .img-fluid {
+      margin-top: 0; }
+    .accordion .card .card-body .chart-area .row > div:nth-of-type(2) .img-fluid {
+      margin-top: 0; }
+    .accordion .card .card-body .chart-area .row > div .img-fluid {
+      margin-top: 50px; } }
 
 /*# sourceMappingURL=sub.css.map */
