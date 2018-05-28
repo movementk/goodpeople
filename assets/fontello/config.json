@@ -185,6 +185,18 @@
       "css": "video",
       "code": 59411,
       "src": "elusive"
+    },
+    {
+      "uid": "23a1de57eb7b0c8281656a3ddadf3ee3",
+      "css": "phone-circled",
+      "code": 59412,
+      "src": "elusive"
+    },
+    {
+      "uid": "7cb7e246fd23672429db603c0077dc79",
+      "css": "mail-circled",
+      "code": 59413,
+      "src": "elusive"
     }
   ]
 }
