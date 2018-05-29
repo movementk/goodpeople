@@ -1060,19 +1060,480 @@
 	}
 }
 
+//투명경영 - 나눔대사
+.corporation {
+	section {
+		.section-header {
+			padding: 45px 0;
+			text-align: center;
+			strong {
+				font-size: 18px;
+				color: #222;
+				line-height: 26px;
+			}
+			@media (min-width: $md) {
+				padding: 65px 0 55px;
+				strong {
+					font-size: 28px;
+				}
+			}
+			@media (min-width: $xl) {
+				padding: 70px 0 60px;
+			}
+		}
+		.section-content {
+			> .accordion {
+				> .card {
+					&:last-child {
+						.card-header {
+							a {
+								&.collapsed {
+									border-bottom: 1px solid #ccc;
+								}
+							}
+						}
+						.card-body {
+							border-bottom: 1px solid #ccc;
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
+//투명경영 - 복지법인
+.welfarecorp {
+	section {
+		.section-header {
+			padding: 45px 0 50px;
+			text-align: center;
+			strong {
+				font-size: 18px;
+				color: #222;
+				line-height: 26px;
+			}
+			> nav {
+				margin-top: 35px;
+				> ul {
+					overflow: hidden;
+					li {
+						float: left;
+						width: 50%;
+						&:first-child ~ li {
+							a {
+								border-left: 0;
+							}
+						}
+						&.active {
+							a {
+								font-weight: 400;
+								color: #fff;
+								border-color: #eb6100;
+								background-color: #eb6100;
+							}
+						}
+						a {
+							display: block;
+							font-size: 14px;
+							line-height: 38px;
+							color: #999;
+							border: 1px solid #ccc;
+						}
+					}	
+				}
+			}
+			@media (min-width: $md) {
+				padding: 65px 0 90px;
+				strong {
+					font-size: 28px;
+				}
+				> nav {
+					margin-top: 40px;
+					> ul {
+						width: 570px;
+						margin: 0 auto; 
+						li {
+							a {
+								font-size: 16px;
+								line-height: 48px;
+							}
+						}	
+					}
+				}
+			}
+			@media (min-width: $xl) {
+				padding: 70px 0 60px;
+				> nav {
+					margin-top: 45px;
+				}
+			}
+		}
+		.section-content {
+			> .accordion {
+				> .card {
+					&:last-child {
+						.card-header {
+							a {
+								&.collapsed {
+									border-bottom: 1px solid #ccc;
+								}
+							}
+						}
+						.card-body {
+							border-bottom: 1px solid #ccc;
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
+//회의록
+.minutes {
+	.section-header {
+		padding: 45px 0 50px;
+		text-align: center;
+		strong {
+			font-size: 18px;
+			color: #222;
+			line-height: 26px;
+		}
+		> nav {
+			margin-top: 35px;
+			> ul {
+				overflow: hidden;
+				li {
+					float: left;
+					width: 50%;
+					&:first-child ~ li {
+						a {
+							border-left: 0;
+						}
+					}
+					&.active {
+						a {
+							font-weight: 400;
+							color: #fff;
+							border-color: #eb6100;
+							background-color: #eb6100;
+						}
+					}
+					a {
+						display: block;
+						font-size: 14px;
+						line-height: 38px;
+						color: #999;
+						border: 1px solid #ccc;
+					}
+				}	
+			}
+		}
+		@media (min-width: $md) {
+			padding: 65px 0 90px;
+			strong {
+				font-size: 28px;
+			}
+			> nav {
+				margin-top: 40px;
+				> ul {
+					width: 570px;
+					margin: 0 auto; 
+					li {
+						a {
+							font-size: 16px;
+							line-height: 48px;
+						}
+					}	
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			padding: 70px 0 60px;
+			> nav {
+				margin-top: 45px;
+			}
+		}
+	}
+	.section-content {
+		ul {
+			li {
+				overflow: hidden;
+				display: table;
+				width: 100%;
+				padding: 30px 10px;
+				border-bottom: 1px solid #ccc;
+				&:first-child {
+					border-top: 1px solid #ccc;
+				}
+				h3 {
+					display: table-cell;
+					font-size: 14px;
+					color: #333;
+					line-height: 22px;
+					font-weight: 400;
+					vertical-align: middle;
+				}
+				.btn-area { 
+					float: right;
+					display: table-cell;
+					padding-left: 30px;
+					vertical-align: middle;
+					> p {
+						a {
+							display: block;
+							width: 120px;
+							font-size: 13px;
+							color: #5b5b5b;
+							line-height: 43px;
+							text-align: center;
+							border: 1px solid #111;
+						}
+					}
+				}
+			}
+		}
+		.paging {
+			margin-top: 50px;
+		}
+		@media (min-width: $md) {
+			ul {
+				li {
+					padding: 17px 20px 17px 40px;
+					h3 {
+						font-size: 15px; 
+					}
+					.btn-area { 
+						padding-left: 100px;
+						> p {
+							a {
+								width: 140px;
+								font-size: 14px;
+							}
+						}
+					}
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			ul {
+				li {
+					padding: 17px 25px 17px 40px;
+					h3 {
+						font-size: 16px; 
+					}
+				}
+			}
+		}
+ 	}
+}
 
+//지부안내 - 해외지부
+.international-camps {
+	.map {
+		margin-top: 35px;
+		img {
+			display: block;
+			/*width: 100%;*/
+			margin: 0 auto;
+		}
+		@media (min-width: $md) {
+			margin-top: 70px;
+		}
+		@media (min-width: $xl) {
+			margin-top: 100px;
+		}
+	}
+	ul {
+		margin-top: 40px;
+		li {
+			padding: 20px 10px;
+			border-bottom: 1px solid #ccc;
+			&:first-child {
+				border-top: 1px solid #ccc;
+			}
+			dl {
+				display: table;
+				width: 100%;
+				dt {	
+					display: table-cell;
+					width: 30%;
+					font-size: 13px;
+					color: #333;
+					font-weight: 400;
+					vertical-align: top;
+					span {
+						display: block;
+						width: 20px;
+						height: 12px;
+						border: 1px solid #111;
+						background-size: cover;
+						margin-bottom: 10px;
+					}
+				}
+				dd {
+					display: table-cell;
+					width: 70%;
+					vertical-align: top;
+					> p {
+						font-size: 13px;
+						line-height: 18px;
+						color: #333;
+						@include roboto();
+					}
+					.btn-area {
+						margin-top: 10px;
+						p {
+							.btn {
+								&.btn-default {
+									width: 110px;
+									font-size: 13px;
+									line-height: 33px;
+									color: #ccc;
+									border: 1px solid #ccc;
+									&:hover, &:active {
+										font-weight: 400;
+										color: #111;
+										/*color: #5b5b5b;*/
+										border: 1px solid #5b5b5b;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		@media (min-width: $md) {
+			margin-top: 60px;
+			li {
+				padding: 17px 10px 17px 20px;
+				dl {
+					dt {
+						width: 20%;
+						font-size: 15px;
+						vertical-align: middle;
+						span {
+							width: 30px;
+							height: 15px;
+						}
+					}
+					dd {
+						position: relative;
+						width: 80%;
+						vertical-align: top;
+						> p {
+							font-size: 14px;
+							line-height: 24px;
+							padding-right: 160px;
+						}
+						.btn-area {
+							position: absolute;
+							right: 0;
+							top: 50%;
+							margin-top: -23px;
+							p {
+								.btn {
+									&.btn-default {
+										width: 140px;
+										font-size: 14px;
+										line-height: 44px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			margin-top: 65px;
+			li {
+				padding: 27px 25px;
+				dl {
+					dt {
+						span {
+							display: inline-block;
+							margin-right: 15px;
+							margin-bottom: 0;
+						}
+						font-size: 15px;
+						line-height: 24px;
+						vertical-align: middle;
+					}
+					dd {
+						vertical-align: middle;
+						> p {
+							font-size: 14px;
+							line-height: 24px;
+							padding-right: 160px;
+						}
+						.btn-area {
+							p {
+								.btn {
+									&.btn-default {
+										width: 140px;
+										font-size: 14px;
+										line-height: 44px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
-
-
-
-
-
-
-
-
-
+//찾아오시는길
+.directions {
+	.location {
+		text-align: left;
+		li {
+			display: inline-block;
+			font-size: 13px;
+			line-height: 19px;
+			color: #666;
+			@include roboto();
+			& ~ li {
+				margin-top: 15px;
+			}
+			&:before {
+				display: inline-block;
+				content: " ";
+				width: 15px;
+				height: 15px;
+				margin-right: 10px;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			&:first-child {
+				font-weight: 400;
+				@include noto();
+				&:before {
+					background-image: url(/assets/images/introduce/icon_location01.gif);
+				}
+			}
+			&:nth-of-type(2) {
+				&:before {
+					background-image: url(/assets/images/introduce/icon_location02.gif);
+				}
+			}
+			&:nth-of-type(3) {
+				&:before {
+					background-image: url(/assets/images/introduce/icon_location03.gif);
+				}
+			}
+			&:nth-of-type(4) {
+				&:before {
+					background-image: url(/assets/images/introduce/icon_location04.gif);
+				}
+			}
+		}
+	}
+}
 
 
 
