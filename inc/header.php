@@ -176,7 +176,7 @@
                             <li>
                                 <h3>언론보도</h3>
                                 <ul>
-                                    <li><a href="/community/media_list.php">언론보도<span></span></a></li>
+                                    <li><a href="/community/media_report.php">언론보도<span></span></a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -248,8 +248,8 @@
                             <li>
                                 <h3>나의 후원아동</h3>
                                 <ul>
-                                    <li><a href="/mypage/children_list_type1.php">나의 후원아동<span></span></a></li>
-                                    <li><a href="/mypage/letter_list.php">편지쓰기<span></span></a></li>
+                                    <li><a href="/mypage/my_support/children_list_type1.php">나의 후원아동<span></span></a></li>
+                                    <li><a href="/mypage/my_support/letter_list.php">편지쓰기<span></span></a></li>
                                 </ul>
                             </li>
                             <li>

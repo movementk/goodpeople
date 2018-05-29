@@ -41,7 +41,7 @@
                     <ul>
                         <li><a href="/community/news_list.php">굿피플 소식</a></li>
                         <li><a href="/community/business_list.php">사업소식</a></li>
-                        <li><a href="/community/media_list.php">언론보도</a></li>
+                        <li><a href="/community/media_report.php">언론보도</a></li>
                     </ul>
                 </li>
                 <li class="col-2">
@@ -56,7 +56,7 @@
                 <li class="col-2">
                     <h4>나의 후원</h4>
                     <ul>
-                        <li><a href="/mypage/children_list_type1.php">나의 후원아동</a></li>
+                        <li><a href="/mypage/my_support/children_list_type1.php">나의 후원아동</a></li>
                         <li><a href="#">회원정보변경</a></li>
                         <li><a href="/mypage/">후원내역</a></li>
                         <li><a href="/mypage/">기부금영수증</a></li>
