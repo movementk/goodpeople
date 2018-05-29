@@ -41,7 +41,10 @@
     			<figure>
     				<img src="/assets/images/sponser/img_partner_intro_sm.png" class="img-fluid d-md-none" alt="">
     				<img src="/assets/images/sponser/img_partner_intro_md.png" class="img-fluid d-none d-md-block d-xl-none" alt="">
-    				<img src="/assets/images/sponser/img_partner_intro_xl.png" class="img-fluid d-none d-xl-block" alt=""> 
+    				<img src="/assets/images/sponser/img_partner_intro_xl.png" class="img-fluid d-none d-xl-block" alt="">
+    				<figcaption class="sr-only">
+    					기업나눔 그래프
+    				</figcaption>
     			</figure>
     		</div>
     		<ul class="notify">

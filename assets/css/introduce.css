@@ -1069,4 +1069,306 @@ a {
     .video-modal .modal-dialog .modal-content .modal-body .latest-news ul li a {
       font-size: 14px; } }
 
+.corporation section .section-header {
+  padding: 45px 0;
+  text-align: center; }
+  .corporation section .section-header strong {
+    font-size: 18px;
+    color: #222;
+    line-height: 26px; }
+  @media (min-width: 768px) {
+    .corporation section .section-header {
+      padding: 65px 0 55px; }
+      .corporation section .section-header strong {
+        font-size: 28px; } }
+  @media (min-width: 1200px) {
+    .corporation section .section-header {
+      padding: 70px 0 60px; } }
+.corporation section .section-content > .accordion > .card:last-child .card-header a.collapsed {
+  border-bottom: 1px solid #ccc; }
+.corporation section .section-content > .accordion > .card:last-child .card-body {
+  border-bottom: 1px solid #ccc; }
+
+.welfarecorp section .section-header {
+  padding: 45px 0 50px;
+  text-align: center; }
+  .welfarecorp section .section-header strong {
+    font-size: 18px;
+    color: #222;
+    line-height: 26px; }
+  .welfarecorp section .section-header > nav {
+    margin-top: 35px; }
+    .welfarecorp section .section-header > nav > ul {
+      overflow: hidden; }
+      .welfarecorp section .section-header > nav > ul li {
+        float: left;
+        width: 50%; }
+        .welfarecorp section .section-header > nav > ul li:first-child ~ li a {
+          border-left: 0; }
+        .welfarecorp section .section-header > nav > ul li.active a {
+          font-weight: 400;
+          color: #fff;
+          border-color: #eb6100;
+          background-color: #eb6100; }
+        .welfarecorp section .section-header > nav > ul li a {
+          display: block;
+          font-size: 14px;
+          line-height: 38px;
+          color: #999;
+          border: 1px solid #ccc; }
+  @media (min-width: 768px) {
+    .welfarecorp section .section-header {
+      padding: 65px 0 90px; }
+      .welfarecorp section .section-header strong {
+        font-size: 28px; }
+      .welfarecorp section .section-header > nav {
+        margin-top: 40px; }
+        .welfarecorp section .section-header > nav > ul {
+          width: 570px;
+          margin: 0 auto; }
+          .welfarecorp section .section-header > nav > ul li a {
+            font-size: 16px;
+            line-height: 48px; } }
+  @media (min-width: 1200px) {
+    .welfarecorp section .section-header {
+      padding: 70px 0 60px; }
+      .welfarecorp section .section-header > nav {
+        margin-top: 45px; } }
+.welfarecorp section .section-content > .accordion > .card:last-child .card-header a.collapsed {
+  border-bottom: 1px solid #ccc; }
+.welfarecorp section .section-content > .accordion > .card:last-child .card-body {
+  border-bottom: 1px solid #ccc; }
+
+.minutes .section-header {
+  padding: 45px 0 50px;
+  text-align: center; }
+  .minutes .section-header strong {
+    font-size: 18px;
+    color: #222;
+    line-height: 26px; }
+  .minutes .section-header > nav {
+    margin-top: 35px; }
+    .minutes .section-header > nav > ul {
+      overflow: hidden; }
+      .minutes .section-header > nav > ul li {
+        float: left;
+        width: 50%; }
+        .minutes .section-header > nav > ul li:first-child ~ li a {
+          border-left: 0; }
+        .minutes .section-header > nav > ul li.active a {
+          font-weight: 400;
+          color: #fff;
+          border-color: #eb6100;
+          background-color: #eb6100; }
+        .minutes .section-header > nav > ul li a {
+          display: block;
+          font-size: 14px;
+          line-height: 38px;
+          color: #999;
+          border: 1px solid #ccc; }
+  @media (min-width: 768px) {
+    .minutes .section-header {
+      padding: 65px 0 90px; }
+      .minutes .section-header strong {
+        font-size: 28px; }
+      .minutes .section-header > nav {
+        margin-top: 40px; }
+        .minutes .section-header > nav > ul {
+          width: 570px;
+          margin: 0 auto; }
+          .minutes .section-header > nav > ul li a {
+            font-size: 16px;
+            line-height: 48px; } }
+  @media (min-width: 1200px) {
+    .minutes .section-header {
+      padding: 70px 0 60px; }
+      .minutes .section-header > nav {
+        margin-top: 45px; } }
+.minutes .section-content ul li {
+  overflow: hidden;
+  display: table;
+  width: 100%;
+  padding: 30px 10px;
+  border-bottom: 1px solid #ccc; }
+  .minutes .section-content ul li:first-child {
+    border-top: 1px solid #ccc; }
+  .minutes .section-content ul li h3 {
+    display: table-cell;
+    font-size: 14px;
+    color: #333;
+    line-height: 22px;
+    font-weight: 400;
+    vertical-align: middle; }
+  .minutes .section-content ul li .btn-area {
+    float: right;
+    display: table-cell;
+    padding-left: 30px;
+    vertical-align: middle; }
+    .minutes .section-content ul li .btn-area > p a {
+      display: block;
+      width: 120px;
+      font-size: 13px;
+      color: #5b5b5b;
+      line-height: 43px;
+      text-align: center;
+      border: 1px solid #111; }
+.minutes .section-content .paging {
+  margin-top: 50px; }
+@media (min-width: 768px) {
+  .minutes .section-content ul li {
+    padding: 17px 20px 17px 40px; }
+    .minutes .section-content ul li h3 {
+      font-size: 15px; }
+    .minutes .section-content ul li .btn-area {
+      padding-left: 100px; }
+      .minutes .section-content ul li .btn-area > p a {
+        width: 140px;
+        font-size: 14px; } }
+@media (min-width: 1200px) {
+  .minutes .section-content ul li {
+    padding: 17px 25px 17px 40px; }
+    .minutes .section-content ul li h3 {
+      font-size: 16px; } }
+
+.international-camps .map {
+  margin-top: 35px; }
+  .international-camps .map img {
+    display: block;
+    /*width: 100%;*/
+    margin: 0 auto; }
+  @media (min-width: 768px) {
+    .international-camps .map {
+      margin-top: 70px; } }
+  @media (min-width: 1200px) {
+    .international-camps .map {
+      margin-top: 100px; } }
+.international-camps ul {
+  margin-top: 40px; }
+  .international-camps ul li {
+    padding: 20px 10px;
+    border-bottom: 1px solid #ccc; }
+    .international-camps ul li:first-child {
+      border-top: 1px solid #ccc; }
+    .international-camps ul li dl {
+      display: table;
+      width: 100%; }
+      .international-camps ul li dl dt {
+        display: table-cell;
+        width: 30%;
+        font-size: 13px;
+        color: #333;
+        font-weight: 400;
+        vertical-align: top; }
+        .international-camps ul li dl dt span {
+          display: block;
+          width: 20px;
+          height: 12px;
+          border: 1px solid #111;
+          background-size: cover;
+          margin-bottom: 10px; }
+      .international-camps ul li dl dd {
+        display: table-cell;
+        width: 70%;
+        vertical-align: top; }
+        .international-camps ul li dl dd > p {
+          font-size: 13px;
+          line-height: 18px;
+          color: #333;
+          font-family: 'Roboto', sans-serif; }
+        .international-camps ul li dl dd .btn-area {
+          margin-top: 10px; }
+          .international-camps ul li dl dd .btn-area p .btn.btn-default {
+            width: 110px;
+            font-size: 13px;
+            line-height: 33px;
+            color: #ccc;
+            border: 1px solid #ccc; }
+            .international-camps ul li dl dd .btn-area p .btn.btn-default:hover, .international-camps ul li dl dd .btn-area p .btn.btn-default:active {
+              font-weight: 400;
+              color: #111;
+              /*color: #5b5b5b;*/
+              border: 1px solid #5b5b5b; }
+  @media (min-width: 768px) {
+    .international-camps ul {
+      margin-top: 60px; }
+      .international-camps ul li {
+        padding: 17px 10px 17px 20px; }
+        .international-camps ul li dl dt {
+          width: 20%;
+          font-size: 15px;
+          vertical-align: middle; }
+          .international-camps ul li dl dt span {
+            width: 30px;
+            height: 15px; }
+        .international-camps ul li dl dd {
+          position: relative;
+          width: 80%;
+          vertical-align: top; }
+          .international-camps ul li dl dd > p {
+            font-size: 14px;
+            line-height: 24px;
+            padding-right: 160px; }
+          .international-camps ul li dl dd .btn-area {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            margin-top: -23px; }
+            .international-camps ul li dl dd .btn-area p .btn.btn-default {
+              width: 140px;
+              font-size: 14px;
+              line-height: 44px; } }
+  @media (min-width: 1200px) {
+    .international-camps ul {
+      margin-top: 65px; }
+      .international-camps ul li {
+        padding: 27px 25px; }
+        .international-camps ul li dl dt {
+          font-size: 15px;
+          line-height: 24px;
+          vertical-align: middle; }
+          .international-camps ul li dl dt span {
+            display: inline-block;
+            margin-right: 15px;
+            margin-bottom: 0; }
+        .international-camps ul li dl dd {
+          vertical-align: middle; }
+          .international-camps ul li dl dd > p {
+            font-size: 14px;
+            line-height: 24px;
+            padding-right: 160px; }
+          .international-camps ul li dl dd .btn-area p .btn.btn-default {
+            width: 140px;
+            font-size: 14px;
+            line-height: 44px; } }
+
+.directions .location {
+  text-align: left; }
+  .directions .location li {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 19px;
+    color: #666;
+    font-family: 'Roboto', sans-serif; }
+    .directions .location li ~ li {
+      margin-top: 15px; }
+    .directions .location li:before {
+      display: inline-block;
+      content: " ";
+      width: 15px;
+      height: 15px;
+      margin-right: 10px;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .directions .location li:first-child {
+      font-weight: 400;
+      font-family: 'Noto Sans KR', sans-serif; }
+      .directions .location li:first-child:before {
+        background-image: url(/assets/images/introduce/icon_location01.gif); }
+    .directions .location li:nth-of-type(2):before {
+      background-image: url(/assets/images/introduce/icon_location02.gif); }
+    .directions .location li:nth-of-type(3):before {
+      background-image: url(/assets/images/introduce/icon_location03.gif); }
+    .directions .location li:nth-of-type(4):before {
+      background-image: url(/assets/images/introduce/icon_location04.gif); }
+
 /*# sourceMappingURL=introduce.css.map */
