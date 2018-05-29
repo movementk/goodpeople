@@ -1099,7 +1099,7 @@ body {
         border-radius: 0;
         width: 190px;
         background-color: #144199;
-        transform: translate3d(0px, 90px, 0px) !important; }
+        transform: translate3d(0px, 0, 0px) !important; }
         #gnb .quick-menu .sponsorship .dropdown .dropdown-menu a {
           width: 190px;
           padding: 0;

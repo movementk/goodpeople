@@ -69,4 +69,11 @@
         $('#site-map').removeClass('active');
         $(this).removeClass('close-map');
     });
+    // 후원하기 마우스 오버 관련
+    $(document).on('mouseenter focus click','.sponsorship .dropdown .btn', function(){
+        $('.sponsorship .dropdown, .sponsorship .dropdown-menu').addClass('show');
+    });
+    $(document).on('mouseleave','.sponsorship .dropdown', function (){
+        $('.sponsorship .dropdown, .sponsorship .dropdown-menu').removeClass('show');
+    });
 })(jQuery);

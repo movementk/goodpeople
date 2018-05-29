@@ -6,10 +6,10 @@
     <nav id="gnb" class="d-none d-xl-block">
         <ul class="gnb-menu">
             <li>
-                <a href="#">굿피플소개</a>
+                <a href="#">굿피플</a>
                 <div class="introduce">
                     <div class="intro">
-                        <h2>굿피플 소개</h2>
+                        <h2>굿피플</h2>
                         <p>
                             굿피플은 지구촌 희망건설에 앞장서는 <br>
                             국제구호개발 NGO 입니다.
@@ -23,23 +23,23 @@
                             <li>
                                 <h3>소개</h3>
                                 <ul>
-                                    <li><a href="#">비전과 가치<span></span></a></li>
-                                    <li><a href="#">걸어온 길<span></span></a></li>
-                                    <li><a href="#">인사말<span></span></a></li>
+                                    <li><a href="/introduce/vision.php">비전과 가치<span></span></a></li>
+                                    <li><a href="/introduce/history.php">걸어온 길<span></span></a></li>
+                                    <li><a href="/introduce/greetings.php">인사말<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
                                 <h3>Good 피플</h3>
                                 <ul>
-                                    <li><a href="#">나눔대사<span></span></a></li>
-                                    <li><a href="#">이사회 및 위원회<span></span></a></li>
+                                    <li><a href="/introduce/ambassadors.php">나눔대사<span></span></a></li>
                                     <li><a href="#">조직도<span></span></a></li>
+                                    <li><a href="#">이사회 및 위원회<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
                                 <h3>투명경영</h3>
                                 <ul>
-                                    <li><a href="#">사단법인<span></span></a></li>
+                                    <li><a href="/introduce/corporation.php">사단법인<span></span></a></li>
                                     <li><a href="#">복지법인<span></span></a></li>
                                 </ul>
                             </li>
@@ -76,39 +76,38 @@
                     <div class="page-map">
                         <ul class="page-list">
                             <li>
-                                <h3>소개</h3>
+                                <h3>해외사업</h3>
                                 <ul>
-                                    <li><a href="#">비전과 가치<span></span></a></li>
-                                    <li><a href="#">걸어온 길<span></span></a></li>
-                                    <li><a href="#">인사말<span></span></a></li>
+                                    <li><a href="#">menu-1<span></span></a></li>
+                                    <li><a href="#">menu-2<span></span></a></li>
+                                    <li><a href="#">menu-3<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <h3>Good 피플</h3>
+                                <h3>국내사업</h3>
                                 <ul>
-                                    <li><a href="#">나눔대사<span></span></a></li>
-                                    <li><a href="#">이사회 및 위원회<span></span></a></li>
-                                    <li><a href="#">조직도<span></span></a></li>
+                                    <li><a href="#">menu-1<span></span></a></li>
+                                    <li><a href="#">menu-2<span></span></a></li>
+                                    <li><a href="#">menu-3<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <h3>투명경영</h3>
+                                <h3>사랑의의료봉사</h3>
                                 <ul>
-                                    <li><a href="#">사단법인<span></span></a></li>
-                                    <li><a href="#">복지법인<span></span></a></li>
+                                    <li><a href="#">소개<span></span></a></li>
+                                    <li><a href="#">스케줄<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <h3>지부안내</h3>
+                                <h3>긴급구호</h3>
                                 <ul>
-                                    <li><a href="#">해외지부<span></span></a></li>
-                                    <li><a href="#">국내지부<span></span></a></li>
+                                    <li><a href="/business/emergency_relief.php">긴급구호<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <h3>찾아오시는 길</h3>
+                                <h3>사회복지사업</h3>
                                 <ul>
-                                    <li><a href="#">찾아오시는 길<span></span></a></li>
+                                    <li><a href="/business/welfare_work.php">사회복지사업<span></span></a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -131,39 +130,15 @@
                     <div class="page-map">
                         <ul class="page-list">
                             <li>
-                                <h3>소개</h3>
+                                <h3>캠페인</h3>
                                 <ul>
-                                    <li><a href="#">비전과 가치<span></span></a></li>
-                                    <li><a href="#">걸어온 길<span></span></a></li>
-                                    <li><a href="#">인사말<span></span></a></li>
+                                    <li><a href="#">캠페인<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <h3>Good 피플</h3>
+                                <h3>캠페인 후기</h3>
                                 <ul>
-                                    <li><a href="#">나눔대사<span></span></a></li>
-                                    <li><a href="#">이사회 및 위원회<span></span></a></li>
-                                    <li><a href="#">조직도<span></span></a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>투명경영</h3>
-                                <ul>
-                                    <li><a href="#">사단법인<span></span></a></li>
-                                    <li><a href="#">복지법인<span></span></a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>지부안내</h3>
-                                <ul>
-                                    <li><a href="#">해외지부<span></span></a></li>
-                                    <li><a href="#">국내지부<span></span></a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>찾아오시는 길</h3>
-                                <ul>
-                                    <li><a href="#">찾아오시는 길<span></span></a></li>
+                                    <li><a href="/campaign/campaign_review.php">캠페인 후기<span></span></a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -186,45 +161,75 @@
                     <div class="page-map">
                         <ul class="page-list">
                             <li>
-                                <h3>소개</h3>
+                                <h3>굿피플 소식</h3>
                                 <ul>
-                                    <li><a href="#">비전과 가치<span></span></a></li>
-                                    <li><a href="#">걸어온 길<span></span></a></li>
-                                    <li><a href="#">인사말<span></span></a></li>
+                                    <li><a href="/community/news_list.php">소식<span></span></a></li>
+                                    <li><a href="/community/notice_list.php">공지사항<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <h3>Good 피플</h3>
+                                <h3>사업소식</h3>
                                 <ul>
-                                    <li><a href="#">나눔대사<span></span></a></li>
-                                    <li><a href="#">이사회 및 위원회<span></span></a></li>
-                                    <li><a href="#">조직도<span></span></a></li>
+                                    <li><a href="/community/business_list.php">해외/국내사업이야기<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <h3>투명경영</h3>
+                                <h3>언론보도</h3>
                                 <ul>
-                                    <li><a href="#">사단법인<span></span></a></li>
-                                    <li><a href="#">복지법인<span></span></a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>지부안내</h3>
-                                <ul>
-                                    <li><a href="#">해외지부<span></span></a></li>
-                                    <li><a href="#">국내지부<span></span></a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>찾아오시는 길</h3>
-                                <ul>
-                                    <li><a href="#">찾아오시는 길<span></span></a></li>
+                                    <li><a href="/community/media_list.php">언론보도<span></span></a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
                 </div>
             </li>
+            <!--<li>
+                <a href="#">후원</a>
+                <div class="sponsorship">
+                    <div class="intro">
+                        <h2>후원</h2>
+                        <p>
+                            굿피플은 지구촌 희망건설에 앞장서는 <br>
+                            국제구호개발 NGO 입니다.
+                        </p>
+                        <figure>
+                            <img src="/assets/images/main/img_introduce.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="page-map">
+                        <ul class="page-list">
+                            <li>
+                                <h3>정기후원</h3>
+                                <ul>
+                                    <li><a href="#">menu-1<span></span></a></li>
+                                    <li><a href="#">menu-2<span></span></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>일시후원</h3>
+                                <ul>
+                                    <li><a href="#">menu-1<span></span></a></li>
+                                    <li><a href="#">menu-2<span></span></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>굿피플 아너스클럽</h3>
+                                <ul>
+                                    <li><a href="#">아너스클럽이란?<span></span></a></li>
+                                    <li><a href="#">아너스클럽멤버<span></span></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>기업후원</h3>
+                                <ul>
+                                    <li><a href="/sponsor/share_partner.php">나눔파트너<span></span></a></li>
+                                    <li><a href="/sponsor/share_store.php">나눔가게<span></span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>-->
             <li>
                 <a href="#">나의후원</a>
                 <div class="sponsorship">
@@ -241,39 +246,34 @@
                     <div class="page-map">
                         <ul class="page-list">
                             <li>
-                                <h3>소개</h3>
+                                <h3>나의 후원아동</h3>
                                 <ul>
-                                    <li><a href="#">비전과 가치<span></span></a></li>
-                                    <li><a href="#">걸어온 길<span></span></a></li>
-                                    <li><a href="#">인사말<span></span></a></li>
+                                    <li><a href="/mypage/children_list_type1.php">나의 후원아동<span></span></a></li>
+                                    <li><a href="/mypage/letter_list.php">편지쓰기<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <h3>Good 피플</h3>
+                                <h3>회원정보변경</h3>
                                 <ul>
-                                    <li><a href="#">나눔대사<span></span></a></li>
-                                    <li><a href="#">이사회 및 위원회<span></span></a></li>
-                                    <li><a href="#">조직도<span></span></a></li>
+                                    <li><a href="#">회원정보변경<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <h3>투명경영</h3>
+                                <h3>후원 내역</h3>
                                 <ul>
-                                    <li><a href="#">사단법인<span></span></a></li>
-                                    <li><a href="#">복지법인<span></span></a></li>
+                                    <li><a href="#">후원 내역<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <h3>지부안내</h3>
+                                <h3>기부금영수증</h3>
                                 <ul>
-                                    <li><a href="#">해외지부<span></span></a></li>
-                                    <li><a href="#">국내지부<span></span></a></li>
+                                    <li><a href="#">기부금영수증<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <h3>찾아오시는 길</h3>
+                                <h3>문의</h3>
                                 <ul>
-                                    <li><a href="#">찾아오시는 길<span></span></a></li>
+                                    <li><a href="/mypage/inquiry/inquiry_list.php">문의<span></span></a></li>
                                 </ul>
                             </li>
                         </ul>
