@@ -623,6 +623,7 @@
 
 //아너스클럽멤버
 .honors-club {
+	padding-bottom: 0 !important; 
 	.join-condition {
 		.section-header {
 			text-align: center;
@@ -630,7 +631,7 @@
 			h3 {
 				font-size: 20px;
 				color: #222;
-				font-weight: 400;
+				font-weight: 300;
 			}
 			> p {
 				font-size: 13px;
@@ -640,6 +641,7 @@
 			}
 		}
 		.section-content {
+			padding-bottom: 80px;
 			.row {
 				> li {
 					& ~ li {
@@ -651,8 +653,16 @@
 						.info {
 							background-image: url(/assets/images/sponser/bg_join_condition01.png);
 							background-repeat: no-repeat;
-							background-size: 96px 150px;
+							background-size: 96px auto;
 							background-position: 50% 140px;
+						}
+					}
+					&:nth-of-type(2) {
+						.info {
+							background-image: url(/assets/images/sponser/bg_join_condition02.png);
+							background-repeat: no-repeat;
+							background-size: 108px auto;
+							background-position: 50% 155px;
 						}
 					}
 					.info {
@@ -674,6 +684,164 @@
 							font-size: 15px;
 							color: #222;
 							margin-top: 25px;
+						}
+					}
+				}
+			}
+		}
+		@media (min-width: $md) {
+			.section-header {
+				padding: 60px 0 50px;
+				h3 {
+					font-size: 26px;
+				}
+				> p {
+					font-size: 15px;
+					line-height: 25px;
+					margin-top: 25px;
+				}
+			}
+			.section-content {
+				padding-bottom: 90px;
+				.row {
+					> li {
+						& ~ li {
+							.info {
+								margin-top: 0;
+							}
+						}
+						&:first-child {
+							.info {
+								background-size: 120px auto;
+								background-position: 50% 150px;
+							}
+						}
+						&:nth-of-type(2) {
+							.info {
+								background-size: 160px auto;
+								background-position: 50% 150px;
+							}
+						}
+						.info {
+							padding-top: 40px;
+							height: 375px;
+							p {
+								font-size: 17px;
+							}
+						}
+					}
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			.section-header {
+				padding: 70px 0 60px;
+			}
+			.section-content {
+				padding-bottom: 105px;
+				.row {
+					> li {
+						&:first-child {
+							.info {
+								background-size: 165px auto;
+								background-position: 50% 160px;
+							}
+						}
+						&:nth-of-type(2) {
+							.info {
+								background-size: 180px auto;
+								background-position: 50% 200px;
+							}
+						}
+						.info {
+							padding-top: 50px;
+							height: 480px;
+							p {
+								font-size: 18px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.respect {
+		background-color: #f7f7f7;
+		.section-header {
+			text-align: center;
+			padding: 70px 0 35px;
+			h3 {
+				font-size: 20px;
+				color: #222;
+				font-weight: 300;
+			}
+			> p {
+				font-size: 13px;
+				color: #999;
+				line-height: 24px;
+				margin-top: 20px;
+			}
+		}
+		.section-content {
+			padding-bottom: 90px;
+			> .row {
+				li {
+					display: table;
+					& ~ li {
+						margin-top: 10px;
+					}
+					figure {
+						display: table-cell;
+						height: 220px;
+						text-align: center;
+						vertical-align: middle;
+						background-color: #fff;
+						box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.03); 
+						figcaption {
+							font-size: 15px;
+							color: #333;
+							line-height: 24px;
+							margin-top: 20px;
+						}
+					}
+				}
+			}
+		}
+		@media (min-width: $md) {
+			.section-header {
+				padding: 80px 0 45px;
+				h3 {
+					font-size: 24px;
+				}
+				> p {
+					font-size: 15px;
+					line-height: 26px;
+				}
+			}
+			.section-content {
+				padding-bottom: 115px;
+				> .row {
+					li {
+						& ~ li {
+							margin-top: 0;
+						}
+						&:nth-of-type(3) ~ li {
+							margin-top: 20px;
+						}
+					}
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			.section-header {
+				padding: 90px 0 60px;
+			}
+			.section-content {
+				padding-bottom: 160px;
+				> .row {
+					li {
+						&:nth-of-type(3) ~ li {
+							margin-top: 50px;
 						}
 					}
 				}
