@@ -44,13 +44,13 @@
 						<li class="col-12 col-md-6">
 							<div class="info">
 								<h4>개인회원</h4>	
-								<p></p>
+								<p>일시 또는 연간 1천만 원 이상 후원하신분</p>
 							</div>
 						</li>
 						<li class="col-12 col-md-6">
 							<div class="info">
 								<h4>기업회원</h4>	
-								<p></p>
+								<p>5천만원 이상 후원한 기업</p>
 							</div>
 						</li>
 					</ul>

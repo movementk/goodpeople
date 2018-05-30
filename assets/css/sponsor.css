@@ -754,8 +754,12 @@ a {
 .honors-club .join-condition .section-content .row > li ~ li .info {
   margin-top: 20px; }
 .honors-club .join-condition .section-content .row > li:first-child .info {
-  background-image: url(/assets/images/sponser/); }
+  background-image: url(/assets/images/sponser/bg_join_condition01.png);
+  background-repeat: no-repeat;
+  background-size: 96px 150px;
+  background-position: 50% 140px; }
 .honors-club .join-condition .section-content .row > li .info {
+  text-align: center;
   padding: 35px 0 200px;
   border: 1px solid #e7e7e7; }
   .honors-club .join-condition .section-content .row > li .info h4 {
@@ -763,10 +767,13 @@ a {
     height: 35px;
     font-size: 16px;
     color: #fff;
-    text-align: center;
     line-height: 35px;
     border-radius: 30px;
     margin: 0 auto;
     background-color: #e9193a; }
+  .honors-club .join-condition .section-content .row > li .info p {
+    font-size: 15px;
+    color: #222;
+    margin-top: 30px; }
 
 /*# sourceMappingURL=sponsor.css.map */
