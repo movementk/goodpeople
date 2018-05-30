@@ -552,4 +552,221 @@ a {
     .share-store .board-list-1 ul li {
       padding-bottom: 40px; } }
 
+.honors-member .members {
+  margin-top: 50px; }
+  .honors-member .members > ul > li ~ li a {
+    margin-top: 60px; }
+  .honors-member .members > ul > li a {
+    display: block; }
+    .honors-member .members > ul > li a figure img {
+      width: 100%; }
+    .honors-member .members > ul > li a figure figcaption {
+      font-size: 13px;
+      color: #666;
+      line-height: 24px;
+      text-align: center;
+      padding: 20px 0; }
+      .honors-member .members > ul > li a figure figcaption > p {
+        font-size: 14px;
+        color: #333;
+        font-weight: 400; }
+        .honors-member .members > ul > li a figure figcaption > p i {
+          margin-right: 5px; }
+    .honors-member .members > ul > li a:focus figure figcaption {
+      color: #fff;
+      background-color: #eb6100;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .honors-member .members > ul > li a:focus figure figcaption p {
+        color: #fff; }
+  .honors-member .members .paging {
+    margin-top: 50px; }
+@media (min-width: 768px) {
+  .honors-member .members {
+    margin-top: 80px; }
+    .honors-member .members > ul > li ~ li a {
+      margin-top: 0; }
+    .honors-member .members > ul > li:nth-of-type(3) ~ li a {
+      margin-top: 80px; }
+    .honors-member .members > ul > li a:hover figure figcaption {
+      color: #fff;
+      background-color: #eb6100;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .honors-member .members > ul > li a:hover figure figcaption p {
+        color: #fff; }
+    .honors-member .members > ul > li a figure figcaption {
+      font-size: 14px;
+      line-height: 30px;
+      padding: 15px 0; }
+      .honors-member .members > ul > li a figure figcaption > p {
+        font-size: 16px; }
+    .honors-member .members .paging {
+      margin-top: 60px; } }
+@media (min-width: 1200px) {
+  .honors-member .members > ul > li:nth-of-type(3) ~ li a {
+    margin-top: 0; }
+  .honors-member .members > ul > li:nth-of-type(4) ~ li a {
+    margin-top: 70px; }
+  .honors-member .members > ul > li a figure figcaption {
+    padding: 20px 0; }
+  .honors-member .members .paging {
+    margin-top: 80px; } }
+
+/********** video-modal popup **********/
+.modal-open {
+  padding-right: 0 !important; }
+
+.video-modal {
+  padding-left: 10px !important;
+  padding-bottom: 150px;
+  padding-right: 10px !important;
+  background-color: rgba(0, 0, 0, 0.6); }
+  .video-modal .modal-dialog {
+    max-width: 635px !important;
+    margin: 50px auto 0; }
+    .video-modal .modal-dialog .modal-content {
+      padding: 0 10px;
+      border-radius: 0;
+      border-bottom: 0; }
+      .video-modal .modal-dialog .modal-content .modal-header {
+        overflow: hidden;
+        padding: 20px 0 15px; }
+        .video-modal .modal-dialog .modal-content .modal-header .modal-title {
+          font-size: 16px;
+          color: #333;
+          font-weight: 400; }
+        .video-modal .modal-dialog .modal-content .modal-header .close {
+          overflow: hidden;
+          float: right;
+          display: block;
+          width: 24px;
+          height: 24px;
+          line-height: 24px;
+          padding: 0;
+          margin: 0;
+          opacity: 1; }
+          .video-modal .modal-dialog .modal-content .modal-header .close span {
+            position: relative;
+            top: -3px;
+            text-align: right; }
+          .video-modal .modal-dialog .modal-content .modal-header .close:hover, .video-modal .modal-dialog .modal-content .modal-header .close:focus {
+            opacity: .7; }
+      .video-modal .modal-dialog .modal-content .modal-body {
+        padding: 0 0 70px;
+        border-bottom: 0; }
+        .video-modal .modal-dialog .modal-content .modal-body .comment {
+          overflow-y: scroll;
+          height: 185px;
+          margin-top: 20px;
+          padding: 15px 10px 30px;
+          background-color: #ededed; }
+          .video-modal .modal-dialog .modal-content .modal-body .comment > p {
+            font-size: 13px;
+            line-height: 24px;
+            color: #666; }
+        .video-modal .modal-dialog .modal-content .modal-body .latest-news {
+          margin-top: 40px; }
+          .video-modal .modal-dialog .modal-content .modal-body .latest-news > h5 {
+            font-size: 16px;
+            color: #333;
+            font-weight: 400;
+            margin-bottom: 15px; }
+          .video-modal .modal-dialog .modal-content .modal-body .latest-news ul {
+            border-top: 1px solid #aaa;
+            border-bottom: 1px solid #aaa; }
+            .video-modal .modal-dialog .modal-content .modal-body .latest-news ul li {
+              position: relative;
+              padding: 20px 15px;
+              border-bottom: 1px solid #dfdfdf; }
+              .video-modal .modal-dialog .modal-content .modal-body .latest-news ul li:last-child {
+                border-bottom: 0; }
+              .video-modal .modal-dialog .modal-content .modal-body .latest-news ul li a {
+                display: block;
+                font-size: 13px;
+                color: #222;
+                line-height: 19px;
+                font-weight: 300;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap; }
+              .video-modal .modal-dialog .modal-content .modal-body .latest-news ul li > span {
+                position: absolute;
+                top: 20px;
+                right: 25px;
+                display: block;
+                font-size: 14px;
+                color: #555;
+                font-family: 'Roboto', sans-serif; }
+  @media (min-width: 768px) {
+    .video-modal .modal-dialog {
+      margin: 100px auto 0; }
+      .video-modal .modal-dialog .modal-content {
+        padding: 0 30px; }
+        .video-modal .modal-dialog .modal-content .modal-header {
+          padding: 25px 0 20px; }
+          .video-modal .modal-dialog .modal-content .modal-header .modal-title {
+            font-size: 18px; }
+          .video-modal .modal-dialog .modal-content .modal-header .close {
+            width: 27px;
+            height: 27px;
+            line-height: 27px; }
+        .video-modal .modal-dialog .modal-content .modal-body {
+          padding: 0 0 105px; }
+          .video-modal .modal-dialog .modal-content .modal-body .comment {
+            padding: 20px 25px 20px; }
+            .video-modal .modal-dialog .modal-content .modal-body .comment > p {
+              font-size: 14px;
+              line-height: 26px; }
+          .video-modal .modal-dialog .modal-content .modal-body .latest-news {
+            margin-top: 45px; }
+            .video-modal .modal-dialog .modal-content .modal-body .latest-news ul li a {
+              padding-right: 105px;
+              font-size: 14px; } }
+  @media (min-width: 1200px) {
+    .video-modal .modal-dialog .modal-content .modal-body .latest-news ul li a {
+      font-size: 14px; } }
+
+.honors-club .join-condition .section-header {
+  text-align: center;
+  padding: 50px 0 35px; }
+  .honors-club .join-condition .section-header h3 {
+    font-size: 20px;
+    color: #222;
+    font-weight: 400; }
+  .honors-club .join-condition .section-header > p {
+    font-size: 13px;
+    color: #999;
+    line-height: 24px;
+    margin-top: 20px; }
+.honors-club .join-condition .section-content .row > li ~ li .info {
+  margin-top: 20px; }
+.honors-club .join-condition .section-content .row > li:first-child .info {
+  background-image: url(/assets/images/sponser/); }
+.honors-club .join-condition .section-content .row > li .info {
+  padding: 35px 0 200px;
+  border: 1px solid #e7e7e7; }
+  .honors-club .join-condition .section-content .row > li .info h4 {
+    width: 125px;
+    height: 35px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 30px;
+    margin: 0 auto;
+    background-color: #e9193a; }
+
 /*# sourceMappingURL=sponsor.css.map */
