@@ -775,7 +775,7 @@
 		margin-top: 50px;
 		> ul {
 			> li {
-				& ~ li {
+				&:nth-of-type(2) ~ li {
 					a {
                         margin-top: 60px;
 					}
@@ -817,23 +817,23 @@
 				}
 			} 	
 		}
-		.paging {
+		/*.paging {
 			margin-top: 50px;	
-		}
+		}*/
 	}
 	@media (min-width: $md) {
 		.members {
 			margin-top: 80px;
 			> ul {
 				> li {
-					& ~ li {
-						a {
+                    &:nth-of-type(2) ~ li {
+                        a {
                             margin-top: 0;
-						}
-					}
-					&:nth-of-type(3) ~ li {
+                        }
+                    }
+					&:nth-of-type(4) ~ li {
 						a {
-                            margin-top: 80px;
+                            margin-top: 50px;
 						}
 					}
 					a {
@@ -862,9 +862,9 @@
 					}
 				} 	
 			}
-			.paging {
+			/*.paging {
 				margin-top: 60px;	
-			}
+			}*/
 		}
 	}
 	@media (min-width: $xl) {
@@ -876,7 +876,7 @@
                             margin-top: 0;
 						}
 					}
-                    &:nth-of-type(4) ~ li {
+                    &:nth-of-type(6) ~ li {
 						a {
                             margin-top: 70px;
 						}
@@ -890,9 +890,9 @@
 					}
 				} 	
 			} 
-			.paging {
+			/*.paging {
 				margin-top: 80px;	
-			}
+			}*/
 		}
 	}
 }
@@ -1332,6 +1332,7 @@
 .international-camps {
 	.map {
 		margin-top: 35px;
+        padding: 0 6%;
 		img {
 			display: block;
 			/*width: 100%;*/
@@ -1339,6 +1340,7 @@
 		}
 		@media (min-width: $md) {
 			margin-top: 70px;
+            padding: 0;
 		}
 		@media (min-width: $xl) {
 			margin-top: 100px;

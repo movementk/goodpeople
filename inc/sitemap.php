@@ -16,7 +16,7 @@
                         <li><a href="/introduce/ambassadors.php">Good-피플</a></li>
                         <li><a href="/introduce/corporation.php">투명경영</a></li>
                         <li><a href="#">지부안내</a></li>
-                        <li><a href="#">찾아오시는길</a></li>
+                        <li><a href="/introduce/directions.php">찾아오시는길</a></li>
                     </ul>
                 </li>
                 <li class="col-2">

@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 @import url("//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css");
 @import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -956,6 +957,11 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         color: #333;
         line-height: 25px;
         font-weight: 400; }
+      .board-list-1 > ul > li a .board-info .details hr {
+        display: block;
+        width: 23px;
+        border-top: 2px solid #dfdfdf;
+        margin: 12px auto 12px 0; }
       .board-list-1 > ul > li a .board-info .details p {
         font-size: 13px;
         color: #666;

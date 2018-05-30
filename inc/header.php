@@ -40,20 +40,20 @@
                                 <h3>투명경영</h3>
                                 <ul>
                                     <li><a href="/introduce/corporation.php">사단법인<span></span></a></li>
-                                    <li><a href="#">복지법인<span></span></a></li>
+                                    <li><a href="/introduce/welfarecorp.php">복지법인<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
                                 <h3>지부안내</h3>
                                 <ul>
-                                    <li><a href="#">해외지부<span></span></a></li>
+                                    <li><a href="/introduce/international_camps.php">해외지부<span></span></a></li>
                                     <li><a href="#">국내지부<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
                                 <h3>찾아오시는 길</h3>
                                 <ul>
-                                    <li><a href="#">찾아오시는 길<span></span></a></li>
+                                    <li><a href="/introduce/directions.php">찾아오시는 길<span></span></a></li>
                                 </ul>
                             </li>
                         </ul>
