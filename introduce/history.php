@@ -61,24 +61,22 @@
 						<ol>
 							<li>
 								<div class="row">
-									<div class="col-12 col-md-6 order-last d-none d-md-block">
+									<div class="col-12 col-md-6 order-first d-none d-md-block">
 										<div class="item-images">
-											<div class="item-images">
-												<ul>
-													<li>
-														<img src="/assets/images/introduce/img_histoy2005_01.jpg" alt="">
-													</li>
-													<li>
-														<img src="/assets/images/introduce/img_histoy2005_02.jpg" alt="">
-													</li>
-													<li>
-														<img src="/assets/images/introduce/img_histoy2005_03.jpg" alt="">
-													</li>
-												</ul>
-											</div>
+											<ul>
+												<li>
+													<img src="/assets/images/introduce/img_histoy1999_01.jpg" alt="">
+												</li>
+												<li>
+													<img src="/assets/images/introduce/img_histoy1999_02.jpg" alt="">
+												</li>
+												<li>
+													<img src="/assets/images/introduce/img_histoy1999_03.jpg" alt="">
+												</li>
+											</ul>
 										</div>
 									</div>
-									<div class="col-12 col-md-6 order-first">
+									<div class="col-12 col-md-6 order-last">
 										<div class="details">
 											<h3>2005</h3>
 											<ol>
@@ -176,22 +174,24 @@
 							</li>
 							<li>
 								<div class="row">
-									<div class="col-12 col-md-6 order-first d-none d-md-block">
+									<div class="col-12 col-md-6 order-last d-none d-md-block">
 										<div class="item-images">
-											<ul>
-												<li>
-													<img src="/assets/images/introduce/img_histoy1999_01.jpg" alt="">
-												</li>
-												<li>
-													<img src="/assets/images/introduce/img_histoy1999_02.jpg" alt="">
-												</li>
-												<li>
-													<img src="/assets/images/introduce/img_histoy1999_03.jpg" alt="">
-												</li>
-											</ul>
+											<div class="item-images">
+												<ul>
+													<li>
+														<img src="/assets/images/introduce/img_histoy2005_01.jpg" alt="">
+													</li>
+													<li>
+														<img src="/assets/images/introduce/img_histoy2005_02.jpg" alt="">
+													</li>
+													<li>
+														<img src="/assets/images/introduce/img_histoy2005_03.jpg" alt="">
+													</li>
+												</ul>
+											</div>
 										</div>
 									</div>
-									<div class="col-12 col-md-6 order-last">
+									<div class="col-12 col-md-6 order-first">
 										<div class="details">
 											<h3>1999</h3>
 											<ol>

@@ -686,7 +686,6 @@
 													 dd {
 														 font-size: 15px;
 														 line-height: 25px;
-														 margin-left: 0;
 														 ul {
 															 li {
 																 line-height: 25px;
@@ -702,6 +701,7 @@
 									.details {
 										text-align: right;
 										padding-right: 30px;
+										padding-left: 0;
 										&:before { 
 											display: none;
 										}
@@ -726,7 +726,7 @@
 														float: right;
 													}
 													dd {
-														margin-right: 50px;
+														margin-right: 40px;
 													}
 												}
 											}
