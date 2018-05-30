@@ -30,34 +30,13 @@
  			    <ul>
  			        <li>
                         <figure>
-                            <img src="/assets/images/business/img_welfare_work_sm_01.jpg" class="img-fluid d-md-none" alt="">
-                            <img src="/assets/images/business/img_welfare_work_lg_01.jpg" class="img-fluid d-none d-md-block" alt="">
-                        </figure>
-                        <div class="details">
-                            <h3>
-                                <small>[어르신지원사업]</small>
-                                동작실버센터 운영
-                            </h3>
-                            <p class="summary">
-                                지하1층, 지상4층 규모로 자원봉사실, 물리치료실, 프로그램실, 목욕실, 운동치료실 등 시설 갖추고 있는 노인전문 복지시설로 노인성 질환으로 인한 신체적, 정신적 장애가 있는 어르신을 저렴한 비용으로 보호하는 노인복지시설인 동작실버센터를 위탁 운영하고 있습니다.<br><br>
-                                전문성과 체계적인 요양 프로그램 등 일상에 필요한 서비스를 제공하여 어르신들이 행복하고 편안한 노후를 보낼 수 있도록 지원하고 있습니다.
-                            </p>
-                        </div>
-                        <div class="btn-area">
-                            <p>
-                                <a href="#" class="btn btn-lg btn-white" role="button">동작실버센터 홈페이지 바로가기</a>
-                            </p>
-                        </div>
- 			        </li>
- 			        <li>
-                        <figure>
                             <img src="/assets/images/business/img_welfare_work_sm_02.jpg" class="img-fluid d-md-none" alt="">
                             <img src="/assets/images/business/img_welfare_work_lg_02.jpg" class="img-fluid d-none d-md-block" alt="">
                         </figure>
                         <div class="details">
                             <h3>
                                 <small>[홈리스지원사업]</small>
-                                양평쉼터 운영
+                                서울특별시립 양평쉼터
                             </h3>
                             <p class="summary">
                                 노숙인들에게 다시 설 수 있는 재활과 회복을 도와주는 양평쉼터를 운영하고 있으며, 쪽방 거주민 생활안정지원 사업을 통해 쪽방에 거주하는 노숙인들의 주거 복지 향상 및 생활 안정을 돕는 프로그램을 운영하고 있습니다.<br><br class="d-none d-md-block d-xl-none">
@@ -69,6 +48,7 @@
                                 <a href="#" class="btn btn-lg btn-white" role="button">양평쉼터 홈페이지 바로가기</a>
                             </p>
                         </div>
+                        
  			        </li>
  			        <li>
                         <figure>
@@ -90,6 +70,27 @@
                         <div class="btn-area">
                             <p>
                                 <a href="#" class="btn btn-lg btn-white" role="button">홈페이지 바로가기</a>
+                            </p>
+                        </div>
+ 			        </li>
+ 			        <li>
+                        <figure>
+                            <img src="/assets/images/business/img_welfare_work_sm_01.jpg" class="img-fluid d-md-none" alt="">
+                            <img src="/assets/images/business/img_welfare_work_lg_01.jpg" class="img-fluid d-none d-md-block" alt="">
+                        </figure>
+                        <div class="details">
+                            <h3>
+                                <small>[어르신지원사업]</small>
+                                구립동장실버센터
+                            </h3>
+                            <p class="summary">
+                                지하1층, 지상4층 규모로 자원봉사실, 물리치료실, 프로그램실, 목욕실, 운동치료실 등 시설 갖추고 있는 노인전문 복지시설로 노인성 질환으로 인한 신체적, 정신적 장애가 있는 어르신을 저렴한 비용으로 보호하는 노인복지시설인 동작실버센터를 위탁 운영하고 있습니다.<br><br>
+                                전문성과 체계적인 요양 프로그램 등 일상에 필요한 서비스를 제공하여 어르신들이 행복하고 편안한 노후를 보낼 수 있도록 지원하고 있습니다.
+                            </p>
+                        </div>
+                        <div class="btn-area">
+                            <p>
+                                <a href="#" class="btn btn-lg btn-white" role="button">동작실버센터 홈페이지 바로가기</a>
                             </p>
                         </div>
  			        </li>

@@ -34,8 +34,7 @@
 	<main id="content" class="international-camps">
 		<div class="container">
 			<div class="map">
-				<img src="/assets/images/introduce/img_international_map_sm.gif" class="img-fluid d-md-none" alt="">
-				<img src="/assets/images/introduce/img_international_map_md.gif" class="img-fluid d-none d-md-block d-xl-none" alt="">
+				<img src="/assets/images/introduce/img_international_map_md.gif" class="img-fluid d-xl-none" alt="">
 				<img src="/assets/images/introduce/img_international_map_xl.gif" class="img-fluid d-none d-xl-block" alt="">
 			</div>
 			<ul>

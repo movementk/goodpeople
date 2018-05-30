@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 @import url("//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css");
 @import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -881,8 +882,11 @@ a {
       padding-bottom: 95px; } }
 
 .ambassadors .members {
-  margin-top: 50px; }
-  .ambassadors .members > ul > li ~ li a {
+  margin-top: 50px;
+  /*.paging {
+  	margin-top: 50px;	
+  }*/ }
+  .ambassadors .members > ul > li:nth-of-type(2) ~ li a {
     margin-top: 60px; }
   .ambassadors .members > ul > li a {
     display: block; }
@@ -913,15 +917,16 @@ a {
       transition-delay: 0s; }
       .ambassadors .members > ul > li a:focus figure figcaption p {
         color: #fff; }
-  .ambassadors .members .paging {
-    margin-top: 50px; }
 @media (min-width: 768px) {
   .ambassadors .members {
-    margin-top: 80px; }
-    .ambassadors .members > ul > li ~ li a {
+    margin-top: 80px;
+    /*.paging {
+    	margin-top: 60px;	
+    }*/ }
+    .ambassadors .members > ul > li:nth-of-type(2) ~ li a {
       margin-top: 0; }
-    .ambassadors .members > ul > li:nth-of-type(3) ~ li a {
-      margin-top: 80px; }
+    .ambassadors .members > ul > li:nth-of-type(4) ~ li a {
+      margin-top: 50px; }
     .ambassadors .members > ul > li a:hover figure figcaption {
       color: #fff;
       background-color: #eb6100;
@@ -940,18 +945,18 @@ a {
       line-height: 30px;
       padding: 15px 0; }
       .ambassadors .members > ul > li a figure figcaption > p {
-        font-size: 16px; }
-    .ambassadors .members .paging {
-      margin-top: 60px; } }
+        font-size: 16px; } }
 @media (min-width: 1200px) {
-  .ambassadors .members > ul > li:nth-of-type(3) ~ li a {
-    margin-top: 0; }
-  .ambassadors .members > ul > li:nth-of-type(4) ~ li a {
-    margin-top: 70px; }
-  .ambassadors .members > ul > li a figure figcaption {
-    padding: 20px 0; }
-  .ambassadors .members .paging {
-    margin-top: 80px; } }
+  .ambassadors .members {
+    /*.paging {
+    	margin-top: 80px;	
+    }*/ }
+    .ambassadors .members > ul > li:nth-of-type(3) ~ li a {
+      margin-top: 0; }
+    .ambassadors .members > ul > li:nth-of-type(6) ~ li a {
+      margin-top: 70px; }
+    .ambassadors .members > ul > li a figure figcaption {
+      padding: 20px 0; } }
 
 /********** video-modal popup **********/
 .modal-open {
@@ -1229,14 +1234,16 @@ a {
       font-size: 16px; } }
 
 .international-camps .map {
-  margin-top: 35px; }
+  margin-top: 35px;
+  padding: 0 6%; }
   .international-camps .map img {
     display: block;
     /*width: 100%;*/
     margin: 0 auto; }
   @media (min-width: 768px) {
     .international-camps .map {
-      margin-top: 70px; } }
+      margin-top: 70px;
+      padding: 0; } }
   @media (min-width: 1200px) {
     .international-camps .map {
       margin-top: 100px; } }

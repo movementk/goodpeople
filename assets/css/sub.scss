@@ -829,6 +829,12 @@ input, textarea {
 							line-height: 25px;
 							font-weight: 400;
 						}
+                        hr {
+                            display: block;
+                            width: 23px;
+                            border-top: 2px solid #dfdfdf;
+                            margin: 12px auto 12px 0;
+                        }
 						p {
 							font-size: 13px;
 							color: #666;

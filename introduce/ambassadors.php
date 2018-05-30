@@ -35,7 +35,7 @@
 		<div class="container">
 			<article class="members">
 				<ul class="row">
-					<li class="col-12 col-md-4 col-xl-3">
+					<li class="col-6 col-md-3 col-xl-2">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
 								<img src="/assets/images/introduce/img_ambassadors_list01.jpg" class="img-fluid" alt="">
@@ -46,7 +46,7 @@
 							</figure>
 						</a>
 					</li>
-					<li class="col-12 col-md-4 col-xl-3">
+					<li class="col-6 col-md-3 col-xl-2">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
 								<img src="/assets/images/introduce/img_ambassadors_list02.jpg" class="img-fluid" alt="">
@@ -57,7 +57,7 @@
 							</figure>
 						</a>
 					</li>
-					<li class="col-12 col-md-4 col-xl-3">
+					<li class="col-6 col-md-3 col-xl-2">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
 								<img src="/assets/images/introduce/img_ambassadors_list03.jpg" class="img-fluid" alt="">
@@ -68,7 +68,7 @@
 							</figure>
 						</a>
 					</li>
-					<li class="d-none d-md-block col-md-4 col-xl-3">
+					<li class="col-6 col-md-3 col-xl-2">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
 								<img src="/assets/images/introduce/img_ambassadors_list04.jpg" class="img-fluid" alt="">
@@ -79,7 +79,7 @@
 							</figure>
 						</a>
 					</li>
-					<li class="d-none d-md-block col-md-4 col-xl-3">
+					<li class="d-none d-md-block col-md-3 col-xl-2">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
 								<img src="/assets/images/introduce/img_ambassadors_list05.jpg" class="img-fluid" alt="">
@@ -90,7 +90,7 @@
 							</figure>
 						</a>
 					</li>
-					<li class="d-none d-md-block col-md-4 col-xl-3">
+					<li class="d-none d-md-block col-md-3 col-xl-2">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
 								<img src="/assets/images/introduce/img_ambassadors_list06.jpg" class="img-fluid" alt="">
@@ -101,7 +101,7 @@
 							</figure>
 						</a>
 					</li>
-					<li class="d-none d-xl-block col-md-4 col-xl-3">
+					<li class="d-none d-xl-block col-md-3 col-xl-2">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
 								<img src="/assets/images/introduce/img_ambassadors_list07.jpg" class="img-fluid" alt="">
@@ -112,7 +112,7 @@
 							</figure>
 						</a>
 					</li>
-					<li class="d-none d-xl-block col-md-4 col-xl-3">
+					<li class="d-none d-xl-block col-md-3 col-xl-2">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
 								<img src="/assets/images/introduce/img_ambassadors_list08.jpg" class="img-fluid" alt="">
@@ -124,7 +124,7 @@
 						</a>
 					</li>
 				</ul>
-				<nav class="paging">
+				<!--<nav class="paging">
 					<ol class="pagination">
 						<li class="first">
 							<a href="#">
@@ -170,7 +170,7 @@
 							</a>
 						</li>
 					</ol>	
-				</nav>
+				</nav>-->
 			</article>
 		</div>
     </main>

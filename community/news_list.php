@@ -67,7 +67,6 @@
 														굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다
 													</p>
 													<ul class="icon-list">
-														<li class="user">굿피플</li>
 														<li class="calendar">2018-05-01</li>
 														<li class="eye">1,234</li>
 													</ul>
@@ -93,7 +92,6 @@
 														굿피플에 전해진 종합비타민 '큐피코와골드α정' 25,000개가 소외계층을 위해 사용되었습니다.
 													</p>
 													<ul class="icon-list">
-														<li class="user">굿피플</li>
 														<li class="calendar">2018-05-01</li>
 														<li class="eye">1,234</li>
 													</ul>
@@ -119,7 +117,6 @@
 														2018 기부마라톤대회에 굿피플과 함게할 자원봉사자 여러분을 모집하고 있습니다. 많은 관심과 참여...
 													</p>
 													<ul class="icon-list">
-														<li class="user">굿피플</li>
 														<li class="calendar">2018-05-01</li>
 														<li class="eye">1,234</li>
 													</ul>
@@ -145,7 +142,6 @@
 														굿피플의 고액기부 후원자모임인 '굿피플 아너스클럽'에 여의도순복음교회 새성북성전 방경현 목사가 회원으로 가입했습니다.
 													</p>
 													<ul class="icon-list">
-														<li class="user">굿피플</li>
 														<li class="calendar">2018-05-01</li>
 														<li class="eye">1,234</li>
 													</ul>
@@ -171,7 +167,6 @@
 														굿피플이 배우 정준을 굿피플 나눔대사로 위촉했습니다.
 													</p>
 													<ul class="icon-list">
-														<li class="user">굿피플</li>
 														<li class="calendar">2018-05-01</li>
 														<li class="eye">1,234</li>
 													</ul>

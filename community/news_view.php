@@ -36,7 +36,6 @@
            		<div class="article-header">
            			<h4>사랑의 의료봉사, 고려대학교 교우회 감사패 수상</h4>
            			<ul class="icon-list">
-           				<li class="user">굿피플</li>
            				<li class="calendar">2018-05-01</li>
 						<li class="eye">1,234</li>
            			</ul>
@@ -82,8 +81,6 @@
 					</ul>
            			<div class="btn-area">
            				<p>
-           					<a href="#" class="btn btn-gray" role="button">삭제하기</a>
-           					<a href="#" class="btn btn-gray" role="button">수정하기</a>
            					<a href="#" class="btn btn-black" role="button">목록으로</a>
            				</p>
 					</div>
