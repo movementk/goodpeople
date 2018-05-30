@@ -22,8 +22,8 @@
             </div>
             <nav class="lnb">
                 <ul class="tab-list">
-                    <li><a href="#">보낸편지</a></li>
-                    <li class="active"><a href="/mypage/my_support/letter_list.php">받은편지</a></li>
+                    <li class="active"><a href="#">보낸편지</a></li>
+                    <li><a href="/mypage/my_support/letter_list.php">받은편지</a></li>
                 </ul>
             </nav>
         </div>

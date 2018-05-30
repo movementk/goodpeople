@@ -1,5 +1,67 @@
 @import 'common';
 
+.sub-tab-list {
+    margin-top: 40px;
+    ul {
+        font-size: 0;
+        li {
+            display: inline-block;
+            width: 50%;
+            a {
+                display: block;
+                font-size: 14px;
+                text-align: center;
+                color: #999;
+                line-height: 38px;
+                height: 40px;
+                border: 1px solid #ccc;
+            }
+            &:last-child {
+                a {
+                    border-left: 0;
+                }
+            }
+            &.active {
+                a {
+                    color: #fff;
+                    border-color: #eb6100;
+                    background-color: #eb6100;
+                }
+            }
+        }
+    }
+    @media(min-width: $md) {
+        margin-top: 60px;
+        text-align: center;
+        ul {
+            display: inline-block;
+            width: 570px;
+            li {
+                a {
+                    font-size: 16px;
+                    line-height: 48px;
+                    height: 50px;
+                    @include transition();
+                    &:hover, &:focus {
+                        opacity: .8;
+                        border: 1px solid #eb6100;
+                        background-color: #eb6100;
+                        color: #fff;
+                    }
+                }
+                &.active {
+                    a {
+                        &:hover, &:focus {
+                            opacity: 1 !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 //나눔파트너
 .share-partner {
 	.page-intro {
@@ -148,149 +210,94 @@
 			}
 		}
 	}
-	.tab-sponser {
-		border-top: 1px solid #ccc;
-		padding-top: 50px;
-		.nav {
-			&.mb-3 {
-				margin-bottom: 0 !important;
-			}
-			&.nav-pills {
-				.nav-item {
-					width: 33.33%;
-					line-height: 40px;
-					& ~ .nav-item {
-						.nav-link {
-							border-left: 0;
-						}
-					}
-					> .nav-link {
-						border: 1px solid #ccc;
-						font-size: 14px;
-						text-align: center;
-						padding: 0;
-						border-radius: 0;  
-						&.active {
-							border: 1px solid #eb6100;
-							background-color: #eb6100;
-							&:hover, &:active {
-								opacity: 1;
-							}
-						}
-						&:hover, &:active {
-							opacity: .7;
-							border: 1px solid #eb6100;
-							background-color: #eb6100;
-							color: #fff;
-						}
-					}
-				}
-			}
-		}
-		@media (min-width: $md) {
-			padding-top: 70px;
-			.nav {
-				&.nav-pills {
-					width: 550px;
-					margin: 0 auto;
-					.nav-item {
-						line-height: 50px;
-						.nav-link {
-							font-size: 16px;
-						}
-					}
-				}
-			}
-		}
-		@media (min-width: $xl) {
-			padding-top: 90px;
-		}
-	}
-	.tab-content {
-		margin-top: 40px;
-		.tab-pane {
-			.row {
-				> li {
-					& ~ li {
-						.sponsor-company {
-							margin-top: 30px;
-						}
-					}
-					.sponsor-company {
-						text-align: center;
-						.item {
-							border: 1px solid #ddd;
-						}
-						> p {
-							font-size: 16px;
-							color: #666;
-							margin-top: 15px;
-							@include nns();	
-						}
-					}	
-				}
-			}
-			.paging {
-				margin-top: 80px;
-			}
-		}
-		@media (min-width: $md) {
-			margin-top: 65px;
-			.tab-pane {
-				.row {
-					> li {
-						& ~ li {
-							.sponsor-company {
-								margin-top: 0;
-							}
-						}
-						&:nth-of-type(3) ~ li {
-							.sponsor-company {
-								margin-top: 45px;
-							}
-						}
-						.sponsor-company {
-							> p {
-								font-size: 18px;
-								margin-top: 20px;
-							}
-						}	
-					}
-				}
-				.paging {
-					margin-top: 95px;
-				}
-			}	
-		}
-		@media (min-width: $xl) {
-			margin-top: 60px;
-			.tab-pane {
-				.row {
-					> li {
-						&:nth-of-type(3) ~ li {
-							.sponsor-company {
-								margin-top: 0;
-							}
-						}
-						&:nth-of-type(4) ~ li {
-							.sponsor-company {  
-								margin-top: 40px !important;
-							}
-						}
-						.sponsor-company {
-							> p {
-								font-size: 16px;
-							}
-						}	
-					}
-				}
-				.paging {
-					margin-top: 75px;
-				}
-			}	
-		}
-	}
 }
+
+// partner_list
+.partner-list {
+	.tab-sponser {
+		padding-top: 50px;
+        ul {
+            > li {
+                &:nth-of-type(2) ~ li {
+                    .sponsor-company {
+                        margin-top: 30px;
+                    }
+                }
+                .sponsor-company {
+                    text-align: center;
+                    .item {
+                        border: 1px solid #ddd;
+                    }
+                    > p {
+                        font-size: 16px;
+                        color: #666;
+                        margin-top: 15px;
+                        @include nns();	
+                    }
+                }	
+            }
+        }
+        .paging {
+            margin-top: 80px;
+        }
+    }
+    @media (min-width: $md) {
+        .tab-sponser {
+            padding-top: 100px;
+            ul {
+                > li {
+                    &:nth-of-type(2) ~ li {
+                        .sponsor-company {
+                            margin-top: 0;
+                        }
+                    }
+                    &:nth-of-type(3) ~ li {
+                        .sponsor-company {
+                            margin-top: 45px;
+                        }
+                    }
+                    .sponsor-company {
+                        > p {
+                            font-size: 18px;
+                            margin-top: 20px;
+                        }
+                    }	
+                }
+            }
+            .paging {
+                margin-top: 95px;
+            }	
+        }
+    }
+    @media (min-width: $xl) {
+        .tab-sponser {
+            ul {
+                > li {
+                    &:nth-of-type(3) ~ li {
+                        .sponsor-company {
+                            margin-top: 0;
+                        }
+                    }
+                    &:nth-of-type(4) ~ li {
+                        .sponsor-company {  
+                            margin-top: 40px !important;
+                        }
+                    }
+                    .sponsor-company {
+                        > p {
+                            font-size: 16px;
+                        }
+                    }	
+                }
+            }
+            .paging {
+                margin-top: 75px;
+            }	
+        }
+    }
+}
+
+
 
 //나눔가게
 .share-store {

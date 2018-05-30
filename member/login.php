@@ -19,7 +19,7 @@
         <div class="container">
             <div class="page-title">
                 <h3>로그인</h3>
-                <p class="summary">굿피플은 UN경제사회이사회로 부터 특별 <br>협의 지위를 부여 받은 국제구호개발 NGO 입니다.</p>
+                <p class="summary">굿피플 홈페이지 방문을 환영합니다. <br>굿피플과 함께 사랑을 나누어 주세요.</p>
             </div>
         </div>
     </div>

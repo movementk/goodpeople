@@ -960,7 +960,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       .board-list-1 > ul > li a .board-info .details hr {
         display: block;
         width: 23px;
-        border-top: 2px solid #dfdfdf;
+        border-top: 2px solid #ccc;
         margin: 12px auto 12px 0; }
       .board-list-1 > ul > li a .board-info .details p {
         font-size: 13px;
@@ -979,6 +979,8 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       .board-list-1 > ul > li a .board-info .details h4 {
         font-size: 16px;
         line-height: 25px; }
+      .board-list-1 > ul > li a .board-info .details hr {
+        margin: 15px auto 15px 0; }
       .board-list-1 > ul > li a .board-info .details p {
         font-size: 14px;
         line-height: 26px;
