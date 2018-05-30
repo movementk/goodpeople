@@ -89,7 +89,7 @@
             </div>
             <div class="business medical">
                 <p class="participation or">5,830 <small class="or">명</small></p>
-                <h3>사랑의 의료봉사</h3>
+                <h3>사랑의의료봉사</h3>
                 <blockquote class="d-none d-md-block">
                     이동진료차량으로 의료사각지대에 거주하는
                     가난하고 소외된 이웃에게 직접 찾아가 방문진료, 
@@ -99,7 +99,7 @@
             </div>
             <div class="business sanitation">
                 <p class="participation bl">2,037 <small class="bl">명</small></p>
-                <h3>해외 보건의료사업</h3>
+                <h3>해외보건의료사업</h3>
                 <blockquote class="d-none d-md-block">
                     보건 및 위생환경이 열악한 지역을 대상으로
                     의료서비스를 제공하며 현지에 병원개설,
