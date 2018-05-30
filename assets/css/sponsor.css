@@ -739,42 +739,144 @@ a {
     .video-modal .modal-dialog .modal-content .modal-body .latest-news ul li a {
       font-size: 14px; } }
 
-.honors-club .join-condition .section-header {
-  text-align: center;
-  padding: 50px 0 35px; }
-  .honors-club .join-condition .section-header h3 {
-    font-size: 20px;
-    color: #222;
-    font-weight: 400; }
-  .honors-club .join-condition .section-header > p {
-    font-size: 13px;
-    color: #999;
-    line-height: 24px;
-    margin-top: 20px; }
-.honors-club .join-condition .section-content .row > li ~ li .info {
-  margin-top: 20px; }
-.honors-club .join-condition .section-content .row > li:first-child .info {
-  background-image: url(/assets/images/sponser/bg_join_condition01.png);
-  background-repeat: no-repeat;
-  background-size: 96px 150px;
-  background-position: 50% 140px; }
-.honors-club .join-condition .section-content .row > li .info {
-  text-align: center;
-  padding-top: 40px;
-  height: 320px;
-  border: 1px solid #e7e7e7; }
-  .honors-club .join-condition .section-content .row > li .info h4 {
-    width: 125px;
-    height: 35px;
-    font-size: 16px;
-    color: #fff;
-    line-height: 35px;
-    border-radius: 30px;
-    margin: 0 auto;
-    background-color: #e9193a; }
-  .honors-club .join-condition .section-content .row > li .info p {
-    font-size: 15px;
-    color: #222;
-    margin-top: 25px; }
+.honors-club {
+  padding-bottom: 0 !important; }
+  .honors-club .join-condition .section-header {
+    text-align: center;
+    padding: 50px 0 35px; }
+    .honors-club .join-condition .section-header h3 {
+      font-size: 20px;
+      color: #222;
+      font-weight: 300; }
+    .honors-club .join-condition .section-header > p {
+      font-size: 13px;
+      color: #999;
+      line-height: 24px;
+      margin-top: 20px; }
+  .honors-club .join-condition .section-content {
+    padding-bottom: 80px; }
+    .honors-club .join-condition .section-content .row > li ~ li .info {
+      margin-top: 20px; }
+    .honors-club .join-condition .section-content .row > li:first-child .info {
+      background-image: url(/assets/images/sponser/bg_join_condition01.png);
+      background-repeat: no-repeat;
+      background-size: 96px auto;
+      background-position: 50% 140px; }
+    .honors-club .join-condition .section-content .row > li:nth-of-type(2) .info {
+      background-image: url(/assets/images/sponser/bg_join_condition02.png);
+      background-repeat: no-repeat;
+      background-size: 108px auto;
+      background-position: 50% 155px; }
+    .honors-club .join-condition .section-content .row > li .info {
+      text-align: center;
+      padding-top: 40px;
+      height: 320px;
+      border: 1px solid #e7e7e7; }
+      .honors-club .join-condition .section-content .row > li .info h4 {
+        width: 125px;
+        height: 35px;
+        font-size: 16px;
+        color: #fff;
+        line-height: 35px;
+        border-radius: 30px;
+        margin: 0 auto;
+        background-color: #e9193a; }
+      .honors-club .join-condition .section-content .row > li .info p {
+        font-size: 15px;
+        color: #222;
+        margin-top: 25px; }
+  @media (min-width: 768px) {
+    .honors-club .join-condition .section-header {
+      padding: 60px 0 50px; }
+      .honors-club .join-condition .section-header h3 {
+        font-size: 26px; }
+      .honors-club .join-condition .section-header > p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 25px; }
+    .honors-club .join-condition .section-content {
+      padding-bottom: 90px; }
+      .honors-club .join-condition .section-content .row > li ~ li .info {
+        margin-top: 0; }
+      .honors-club .join-condition .section-content .row > li:first-child .info {
+        background-size: 120px auto;
+        background-position: 50% 150px; }
+      .honors-club .join-condition .section-content .row > li:nth-of-type(2) .info {
+        background-size: 160px auto;
+        background-position: 50% 150px; }
+      .honors-club .join-condition .section-content .row > li .info {
+        padding-top: 40px;
+        height: 375px; }
+        .honors-club .join-condition .section-content .row > li .info p {
+          font-size: 17px; } }
+  @media (min-width: 1200px) {
+    .honors-club .join-condition .section-header {
+      padding: 70px 0 60px; }
+    .honors-club .join-condition .section-content {
+      padding-bottom: 105px; }
+      .honors-club .join-condition .section-content .row > li:first-child .info {
+        background-size: 165px auto;
+        background-position: 50% 160px; }
+      .honors-club .join-condition .section-content .row > li:nth-of-type(2) .info {
+        background-size: 180px auto;
+        background-position: 50% 200px; }
+      .honors-club .join-condition .section-content .row > li .info {
+        padding-top: 50px;
+        height: 480px; }
+        .honors-club .join-condition .section-content .row > li .info p {
+          font-size: 18px; } }
+  .honors-club .respect {
+    background-color: #f7f7f7; }
+    .honors-club .respect .section-header {
+      text-align: center;
+      padding: 70px 0 35px; }
+      .honors-club .respect .section-header h3 {
+        font-size: 20px;
+        color: #222;
+        font-weight: 300; }
+      .honors-club .respect .section-header > p {
+        font-size: 13px;
+        color: #999;
+        line-height: 24px;
+        margin-top: 20px; }
+    .honors-club .respect .section-content {
+      padding-bottom: 90px; }
+      .honors-club .respect .section-content > .row li {
+        display: table; }
+        .honors-club .respect .section-content > .row li ~ li {
+          margin-top: 10px; }
+        .honors-club .respect .section-content > .row li figure {
+          display: table-cell;
+          height: 220px;
+          text-align: center;
+          vertical-align: middle;
+          background-color: #fff;
+          box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.03); }
+          .honors-club .respect .section-content > .row li figure figcaption {
+            font-size: 15px;
+            color: #333;
+            line-height: 24px;
+            margin-top: 20px; }
+    @media (min-width: 768px) {
+      .honors-club .respect .section-header {
+        padding: 80px 0 45px; }
+        .honors-club .respect .section-header h3 {
+          font-size: 24px; }
+        .honors-club .respect .section-header > p {
+          font-size: 15px;
+          line-height: 26px; }
+      .honors-club .respect .section-content {
+        padding-bottom: 115px; }
+        .honors-club .respect .section-content > .row li ~ li {
+          margin-top: 0; }
+        .honors-club .respect .section-content > .row li:nth-of-type(3) ~ li {
+          margin-top: 20px; } }
+    @media (min-width: 1200px) {
+      .honors-club .respect .section-header {
+        padding: 90px 0 60px; }
+      .honors-club .respect .section-content {
+        padding-bottom: 160px; }
+        .honors-club .respect .section-content > .row li:nth-of-type(3) ~ li {
+          margin-top: 50px; } }
 
 /*# sourceMappingURL=sponsor.css.map */

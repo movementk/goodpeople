@@ -31,12 +31,13 @@
     
     <!-- Content -->
 	<main id="content" class="honors-club">
-		<div class="container">
-			<section class="join-condition">
+		<section class="join-condition">
+			<div class="container">
 				<div class="section-header">
 					<h3>가입요건</h3>
 					<p>
-						굿피플 아너스클럽은 나눔을 통해 우리 사회에 선한	영향력을 미치는 고액후원자 모임으로서 후원 이상의 가치를 실현하고 기부문화 확산을 선도합니다.
+						굿피플 아너스클럽은 나눔을 통해 우리 사회에 선한	영향력을 미치는 <br class="d-none d-md-block">
+						고액후원자 모임으로서 후원 이상의 가치를 실현하고 기부문화 확산을 선도합니다.
 					</p>
 				</div>
 				<div class="section-content">
@@ -55,8 +56,73 @@
 						</li>
 					</ul>
 				</div>
-			</section>
-		</div>
+			</div>
+		</section>
+		
+		<section class="respect">
+			<div class="container">
+				<div class="section-header">
+					<h3>후원 예우</h3>
+					<p>
+						사랑하는 주변 사람들에게 기분 좋은 후원을 추천하는 고액 후원자들의 모임입니다.<br class="d-none d-md-block"> 
+						행복한 세상에 한걸음 더 다가서게 만드는 아너스클럽, 함께해요!
+					</p>
+				</div>
+				<div class="section-content">
+					<ul class="row">
+						<li class="col-12 col-md-4">
+							<figure>
+								<img src="/assets/images/sponser/img_respect01.jpg" class="img-fluid" alt="">
+								<figcaption>
+									굿피플 아너스클럽 가입식<br>
+									개최 및 감사패 전달
+								</figcaption>
+							</figure>
+						</li>
+						<li class="col-12 col-md-4">
+							<figure>
+								<img src="/assets/images/sponser/img_respect02.jpg" class="img-fluid" alt="">
+								<figcaption>
+									보도자료 배포 및 소식지 게재
+								</figcaption>
+							</figure>
+						</li>
+						<li class="col-12 col-md-4">
+							<figure>
+								<img src="/assets/images/sponser/img_respect03.jpg" class="img-fluid" alt="">
+								<figcaption>
+									각종 굿피플 행사 시 VIP 초대
+								</figcaption>
+							</figure>
+						</li>
+						<li class="col-12 col-md-4">
+							<figure>
+								<img src="/assets/images/sponser/img_respect04.jpg" class="img-fluid" alt="">
+								<figcaption>
+									굿피플 국내 및 해외사업장<br>	방문 기회 부여
+								</figcaption>
+							</figure>
+						</li>
+						<li class="col-12 col-md-4">
+							<figure>
+								<img src="/assets/images/sponser/img_respect05.jpg" class="img-fluid" alt="">
+								<figcaption>
+									이사장 초청 만찬 진행
+								</figcaption>
+							</figure>
+						</li>
+						<li class="col-12 col-md-4">
+							<figure>
+								<img src="/assets/images/sponser/img_respect06.jpg" class="img-fluid" alt="">
+								<figcaption>
+									고액기부자 명판 설치 등
+								</figcaption>
+							</figure>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
     </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>

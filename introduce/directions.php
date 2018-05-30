@@ -31,7 +31,13 @@
 				<li>02-783-2291~3</li>
 				<li>02-783-2294</li>
 				<li>help@goodpeople.or.kr</li>
-			</ul>		
+			</ul>
+			<div class="map">
+				<img src="/assets/images/introduce/img_maps.jpg" class="img-fluid" alt="지도">
+			</div>
+			<div class="public-transit">
+				
+			</div>
 		</div>
     </main>
     
