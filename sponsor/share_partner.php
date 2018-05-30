@@ -72,6 +72,7 @@
     					</dd>
     				</dl>
     			</li>
+<!--
     			<li>
     				<dl>
     					<dt>나눔가게</dt>
@@ -80,6 +81,7 @@
     					</dd>
     				</dl>
     			</li>
+-->
     		</ul>
     		<div class="btn-area">
     			<p>

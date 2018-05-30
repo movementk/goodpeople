@@ -330,12 +330,348 @@
 	}
 }
 
+//아너스클럽멤버
+.honors-member {
+	.members {
+		margin-top: 50px;
+		> ul {
+			> li {
+				& ~ li {
+					a {
+                        margin-top: 60px;
+					}
+				}
+				a {
+					display: block;
+					figure {
+						img {
+							width: 100%;
+						}
+						figcaption {
+							font-size: 13px;
+							color: #666;
+							line-height: 24px;
+							text-align: center;
+							padding: 20px 0;
+							> p {
+								font-size: 14px;
+								color: #333;
+								font-weight: 400;
+								i {
+									margin-right: 5px;
+								}
+							}
+						}
+					}
+                    &:focus {
+                        figure {
+                            figcaption {
+                                color: #fff;
+                                background-color: #eb6100;
+                                @include transition();
+                                p {
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+				}
+			} 	
+		}
+		.paging {
+			margin-top: 50px;	
+		}
+	}
+	@media (min-width: $md) {
+		.members {
+			margin-top: 80px;
+			> ul {
+				> li {
+					& ~ li {
+						a {
+                            margin-top: 0;
+						}
+					}
+					&:nth-of-type(3) ~ li {
+						a {
+                            margin-top: 80px;
+						}
+					}
+					a {
+						&:hover {
+							figure {
+								figcaption {
+									color: #fff;
+									background-color: #eb6100;
+									@include transition();
+									p {
+										color: #fff;
+									}
+								}
+							}
+						}
+						figure {
+							figcaption {
+								font-size: 14px;
+								line-height: 30px;
+								padding: 15px 0;
+								> p {
+									font-size: 16px;
+								}
+							}
+						}
+					}
+				} 	
+			}
+			.paging {
+				margin-top: 60px;	
+			}
+		}
+	}
+	@media (min-width: $xl) {
+		.members {
+			> ul {
+				> li {
+					&:nth-of-type(3) ~ li {
+						a {
+                            margin-top: 0;
+						}
+					}
+                    &:nth-of-type(4) ~ li {
+						a {
+                            margin-top: 70px;
+						}
+					}
+					a {
+						figure {
+							figcaption {
+								padding: 20px 0;
+							}
+						}
+					}
+				} 	
+			} 
+			.paging {
+				margin-top: 80px;	
+			}
+		}
+	}
+}
 
 
+/********** video-modal popup **********/
+.modal-open {
+    padding-right: 0 !important;
+}
+.video-modal {
+    padding-left: 10px !important;
+    padding-bottom: 150px;
+    padding-right: 10px !important;
+    background-color: rgba(0, 0, 0, .6);
+    .modal-dialog {
+        max-width: 635px !important;
+        margin: 50px auto 0;
+        .modal-content {
+            padding: 0 10px;
+            border-radius: 0;
+			border-bottom: 0;
+            .modal-header {
+                overflow: hidden;
+                padding: 20px 0 15px;
+                .modal-title {
+                    font-size: 16px;
+                    color: #333;
+                    font-weight: 400;
+                }
+                .close {
+					overflow: hidden;
+                    float: right;
+                    display: block;
+                    width: 24px;
+                    height: 24px;
+					line-height: 24px;
+                    padding: 0;
+                    margin: 0;
+                    opacity: 1;
+                    span {
+                        position: relative;
+                        top: -3px;
+						text-align: right;
+                    }
+                    &:hover, &:focus {
+                        opacity: .7;
+                    }
+                }
+            }
+            .modal-body {
+				padding: 0 0 70px;
+                border-bottom: 0;
+				.comment {
+					overflow-y: scroll;
+					height: 185px;
+					margin-top: 20px;
+					padding: 15px 10px 30px;
+					background-color: #ededed;
+					> p {
+						font-size: 13px;
+						line-height: 24px;
+						color: #666;
+					}
+				}
+				.latest-news {
+					margin-top: 40px;
+					> h5 {
+						font-size: 16px;
+						color: #333;
+						font-weight: 400;
+						margin-bottom: 15px;
+					}
+					ul {
+						border-top: 1px solid #aaa;
+						border-bottom: 1px solid #aaa;
+						li {
+							position: relative;
+							padding: 20px 15px;
+							border-bottom: 1px solid #dfdfdf;
+							&:last-child {
+								border-bottom: 0;
+							}
+							a {
+								display: block;
+								font-size: 13px;
+								color: #222;
+								line-height: 19px;
+								font-weight: 300;
+								overflow: hidden;
+								text-overflow: ellipsis;
+								white-space: nowrap;
+							}
+							> span {
+								position: absolute;
+								top: 20px;
+								right: 25px;
+								display: block;
+								font-size: 14px;
+								color: #555;
+								@include roboto();
+							}
+						}
+					}
+				}
+            }
+        }
+    }
+	@media (min-width: $md) {
+		.modal-dialog {
+			margin: 100px auto 0;
+			.modal-content {
+				padding: 0 30px;
+				.modal-header {
+					padding: 25px 0 20px;
+					.modal-title {
+						font-size: 18px;
+					}
+					.close {
+						width: 27px;
+						height: 27px;
+						line-height: 27px;
+					}
+				}
+				.modal-body {
+					padding: 0 0 105px;
+					.comment {
+						padding: 20px 25px 20px;
+						> p {
+							font-size: 14px;
+							line-height: 26px;
+						}
+					}
+					.latest-news {
+						margin-top: 45px;
+						ul {
+							li {
+								a {
+									padding-right: 105px;
+									font-size: 14px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $xl) {
+		.modal-dialog {
+			.modal-content {
+				.modal-body {
+					.latest-news {
+						ul {
+							li {
+								a {
+									font-size: 14px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
 
-
-
+//아너스클럽멤버
+.honors-club {
+	.join-condition {
+		.section-header {
+			text-align: center;
+			padding: 50px 0 35px;
+			h3 {
+				font-size: 20px;
+				color: #222;
+				font-weight: 400;
+			}
+			> p {
+				font-size: 13px;
+				color: #999;
+				line-height: 24px;
+				margin-top: 20px;
+			}
+		}
+		.section-content {
+			.row {
+				> li {
+					& ~ li {
+						.info {
+							margin-top: 20px;
+						}
+					}
+					&:first-child {
+						.info {
+							background-image: url(/assets/images/sponser/)
+						}
+					}
+					.info {
+						padding: 35px 0 200px;
+						border: 1px solid #e7e7e7;
+						h4 {
+							width: 125px;
+							height: 35px;
+							font-size: 16px;
+							color: #fff;
+							text-align: center;
+							line-height: 35px;
+							border-radius: 30px;
+							margin: 0 auto;
+							background-color: #e9193a; 
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
 
 
