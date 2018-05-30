@@ -760,7 +760,8 @@ a {
   background-position: 50% 140px; }
 .honors-club .join-condition .section-content .row > li .info {
   text-align: center;
-  padding: 35px 0 200px;
+  padding-top: 40px;
+  height: 320px;
   border: 1px solid #e7e7e7; }
   .honors-club .join-condition .section-content .row > li .info h4 {
     width: 125px;
@@ -774,6 +775,6 @@ a {
   .honors-club .join-condition .section-content .row > li .info p {
     font-size: 15px;
     color: #222;
-    margin-top: 30px; }
+    margin-top: 25px; }
 
 /*# sourceMappingURL=sponsor.css.map */
