@@ -862,9 +862,25 @@ a {
       .goodpeople-news .news a .details h3 {
         font-size: 20px; } }
   @media (min-width: 1200px) {
+    .goodpeople-news .news a .item-img {
+      overflow: hidden; }
+      .goodpeople-news .news a .item-img .img-fluid {
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; }
     .goodpeople-news .news a .details {
       left: 50px;
-      bottom: 50px; } }
+      bottom: 50px; }
+    .goodpeople-news .news a:hover .item-img .img-fluid, .goodpeople-news .news a:focus .item-img .img-fluid {
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -moz-transform: scale(1.1); } }
   @media (min-width: 1400px) {
     .goodpeople-news .news a .details h3 {
       font-size: 22px; } }
@@ -1088,12 +1104,24 @@ a {
     .global-business {
       padding-bottom: 0;
       background-color: #fff; }
-      .global-business .business > a .item-img > p {
-        left: 30px;
-        width: 110px;
-        height: 40px;
-        line-height: 40px;
-        font-size: 14px; }
+      .global-business .business > a .item-img {
+        overflow: hidden; }
+        .global-business .business > a .item-img > p {
+          left: 30px;
+          width: 110px;
+          height: 40px;
+          line-height: 40px;
+          font-size: 14px;
+          z-index: 1; }
+        .global-business .business > a .item-img .img-fluid {
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
       .global-business .business > a .details {
         text-align: left;
         padding: 30px 6%;
@@ -1104,6 +1132,11 @@ a {
           margin-bottom: 15px; }
         .global-business .business > a .details h4 {
           font-size: 22px; }
+      .global-business .business > a:hover .item-img .img-fluid, .global-business .business > a:focus .item-img .img-fluid {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -moz-transform: scale(1.1); }
       .global-business .business.internal > a .details {
         border-right: 0; }
       .global-business .business.overseas > a .details {

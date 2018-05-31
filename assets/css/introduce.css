@@ -893,6 +893,16 @@ a {
   /*.paging {
   	margin-top: 50px;	
   }*/ }
+  .ambassadors .members .article-header {
+    margin-bottom: 30px;
+    text-align: right; }
+    .ambassadors .members .article-header .form-group .form-control {
+      height: 45px;
+      color: #aaa;
+      width: 40%;
+      display: inline-block;
+      border-color: #f3f5fa;
+      background-color: #f3f5fa; }
   .ambassadors .members > ul > li:nth-of-type(2) ~ li a {
     margin-top: 60px; }
   .ambassadors .members > ul > li a {
@@ -930,6 +940,11 @@ a {
     /*.paging {
     	margin-top: 60px;	
     }*/ }
+    .ambassadors .members .article-header {
+      margin-bottom: 40px; }
+      .ambassadors .members .article-header .form-group .form-control {
+        width: 270px;
+        padding-left: 20px; }
     .ambassadors .members > ul > li:nth-of-type(2) ~ li a {
       margin-top: 0; }
     .ambassadors .members > ul > li:nth-of-type(4) ~ li a {

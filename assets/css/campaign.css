@@ -412,4 +412,22 @@ a {
   .campaign-review .article-content .paging {
     margin-top: 80px; } }
 
+.campaign-view .board-view .article-header {
+  text-align: center;
+  padding: 20px; }
+  .campaign-view .board-view .article-header h4 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    font-family: 'Jeju Myeongjo', serif; }
+@media (min-width: 768px) {
+  .campaign-view .board-view .article-header {
+    padding: 30px 20px; }
+    .campaign-view .board-view .article-header h4 {
+      font-size: 33px;
+      line-height: 42px; } }
+@media (min-width: 1200px) {
+  .campaign-view .board-view .article-header {
+    padding: 40px 20px; } }
+
 /*# sourceMappingURL=campaign.css.map */

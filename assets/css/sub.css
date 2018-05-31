@@ -951,17 +951,18 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     .board-list-1 > ul > li a .board-info figure img {
       width: 100%; }
     .board-list-1 > ul > li a .board-info .details {
-      padding-top: 20px; }
+      padding-top: 20px;
+      /*hr {
+          display: block;
+          width: 23px;
+          border-top: 2px solid #ccc;
+          margin: 12px auto 12px 0;
+      }*/ }
       .board-list-1 > ul > li a .board-info .details h4 {
         font-size: 14px;
         color: #333;
         line-height: 25px;
         font-weight: 400; }
-      .board-list-1 > ul > li a .board-info .details hr {
-        display: block;
-        width: 23px;
-        border-top: 2px solid #ccc;
-        margin: 12px auto 12px 0; }
       .board-list-1 > ul > li a .board-info .details p {
         font-size: 13px;
         color: #666;
@@ -975,12 +976,13 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     padding-bottom: 50px; }
     .board-list-1 > ul > li a .board-info .details {
       padding-top: 0;
-      padding-left: 20px; }
+      padding-left: 20px;
+      /*hr {
+          margin: 15px auto 15px 0;
+      }*/ }
       .board-list-1 > ul > li a .board-info .details h4 {
         font-size: 16px;
         line-height: 25px; }
-      .board-list-1 > ul > li a .board-info .details hr {
-        margin: 15px auto 15px 0; }
       .board-list-1 > ul > li a .board-info .details p {
         font-size: 14px;
         line-height: 26px;

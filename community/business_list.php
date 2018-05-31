@@ -48,7 +48,6 @@
 						</div>
 						<div class="details">
 							<p>해외아동결연</p>
-							<hr>
 							<h3>사랑의의료봉사, 고려대학교 교우회 감사패 수상</h3>
 							<ul class="icon-list">
 								<li class="calendar">2018-05-01</li>
@@ -65,7 +64,6 @@
 						</div>
 						<div class="details">
 							<p>해외아동결연</p>
-							<hr>
 							<h3>사랑의의료봉사, 고려대학교 교우회 감사패 수상</h3>
 							<ul class="icon-list">
 								<li class="calendar">2018-05-01</li>
@@ -82,7 +80,6 @@
 						</div>
 						<div class="details">
 							<p>국내아동결연</p>
-							<hr>
 							<h3>사랑의의료봉사, 고려대학교 교우회 감사패 수상</h3>
 							<ul class="icon-list">
 								<li class="calendar">2018-05-01</li>
@@ -99,7 +96,6 @@
 						</div>
 						<div class="details">
 							<p>해외아동결연</p>
-							<hr>
 							<h3>사랑의의료봉사, 고려대학교 교우회 감사패 수상</h3>
 							<ul class="icon-list">
 								<li class="calendar">2018-05-01</li>
@@ -116,7 +112,6 @@
 						</div>
 						<div class="details">
 							<p>해외아동결연</p>
-							<hr>
 							<h3>사랑의의료봉사, 고려대학교 교우회 감사패 수상</h3>
 							<ul class="icon-list">
 								<li class="calendar">2018-05-01</li>
@@ -133,7 +128,6 @@
 						</div>
 						<div class="details">
 							<p>사랑의 의료봉사</p>
-							<hr>
 							<h3>사랑의의료봉사, 고려대학교 교우회 감사패 수상</h3>
 							<ul class="icon-list">
 								<li class="calendar">2018-05-01</li>

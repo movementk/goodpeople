@@ -779,6 +779,20 @@
 .ambassadors {
 	.members {
 		margin-top: 50px;
+        .article-header {
+            margin-bottom: 30px;
+            text-align: right;
+            .form-group {
+                .form-control {
+                    height: 45px;
+                    color: #aaa;
+                    width: 40%;
+                    display: inline-block;
+                    border-color: #f3f5fa;
+                    background-color: #f3f5fa;
+                }
+            }
+        }
 		> ul {
 			> li {
 				&:nth-of-type(2) ~ li {
@@ -830,6 +844,15 @@
 	@media (min-width: $md) {
 		.members {
 			margin-top: 80px;
+            .article-header {
+                margin-bottom: 40px;
+                .form-group {
+                    .form-control {
+                        width: 270px;
+                        padding-left: 20px;
+                    }
+                }
+            }
 			> ul {
 				> li {
                     &:nth-of-type(2) ~ li {
