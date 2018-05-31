@@ -25,8 +25,8 @@
     
     <!-- Content -->
 	<main id="content" class="regular-sponsor">
-		<div class="container">
-			<article class="use">
+		<article class="use">
+			<div class="container">
 				<div class="bg-regular">
 					<strong>정기후원은</strong>
 					<p>
@@ -50,9 +50,11 @@
 						지금 바로 정기 후원자가 되어주세요.
 					</b>
 				</div>
-			</article>
+			</div>	
+		</article>
 			
-			<article class="variety">
+		<article class="variety">
+			<div class="container">
 				<ul>
 					<li>
 						<div class="row">
@@ -63,8 +65,10 @@
 							</div>
 							<div class="col-12 col-md-6">
 								<div class="details">
-									<h4>dfd</h4>
-									<p>dfsdfsdf</p>
+									<div>
+										<h4>해외아동지원</h4>
+										<p>아동들로 하여금 더 나은 삶을 실현할 수 있도록 생활개선, 기초교육, 의료지원, 영양공급 등의 서비스 제공이 이루어지며, 이를 기반으로 신체적, 정서적, 사회적으로 건강한 성인으로 자립할 수 있도록 지원합니다.</p>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -73,20 +77,131 @@
 						<div class="row">
 							<div class="col-12 col-md-6 order-md-last">
 								 <figure>
-								 	<img src="/assets/images/sponser/img_variety_list01.jpg" class="img-fluid" alt="">
+								 	<img src="/assets/images/sponser/img_variety_list02.jpg" class="img-fluid" alt="">
 								 </figure>
 							</div>
 							<div class="col-12 col-md-6 order-md-first">
 								<div class="details">
-									<h4>dfd</h4>
-									<p>dfsdfsdf</p>
+									<div>
+										<h4>국내아동지원</h4>
+										<p>
+										국내 저소득층 아이들에게 공정한 복지와 교육의 기회를 제공해 <br class="d-none d-xl-block">
+										꿈과 희망을 가지도록 지원합니다.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-12 col-md-6">
+								 <figure>
+								 	<img src="/assets/images/sponser/img_variety_list03.jpg" class="img-fluid" alt="">
+								 </figure>
+							</div>
+							<div class="col-12 col-md-6">
+								<div class="details">
+									<div>
+										<h4>아동후원</h4>
+										<p>후원자님과 해외아동이 결연을 맺고 교육, 의료, 생계, 시설 지원 등을 통해 결연아동의<br class="d-none d-xl-block"> 건강한 성장한 돕습니다.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-12 col-md-6 order-md-last">
+								 <figure>
+								 	<img src="/assets/images/sponser/img_variety_list04.jpg" class="img-fluid" alt="">
+								 </figure>
+							</div>
+							<div class="col-12 col-md-6 order-md-first">
+								<div class="details">
+									<div>
+										<h4>긴급구호</h4>
+										<p>천재지변이나 각종 재해 등으로 긴급하게 지원이나 도움이 필요한 <br class="d-none d-xl-block"> 상황이 발생한 경우 신속하게 지원합니다.</p>
+									</div>
 								</div>
 							</div>
 						</div>
 					</li>
 				</ul>
-			</article>
-		</div>
+			</div>
+		</article>
+			
+		<article class="benefit">
+			<div class="container">
+				<h4>정기후원자가 되시면</h4>
+				<ul class="row justify-content-md-center">
+					<li class="col-12 col-md-4">
+						<figure>
+							<img src="/assets/images/sponser/img_benefit_list_md_01.jpg" class="img-fluid d-none d-md-block d-xl-none" alt="정기우편물">
+							<img src="/assets/images/sponser/img_benefit_list01.jpg" class="img-fluid d-md-none d-xl-block" alt="정기우편물">
+						</figure>
+						<div class="summary">
+							<h5>정기우편물</h5>
+							<p>
+								계절에 따라 발행되는 굿피플 소식지와 <br>
+								전년도 연차보고서를 보내드립니다.
+							</p>
+						</div>
+					</li>
+					<li class="col-12 col-md-4">
+						<figure>
+							<img src="/assets/images/sponser/img_benefit_list_md_02.jpg" class="img-fluid d-none d-md-block d-xl-none" alt="기부금영수증">
+							<img src="/assets/images/sponser/img_benefit_list02.jpg" class="img-fluid d-md-none d-xl-block" alt="기부금영수증">
+						</figure>
+						<div class="summary">
+							<h5>기부금영수증</h5>
+							<p>
+								국세청 연말정산간소화 서비스에서 <br>
+								기부금영수증을 발급받을 수 있습니다.
+							</p>
+						</div>
+					</li>
+					<li class="col-12 col-md-4">
+						<figure>
+							<img src="/assets/images/sponser/img_benefit_list_md_03.jpg" class="img-fluid d-none d-md-block d-xl-none" alt="특별축하">
+							<img src="/assets/images/sponser/img_benefit_list03.jpg" class="img-fluid d-md-none d-xl-block" alt="특별축하">
+						</figure>
+						<div class="summary">
+							<h5>특별축하</h5>
+							<p>
+								후원 1주년, 5주년, 10주년 등 후원기간별<br>
+								감사카드 및 기념증서, 감사패를 보내드립니다.
+							</p>
+						</div>
+					</li>
+					<li class="col-12 col-md-4">
+						<figure> 
+							<img src="/assets/images/sponser/img_benefit_list_md_04.jpg" class="img-fluid d-none d-md-block d-xl-none" alt="필드트립">
+							<img src="/assets/images/sponser/img_benefit_list04.jpg" class="img-fluid d-md-none d-xl-block" alt="필드트립">
+						</figure>
+						<div class="summary">
+							<h5>필드트립</h5>
+							<p>
+								굿피플 해외사업장 방문의 기회를 제공합니다.
+							</p>
+						</div>
+					</li>
+					<li class="col-12 col-md-4">
+						<figure>
+							<img src="/assets/images/sponser/img_benefit_list_md_05.jpg" class="img-fluid d-none d-md-block d-xl-none" alt="특별축하">
+							<img src="/assets/images/sponser/img_benefit_list05.jpg" class="img-fluid d-md-none d-xl-block" alt="특별축하">
+						</figure>
+						<div class="summary">
+							<h5>특별 행사 참여</h5>
+							<p>
+								매년 정기적으로 열리는 굿피플데이  행사와 비정기적으로
+								개최되는 후원가족 소모임에 후원자님을 초대합니다.
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</article>
+			
     </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>
