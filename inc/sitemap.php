@@ -24,7 +24,7 @@
                     <ul>
                         <li><a href="#">해외사업</a></li>
                         <li><a href="#">국내사업</a></li>
-                        <li><a href="#">사랑의 의료봉사</a></li>
+                        <li><a href="/business/volunteer_introduce.php">사랑의 의료봉사</a></li>
                         <li><a href="/business/emergency_relief.php">긴급구호</a></li>
                         <li><a href="/business/welfare_work.php">사회복지사업</a></li>
                     </ul>

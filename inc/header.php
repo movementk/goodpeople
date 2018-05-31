@@ -94,8 +94,8 @@
                             <li>
                                 <h3>사랑의의료봉사</h3>
                                 <ul>
-                                    <li><a href="#">소개<span></span></a></li>
-                                    <li><a href="#">스케줄<span></span></a></li>
+                                    <li><a href="/business/volunteer_introduce.php">소개<span></span></a></li>
+                                    <li><a href="/business/volunteer_schedule.php">스케줄<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
