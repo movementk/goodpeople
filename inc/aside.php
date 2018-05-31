@@ -138,10 +138,10 @@
                         <a href="#">후원하기</a>
                         <ul class="depth-2">
                             <li class="quick-link">
-                                <a href="#">정기후원</a>
+                                <a href="/sponsor/regular_sponsor.php">정기후원</a>
                             </li>
                             <li class="quick-link">
-                                <a href="#">일시후원</a>
+                                <a href="/sponsor/temporary_sponsor.php">일시후원</a>
                             </li>
                             <li class="quick-link">
                                 <a href="/sponsor/honors_club.php">아너스클럽</a>
