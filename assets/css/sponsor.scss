@@ -859,6 +859,7 @@
 
 //정기후원
 .regular-sponsor {
+	padding-bottom: 0 !important;
 	.use {
 		.bg-regular {
 			width: 100%;
@@ -883,7 +884,7 @@
 				p {
 					.btn {
 						width: 200px;
-						line-height: 55px;
+						line-height: 50px;
 						font-size: 15px;
 						color: #fff;
 						text-align: center;
@@ -937,6 +938,11 @@
 				} 
 				.btn-area {
 					margin-top: 35px;
+					p {
+						.btn {
+							line-height: 52px;
+						}
+					}
 				}
 			}
 			.info {
@@ -973,12 +979,188 @@
 		}
 	}
 	.variety {
-		margin-top: 30px;
+		margin-top: 30px; 
+		padding-bottom: 80px;
 		ul {
 			li {
+				&:last-child {
+					.row {
+						.col-12 {
+							.details {
+								padding-bottom: 0;
+							}
+						}
+					}
+				}
 				.row {
 					.col-12 {
-						
+						figure {
+							.img-fluid {
+								display: block;
+								width: 100%;
+							}
+						} 
+						.details {
+							padding: 25px 0 50px;
+							> div {
+								h4 {
+									font-size: 20px;
+									color: #eb6100;
+									font-weight: 400;
+								}
+								> p {
+									font-size: 13px;
+									color: #666;
+									line-height: 23px;
+									margin-top: 20px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		@media (min-width:  $md) {
+			margin-top: 45px; 
+			padding-bottom: 115px;
+			ul {
+				li {
+					.row {
+						.col-12 {
+							&.order-md-first {
+								text-align: right;
+								.details {
+									padding-left: 0;
+									padding-right: 20px;
+								}
+							}
+							figure {
+								display: table-cell; 
+								.img-fluid {
+									display: block;
+									width:  100%;
+								}
+							} 
+							.details {
+								display: table;
+								width: 100%;
+								height: 100%;
+								padding: 0;
+								padding-left: 20px;
+								> div {
+									display: table-cell;
+									vertical-align: middle;
+									h4 {
+										font-size: 24px;
+									}
+									> p {
+										font-size: 14px;
+										line-height: 24px;
+										margin-top: 25px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		@media (min-width:  $xl) {
+			margin-top: 65px; 
+			padding-bottom: 110px;
+			ul {
+				li {
+					.row {
+						.col-12 {
+							&.order-md-last {
+								figure {
+									padding-right: 0;
+									padding-left: 25px;
+								}
+							}
+							figure {
+								padding-right: 25px;
+							} 
+						}
+					}
+				}
+			}
+		}
+	}
+	.benefit {
+		text-align: center;
+		padding: 70px 0;
+		background-color: #f7f7f7;
+		h4 {
+			font-size: 20px;
+			color: #222;
+			font-weight: 400;
+			margin-bottom: 60px;
+		}
+		ul {
+			li {
+				figure {
+					img {
+						width: 100%;
+						box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.03); 
+					}
+				}
+				.summary {
+					padding-top: 20px;
+					padding-bottom: 35px;
+					h5 {
+						font-size: 16px;
+						color: #eb6100;
+					}
+					p {
+						font-size: 13px;
+						color: #666;
+						line-height: 24px;
+					}
+				}
+			}
+		}
+		@media (min-width: $md) {
+			padding: 80px 0 110px;
+			h4 {
+				font-size: 24px;
+				margin-bottom: 50px;
+			}
+			ul {
+				li {
+					&:nth-of-type(3) ~ li {
+						figure {
+							padding-top: 50px;
+						}
+					}
+					.summary {
+						padding-top: 30px;
+						padding-bottom: 0;
+						h5 {
+							font-size: 18px;
+						}
+						p {
+							font-size: 14px;
+							margin-top: 15px;
+						}
+					}
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			padding: 110px 0 150px;
+			h4 {
+				margin-bottom: 60px;
+			}
+			ul {
+				li {
+					&:nth-of-type(3) ~ li {
+						figure {
+							padding-top: 70px;
+						}
+					}
+					.summary {
+						padding-top: 25px; 
 					}
 				}
 			}
@@ -986,8 +1168,18 @@
 	}
 }
 
-
-
+//일시후원
+.temporary-sponsor {
+	.method {
+		ul {
+			li {
+				.homepage {
+					background-image: url(/assets/images/sponser/bg)
+				}
+			}
+		}
+	}
+}
 
 
 
