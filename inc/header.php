@@ -78,17 +78,19 @@
                             <li>
                                 <h3>해외사업</h3>
                                 <ul>
-                                    <li><a href="#">menu-1<span></span></a></li>
-                                    <li><a href="#">menu-2<span></span></a></li>
-                                    <li><a href="#">menu-3<span></span></a></li>
+                                    <li><a href="#">아동후원사업<span></span></a></li>
+                                    <li><a href="#">보건의료사업<span></span></a></li>
+                                    <li><a href="#">교육지원사업<span></span></a></li>
+                                    <li><a href="#">지역개발사업<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
                                 <h3>국내사업</h3>
                                 <ul>
-                                    <li><a href="#">menu-1<span></span></a></li>
-                                    <li><a href="#">menu-2<span></span></a></li>
-                                    <li><a href="#">menu-3<span></span></a></li>
+                                    <li><a href="#">국내아동후원<span></span></a></li>
+                                    <li><a href="#">아동지원사업<span></span></a></li>
+                                    <li><a href="#">위기가정지원사업<span></span></a></li>
+                                    <li><a href="#">통합지원사업 문화<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
