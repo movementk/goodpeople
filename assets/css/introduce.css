@@ -1421,11 +1421,28 @@ a {
         .directions .location li a {
           font-size: 15px;
           font-weight: 300; } }
+  @media (min-width: 1200px) {
+    .directions .location {
+      margin: 0 auto;
+      text-align: center;
+      padding-bottom: 40px; }
+      .directions .location li {
+        display: inline-block;
+        width: auto !important;
+        padding-left: 30px;
+        margin-right: 35px; }
+        .directions .location li:nth-of-type(2) ~ li {
+          margin-top: 0; }
+        .directions .location li:last-child {
+          margin-right: 0; } }
 .directions .subway {
-  padding: 60px 0 50px; }
+  padding: 30px 0; }
   .directions .subway h4 {
-    font-size: 18px;
-    padding-left: 30px; }
+    position: relative;
+    font-size: 15px;
+    color: #222;
+    font-weight: 400;
+    padding-left: 25px; }
     .directions .subway h4:before {
       position: absolute;
       top: 0;
@@ -1458,8 +1475,29 @@ a {
           background-color: #bf9f1e; }
         .directions .subway > ul li .line.line-5 {
           background-color: #893bb6; }
+  @media (min-width: 768px) {
+    .directions .subway {
+      padding: 60px 0 50px; }
+      .directions .subway h4 {
+        font-size: 18px;
+        padding-left: 30px; }
+        .directions .subway h4:before {
+          height: 20px;
+          background-size: 15px 20px; }
+      .directions .subway > ul {
+        font-size: 0;
+        margin-top: 30px; }
+        .directions .subway > ul li {
+          display: inline-block;
+          width: 50%;
+          font-size: 15px; }
+          .directions .subway > ul li ~ li {
+            margin-top: 0; } }
+  @media (min-width: 1200px) {
+    .directions .subway > ul {
+      margin-top: 35px; } }
 .directions .bus {
-  padding: 30px 0;
+  padding-top: 30px;
   border-top: 1px solid #ccc; }
   .directions .bus h4 {
     position: relative;
@@ -1540,5 +1578,40 @@ a {
         .directions .bus > ol li dl dd.shuttle {
           color: #8aba62;
           font-family: 'Noto Sans KR', sans-serif; }
+  @media (min-width: 768px) {
+    .directions .bus {
+      padding-top: 45px; }
+      .directions .bus h4 {
+        font-size: 18px;
+        padding-left: 30px; }
+        .directions .bus h4:before {
+          width: 20px;
+          height: 18px;
+          background-size: 20px 18px; }
+      .directions .bus > ol {
+        margin-top: 40px; }
+        .directions .bus > ol li ~ li {
+          margin-top: 50px; }
+        .directions .bus > ol li h5 {
+          display: inline-block;
+          vertical-align: top;
+          font-size: 16px;
+          padding-left: 35px; }
+          .directions .bus > ol li h5 span {
+            width: 22px;
+            height: 22px;
+            line-height: 22px;
+            font-size: 12px; }
+        .directions .bus > ol li dl {
+          display: inline-block;
+          margin-top: 0;
+          padding-left: 55px; }
+          .directions .bus > ol li dl dd {
+            font-size: 15px; } }
+  @media (min-width: 1200px) {
+    .directions .bus {
+      padding-top: 50px; }
+      .directions .bus > ol li ~ li {
+        margin-top: 60px; } }
 
 /*# sourceMappingURL=introduce.css.map */
