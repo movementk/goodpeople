@@ -34,6 +34,16 @@
 	<main id="content" class="ambassadors">
 		<div class="container">
 			<article class="members">
+			    <div class="article-header">
+			        <div class="form-group">
+                        <select class="form-control">
+                            <option>분류1</option>
+                            <option>분류2</option>
+                            <option>분류3</option>
+                            <option>분류4</option>
+                        </select>
+                    </div>
+			    </div>
 				<ul class="row">
 					<li class="col-6 col-md-3 col-xl-2">
 						<a href="#" data-toggle="modal" data-target="#video-popup">

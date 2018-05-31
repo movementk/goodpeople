@@ -113,3 +113,40 @@
         }
     }
 }
+
+// 리뷰 뷰
+.campaign-view {
+    .board-view {
+        .article-header {
+            text-align: center;
+            padding: 20px;
+            h4 {
+                font-size: 20px;
+                line-height: 26px;
+                font-weight: 500;
+                @include jjmj();
+            }
+        }
+    }
+    @media(min-width: $md) {
+        .board-view {
+            .article-header {
+                padding: 30px 20px;
+                h4 {
+                    font-size: 33px;
+                    line-height: 42px;
+                }
+            }
+        }
+    }
+    @media(min-width: $xl) {
+        .board-view {
+            .article-header {
+                padding: 40px 20px;
+            }
+        }
+    }
+}
+
+
+

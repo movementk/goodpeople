@@ -408,15 +408,11 @@ a {
     .business-list .container .row li a .details p {
       font-size: 13px;
       color: #666; }
-    .business-list .container .row li a .details hr {
-      width: 23px;
-      display: block;
-      margin: 12px auto;
-      border-top: 2px solid #dfdfdf; }
     .business-list .container .row li a .details h3 {
       font-size: 14px;
       color: #333;
-      font-weight: 400; }
+      font-weight: 400;
+      margin-top: 15px; }
     .business-list .container .row li a .details .icon-list {
       margin-top: 20px; }
       .business-list .container .row li a .details .icon-list li {
@@ -430,7 +426,8 @@ a {
     .business-list .container .row li a .details p {
       font-size: 14px; }
     .business-list .container .row li a .details h3 {
-      font-size: 16px; }
+      font-size: 16px;
+      margin-top: 20px; }
     .business-list .container .row li a .details hr {
       margin: 15px auto; }
     .business-list .container .row li a .details .icon-list {
