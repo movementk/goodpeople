@@ -684,10 +684,11 @@ a {
 .history article .article-header {
   margin-top: 50px; }
   .history article .article-header p {
-    font-size: 14px;
+    text-align: center;
+    font-size: 18px;
     color: #222;
-    line-height: 23px;
-    text-align: center; }
+    font-weight: 400;
+    line-height: 26px; }
   .history article .article-header ol {
     font-size: 0;
     margin-top: 40px; }
@@ -717,48 +718,54 @@ a {
         line-height: 38px;
         font-family: 'Roboto', sans-serif; }
   @media (min-width: 768px) {
-    .history article .article-header p {
-      font-size: 15px;
-      line-height: 25px; }
-    .history article .article-header ol {
-      display: table; }
-      .history article .article-header ol li {
-        display: table-cell;
-        width: 1%; }
-        .history article .article-header ol li:first-child {
-          border-right: 1px solid #ccc; }
-        .history article .article-header ol li:nth-of-type(2) {
-          border-left: 0; }
-        .history article .article-header ol li:nth-of-type(3) {
-          border-top: 1px solid #ccc;
-          border-right: 1px solid #ccc;
-          border-left: 0; }
-        .history article .article-header ol li:nth-of-type(4) {
-          border-left: 0;
-          border-top: 1px solid #ccc; }
-        .history article .article-header ol li.active:hover, .history article .article-header ol li.active:focus {
-          opacity: 1; }
-        .history article .article-header ol li:hover, .history article .article-header ol li:focus {
-          opacity: .7;
-          border-color: #eb6100;
-          -webkit-transition-property: all;
-          transition-property: all;
-          -webkit-transition-duration: 0.15s;
-          transition-duration: 0.15s;
-          -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-          -webkit-transition-delay: 0s;
-          transition-delay: 0s; }
-          .history article .article-header ol li:hover a, .history article .article-header ol li:focus a {
-            background-color: #eb6100;
-            color: #fff; }
-        .history article .article-header ol li a {
-          font-size: 16px;
-          line-height: 50px; } }
+    .history article .article-header {
+      margin-top: 65px; }
+      .history article .article-header p {
+        font-size: 28px; }
+      .history article .article-header ol {
+        display: table;
+        margin-top: 55px; }
+        .history article .article-header ol li {
+          display: table-cell;
+          width: 1%; }
+          .history article .article-header ol li:first-child {
+            border-right: 1px solid #ccc; }
+          .history article .article-header ol li:nth-of-type(2) {
+            border-left: 0; }
+          .history article .article-header ol li:nth-of-type(3) {
+            border-top: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            border-left: 0; }
+          .history article .article-header ol li:nth-of-type(4) {
+            border-left: 0;
+            border-top: 1px solid #ccc; }
+          .history article .article-header ol li.active:hover, .history article .article-header ol li.active:focus {
+            opacity: 1; }
+          .history article .article-header ol li:hover, .history article .article-header ol li:focus {
+            opacity: .7;
+            border-color: #eb6100;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
+            .history article .article-header ol li:hover a, .history article .article-header ol li:focus a {
+              background-color: #eb6100;
+              color: #fff; }
+          .history article .article-header ol li a {
+            font-size: 16px;
+            line-height: 50px; } }
   @media (min-width: 1200px) {
-    .history article .article-header ol {
-      width: 735px;
-      margin: 40px auto 0; } }
+    .history article .article-header {
+      margin-top: 70px; }
+      .history article .article-header p {
+        font-size: 28px; }
+      .history article .article-header ol {
+        width: 735px;
+        margin: 60px auto 0; } }
 .history article .article-content {
   margin-top: 80px; }
   .history article .article-content .content-header {
