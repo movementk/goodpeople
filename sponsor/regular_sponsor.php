@@ -1,4 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="/assets/css/sub.css">
 <link rel="stylesheet" href="/assets/css/sponsor.css">
 </head>
@@ -27,6 +28,25 @@
 	<main id="content" class="regular-sponsor">
 		<article class="use">
 			<div class="container">
+                <div class="article-header">
+                    <ul class="vertical-board">
+                        <li>
+                            <a href="#">
+                                <b>'홍길동'</b> 후원자님 따스한 사랑을 나눠주셔서 감사드립니다. 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <b>'임꺽정'</b> 후원자님 따스한 사랑을 나눠주셔서 감사드립니다. 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <b>'이순신'</b> 후원자님 따스한 사랑을 나눠주셔서 감사드립니다. 
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 				<div class="bg-regular">
 					<strong>정기후원은</strong>
 					<p>
@@ -201,12 +221,29 @@
 				</ul>
 			</div>
 		</article>
-			
     </main>
-    
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="/assets/js/sub.js"></script>
+    <script>
+        (function($){
+            $(window).ready(function(){
+                $('.vertical-board').slick({
+                    vertical: true,
+                    autoplay: true,
+                    dots: false,
+                    infinite: true,
+                    autoplaySpeed: 6000,
+                    cssEase: 'linear',
+                    pauseOnHover: false,
+                    pauseOnFocus: false,
+                    prevArrow: '<i class="icon-up-open-1"><span class="sr-only">이전글</span></i>',
+                    nextArrow: '<i class="icon-down-open-1"><span class="sr-only">다음</span></i>'
+                });
+            });
+        })(jQuery);
+    </script>
 </body>
 </html>

@@ -876,6 +876,7 @@ body {
         height: 0;
         overflow: hidden;
         opacity: 0;
+        border-bottom: 1px solid #dfdfdf;
         -webkit-transition-property: all;
         transition-property: all;
         -webkit-transition-duration: 0.15s;

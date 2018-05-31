@@ -633,6 +633,7 @@ body {
                 height: 0;
                 overflow: hidden;
                 opacity: 0;
+                border-bottom: 1px solid #dfdfdf;
                 @include transition();
                 .intro {
                     position: relative;

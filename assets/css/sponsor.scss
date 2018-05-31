@@ -861,6 +861,55 @@
 .regular-sponsor {
 	padding-bottom: 0 !important;
 	.use {
+        .article-header {
+            margin-bottom: 20px;
+            .vertical-board {
+                position: relative;
+                height: 50px;
+                padding: 0 20px 0 50px;
+                border: 1px solid #e0e0e0;
+                li {
+                    a {
+                        display: block;
+                        font-size: 13px;
+                        color: #666;
+                        overflow: hidden;
+                        padding: 14px 0 13px;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        b {
+                            font-size: 14px;
+                            color: #333;
+                            font-weight: 400;
+                        }
+                    }
+                }
+                .slick-arrow {
+                    position: absolute;
+                    left: 20px;
+                    font-size: 15px;
+                    color: #666;
+                    width: 20px;
+                    height: 20px;
+                    display: inline-block !important;
+                    border: 0;
+                    cursor: pointer;
+                    background: none;
+                    &:before {
+                        margin: 0;
+                        padding: 0;
+                        left: 20px;
+                        width: 20px;
+                    }
+                    &.icon-up-open-1 {
+                        top: 5px;
+                    }
+                    &.icon-down-open-1 {
+                        top: 25px;
+                    }
+                }
+            }
+        }
 		.bg-regular {
 			width: 100%;
 			padding: 50px 30px;
