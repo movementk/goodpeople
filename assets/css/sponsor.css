@@ -934,13 +934,13 @@ a {
     .regular-sponsor .use .info > p {
       font-size: 13px;
       color: #666;
-      line-height: 27px;
+      line-height: 26px;
       margin-top: 35px; }
     .regular-sponsor .use .info > b {
       display: block;
       font-size: 13px;
       color: #333;
-      line-height: 27px;
+      line-height: 26px;
       margin-top: 30px; }
   @media (min-width: 768px) {
     .regular-sponsor .use .bg-regular {
@@ -950,7 +950,6 @@ a {
         font-size: 30px; }
       .regular-sponsor .use .bg-regular > p {
         font-size: 15px;
-        line-height: 27px;
         margin-top: 25px; }
       .regular-sponsor .use .bg-regular .btn-area {
         margin-top: 35px; }
@@ -995,7 +994,7 @@ a {
       .regular-sponsor .variety ul li .row .col-12 .details > div > p {
         font-size: 13px;
         color: #666;
-        line-height: 23px;
+        line-height: 22px;
         margin-top: 20px; }
     @media (min-width: 768px) {
       .regular-sponsor .variety {
@@ -1016,7 +1015,7 @@ a {
           width: 100%;
           height: 100%;
           padding: 0;
-          padding-left: 20px; }
+          padding-left: 25px; }
           .regular-sponsor .variety ul li .row .col-12 .details > div {
             display: table-cell;
             vertical-align: middle; }
@@ -1096,6 +1095,8 @@ a {
     font-size: 20px;
     color: #eb6101;
     margin-top: 30px; }
+    .temporary-sponsor ul li > div h5 a {
+      color: #eb6101; }
   .temporary-sponsor ul li > div > p {
     font-size: 13px;
     color: #fff;

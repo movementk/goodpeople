@@ -48,7 +48,7 @@
 						<figure>
 							<img src="/assets/images/sponser/img_temporary_tel.png" alt="">
 						</figure>
-						<h5> 060-700-1544(한 통화 1만원)</h5>	
+						<h5><a href="tel:060001544">060-700-1544</a>(한 통화 1만원)</h5>	
 						<p>
 							 ARS 번호로 전화 한 통을 걸어주시면 <br>
 							 전화요금으로 후원금 1만원이 납부됩니다.

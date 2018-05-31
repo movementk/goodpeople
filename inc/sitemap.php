@@ -15,7 +15,7 @@
                         <li><a href="/introduce/greetings.php">소개</a></li>
                         <li><a href="/introduce/ambassadors.php">함께하는 사람들</a></li>
                         <li><a href="/introduce/corporation.php">투명경영</a></li>
-                        <li><a href="#">지부안내</a></li>
+                        <li><a href="/introduce/international_camps.php">지부안내</a></li>
                         <li><a href="/introduce/directions.php">찾아오시는길</a></li>
                     </ul>
                 </li>
@@ -47,9 +47,9 @@
                 <li class="col-2">
                     <h4>후원</h4>
                     <ul>
-                        <li><a href="#">정기후원</a></li>
-                        <li><a href="#">일시후원</a></li>
-                        <li><a href="#">굿피플 아너스클럽</a></li>
+                        <li><a href="/sponsor/regular_sponsor.php">정기후원</a></li>
+                        <li><a href="/sponsor/temporary_sponsor.php">일시후원</a></li>
+                        <li><a href="/sponsor/honors_club.php">굿피플 아너스클럽</a></li>
                         <li><a href="/sponsor/share_partner.php">기업후원</a></li>
                     </ul>
                 </li>
