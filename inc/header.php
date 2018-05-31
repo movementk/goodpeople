@@ -258,8 +258,8 @@
                         후원하기
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton-2">
-                        <a href="#" class="dropdown-item">정기후원</a>
-                        <a href="#" class="dropdown-item">일시후원</a>
+                        <a href="/sponsor/regular_sponsor.php" class="dropdown-item">정기후원</a>
+                        <a href="/sponsor/temporary_sponsor.php" class="dropdown-item">일시후원</a>
                         <a href="/sponsor/honors_club.php" class="dropdown-item">아너스클럽</a>
                         <a href="/sponsor/share_partner.php" class="dropdown-item">기업후원</a>
                     </div>
