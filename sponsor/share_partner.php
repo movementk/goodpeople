@@ -91,7 +91,7 @@
     		</ul>
     		<div class="btn-area">
     			<p>
-    				<a href="#" class="btn btn-default" role="button">나눔파트너, 나눔가게 문의하기</a>
+    				<a href="#" class="btn btn-default" role="button">나눔파트너 문의하기</a>
     			</p>
     		</div>
     		<ul class="ask">
