@@ -940,6 +940,7 @@ a {
       display: block;
       font-size: 13px;
       color: #333;
+      line-height: 27px;
       margin-top: 30px; }
   @media (min-width: 768px) {
     .regular-sponsor .use .bg-regular {
@@ -1082,7 +1083,34 @@ a {
         .regular-sponsor .benefit ul li .summary {
           padding-top: 25px; } }
 
-.temporary-sponsor .method ul li .homepage {
-  background-image: url(/assets/images/sponser/bg); }
+.temporary-sponsor ul li ~ li > div {
+  margin-top: 10px; }
+.temporary-sponsor ul li > div {
+  padding-top: 70px;
+  padding-bottom: 85px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .temporary-sponsor ul li > div h5 {
+    font-size: 20px;
+    color: #eb6101;
+    margin-top: 30px; }
+  .temporary-sponsor ul li > div > p {
+    font-size: 13px;
+    color: #fff;
+    margin-top: 20px; }
+  .temporary-sponsor ul li > div.homepage {
+    background-image: url(/assets/images/sponser/bg_temporary01.gif); }
+  .temporary-sponsor ul li > div.telephone {
+    background-image: url(/assets/images/sponser/bg_temporary02.gif); }
+@media (min-width: 768px) {
+  .temporary-sponsor ul li > div h5 {
+    font-size: 22px; }
+  .temporary-sponsor ul li > div > p {
+    font-size: 14px; } }
+@media (min-width: 1200px) {
+  .temporary-sponsor ul li ~ li > div {
+    margin-top: 0; } }
 
 /*# sourceMappingURL=sponsor.css.map */

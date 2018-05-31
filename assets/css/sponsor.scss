@@ -921,6 +921,7 @@
 				display: block;
 				font-size: 13px;
 				color: #333;
+				line-height: 27px;
 				margin-top: 30px;
 			}
 		}
@@ -1170,11 +1171,60 @@
 
 //일시후원
 .temporary-sponsor {
-	.method {
+	ul {
+		li {
+			& ~ li {
+				> div {
+					margin-top: 10px;
+				}
+			}
+			> div {
+				padding-top: 70px;
+				padding-bottom: 85px;
+				text-align: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				h5 {
+					font-size: 20px;
+					color: #eb6101;
+					margin-top: 30px; 
+				}
+				> p {
+					font-size: 13px;
+					color: #fff;
+					margin-top: 20px;
+				}
+				&.homepage {
+					background-image: url(/assets/images/sponser/bg_temporary01.gif);
+				}
+				&.telephone {
+					background-image: url(/assets/images/sponser/bg_temporary02.gif);
+				}
+			}
+		}
+	}
+	@media (min-width: $md) {
 		ul {
 			li {
-				.homepage {
-					background-image: url(/assets/images/sponser/bg)
+				> div {
+					h5 {
+						font-size: 22px;
+					}
+					> p {
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $xl) {
+		ul {
+			li {
+				& ~ li {
+					> div {
+						margin-top: 0;
+					}
 				}
 			}
 		}
