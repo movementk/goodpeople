@@ -33,7 +33,7 @@
                                 <ul>
                                     <li><a href="/introduce/ambassadors.php">나눔대사<span></span></a></li>
                                     <li><a href="#">조직도<span></span></a></li>
-                                    <li><a href="#">이사회 및 위원회<span></span></a></li>
+                                    <li><a href="/introduce/directorate.php">이사회 및 위원회<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
@@ -185,53 +185,6 @@
                     </div>
                 </div>
             </li>
-            <!--<li>
-                <a href="#">후원</a>
-                <div class="sponsorship">
-                    <div class="intro">
-                        <h2>후원</h2>
-                        <p>
-                            굿피플은 지구촌 희망건설에 앞장서는 <br>
-                            국제구호개발 NGO 입니다.
-                        </p>
-                        <figure>
-                            <img src="/assets/images/main/img_introduce.png" alt="">
-                        </figure>
-                    </div>
-                    <div class="page-map">
-                        <ul class="page-list">
-                            <li>
-                                <h3>정기후원</h3>
-                                <ul>
-                                    <li><a href="#">menu-1<span></span></a></li>
-                                    <li><a href="#">menu-2<span></span></a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>일시후원</h3>
-                                <ul>
-                                    <li><a href="#">menu-1<span></span></a></li>
-                                    <li><a href="#">menu-2<span></span></a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>굿피플 아너스클럽</h3>
-                                <ul>
-                                    <li><a href="#">아너스클럽이란?<span></span></a></li>
-                                    <li><a href="#">아너스클럽멤버<span></span></a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>기업후원</h3>
-                                <ul>
-                                    <li><a href="/sponsor/share_partner.php">나눔파트너<span></span></a></li>
-                                    <li><a href="/sponsor/share_store.php">나눔가게<span></span></a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </li>-->
             <li>
                 <a href="#">나의후원</a>
                 <div class="sponsorship">
@@ -287,7 +240,7 @@
             <ul class="member">
                 <li><a href="/member/login.php">로그인</a></li>
                 <li><a href="#">회원가입</a></li>
-                <li><a href="#">자료실</a></li>
+                <li><a href="/member/annual_report.php">자료실</a></li>
             </ul>
             <div class="language">
                 <div class="dropdown">
@@ -305,7 +258,7 @@
                         후원하기
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton-2">
-                        <a href="#" class="dropdown-item"  target="_blank">정기후원</a>
+                        <a href="#" class="dropdown-item">정기후원</a>
                         <a href="#" class="dropdown-item">일시후원</a>
                         <a href="/sponsor/honors_club.php" class="dropdown-item">아너스클럽</a>
                         <a href="/sponsor/share_partner.php" class="dropdown-item">기업후원</a>

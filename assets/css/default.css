@@ -639,6 +639,8 @@ body {
           content: "\E802"; }
       #nav .nav-wrap .nav-body .gnb-menu > .depth-1 > li > .depth-2 > li.on .depth-3 {
         display: block; }
+      #nav .nav-wrap .nav-body .gnb-menu > .depth-1 > li > .depth-2 > li.quick-link > a:after {
+        content: ""; }
     #nav .nav-wrap .nav-body .gnb-menu > .depth-1 > li.active > a {
       color: #fff;
       background-color: #eb6100; }

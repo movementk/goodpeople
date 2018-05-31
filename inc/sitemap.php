@@ -13,7 +13,7 @@
                     <h4>굿피플</h4>
                     <ul>
                         <li><a href="/introduce/greetings.php">소개</a></li>
-                        <li><a href="/introduce/ambassadors.php">Good-피플</a></li>
+                        <li><a href="/introduce/ambassadors.php">함께하는 사람들</a></li>
                         <li><a href="/introduce/corporation.php">투명경영</a></li>
                         <li><a href="#">지부안내</a></li>
                         <li><a href="/introduce/directions.php">찾아오시는길</a></li>

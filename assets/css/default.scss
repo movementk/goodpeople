@@ -320,6 +320,13 @@ body {
                                         display: block;
                                     }
                                 }
+                                &.quick-link {
+                                    > a {
+                                        &:after {
+                                            content: "";
+                                        }
+                                    }
+                                }
                             }
                         }
                         &.active {

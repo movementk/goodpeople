@@ -1621,4 +1621,138 @@ a {
       .directions .bus > ol li ~ li {
         margin-top: 60px; } }
 
+.committee .sub-tab-list {
+  margin-top: 40px; }
+  .committee .sub-tab-list ul {
+    font-size: 0; }
+    .committee .sub-tab-list ul li {
+      display: inline-block;
+      width: 50%; }
+      .committee .sub-tab-list ul li a {
+        display: block;
+        font-size: 14px;
+        text-align: center;
+        color: #999;
+        line-height: 38px;
+        height: 40px;
+        border: 1px solid #ccc; }
+      .committee .sub-tab-list ul li:last-child a {
+        border-left: 0; }
+      .committee .sub-tab-list ul li.active a {
+        color: #fff;
+        border-color: #eb6100;
+        background-color: #eb6100; }
+  @media (min-width: 768px) {
+    .committee .sub-tab-list {
+      margin-top: 60px;
+      text-align: center; }
+      .committee .sub-tab-list ul {
+        display: inline-block;
+        width: 570px; }
+        .committee .sub-tab-list ul li a {
+          font-size: 16px;
+          line-height: 48px;
+          height: 50px;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+          .committee .sub-tab-list ul li a:hover, .committee .sub-tab-list ul li a:focus {
+            opacity: .8;
+            border: 1px solid #eb6100;
+            background-color: #eb6100;
+            color: #fff; }
+        .committee .sub-tab-list ul li.active a:hover, .committee .sub-tab-list ul li.active a:focus {
+          opacity: 1 !important; } }
+.committee .section-header {
+  text-align: center;
+  padding: 45px 0; }
+  .committee .section-header h4 {
+    font-size: 18px;
+    color: #222;
+    line-height: 26px; }
+  @media (min-width: 768px) {
+    .committee .section-header {
+      padding: 65px 0 55px; }
+      .committee .section-header h4 {
+        font-size: 28px; } }
+  @media (min-width: 1200px) {
+    .committee .section-header {
+      padding: 70px 0 60px; } }
+.committee .section-content > article {
+  text-align: center; }
+  .committee .section-content > article h5 {
+    font-size: 18px;
+    color: #666;
+    font-weight: 400;
+    margin-bottom: 30px; }
+  .committee .section-content > article ~ article {
+    margin-top: 60px; }
+  .committee .section-content > article .table-wrap .table {
+    table-layout: fixed;
+    border: 0;
+    margin-bottom: 0; }
+    .committee .section-content > article .table-wrap .table thead tr th {
+      font-size: 14px;
+      color: #fff;
+      font-weight: 300;
+      text-align: center;
+      border: 0;
+      padding: 10px 5px;
+      vertical-align: middle;
+      border-right: 1px solid #dfdfdf;
+      background-color: #999; }
+      .committee .section-content > article .table-wrap .table thead tr th:last-child {
+        border-right: 0; }
+    .committee .section-content > article .table-wrap .table tbody tr td {
+      padding: 10px 5px;
+      font-size: 13px;
+      color: #666;
+      vertical-align: middle;
+      font-weight: 300;
+      text-align: center;
+      border-color: #dfdfdf; }
+      .committee .section-content > article .table-wrap .table tbody tr td:first-child {
+        border-left: 0; }
+      .committee .section-content > article .table-wrap .table tbody tr td:last-child {
+        border-right: 0; }
+      .committee .section-content > article .table-wrap .table tbody tr td.num {
+        font-family: 'Roboto', sans-serif; }
+    .committee .section-content > article .table-wrap .table tbody tr.audit td {
+      background-color: #e7ecf5; }
+  .committee .section-content > article .table-wrap.even .table thead tr th {
+    display: none; }
+@media (min-width: 768px) {
+  .committee .section-content > article h5 {
+    font-size: 20px;
+    margin-bottom: 40px; }
+  .committee .section-content > article ~ article {
+    margin-top: 90px; }
+  .committee .section-content > article .table-wrap .table {
+    table-layout: fixed;
+    border: 0;
+    margin-bottom: 0; }
+    .committee .section-content > article .table-wrap .table thead tr th {
+      font-size: 15px;
+      padding: 20px 10px; }
+    .committee .section-content > article .table-wrap .table tbody tr td {
+      padding: 20px 10px;
+      font-size: 14px; } }
+@media (min-width: 992px) {
+  .committee .section-content > article .table-wrap .table thead tr th {
+    font-size: 16px; }
+  .committee .section-content > article .table-wrap .table tbody tr td {
+    font-size: 15px; }
+  .committee .section-content > article .table-wrap.even {
+    margin-left: -15px; }
+    .committee .section-content > article .table-wrap.even .table thead tr th {
+      display: table-cell; }
+  .committee .section-content > article .table-wrap.odd {
+    margin-right: -15px;
+    border-right: 1px solid #dfdfdf; } }
+
 /*# sourceMappingURL=introduce.css.map */
