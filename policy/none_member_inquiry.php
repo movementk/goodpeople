@@ -11,14 +11,34 @@
         <div class="page-summary">
             <h2>We bring <span>hope</span> to neighbors<br>in despair around the world</h2>
         </div>
-        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/_lnb.php'); ?>
+        <div class="page-path">
+            <ol class="breadcrumb">
+                <li class="d-none d-md-block home">
+                    <a href="/">
+                        <i class="icon-home"><span class="sr-only">메인이동</span></i>
+                    </a>
+                </li>
+                <li>
+                    <div class="dropdown depth-1">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="depth-list-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            문의하기
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="depth-list-1">
+                            <a class="dropdown-item" href="#">이용약관</a>
+                            <a class="dropdown-item" href="#">개인정보취급방침</a>
+                            <a class="dropdown-item" href="#">문의하기</a>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </div>
     </div>
     
     <!-- page-intro -->
     <div class="page-intro">
         <div class="container">
             <div class="page-title">
-                <h3>문의</h3>
+                <h3>문의하기</h3>
             </div>
         </div>
     </div>
