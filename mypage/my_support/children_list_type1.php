@@ -84,7 +84,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <p>
-                                            <a href="#" class="btn btn-lg btn-white" role="button">편지쓰기</a>
+                                            <a href="/mypage/my_support/letter_write.php" class="btn btn-lg btn-white" role="button">편지쓰기</a>
                                         </p>
                                     </div>
                                 </div>
@@ -147,7 +147,7 @@
                                     </div>
                                     <div class="btn-area">
                                         <p>
-                                            <a href="#" class="btn btn-lg btn-white" role="button">편지쓰기</a>
+                                            <a href="/mypage/my_support/letter_write.php" class="btn btn-lg btn-white" role="button">편지쓰기</a>
                                         </p>
                                     </div>
                                 </div>

@@ -82,7 +82,7 @@
            				<p>
            					<a href="#" class="btn btn-gray" role="button">삭제하기</a>
            					<a href="#" class="btn btn-gray" role="button">수정하기</a>
-           					<a href="#" class="btn btn-black" role="button">목록으로</a>
+           					<a href="/community/business_list.php" class="btn btn-black" role="button">목록으로</a>
            				</p>
 					</div>
            			<div class="test-link-list">

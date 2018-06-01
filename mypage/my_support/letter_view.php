@@ -106,8 +106,8 @@
  			        </div>
  			        <div class="btn-area">
  			            <p>
- 			                <a href="#" class="btn btn-md btn-white" role="button">새편지쓰기</a>
- 			                <a href="#" class="btn btn-md btn-black" role="button">목록으로</a>
+ 			                <a href="/mypage/my_support/letter_write.php" class="btn btn-md btn-white" role="button">새편지쓰기</a>
+ 			                <a href="/mypage/my_support/letter_list.php" class="btn btn-md btn-black" role="button">목록으로</a>
  			            </p>
  			        </div>
  			    </div>

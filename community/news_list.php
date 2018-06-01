@@ -52,7 +52,7 @@
 					<div class="board-list-1">
 						<ul>
 							<li>
-								<a href="#">
+								<a href="/community/news_view.php">
 									<div class="board-info">
 										<div class="row">
 											<div class="col-12 col-md-6 col-xl-5">
@@ -77,7 +77,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="/community/news_view.php">
 									<div class="board-info">
 										<div class="row">
 											<div class="col-12 col-md-6 col-xl-5">
@@ -102,7 +102,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="/community/news_view.php">
 									<div class="board-info">
 										<div class="row">
 											<div class="col-12 col-md-6 col-xl-5">
@@ -127,7 +127,7 @@
 								</a>
 							</li>
 							<li class="d-none d-md-block">
-								<a href="#">
+								<a href="/community/news_view.php">
 									<div class="board-info">
 										<div class="row">
 											<div class="col-12 col-md-6 col-xl-5">
@@ -152,7 +152,7 @@
 								</a>
 							</li>
 							<li class="d-none d-md-block">
-								<a href="#">
+								<a href="/community/news_view.php">
 									<div class="board-info">
 										<div class="row">
 											<div class="col-12 col-md-6 col-xl-5">

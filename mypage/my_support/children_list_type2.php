@@ -29,7 +29,7 @@
  			<article class="list-type2">
  			    <ul class="row">
  			        <li class="col-6 col-md-4 col-xl-3">
- 			            <a href="#">
+ 			            <a href="/mypage/my_support/children_view.php">
  			                <figure>
  			                    <img src="/assets/images/mypage/img_children_list01.jpg" class="img-fluid" alt="">
  			                    <figcaption>
@@ -42,7 +42,7 @@
  			            </a>
  			        </li>
  			        <li class="col-6 col-md-4 col-xl-3">
- 			            <a href="#">
+ 			            <a href="/mypage/my_support/children_view.php">
  			                <figure>
  			                    <img src="/assets/images/mypage/img_children_list_none.jpg" class="img-fluid" alt="">
  			                    <figcaption>
@@ -55,7 +55,7 @@
  			            </a>
  			        </li>
  			        <li class="col-6 col-md-4 col-xl-3">
- 			            <a href="#">
+ 			            <a href="/mypage/my_support/children_view.php">
  			                <figure>
  			                    <img src="/assets/images/mypage/img_children_list02.jpg" class="img-fluid" alt="">
  			                    <figcaption>
@@ -68,7 +68,7 @@
  			            </a>
  			        </li>
  			        <li class="col-6 col-md-4 col-xl-3">
- 			            <a href="#">
+ 			            <a href="/mypage/my_support/children_view.php">
  			                <figure>
  			                    <img src="/assets/images/mypage/img_children_list03.jpg" class="img-fluid" alt="">
  			                    <figcaption>
@@ -81,7 +81,7 @@
  			            </a>
  			        </li>
  			        <li class="col-6 col-md-4 col-xl-3">
- 			            <a href="#">
+ 			            <a href="/mypage/my_support/children_view.php">
  			                <figure>
  			                    <img src="/assets/images/mypage/img_children_list04.jpg" class="img-fluid" alt="">
  			                    <figcaption>
@@ -94,7 +94,7 @@
  			            </a>
  			        </li>
  			        <li class="col-6 col-md-4 col-xl-3">
- 			            <a href="#">
+ 			            <a href="/mypage/my_support/children_view.php">
  			                <figure>
  			                    <img src="/assets/images/mypage/img_children_list05.jpg" class="img-fluid" alt="">
  			                    <figcaption>
@@ -107,7 +107,7 @@
  			            </a>
  			        </li>
  			        <li class="col-xl-3 d-none d-xl-block">
- 			            <a href="#">
+ 			            <a href="/mypage/my_support/children_view.php">
  			                <figure>
  			                    <img src="/assets/images/mypage/img_children_list06.jpg" class="img-fluid" alt="">
  			                    <figcaption>
@@ -120,7 +120,7 @@
  			            </a>
  			        </li>
  			        <li class="col-xl-3 d-none d-xl-block">
- 			            <a href="#">
+ 			            <a href="/mypage/my_support/children_view.php">
  			                <figure>
  			                    <img src="/assets/images/mypage/img_children_list07.jpg" class="img-fluid" alt="">
  			                    <figcaption>
