@@ -231,49 +231,13 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// 소식지
+.news-list {
+    padding-top: 70px;
+    @media(min-width: $md) {
+        padding-top: 100px;
+    }
+    @media(min-width: $xl) {
+        padding-top: 120px;
+    }
+}

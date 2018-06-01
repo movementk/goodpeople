@@ -477,4 +477,13 @@ a {
     .inquiry-list .btn-area p .btn-md {
       width: 170px; } }
 
+.news-list {
+  padding-top: 70px; }
+  @media (min-width: 768px) {
+    .news-list {
+      padding-top: 100px; } }
+  @media (min-width: 1200px) {
+    .news-list {
+      padding-top: 120px; } }
+
 /*# sourceMappingURL=policy.css.map */

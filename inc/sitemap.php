@@ -1,7 +1,7 @@
 <!-- Site-map -->
-<nav id="site-map" class="d-none d-xl-block active">
+<nav id="site-map" class="d-none d-xl-block">
     <div class="btn-area">
-        <button type="button" class="btn btn-map close-map">
+        <button type="button" class="btn btn-map">
             <span class="close-txt">사이트맵 접기</span>
             <span class="open-txt">사이트맵 열기</span>
         </button>

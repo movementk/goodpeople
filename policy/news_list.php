@@ -22,6 +22,13 @@
                 <h3>소식지</h3>
                 <p class="summary">콩닥 콩닥 가슴 뛰는 굿피플의 지구촌 감동 스토리와 함께하세요.</p>
             </div>
+            <nav class="lnb">
+                <ul class="tab-list">
+                    <li class="active"><a href="/policy/news_list.php">소식지</a></li>
+                    <li><a href="/member/annual_report.php">연차보고서</a></li>
+                    <li><a href="#">기관소개서</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
     

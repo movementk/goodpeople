@@ -1190,6 +1190,8 @@ a {
     font-size: 14px; } }
 @media (min-width: 1200px) {
   .temporary-sponsor ul li ~ li > div {
-    margin-top: 0; } }
+    margin-top: 0; }
+    .temporary-sponsor ul li ~ li > div h5 a {
+      cursor: default; } }
 
 /*# sourceMappingURL=sponsor.css.map */
