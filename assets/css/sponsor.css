@@ -896,19 +896,22 @@ a {
       position: relative;
       height: 50px;
       padding: 0 20px 0 50px;
+      vertical-align: top;
       border: 1px solid #e0e0e0; }
-      .regular-sponsor .use .article-header .vertical-board li a {
-        display: block;
-        font-size: 13px;
-        color: #666;
-        overflow: hidden;
-        padding: 14px 0 13px;
-        text-overflow: ellipsis;
-        white-space: nowrap; }
-        .regular-sponsor .use .article-header .vertical-board li a b {
-          font-size: 14px;
-          color: #333;
-          font-weight: 400; }
+      .regular-sponsor .use .article-header .vertical-board li {
+        border: 0; }
+        .regular-sponsor .use .article-header .vertical-board li a {
+          display: block;
+          font-size: 13px;
+          color: #666;
+          overflow: hidden;
+          margin: 14px 0 13px;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+          .regular-sponsor .use .article-header .vertical-board li a b {
+            font-size: 14px;
+            color: #333;
+            font-weight: 400; }
       .regular-sponsor .use .article-header .vertical-board .slick-arrow {
         position: absolute;
         left: 20px;
@@ -927,8 +930,43 @@ a {
           width: 20px; }
         .regular-sponsor .use .article-header .vertical-board .slick-arrow.icon-up-open-1 {
           top: 5px; }
+          .regular-sponsor .use .article-header .vertical-board .slick-arrow.icon-up-open-1:before {
+            position: relative;
+            top: -3px;
+            left: 0; }
         .regular-sponsor .use .article-header .vertical-board .slick-arrow.icon-down-open-1 {
           top: 25px; }
+    @media (min-width: 768px) {
+      .regular-sponsor .use .article-header {
+        margin-bottom: 45px; }
+        .regular-sponsor .use .article-header .vertical-board {
+          height: 60px;
+          padding: 0 190px 0 60px;
+          background-image: url(/assets/images/sponser/bg_vertical_board.jpg);
+          background-repeat: no-repeat;
+          background-position: 99% 100%;
+          background-size: 100px auto; }
+          .regular-sponsor .use .article-header .vertical-board li a {
+            font-size: 15px;
+            margin: 17px 0; }
+            .regular-sponsor .use .article-header .vertical-board li a:before {
+              color: #eb6101;
+              font-family: "fontello";
+              content: "\E816";
+              margin-right: 5px; }
+            .regular-sponsor .use .article-header .vertical-board li a b {
+              font-size: 16px; }
+          .regular-sponsor .use .article-header .vertical-board .slick-arrow.icon-up-open-1 {
+            top: 10px; }
+            .regular-sponsor .use .article-header .vertical-board .slick-arrow.icon-up-open-1:before {
+              top: -5px; }
+          .regular-sponsor .use .article-header .vertical-board .slick-arrow.icon-down-open-1 {
+            top: 30px; } }
+    @media (min-width: 1200px) {
+      .regular-sponsor .use .article-header .vertical-board {
+        padding-right: 200px;
+        background-position: 95% 100%;
+        background-size: 132px auto; } }
   .regular-sponsor .use .bg-regular {
     width: 100%;
     padding: 50px 30px;

@@ -235,7 +235,7 @@
                     autoplay: true,
                     dots: false,
                     infinite: true,
-                    autoplaySpeed: 6000,
+                    autoplaySpeed: 7000,
                     cssEase: 'linear',
                     pauseOnHover: false,
                     pauseOnFocus: false,

@@ -186,6 +186,49 @@
                 </div>
             </li>
             <li>
+                <a href="#">후원하기</a>
+                <div class="sponsorship">
+                    <div class="intro">
+                        <h2>후원하기</h2>
+                        <p>
+                            굿피플은 지구촌 희망건설에 앞장서는 <br>
+                            국제구호개발 NGO 입니다.
+                        </p>
+                        <figure>
+                            <img src="/assets/images/main/img_introduce.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="page-map">
+                        <ul class="page-list">
+                            <li>
+                                <h3>정기후원</h3>
+                                <ul>
+                                    <li><a href="/sponsor/regular_sponsor.php">정기후원<span></span></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>일시후원</h3>
+                                <ul>
+                                    <li><a href="/mypage/my_support/children_list_type1.php">일시후원<span></span></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>아너스클럽</h3>
+                                <ul>
+                                    <li><a href="/sponsor/honors_club.php">아너스클럽<span></span></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>기업후원</h3>
+                                <ul>
+                                    <li><a href="/sponsor/share_partner.php">기업후원<span></span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
                 <a href="#">나의후원</a>
                 <div class="sponsorship">
                     <div class="intro">
