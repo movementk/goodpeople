@@ -46,7 +46,7 @@
                                 <a href="#">함께하는 사람들</a>
                                 <ul class="depth-3">
                                     <li><a href="/introduce/ambassadors.php">나눔대사<span></span></a></li>
-                                    <li><a href="#">조직도<span></span></a></li>
+                                    <li><a href="/introduce/directors.php">조직도<span></span></a></li>
                                     <li><a href="/introduce/directorate.php">이사회 및 위원회<span></span></a></li>
                                 </ul>
                             </li>
