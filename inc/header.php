@@ -70,7 +70,7 @@
                             국제구호개발 NGO 입니다.
                         </p>
                         <figure>
-                            <img src="/assets/images/main/img_introduce.png" alt="">
+                            <img src="/assets/images/main/img_business.png" alt="">
                         </figure>
                     </div>
                     <div class="page-map">
@@ -126,7 +126,7 @@
                             국제구호개발 NGO 입니다.
                         </p>
                         <figure>
-                            <img src="/assets/images/main/img_introduce.png" alt="">
+                            <img src="/assets/images/main/img_campaign.png" alt="">
                         </figure>
                     </div>
                     <div class="page-map">
@@ -157,7 +157,7 @@
                             국제구호개발 NGO 입니다.
                         </p>
                         <figure>
-                            <img src="/assets/images/main/img_introduce.png" alt="">
+                            <img src="/assets/images/main/img_news.png" alt="">
                         </figure>
                     </div>
                     <div class="page-map">
@@ -187,7 +187,7 @@
             </li>
             <li>
                 <a href="#">후원하기</a>
-                <div class="sponsorship">
+                <div class="sponsor">
                     <div class="intro">
                         <h2>후원하기</h2>
                         <p>
@@ -195,7 +195,7 @@
                             국제구호개발 NGO 입니다.
                         </p>
                         <figure>
-                            <img src="/assets/images/main/img_introduce.png" alt="">
+                            <img src="/assets/images/main/img_sponsor.png" alt="">
                         </figure>
                     </div>
                     <div class="page-map">
@@ -238,7 +238,7 @@
                             국제구호개발 NGO 입니다.
                         </p>
                         <figure>
-                            <img src="/assets/images/main/img_introduce.png" alt="">
+                            <img src="/assets/images/main/img_sponsorship.png" alt="">
                         </figure>
                     </div>
                     <div class="page-map">
