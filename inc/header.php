@@ -209,7 +209,7 @@
                             <li>
                                 <h3>일시후원</h3>
                                 <ul>
-                                    <li><a href="/mypage/my_support/children_list_type1.php">일시후원<span></span></a></li>
+                                    <li><a href="/sponsor/temporary_sponsor.php">일시후원<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
