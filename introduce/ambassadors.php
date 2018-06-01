@@ -37,10 +37,9 @@
 			    <div class="article-header">
 			        <div class="form-group">
                         <select class="form-control">
-                            <option>분류1</option>
-                            <option>분류2</option>
-                            <option>분류3</option>
-                            <option>분류4</option>
+                            <option>스타</option>
+                            <option>문화</option>
+                            <option>명예</option>
                         </select>
                     </div>
 			    </div>
