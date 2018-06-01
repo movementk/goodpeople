@@ -41,7 +41,7 @@
 			</div>
 			<ul class="row">
 				<li class="col-12 col-md-6 col-lg-4">
-					<a href="#">
+					<a href="/community/business_view.php">
 						<div class="item-img">
 							<p class="or">해외사업</p>
 							<img src="/assets/images/community/img_business_list01.jpg"  class="img-fluid" alt="">
@@ -57,7 +57,7 @@
 					</a>
 				</li>
 				<li class="col-12 col-md-6 col-lg-4">
-					<a href="#">
+					<a href="/community/business_view.php">
 						<div class="item-img">
 							<p class="or">해외사업</p>
 							<img src="/assets/images/community/img_business_list02.jpg"  class="img-fluid" alt="">
@@ -73,7 +73,7 @@
 					</a>
 				</li>
 				<li class="col-12 col-md-6 col-lg-4">
-					<a href="#">
+					<a href="/community/business_view.php">
 						<div class="item-img">
 							<p class="bl">국내사업</p>
 							<img src="/assets/images/community/img_business_list03.jpg"  class="img-fluid" alt="">
@@ -89,7 +89,7 @@
 					</a>
 				</li>
 				<li class="d-none d-md-block col-md-6 col-lg-4">
-					<a href="#">
+					<a href="/community/business_view.php">
 						<div class="item-img">
 							<p class="or">해외사업</p>
 							<img src="/assets/images/community/img_business_list01.jpg"  class="img-fluid" alt="">
@@ -105,7 +105,7 @@
 					</a>
 				</li>
 				<li class="d-none d-md-block col-md-6 col-lg-4">
-					<a href="#">
+					<a href="/community/business_view.php">
 						<div class="item-img">
 							<p class="or">해외사업</p>
 							<img src="/assets/images/community/img_business_list_none.jpg"  class="img-fluid" alt="">
@@ -121,7 +121,7 @@
 					</a>
 				</li>
 				<li class="d-none d-md-block col-md-6 col-lg-4">
-					<a href="#">
+					<a href="/community/business_view.php">
 						<div class="item-img">
 							<p class="bl">국내사업</p>
 							<img src="/assets/images/community/img_business_list03.jpg"  class="img-fluid" alt="">

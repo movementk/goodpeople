@@ -49,7 +49,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="#">
+                                        <a href="/mypage/inquiry/inquiry_view.php">
                                             사랑의의료봉사, 고려대학교 교우회 감사패 수상 
                                         </a>
                                     </h3>
@@ -71,7 +71,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="#">
+                                        <a href="/mypage/inquiry/inquiry_view.php">
                                             사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사, 사랑의의료봉사
                                         </a>
                                     </h3>
@@ -93,7 +93,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="#">
+                                        <a href="/mypage/inquiry/inquiry_view.php">
                                             사랑의의료봉사, 고려대학교 교우회 감사패 수상 
                                         </a>
                                     </h3>
@@ -115,7 +115,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="#">
+                                        <a href="/mypage/inquiry/inquiry_view.php">
                                             사랑의의료봉사, 고려대학교 교우회 감사패 수상 
                                         </a>
                                     </h3>
@@ -137,7 +137,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="#">
+                                        <a href="/mypage/inquiry/inquiry_view.php">
                                             사랑의의료봉사, 고려대학교 교우회 감사패 수상 
                                         </a>
                                     </h3>
@@ -159,7 +159,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="#">
+                                        <a href="/mypage/inquiry/inquiry_view.php">
                                             사랑의의료봉사, 고려대학교 교우회 감사패 수상 
                                         </a>
                                     </h3>
@@ -181,7 +181,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="#">
+                                        <a href="/mypage/inquiry/inquiry_view.php">
                                             사랑의의료봉사, 고려대학교 교우회 감사패 수상 
                                         </a>
                                     </h3>
@@ -203,7 +203,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="#">
+                                        <a href="/mypage/inquiry/inquiry_view.php">
                                             사랑의의료봉사, 고려대학교 교우회 감사패 수상 
                                         </a>
                                     </h3>
@@ -225,7 +225,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="#">
+                                        <a href="/mypage/inquiry/inquiry_view.php">
                                             사랑의의료봉사, 고려대학교 교우회 감사패 수상 
                                         </a>
                                     </h3>
@@ -247,7 +247,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="#">
+                                        <a href="/mypage/inquiry/inquiry_view.php">
                                             사랑의의료봉사, 고려대학교 교우회 감사패 수상 
                                         </a>
                                     </h3>
@@ -266,7 +266,7 @@
                 </div>
                 <div class="btn-area">
                     <p>
-                        <a href="#" class="btn btn-md btn-black" role="button">문의하기</a>
+                        <a href="/mypage/inquiry/inquiry_write.php" class="btn btn-md btn-black" role="button">문의하기</a>
                     </p>
                 </div>
                 <nav class="paging">

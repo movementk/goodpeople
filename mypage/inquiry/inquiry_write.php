@@ -67,7 +67,7 @@
                         </div>
                         <div class="btn-area">
                             <p>
-                                <a href="#" class="btn btn-md btn-white" role="button">취소하기</a>
+                                <a href="/mypage/inquiry/inquiry_list.php" class="btn btn-md btn-white" role="button">취소하기</a>
                                 <button type="submit" class="btn btn-md btn-black">등록하기</button>
                             </p>
                         </div>

@@ -79,71 +79,71 @@
  			                    <tr>
  			                        <td class="num">123</td>
  			                        <td class="date">2018-05-01</td>
- 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
- 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td class="children-num"><a href="/mypage/my_support/children_view.php">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="/mypage/my_support/children_view.php">커시 카베테</a></td>
  			                        <td><p class="state waiting">발송대기</p></td>
  			                    </tr>
  			                    <tr>
  			                        <td class="num">123</td>
  			                        <td class="date">2018-05-01</td>
- 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
- 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td class="children-num"><a href="/mypage/my_support/children_view.php">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="/mypage/my_support/children_view.php">커시 카베테</a></td>
  			                        <td><p class="state waiting">발송대기</p></td>
  			                    </tr>
  			                    <tr>
  			                        <td class="num">123</td>
  			                        <td class="date">2018-05-01</td>
- 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
- 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td class="children-num"><a href="/mypage/my_support/children_view.php">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="/mypage/my_support/children_view.php">커시 카베테</a></td>
  			                        <td><p class="state success">발송완료</p></td>
  			                    </tr>
  			                    <tr>
  			                        <td class="num">123</td>
  			                        <td class="date">2018-05-01</td>
- 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
- 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td class="children-num"><a href="/mypage/my_support/children_view.php">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="/mypage/my_support/children_view.php">커시 카베테</a></td>
  			                        <td><p class="state success">발송완료</p></td>
  			                    </tr>
  			                    <tr>
  			                        <td class="num">123</td>
  			                        <td class="date">2018-05-01</td>
- 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
- 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td class="children-num"><a href="/mypage/my_support/children_view.php">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="/mypage/my_support/children_view.php">커시 카베테</a></td>
  			                        <td><p class="state success">발송완료</p></td>
  			                    </tr>
  			                    <tr>
  			                        <td class="num">123</td>
  			                        <td class="date">2018-05-01</td>
- 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
- 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td class="children-num"><a href="/mypage/my_support/children_view.php">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="/mypage/my_support/children_view.php">커시 카베테</a></td>
  			                        <td><p class="state success">발송완료</p></td>
  			                    </tr>
  			                    <tr>
  			                        <td class="num">123</td>
  			                        <td class="date">2018-05-01</td>
- 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
- 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td class="children-num"><a href="/mypage/my_support/children_view.php">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="/mypage/my_support/children_view.php">커시 카베테</a></td>
  			                        <td><p class="state success">발송완료</p></td>
  			                    </tr>
  			                    <tr>
  			                        <td class="num">123</td>
  			                        <td class="date">2018-05-01</td>
- 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
- 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td class="children-num"><a href="/mypage/my_support/children_view.php">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="/mypage/my_support/children_view.php">커시 카베테</a></td>
  			                        <td><p class="state success">발송완료</p></td>
  			                    </tr>
  			                    <tr>
  			                        <td class="num">123</td>
  			                        <td class="date">2018-05-01</td>
- 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
- 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td class="children-num"><a href="/mypage/my_support/children_view.php">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="/mypage/my_support/children_view.php">커시 카베테</a></td>
  			                        <td><p class="state waiting">발송대기</p></td>
  			                    </tr>
  			                    <tr>
  			                        <td class="num">123</td>
  			                        <td class="date">2018-05-01</td>
- 			                        <td class="children-num"><a href="#">KN-2010-Nai0030</a></td>
- 			                        <td><a href="#">커시 카베테</a></td>
+ 			                        <td class="children-num"><a href="/mypage/my_support/children_view.php">KN-2010-Nai0030</a></td>
+ 			                        <td><a href="/mypage/my_support/children_view.php">커시 카베테</a></td>
  			                        <td><p class="state success">발송완료</p></td>
  			                    </tr>
  			                </tbody>
@@ -151,7 +151,7 @@
  			        </div>
  			        <div class="btn-area">
  			            <p>
- 			                <a href="#" class="btn btn-md" role="button">편지쓰기</a>
+ 			                <a href="/mypage/my_support/letter_write.php" class="btn btn-md" role="button">편지쓰기</a>
  			            </p>
  			        </div>
  			        <nav class="paging">
