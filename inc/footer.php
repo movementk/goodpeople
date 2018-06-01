@@ -68,34 +68,18 @@
                     <div class="information">
                         <ul class="sns-list">
                             <li>
-                                <a href="https://www.facebook.com/GPInternational" class="facebook" target="_blank" role="button">
-                                    <i class="icon-facebook">
-                                        <span class="sr-only">페이스북 이동</span>
-                                    </i>
+                                <a href="https://together.kakao.com/search?q=%EA%B5%BF%ED%94%BC%ED%94%8C" target="_blank" class="sns-icon-1">
+                                    <span class="sr-only">같이가치</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/goodpeoplei/" class="instagram" target="_blank" role="button">
-                                    <i class="icon-instagram">
-                                        <span class="sr-only">인스타그램 이동</span>
-                                    </i>
+                                <a href="http://ttogether.sktelecom.com/giveu/partner/partnerDetail.do?ADMIN_IDX=62" target="_blank" class="sns-icon-2">
+                                    <span class="sr-only">티투게더</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="naver-blog" target="_blank" role="button">
-                                    <span class="sr-only">네이버 블로그 이동</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.youtube.com/user/2019788" class="youtube" target="_blank" role="button">
-                                    <i class="icon-youtube">
-                                        <span class="sr-only">유투브 이동</span>
-                                    </i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://happylog.naver.com/goodpeople.do" class="naver-happybean" target="_blank" role="button">
-                                    <span class="sr-only">네이버 해피빈 이동</span>
+                                <a href="https://happylog.naver.com/goodpeople.do" target="_blank" class="sns-icon-3">
+                                    <span class="sr-only">네이버 해피빈</span>
                                 </a>
                             </li>
                         </ul>

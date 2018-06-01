@@ -697,17 +697,70 @@ body {
         #nav .nav-wrap .nav-foot .sns-list > li {
           display: inline-block;
           padding-left: 10px;
-          vertical-align: top; }
+          vertical-align: top;
+          /*> a {
+              display: block;
+              width: 46px;
+              height: 46px;
+              line-height: 42px;
+              text-align: center;
+              border: 1px solid #ccc;
+              border-radius: 50%;
+              @include transition();
+              i {
+                  font-style: normal;
+                  font-size: 18px;
+                  color: #bbb;
+                  @include transition();
+              }
+              &.naver-blog {
+                  background-image: url(/assets/images/main/ico_naver_blog.png);
+                  background-repeat: no-repeat;
+                  background-size: 11px 13px;
+                  background-position: 50% 50%;
+              }
+              &.naver-happybean {
+                  background-image: url(/assets/images/main/ico_naver_happybean.png);
+                  background-repeat: no-repeat;
+                  background-size: 16px 17px;
+                  background-position: 50% 50%;
+              }
+              &:hover, &:focus {
+                  border-color: #f3f5fa !important;
+                  &.facebook {
+                      background-color: #3b5999;
+                  }
+                  &.instagram {
+                      background-image: url(/assets/images/main/bg_instragram.png);
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                      background-position: 50% 50%;
+                  }
+                  &.naver-blog {
+                      background-color: #00be39;
+                      background-image: url(/assets/images/main/ico_naver_blog_on.png);
+                  }
+                  &.youtube {
+                      background-color: #ff0000;
+                  }
+                  &.naver-happybean {
+                      background-color: #7aba0b;
+                      background-image: url(/assets/images/main/ico_naver_happybean_on.png);
+                  }
+                  i {
+                      color: #fff;
+                  }
+              }
+          }*/ }
           #nav .nav-wrap .nav-foot .sns-list > li:first-child {
             padding-left: 0; }
           #nav .nav-wrap .nav-foot .sns-list > li > a {
             display: block;
             width: 46px;
             height: 46px;
-            line-height: 42px;
-            text-align: center;
-            border: 1px solid #ccc;
-            border-radius: 50%;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: 46px auto;
             -webkit-transition-property: all;
             transition-property: all;
             -webkit-transition-duration: 0.15s;
@@ -716,47 +769,18 @@ body {
             transition-timing-function: linear;
             -webkit-transition-delay: 0s;
             transition-delay: 0s; }
-            #nav .nav-wrap .nav-foot .sns-list > li > a i {
-              font-style: normal;
-              font-size: 18px;
-              color: #bbb;
-              -webkit-transition-property: all;
-              transition-property: all;
-              -webkit-transition-duration: 0.15s;
-              transition-duration: 0.15s;
-              -webkit-transition-timing-function: linear;
-              transition-timing-function: linear;
-              -webkit-transition-delay: 0s;
-              transition-delay: 0s; }
-            #nav .nav-wrap .nav-foot .sns-list > li > a.naver-blog {
-              background-image: url(/assets/images/main/ico_naver_blog.png);
-              background-repeat: no-repeat;
-              background-size: 11px 13px;
-              background-position: 50% 50%; }
-            #nav .nav-wrap .nav-foot .sns-list > li > a.naver-happybean {
-              background-image: url(/assets/images/main/ico_naver_happybean.png);
-              background-repeat: no-repeat;
-              background-size: 16px 17px;
-              background-position: 50% 50%; }
-            #nav .nav-wrap .nav-foot .sns-list > li > a:hover, #nav .nav-wrap .nav-foot .sns-list > li > a:focus {
-              border-color: #f3f5fa !important; }
-              #nav .nav-wrap .nav-foot .sns-list > li > a:hover.facebook, #nav .nav-wrap .nav-foot .sns-list > li > a:focus.facebook {
-                background-color: #3b5999; }
-              #nav .nav-wrap .nav-foot .sns-list > li > a:hover.instagram, #nav .nav-wrap .nav-foot .sns-list > li > a:focus.instagram {
-                background-image: url(/assets/images/main/bg_instragram.png);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: 50% 50%; }
-              #nav .nav-wrap .nav-foot .sns-list > li > a:hover.naver-blog, #nav .nav-wrap .nav-foot .sns-list > li > a:focus.naver-blog {
-                background-color: #00be39;
-                background-image: url(/assets/images/main/ico_naver_blog_on.png); }
-              #nav .nav-wrap .nav-foot .sns-list > li > a:hover.youtube, #nav .nav-wrap .nav-foot .sns-list > li > a:focus.youtube {
-                background-color: #ff0000; }
-              #nav .nav-wrap .nav-foot .sns-list > li > a:hover.naver-happybean, #nav .nav-wrap .nav-foot .sns-list > li > a:focus.naver-happybean {
-                background-color: #7aba0b;
-                background-image: url(/assets/images/main/ico_naver_happybean_on.png); }
-              #nav .nav-wrap .nav-foot .sns-list > li > a:hover i, #nav .nav-wrap .nav-foot .sns-list > li > a:focus i {
-                color: #fff; }
+            #nav .nav-wrap .nav-foot .sns-list > li > a.sns-icon-1 {
+              background-image: url(/assets/images/main/icon_sns01.png); }
+            #nav .nav-wrap .nav-foot .sns-list > li > a.sns-icon-2 {
+              background-image: url(/assets/images/main/icon_sns02.png); }
+            #nav .nav-wrap .nav-foot .sns-list > li > a.sns-icon-3 {
+              background-image: url(/assets/images/main/icon_sns03.png); }
+            #nav .nav-wrap .nav-foot .sns-list > li > a:hover.sns-icon-1, #nav .nav-wrap .nav-foot .sns-list > li > a:focus.sns-icon-1 {
+              background-image: url(/assets/images/main/icon_sns01_on.png); }
+            #nav .nav-wrap .nav-foot .sns-list > li > a:hover.sns-icon-2, #nav .nav-wrap .nav-foot .sns-list > li > a:focus.sns-icon-2 {
+              background-image: url(/assets/images/main/icon_sns02_on.png); }
+            #nav .nav-wrap .nav-foot .sns-list > li > a:hover.sns-icon-3, #nav .nav-wrap .nav-foot .sns-list > li > a:focus.sns-icon-3 {
+              background-image: url(/assets/images/main/icon_sns03_on.png); }
   @media (min-width: 768px) {
     #nav {
       padding-top: 170px; }
@@ -794,7 +818,8 @@ body {
       #nav .nav-wrap .nav-foot {
         margin-top: 50px; }
         #nav .nav-wrap .nav-foot .sns-list {
-          margin-top: 0; } }
+          margin-top: 0;
+          padding: 3px 0; } }
   @media (min-width: 1200px) {
     #nav {
       display: none; } }
@@ -1335,18 +1360,71 @@ body {
             #footer .social .information .sns-list > li {
               display: inline-block;
               padding-left: 10px;
-              vertical-align: top; }
+              vertical-align: top;
+              /* > a {
+                   display: block;
+                   width: 46px;
+                   height: 46px;
+                   line-height: 42px;
+                   line-height: 50px;
+                   text-align: center;
+                   border: 1px solid #ccc;
+                   border-radius: 50%;
+                   @include transition();
+                   i {
+                       font-style: normal;
+                       font-size: 18px;
+                       color: #bbb;
+                       @include transition();
+                   }
+                   &.naver-blog {
+                       background-image: url(/assets/images/main/ico_naver_blog.png);
+                       background-repeat: no-repeat;
+                       background-size: 11px 13px;
+                       background-position: 50% 50%;
+                   }
+                   &.naver-happybean {
+                       background-image: url(/assets/images/main/ico_naver_happybean.png);
+                       background-repeat: no-repeat;
+                       background-size: 16px 17px;
+                       background-position: 50% 50%;
+                   }
+                   &:hover, &:focus {
+                       border-color: #f3f5fa !important;
+                       &.facebook {
+                           background-color: #3b5999;
+                       }
+                       &.instagram {
+                           background-image: url(/assets/images/main/bg_instragram.png);
+                           background-repeat: no-repeat;
+                           background-size: cover;
+                           background-position: 50% 50%;
+                       }
+                       &.naver-blog {
+                           background-color: #00be39;
+                           background-image: url(/assets/images/main/ico_naver_blog_on.png);
+                       }
+                       &.youtube {
+                           background-color: #ff0000;
+                       }
+                       &.naver-happybean {
+                           background-color: #7aba0b;
+                           background-image: url(/assets/images/main/ico_naver_happybean_on.png);
+                       }
+                       i {
+                           color: #fff;
+                       }
+                   }
+               }*/ }
               #footer .social .information .sns-list > li:first-child {
                 padding-left: 0; }
               #footer .social .information .sns-list > li > a {
                 display: block;
                 width: 46px;
                 height: 46px;
-                /*line-height: 42px;*/
-                line-height: 50px;
-                text-align: center;
-                border: 1px solid #ccc;
-                border-radius: 50%;
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                background-size: 46px auto;
                 -webkit-transition-property: all;
                 transition-property: all;
                 -webkit-transition-duration: 0.15s;
@@ -1355,47 +1433,18 @@ body {
                 transition-timing-function: linear;
                 -webkit-transition-delay: 0s;
                 transition-delay: 0s; }
-                #footer .social .information .sns-list > li > a i {
-                  font-style: normal;
-                  font-size: 18px;
-                  color: #bbb;
-                  -webkit-transition-property: all;
-                  transition-property: all;
-                  -webkit-transition-duration: 0.15s;
-                  transition-duration: 0.15s;
-                  -webkit-transition-timing-function: linear;
-                  transition-timing-function: linear;
-                  -webkit-transition-delay: 0s;
-                  transition-delay: 0s; }
-                #footer .social .information .sns-list > li > a.naver-blog {
-                  background-image: url(/assets/images/main/ico_naver_blog.png);
-                  background-repeat: no-repeat;
-                  background-size: 11px 13px;
-                  background-position: 50% 50%; }
-                #footer .social .information .sns-list > li > a.naver-happybean {
-                  background-image: url(/assets/images/main/ico_naver_happybean.png);
-                  background-repeat: no-repeat;
-                  background-size: 16px 17px;
-                  background-position: 50% 50%; }
-                #footer .social .information .sns-list > li > a:hover, #footer .social .information .sns-list > li > a:focus {
-                  border-color: #f3f5fa !important; }
-                  #footer .social .information .sns-list > li > a:hover.facebook, #footer .social .information .sns-list > li > a:focus.facebook {
-                    background-color: #3b5999; }
-                  #footer .social .information .sns-list > li > a:hover.instagram, #footer .social .information .sns-list > li > a:focus.instagram {
-                    background-image: url(/assets/images/main/bg_instragram.png);
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    background-position: 50% 50%; }
-                  #footer .social .information .sns-list > li > a:hover.naver-blog, #footer .social .information .sns-list > li > a:focus.naver-blog {
-                    background-color: #00be39;
-                    background-image: url(/assets/images/main/ico_naver_blog_on.png); }
-                  #footer .social .information .sns-list > li > a:hover.youtube, #footer .social .information .sns-list > li > a:focus.youtube {
-                    background-color: #ff0000; }
-                  #footer .social .information .sns-list > li > a:hover.naver-happybean, #footer .social .information .sns-list > li > a:focus.naver-happybean {
-                    background-color: #7aba0b;
-                    background-image: url(/assets/images/main/ico_naver_happybean_on.png); }
-                  #footer .social .information .sns-list > li > a:hover i, #footer .social .information .sns-list > li > a:focus i {
-                    color: #fff; }
+                #footer .social .information .sns-list > li > a.sns-icon-1 {
+                  background-image: url(/assets/images/main/icon_sns01.png); }
+                #footer .social .information .sns-list > li > a.sns-icon-2 {
+                  background-image: url(/assets/images/main/icon_sns02.png); }
+                #footer .social .information .sns-list > li > a.sns-icon-3 {
+                  background-image: url(/assets/images/main/icon_sns03.png); }
+                #footer .social .information .sns-list > li > a:hover.sns-icon-1, #footer .social .information .sns-list > li > a:focus.sns-icon-1 {
+                  background-image: url(/assets/images/main/icon_sns01_on.png); }
+                #footer .social .information .sns-list > li > a:hover.sns-icon-2, #footer .social .information .sns-list > li > a:focus.sns-icon-2 {
+                  background-image: url(/assets/images/main/icon_sns02_on.png); }
+                #footer .social .information .sns-list > li > a:hover.sns-icon-3, #footer .social .information .sns-list > li > a:focus.sns-icon-3 {
+                  background-image: url(/assets/images/main/icon_sns03_on.png); }
           #footer .social .information .family-site {
             display: inline-block;
             width: 300px;

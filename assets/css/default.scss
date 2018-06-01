@@ -414,6 +414,35 @@ body {
                         display: block;
                         width: 46px;
                         height: 46px;
+                        background-repeat: no-repeat;
+                        background-position: 50% 50%;
+                        background-size: 46px auto;
+                        @include transition();
+                        &.sns-icon-1 {
+                            background-image: url(/assets/images/main/icon_sns01.png);
+                        }
+                        &.sns-icon-2 {
+                            background-image: url(/assets/images/main/icon_sns02.png);
+                        }
+                        &.sns-icon-3 {
+                            background-image: url(/assets/images/main/icon_sns03.png);
+                        }
+                        &:hover, &:focus {
+                            &.sns-icon-1 {
+                                background-image: url(/assets/images/main/icon_sns01_on.png);
+                            }
+                            &.sns-icon-2 {
+                                background-image: url(/assets/images/main/icon_sns02_on.png);
+                            }
+                            &.sns-icon-3 {
+                                background-image: url(/assets/images/main/icon_sns03_on.png);
+                            }
+                        }
+                    }
+                    /*> a {
+                        display: block;
+                        width: 46px;
+                        height: 46px;
                         line-height: 42px;
                         text-align: center;
                         border: 1px solid #ccc;
@@ -463,7 +492,7 @@ body {
                                 color: #fff;
                             }
                         }
-                    }
+                    }*/
                 }
             }
         }
@@ -534,6 +563,7 @@ body {
                 margin-top: 50px;
                 .sns-list {
                     margin-top: 0;
+                    padding: 3px 0;
                 }
             }
         }
@@ -1223,7 +1253,36 @@ body {
                             display: block;
                             width: 46px;
                             height: 46px;
-                            /*line-height: 42px;*/
+                            background-repeat: no-repeat;
+                            background-position: 50% 50%;
+                            background-size: 46px auto;
+                            @include transition();
+                            &.sns-icon-1 {
+                                background-image: url(/assets/images/main/icon_sns01.png);
+                            }
+                            &.sns-icon-2 {
+                                background-image: url(/assets/images/main/icon_sns02.png);
+                            }
+                            &.sns-icon-3 {
+                                background-image: url(/assets/images/main/icon_sns03.png);
+                            }
+                            &:hover, &:focus {
+                                &.sns-icon-1 {
+                                    background-image: url(/assets/images/main/icon_sns01_on.png);
+                                }
+                                &.sns-icon-2 {
+                                    background-image: url(/assets/images/main/icon_sns02_on.png);
+                                }
+                                &.sns-icon-3 {
+                                    background-image: url(/assets/images/main/icon_sns03_on.png);
+                                }
+                            }
+                        }
+                       /* > a {
+                            display: block;
+                            width: 46px;
+                            height: 46px;
+                            line-height: 42px;
                             line-height: 50px;
                             text-align: center;
                             border: 1px solid #ccc;
@@ -1273,7 +1332,7 @@ body {
                                     color: #fff;
                                 }
                             }
-                        }
+                        }*/
                     }
                 }
                 .family-site {

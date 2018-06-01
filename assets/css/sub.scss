@@ -1135,6 +1135,10 @@ input, textarea {
 				> p {
 					text-align: center;
 					margin-top: 30px;
+                    font-size: 13px;
+                    color: #555;
+                    padding-left: 10px;
+                    line-height: 24px;
 				}
 				& ~ .item {
 					margin-top: 55px;
@@ -1161,6 +1165,52 @@ input, textarea {
 					margin-top: 15px;
 				}
 			}
+            .spon-btn {
+                text-align: center;
+                margin-top: 30px;
+                p {
+                    .btn {
+                        display: inline-block;
+                        font-size: 13px;
+                        font-weight: 300;
+                        width: 120px;
+                        height: 45px;
+                        text-align: center;
+                        line-height: 41px;
+                        margin-right: 10px;
+                        @include transition();
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                        &.btn-orange {
+                            color: #eb6100;
+                            border: 2px solid #eb6100;
+                        }
+                        &.btn-blue {
+                            color: #144199;
+                            border: 2px solid #144199;
+                        }
+                        &:hover, &:focus {
+                            color: #fff;
+                            &.btn-orange {
+                                background-color: #eb6100;
+                            }
+                            &.btn-blue {
+                                background-color: #144199;
+                            }
+                        }
+                    }
+                }
+                @media(min-width: $md) {
+                    margin-top: 60px;
+                    p {
+                        .btn {
+                            font-size: 14px;
+                            width: 170px;
+                        }
+                    }
+                }
+            }
 		}
 		.attach {
 			position: relative;
@@ -1295,7 +1345,6 @@ input, textarea {
 					> p {
 						font-size: 14px;
 						line-height: 26px;
-						text-align: center;
 						margin-top: 40px;
 						padding: 0 10px;
 					}

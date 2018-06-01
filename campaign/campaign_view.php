@@ -62,6 +62,12 @@
 								공로를 인정하고 감사패를 수여했습니다.
            					</p>
            				</div>
+                        <div class="spon-btn">
+                            <p>
+                                <a href="#" class="btn btn-orange" role="button">정기후원</a>
+                                <a href="#" class="btn btn-blue" role="button">일시후원</a>
+                            </p>
+                        </div>
            			</div>
            			<ul class="attach">
 						<li>
@@ -76,8 +82,8 @@
 					</ul>
            			<div class="btn-area">
            				<p>
-           					<a href="#" class="btn btn-gray" role="button">삭제하기</a>
-           					<a href="#" class="btn btn-gray" role="button">수정하기</a>
+           					<!--<a href="#" class="btn btn-gray" role="button">삭제하기</a>
+           					<a href="#" class="btn btn-gray" role="button">수정하기</a>-->
            					<a href="#" class="btn btn-black" role="button">목록으로</a>
            				</p>
 					</div>
