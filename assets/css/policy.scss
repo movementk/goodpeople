@@ -204,6 +204,32 @@
     }
 }
 
+// 비회원 문의 리스트
+.inquiry-list {
+    .search-form {
+        margin-bottom: 25px;
+    }
+    .btn-area {
+        margin-top: 30px;
+        text-align: right;
+    }
+    .paging {
+        margin-top: 30px;
+    }
+    @media(min-width: $md) {
+        .search-form {
+            margin-bottom: 40px;
+        }
+        .btn-area {
+            margin-top: 30px;
+            p {
+                .btn-md {
+                    width: 170px;
+                }
+            }
+        }
+    }
+}
 
 
 

@@ -105,7 +105,7 @@
                         <li class="d-none d-md-block"><a href="/introduce/directions.php">위치 및 연락처</a></li>
                         <li><a href="/policy/terms.php">이용약관</a></li>
                         <li><a href="/policy/privacy.php">개인정보취급방침</a></li>
-                        <li><a href="/policy/inquiry_write.php">문의하기</a></li>
+                        <li><a href="/policy/none_member_inquiry.php">문의하기</a></li>
                     </ul>
                     <p class="copyright">
                         (C) 2018 GOODPEOPLE. ALL RIGHT RESERVED.
