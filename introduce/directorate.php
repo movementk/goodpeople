@@ -23,7 +23,7 @@
             <nav class="lnb">
                 <ul class="tab-list">
                     <li><a href="/introduce/ambassadors.php">나눔대사</a></li>
-                    <li><a href="#">조직도</a></li>
+                    <li><a href="/introduce/directors.php">조직도</a></li>
                     <li class="active"><a href="/introduce/directorate.php">이사회 및 위원회</a></li>
                 </ul>
             </nav>

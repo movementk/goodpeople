@@ -1770,4 +1770,81 @@ a {
     margin-right: -15px;
     border-right: 1px solid #dfdfdf; } }
 
+.directors {
+  padding-bottom: 125px !important; }
+  .directors .group .section-header {
+    text-align: center;
+    padding-top: 40px; }
+    .directors .group .section-header > h4 {
+      font-size: 22px;
+      color: #222;
+      font-weight: 400; }
+    .directors .group .section-header .sub-tab-list {
+      margin-top: 45px; }
+      .directors .group .section-header .sub-tab-list ul {
+        font-size: 0; }
+        .directors .group .section-header .sub-tab-list ul li {
+          display: inline-block;
+          width: 50%; }
+          .directors .group .section-header .sub-tab-list ul li a {
+            display: block;
+            font-size: 14px;
+            text-align: center;
+            color: #999;
+            line-height: 38px;
+            height: 40px;
+            border: 1px solid #ccc; }
+          .directors .group .section-header .sub-tab-list ul li:last-child a {
+            border-left: 0; }
+          .directors .group .section-header .sub-tab-list ul li.active a {
+            color: #fff;
+            border-color: #eb6100;
+            background-color: #eb6100; }
+    @media (min-width: 768px) {
+      .directors .group .section-header {
+        padding-top: 70px; }
+        .directors .group .section-header > h4 {
+          font-size: 30px; }
+        .directors .group .section-header .sub-tab-list {
+          margin-top: 40px;
+          text-align: center; }
+          .directors .group .section-header .sub-tab-list ul {
+            display: inline-block;
+            width: 570px; }
+            .directors .group .section-header .sub-tab-list ul li a {
+              font-size: 16px;
+              line-height: 48px;
+              height: 50px;
+              -webkit-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.15s;
+              transition-duration: 0.15s;
+              -webkit-transition-timing-function: linear;
+              transition-timing-function: linear;
+              -webkit-transition-delay: 0s;
+              transition-delay: 0s; }
+              .directors .group .section-header .sub-tab-list ul li a:hover, .directors .group .section-header .sub-tab-list ul li a:focus {
+                opacity: .8;
+                border: 1px solid #eb6100;
+                background-color: #eb6100;
+                color: #fff; }
+            .directors .group .section-header .sub-tab-list ul li.active a:hover, .directors .group .section-header .sub-tab-list ul li.active a:focus {
+              opacity: 1 !important; } }
+    @media (min-width: 1200px) {
+      .directors .group .section-header {
+        padding-top: 75px; }
+        .directors .group .section-header .sub-tab-list {
+          margin-top: 50px; } }
+  .directors .group .section-content {
+    margin-top: 55px; }
+    .directors .group .section-content figure img {
+      display: block;
+      margin: 0 auto; }
+    @media (min-width: 768px) {
+      .directors .group .section-content {
+        margin-top: 60px; } }
+    @media (min-width: 1200px) {
+      .directors .group .section-content {
+        margin-top: 70px; } }
+
 /*# sourceMappingURL=introduce.css.map */
