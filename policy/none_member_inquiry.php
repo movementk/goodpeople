@@ -69,7 +69,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="/mypage/inquiry/inquiry_view.php">
+                                        <a href="#">
                                             문의드립니다
                                         </a>
                                     </h3>
@@ -91,7 +91,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="/mypage/inquiry/inquiry_view.php">
+                                        <a href="#">
                                             문의드립니다
                                         </a>
                                     </h3>
@@ -113,7 +113,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="/mypage/inquiry/inquiry_view.php">
+                                        <a href="#">
                                             문의드립니다
                                         </a>
                                     </h3>
@@ -135,7 +135,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="/mypage/inquiry/inquiry_view.php">
+                                        <a href="#">
                                             문의드립니다
                                         </a>
                                     </h3>
@@ -157,7 +157,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="/mypage/inquiry/inquiry_view.php">
+                                        <a href="#">
                                             문의드립니다
                                         </a>
                                     </h3>
@@ -179,7 +179,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="/mypage/inquiry/inquiry_view.php">
+                                        <a href="#">
                                             문의드립니다
                                         </a>
                                     </h3>
@@ -201,7 +201,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="/mypage/inquiry/inquiry_view.php">
+                                        <a href="#">
                                             문의드립니다
                                         </a>
                                     </h3>
@@ -223,7 +223,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="/mypage/inquiry/inquiry_view.php">
+                                        <a href="#">
                                             문의드립니다
                                         </a>
                                     </h3>
@@ -245,7 +245,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="/mypage/inquiry/inquiry_view.php">
+                                        <a href="#">
                                             문의드립니다
                                         </a>
                                     </h3>
@@ -267,7 +267,7 @@
                                 </div>
                                 <div class="col-12 col-xl-8">
                                     <h3>
-                                        <a href="/mypage/inquiry/inquiry_view.php">
+                                        <a href="#">
                                             문의드립니다
                                         </a>
                                     </h3>
