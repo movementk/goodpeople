@@ -64,8 +64,8 @@
            				</div>
                         <div class="spon-btn">
                             <p>
-                                <a href="#" class="btn btn-orange" role="button">정기후원</a>
-                                <a href="#" class="btn btn-blue" role="button">일시후원</a>
+                                <a href="#" class="btn btn-orange" role="button">정기 후원하기</a>
+                                <a href="#" class="btn btn-blue" role="button">일시 후원하기</a>
                             </p>
                         </div>
            			</div>

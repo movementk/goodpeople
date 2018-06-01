@@ -22,14 +22,12 @@
                 <li>
                     <div class="dropdown depth-1">
                         <button class="btn btn-secondary dropdown-toggle" type="button" id="depth-list-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            굿피플소개
+                            문의하기
                         </button>
                         <div class="dropdown-menu" aria-labelledby="depth-list-1">
-                            <a class="dropdown-item" href="#">사업소개</a>
-                            <a class="dropdown-item" href="#">캠페인</a>
-                            <a class="dropdown-item" href="#">소식</a>
-                            <a class="dropdown-item" href="#">후원</a>
-                            <a class="dropdown-item" href="#">나의 후원</a>
+                            <a class="dropdown-item" href="#">이용약관</a>
+                            <a class="dropdown-item" href="#">개인정보취급방침</a>
+                            <a class="dropdown-item" href="#">문의하기</a>
                         </div>
                     </div>
                 </li>

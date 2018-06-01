@@ -1182,8 +1182,8 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       margin-top: 30px; }
       .board-view .article-content .view-content .spon-btn p .btn {
         display: inline-block;
-        font-size: 13px;
-        font-weight: 300;
+        font-size: 15px;
+        font-weight: 400;
         width: 120px;
         height: 45px;
         text-align: center;
@@ -1213,10 +1213,12 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
             background-color: #144199; }
       @media (min-width: 768px) {
         .board-view .article-content .view-content .spon-btn {
-          margin-top: 60px; }
+          margin-top: 80px; }
           .board-view .article-content .view-content .spon-btn p .btn {
-            font-size: 14px;
-            width: 170px; } }
+            font-size: 16px;
+            width: 190px;
+            line-height: 51px;
+            height: 55px; } }
   .board-view .article-content .attach {
     position: relative;
     border-top: 1px solid #dfdfdf;
