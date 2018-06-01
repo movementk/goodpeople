@@ -948,7 +948,8 @@ a {
           background-size: 100px auto; }
           .regular-sponsor .use .article-header .vertical-board li a {
             font-size: 15px;
-            margin: 17px 0; }
+            margin: 17px 0;
+            padding-left: 2px; }
             .regular-sponsor .use .article-header .vertical-board li a:before {
               color: #eb6101;
               font-family: "fontello";
