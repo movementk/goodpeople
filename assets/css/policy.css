@@ -486,4 +486,76 @@ a {
     .news-list {
       padding-top: 120px; } }
 
+.pw-confirm .pw-form {
+  text-align: center;
+  padding: 40px 10px;
+  border: 1px solid #ccc; }
+  .pw-confirm .pw-form .form figure .img-fluid {
+    width: 55px; }
+  .pw-confirm .pw-form .form figure figcaption {
+    margin-bottom: 30px; }
+    .pw-confirm .pw-form .form figure figcaption h4 {
+      font-size: 20px;
+      color: #111;
+      font-weight: 300;
+      margin: 20px 0; }
+    .pw-confirm .pw-form .form figure figcaption p {
+      font-size: 13px;
+      color: #666;
+      line-height: 22px; }
+  .pw-confirm .pw-form .form .form-group .form-control {
+    border: 1px solid #f3f5fa;
+    background-color: #f3f5fa; }
+  .pw-confirm .pw-form .form .btn-area {
+    margin-top: 10px; }
+    .pw-confirm .pw-form .form .btn-area p .btn-orange {
+      display: inline-block;
+      width: 100%;
+      font-size: 14px;
+      color: #fff;
+      line-height: 40px;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+      background-color: #eb6100; }
+      .pw-confirm .pw-form .form .btn-area p .btn-orange:hover, .pw-confirm .pw-form .form .btn-area p .btn-orange:focus {
+        opacity: .7; }
+@media (min-width: 768px) {
+  .pw-confirm .pw-form {
+    padding: 85px 0; }
+    .pw-confirm .pw-form .form {
+      overflow: hidden;
+      width: 430px;
+      margin: 0 auto; }
+      .pw-confirm .pw-form .form figure {
+        margin-bottom: 50px; }
+        .pw-confirm .pw-form .form figure .img-fluid {
+          width: 71px; }
+        .pw-confirm .pw-form .form figure figcaption h4 {
+          font-size: 27px;
+          margin: 30px 0 25px; }
+        .pw-confirm .pw-form .form figure figcaption p {
+          line-height: 24px; }
+      .pw-confirm .pw-form .form .form-group {
+        float: left;
+        width: 280px;
+        margin-right: 10px; }
+        .pw-confirm .pw-form .form .form-group .form-control {
+          height: 50px; }
+      .pw-confirm .pw-form .form .btn-area {
+        margin: 0;
+        float: left;
+        width: 140px; }
+        .pw-confirm .pw-form .form .btn-area p .btn-orange {
+          font-size: 16px;
+          line-height: 50px; } }
+@media (min-width: 1200px) {
+  .pw-confirm .pw-form {
+    padding: 100px 0; } }
+
 /*# sourceMappingURL=policy.css.map */

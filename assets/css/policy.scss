@@ -241,3 +241,137 @@
         padding-top: 120px;
     }
 }
+
+// 비밀번호 확인
+.pw-confirm {
+    .pw-form {
+        text-align: center;
+        padding: 40px 10px;
+        border: 1px solid #ccc;
+        .form {
+            figure {
+                .img-fluid {
+                    width: 55px;
+                }
+                figcaption {
+                    margin-bottom: 30px;
+                    h4 {
+                        font-size: 20px;
+                        color: #111;
+                        font-weight: 300;
+                        margin: 20px 0;
+                    }
+                    p {
+                        font-size: 13px;
+                        color: #666;
+                        line-height: 22px;
+                    }
+                }
+            }
+            .form-group {
+                .form-control {
+                    border: 1px solid #f3f5fa;
+                    background-color: #f3f5fa;
+                }
+            }
+            .btn-area {
+                margin-top: 10px;
+                p {
+                    .btn-orange {
+                        display: inline-block;
+                        width: 100%;
+                        font-size: 14px;
+                        color: #fff;
+                        line-height: 40px;
+                        @include transition();
+                        background-color: #eb6100;
+                        &:hover, &:focus {
+                            opacity: .7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $md) {
+        .pw-form {
+            padding: 85px 0;
+            .form {
+                overflow: hidden;
+                width: 430px;
+                margin: 0 auto;
+                figure {
+                    margin-bottom: 50px;
+                    .img-fluid {
+                        width: 71px;
+                    }
+                    figcaption {
+                        h4 {
+                            font-size: 27px;
+                            margin: 30px 0 25px;
+                        }
+                        p {
+                            line-height: 24px;
+                        }
+                    }
+                }
+                .form-group {
+                    float: left;
+                    width: 280px;
+                    margin-right: 10px;
+                    .form-control {
+                        height: 50px;
+                    }
+                }
+                .btn-area {
+                    margin: 0;
+                    float: left;
+                    width: 140px;
+                    p {
+                        .btn-orange {
+                            font-size: 16px;
+                            line-height: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $xl) {
+        .pw-form {
+            padding: 100px 0;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
