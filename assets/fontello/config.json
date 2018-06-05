@@ -203,6 +203,12 @@
       "css": "heart",
       "code": 59414,
       "src": "elusive"
+    },
+    {
+      "uid": "289b5f92f23acf1059c93fbf401c1ad5",
+      "css": "down-open-big",
+      "code": 59415,
+      "src": "entypo"
     }
   ]
 }
