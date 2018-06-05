@@ -186,10 +186,10 @@
                 </div>
             </li>
             <li>
-                <a href="#">후원하기</a>
+                <a href="#">후원</a>
                 <div class="sponsor">
                     <div class="intro">
-                        <h2>후원하기</h2>
+                        <h2>후원</h2>
                         <p>
                             굿피플은 지구촌 희망건설에 앞장서는 <br>
                             국제구호개발 NGO 입니다.
