@@ -542,24 +542,151 @@ a {
   .partner-list .tab-sponser .paging {
     margin-top: 75px; } }
 
-.share-store .board-list-1 {
-  margin-top: 40px; }
-  .share-store .board-list-1 ul li {
-    padding-bottom: 70px; }
-.share-store .paging {
-  margin-top: 30px; }
-@media (min-width: 768px) {
-  .share-store .board-list-1 {
-    margin-top: 45px; }
-    .share-store .board-list-1 ul li {
+.share-store .collection-step {
+  padding-top: 50px;
+  padding-bottom: 80px; }
+  .share-store .collection-step .section-header {
+    text-align: center; }
+    .share-store .collection-step .section-header h4 {
+      font-size: 28px;
+      color: #222;
+      font-weight: 400; }
+    .share-store .collection-step .section-header p {
+      font-size: 13px;
+      color: #444;
+      line-height: 24px;
+      margin-top: 25px; }
+  .share-store .collection-step .section-content {
+    margin-top: 40px; }
+    .share-store .collection-step .section-content ol li {
+      position: relative;
+      display: table;
+      width: 100%;
       padding-bottom: 50px; }
-  .share-store .paging {
-    margin-top: 50px; } }
-@media (min-width: 1200px) {
-  .share-store .board-list-1 {
-    margin-top: 110px; }
-    .share-store .board-list-1 ul li {
-      padding-bottom: 40px; } }
+      .share-store .collection-step .section-content ol li:last-child {
+        padding-bottom: 0; }
+        .share-store .collection-step .section-content ol li:last-child:after {
+          display: none; }
+      .share-store .collection-step .section-content ol li:after {
+        content: "\F107";
+        font-family: "fontello";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -10px;
+        display: block;
+        font-size: 30px;
+        color: #666;
+        font-weight: 300; }
+      .share-store .collection-step .section-content ol li .box {
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        border: 1px solid #b3b3b3; }
+        .share-store .collection-step .section-content ol li .box .details {
+          margin-top: 15px; }
+          .share-store .collection-step .section-content ol li .box .details small {
+            font-size: 13px;
+            color: #333;
+            font-weight: 500;
+            font-family: 'Roboto', sans-serif; }
+          .share-store .collection-step .section-content ol li .box .details > p {
+            font-size: 15px;
+            color: #666;
+            line-height: 22px;
+            margin-top: 8px; }
+  @media (min-width: 768px) {
+    .share-store .collection-step {
+      padding-top: 45px;
+      padding-bottom: 95px; }
+      .share-store .collection-step .section-header h4 {
+        font-size: 30px; }
+      .share-store .collection-step .section-header p {
+        font-size: 14px;
+        line-height: 26px; }
+      .share-store .collection-step .section-content {
+        margin-top: 60px; }
+        .share-store .collection-step .section-content ol {
+          font-size: 0;
+          margin: 0 -10px; }
+          .share-store .collection-step .section-content ol li {
+            display: inline-block;
+            width: 25%;
+            padding: 0 10px;
+            padding-bottom: 0;
+            vertical-align: top; }
+            .share-store .collection-step .section-content ol li:after {
+              left: 100%;
+              bottom: 50%;
+              font-size: 18px;
+              margin-bottom: -14px;
+              margin-left: -4px;
+              content: "\F105"; }
+            .share-store .collection-step .section-content ol li .box {
+              display: block;
+              height: 195px;
+              padding: 0 10px; }
+              .share-store .collection-step .section-content ol li .box figure {
+                height: 56px;
+                margin-top: 40px; }
+                .share-store .collection-step .section-content ol li .box figure img {
+                  display: block;
+                  margin: 0 auto; } }
+  @media (min-width: 1200px) {
+    .share-store .collection-step {
+      padding-top: 60px;
+      padding-bottom: 140px; }
+      .share-store .collection-step .section-content {
+        margin-top: 70px; }
+        .share-store .collection-step .section-content ol {
+          margin: 0 -60px; }
+          .share-store .collection-step .section-content ol li {
+            padding: 0 60px; }
+            .share-store .collection-step .section-content ol li:after {
+              font-size: 30px;
+              margin-left: -6px; }
+            .share-store .collection-step .section-content ol li .box {
+              height: 200px; } }
+.share-store .information {
+  text-align: center;
+  padding: 70px 0;
+  background-color: #f7f7f7; }
+  .share-store .information .section-header h4 {
+    font-size: 28px;
+    color: #333;
+    font-weight: 400; }
+  .share-store .information .section-content ul {
+    width: 100%;
+    display: table;
+    margin-top: 50px; }
+    .share-store .information .section-content ul li {
+      display: table-cell;
+      width: 100%;
+      height: 360px;
+      text-align: center;
+      vertical-align: middle;
+      background-color: #fff;
+      padding: 0 15px;
+      box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.1); }
+      .share-store .information .section-content ul li .items {
+        margin-bottom: 30px; }
+      .share-store .information .section-content ul li .summary dl {
+        font-size: 0; }
+        .share-store .information .section-content ul li .summary dl dt {
+          display: inline-block;
+          font-size: 15px;
+          color: #333;
+          font-weight: 400; }
+          .share-store .information .section-content ul li .summary dl dt:after {
+            content: " : ";
+            margin-right: 2px; }
+        .share-store .information .section-content ul li .summary dl dd {
+          display: inline-block;
+          font-size: 15px;
+          color: #333;
+          font-weight: 400; }
 
 .honors-member .members {
   margin-top: 50px; }
