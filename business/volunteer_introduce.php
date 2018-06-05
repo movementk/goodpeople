@@ -1,5 +1,4 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="/assets/css/sub.css">
 <link rel="stylesheet" href="/assets/css/business.css">
 </head>
@@ -34,11 +33,12 @@
     <main id="content" class="volunteer-introduce">
         <article class="volunteer-info">
             <div class="container">
+                <h4>사랑의의료봉사로 사랑을 실천합니다</h4>
                 <p class="summary">
                     주 1~2회씩 이동진료차량으로 의료사각지대에 거주하는 주민들, 독거노인, 다문화가정, 결식아동, 노약자,<br class="d-none d-md-block d-xl-none"> 외국인근로자, 장애인 등<br class="d-none d-xl-block">
                     가난하고 소외된 이웃에게 직접 찾아가 방문진료, 건강검진 등<br class="d-none d-md-block d-xl-none"> 전문화된 의료혜택을 제공하고 있습니다.
                 </p>
-                <ul>
+                <ul class="circle-summary">
                     <li class="treatment-count">
                         <div class="details">
                             <figure>
@@ -62,39 +62,42 @@
                         </div>
                     </li>
                 </ul>
+                <div class="latest-news">
+                    <h5>최근 활동소식</h5>
+                    <ul>
+                        <li><a href="#">&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서</a></li>
+                        <li><a href="#">&lt;보고서&gt; 해외교육지원사업 보고서</a></li>
+                    </ul>
+                </div>
             </div>
         </article>
-        <ul class="volunteer-slider">
-            <li>
-                <figure>
-                    <img src="/assets/images/business/volunteer_slider_sm.jpg" class="img-fluid d-xl-none" alt="">
-                    <img src="/assets/images/business/volunteer_slider_lg.jpg" class="img-fluid d-none d-xl-block" alt="">
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="/assets/images/business/volunteer_slider_sm.jpg" class="img-fluid d-xl-none" alt="">
-                    <img src="/assets/images/business/volunteer_slider_lg.jpg" class="img-fluid d-none d-xl-block" alt="">
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="/assets/images/business/volunteer_slider_sm.jpg" class="img-fluid d-xl-none" alt="">
-                    <img src="/assets/images/business/volunteer_slider_lg.jpg" class="img-fluid d-none d-xl-block" alt="">
-                </figure>
-            </li>
-        </ul>
+        
         <article class="medical-association">
             <div class="container">
                 <h4>굿피플 의사회</h4>
                 <p class="summary">
                     굿피플 의사회는 국내외 소외계층에 전문 의료진을 통한 양질의 의료서비스를 제공하기 위해 창단 되었습니다. 보건의료 인프라를 상시에 구축하여 긴급구호 발생시, 신속하게 '재난의료팀'을 파견해 구호활동을 전개합니다.
                 </p>
-                <div class="btn-area">
-                    <p>
-                        <a href="#" class="btn btn-blue" role="button">최근활동소식</a>
-                    </p>
-                </div>
+                <ul class="row">
+                    <li class="col-12 col-md-4">
+                        <figure>
+                            <img src="/assets/images/business/img_association01.jpg" class="img-fluid" alt="">
+                            <figcaption>검진을 위해 기다리는 주민들</figcaption>
+                        </figure>
+                    </li>
+                    <li class="col-12 col-md-4">
+                        <figure>
+                            <img src="/assets/images/business/img_association02.jpg" class="img-fluid" alt="">
+                            <figcaption>혈압측정하는 모습</figcaption>
+                        </figure>
+                    </li>
+                    <li class="col-12 col-md-4">
+                        <figure>
+                            <img src="/assets/images/business/img_association03.jpg" class="img-fluid" alt="">
+                            <figcaption>심장검사를 받는 주민</figcaption>
+                        </figure>
+                    </li>
+                </ul>
             </div>
         </article>
     </main>
@@ -102,19 +105,6 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="/assets/js/sub.js"></script>
-    <script>
-        (function($){
-            $(window).ready(function(){
-                $('.volunteer-slider').slick({
-                    autoplay: true,
-                    dots: true,
-                    infinite: true,
-                    autoplaySpeed: 6000
-                });
-            });
-        })(jQuery);
-    </script>
 </body>
 </html>

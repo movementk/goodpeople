@@ -522,19 +522,26 @@ a {
       width: 250px; } }
 
 .volunteer-introduce {
+  padding-bottom: 0 !important;
   margin-top: 50px; }
   .volunteer-introduce .volunteer-info {
     text-align: center;
-    padding-bottom: 60px; }
+    padding-bottom: 100px; }
+    .volunteer-introduce .volunteer-info h4 {
+      font-size: 24px;
+      color: #eb6100;
+      line-height: 32px;
+      font-weight: 300;
+      margin-bottom: 35px; }
     .volunteer-introduce .volunteer-info .summary {
       font-size: 15px;
       color: #555;
       font-weight: 300;
       line-height: 28px;
       margin-bottom: 40px; }
-    .volunteer-introduce .volunteer-info ul {
+    .volunteer-introduce .volunteer-info .circle-summary {
       font-size: 0; }
-      .volunteer-introduce .volunteer-info ul > li {
+      .volunteer-introduce .volunteer-info .circle-summary > li {
         display: block;
         width: 230px;
         height: 230px;
@@ -543,51 +550,67 @@ a {
         margin: 0 auto;
         color: #fff;
         padding-top: 40px; }
-        .volunteer-introduce .volunteer-info ul > li figure .img-fluid {
+        .volunteer-introduce .volunteer-info .circle-summary > li figure .img-fluid {
           display: block;
           margin: 0 auto; }
-        .volunteer-introduce .volunteer-info ul > li figure figcaption {
+        .volunteer-introduce .volunteer-info .circle-summary > li figure figcaption {
           color: #fff;
           text-align: center; }
-          .volunteer-introduce .volunteer-info ul > li figure figcaption small {
+          .volunteer-introduce .volunteer-info .circle-summary > li figure figcaption small {
             display: block;
             font-weight: 300;
             margin-top: 20px;
             font-size: 18px; }
-          .volunteer-introduce .volunteer-info ul > li figure figcaption strong {
+          .volunteer-introduce .volunteer-info .circle-summary > li figure figcaption strong {
             display: block;
             font-size: 36px;
             font-weight: 400; }
-        .volunteer-introduce .volunteer-info ul > li.treatment-count {
-          background-color: rgba(255, 84, 66, 0.8); }
-        .volunteer-introduce .volunteer-info ul > li.year-count {
+        .volunteer-introduce .volunteer-info .circle-summary > li.treatment-count {
+          background-color: rgba(235, 97, 0, 0.8); }
+        .volunteer-introduce .volunteer-info .circle-summary > li.year-count {
           position: relative;
           top: -20px;
           background-color: rgba(20, 65, 153, 0.8); }
-  .volunteer-introduce > .volunteer-slider li figure .img-fluid {
-    width: 100%; }
-  .volunteer-introduce > .volunteer-slider .slick-arrow {
-    display: none !important; }
-  .volunteer-introduce > .volunteer-slider .slick-dots {
-    text-align: center;
-    margin-top: 15px; }
-    .volunteer-introduce > .volunteer-slider .slick-dots > li {
-      display: inline-block;
-      margin: 0 5px; }
-      .volunteer-introduce > .volunteer-slider .slick-dots > li button {
-        display: block;
-        width: 10px;
-        height: 10px;
-        text-indent: -999999px;
-        border: 0;
-        padding: 0;
-        cursor: pointer;
-        border-radius: 50%;
-        background-color: #cdcdcd; }
-      .volunteer-introduce > .volunteer-slider .slick-dots > li.slick-active button {
-        background-color: #ff5442; }
+    .volunteer-introduce .volunteer-info .latest-news {
+      text-align: left;
+      margin-top: 80px; }
+      .volunteer-introduce .volunteer-info .latest-news h5 {
+        font-size: 18px;
+        color: #222;
+        font-weight: 400;
+        margin-bottom: 20px; }
+      .volunteer-introduce .volunteer-info .latest-news > ul {
+        border-top: 2px solid #eb6101;
+        border-bottom: 1px solid #dfdfdf; }
+        .volunteer-introduce .volunteer-info .latest-news > ul > li:last-child {
+          border-top: 1px solid #dfdfdf; }
+        .volunteer-introduce .volunteer-info .latest-news > ul > li > a {
+          position: relative;
+          font-size: 13px;
+          color: #333;
+          display: block;
+          padding: 17px 25px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+          .volunteer-introduce .volunteer-info .latest-news > ul > li > a:before {
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            margin-top: -10px;
+            font-family: "fontello";
+            content: "\E812"; }
+          .volunteer-introduce .volunteer-info .latest-news > ul > li > a:after {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            margin-top: -10px;
+            font-family: "fontello";
+            content: "\E80B"; }
   .volunteer-introduce .medical-association {
-    margin-top: 50px; }
+    text-align: center;
+    padding: 90px 0;
+    background-color: #f7f7f7; }
     .volunteer-introduce .medical-association h4 {
       font-size: 26px;
       color: #555;
@@ -596,98 +619,154 @@ a {
     .volunteer-introduce .medical-association .summary {
       font-size: 14px;
       color: #555;
-      line-height: 26px; }
-    .volunteer-introduce .medical-association .btn-area {
-      margin-top: 50px; }
-      .volunteer-introduce .medical-association .btn-area > p .btn-blue {
-        display: block;
-        margin: 0 auto;
-        font-size: 16px;
-        text-align: center;
-        line-height: 48px;
+      line-height: 26px;
+      margin-bottom: 55px; }
+    .volunteer-introduce .medical-association ul > li ~ li figure {
+      margin-top: 30px; }
+    .volunteer-introduce .medical-association ul > li figure {
+      text-align: center; }
+      .volunteer-introduce .medical-association ul > li figure .img-fluid {
         width: 100%;
-        color: #fff;
-        background-color: #144199; }
+        margin: 0 auto;
+        display: block; }
+      .volunteer-introduce .medical-association ul > li figure figcaption {
+        font-size: 13px;
+        color: #333;
+        font-weight: 300;
+        margin-top: 15px; }
   @media (min-width: 768px) {
     .volunteer-introduce {
-      margin-top: 60px; }
-      .volunteer-introduce .volunteer-info {
-        padding-bottom: 90px; }
-        .volunteer-introduce .volunteer-info .summary {
-          line-height: 30px;
-          margin-bottom: 60px; }
-        .volunteer-introduce .volunteer-info ul > li {
-          display: inline-block; }
-          .volunteer-introduce .volunteer-info ul > li figure .img-fluid {
-            display: inline-block;
-            line-height: 52px; }
-          .volunteer-introduce .volunteer-info ul > li.treatment-count {
-            position: relative;
-            right: -15px; }
-          .volunteer-introduce .volunteer-info ul > li.year-count {
-            position: relative;
-            top: 0;
-            left: -15px; }
+      margin-top: 100px; }
+      .volunteer-introduce .volunteer-info h4 {
+        font-size: 30px; }
+      .volunteer-introduce .volunteer-info .summary {
+        line-height: 30px;
+        margin-bottom: 60px; }
+      .volunteer-introduce .volunteer-info .circle-summary > li {
+        display: inline-block; }
+        .volunteer-introduce .volunteer-info .circle-summary > li figure .img-fluid {
+          display: inline-block;
+          line-height: 52px; }
+        .volunteer-introduce .volunteer-info .circle-summary > li.treatment-count {
+          position: relative;
+          right: -15px; }
+        .volunteer-introduce .volunteer-info .circle-summary > li.year-count {
+          position: relative;
+          top: 0;
+          left: -15px; }
+      .volunteer-introduce .volunteer-info .latest-news {
+        margin-top: 100px; }
+        .volunteer-introduce .volunteer-info .latest-news h5 {
+          font-size: 18px; }
+        .volunteer-introduce .volunteer-info .latest-news > ul > li > a {
+          font-size: 14px;
+          padding: 18px 35px; }
+          .volunteer-introduce .volunteer-info .latest-news > ul > li > a:before {
+            left: 20px; }
+          .volunteer-introduce .volunteer-info .latest-news > ul > li > a:after {
+            right: 20px; }
       .volunteer-introduce .medical-association {
-        margin-top: 70px; }
+        padding: 80px 0; }
         .volunteer-introduce .medical-association h4 {
           margin-bottom: 30px; }
         .volunteer-introduce .medical-association .summary {
-          line-height: 30px; }
-        .volunteer-introduce .medical-association .btn-area {
-          text-align: center;
-          margin-top: 60px; }
-          .volunteer-introduce .medical-association .btn-area > p .btn-blue {
-            width: 215px;
-            font-size: 18px;
-            line-height: 52px;
-            display: inline-block; } }
+          line-height: 30px;
+          margin-bottom: 60px; }
+        .volunteer-introduce .medical-association ul > li ~ li figure {
+          margin-top: 0; } }
   @media (min-width: 1200px) {
-    .volunteer-introduce {
-      margin-top: 70px; }
-      .volunteer-introduce .volunteer-info {
-        padding-bottom: 100px; }
-      .volunteer-introduce .medical-association {
-        margin-top: 45px; } }
+    .volunteer-introduce .medical-association {
+      padding: 100px 0; }
+      .volunteer-introduce .medical-association ul > li figure figcaption {
+        font-size: 14px; } }
 
 .volunteer-schedule {
-  margin-top: 50px; }
-  .volunteer-schedule .schedule-list .board-list-1 > ul > li > a .date {
-    display: block; }
-  .volunteer-schedule .schedule-list .board-list-1 > ul > li > a .info-list {
-    font-size: 0;
-    margin-top: 30px; }
-    .volunteer-schedule .schedule-list .board-list-1 > ul > li > a .info-list > li {
-      display: inline-block;
-      font-size: 12px;
-      color: #aaa;
-      line-height: 30px;
-      margin-right: 30px; }
-      .volunteer-schedule .schedule-list .board-list-1 > ul > li > a .info-list > li:last-child {
-        margin-right: 0; }
-      .volunteer-schedule .schedule-list .board-list-1 > ul > li > a .info-list > li dl dt {
-        margin-right: 10px;
-        display: inline-block;
-        font-weight: 300; }
-      .volunteer-schedule .schedule-list .board-list-1 > ul > li > a .info-list > li dl dd {
-        display: inline-block;
-        font-weight: 300; }
-        .volunteer-schedule .schedule-list .board-list-1 > ul > li > a .info-list > li dl dd.roboto {
-          font-weight: 400;
+  margin-top: 45px; }
+  .volunteer-schedule .schedule-list > .schedule-date {
+    padding: 30px 20px;
+    border: 1px solid #e2e2e2;
+    background-color: #f9fafc; }
+    .volunteer-schedule .schedule-list > .schedule-date ~ .schedule-date {
+      margin-top: 10px; }
+    .volunteer-schedule .schedule-list > .schedule-date h4 {
+      font-size: 16px;
+      color: #144199;
+      font-weight: 400; }
+      .volunteer-schedule .schedule-list > .schedule-date h4 span {
+        color: #eb6100; }
+        .volunteer-schedule .schedule-list > .schedule-date h4 span i {
+          font-style: normal;
           font-family: 'Roboto', sans-serif; }
-  .volunteer-schedule .schedule-list .paging {
-    margin-top: 35px; }
+      .volunteer-schedule .schedule-list > .schedule-date h4 small {
+        font-size: 12px;
+        color: #666; }
+    .volunteer-schedule .schedule-list > .schedule-date hr {
+      display: block;
+      width: 100%;
+      border-top: 1px solid #dfdfdf;
+      margin: 20px 0; }
+    .volunteer-schedule .schedule-list > .schedule-date > ul > li {
+      line-height: 26px; }
+      .volunteer-schedule .schedule-list > .schedule-date > ul > li dl {
+        overflow: hidden;
+        font-size: 13px; }
+        .volunteer-schedule .schedule-list > .schedule-date > ul > li dl dt {
+          position: relative;
+          width: 90px;
+          padding-left: 15px;
+          float: left;
+          color: #333;
+          font-weight: 400; }
+          .volunteer-schedule .schedule-list > .schedule-date > ul > li dl dt:before {
+            position: absolute;
+            top: 0;
+            left: 3px;
+            font-family: "fontello";
+            content: "\E812";
+            color: #eb6100; }
+        .volunteer-schedule .schedule-list > .schedule-date > ul > li dl dd {
+          padding-left: 90px;
+          display: block;
+          font-weight: 400;
+          color: #666; }
+  .volunteer-schedule .schedule-list .attention {
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px; }
+    .volunteer-schedule .schedule-list .attention:before {
+      content: "※ "; }
   @media (min-width: 768px) {
     .volunteer-schedule {
-      margin-top: 60px; }
-      .volunteer-schedule .schedule-list .paging {
-        margin-top: 50px; } }
+      margin-top: 75px; }
+      .volunteer-schedule .schedule-list > .schedule-date {
+        padding: 40px 50px; }
+        .volunteer-schedule .schedule-list > .schedule-date ~ .schedule-date {
+          margin-top: 30px; }
+        .volunteer-schedule .schedule-list > .schedule-date h4 {
+          font-size: 24px; }
+          .volunteer-schedule .schedule-list > .schedule-date h4 small {
+            font-size: 16px; }
+        .volunteer-schedule .schedule-list > .schedule-date hr {
+          margin: 30px 0; }
+        .volunteer-schedule .schedule-list > .schedule-date > ul {
+          overflow: hidden; }
+          .volunteer-schedule .schedule-list > .schedule-date > ul > li {
+            float: left;
+            width: 50%;
+            line-height: 36px; }
+            .volunteer-schedule .schedule-list > .schedule-date > ul > li dl {
+              font-size: 15px; }
+              .volunteer-schedule .schedule-list > .schedule-date > ul > li dl dt {
+                width: 125px; }
+              .volunteer-schedule .schedule-list > .schedule-date > ul > li dl dd {
+                padding-left: 125px; }
+      .volunteer-schedule .schedule-list .attention {
+        font-size: 14px;
+        margin-top: 30px; } }
   @media (min-width: 1200px) {
     .volunteer-schedule {
       margin-top: 70px; }
-      .volunteer-schedule .schedule-list .board-list-1 > ul > li > a .info-list {
-        margin-top: 50px; }
-        .volunteer-schedule .schedule-list .board-list-1 > ul > li > a .info-list li {
-          margin-right: 25px; } }
+      .volunteer-schedule .schedule-list .attention {
+        margin-top: 35px; } }
 
 /*# sourceMappingURL=business.css.map */

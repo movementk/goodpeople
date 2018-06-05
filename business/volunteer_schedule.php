@@ -33,367 +33,115 @@
     <main id="content" class="volunteer-schedule">
         <div class="container">
             <article class="schedule-list">
-                <div class="board-list-1">
+                <div class="schedule-date">
+                    <h4><span><i>1606</i>차</span> 이동진료 일정안내 <small>(2018년 3월)</small></h4>
+                    <hr>
                     <ul>
                         <li>
-                            <a href="#">
-                                <div class="board-info">
-                                    <div class="row">
-                                        <div class="col-12 col-md-6 col-xl-5">
-                                            <figure>
-                                                <img src="/assets/images/sub/img_board01.jpg" class="img-fluid" alt="">
-                                            </figure>
-                                        </div>
-                                        <div class="col-12 col-md-6 col-xl-7">
-                                            <div class="details">
-                                                <h4>
-                                                    <span class="date">2018-05-01</span>
-                                                    사랑의의료봉사, 고려대학교 교우회 감사패 수상
-                                                </h4>
-                                                <p>
-                                                    굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다.
-                                                </p>
-                                                <ul class="info-list">
-                                                    <li>
-                                                        <dl>
-                                                            <dt>순차</dt>
-                                                            <dd class="roboto">2</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>참가단체</dt>
-                                                            <dd class="roboto">2</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>장소</dt>
-                                                            <dd>구민회관</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>준비기간</dt>
-                                                            <dd class="roboto">2018-05-01</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>진료시간</dt>
-                                                            <dd class="roboto">12:00 ~ 16:00</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>대상</dt>
-                                                            <dd>어린이</dd>
-                                                        </dl>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
+                            <dl>
+                                <dt>순차</dt>
+                                <dd>1606차</dd>
+                            </dl>
                         </li>
                         <li>
-                            <a href="#">
-                                <div class="board-info">
-                                    <div class="row">
-                                        <div class="col-12 col-md-6 col-xl-5">
-                                            <figure>
-                                                <img src="/assets/images/sub/img_board_none.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                        <div class="col-12 col-md-6 col-xl-7">
-                                            <div class="details">
-                                                <h4>
-                                                    <span class="date">2018-05-01</span>
-                                                    사랑의의료봉사, 고려대학교 교우회 감사패 수상
-                                                </h4>
-                                                <p>
-                                                    굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다.
-                                                </p>
-                                                <ul class="info-list">
-                                                    <li>
-                                                        <dl>
-                                                            <dt>순차</dt>
-                                                            <dd class="roboto">2</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>참가단체</dt>
-                                                            <dd class="roboto">2</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>장소</dt>
-                                                            <dd>구민회관</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>준비기간</dt>
-                                                            <dd class="roboto">2018-05-01</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>진료시간</dt>
-                                                            <dd class="roboto">12:00 ~ 16:00</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>대상</dt>
-                                                            <dd>어린이</dd>
-                                                        </dl>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
+                            <dl>
+                                <dt>기간</dt>
+                                <dd>1/18(목)~ 21(일)</dd>
+                            </dl>
                         </li>
                         <li>
-                            <a href="#">
-                                <div class="board-info">
-                                    <div class="row">
-                                        <div class="col-12 col-md-6 col-xl-5">
-                                            <figure>
-                                                <img src="/assets/images/sub/img_board_none.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                        <div class="col-12 col-md-6 col-xl-7">
-                                            <div class="details">
-                                                <h4>
-                                                    <span class="date">2018-05-01</span>
-                                                    사랑의의료봉사, 고려대학교 교우회 감사패 수상
-                                                </h4>
-                                                <p>
-                                                    굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다.
-                                                </p>
-                                                <ul class="info-list">
-                                                    <li>
-                                                        <dl>
-                                                            <dt>순차</dt>
-                                                            <dd class="roboto">2</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>참가단체</dt>
-                                                            <dd class="roboto">2</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>장소</dt>
-                                                            <dd>구민회관</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>준비기간</dt>
-                                                            <dd class="roboto">2018-05-01</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>진료시간</dt>
-                                                            <dd class="roboto">12:00 ~ 16:00</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>대상</dt>
-                                                            <dd>어린이</dd>
-                                                        </dl>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
+                            <dl>
+                                <dt>참가단체</dt>
+                                <dd>신촌세브란스병원</dd>
+                            </dl>
                         </li>
                         <li>
-                            <a href="#">
-                                <div class="board-info">
-                                    <div class="row">
-                                        <div class="col-12 col-md-6 col-xl-5">
-                                            <figure>
-                                                <img src="/assets/images/sub/img_board_none.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                        <div class="col-12 col-md-6 col-xl-7">
-                                            <div class="details">
-                                                <h4>
-                                                    <span class="date">2018-05-01</span>
-                                                    사랑의의료봉사, 고려대학교 교우회 감사패 수상
-                                                </h4>
-                                                <p>
-                                                    굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다.
-                                                </p>
-                                                <ul class="info-list">
-                                                    <li>
-                                                        <dl>
-                                                            <dt>순차</dt>
-                                                            <dd class="roboto">2</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>참가단체</dt>
-                                                            <dd class="roboto">2</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>장소</dt>
-                                                            <dd>구민회관</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>준비기간</dt>
-                                                            <dd class="roboto">2018-05-01</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>진료시간</dt>
-                                                            <dd class="roboto">12:00 ~ 16:00</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>대상</dt>
-                                                            <dd>어린이</dd>
-                                                        </dl>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
+                            <dl>
+                                <dt>장소</dt>
+                                <dd>제주도 우도면 체육관</dd>
+                            </dl>
                         </li>
                         <li>
-                            <a href="#">
-                                <div class="board-info">
-                                    <div class="row">
-                                        <div class="col-12 col-md-6 col-xl-5">
-                                            <figure>
-                                                <img src="/assets/images/sub/img_board_none.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                        <div class="col-12 col-md-6 col-xl-7">
-                                            <div class="details">
-                                                <h4>
-                                                    <span class="date">2018-05-01</span>
-                                                    사랑의의료봉사, 고려대학교 교우회 감사패 수상
-                                                </h4>
-                                                <p>
-                                                    굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다.
-                                                </p>
-                                                <ul class="info-list">
-                                                    <li>
-                                                        <dl>
-                                                            <dt>순차</dt>
-                                                            <dd class="roboto">2</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>참가단체</dt>
-                                                            <dd class="roboto">2</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>장소</dt>
-                                                            <dd>구민회관</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>준비기간</dt>
-                                                            <dd class="roboto">2018-05-01</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>진료시간</dt>
-                                                            <dd class="roboto">12:00 ~ 16:00</dd>
-                                                        </dl>
-                                                    </li>
-                                                    <li>
-                                                        <dl>
-                                                            <dt>대상</dt>
-                                                            <dd>어린이</dd>
-                                                        </dl>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
+                            <dl>
+                                <dt>준비시간</dt>
+                                <dd>18년 1/18(목) 출발</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>진료시간</dt>
+                                <dd>07:00 - 18:00</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>대상</dt>
+                                <dd>해녀, 독거노인, 지역주민</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>예상인원</dt>
+                                <dd>200명</dd>
+                            </dl>
                         </li>
                     </ul>
                 </div>
-                <nav class="paging">
-                    <ol class="pagination">
-                        <li class="first">
-                            <a href="#">
-                                <i class="icon-angle-double-left">
-                                    <span class="sr-only">첫 페이지</span>
-                                </i>
-                            </a>
-                        </li>
-                        <li class="prev">
-                            <a href="#">
-                                <i class="icon-angle-left">
-                                    <span class="sr-only">이전 페이지</span>
-                                </i>
-                            </a>
-                        </li>
-                        <li class="active">
-                            <a href="#">1</a>
+                <div class="schedule-date">
+                    <h4><span>1606차</span> 이동진료 일정안내 <small>(2018년 3월)</small></h4>
+                    <hr>
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt>순차</dt>
+                                <dd>1606차</dd>
+                            </dl>
                         </li>
                         <li>
-                            <a href="#">2</a>
+                            <dl>
+                                <dt>기간</dt>
+                                <dd>1/18(목)~ 21(일)</dd>
+                            </dl>
                         </li>
                         <li>
-                            <a href="#">3</a>
+                            <dl>
+                                <dt>참가단체</dt>
+                                <dd>신촌세브란스병원</dd>
+                            </dl>
                         </li>
                         <li>
-                            <a href="#">4</a>
+                            <dl>
+                                <dt>장소</dt>
+                                <dd>제주도 우도면 체육관</dd>
+                            </dl>
                         </li>
                         <li>
-                            <a href="#">5</a>
+                            <dl>
+                                <dt>준비시간</dt>
+                                <dd>18년 1/18(목) 출발</dd>
+                            </dl>
                         </li>
-                        <li class="next">
-                            <a href="#">
-                                <i class="icon-angle-right">
-                                    <span class="sr-only">다음 페이지</span>
-                                </i>
-                            </a>
+                        <li>
+                            <dl>
+                                <dt>진료시간</dt>
+                                <dd>07:00 - 18:00</dd>
+                            </dl>
                         </li>
-                        <li class="last">
-                            <a href="#">
-                                <i class="icon-angle-double-right">
-                                    <span class="sr-only">마지막 페이지</span>
-                                </i>
-                            </a>
+                        <li>
+                            <dl>
+                                <dt>대상</dt>
+                                <dd>해녀, 독거노인, 지역주민</dd>
+                            </dl>
                         </li>
-                    </ol>	
-                </nav>
+                        <li>
+                            <dl>
+                                <dt>예상인원</dt>
+                                <dd>200명</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+                <p class="attention">진료일정, 장소는 변경될 수 있습니다.</p>
             </article>
         </div>
     </main>
