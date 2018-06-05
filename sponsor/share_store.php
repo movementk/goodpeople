@@ -31,164 +31,97 @@
     
     <!-- Content -->
     <main id="content" class="share-store">
-    	<div class="container">
-			<div class="board-list-1">
-				<ul>
-					<li>
-						<a href="#">
-							<div class="board-info">
-								<div class="row">
-									<div class="col-12 col-md-6 col-xl-5">
-										<figure>
-											<img src="/assets/images/sub/img_board01.jpg" class="img-fluid" alt="">
-										</figure>
-									</div>
-									<div class="col-12 col-md-6 col-xl-7">
-										<div class="details">
-											<h4>사랑의의료봉사, 고려대학교 교우회 감사패 수상</h4>
-											<p>
-												굿피플 사랑의의료봉사가 지난 4월 21일 고려대학교 교우회로부터 감사패를 수상했습니다
-											</p>
-										</div>
-									</div>
+		<section class="collection-step">
+			<div class="container">
+				<div class="section-header">
+					<h4>모금함 종류</h4>
+					<p>
+						작은 동전 하나가 희망이 됩니다. <br class="d-block  d-md-none"> 
+						식당, 편의점, 약국, 은행 등 각 가게에<br class="d-none  d-md-block">  굿피플 모금함을 설치하여 어려운 이웃을 위한  나눔 활동에 동참하실 수 있습니다.
+					</p>	
+				</div>
+				<div class="section-content">
+					<ol>
+						<li>
+							<div class="box">
+								<figure>
+									<img src="/assets/images/sponser/collection-step01.png" class="img-fluid" alt="">
+								</figure> 
+								<div class="details">
+									<small>STEP 01</small>
+									<p>모금함 신청</p>
 								</div>
 							</div>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<div class="board-info">
-								<div class="row">
-									<div class="col-12 col-md-6 col-xl-5">
-										<figure>
-											<img src="/assets/images/sub/img_board_none.jpg" alt="">
-										</figure>
-									</div>
-									<div class="col-12 col-md-6 col-xl-7">
-										<div class="details">
-											<h4>한국코와주식회사, 굿피플과 함께 취약계층 건강증진에 나서</h4>
-											<p>
-												굿피플에 전해진 종합비타민 '큐피코와골드α정' 25,000개가 소외계층을 위해 사용되었습니다.
-											</p>
-										</div>
-									</div>
+						</li>
+						<li>
+							<div class="box">
+								<figure>
+									<img src="/assets/images/sponser/collection-step02.png" class="img-fluid" alt="">
+								</figure>
+								<div class="details">
+									<small>STEP 02</small>
+									<p>
+										모금함 발송 <br>
+										(신청 후 2주일 이내)
+									</p>
 								</div>
 							</div>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<div class="board-info">
-								<div class="row">
-									<div class="col-12 col-md-6 col-xl-5">
-										<figure>
-											<img src="/assets/images/sub/img_board_none.jpg" alt="">
-										</figure>
-									</div>
-									<div class="col-12 col-md-6 col-xl-7">
-										<div class="details">
-											<h4>2018 기부 마라톤 대회 봉사자 모집 공고</h4>
-											<p>
-												2018 기부마라톤대회에 굿피플과 함게할 자원봉사자 여러분을 모집하고 있습니다. 많은 관심과 참여...
-											</p>
-										</div>
-									</div>
+						</li>
+						<li>
+							<div class="box">
+								<figure>
+									<img src="/assets/images/sponser/collection-step03.png" class="img-fluid" alt="">
+
+								</figure>
+								<div class="details"> 
+									<small>STEP 03</small>
+									<p>
+										모금함 채우기
+									</p>
 								</div>
 							</div>
-						</a>
-					</li>
-					<li class="d-none d-md-block">
-						<a href="#">
-							<div class="board-info">
-								<div class="row">
-									<div class="col-12 col-md-6 col-xl-5">
-										<figure>
-											<img src="/assets/images/sub/img_board02.jpg" alt="">
-										</figure>
-									</div>
-									<div class="col-12 col-md-6 col-xl-7">
-										<div class="details">
-											<h4>방경현 목사 굿피플 아너스클럽에 가입</h4>
-											<p>
-												굿피플의 고액기부 후원자모임인 '굿피플 아너스클럽'에 여의도순복음교회 새성북성전 방경현 목사가 회원으로 가입했습니다.
-											</p>
-										</div>
-									</div>
+						</li>
+						<li>
+							<div class="box">
+								<figure>
+									<img src="/assets/images/sponser/collection-step04.png" class="img-fluid" alt="">
+								</figure>
+								<div class="details"> 
+									<small>STEP 04</small>
+									<p>
+										모금함 송금/수거 및 재신청
+									</p>
 								</div>
 							</div>
-						</a>
-					</li>
-					<li class="d-none d-md-block">
-						<a href="#">
-							<div class="board-info">
-								<div class="row">
-									<div class="col-12 col-md-6 col-xl-5">
-										<figure>
-											<img src="/assets/images/sub/img_board03.jpg" alt="">
-										</figure>
-									</div>
-									<div class="col-12 col-md-6 col-xl-7">
-										<div class="details">
-											<h4>아프리카 태양보다 뜨거웠던 나눔대사 위촉현장</h4>
-											<p>
-												굿피플이 배우 정준을 굿피플 나눔대사로 위촉했습니다.
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</a>
-					</li>
-				</ul>
+						</li>
+					</ol>
+				</div>
 			</div>
-			<nav class="paging">
-				<ol class="pagination">
-					<li class="first">
-						<a href="#">
-							<i class="icon-angle-double-left">
-								<span class="sr-only">첫 페이지</span>
-							</i>
-						</a>
-					</li>
-					<li class="prev">
-						<a href="#">
-							<i class="icon-angle-left">
-								<span class="sr-only">이전 페이지</span>
-							</i>
-						</a>
-					</li>
-					<li class="active">
-						<a href="#">1</a>
-					</li>
-					<li>
-						<a href="#">2</a>
-					</li>
-					<li>
-						<a href="#">3</a>
-					</li>
-					<li>
-						<a href="#">4</a>
-					</li>
-					<li>
-						<a href="#">5</a>
-					</li>
-					<li class="next">
-						<a href="#">
-							<i class="icon-angle-right">
-								<span class="sr-only">다음 페이지</span>
-							</i>
-						</a>
-					</li>
-					<li class="last">
-						<a href="#">
-							<i class="icon-angle-double-right">
-								<span class="sr-only">마지막 페이지</span>
-							</i>
-						</a>
-					</li>
-				</ol>	
-			</nav>
-    	</div>
+		</section>
+		<section class="information">
+			<div class="container">
+				<div class="section-header">
+					<h4>모금함 수거 및 송금 안내</h4>
+				</div>
+				<div class="section-content">
+					<ul>
+						<li>
+							<div class="items">
+								<img src="/assets/images/sponser/img_information01.png" class="img-fluid" alt="">
+							</div>
+							<div class="summary">
+								<dl>
+									<dt>무통장 입금</dt>
+									<dd>국민은행 816-01-0334-955 /</dd>
+									<dt>예금주</dt>
+									<dd>굿피플</dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
     </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>
