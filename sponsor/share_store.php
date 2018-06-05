@@ -106,25 +106,51 @@
 				<div class="section-content">
 					<ul>
 						<li>
-							<div class="items">
-								<img src="/assets/images/sponser/img_information01.png" class="img-fluid" alt="">
+							<div class="wrap">
+								<div class="items">
+									<img src="/assets/images/sponser/img_information01.png" class="img-fluid" alt="">
+								</div>
+								<div class="summary">
+									<ul>
+										<li>
+											<dl>
+												<dt>무통장 입금</dt>
+												<dd>국민은행 816-01-0334-955 /</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>예금주</dt>
+												<dd>굿피플</dd>
+											</dl>
+										</li>
+									</ul>
+									<p>
+										입금 후 굿피플 회원관리팀으로 전화주시면 후원영수증을 발송해드립니다.  또한 사업자명으로 입금 후 사업자번호를 알려주시면 기부금영수증을 발급해 드립니다
+									</p>
+								</div>
 							</div>
-							<div class="summary">
-							    <ul>
-							        <li>
-							            <dl>
-                                            <dt>무통장 입금</dt>
-                                            <dd>국민은행 816-01-0334-955 /</dd>
-                                            
-                                        </dl>
-							        </li>
-							        <li>
-                                        <dl>
-                                            <dt>예금주</dt>
-                                            <dd>굿피플</dd>
-                                        </dl>
-							        </li>
-							    </ul>
+						</li>
+						<li>
+							<div class="wrap">
+								<div class="items">
+									<img src="/assets/images/sponser/img_information02.png" class="img-fluid" alt="">
+								</div>
+								<div class="summary">
+									<ul>
+										<li>
+											<dl>
+												<dt>방문수거</dt>
+												<dd>
+													송금이 어려우신 분들의 경우 전화를 주시면  굿피플 담당자가 수거합니다.
+												</dd>
+											</dl>
+										</li>
+									</ul>
+									<p>
+										방문수거는 서울지역만 가능합니다. 그 외 기타지역은 방문 수거가  어려우니 송금을 이용해주시기 바랍니다.
+									</p>
+								</div>
 							</div>
 						</li>
 					</ul>
