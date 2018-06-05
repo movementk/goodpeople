@@ -110,12 +110,21 @@
 								<img src="/assets/images/sponser/img_information01.png" class="img-fluid" alt="">
 							</div>
 							<div class="summary">
-								<dl>
-									<dt>무통장 입금</dt>
-									<dd>국민은행 816-01-0334-955 /</dd>
-									<dt>예금주</dt>
-									<dd>굿피플</dd>
-								</dl>
+							    <ul>
+							        <li>
+							            <dl>
+                                            <dt>무통장 입금</dt>
+                                            <dd>국민은행 816-01-0334-955 /</dd>
+                                            
+                                        </dl>
+							        </li>
+							        <li>
+                                        <dl>
+                                            <dt>예금주</dt>
+                                            <dd>굿피플</dd>
+                                        </dl>
+							        </li>
+							    </ul>
 							</div>
 						</li>
 					</ul>

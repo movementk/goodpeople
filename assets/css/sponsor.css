@@ -657,11 +657,11 @@ a {
     font-size: 28px;
     color: #333;
     font-weight: 400; }
-  .share-store .information .section-content ul {
+  .share-store .information .section-content > ul {
     width: 100%;
     display: table;
     margin-top: 50px; }
-    .share-store .information .section-content ul li {
+    .share-store .information .section-content > ul > li {
       display: table-cell;
       width: 100%;
       height: 360px;
@@ -670,23 +670,25 @@ a {
       background-color: #fff;
       padding: 0 15px;
       box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.1); }
-      .share-store .information .section-content ul li .items {
+      .share-store .information .section-content > ul > li .items {
         margin-bottom: 30px; }
-      .share-store .information .section-content ul li .summary dl {
-        font-size: 0; }
-        .share-store .information .section-content ul li .summary dl dt {
-          display: inline-block;
-          font-size: 15px;
-          color: #333;
-          font-weight: 400; }
-          .share-store .information .section-content ul li .summary dl dt:after {
-            content: " : ";
-            margin-right: 2px; }
-        .share-store .information .section-content ul li .summary dl dd {
-          display: inline-block;
-          font-size: 15px;
-          color: #333;
-          font-weight: 400; }
+      .share-store .information .section-content > ul > li .summary > ul > li {
+        display: inline-block; }
+        .share-store .information .section-content > ul > li .summary > ul > li dl {
+          font-size: 0; }
+          .share-store .information .section-content > ul > li .summary > ul > li dl dt {
+            display: inline-block;
+            font-size: 15px;
+            color: #333;
+            font-weight: 400; }
+            .share-store .information .section-content > ul > li .summary > ul > li dl dt:after {
+              content: " : ";
+              margin-right: 2px; }
+          .share-store .information .section-content > ul > li .summary > ul > li dl dd {
+            display: inline-block;
+            font-size: 15px;
+            color: #333;
+            font-weight: 400; }
 
 .honors-member .members {
   margin-top: 50px; }
