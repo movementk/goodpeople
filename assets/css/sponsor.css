@@ -643,14 +643,19 @@ a {
         .share-store .collection-step .section-content {
           margin-top: 70px; }
           .share-store .collection-step .section-content ol {
-            margin: 0 -60px; }
+            /*margin: 0 -60px;*/ }
             .share-store .collection-step .section-content ol li {
-              padding: 0 60px; }
+              /*padding: 0 60px;*/ }
               .share-store .collection-step .section-content ol li:after {
                 font-size: 30px;
-                margin-left: -6px; }
+                margin-left: -5px; }
               .share-store .collection-step .section-content ol li .box {
                 height: 200px; } }
+    @media (min-width: 1400px) {
+      .share-store .collection-step .section-content ol {
+        margin: 0 -60px; }
+        .share-store .collection-step .section-content ol li {
+          padding: 0 60px; } }
   .share-store .information {
     text-align: center;
     padding: 70px 0;
@@ -669,11 +674,10 @@ a {
         text-align: center;
         background-color: #fff;
         box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.1); }
-        .share-store .information .section-content > ul > li:first-child .wrap .summary > ul li {
-          display: inline; }
-          .share-store .information .section-content > ul > li:first-child .wrap .summary > ul li:first-child dl dd:after {
-            content: "/";
-            display: inline; }
+        .share-store .information .section-content > ul > li:first-child .wrap .summary > ul li:first-child dl dd:after {
+          content: "/";
+          display: inline;
+          margin: 0 3px; }
         .share-store .information .section-content > ul > li ~ li {
           margin-top: 10px; }
         .share-store .information .section-content > ul > li .wrap {
@@ -692,7 +696,7 @@ a {
                 color: #333;
                 font-weight: 400; }
                 .share-store .information .section-content > ul > li .wrap .summary > ul > li dl dt:after {
-                  content: " : ";
+                  content: ":";
                   margin-right: 2px; }
               .share-store .information .section-content > ul > li .wrap .summary > ul > li dl dd {
                 display: inline;
@@ -709,35 +713,36 @@ a {
         padding: 70px 0 100px; }
         .share-store .information .section-header h4 {
           font-size: 30px; }
-        .share-store .information .section-content > ul {
-          overflow: hidden; }
-          .share-store .information .section-content > ul > li {
-            float: left;
-            width: 48%; }
-            .share-store .information .section-content > ul > li ~ li {
-              margin-top: 0;
-              margin-left: 2%; }
-            .share-store .information .section-content > ul > li:first-child .wrap .items img {
-              margin-top: 10px; }
-            .share-store .information .section-content > ul > li .wrap {
-              display: block; }
-              .share-store .information .section-content > ul > li .wrap .items {
-                height: 90px;
-                margin-top: 50px; }
-              .share-store .information .section-content > ul > li .wrap .summary > ul > li dl dt {
-                font-size: 16px; }
-              .share-store .information .section-content > ul > li .wrap .summary > ul > li dl dd {
-                font-size: 16px; }
-              .share-store .information .section-content > ul > li .wrap .summary > p {
-                font-size: 14px;
-                line-height: 24px;
-                margin-top: 25px; } }
+        .share-store .information .section-content > ul:after {
+          content: " ";
+          display: block;
+          clear: both; }
+        .share-store .information .section-content > ul > li {
+          float: left;
+          width: 49%; }
+          .share-store .information .section-content > ul > li ~ li {
+            margin-top: 0;
+            margin-left: 2%; }
+          .share-store .information .section-content > ul > li:first-child .wrap .items img {
+            margin-top: 10px; }
+          .share-store .information .section-content > ul > li .wrap {
+            display: block; }
+            .share-store .information .section-content > ul > li .wrap .items {
+              height: 90px;
+              margin-top: 50px; }
+            .share-store .information .section-content > ul > li .wrap .summary > ul > li dl dt {
+              font-size: 16px; }
+            .share-store .information .section-content > ul > li .wrap .summary > ul > li dl dd {
+              font-size: 16px; }
+            .share-store .information .section-content > ul > li .wrap .summary > p {
+              font-size: 14px;
+              line-height: 24px;
+              margin-top: 25px; } }
     @media (min-width: 1200px) {
       .share-store .information {
         padding: 100px 0 120px; }
         .share-store .information .section-content > ul > li ~ li {
-          margin-top: 0;
-          margin-left: 30px; }
+          margin-top: 0; }
         .share-store .information .section-content > ul > li .wrap {
           padding: 0 70px; }
           .share-store .information .section-content > ul > li .wrap .items {
@@ -747,10 +752,12 @@ a {
             font-size: 0; }
             .share-store .information .section-content > ul > li .wrap .summary > ul > li {
               display: inline-block; }
-              .share-store .information .section-content > ul > li .wrap .summary > ul > li dl dt {
-                font-size: 18px; }
-              .share-store .information .section-content > ul > li .wrap .summary > ul > li dl dd {
-                font-size: 18px; }
+              .share-store .information .section-content > ul > li .wrap .summary > ul > li dl {
+                display: inline-block; }
+                .share-store .information .section-content > ul > li .wrap .summary > ul > li dl dt {
+                  font-size: 18px; }
+                .share-store .information .section-content > ul > li .wrap .summary > ul > li dl dd {
+                  font-size: 18px; }
           .share-store .information .section-content > ul > li .wrap .summary > p {
             margin-top: 30px; } }
 

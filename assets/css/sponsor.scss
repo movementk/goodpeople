@@ -425,12 +425,12 @@
 			.section-content {
 				margin-top: 70px;
 				ol {
-					margin: 0 -60px;
+					/*margin: 0 -60px;*/
 					li {
-						padding: 0 60px;
+						/*padding: 0 60px;*/
 						&:after {
 							font-size: 30px;
-							margin-left: -6px;
+							margin-left: -5px;
 						}
 						.box {
 							height: 200px;
@@ -439,6 +439,16 @@
 				}
 			}
 		}
+        @media(min-width: 1400px) {
+            .section-content {
+                ol {
+                    margin: 0 -60px;
+                    li {
+                        padding: 0 60px;
+                    }
+                }
+            }
+        }
 	}
 	.information {
 		text-align: center;
@@ -467,13 +477,13 @@
 							.summary {
 								> ul {
 									li {
-										display: inline; 
 										&:first-child {
 											dl {
 												dd {
 													&:after {
 														content: "/";
 														display: inline;
+                                                        margin: 0 3px;
 													}
 												}
 											} 
@@ -505,7 +515,7 @@
 											color: #333;
 											font-weight: 400;
 											&:after {
-												content: " : ";
+												content: ":";
 												margin-right: 2px;
 											}
 										}
@@ -538,10 +548,14 @@
 			}
 			.section-content {
 				> ul {
-					overflow: hidden;
+                    &:after {
+                        content: " ";
+                        display: block;
+                        clear: both;
+                    }
 					> li {
 						float: left;
-						width: 48%;
+						width: 49%;
 						& ~ li {
 							margin-top: 0;
 							margin-left: 2%;
@@ -592,7 +606,6 @@
 					> li {
 						& ~ li {
 							margin-top: 0;
-							margin-left: 30px;
 						}
 						.wrap {
 							padding: 0 70px;
@@ -606,6 +619,7 @@
 									> li {
 										display: inline-block;
 										dl {
+                                            display: inline-block;
 											dt {
 												font-size: 18px;
 											}
