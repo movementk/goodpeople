@@ -651,7 +651,7 @@ body {
                 text-align: center;
                 display: block;
                 @include transition();
-                &:hover, &:focus {
+                &:hover {
                     color: #eb6100;
                 }
             }

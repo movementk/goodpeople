@@ -891,7 +891,7 @@ body {
         transition-timing-function: linear;
         -webkit-transition-delay: 0s;
         transition-delay: 0s; }
-        #gnb .gnb-menu > li > a:hover, #gnb .gnb-menu > li > a:focus {
+        #gnb .gnb-menu > li > a:hover {
           color: #eb6100; }
       #gnb .gnb-menu > li > div {
         position: absolute;
