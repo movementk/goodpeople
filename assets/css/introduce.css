@@ -482,19 +482,15 @@ a {
   .vision .vision-wrap .section-content {
     padding-top: 30px; }
     .vision .vision-wrap .section-content > .row > li figure {
-      position: relative;
       text-align: center;
-      margin-top: 10px; }
+      margin-top: 30px; }
       .vision .vision-wrap .section-content > .row > li figure img {
         width: 100%; }
       .vision .vision-wrap .section-content > .row > li figure figcaption {
-        position: absolute;
-        left: 0;
-        bottom: 10px;
-        width: 100%;
         font-size: 13px;
-        color: #fff;
-        text-align: center; }
+        color: #333;
+        text-align: center;
+        margin-top: 10px; }
     .vision .vision-wrap .section-content > .row > li:first-child figure {
       margin-top: 0; }
     .vision .vision-wrap .section-content .step-wrap {
