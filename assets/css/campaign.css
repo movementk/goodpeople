@@ -430,4 +430,90 @@ a {
   .campaign-view .board-view .article-header {
     padding: 40px 20px; } }
 
+.campaign-list {
+  margin-top: 80px; }
+  .campaign-list .article-header {
+    margin-bottom: 30px; }
+    .campaign-list .article-header .form-group {
+      text-align: right; }
+      .campaign-list .article-header .form-group .form-control {
+        display: inline-block;
+        width: 180px;
+        height: 40px;
+        border: 1px solid #666; }
+  .campaign-list .article-content > ul > li a {
+    display: block; }
+    .campaign-list .article-content > ul > li a .item {
+      position: relative; }
+      .campaign-list .article-content > ul > li a .item.ongoing .label {
+        background-color: #f5a100; }
+      .campaign-list .article-content > ul > li a .item.termination .label {
+        background-color: #3a3d44; }
+      .campaign-list .article-content > ul > li a .item .label {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 12px;
+        color: #fff;
+        text-align: center;
+        display: block;
+        width: 80px;
+        height: 30px;
+        line-height: 30px; }
+      .campaign-list .article-content > ul > li a .item figure .img-fluid {
+        display: block;
+        width: 100%;
+        margin: 0 auto; }
+    .campaign-list .article-content > ul > li a .details {
+      padding-top: 25px;
+      text-align: center; }
+      .campaign-list .article-content > ul > li a .details small {
+        font-size: 13px;
+        color: #666; }
+      .campaign-list .article-content > ul > li a .details h3 {
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 14px;
+        color: #333;
+        font-weight: 400;
+        margin-top: 15px; }
+      .campaign-list .article-content > ul > li a .details .icon-list {
+        margin-top: 20px; }
+  .campaign-list .article-content > ul > li ~ li a {
+    margin-top: 30px; }
+  .campaign-list .article-content .paging {
+    margin-top: 60px; }
+  @media (min-width: 768px) {
+    .campaign-list {
+      margin-top: 100px; }
+      .campaign-list .article-header .form-group .form-control {
+        display: inline-block;
+        height: 50px; }
+      .campaign-list .article-content > ul > li a .details {
+        padding-top: 30px; }
+        .campaign-list .article-content > ul > li a .details small {
+          font-size: 14px; }
+        .campaign-list .article-content > ul > li a .details h3 {
+          font-size: 16px;
+          margin-top: 20px; }
+        .campaign-list .article-content > ul > li a .details .icon-list {
+          margin-top: 30px; }
+      .campaign-list .article-content > ul > li ~ li a {
+        margin-top: 0; }
+      .campaign-list .article-content > ul > li:nth-of-type(2) ~ li a {
+        margin-top: 60px; }
+      .campaign-list .article-content .paging {
+        margin-top: 90px; } }
+  @media (min-width: 1200px) {
+    .campaign-list {
+      margin-top: 110px; }
+      .campaign-list .article-content > ul > li:nth-of-type(2) ~ li a {
+        margin-top: 0; }
+      .campaign-list .article-content > ul > li:nth-of-type(3) ~ li a {
+        margin-top: 60px; }
+      .campaign-list .article-content .paging {
+        margin-top: 80px; } }
+
 /*# sourceMappingURL=campaign.css.map */

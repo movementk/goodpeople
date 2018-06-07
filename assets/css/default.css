@@ -500,58 +500,19 @@ body {
       #nav .nav-wrap .nav-header .top-nav {
         padding-top: 10px;
         height: 55px; }
-        #nav .nav-wrap .nav-header .top-nav .language {
+        #nav .nav-wrap .nav-header .top-nav .btn-spon {
           width: 85px;
-          min-width: 85px;
           height: 35px;
-          background: none;
-          border: 1px solid #fff;
-          border-radius: 30px;
-          overflow: hidden;
+          font-size: 13px;
+          color: #fff;
+          font-weight: 300;
           margin-left: 10px;
+          border-radius: 0;
+          text-align: center;
+          line-height: 33px;
+          padding: 0;
+          border: 1px solid #fff;
           background-color: #144199; }
-          #nav .nav-wrap .nav-header .top-nav .language .btn {
-            width: 85px;
-            min-width: 85px;
-            height: 35px;
-            font-size: 13px;
-            color: #fff;
-            text-align: left;
-            font-weight: bold;
-            font-family: 'Roboto', sans-serif;
-            background: none;
-            padding: 0 15px; }
-            #nav .nav-wrap .nav-header .top-nav .language .btn:after {
-              float: right;
-              margin-right: 5px;
-              border: 0;
-              content: "\E803";
-              font-family: "fontello"; }
-          #nav .nav-wrap .nav-header .top-nav .language .dropdown-menu {
-            min-width: 85px;
-            width: 85px;
-            margin: 0;
-            padding: 0;
-            border: 0;
-            background-color: #144199;
-            transform: translate3d(0px, 30px, 0px) !important; }
-            #nav .nav-wrap .nav-header .top-nav .language .dropdown-menu a {
-              min-width: 85px;
-              width: 85px;
-              font-size: 13px;
-              color: #fff;
-              line-height: 35px;
-              text-align: left;
-              font-family: 'Roboto', sans-serif;
-              font-weight: 400;
-              padding: 0;
-              padding-left: 15px;
-              background: none; }
-          #nav .nav-wrap .nav-header .top-nav .language.show {
-            height: 70px;
-            border-radius: 20px; }
-            #nav .nav-wrap .nav-header .top-nav .language.show .btn:after {
-              content: "\E802"; }
       #nav .nav-wrap .nav-header > ul {
         display: table;
         width: 100%;
@@ -697,61 +658,7 @@ body {
         #nav .nav-wrap .nav-foot .sns-list > li {
           display: inline-block;
           padding-left: 10px;
-          vertical-align: top;
-          /*> a {
-              display: block;
-              width: 46px;
-              height: 46px;
-              line-height: 42px;
-              text-align: center;
-              border: 1px solid #ccc;
-              border-radius: 50%;
-              @include transition();
-              i {
-                  font-style: normal;
-                  font-size: 18px;
-                  color: #bbb;
-                  @include transition();
-              }
-              &.naver-blog {
-                  background-image: url(/assets/images/main/ico_naver_blog.png);
-                  background-repeat: no-repeat;
-                  background-size: 11px 13px;
-                  background-position: 50% 50%;
-              }
-              &.naver-happybean {
-                  background-image: url(/assets/images/main/ico_naver_happybean.png);
-                  background-repeat: no-repeat;
-                  background-size: 16px 17px;
-                  background-position: 50% 50%;
-              }
-              &:hover, &:focus {
-                  border-color: #f3f5fa !important;
-                  &.facebook {
-                      background-color: #3b5999;
-                  }
-                  &.instagram {
-                      background-image: url(/assets/images/main/bg_instragram.png);
-                      background-repeat: no-repeat;
-                      background-size: cover;
-                      background-position: 50% 50%;
-                  }
-                  &.naver-blog {
-                      background-color: #00be39;
-                      background-image: url(/assets/images/main/ico_naver_blog_on.png);
-                  }
-                  &.youtube {
-                      background-color: #ff0000;
-                  }
-                  &.naver-happybean {
-                      background-color: #7aba0b;
-                      background-image: url(/assets/images/main/ico_naver_happybean_on.png);
-                  }
-                  i {
-                      color: #fff;
-                  }
-              }
-          }*/ }
+          vertical-align: top; }
           #nav .nav-wrap .nav-foot .sns-list > li:first-child {
             padding-left: 0; }
           #nav .nav-wrap .nav-foot .sns-list > li > a {
@@ -787,9 +694,13 @@ body {
       #nav .nav-wrap .nav-header {
         height: 170px; }
         #nav .nav-wrap .nav-header .top-nav {
-          padding-top: 23px;
+          padding-top: 18px;
           height: 80px; }
-          #nav .nav-wrap .nav-header .top-nav .language {
+          #nav .nav-wrap .nav-header .top-nav .btn-spon {
+            font-size: 15px;
+            width: 120px;
+            height: 45px;
+            line-height: 43px;
             margin-left: 23px; }
         #nav .nav-wrap .nav-header > ul {
           height: 90px; }

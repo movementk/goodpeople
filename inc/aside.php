@@ -13,14 +13,7 @@
     <div class="nav-wrap">
         <div class="nav-header">
             <div class="top-nav">
-                <div class="dropdown language">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        KOR
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton-3">
-                        <a class="dropdown-item" href="#">ENG</a>
-                    </div>
-                </div>
+                <a href="/sponsor/regular_sponsor.php" class="btn btn-spon">후원하기</a>
             </div>
             <ul>
                 <li><a href="/member/login.php">로그인</a></li>
@@ -135,7 +128,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">후원하기</a>
+                        <a href="#">후원</a>
                         <ul class="depth-2">
                             <li class="quick-link">
                                 <a href="/sponsor/regular_sponsor.php">정기후원</a>

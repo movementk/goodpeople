@@ -148,5 +148,203 @@
     }
 }
 
+// 캠페인 리스트
+.campaign-list {
+    margin-top: 80px;
+    .article-header {
+        margin-bottom: 30px;
+        .form-group {
+            text-align: right;
+            .form-control {
+                display: inline-block;
+                width: 180px;
+                height: 40px;
+                border: 1px solid #666;
+            }
+        }
+    }
+    .article-content {
+        > ul {
+            > li {
+                a {
+                    display: block;
+                    .item {
+                        position: relative;
+                        &.ongoing {
+                            .label {
+                                background-color: #f5a100;
+                            }
+                        }
+                        &.termination {
+                            .label {
+                                background-color: #3a3d44;
+                            }
+                        }
+                        .label {
+                            position: absolute;
+                            top: 10px;
+                            left: 10px;
+                            font-size: 12px;
+                            color: #fff;
+                            text-align: center;
+                            display: block;
+                            width: 80px;
+                            height: 30px;
+                            line-height: 30px;
+                        }
+                        figure {
+                            .img-fluid {
+                                display: block;
+                                width: 100%;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                    .details {
+                        padding-top: 25px;
+                        text-align: center;
+                        small {
+                            font-size: 13px;
+                            color: #666;
+                        }
+                        h3 {
+                            display: block;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            font-size: 14px;
+                            color: #333;
+                            font-weight: 400;
+                            margin-top: 15px;
+                        }
+                        .icon-list {
+                            margin-top: 20px;
+                        }
+                    }
+                }
+                & ~ li {
+                    a {
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 60px;
+        }
+    }
+    @media(min-width: $md) {
+        margin-top: 100px;
+        .article-header {
+            .form-group {
+                .form-control {
+                    display: inline-block;
+                    height: 50px;
+                }
+            }
+        }
+        .article-content {
+            > ul {
+                > li {
+                    a {
+                        .details {
+                            padding-top: 30px;
+                            small {
+                                font-size: 14px;
+                            }
+                            h3 {
+                                font-size: 16px;
+                                margin-top: 20px;
+                            }
+                            .icon-list {
+                                margin-top: 30px;
+                            }
+                        }
+                    }
+                    & ~ li {
+                        a {
+                            margin-top: 0;
+                        }
+                    }
+                    &:nth-of-type(2) ~ li {
+                        a {
+                            margin-top: 60px;
+                        }
+                    }
+                }
+            }
+            .paging {
+                margin-top: 90px;
+            }
+        }
+    }
+    @media(min-width: $xl) {
+        margin-top: 110px;
+        .article-content {
+            > ul {
+                > li {
+                    &:nth-of-type(2) ~ li {
+                        a {
+                            margin-top: 0;
+                        }
+                    }
+                    &:nth-of-type(3) ~ li {
+                        a {
+                            margin-top: 60px;
+                        }
+                    }
+                }
+            }
+            .paging {
+                margin-top: 80px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

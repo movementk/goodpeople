@@ -390,45 +390,41 @@
 			.section-content {
 				margin-top: 60px;
 				ul {
-					overflow: hidden;
-					/*padding-top: 50px;*/
-					background-size: contain;
-					background-position: 50% 50%;
-					background-repeat: no-repeat;
+                    position: relative;
+                    width: 724px;
+                    height: 430px;
+                    margin: 0 auto;
 					background-image: url(/assets/images/introduce/bg_value_list.png);
+                    background-repeat: no-repeat;
+                    background-size: 360px auto;
+                    background-position: 50% 100%;
 					li {
-
+                        float: left;
+                        width: 50%;
 						& ~ li {
-							margin-top: 0;
+							margin-top: 285px;
 						}
 						&:nth-of-type(1) {
-							width: 100%;
-							margin-top: -50px;
+							width: 100% !important;
+							position: absolute;
+                            top: 0;
+                            left: 0;
+                            float: none;
 						}
 						&:nth-of-type(2) {
-							float: left;
-							width: 50%;
-							padding-top: 15px;
-							
+							/*padding-top: 15px;
 							padding-top: 0;
-							margin-top: 70px;
+							margin-top: 70px;*/
+                            padding-right: 190px;
+                            text-align: right;
 						}
 						&:nth-of-type(3) {
-							float: left;
-							width: 50%;
-							padding-top: 15px;
-							
+							/*padding-top: 15px;
 							padding-top: 0;
-							margin-top: 70px; 
+							margin-top: 70px;*/ 
+                            padding-left: 190px;
+                            text-align: left;
 						}
-//						&:nth-of-type(odd) {
-//							text-align: right;
-//							padding-right: 180px;
-//						}
-//						&:nth-of-type(even) {
-//							text-align: left;
-//							padding-left: 180px;
-//						}
 						p {
 							font-size: 14px;
 							line-height: 20px;
@@ -447,7 +443,7 @@
 			.section-content {
 				margin-top: 50px;
 				ul {
-					li {
+					/*li {
 						padding-top: 25px;
 						&:nth-of-type(3) {
 							margin-top: 100px;
@@ -461,7 +457,7 @@
 						&:nth-of-type(even) {
 							padding-left: 200px;
 						}
-					}
+					}*/
 				}
 			}
 		}

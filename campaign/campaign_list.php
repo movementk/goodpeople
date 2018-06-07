@@ -14,39 +14,24 @@
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/_lnb.php'); ?>
     </div>
     
-    <!-- page-intro -->
-    <div class="page-intro">
-        <div class="container">
-            <div class="page-title">
-                <h3>캠페인 후기</h3>
-            </div>
-        </div>
-    </div>
-    
     <!-- Content -->
     <main id="content">
     	<div class="container">
-            <article class="campaign-review">
+            <article class="campaign-list">
                 <div class="article-header">
-                    <div class="search-form">
-                        <form action="#">
-                            <div class="form-group">
-                                <input type="text" id="search" class="form-control" placeholder="검색어를 입력해 주세요">
-                                <label for="search" class="sr-only">검색하기</label>
-                            </div>
-                            <p class="btn-search">
-                                <button type="submit" class="btn btn-default">
-                                    <i class="icon-search"></i>
-                                </button>
-                            </p>
-                        </form>
+                    <div class="form-group">
+                        <select class="form-control">
+                            <option>진행중인 캠페인</option>
+                            <option>종료된 캠페인</option>
+                        </select>
                     </div>
                 </div>
                 <div class="article-content">
                     <ul class="row">
                         <li class="col-12 col-md-6 col-xl-4">
                             <a href="/campaign/review_view.php">
-                                <div class="item">
+                                <div class="item ongoing">
+                                    <span class="label">진행중</span>
                                     <figure>
                                         <img src="/assets/images/campaign/img_review01.jpg" class="img-fluid" alt="">
                                     </figure>
@@ -63,7 +48,8 @@
                         </li>
                         <li class="col-12 col-md-6 col-xl-4">
                             <a href="/campaign/review_view.php">
-                                <div class="item">
+                                <div class="item termination">
+                                    <span class="label">종료</span>
                                     <figure>
                                         <img src="/assets/images/campaign/img_review02.jpg" class="img-fluid" alt="">
                                     </figure>
@@ -80,7 +66,8 @@
                         </li>
                         <li class="col-12 col-md-6 col-xl-4">
                             <a href="/campaign/review_view.php">
-                                <div class="item">
+                                <div class="item termination">
+                                    <span class="label">종료</span>
                                     <figure>
                                         <img src="/assets/images/campaign/img_review03.jpg" class="img-fluid" alt="">
                                     </figure>
@@ -95,9 +82,10 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="d-none d-md-block col-md-6 col-xl-4">
+                        <li class="col-12 col-md-6 col-xl-4">
                             <a href="/campaign/review_view.php">
-                                <div class="item">
+                                <div class="item ongoing">
+                                    <span class="label">진행중</span>
                                     <figure>
                                         <img src="/assets/images/campaign/img_review01.jpg" class="img-fluid" alt="">
                                     </figure>
@@ -112,9 +100,10 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="d-none d-md-block col-md-6 col-xl-4">
+                        <li class="col-12 col-md-6 col-xl-4">
                             <a href="/campaign/review_view.php">
-                                <div class="item">
+                                <div class="item ongoing">
+                                    <span class="label">진행중</span>
                                     <figure>
                                         <img src="/assets/images/campaign/img_none_review.jpg" class="img-fluid" alt="">
                                     </figure>
@@ -129,9 +118,10 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="d-none d-md-block col-md-6 col-xl-4">
+                        <li class="col-12 col-md-6 col-xl-4">
                             <a href="/campaign/review_view.php">
-                                <div class="item">
+                                <div class="item ongoing">
+                                    <span class="label">진행중</span>
                                     <figure>
                                         <img src="/assets/images/campaign/img_review03.jpg" class="img-fluid" alt="">
                                     </figure>
@@ -147,53 +137,6 @@
                             </a>
                         </li>
                     </ul>
-                    <nav class="paging">
-                        <ol class="pagination">
-                            <li class="first">
-                                <a href="#">
-                                    <i class="icon-angle-double-left">
-                                        <span class="sr-only">첫 페이지</span>
-                                    </i>
-                                </a>
-                            </li>
-                            <li class="prev">
-                                <a href="#">
-                                    <i class="icon-angle-left">
-                                        <span class="sr-only">이전 페이지</span>
-                                    </i>
-                                </a>
-                            </li>
-                            <li class="active">
-                                <a href="#">1</a>
-                            </li>
-                            <li>
-                                <a href="#">2</a>
-                            </li>
-                            <li>
-                                <a href="#">3</a>
-                            </li>
-                            <li>
-                                <a href="#">4</a>
-                            </li>
-                            <li>
-                                <a href="#">5</a>
-                            </li>
-                            <li class="next">
-                                <a href="#">
-                                    <i class="icon-angle-right">
-                                        <span class="sr-only">다음 페이지</span>
-                                    </i>
-                                </a>
-                            </li>
-                            <li class="last">
-                                <a href="#">
-                                    <i class="icon-angle-double-right">
-                                        <span class="sr-only">마지막 페이지</span>
-                                    </i>
-                                </a>
-                            </li>
-                        </ol>	
-                    </nav>
                 </div>
             </article>
     	</div>

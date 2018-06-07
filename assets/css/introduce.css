@@ -634,32 +634,40 @@ a {
         .vision .value .section-content {
           margin-top: 60px; }
           .vision .value .section-content ul {
-            overflow: hidden;
-            /*padding-top: 50px;*/
-            background-size: contain;
-            background-position: 50% 50%;
+            position: relative;
+            width: 724px;
+            height: 430px;
+            margin: 0 auto;
+            background-image: url(/assets/images/introduce/bg_value_list.png);
             background-repeat: no-repeat;
-            background-image: url(/assets/images/introduce/bg_value_list.png); }
-            .vision .value .section-content ul li ~ li {
-              margin-top: 0; }
-            .vision .value .section-content ul li:nth-of-type(1) {
-              width: 100%;
-              margin-top: -50px; }
-            .vision .value .section-content ul li:nth-of-type(2) {
+            background-size: 360px auto;
+            background-position: 50% 100%; }
+            .vision .value .section-content ul li {
               float: left;
-              width: 50%;
-              padding-top: 15px;
-              padding-top: 0;
-              margin-top: 70px; }
-            .vision .value .section-content ul li:nth-of-type(3) {
-              float: left;
-              width: 50%;
-              padding-top: 15px;
-              padding-top: 0;
-              margin-top: 70px; }
-            .vision .value .section-content ul li p {
-              font-size: 14px;
-              line-height: 20px; } }
+              width: 50%; }
+              .vision .value .section-content ul li ~ li {
+                margin-top: 285px; }
+              .vision .value .section-content ul li:nth-of-type(1) {
+                width: 100% !important;
+                position: absolute;
+                top: 0;
+                left: 0;
+                float: none; }
+              .vision .value .section-content ul li:nth-of-type(2) {
+                /*padding-top: 15px;
+                padding-top: 0;
+                margin-top: 70px;*/
+                padding-right: 190px;
+                text-align: right; }
+              .vision .value .section-content ul li:nth-of-type(3) {
+                /*padding-top: 15px;
+                padding-top: 0;
+                margin-top: 70px;*/
+                padding-left: 190px;
+                text-align: left; }
+              .vision .value .section-content ul li p {
+                font-size: 14px;
+                line-height: 20px; } }
     @media (min-width: 1200px) {
       .vision .value {
         padding-top: 100px;
@@ -670,16 +678,22 @@ a {
         background-image: url(/assets/images/introduce/bg_value_xl.png); }
         .vision .value .section-content {
           margin-top: 50px; }
-          .vision .value .section-content ul li {
-            padding-top: 25px; }
-            .vision .value .section-content ul li:nth-of-type(3) {
-              margin-top: 100px; }
-            .vision .value .section-content ul li:nth-of-type(4) {
-              margin-top: 100px; }
-            .vision .value .section-content ul li:nth-of-type(odd) {
-              padding-right: 200px; }
-            .vision .value .section-content ul li:nth-of-type(even) {
-              padding-left: 200px; } }
+          .vision .value .section-content ul {
+            /*li {
+            	padding-top: 25px;
+            	&:nth-of-type(3) {
+            		margin-top: 100px;
+            	}
+            	&:nth-of-type(4) {
+            		margin-top: 100px;
+            	}
+            	&:nth-of-type(odd) {
+            		padding-right: 200px;
+            	}
+            	&:nth-of-type(even) {
+            		padding-left: 200px;
+            	}
+            }*/ } }
 
 .history article .article-header {
   margin-top: 50px; }
