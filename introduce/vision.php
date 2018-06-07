@@ -50,7 +50,7 @@
 								<img src="/assets/images/introduce/img_vision01.jpg"  class="img-fluid d-block d-md-none d-xl-block" alt="">
 								<img src="/assets/images/introduce/img_md_vision01.jpg"  class="img-fluid d-none d-md-block d-xl-none" alt="">
 								<figcaption>
-									사랑을 나누고 희망을 세우는<br class="d-none d-md-block"> 사랑의 메신저
+									사랑을 나누고 희망을 세우는<br class="d-none d-md-block d-xl-none"> 사랑의 메신저
 								</figcaption>
 							</figure>
 						</li>
@@ -59,7 +59,7 @@
 								<img src="/assets/images/introduce/img_vision02.jpg" class="img-fluid d-block d-md-none d-xl-block" alt="">
 								<img src="/assets/images/introduce/img_md_vision02.jpg"  class="img-fluid d-none d-md-block d-xl-none" alt="">
 								<figcaption>
-									아름답고 따뜻한 세상을<br class="d-none d-md-block"> 만드는 변화의 손길
+									아름답고 따뜻한 세상을<br class="d-none d-md-block d-xl-none"> 만드는 변화의 손길
 								</figcaption>
 							</figure>
 						</li>
@@ -68,7 +68,7 @@
 								<img src="/assets/images/introduce/img_vision03.jpg"  class="img-fluid d-block d-md-none d-xl-block" alt="">
 								<img src="/assets/images/introduce/img_md_vision03.jpg"  class="img-fluid d-none d-md-block d-xl-none" alt="">
 								<figcaption>
-									올바른 도움의 문화를<br class="d-none d-md-block"> 만드는 기부 천사
+									올바른 도움의 문화를<br class="d-none d-md-block d-xl-none"> 만드는 기부 천사
 								</figcaption>
 							</figure>
 						</li>
@@ -119,7 +119,7 @@
 					<h3>굿피플의 가치</h3>
 					<strong>Good People International</strong>
 					<p>
-						굿피플은 가난, 재난, 질병으로부터 구제하고 자립할 수 있도록 지원하여 모두가<br> 고통받지 않는 행복한 세상을 만들기 위해 존재한다.
+						굿피플은 가난, 재난, 질병으로부터 구제하고 자립할 수<br class="d-sm-block d-md-none"> 있도록 지원하여 모두가<br class="d-none d-md-block"> 고통받지 않는 행복한 세상을 만들기 위해 존재한다.
 					</p>
 				</div>
 				<div class="section-content">
