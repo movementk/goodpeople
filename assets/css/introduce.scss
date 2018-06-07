@@ -1436,7 +1436,7 @@
                     top: -50px;
                     width: 100%;
                     opacity: 0;
-                    @include transition($duration: .40s, $delay: .20s);
+                    @include transition($duration: .40s, $delay: 1s);
                 }
                 .icon-national-flag {
                     position: absolute;
@@ -1444,7 +1444,7 @@
                     left: 0;
                     width: 100%;
                     opacity: 0;
-                    @include transition($duration: .40s, $delay: .60s);
+                    @include transition($duration: .40s, $delay: 1.5s);
                 }
                 &.on {
                     .international-map {
@@ -1513,7 +1513,6 @@
 									&:hover, &:focus {
 										font-weight: 400;
 										color: #111;
-										/*color: #5b5b5b;*/
 										border: 1px solid #5b5b5b;
 									}
 								}
@@ -1955,237 +1954,106 @@
 	}
 }
 
-// 이사회 및 위원회
-// 공통 클래스
+// 이사회 및 위원회 공통
 .committee {
-    // tab list
-    .sub-tab-list {
-        margin-top: 40px;
-        ul {
-            font-size: 0;
-            li {
-                display: inline-block;
-                width: 50%;
-                a {
-                    display: block;
-                    font-size: 14px;
-                    text-align: center;
-                    color: #999;
-                    line-height: 38px;
-                    height: 40px;
-                    border: 1px solid #ccc;
-                }
-                &:last-child {
-                    a {
-                        border-left: 0;
-                    }
-                }
-                &.active {
-                    a {
-                        color: #fff;
-                        border-color: #eb6100;
-                        background-color: #eb6100;
-                    }
-                }
-            }
-        }
-        @media(min-width: $md) {
-            margin-top: 60px;
-            text-align: center;
-            ul {
-                display: inline-block;
-                width: 570px;
-                li {
-                    a {
-                        font-size: 16px;
-                        line-height: 48px;
-                        height: 50px;
-                        @include transition();
-                        &:hover, &:focus {
-                            opacity: .8;
-                            border: 1px solid #eb6100;
-                            background-color: #eb6100;
-                            color: #fff;
-                        }
-                    }
-                    &.active {
-                        a {
-                            &:hover, &:focus {
-                                opacity: 1 !important;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .section-header {
-        text-align: center;
-        padding: 45px 0;
-        h4 {
-            font-size: 18px;
-            color: #222;
-            line-height: 26px;
-        }
-        @media(min-width: $md) {
-            padding: 65px 0 55px;
-            h4 {
-                font-size: 28px;
-            }
-        }
-        @media(min-width: $xl) {
-            padding: 70px 0 60px;
-        }
-    }
-    .section-content {
-        > article {
-            text-align: center;
-            h5 {
-                font-size: 18px;
-                color: #666;
-                font-weight: 400;
-                margin-bottom: 30px;
-            }
-            & ~ article {
-                margin-top: 60px;
-            }
-            .table-wrap {
-                .table {
-                    table-layout: fixed;
-                    border: 0;
-                    margin-bottom: 0;
-                    thead {
-                        tr {
-                            th {
-                                font-size: 14px;
-                                color: #fff;
-                                font-weight: 300;
-                                text-align: center;
-                                border: 0;
-                                padding: 10px 5px;
-                                vertical-align: middle;
-                                border-right: 1px solid #dfdfdf;
-                                background-color: #999;
-                                &:last-child {
-                                    border-right: 0;
-                                }
-                            }
-                        }
-                    }
-                    tbody {
-                        tr {
-                            td {
-                                padding: 10px 5px;
-                                font-size: 13px;
-                                color: #666;
-                                vertical-align: middle;
-                                font-weight: 300;
-                                text-align: center;
-                                border-color: #dfdfdf;
-                                &:first-child {
-                                    border-left: 0;
-                                }
-                                &:last-child {
-                                    border-right: 0;
-                                }
-                                &.num {
-                                    @include roboto();
-                                }
-                            }
-                            &.audit {
-                                td {
-                                    background-color: #e7ecf5;
-                                }
-                            }
-                        }
-                    }
-                }
-                &.even {
-                    .table {
-                        thead {
-                            tr {
-                                th {
-                                    display: none;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        @media(min-width: $md) {
-            > article {                
-                h5 {
-                    font-size: 20px;
-                    margin-bottom: 40px;
-                }
-                & ~ article {
-                    margin-top: 90px;
-                }
-                .table-wrap {
-                    .table {
-                        table-layout: fixed;
-                        border: 0;
-                        margin-bottom: 0;
-                        thead {
-                            tr {
-                                th {
-                                    font-size: 15px;
-                                    padding: 20px 10px;
-                                }
-                            }
-                        }
-                        tbody {
-                            tr {
-                                td {
-                                    padding: 20px 10px;
-                                    font-size: 14px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        @media(min-width: $lg) {
-            > article {
-                .table-wrap {
-                    .table {
-                        thead {
-                            tr {
-                                th {
-                                    font-size: 16px;
-                                }
-                            }
-                        }
-                        tbody {
-                            tr {
-                                td {
-                                    font-size: 15px;
-                                }
-                            }
-                        }
-                    }
-                    &.even {
-                        margin-left: -15px;
-                        .table {
-                            thead {
-                                tr {
-                                    th {
-                                        display: table-cell;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    &.odd {
-                        margin-right: -15px;
-                        border-right: 1px solid #dfdfdf;
-                    }
-                }
-            }
-        }
-    }
+	.section-header {
+		text-align: center;
+		padding-top: 40px;
+		> h4 {
+			font-size: 22px;
+			color: #222;
+			font-weight: 400;
+		}
+		.sub-tab-list {
+			margin-top: 45px;
+			ul {
+				font-size: 0;
+				li {
+					display: inline-block;
+					width: 50%;
+					a {
+						display: block;
+						font-size: 14px;
+						text-align: center;
+						color: #999;
+						line-height: 38px;
+						height: 40px;
+						border: 1px solid #ccc;
+					}
+					&:last-child {
+						a {
+							border-left: 0;
+						}
+					}
+					&.active {
+						a {
+							color: #fff;
+							border-color: #eb6100;
+							background-color: #eb6100;
+						}
+					}
+				}
+			}
+		}
+		@media(min-width: $md) {
+			padding-top: 70px;
+			> h4 {
+				font-size: 30px;
+			}
+			.sub-tab-list {
+				margin-top: 40px;
+				text-align: center;
+				ul {
+					display: inline-block;
+					width: 570px;
+					li {
+						a {
+							font-size: 16px;
+							line-height: 48px;
+							height: 50px;
+							@include transition();
+							&:hover, &:focus {
+								opacity: .8;
+								border: 1px solid #eb6100;
+								background-color: #eb6100;
+								color: #fff;
+							}
+						}
+						&.active {
+							a {
+								&:hover, &:focus {
+									opacity: 1 !important;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		@media(min-width: $xl) { 
+			padding-top: 75px;
+			.sub-tab-list { 
+				margin-top: 50px;
+			}
+		}
+	}
+	.section-content {
+		margin-top: 50px;
+		@media(min-width: $md) {
+			margin-top: 70px;
+		}
+	}
+}
+
+//이사회(사단,복지) 
+.directorate {
+	.section-content {
+		.gp-group {
+			.article-header {
+				padding: 0 0 20px 20px;
+			}
+		}
+	}
 }
 
 //조직도
