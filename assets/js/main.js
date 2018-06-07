@@ -12,22 +12,17 @@
         });
     });
     $('.jumbotrons').on('afterChange', function(event, slick, currentSlide, nextSlide){
-        $(".slick-slide.visual-list").removeClass("action");
+        $('.slick-slide.visual-list').removeClass('action');
         setTimeout(function (){ 
-            $(".slick-active.visual-list").addClass("action"); 
+            $('.slick-active.visual-list').addClass('action'); 
             /*console.log('init'); */
         }, 500);
     });
-    $(".jumbotrons").on("init", function(event,slick){
+    $('.jumbotrons').on('init', function(event,slick){
         setTimeout(function(){ 
-            $(".slick-active.visual-list").addClass("action"); 
+            $('.slick-active.visual-list').addClass('action'); 
             /*console.log('init'); */
         }, 500);
-    });
-    
-    // visual-slider 관련 이벤트
-    $(window).on('load', function(){
-        $('.visual-slider .bar').addClass('on');
     });
 
     // support-business
@@ -156,8 +151,8 @@
     });
 
     // sns 리스트 스크롤바 
-    $(window).on("load",function() {
-        $(".scoll-event").mCustomScrollbar();
+    $(window).on('load',function() {
+        $('.scoll-event').mCustomScrollbar();
     });
     
     // campaign d-day event
@@ -167,7 +162,7 @@
                 $(elem).addClass('on');
             }
             $('.on .state-bar').each(function(){
-                $(this).css('width',$(this).attr("data-state")+'%');
+                $(this).css('width',$(this).attr('data-state')+'%');
             });
         });
     });

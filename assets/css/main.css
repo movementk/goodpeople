@@ -357,38 +357,6 @@ a {
     .container {
       max-width: 1200px; } }
 
-.visual-slider {
-  position: relative; }
-  .visual-slider .bar {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    width: 100%; }
-    .visual-slider .bar span {
-      position: absolute;
-      display: block;
-      bottom: 0;
-      width: 0;
-      height: 2px;
-      z-index: 99999999;
-      -webkit-transition-property: all;
-      transition-property: all;
-      -webkit-transition-duration: 1s;
-      transition-duration: 1s;
-      -webkit-transition-timing-function: linear;
-      transition-timing-function: linear;
-      -webkit-transition-delay: 0s;
-      transition-delay: 0s; }
-      .visual-slider .bar span.left {
-        left: 50%;
-        background-color: #144199; }
-      .visual-slider .bar span.right {
-        right: 50%;
-        background-color: #eb6100; }
-    .visual-slider .bar.on span {
-      width: 50%; }
-
 .jumbotrons {
   overflow: hidden;
   height: 420px; }
@@ -416,6 +384,7 @@ a {
       .jumbotrons .slick-dots li.slick-active > button {
         background-color: #eb6100; }
   .jumbotrons .visual-list {
+    position: relative;
     display: table;
     width: 100%;
     background-repeat: no-repeat;
@@ -435,6 +404,7 @@ a {
         font-size: 13px;
         color: #fff;
         font-weight: 500;
+        text-shadow: 2px 5px 18px black;
         font-family: 'Roboto', sans-serif;
         -webkit-transition-property: all;
         transition-property: all;
@@ -451,6 +421,7 @@ a {
         font-size: 26px;
         color: #fff;
         font-family: 'NanumSquare', sans-serif;
+        text-shadow: 2px 5px 18px black;
         letter-spacing: -2px;
         -webkit-transition-property: all;
         transition-property: all;
@@ -469,6 +440,7 @@ a {
         font-weight: 400;
         line-height: 22px;
         margin-top: 30px;
+        text-shadow: 2px 5px 18px black;
         -webkit-transition-property: all;
         transition-property: all;
         -webkit-transition-duration: 0.4s;
@@ -503,12 +475,38 @@ a {
           border: 0;
           border-radius: 0;
           background-color: #144199; }
+      .jumbotrons .visual-list .container-fluid .details .bar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        width: 100%; }
+        .jumbotrons .visual-list .container-fluid .details .bar span {
+          position: absolute;
+          display: block;
+          bottom: 0;
+          width: 0;
+          height: 5px;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 4.4s;
+          transition-duration: 4.4s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+          .jumbotrons .visual-list .container-fluid .details .bar span.left {
+            left: 50%;
+            background-color: #144199; }
+          .jumbotrons .visual-list .container-fluid .details .bar span.right {
+            right: 50%;
+            background-color: #eb6100; }
     .jumbotrons .visual-list.slide-1 {
       background-image: url(/assets/images/main/img_jumbo_sm_slider01.jpg); }
     .jumbotrons .visual-list.slide-2 {
-      background-image: url(/assets/images/main/img_jumbo_sm_slider01.jpg); }
+      background-image: url(/assets/images/main/img_jumbo_sm_slider02.jpg); }
     .jumbotrons .visual-list.slide-3 {
-      background-image: url(/assets/images/main/img_jumbo_sm_slider01.jpg); }
+      background-image: url(/assets/images/main/img_jumbo_sm_slider03.jpg); }
     .jumbotrons .visual-list.action .container-fluid .details small {
       top: 0;
       opacity: 1; }
@@ -521,6 +519,8 @@ a {
     .jumbotrons .visual-list.action .container-fluid .details .btn-area {
       top: 0;
       opacity: 1; }
+    .jumbotrons .visual-list.action .container-fluid .details .bar span {
+      width: 50%; }
   @media (min-width: 768px) {
     .jumbotrons {
       height: 720px; }
@@ -583,9 +583,9 @@ a {
         .jumbotrons .visual-list.slide-1 {
           background-image: url(/assets/images/main/img_jumbo_lg_slider01.jpg); }
         .jumbotrons .visual-list.slide-2 {
-          background-image: url(/assets/images/main/img_jumbo_lg_slider01.jpg); }
+          background-image: url(/assets/images/main/img_jumbo_lg_slider02.jpg); }
         .jumbotrons .visual-list.slide-3 {
-          background-image: url(/assets/images/main/img_jumbo_lg_slider01.jpg); }
+          background-image: url(/assets/images/main/img_jumbo_lg_slider03.jpg); }
         .jumbotrons .visual-list .container-fluid {
           height: 800px;
           text-align: left; }

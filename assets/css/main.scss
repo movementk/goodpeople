@@ -1,38 +1,5 @@
 @import 'common';
 
-//jumboslider
-.visual-slider {
-    position: relative;
-    .bar {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        text-align: center;
-        width: 100%;
-        span {
-            position: absolute;
-            display: block;
-            bottom: 0;
-            width: 0;
-            height: 2px;
-            z-index: 99999999;
-            @include transition($duration: 1s);
-            &.left {
-                left: 50%;
-                background-color: #144199;
-            }
-            &.right {
-                right: 50%;
-                background-color: #eb6100;
-            }
-        }
-        &.on {
-            span {
-                width: 50%;
-            }
-        }
-    }
-}
 .jumbotrons {
     overflow: hidden;
     height: 420px;
@@ -67,6 +34,7 @@
         }
     }
     .visual-list {
+        position: relative;
         display: table;
         width: 100%;
         background-repeat: no-repeat;
@@ -87,6 +55,7 @@
                     font-size: 13px;
                     color: #fff;
                     font-weight: 500;
+                    text-shadow: 2px 5px 18px rgba(0, 0, 0, 1);
                     @include roboto();
                     @include transition($duration: .40s);
                 }
@@ -97,6 +66,7 @@
                     font-size: 26px;
                     color: #fff;
                     @include nns();
+                    text-shadow: 2px 5px 18px rgba(0, 0, 0, 1);
                     letter-spacing: -2px;
                     @include transition($duration: .40s, $delay: .20s);
                 }
@@ -109,6 +79,7 @@
                     font-weight: 400;
                     line-height: 22px;
                     margin-top: 30px;
+                    text-shadow: 2px 5px 18px rgba(0, 0, 0, 1);
                     @include transition($duration: .40s, $delay: .40s);
                 }
                 .btn-area {
@@ -134,16 +105,39 @@
                         }
                     }
                 }
+                .bar {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    text-align: center;
+                    width: 100%;
+                    span {
+                        position: absolute;
+                        display: block;
+                        bottom: 0;
+                        width: 0;
+                        height: 5px;
+                        @include transition($duration: 4.4s);
+                        &.left {
+                            left: 50%;
+                            background-color: #144199;
+                        }
+                        &.right {
+                            right: 50%;
+                            background-color: #eb6100;
+                        }
+                    }
+                }
             }
         }
         &.slide-1 {
             background-image: url(/assets/images/main/img_jumbo_sm_slider01.jpg);
         }
         &.slide-2 {
-            background-image: url(/assets/images/main/img_jumbo_sm_slider01.jpg);
+            background-image: url(/assets/images/main/img_jumbo_sm_slider02.jpg);
         }
         &.slide-3 {
-            background-image: url(/assets/images/main/img_jumbo_sm_slider01.jpg);
+            background-image: url(/assets/images/main/img_jumbo_sm_slider03.jpg);
         }
         &.action {
             .container-fluid {
@@ -163,6 +157,11 @@
                     .btn-area {
                         top: 0;
                         opacity: 1;
+                    }
+                    .bar {
+                        span {
+                            width: 50%;
+                        }
                     }
                 }
             }
@@ -249,10 +248,10 @@
                 background-image: url(/assets/images/main/img_jumbo_lg_slider01.jpg);
             }
             &.slide-2 {
-                background-image: url(/assets/images/main/img_jumbo_lg_slider01.jpg);
+                background-image: url(/assets/images/main/img_jumbo_lg_slider02.jpg);
             }
             &.slide-3 {
-                background-image: url(/assets/images/main/img_jumbo_lg_slider01.jpg);
+                background-image: url(/assets/images/main/img_jumbo_lg_slider03.jpg);
             }
             .container-fluid {
                 height: 800px;

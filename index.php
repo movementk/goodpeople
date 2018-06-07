@@ -9,68 +9,74 @@
     <!-- Content -->
     <main id="content">
         <!-- jumbotrons slider -->
-        <article class="visual-slider">
-            <div class="jumbotrons">
-                <div class="visual-list slide-1">
-                    <div class="container-fluid">
-                        <div class="details">
-                            <small>MISSION</small>
-                            <h3>나누는 사랑 넘치는 기쁨</h3>
+        <div class="jumbotrons">
+            <div class="visual-list slide-1">
+                <div class="container-fluid">
+                    <div class="details">
+                        <small>MISSION</small>
+                        <h3>나누는 사랑 넘치는 기쁨</h3>
+                        <p>
+                            굿피플은 가난, 재난, 질병으로부터 구제하고 <br class="d-md-none">
+                            자립할 수 있도록 지원하여<br class="d-none d-md-block"> 모두가 고통받지 않는 <br class="d-md-none">
+                            행복한 세상을 만들기 위해 존재합니다.
+                        </p>
+                        <div class="btn-area">
                             <p>
-                                굿피플은 가난, 재난, 질병으로부터 구제하고 <br class="d-md-none">
-                                자립할 수 있도록 지원하여<br class="d-none d-md-block"> 모두가 고통받지 않는 <br class="d-md-none">
-                                행복한 세상을 만들기 위해 존재합니다.
+                                <a href="#" class="btn btn-blue" role="button">자세히보기</a>
                             </p>
-                            <div class="btn-area">
-                                <p>
-                                    <a href="#" class="btn btn-blue" role="button">자세히보기</a>
-                                </p>
-                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="visual-list slide-2">
-                    <div class="container-fluid">
-                        <div class="details">
-                            <small>MISSION</small>
-                            <h3>나누는 사랑 넘치는 기쁨</h3>
-                            <p>
-                                굿피플은 가난, 재난, 질병으로부터 구제하고 <br class="d-md-none">
-                                자립할 수 있도록 지원하여<br class="d-none d-md-block"> 모두가 고통받지 않는 <br class="d-md-none">
-                                행복한 세상을 만들기 위해 존재합니다.
-                            </p>
-                            <div class="btn-area">
-                                <p>
-                                    <a href="#" class="btn btn-blue" role="button">자세히보기</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="visual-list slide-3">
-                    <div class="container-fluid">
-                        <div class="details">
-                            <small>MISSION</small>
-                            <h3>나누는 사랑 넘치는 기쁨</h3>
-                            <p>
-                                굿피플은 가난, 재난, 질병으로부터 구제하고 <br class="d-md-none">
-                                자립할 수 있도록 지원하여<br class="d-none d-md-block"> 모두가 고통받지 않는 <br class="d-md-none">
-                                행복한 세상을 만들기 위해 존재합니다.
-                            </p>
-                            <div class="btn-area">
-                                <p>
-                                    <a href="#" class="btn btn-blue" role="button">자세히보기</a>
-                                </p>
-                            </div>
+                        <div class="bar">
+                            <span class="left"></span>
+                            <span class="right"></span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="bar">
-                <span class="left"></span>
-                <span class="right"></span>
+            <div class="visual-list slide-2">
+                <div class="container-fluid">
+                    <div class="details">
+                        <small>MISSION</small>
+                        <h3>나누는 사랑 넘치는 기쁨</h3>
+                        <p>
+                            굿피플은 가난, 재난, 질병으로부터 구제하고 <br class="d-md-none">
+                            자립할 수 있도록 지원하여<br class="d-none d-md-block"> 모두가 고통받지 않는 <br class="d-md-none">
+                            행복한 세상을 만들기 위해 존재합니다.
+                        </p>
+                        <div class="btn-area">
+                            <p>
+                                <a href="#" class="btn btn-blue" role="button">자세히보기</a>
+                            </p>
+                        </div>
+                        <div class="bar">
+                            <span class="left"></span>
+                            <span class="right"></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </article>
+            <div class="visual-list slide-3">
+                <div class="container-fluid">
+                    <div class="details">
+                        <small>MISSION</small>
+                        <h3>나누는 사랑 넘치는 기쁨</h3>
+                        <p>
+                            굿피플은 가난, 재난, 질병으로부터 구제하고 <br class="d-md-none">
+                            자립할 수 있도록 지원하여<br class="d-none d-md-block"> 모두가 고통받지 않는 <br class="d-md-none">
+                            행복한 세상을 만들기 위해 존재합니다.
+                        </p>
+                        <div class="btn-area">
+                            <p>
+                                <a href="#" class="btn btn-blue" role="button">자세히보기</a>
+                            </p>
+                        </div>
+                        <div class="bar">
+                            <span class="left"></span>
+                            <span class="right"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
         <!-- support-business -->
         <article class="support-business">
