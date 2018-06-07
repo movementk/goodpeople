@@ -23,6 +23,7 @@
 .icon-mail-circled:before { content: '\e815'; } /* '' */
 .icon-heart:before { content: '\e816'; } /* '' */
 .icon-down-open-big:before { content: '\e817'; } /* '' */
+.icon-phone:before { content: '\e818'; } /* '' */
 .icon-down-open:before { content: '\f004'; } /* '' */
 .icon-up-open:before { content: '\f005'; } /* '' */
 .icon-right-open:before { content: '\f006'; } /* '' */
@@ -33,4 +34,5 @@
 .icon-angle-right:before { content: '\f105'; } /* '' */
 .icon-angle-down:before { content: '\f107'; } /* '' */
 .icon-calendar-empty:before { content: '\f133'; } /* '' */
+.icon-facebook-rect:before { content: '\f301'; } /* '' */
 .icon-instagram:before { content: '\f31e'; } /* '' */

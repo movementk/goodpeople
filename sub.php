@@ -779,6 +779,81 @@
 					</div>
 				</div>
 			</article>
+            
+            <!-- 이사회및 조직도 리스트 -->
+            <p class="ex-txt">이사회 및 자문단 리스트</p>
+            <!-- 
+                보더 컬러 클레스
+                기본값은 #333
+                or > orange
+                bl > blue
+            -->
+            <article class="gp-group">
+                <div class="article-header">
+                    <h4>회장단</h4>
+                    <p>굿피플의 회장운영을 맏고 계신분들을 소개 합니다.</p>
+                </div>
+                <div class="article-content">
+                    <ul>
+                        <li>
+                            <div class="people-information">
+                                <h5>
+                                    김천수 <small>회장</small>
+                                    <a href="#" target="_blank" class="ico-facebook">
+                                        <i class="icon-facebook-rect">
+                                            <span class="sr-only">페이스북 이동</span>
+                                        </i>
+                                    </a>
+                                </h5>
+                                <a href="tel:021111111" class="tel">02-111-1111</a>
+                                <p class="summary">중앙일보 상임고문 / 초대 문화부장관</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="people-information">
+                                <h5>
+                                    김천수 <small>회장</small>
+                                    <a href="#" target="_blank" class="ico-facebook">
+                                        <i class="icon-facebook-rect">
+                                            <span class="sr-only">페이스북 이동</span>
+                                        </i>
+                                    </a>
+                                </h5>
+                                <a href="tel:021111111" class="tel">02-111-1111</a>
+                                <p class="summary">간단히 쓸 내용 요청</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="people-information">
+                                <h5>
+                                    김천수 <small>회장</small>
+                                    <a href="#" target="_blank" class="ico-facebook">
+                                        <i class="icon-facebook-rect">
+                                            <span class="sr-only">페이스북 이동</span>
+                                        </i>
+                                    </a>
+                                </h5>
+                                <a href="tel:021111111" class="tel">02-111-1111</a>
+                                <p class="summary">간단히 쓸 내용 요청</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="people-information">
+                                <h5>
+                                    김천수 <small>회장</small>
+                                    <a href="#" target="_blank" class="ico-facebook">
+                                        <i class="icon-facebook-rect">
+                                            <span class="sr-only">페이스북 이동</span>
+                                        </i>
+                                    </a>
+                                </h5>
+                                <a href="tel:021111111" class="tel">02-111-1111</a>
+                                <p class="summary">간단히 쓸 내용 요청</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </article>
     	</div>
     </main>
     

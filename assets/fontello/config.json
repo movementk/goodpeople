@@ -215,6 +215,18 @@
       "css": "angle-down",
       "code": 61703,
       "src": "fontawesome"
+    },
+    {
+      "uid": "8045477f6a7ef0bd7caff130ad25b88d",
+      "css": "facebook-rect",
+      "code": 62209,
+      "src": "brandico"
+    },
+    {
+      "uid": "9f7e588c66cfd6891f6f507cf6f6596b",
+      "css": "phone",
+      "code": 59416,
+      "src": "fontawesome"
     }
   ]
 }

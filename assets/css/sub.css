@@ -1787,4 +1787,119 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     .accordion .card .card-body .chart-area .row > div .img-fluid {
       margin-top: 50px; } }
 
+.gp-group ~ .gp-group {
+  margin-top: 60px; }
+.gp-group.or .article-header h4 {
+  color: #eb6303; }
+.gp-group.or .article-content {
+  border-color: #eb6303; }
+.gp-group.bl .article-header h4 {
+  color: #144199; }
+.gp-group.bl .article-content {
+  border-color: #144199; }
+.gp-group .article-header {
+  padding-bottom: 20px; }
+  .gp-group .article-header h4 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 400; }
+  .gp-group .article-header p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px; }
+.gp-group .article-content {
+  border-top: 2px solid #333; }
+  .gp-group .article-content > ul > li {
+    padding: 10px 0 10px 20px;
+    border-bottom: 1px solid #e5e5e5; }
+    .gp-group .article-content > ul > li .people-information h5 {
+      font-size: 16px;
+      color: #333;
+      font-weight: 400; }
+      .gp-group .article-content > ul > li .people-information h5 small {
+        font-size: 13px;
+        color: #666;
+        display: inline-block;
+        margin: 0 8px; }
+      .gp-group .article-content > ul > li .people-information h5 .ico-facebook {
+        display: inline-block;
+        font-size: 13px;
+        color: #465892;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; }
+        .gp-group .article-content > ul > li .people-information h5 .ico-facebook:hover {
+          opacity: .7; }
+    .gp-group .article-content > ul > li .people-information .tel {
+      position: relative;
+      font-size: 13px;
+      color: #999;
+      display: block;
+      font-weight: 400;
+      padding-left: 20px;
+      margin-top: 10px;
+      font-family: 'Roboto', sans-serif; }
+      .gp-group .article-content > ul > li .people-information .tel:before {
+        position: absolute;
+        top: 1px;
+        left: 0;
+        font-family: "fontello";
+        content: "\E818"; }
+    .gp-group .article-content > ul > li .people-information .summary {
+      font-size: 13px;
+      color: #999;
+      display: block;
+      font-weight: 400;
+      margin-top: 10px; }
+@media (min-width: 768px) {
+  .gp-group ~ .gp-group {
+    margin-top: 90px; }
+  .gp-group .article-header {
+    padding: 0 0 30px 20px; }
+    .gp-group .article-header h4 {
+      font-size: 22px; }
+    .gp-group .article-header p {
+      font-size: 15px;
+      margin-top: 20px; }
+  .gp-group .article-content > ul {
+    overflow: hidden; }
+    .gp-group .article-content > ul > li {
+      float: left;
+      width: 50%;
+      padding: 30px 0 30px 20px; }
+      .gp-group .article-content > ul > li:nth-of-type(2n + 1) {
+        clear: both; }
+      .gp-group .article-content > ul > li:nth-of-type(2n + 2) .people-information {
+        border-right: 0; }
+      .gp-group .article-content > ul > li .people-information {
+        border-right: 1px solid #e5e5e5; }
+        .gp-group .article-content > ul > li .people-information h5 {
+          font-size: 18px; }
+          .gp-group .article-content > ul > li .people-information h5 small {
+            font-size: 14px; }
+          .gp-group .article-content > ul > li .people-information h5 .ico-facebook {
+            font-size: 14px; }
+        .gp-group .article-content > ul > li .people-information .tel {
+          font-size: 14px;
+          margin-top: 20px; }
+        .gp-group .article-content > ul > li .people-information .summary {
+          font-size: 14px;
+          margin-top: 20px; } }
+@media (min-width: 1200px) {
+  .gp-group .article-content > ul > li {
+    width: 25%; }
+    .gp-group .article-content > ul > li:nth-of-type(2n + 1) {
+      clear: none; }
+    .gp-group .article-content > ul > li:nth-of-type(2n + 2) .people-information {
+      border-right: 1px solid #e5e5e5; }
+    .gp-group .article-content > ul > li:nth-of-type(4n + 1) {
+      clear: both; }
+    .gp-group .article-content > ul > li:nth-of-type(4n + 4) .people-information {
+      border-right: 0; } }
+
 /*# sourceMappingURL=sub.css.map */
