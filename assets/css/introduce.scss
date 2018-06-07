@@ -1359,17 +1359,46 @@
 
 //지부안내 - 해외지부
 .international-camps {
-	.map {
+	.maps {
 		margin-top: 35px;
         padding: 0 6%;
 		img {
 			display: block;
-			/*width: 100%;*/
 			margin: 0 auto;
 		}
 		@media (min-width: $md) {
 			margin-top: 70px;
             padding: 0;
+            .map-lg {
+                position: relative;
+                margin: 0 80px;
+                .international-map {
+                    position: relative;
+                    top: -50px;
+                    width: 100%;
+                    opacity: 0;
+                    @include transition($duration: .40s, $delay: .20s);
+                }
+                .icon-national-flag {
+                    position: absolute;
+                    top: -50px;
+                    left: 0;
+                    width: 100%;
+                    opacity: 0;
+                    @include transition($duration: .40s, $delay: .60s);
+                }
+                &.on {
+                    .international-map {
+                        top: 0;
+                        opacity: 1;
+                    }
+                    .icon-national-flag {
+                        top: 0px;
+                        opacity: 1;
+                    }
+                }
+            }
+            
 		}
 		@media (min-width: $xl) {
 			margin-top: 100px;

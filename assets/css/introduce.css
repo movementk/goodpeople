@@ -1255,19 +1255,54 @@ a {
     .minutes .section-content ul li h3 {
       font-size: 16px; } }
 
-.international-camps .map {
+.international-camps .maps {
   margin-top: 35px;
   padding: 0 6%; }
-  .international-camps .map img {
+  .international-camps .maps img {
     display: block;
-    /*width: 100%;*/
     margin: 0 auto; }
   @media (min-width: 768px) {
-    .international-camps .map {
+    .international-camps .maps {
       margin-top: 70px;
-      padding: 0; } }
+      padding: 0; }
+      .international-camps .maps .map-lg {
+        position: relative;
+        margin: 0 80px; }
+        .international-camps .maps .map-lg .international-map {
+          position: relative;
+          top: -50px;
+          width: 100%;
+          opacity: 0;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s; }
+        .international-camps .maps .map-lg .icon-national-flag {
+          position: absolute;
+          top: -50px;
+          left: 0;
+          width: 100%;
+          opacity: 0;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s; }
+        .international-camps .maps .map-lg.on .international-map {
+          top: 0;
+          opacity: 1; }
+        .international-camps .maps .map-lg.on .icon-national-flag {
+          top: 0px;
+          opacity: 1; } }
   @media (min-width: 1200px) {
-    .international-camps .map {
+    .international-camps .maps {
       margin-top: 100px; } }
 .international-camps ul {
   margin-top: 40px; }

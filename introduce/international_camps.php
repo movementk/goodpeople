@@ -33,9 +33,14 @@
     <!-- Content -->
 	<main id="content" class="international-camps">
 		<div class="container">
-			<div class="map">
-				<img src="/assets/images/introduce/img_international_map_md.gif" class="img-fluid d-xl-none" alt="">
-				<img src="/assets/images/introduce/img_international_map_xl.gif" class="img-fluid d-none d-xl-block" alt="">
+			<div class="maps">
+                <p class="d-md-none">
+				    <img src="/assets/images/introduce/img_international_map_md.gif" class="img-fluid" alt="">
+                </p>
+                <p class="map-lg d-none d-md-block">
+                    <img src="/assets/images/introduce/img_international_lg_map.jpg" class="img-fluid international-map" alt="">
+                    <img src="/assets/images/introduce/icon_national_flag.png" class="img-fluid icon-national-flag" alt="">
+                </p>
 			</div>
 			<ul>
 				<li>
@@ -209,5 +214,18 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script src="/assets/js/sub.js"></script>
+    <script>
+        (function($){
+            // 지도 관련
+            $(window).on('load resize', function(){
+                var contWidth = $('body').width();
+                if (contWidth >= 768) {
+                    $('.maps .map-lg').addClass('on');
+                } else if (contWidth <= 768) {
+                    $('.maps .map-lg').removeClass('on');
+                }
+            });
+        })(jQuery);
+    </script>
 </body>
 </html>
