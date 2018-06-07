@@ -927,9 +927,34 @@
     	</div>
     </main>
     
+    <!-- quick-spon -->
+    <nav id="quick-nav" class="quick-close">
+        <div class="container">
+            <button type="button" class="btn-quick close-btn">버튼</button>
+            <div class="quick-wrap">
+                <ul class="quick-spon-list">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                </ul>
+                <a href="#" class="d-none d-md-block btn-top">TOP</a>
+            </div>
+        </div>
+    </nav>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script src="/assets/js/sub.js"></script>
+    <script>
+        (function($){
+            // 하단 퀵메뉴 관련
+            $(document).on('click','#quick-nav .btn-quick', function(){
+                $(this).toggleClass('close-btn');
+                $('#quick-nav').toggleClass('quick-close');
+            });
+        })(jQuery);
+    </script>
 </body>
 </html>
