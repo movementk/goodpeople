@@ -115,6 +115,7 @@
 								모든 사람들과 함께 한다.
 							</p>
 						</li>
+<!--
 						<li>
 							<div class="item">
 								<img src="/assets/images/introduce/img_value_list01.png" alt="">
@@ -125,16 +126,8 @@
 								행복한 세상을 목표 한다.
 							</p>
 						</li>
-						<li>
-							<div class="item">
-								<img src="/assets/images/introduce/img_value_list01.png" alt="">
-							</div>
-							<h4>Passion</h4>
-							<p>
-								굿피플은 사랑을 실천하기 <br>
-								위해 열정적으로 행동한다.
-							</p>
-						</li>
+-->
+					
 						
 						<li>
 							<div class="item">
@@ -144,6 +137,16 @@
 							<p>
 								굿피플은 진실되게 말하고, <br>
 								정직하게 실천한다.
+							</p>
+						</li>
+							<li>
+							<div class="item">
+								<img src="/assets/images/introduce/img_value_list01.png" alt="">
+							</div>
+							<h4>Passion</h4>
+							<p>
+								굿피플은 사랑을 실천하기 <br>
+								위해 열정적으로 행동한다.
 							</p>
 						</li>
 					</ul>
