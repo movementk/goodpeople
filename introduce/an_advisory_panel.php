@@ -44,95 +44,100 @@
                     </nav>
                 </div>
                 <div class="section-content">
-                    <article>
-                        <h5>&lt; 사단법인 이사 &gt;</h5>
-                        <div class="table-wrap">
-                            <table class="table table-bordered">
-                                <colgroup>
-                                    <col style="width: 15%;">
-                                    <col style="width: 33%;">
-                                    <col style="width: 33%;">
-                                    <col style="width: 19%;">
-                                </colgroup>
-                                <thead>
-                                    <tr>
-                                        <th>순번</th>
-                                        <th>성 명</th>
-                                        <th>기업(학교)명</th>
-                                        <th>구 분</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="num">1</td>
-                                        <td>선진경 대표</td>
-                                        <td>오마이 컴퍼니</td>
-                                        <td>Funding</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">2</td>
-                                        <td>한동우 교수</td>
-                                        <td>강남대학교</td>
-                                        <td>교수</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">3</td>
-                                        <td>최상미 교수</td>
-                                        <td>동국대학교</td>
-                                        <td>교수</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">4</td>
-                                        <td>안수남 대표</td>
-                                        <td>다솔세무법인</td>
-                                        <td>세무</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">5</td>
-                                        <td>염창환 원장</td>
-                                        <td>비타민엔젤스</td>
-                                        <td>의료</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">6</td>
-                                        <td>유영진 대표</td>
-                                        <td>소셜가드너</td>
-                                        <td>sns</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">7</td>
-                                        <td>조소연 박사</td>
-                                        <td>사회복지연구소 마:실</td>
-                                        <td>사례개발</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">8</td>
-                                        <td>양창국 사장</td>
-                                        <td>청밀</td>
-                                        <td>기업인</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">9</td>
-                                        <td>김현명 부회장</td>
-                                        <td>LA총영사</td>
-                                        <td>외교관</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">10</td>
-                                        <td>이태호 대표</td>
-                                        <td>임팩트워커스</td>
-                                        <td>모금</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="num">11</td>
-                                        <td>조문열 변호사</td>
-                                        <td>변호사</td>
-                                        <td>변호사</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </article>
+                    <article class="gp-group bl">
+						<div class="article-content">
+							<ul>
+								<li>
+									<div class="people-information">
+										<h5>
+											성진경 <small>대표</small>
+										</h5>
+										<p class="summary">오마이 컴퍼니 / Funding</p>
+									</div>
+								</li>
+								<li>
+									<div class="people-information">
+										<h5>
+											한동우 <small>교수</small>
+										</h5>
+										<p class="summary">강남대학교 / 교수</p>
+									</div>
+								</li>
+								<li>
+									<div class="people-information">
+										<h5>
+											최상미 <small>교수</small>
+										</h5>
+										<p class="summary">동국대학교 / 교수</p>
+									</div>
+								</li>
+								<li>
+									<div class="people-information">
+										<h5>
+											안수남 <small>대표</small>
+										</h5>
+										<p class="summary">다솔세무법인 / 세무</p>
+									</div>
+								</li>
+								<li>
+									<div class="people-information">
+										<h5>
+											염창환 <small>원장</small>
+										</h5>
+										<p class="summary">비타민엔젤스 / 의료</p>
+									</div>
+								</li>
+								<li>
+									<div class="people-information">
+										<h5>
+											유영진 <small>대표</small>
+										</h5>
+										<p class="summary">소셜가드너 / sns</p>
+									</div>
+								</li>
+								<li>
+									<div class="people-information">
+										<h5>
+											조소연 <small>박사</small>
+										</h5>
+										<p class="summary">사회복지연구소 마:실 / 사례개발</p>
+									</div>
+								</li>
+								<li>
+									<div class="people-information">
+										<h5>
+											양창국 <small>사장</small>
+										</h5>
+										<p class="summary">청밀 / 기업인</p>
+									</div>
+								</li>
+								<li>
+									<div class="people-information">
+										<h5>
+											김현명 <small>부회장</small>
+										</h5>
+										<p class="summary">LA총영사 / 외교관</p>
+									</div>
+								</li>
+								<li>
+									<div class="people-information">
+										<h5>
+											이태호 <small>대표</small>
+										</h5>
+										<p class="summary">임팩트워커스/ 모금</p>
+									</div>
+								</li>
+								<li>
+									<div class="people-information">
+										<h5>
+											조문열 <small>변호사</small>
+										</h5>
+										<p class="summary">변호사</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</article>
                 </div>
             </section>
 		</div>

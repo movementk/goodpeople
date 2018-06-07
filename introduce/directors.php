@@ -38,8 +38,8 @@
 					<h4>조직도</h4>
 					<nav class="sub-tab-list">
 						<ul>
-							<li class="active"><a href="/introduce/directors.php">이사장 및 이사</a></li>
-							<li><a href="#">함께하는 파트너</a></li>
+							<li class="active"><a href="/introduce/directors.php">이사장 및 회장</a></li>
+							<li><a href="/introduce/staffer.php">사무국</a></li>
 						</ul>
 					</nav>
 				</div>
