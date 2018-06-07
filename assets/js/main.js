@@ -24,6 +24,11 @@
             /*console.log('init'); */
         }, 500);
     });
+    
+    // visual-slider 관련 이벤트
+    $(window).on('load', function(){
+        $('.visual-slider .bar').addClass('on');
+    });
 
     // support-business
     $(window).ready(function(){
@@ -161,7 +166,6 @@
             if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 2)) {
                 $(elem).addClass('on');
             }
-
             $('.on .state-bar').each(function(){
                 $(this).css('width',$(this).attr("data-state")+'%');
             });

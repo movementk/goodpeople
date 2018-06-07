@@ -441,50 +441,103 @@ a {
         width: 180px;
         height: 40px;
         border: 1px solid #666; }
-  .campaign-list .article-content > ul > li a {
-    display: block; }
-    .campaign-list .article-content > ul > li a .item {
-      position: relative; }
-      .campaign-list .article-content > ul > li a .item.ongoing .label {
-        background-color: #f5a100; }
-      .campaign-list .article-content > ul > li a .item.termination .label {
-        background-color: #3a3d44; }
-      .campaign-list .article-content > ul > li a .item .label {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        font-size: 12px;
-        color: #fff;
-        text-align: center;
-        display: block;
-        width: 80px;
-        height: 30px;
-        line-height: 30px; }
-      .campaign-list .article-content > ul > li a .item figure .img-fluid {
-        display: block;
-        width: 100%;
-        margin: 0 auto; }
-    .campaign-list .article-content > ul > li a .details {
-      padding-top: 25px;
-      text-align: center; }
-      .campaign-list .article-content > ul > li a .details small {
-        font-size: 13px;
-        color: #666; }
-      .campaign-list .article-content > ul > li a .details h3 {
-        display: block;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        font-size: 14px;
-        color: #333;
-        font-weight: 400;
-        margin-top: 15px; }
-      .campaign-list .article-content > ul > li a .details .icon-list {
-        margin-top: 20px; }
-  .campaign-list .article-content > ul > li ~ li a {
-    margin-top: 30px; }
-  .campaign-list .article-content .paging {
-    margin-top: 60px; }
+  .campaign-list .article-content {
+    padding: 0 15px; }
+    .campaign-list .article-content > ul > li a {
+      position: relative;
+      display: block; }
+      .campaign-list .article-content > ul > li a .item {
+        position: relative; }
+        .campaign-list .article-content > ul > li a .item.ongoing .label {
+          background-color: #f5a100; }
+        .campaign-list .article-content > ul > li a .item.termination .label {
+          background-color: #3a3d44; }
+        .campaign-list .article-content > ul > li a .item.termination .backdrop {
+          opacity: 1; }
+        .campaign-list .article-content > ul > li a .item .label {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          width: 80px;
+          height: 30px;
+          font-size: 12px;
+          color: #fff;
+          text-align: center;
+          display: block;
+          z-index: 2;
+          line-height: 30px; }
+        .campaign-list .article-content > ul > li a .item figure .img-fluid {
+          display: block;
+          width: 100%;
+          margin: 0 auto; }
+        .campaign-list .article-content > ul > li a .item .progress-area {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 10px;
+          z-index: 3;
+          background-color: #ccc; }
+          .campaign-list .article-content > ul > li a .item .progress-area .state-bar {
+            position: relative;
+            height: 10px;
+            display: block;
+            background-color: #ee7500;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 1.5s;
+            transition-duration: 1.5s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
+            .campaign-list .article-content > ul > li a .item .progress-area .state-bar .d-day {
+              position: absolute;
+              top: -46px;
+              right: -18px;
+              font-size: 13px;
+              color: #fff;
+              display: inline-block;
+              width: 35px;
+              height: 42px;
+              line-height: 38px;
+              font-weight: bold;
+              text-align: center;
+              font-family: 'Roboto', sans-serif;
+              background-image: url(/assets/images/main/bg_d_day.png);
+              background-repeat: no-repeat;
+              background-size: 35px 42px;
+              background-position: 0 0; }
+        .campaign-list .article-content > ul > li a .item .backdrop {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          z-index: 1;
+          background-color: rgba(0, 0, 0, 0.6); }
+      .campaign-list .article-content > ul > li a .details {
+        padding-top: 25px;
+        text-align: center; }
+        .campaign-list .article-content > ul > li a .details small {
+          font-size: 13px;
+          color: #666; }
+        .campaign-list .article-content > ul > li a .details h3 {
+          display: block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-size: 14px;
+          color: #333;
+          font-weight: 400;
+          margin-top: 15px; }
+        .campaign-list .article-content > ul > li a .details .icon-list {
+          margin-top: 20px; }
+    .campaign-list .article-content > ul > li ~ li a {
+      margin-top: 30px; }
+    .campaign-list .article-content .paging {
+      margin-top: 60px; }
   @media (min-width: 768px) {
     .campaign-list {
       margin-top: 100px; }
@@ -509,11 +562,13 @@ a {
   @media (min-width: 1200px) {
     .campaign-list {
       margin-top: 110px; }
-      .campaign-list .article-content > ul > li:nth-of-type(2) ~ li a {
-        margin-top: 0; }
-      .campaign-list .article-content > ul > li:nth-of-type(3) ~ li a {
-        margin-top: 60px; }
-      .campaign-list .article-content .paging {
-        margin-top: 80px; } }
+      .campaign-list .article-content {
+        padding: 0; }
+        .campaign-list .article-content > ul > li:nth-of-type(2) ~ li a {
+          margin-top: 0; }
+        .campaign-list .article-content > ul > li:nth-of-type(3) ~ li a {
+          margin-top: 60px; }
+        .campaign-list .article-content .paging {
+          margin-top: 80px; } }
 
 /*# sourceMappingURL=campaign.css.map */

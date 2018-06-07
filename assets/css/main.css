@@ -357,8 +357,39 @@ a {
     .container {
       max-width: 1200px; } }
 
+.visual-slider {
+  position: relative; }
+  .visual-slider .bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%; }
+    .visual-slider .bar span {
+      position: absolute;
+      display: block;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      z-index: 99999999;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 1s;
+      transition-duration: 1s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .visual-slider .bar span.left {
+        left: 50%;
+        background-color: #144199; }
+      .visual-slider .bar span.right {
+        right: 50%;
+        background-color: #eb6100; }
+    .visual-slider .bar.on span {
+      width: 50%; }
+
 .jumbotrons {
-  position: relative;
   overflow: hidden;
   height: 420px; }
   .jumbotrons .slick-arrow {
@@ -653,6 +684,8 @@ a {
   font-family: 'NanumSquare', sans-serif;
   padding: 40px 0;
   background-color: #fff; }
+  .campaign-list .container-fluid {
+    padding: 0 20px !important; }
   .campaign-list h3 {
     font-size: 23px;
     color: #111;
@@ -772,6 +805,8 @@ a {
   @media (min-width: 1200px) {
     .campaign-list {
       padding: 100px 6%; }
+      .campaign-list .container-fluid {
+        padding: 0 15px !important; }
       .campaign-list h3 {
         font-size: 50px; }
       .campaign-list .section-content > ul > li > a {

@@ -102,7 +102,7 @@
                         <a href="#">캠페인</a>
                         <ul class="depth-2">
                             <li class="quick-link">
-                                <a href="#">캠페인</a>
+                                <a href="/campaign/campaign_list.php">캠페인</a>
                             </li>
                             <li class="quick-link">
                                 <a href="/campaign/campaign_review.php">캠페인 후기</a>

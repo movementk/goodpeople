@@ -1,8 +1,39 @@
 @import 'common';
 
-//jumboslider 
-.jumbotrons {
+//jumboslider
+.visual-slider {
     position: relative;
+    .bar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        span {
+            position: absolute;
+            display: block;
+            bottom: 0;
+            width: 0;
+            height: 2px;
+            z-index: 99999999;
+            @include transition($duration: 1s);
+            &.left {
+                left: 50%;
+                background-color: #144199;
+            }
+            &.right {
+                right: 50%;
+                background-color: #eb6100;
+            }
+        }
+        &.on {
+            span {
+                width: 50%;
+            }
+        }
+    }
+}
+.jumbotrons {
     overflow: hidden;
     height: 420px;
     .slick-arrow {
@@ -348,6 +379,9 @@
     @include nns();
     padding: 40px 0;
     background-color: #fff;
+    .container-fluid {
+        padding: 0 20px !important;
+    }
     h3 {
         font-size: 23px;
         color: #111;
@@ -509,6 +543,9 @@
     }
     @media(min-width: $xl) {
         padding: 100px 6%;
+        .container-fluid {
+            padding: 0 15px !important;
+        }
         h3 {
             font-size: 50px;
         }

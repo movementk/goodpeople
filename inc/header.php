@@ -134,7 +134,7 @@
                             <li>
                                 <h3>캠페인</h3>
                                 <ul>
-                                    <li><a href="#">캠페인<span></span></a></li>
+                                    <li><a href="/campaign/campaign_list.php">캠페인<span></span></a></li>
                                 </ul>
                             </li>
                             <li>

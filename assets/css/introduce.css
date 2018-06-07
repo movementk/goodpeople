@@ -669,7 +669,6 @@ a {
           margin-top: 60px; }
           .vision .value .section-content ul {
             position: relative;
-            width: 724px;
             height: 430px;
             margin: 0 auto;
             background-image: url(/assets/images/introduce/bg_value_list.png);
@@ -682,7 +681,6 @@ a {
               .vision .value .section-content ul li ~ li {
                 margin-top: 285px; }
               .vision .value .section-content ul li:nth-of-type(1) {
-                width: 100% !important;
                 position: absolute;
                 top: 0;
                 left: 50%;
@@ -697,15 +695,9 @@ a {
                   .vision .value .section-content ul li:nth-of-type(1) .summary h4 {
                     margin-top: 0; }
               .vision .value .section-content ul li:nth-of-type(2) {
-                /*padding-top: 15px;
-                padding-top: 0;
-                margin-top: 70px;*/
                 padding-right: 190px;
                 text-align: right; }
               .vision .value .section-content ul li:nth-of-type(3) {
-                /*padding-top: 15px;
-                padding-top: 0;
-                margin-top: 70px;*/
                 padding-left: 190px;
                 text-align: left; }
               .vision .value .section-content ul li p {
@@ -722,21 +714,15 @@ a {
         .vision .value .section-content {
           margin-top: 50px; }
           .vision .value .section-content ul {
-            /*li {
-            	padding-top: 25px;
-            	&:nth-of-type(3) {
-            		margin-top: 100px;
-            	}
-            	&:nth-of-type(4) {
-            		margin-top: 100px;
-            	}
-            	&:nth-of-type(odd) {
-            		padding-right: 200px;
-            	}
-            	&:nth-of-type(even) {
-            		padding-left: 200px;
-            	}
-            }*/ } }
+            padding-top: 80px;
+            height: 490px;
+            background-size: 410px auto; }
+            .vision .value .section-content ul li ~ li {
+              margin-top: 255px; }
+            .vision .value .section-content ul li:nth-of-type(2) {
+              padding-right: 215px; }
+            .vision .value .section-content ul li:nth-of-type(3) {
+              padding-left: 204px; } }
 
 .history article .article-header {
   margin-top: 50px; }

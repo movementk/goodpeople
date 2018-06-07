@@ -35,6 +35,12 @@
                                     <figure>
                                         <img src="/assets/images/campaign/img_review01.jpg" class="img-fluid" alt="">
                                     </figure>
+                                    <div class="progress-area">
+                                        <div class="state-bar" style="width: 0" data-state="85">
+                                            <p class="d-day">D-7</p>
+                                        </div>
+                                    </div>
+                                    <div class="backdrop"></div>
                                 </div>
                                 <div class="details">
                                     <small>해외아동결연</small>
@@ -53,6 +59,12 @@
                                     <figure>
                                         <img src="/assets/images/campaign/img_review02.jpg" class="img-fluid" alt="">
                                     </figure>
+                                    <div class="progress-area">
+                                        <div class="state-bar" style="width: 0" data-state="100">
+                                            <p class="d-day">D-7</p>
+                                        </div>
+                                    </div>
+                                    <div class="backdrop"></div>
                                 </div>
                                 <div class="details">
                                     <small>해외아동결연</small>
@@ -71,6 +83,12 @@
                                     <figure>
                                         <img src="/assets/images/campaign/img_review03.jpg" class="img-fluid" alt="">
                                     </figure>
+                                    <div class="progress-area">
+                                        <div class="state-bar" style="width: 0" data-state="100">
+                                            <p class="d-day">D-7</p>
+                                        </div>
+                                    </div>
+                                    <div class="backdrop"></div>
                                 </div>
                                 <div class="details">
                                     <small>해외아동결연</small>
@@ -89,6 +107,12 @@
                                     <figure>
                                         <img src="/assets/images/campaign/img_review01.jpg" class="img-fluid" alt="">
                                     </figure>
+                                    <div class="progress-area">
+                                        <div class="state-bar" style="width: 0" data-state="85">
+                                            <p class="d-day">D-7</p>
+                                        </div>
+                                    </div>
+                                    <div class="backdrop"></div>
                                 </div>
                                 <div class="details">
                                     <small>해외아동결연</small>
@@ -107,6 +131,12 @@
                                     <figure>
                                         <img src="/assets/images/campaign/img_none_review.jpg" class="img-fluid" alt="">
                                     </figure>
+                                    <div class="progress-area">
+                                        <div class="state-bar" style="width: 0" data-state="85">
+                                            <p class="d-day">D-7</p>
+                                        </div>
+                                    </div>
+                                    <div class="backdrop"></div>
                                 </div>
                                 <div class="details">
                                     <small>해외아동결연</small>
@@ -125,6 +155,12 @@
                                     <figure>
                                         <img src="/assets/images/campaign/img_review03.jpg" class="img-fluid" alt="">
                                     </figure>
+                                    <div class="progress-area">
+                                        <div class="state-bar" style="width: 0" data-state="85">
+                                            <p class="d-day">D-7</p>
+                                        </div>
+                                    </div>
+                                    <div class="backdrop"></div>
                                 </div>
                                 <div class="details">
                                     <small>해외아동결연</small>
@@ -137,6 +173,53 @@
                             </a>
                         </li>
                     </ul>
+                    <nav class="paging">
+                        <ol class="pagination">
+                            <li class="first">
+                                <a href="#">
+                                    <i class="icon-angle-double-left">
+                                        <span class="sr-only">첫 페이지</span>
+                                    </i>
+                                </a>
+                            </li>
+                            <li class="prev">
+                                <a href="#">
+                                    <i class="icon-angle-left">
+                                        <span class="sr-only">이전 페이지</span>
+                                    </i>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="#">1</a>
+                            </li>
+                            <li>
+                                <a href="#">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#">4</a>
+                            </li>
+                            <li>
+                                <a href="#">5</a>
+                            </li>
+                            <li class="next">
+                                <a href="#">
+                                    <i class="icon-angle-right">
+                                        <span class="sr-only">다음 페이지</span>
+                                    </i>
+                                </a>
+                            </li>
+                            <li class="last">
+                                <a href="#">
+                                    <i class="icon-angle-double-right">
+                                        <span class="sr-only">마지막 페이지</span>
+                                    </i>
+                                </a>
+                            </li>
+                        </ol>	
+                    </nav>
                 </div>
             </article>
     	</div>
@@ -146,5 +229,19 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script src="/assets/js/sub.js"></script>
+    <script>
+        (function($){
+            $(window).on('load scroll', function() {
+                $('.article-content').each(function(index, elem) {
+                    if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 2)) {
+                        $(elem).addClass('on');
+                    }
+                    $('.on .state-bar').each(function(){
+                        $(this).css('width',$(this).attr("data-state")+'%');
+                    });
+                });
+            });
+        })(jQuery);
+    </script>
 </body>
 </html>
