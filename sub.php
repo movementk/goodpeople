@@ -797,7 +797,7 @@
                     <ul>
                         <li>
                             <div class="people-information">
-                                <h5>
+                                <h5 class="bl">
                                     김천수 <small>회장</small>
                                     <a href="#" target="_blank" class="ico-facebook">
                                         <i class="icon-facebook-rect">
@@ -807,6 +807,76 @@
                                 </h5>
                                 <a href="tel:021111111" class="tel">02-111-1111</a>
                                 <p class="summary">중앙일보 상임고문 / 초대 문화부장관</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="people-information">
+                                <h5>
+                                    김천수 <small>회장</small>
+                                    <a href="#" target="_blank" class="ico-facebook">
+                                        <i class="icon-facebook-rect">
+                                            <span class="sr-only">페이스북 이동</span>
+                                        </i>
+                                    </a>
+                                </h5>
+                                <a href="tel:021111111" class="tel">02-111-1111</a>
+                                <p class="summary">간단히 쓸 내용 요청</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="people-information">
+                                <h5>
+                                    김천수 <small>회장</small>
+                                    <a href="#" target="_blank" class="ico-facebook">
+                                        <i class="icon-facebook-rect">
+                                            <span class="sr-only">페이스북 이동</span>
+                                        </i>
+                                    </a>
+                                </h5>
+                                <a href="tel:021111111" class="tel">02-111-1111</a>
+                                <p class="summary">간단히 쓸 내용 요청</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="people-information">
+                                <h5>
+                                    김천수 <small>회장</small>
+                                    <a href="#" target="_blank" class="ico-facebook">
+                                        <i class="icon-facebook-rect">
+                                            <span class="sr-only">페이스북 이동</span>
+                                        </i>
+                                    </a>
+                                </h5>
+                                <a href="tel:021111111" class="tel">02-111-1111</a>
+                                <p class="summary">간단히 쓸 내용 요청</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="people-information">
+                                <h5>
+                                    김천수 <small>회장</small>
+                                    <a href="#" target="_blank" class="ico-facebook">
+                                        <i class="icon-facebook-rect">
+                                            <span class="sr-only">페이스북 이동</span>
+                                        </i>
+                                    </a>
+                                </h5>
+                                <a href="tel:021111111" class="tel">02-111-1111</a>
+                                <p class="summary">간단히 쓸 내용 요청</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="people-information">
+                                <h5>
+                                    김천수 <small>회장</small>
+                                    <a href="#" target="_blank" class="ico-facebook">
+                                        <i class="icon-facebook-rect">
+                                            <span class="sr-only">페이스북 이동</span>
+                                        </i>
+                                    </a>
+                                </h5>
+                                <a href="tel:021111111" class="tel">02-111-1111</a>
+                                <p class="summary">간단히 쓸 내용 요청</p>
                             </div>
                         </li>
                         <li>

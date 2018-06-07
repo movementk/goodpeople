@@ -1835,11 +1835,15 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         transition-delay: 0s; }
         .gp-group .article-content > ul > li .people-information h5 .ico-facebook:hover {
           opacity: .7; }
+      .gp-group .article-content > ul > li .people-information h5.bl {
+        color: #144199; }
+        .gp-group .article-content > ul > li .people-information h5.bl small {
+          color: inherit; }
     .gp-group .article-content > ul > li .people-information .tel {
       position: relative;
       font-size: 13px;
       color: #999;
-      display: block;
+      display: inline-block;
       font-weight: 400;
       padding-left: 20px;
       margin-top: 10px;
@@ -1867,6 +1871,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       font-size: 15px;
       margin-top: 20px; }
   .gp-group .article-content > ul {
+    position: relative;
     overflow: hidden; }
     .gp-group .article-content > ul > li {
       float: left;
@@ -1876,6 +1881,17 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         clear: both; }
       .gp-group .article-content > ul > li:nth-of-type(2n + 2) .people-information {
         border-right: 0; }
+      .gp-group .article-content > ul > li:last-child .people-information {
+        border-right: 0 !important; }
+      .gp-group .article-content > ul > li:last-child:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        content: "";
+        display: block;
+        background-color: #e5e5e5; }
       .gp-group .article-content > ul > li .people-information {
         border-right: 1px solid #e5e5e5; }
         .gp-group .article-content > ul > li .people-information h5 {
