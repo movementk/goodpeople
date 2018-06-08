@@ -370,14 +370,6 @@ a {
     padding-top: 40px; }
     .news-list article .article-content .paging {
       margin-top: 50px; } }
-@media (min-width: 1200px) {
-  .news-list article .article-header {
-    overflow: hidden;
-    padding-bottom: 40px;
-    border-bottom: 2px solid #eb6100; }
-    .news-list article .article-header .search-form {
-      float: right;
-      width: 400px; } }
 
 .business-list .container .search-form {
   margin-bottom: 30px; }

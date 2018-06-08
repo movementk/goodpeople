@@ -26,19 +26,6 @@
 			}
 		}
 	}
-    @media(min-width: $xl) {
-        article {
-            .article-header {
-                overflow: hidden;
-                padding-bottom: 40px;
-                border-bottom: 2px solid #eb6100;
-                .search-form {
-                    float: right;
-                    width: 400px;
-                }
-            }
-        }
-    }
 }
 
 
