@@ -1565,6 +1565,7 @@ body {
               top: 2px;
               display: inline-block;
               transform: scale(1);
+              margin: 0;
               margin-right: 10px; }
       #quick-nav.quick-close .quick-wrap {
         height: 72px; }
