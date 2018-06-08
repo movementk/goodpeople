@@ -1918,4 +1918,38 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     .gp-group .article-content > ul > li:nth-of-type(4n + 4) .people-information {
       border-right: 0; } }
 
+.method {
+  text-align: center; }
+  .method li {
+    min-width: 200px;
+    text-align: center;
+    position: relative; }
+    .method li .box {
+      min-width: 200px;
+      height: 200px;
+      padding-top: 40px;
+      border: 1px solid #b3b3b3; }
+    .method li:nth-of-type(3):after {
+      display: none; }
+    .method li:last-child:after {
+      display: none; }
+    .method li:after {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      margin-right: -8px;
+      display: inline-block;
+      content: "\F006";
+      color: #000;
+      font-size: 30px;
+      font-family: "fontello"; }
+  @media (min-width: 768px) {
+    .method {
+      font-size: 0; }
+      .method li {
+        padding: 0 48px !important;
+        height: 200px; }
+        .method li:nth-of-type(3) {
+          margi-right: 0; } }
+
 /*# sourceMappingURL=sub.css.map */
