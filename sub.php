@@ -924,6 +924,53 @@
                     </ul>
                 </div>
             </article>
+            
+            <!-- 아동후원사업  -->
+            <p class="ex-txt">아동후원사업</p>
+            <div class="method">
+				<ul class="row justify-content-center">
+					<li class="col-12 col-md-4">
+						<div class="box">
+							<figure>
+								<img src="/assets/images/business/img_method_list01.png" class="img-fluid" alt="">
+								<figcaption></figcaption>
+							</figure>
+						</div>
+					</li>
+					<li class="col-12 col-md-4">
+						<div class="box">
+							<figure>
+								<img src="/assets/images/business/img_method_list01.png" class="img-fluid" alt="">
+								<figcaption></figcaption>
+							</figure>
+						</div>
+					</li> 
+					<li class="col-12 col-md-4">
+						<div class="box">
+							<figure>
+								<img src="/assets/images/business/img_method_list01.png" class="img-fluid" alt="">
+								<figcaption></figcaption>
+							</figure>
+						</div>
+					</li> 
+					<li class="col-12 col-md-4">
+						<div class="box">
+							<figure>
+								<img src="/assets/images/business/img_method_list01.png" class="img-fluid" alt="">
+								<figcaption></figcaption>
+							</figure>
+						</div>
+					</li> 
+					<li class="col-12 col-md-4">
+						<div class="box">
+							<figure>
+								<img src="/assets/images/business/img_method_list01.png" class="img-fluid" alt="">
+								<figcaption></figcaption>
+							</figure>
+						</div>
+					</li> 
+				</ul>
+           	</div>
     	</div>
     </main>
     

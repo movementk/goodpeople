@@ -2293,3 +2293,74 @@ input, textarea {
         }
     }
 }
+
+// 아동후원사업
+.method {
+	text-align: center;
+	li {
+		min-width: 200px;
+		text-align: center;
+		position: relative;
+		.box {
+			min-width: 200px;
+			height: 200px;
+			padding-top: 40px;
+			border: 1px solid #b3b3b3;
+		}
+		&:nth-of-type(3) {
+			&:after {
+				display: none;
+			}
+		}
+		&:last-child {
+			&:after {
+				display: none;
+			}
+		}
+		&:after {
+			position: absolute;
+			top: 50%;
+			right: 0;
+			margin-right: -8px;
+			display: inline-block;
+			content: "\F006";
+			color: #000;
+			font-size: 30px;
+			font-family: "fontello";
+		}
+	}
+	@media (min-width: $md) {
+		font-size: 0;
+		li {
+			padding: 0 48px !important; 
+			height: 200px;
+			&:nth-of-type(3) {
+				margi-right: 0;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
