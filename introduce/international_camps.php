@@ -217,13 +217,8 @@
     <script>
         (function($){
             // 지도 관련
-            $(window).on('load resize', function(){
-                var contWidth = $('body').width();
-                if (contWidth >= 768) {
-                    $('.maps .map-lg').addClass('on');
-                } else if (contWidth <= 768) {
-                    $('.maps .map-lg').removeClass('on');
-                }
+            $(window).on('load', function(){
+                $('.maps .map-lg').addClass('on');
             });
         })(jQuery);
     </script>

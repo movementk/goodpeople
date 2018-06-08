@@ -227,6 +227,12 @@
       "css": "phone",
       "code": 59416,
       "src": "fontawesome"
+    },
+    {
+      "uid": "040e72500c863813088c9f9c9415f8e9",
+      "css": "up",
+      "code": 59417,
+      "src": "mfglabs"
     }
   ]
 }

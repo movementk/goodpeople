@@ -76,4 +76,10 @@
     $(document).on('mouseleave','.sponsorship .dropdown', function (){
         $('.sponsorship .dropdown, .sponsorship .dropdown-menu').removeClass('show');
     });
+    
+    // 하단 퀵메뉴 관련
+    $(document).on('click','#quick-nav .btn-quick', function(){
+        $(this).toggleClass('close-btn');
+        $('#quick-nav').toggleClass('quick-close');
+    });
 })(jQuery);

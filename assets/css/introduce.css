@@ -1312,18 +1312,17 @@ a {
         position: relative;
         margin: 0 80px; }
         .international-camps .maps .map-lg .international-map {
-          position: relative;
-          top: -50px;
           width: 100%;
           opacity: 0;
           -webkit-transition-property: all;
           transition-property: all;
-          -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+          -webkit-transition-duration: 0.9s;
+          transition-duration: 0.9s;
           -webkit-transition-timing-function: linear;
           transition-timing-function: linear;
-          -webkit-transition-delay: 1s;
-          transition-delay: 1s; }
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+          transform: scale(0.5); }
         .international-camps .maps .map-lg .icon-national-flag {
           position: absolute;
           top: -50px;
@@ -1332,15 +1331,15 @@ a {
           opacity: 0;
           -webkit-transition-property: all;
           transition-property: all;
-          -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+          -webkit-transition-duration: 0.9s;
+          transition-duration: 0.9s;
           -webkit-transition-timing-function: linear;
           transition-timing-function: linear;
           -webkit-transition-delay: 1.5s;
           transition-delay: 1.5s; }
         .international-camps .maps .map-lg.on .international-map {
-          top: 0;
-          opacity: 1; }
+          opacity: 1;
+          transform: scale(1); }
         .international-camps .maps .map-lg.on .icon-national-flag {
           top: 0px;
           opacity: 1; } }

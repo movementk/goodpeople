@@ -1432,11 +1432,10 @@
                 position: relative;
                 margin: 0 80px;
                 .international-map {
-                    position: relative;
-                    top: -50px;
                     width: 100%;
                     opacity: 0;
-                    @include transition($duration: .40s, $delay: 1s);
+                    @include transition($duration: .90s);
+                    transform: scale(.5);
                 }
                 .icon-national-flag {
                     position: absolute;
@@ -1444,12 +1443,12 @@
                     left: 0;
                     width: 100%;
                     opacity: 0;
-                    @include transition($duration: .40s, $delay: 1.5s);
+                    @include transition($duration: .90s, $delay: 1.5s);
                 }
                 &.on {
                     .international-map {
-                        top: 0;
                         opacity: 1;
+                        transform: scale(1);
                     }
                     .icon-national-flag {
                         top: 0px;

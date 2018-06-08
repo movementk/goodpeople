@@ -57,7 +57,7 @@
                     font-weight: 500;
                     text-shadow: 2px 5px 18px rgba(0, 0, 0, 1);
                     @include roboto();
-                    @include transition($duration: .40s);
+                    @include transition($duration: .80s);
                 }
                 h3 {
                     position: relative;
@@ -68,7 +68,7 @@
                     @include nns();
                     text-shadow: 2px 5px 18px rgba(0, 0, 0, 1);
                     letter-spacing: -2px;
-                    @include transition($duration: .40s, $delay: .20s);
+                    @include transition($duration: .80s, $delay: .30s);
                 }
                 p {
                     position: relative;
@@ -80,14 +80,14 @@
                     line-height: 22px;
                     margin-top: 30px;
                     text-shadow: 2px 5px 18px rgba(0, 0, 0, 1);
-                    @include transition($duration: .40s, $delay: .40s);
+                    @include transition($duration: .80s, $delay: .50s);
                 }
                 .btn-area {
                     position: relative;
                     top: -50px;
                     opacity: 0;
                     margin-top: 30px;
-                    @include transition($duration: .40s, $delay: .60s);
+                    @include transition($duration: .80s, $delay: .70s);
                     p {
                         .btn {
                             display: inline-block;
