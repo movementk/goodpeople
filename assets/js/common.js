@@ -82,4 +82,12 @@
         $(this).toggleClass('close-btn');
         $('#quick-nav').toggleClass('quick-close');
     });
+    
+    // 퀵탑 버튼
+     $(document).on('click', '#quick-nav .btn-top', function(e) {
+        $('html, body').stop().animate({
+            scrollTop: 0
+        });
+        e.preventDefault();
+    });
 })(jQuery);

@@ -75,7 +75,7 @@ body {
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 101;
+    z-index: 201;
     .btn-nav {
         position: relative;
         width: 60px;
@@ -128,7 +128,7 @@ body {
     right: -100%;
     width: 0;
     height: 100%;
-    z-index: 100;
+    z-index: 200;
     overflow: auto;
     background-color: #fff;
     @include transition();
@@ -1448,7 +1448,6 @@ body {
         }
     }
     &.quick-close {
-        background-color: #fff;
         .btn-area {
             .btn-quick {
                 span {
@@ -1514,6 +1513,7 @@ body {
                     height: 72px;
                     a {
                         font-size: 16px;
+                        line-height: 70px;
                         display: inline-block;
                         font-weight: 400;
                         &:before {
@@ -1616,11 +1616,6 @@ body {
                         }
                     }
                 }
-            }
-        }
-        &.quick-close {
-            .quick-wrap {
-                
             }
         }
     }

@@ -418,7 +418,7 @@ body {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 101; }
+  z-index: 201; }
   .nav-btn-area .btn-nav {
     position: relative;
     width: 60px;
@@ -468,7 +468,7 @@ body {
   right: -100%;
   width: 0;
   height: 100%;
-  z-index: 100;
+  z-index: 200;
   overflow: auto;
   background-color: #fff;
   -webkit-transition-property: all;
@@ -1500,15 +1500,13 @@ body {
           content: url(/assets/images/sub/icon_quick05.png); }
         #quick-nav .quick-wrap .quick-spon-list li:last-child {
           border-right: 0; }
-  #quick-nav.quick-close {
-    background-color: #fff; }
-    #quick-nav.quick-close .btn-area .btn-quick span.open-txt {
-      display: block; }
-    #quick-nav.quick-close .btn-area .btn-quick span.close-txt {
-      display: none; }
-    #quick-nav.quick-close .quick-wrap {
-      height: 52px;
-      border-top: 2px solid #eb6100; }
+  #quick-nav.quick-close .btn-area .btn-quick span.open-txt {
+    display: block; }
+  #quick-nav.quick-close .btn-area .btn-quick span.close-txt {
+    display: none; }
+  #quick-nav.quick-close .quick-wrap {
+    height: 52px;
+    border-top: 2px solid #eb6100; }
   @media (min-width: 768px) {
     #quick-nav {
       height: 72px; }
@@ -1559,6 +1557,7 @@ body {
           height: 72px; }
           #quick-nav .quick-wrap .quick-spon-list li a {
             font-size: 16px;
+            line-height: 70px;
             display: inline-block;
             font-weight: 400; }
             #quick-nav .quick-wrap .quick-spon-list li a:before {
