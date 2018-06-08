@@ -26,7 +26,7 @@
     });
 
     // support-business
-    $(window).ready(function(){
+    /*$(window).ready(function(){
         $('.support-business').slick({
             autoplay: false,
             dots: false,
@@ -67,7 +67,7 @@
             }
             ]
         });
-    });
+    });*/
 
     // support-business
     $(window).ready(function(){

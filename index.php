@@ -80,43 +80,13 @@
         
         <!-- support-business -->
         <article class="support-business">
-            <div class="business domestic">
-                <p class="participation or">524 <small class="or">명</small></p>
-                <h3>국내아동후원사업</h3>
-                <blockquote class="d-none d-md-block">
-                    국내 요보호아동과 시설아동들의 아동후원
-                    및 지원사업을 전국의 그룹홈 및 지역아동
-                    센터, 공부방과 연계하여 지원하고 있습니다.
-                </blockquote>
-            </div>
-            <div class="business overseas">
-                <p class="participation bl">6,384 <small class="bl">명</small></p>
-                <h3>해외아동후원사업</h3>
-                <blockquote class="d-none d-md-block">
-                    아동들의 생활개선, 기초교육, 의료지원, 영양공급
-                    등을 통해 신체적, 정서적, 사회적으로 건강하게
-                    성장할 수 있도록 지원하며, 더 나은 삶을 실현할
-                    수 있도록 도와줍니다
-                </blockquote>
-            </div>
-            <div class="business medical">
-                <p class="participation or">5,830 <small class="or">명</small></p>
-                <h3>사랑의의료봉사</h3>
-                <blockquote class="d-none d-md-block">
-                    이동진료차량으로 의료사각지대에 거주하는
-                    가난하고 소외된 이웃에게 직접 찾아가 방문진료, 
-                    건강검진 등 전문화된 의료혜택을 제공하고
-                    있습니다.
-                </blockquote>
-            </div>
-            <div class="business sanitation">
-                <p class="participation bl">2,037 <small class="bl">명</small></p>
-                <h3>해외보건의료사업</h3>
-                <blockquote class="d-none d-md-block">
-                    보건 및 위생환경이 열악한 지역을 대상으로
-                    의료서비스를 제공하며 현지에 병원개설,
-                    이동진료 등을 통해 의료환경을 개선합니다.
-                </blockquote>
+            <div class="container">
+                <ul>
+                    <li><a href="#">투명경영 <span></span></a></li>
+                    <li><a href="#">아너스클럽 <span></span></a></li>
+                    <li><a href="#">사업장 이야기 <span></span></a></li>
+                    <li><a href="#">2018 봄 소식 <span></span></a></li>
+                </ul>
             </div>
         </article>
         
