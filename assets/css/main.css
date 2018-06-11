@@ -594,6 +594,8 @@ a {
             padding: 0 8%; }
             .jumbotrons .visual-list .container-fluid .details small {
               margin-bottom: 30px; }
+            .jumbotrons .visual-list .container-fluid .details h3 {
+              left: -4px; }
             .jumbotrons .visual-list .container-fluid .details p {
               font-size: 16px;
               line-height: 36px;
@@ -926,7 +928,8 @@ a {
       .campaign-list .container-fluid {
         padding: 0 15px !important; }
       .campaign-list h3 {
-        font-size: 50px; }
+        /*font-size: 50px;*/
+        font-size: 45px; }
       .campaign-list .section-content > ul > li > a {
         margin-top: 0 !important;
         -webkit-transition-property: all;
@@ -1350,8 +1353,9 @@ a {
           font-size: 14px;
           text-align: left;
           font-weight: 400;
-          line-height: 50px;
+          line-height: 54px;
           height: 54px;
+          color: #fff;
           padding: 0 15px; }
           .sponsorship-info .info-list > ul > li article .btn-area .btn.btn-lg:after {
             float: right;
@@ -1359,11 +1363,9 @@ a {
             font-family: "fontello";
             content: "\E80B"; }
         .sponsorship-info .info-list > ul > li article .btn-area .btn.btn-orange {
-          color: #eb6100;
-          border: 2px solid #eb6100; }
+          background-color: #eb6100; }
         .sponsorship-info .info-list > ul > li article .btn-area .btn.btn-blue {
-          color: #144199;
-          border: 2px solid #144199; }
+          background-color: #144199; }
         .sponsorship-info .info-list > ul > li article .btn-area .btn.btn-sm {
           width: 49%;
           height: 40px;
@@ -1406,7 +1408,7 @@ a {
                 margin-top: 0; }
               .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-lg {
                 font-size: 14px;
-                line-height: 51px; }
+                line-height: 55px; }
                 .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-lg:first-child {
                   margin-top: 0; }
                 .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-lg ~ .btn-lg {
@@ -1452,12 +1454,22 @@ a {
             transition-timing-function: linear;
             -webkit-transition-delay: 0s;
             transition-delay: 0s; }
-            .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-lg:hover, .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-lg:focus {
-              color: #fff; }
-            .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-orange:hover, .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-orange:focus {
-              background-color: #eb6100; }
-            .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-blue:hover, .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-blue:focus {
-              background-color: #144199; }
+            .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-lg {
+              line-height: 51px; }
+              .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-lg:hover, .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-lg:focus {
+                color: #fff; }
+            .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-orange {
+              color: #eb6100;
+              background-color: #fff;
+              border: 2px solid #eb6100; }
+              .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-orange:hover, .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-orange:focus {
+                background-color: #eb6100; }
+            .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-blue {
+              color: #144199;
+              background-color: #fff;
+              border: 2px solid #144199; }
+              .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-blue:hover, .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-blue:focus {
+                background-color: #144199; }
             .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-sm:hover, .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-sm:focus {
               color: #fff;
               border-color: #aaa;

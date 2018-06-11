@@ -262,6 +262,9 @@
                     small {
                         margin-bottom: 30px;
                     }
+                    h3 {
+                        left: -4px;
+                    }
                     p {
                         font-size: 16px;
                         line-height: 36px;
@@ -673,7 +676,8 @@
             padding: 0 15px !important;
         }
         h3 {
-            font-size: 50px;
+            /*font-size: 50px;*/
+            font-size: 45px;
         }
         .section-content {
             > ul {
@@ -1243,8 +1247,9 @@
                                 font-size: 14px;
                                 text-align: left;
                                 font-weight: 400;
-                                line-height: 50px;
+                                line-height: 54px;
                                 height: 54px;
+                                color: #fff;
                                 padding: 0 15px;
                                 &:after {
                                     float: right;
@@ -1254,12 +1259,10 @@
                                 }
                             }
                             &.btn-orange {
-                                color: #eb6100;
-                                border: 2px solid #eb6100;
+                                background-color: #eb6100;
                             }
                             &.btn-blue {
-                                color: #144199;
-                                border: 2px solid #144199;
+                                background-color: #144199;
                             }
                             &.btn-sm {
                                 width: 49%;
@@ -1321,7 +1324,7 @@
                                     }
                                     &.btn-lg {
                                         font-size: 14px;
-                                        line-height: 51px;
+                                        line-height: 55px;
                                         &:first-child {
                                             margin-top: 0;
                                         }
@@ -1389,16 +1392,23 @@
                                 .btn {
                                     @include transition();
                                     &.btn-lg {
+                                        line-height: 51px;
                                         &:hover, &:focus {
                                             color: #fff;
                                         }
                                     }
                                     &.btn-orange {
+                                        color: #eb6100;
+                                        background-color: #fff;
+                                        border: 2px solid #eb6100;
                                         &:hover, &:focus {
                                             background-color: #eb6100;
                                         }
                                     }
                                     &.btn-blue {
+                                        color: #144199;
+                                        background-color: #fff;
+                                        border: 2px solid #144199;
                                         &:hover, &:focus {
                                             background-color: #144199;
                                         }

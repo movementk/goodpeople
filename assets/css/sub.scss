@@ -407,6 +407,7 @@ input, textarea {
             display: table;
             width: 100%;
             text-align: center;
+            table-layout: fixed;
             > li {
                 position: relative;
                 display: table-cell;

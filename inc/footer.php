@@ -78,7 +78,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://happylog.naver.com/goodpeople.do" target="_blank" class="sns-icon-3">
+                                <a href="https://happylog.naver.com/goodpeople/rdona/RdonaProgressList.ntn" target="_blank" class="sns-icon-3">
                                     <span class="sr-only">네이버 해피빈</span>
                                 </a>
                             </li>

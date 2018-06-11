@@ -82,10 +82,10 @@
         <article class="support-business">
             <div class="container">
                 <ul>
-                    <li><a href="#">투명경영 <span></span></a></li>
-                    <li><a href="#">아너스클럽 <span></span></a></li>
-                    <li><a href="#">사업장 이야기 <span></span></a></li>
-                    <li><a href="#">2018 봄 소식 <span></span></a></li>
+                    <li><a href="/introduce/corporation.php">투명경영 <span></span></a></li>
+                    <li><a href="/sponsor/honors_club.php">아너스클럽 <span></span></a></li>
+                    <li><a href="/community/business_list.php">사업장 이야기 <span></span></a></li>
+                    <li><a href="/policy/news_list.php">2018 봄 소식 <span></span></a></li>
                 </ul>
             </div>
         </article>

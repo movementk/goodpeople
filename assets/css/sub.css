@@ -674,7 +674,8 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
 .page-intro .lnb .tab-list {
   display: table;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  table-layout: fixed; }
   .page-intro .lnb .tab-list > li {
     position: relative;
     display: table-cell;
