@@ -436,10 +436,10 @@
         ul {
             > li {
                 position: relative;
-                &:after {
+                &:before {
                     position: absolute;
                     top: 50%;
-                    right: 0;
+                    left: 0;
                     content: " ";
                     display: block;
                     margin-top: -12px;
@@ -447,8 +447,8 @@
                     width: 1px;
                     background-color: #ccc;
                 }
-                &:last-child {
-                    &:after {
+                &:first-child {
+                    &:before {
                         display: none;
                     }
                 }
@@ -460,7 +460,42 @@
         }
     }
     @media(min-width: $xl) {
-        
+        padding: 0;
+        ul {
+            > li {
+                > a {
+                    position: relative;
+                    text-align: left;
+                    font-size: 18px;
+                    padding: 40px 40px 40px 85px;
+                    background-position: 40px 50%;
+                    &:after {
+                        position: absolute;
+                        top: 50%;
+                        right: 40px;
+                        margin-top: -13px;
+                        font-family: "fontello";
+                        content: "\E80B";
+                    }
+                    span {
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        display: block;
+                        width: 0;
+                        height: 2px;
+                        background-color: #eb6100;
+                        @include transition();
+                    }
+                    &:hover {
+                        span {
+                            margin-left: -50%;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 

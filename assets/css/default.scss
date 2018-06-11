@@ -1561,11 +1561,15 @@ body {
                     a {
                         position: relative;
                         z-index: 102;
+                        padding-left: 30px;
+                        background-repeat: no-repeat;
+                        background-position: 0 50%;
+                        @include transition();
                         &:hover {
                             color: #eb6100;
                         }
                         &:before {
-                            top: 3px;
+                            display: none;
                         }
                     }
                     &:nth-of-type(1), &:nth-of-type(2) {
@@ -1573,46 +1577,41 @@ body {
                     }
                     &:nth-of-type(1) {
                         a {
+                            background-image: url(/assets/images/sub/icon_quick01.png);
                             &:hover {
-                                &:before {
-                                    content: url(/assets/images/sub/icon_on_quick01.png);
-                                }
+                                background-image: url(/assets/images/sub/icon_on_quick01.png);
                             }
                         }
                     }
                     &:nth-of-type(2) {
                         a {
+                            background-image: url(/assets/images/sub/icon_quick02.png);
                             &:hover {
-                                &:before {
-                                    content: url(/assets/images/sub/icon_on_quick02.png);
-                                }
+                                background-image: url(/assets/images/sub/icon_on_quick02.png);
                             }
                         }
                     }
                     &:nth-of-type(3) {
                         a {
+                            background-image: url(/assets/images/sub/icon_quick03.png);
                             &:hover {
-                                &:before {
-                                    content: url(/assets/images/sub/icon_on_quick03.png);
-                                }
+                                background-image: url(/assets/images/sub/icon_on_quick03.png);
                             }
                         }
                     }
                     &:nth-of-type(4) {
                         a {
+                            background-image: url(/assets/images/sub/icon_quick04.png);
                             &:hover {
-                                &:before {
-                                    content: url(/assets/images/sub/icon_on_quick04.png);
-                                }
+                                background-image: url(/assets/images/sub/icon_on_quick04.png);
                             }
                         }
                     }
                     &:nth-of-type(5) {
                         a {
+                            background-image: url(/assets/images/sub/icon_quick05.png);
                             &:hover {
-                                &:before {
-                                    content: url(/assets/images/sub/icon_on_quick05.png);
-                                }
+                                background-image: url(/assets/images/sub/icon_on_quick05.png);
                             }
                         }
                     }

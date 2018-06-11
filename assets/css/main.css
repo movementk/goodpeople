@@ -747,21 +747,56 @@ a {
       padding: 25px 0; }
       .support-business ul > li {
         position: relative; }
-        .support-business ul > li:after {
+        .support-business ul > li:before {
           position: absolute;
           top: 50%;
-          right: 0;
+          left: 0;
           content: " ";
           display: block;
           margin-top: -12px;
           height: 24px;
           width: 1px;
           background-color: #ccc; }
-        .support-business ul > li:last-child:after {
+        .support-business ul > li:first-child:before {
           display: none; }
         .support-business ul > li > a {
           padding-top: 45px;
           font-size: 18px; } }
+  @media (min-width: 1200px) {
+    .support-business {
+      padding: 0; }
+      .support-business ul > li > a {
+        position: relative;
+        text-align: left;
+        font-size: 18px;
+        padding: 40px 40px 40px 85px;
+        background-position: 40px 50%; }
+        .support-business ul > li > a:after {
+          position: absolute;
+          top: 50%;
+          right: 40px;
+          margin-top: -13px;
+          font-family: "fontello";
+          content: "\E80B"; }
+        .support-business ul > li > a span {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          display: block;
+          width: 0;
+          height: 2px;
+          background-color: #eb6100;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+        .support-business ul > li > a:hover span {
+          margin-left: -50%;
+          width: 100%; } }
 
 .campaign-list {
   font-family: 'NanumSquare', sans-serif;
