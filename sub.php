@@ -971,6 +971,82 @@
 					</li> 
 				</ul>
            	</div>
+           	
+           	<!--  사업소개 공통  -->
+            <p class="ex-txt">사업소개 공통1</p>
+            <article class="dot-list">
+            	<div class="row">
+            		<div class="col-12 col-xl-6">
+						<div class="article-header">
+							<h3>진행중인 프로젝트</h3>
+						</div>
+						<div class="article-content">
+							<ul>
+								<li>필리핀 결핵퇴치지원(CALOOCAN, MANILA, BATANGAS, LAGUNA, RIZAL,<br class="d-sm-none d-md-block">  CAVIT교도소, PAMPANGA 마약 수용소, 잠발레스주)</li>
+								<li>중국 연변지역 경신진 병원 지원 (중국 경신진 지역)</li>
+								<li>나망가 클리닉 센터 건축 (케냐 나망가 지역)</li>
+								<li>짬삥 보건소 건축(미얀마 짜웃단구 짬삥 지역)</li>
+								<li>일마르바 보건소 건축 및 운영지원(케냐 일마르바 지역)</li>
+								<li>아이티 콜레라 클리닉 운영지원(아이티 시티솔레이 지역)</li>
+								<li>세계실명예방단 사업(중국, 베트남, 스리랑카, 몽골, 필리핀, 방글라데시 등 제 3세계 저개발 국가)</li>
+							</ul>
+						</div>
+            		</div>
+            		<div class="col-12 col-xl-6">
+						<div class="article-header">
+							<h3>진행중인 프로젝트</h3>
+						</div>
+						<div class="article-content">
+							<ul>
+								<li>필리핀 결핵퇴치지원(CALOOCAN, MANILA, BATANGAS, LAGUNA, RIZAL,<br class="d-sm-none d-md-block">  CAVIT교도소, PAMPANGA 마약 수용소, 잠발레스주)</li>
+								<li>중국 연변지역 경신진 병원 지원 (중국 경신진 지역)</li>
+								<li>나망가 클리닉 센터 건축 (케냐 나망가 지역)</li>
+								<li>짬삥 보건소 건축(미얀마 짜웃단구 짬삥 지역)</li>
+								<li>일마르바 보건소 건축 및 운영지원(케냐 일마르바 지역)</li>
+								<li>아이티 콜레라 클리닉 운영지원(아이티 시티솔레이 지역)</li>
+								<li>세계실명예방단 사업(중국, 베트남, 스리랑카, 몽골, 필리핀, 방글라데시 등 제 3세계 저개발 국가)</li>
+							</ul>
+						</div>
+            		</div>
+            	</div>
+            </article>
+            
+            <!--  사업소개 공통2  -->
+            <p class="ex-txt">사업소개 공통2 게시판</p>
+            <section class="dot-board">
+            	<div class="article-header">
+            		<h3>최근 활동 소식</h3>
+            	</div>
+            	<div class="article-content">
+            		<ul>
+            			<li>
+            				<a href="#">
+            					&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서 
+								&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서
+								&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서
+								&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서
+								&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서
+            				</a>
+            			</li>
+            			<li>
+            				<a href="#">
+            					&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서
+            				</a>
+            			</li>
+            		</ul>
+            	</div>
+			</section>
+			
+			<!--  사업소개 공통3  --> 
+            <p class="ex-txt">사업소개 공통3 abc리스트</p>
+			<ul class="abc-list">
+				<li>
+					<dl>
+						<dt><i>A</i>ddd</dt>
+						<dd><i>B</i>dddfdsjf</dd>
+					</dl>
+				</li>
+			</ul>
     	</div>
     </main>
     
