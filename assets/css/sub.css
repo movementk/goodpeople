@@ -1952,4 +1952,105 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         .method li:nth-of-type(3) {
           margi-right: 0; } }
 
+.dot-list .row .col-12 ~ .col-12 .article-header {
+  padding-top: 45px; }
+.dot-list .row .col-12 .article-header {
+  border-bottom: 1px solid #333; }
+  .dot-list .row .col-12 .article-header h3 {
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 10px; }
+.dot-list .row .col-12 .article-content {
+  margin-top: 25px; }
+  .dot-list .row .col-12 .article-content ul li {
+    position: relative;
+    font-size: 13px;
+    color: #666;
+    line-height: 18px;
+    padding-left: 15px; }
+    .dot-list .row .col-12 .article-content ul li ~ li {
+      margin-top: 15px; }
+    .dot-list .row .col-12 .article-content ul li:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: inline-block;
+      content: "\E812";
+      font-family: "fontello";
+      color: #eb6100; }
+@media (min-width: 768px) {
+  .dot-list .row .col-12 .article-header h3 {
+    font-size: 18px; }
+  .dot-list .row .col-12 .article-content ul li {
+    font-size: 14px;
+    line-height: 24px; } }
+@media (min-width: 1200px) {
+  .dot-list .row .col-12 ~ .col-12 .article-header {
+    padding-top: 0; }
+  .dot-list .row .col-12 .article-header h3 {
+    margin-bottom: 15px; } }
+
+.dot-board .article-header {
+  border-bottom: 2px solid #eb6101; }
+  .dot-board .article-header h3 {
+    font-size: 18px;
+    color: #222;
+    font-weight: 400;
+    margin-bottom: 10px; }
+.dot-board .article-content ul li {
+  padding: 16px 0;
+  border-bottom: 1px solid #dfdfdf; }
+  .dot-board .article-content ul li a {
+    position: relative;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 25px;
+    padding-right: 30px; }
+    .dot-board .article-content ul li a:before {
+      position: absolute;
+      top: 0;
+      left: 10px;
+      content: "\E812";
+      font-family: "fontello";
+      color: #333; }
+    .dot-board .article-content ul li a:after {
+      position: absolute;
+      top: -2px;
+      right: 10px;
+      content: "\F105";
+      font-family: "fontello";
+      font-size: 16px;
+      color: #333; }
+@media (min-width: 768px) {
+  .dot-board .article-header h3 {
+    margin-bottom: 20px; }
+  .dot-board .article-content ul li {
+    padding: 17px 0; }
+    .dot-board .article-content ul li a {
+      padding-left: 35px;
+      padding-right: 100px; }
+      .dot-board .article-content ul li a:before {
+        left: 20px; }
+      .dot-board .article-content ul li a:after {
+        top: -5px;
+        right: 35px;
+        font-size: 20px; } }
+@media (min-width: 1200px) {
+  .dot-board .article-content ul li a:after {
+    right: 20px; } }
+
+.abc-list li dl dt i {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 50%;
+  background-color: #eb6101;
+  color: #fff; }
+
 /*# sourceMappingURL=sub.css.map */
