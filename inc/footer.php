@@ -4,36 +4,37 @@
         <div class="row">
             <div class="col-12 col-xl-9">
                 <div class="company">
-                    <h2>사단법인 굿피플 인터내셔널</h2>
+                    <h2 class="d-none d-md-block">사단법인 굿피플 인터내셔널</h2>
                     <ul>
-                        <li>
+                        <li class="list-title">사단법인 굿피플 인터내셔널</li>
+                        <li class="responsive-hidden">
                             <dl>
                                 <dt>등록번호</dt>
                                 <dd>116-82-14727</dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="responsive-after">
                             <dl>
                                 <dt>대표자</dt>
                                 <dd>이영훈</dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="xs-none">
                             <dl>
                                 <dt>대표전화</dt>
                                 <dd><a href="tel:027832291">02-783-2291~3</a></dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="xs-none">
                             <dl>
                                 <dt>팩스</dt>
                                 <dd>02-783-2294</dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="xs-none">
                             <address>서울시 영등포구 국회대로 74길 10 굿피플빌딩 4층</address>
                         </li>
-                        <li>
+                        <li class="xs-none">
                             <dl>
                                 <dt>E-mail</dt>
                                 <dd><a href="mailto:help@goodpeople.or.kr">help@goodpeople.or.kr</a></dd>
@@ -42,27 +43,28 @@
                     </ul>
                 </div>
                 <div class="company">
-                    <h2>사회복지법인 굿피플 인터내셔널</h2>
+                    <h2 class="d-none d-md-block">사회복지법인 굿피플 인터내셔널</h2>
                     <ul>
-                        <li>
+                        <li class="list-title">사회복지법인 굿피플 인터내셔널</li>
+                        <li class="responsive-hidden responsive-after">
                             <dl>
                                 <dt>등록번호</dt>
                                 <dd>107-82-13821</dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="xs-none">
                             <dl>
                                 <dt>대표전화</dt>
                                 <dd><a href="tel:027832291">02-783-2291</a></dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="xs-none">
                             <dl>
                                 <dt>팩스</dt>
                                 <dd>02-783-2533</dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="xs-none">
                             <address>서울시 영등포구 국회대로74길 10 굿피플빌딩 3층</address>
                         </li>
                     </ul>

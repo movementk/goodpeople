@@ -1152,104 +1152,140 @@ body {
 
 #footer {
   font-family: 'NanumSquare', sans-serif;
-  padding: 35px 0 70px;
+  padding: 25px 0 70px;
   background-color: #f3f5fa; }
-  #footer .company ~ .company {
-    margin-top: 20px; }
-  #footer .company h2 {
-    font-size: 13px;
-    color: #111;
-    font-weight: 500;
-    margin-bottom: 10px; }
-  #footer .company ul {
-    font-size: 0; }
-    #footer .company ul li {
-      display: inline-block;
-      word-break: keep-all; }
-      #footer .company ul li:after {
-        position: relative;
-        top: -2px;
+  #footer .company {
+    text-align: center; }
+    #footer .company ~ .company {
+      margin-top: 5px; }
+    #footer .company h2 {
+      font-size: 13px;
+      color: #111;
+      font-weight: 500;
+      margin-bottom: 10px; }
+    #footer .company ul {
+      font-size: 0; }
+      #footer .company ul li {
         display: inline-block;
-        font-size: 10px;
-        content: "|";
-        margin: 0 10px 0 7px; }
-      #footer .company ul li:last-child:after {
-        content: "";
-        margin: 0; }
-      #footer .company ul li.after-none:after {
-        content: "";
-        margin: 0; }
-      #footer .company ul li address {
-        line-height: 16px;
-        display: inline-block;
-        font-size: 11px;
-        font-weight: 400;
-        color: #555; }
-      #footer .company ul li dl {
-        display: inline-block;
-        font-size: 0;
-        color: #555; }
-        #footer .company ul li dl dt {
+        word-break: keep-all; }
+        #footer .company ul li:after {
+          position: relative;
+          top: -1px;
+          display: inline-block;
+          font-size: 10px;
+          content: "|";
+          margin: 0 3px 0 3px; }
+        #footer .company ul li:last-child:after {
+          content: "";
+          margin: 0; }
+        #footer .company ul li.list-title {
+          display: inline-block;
+          font-size: 11px;
+          color: #555; }
+          @media (min-width: 768px) {
+            #footer .company ul li.list-title {
+              display: none; } }
+        #footer .company ul li.responsive-after:after {
+          content: "";
+          margin: 0; }
+        @media (min-width: 768px) {
+          #footer .company ul li.responsive-after:after {
+            content: "|";
+            margin: 0 10px 0 7px; } }
+        #footer .company ul li.responsive-hidden dl dt {
+          display: none; }
+          @media (min-width: 768px) {
+            #footer .company ul li.responsive-hidden dl dt {
+              display: inline-block; } }
+        #footer .company ul li.xs-none {
+          display: none; }
+          @media (min-width: 768px) {
+            #footer .company ul li.xs-none {
+              display: inline-block; } }
+        #footer .company ul li.after-none:after {
+          content: "";
+          margin: 0; }
+        #footer .company ul li address {
+          line-height: 16px;
           display: inline-block;
           font-size: 11px;
           font-weight: 400;
-          line-height: 16px; }
-          #footer .company ul li dl dt:after {
-            position: relative;
-            top: -1px;
+          color: #555; }
+        #footer .company ul li dl {
+          display: inline-block;
+          font-size: 0;
+          color: #555; }
+          #footer .company ul li dl dt {
             display: inline-block;
-            content: ":";
-            margin: 0 3px; }
-        #footer .company ul li dl dd {
-          display: inline-block;
-          font-size: 11px;
-          font-weight: 400;
-          line-height: 16px; }
-          #footer .company ul li dl dd a {
-            color: #555; }
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 16px; }
+            #footer .company ul li dl dt:after {
+              position: relative;
+              top: -1px;
+              display: inline-block;
+              content: ":";
+              margin: 0 3px; }
+          #footer .company ul li dl dd {
+            display: inline-block;
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 16px; }
+            #footer .company ul li dl dd a {
+              color: #555; }
   #footer hr {
     display: block;
     margin: 20px 0;
     border-top: 1px solid #ccc; }
-  #footer .policy ul {
-    overflow: hidden; }
-    #footer .policy ul li {
-      float: left;
-      margin-right: 15px; }
-      #footer .policy ul li:last-child {
-        margin-right: 0; }
-      #footer .policy ul li a {
-        display: block;
-        font-size: 11px;
-        color: #666;
-        font-weight: 400; }
-  #footer .policy .copyright {
-    font-size: 11px;
-    color: #666;
-    font-weight: 300;
-    margin-top: 10px;
-    font-family: 'Roboto', sans-serif; }
+  #footer .policy {
+    text-align: center; }
+    #footer .policy ul {
+      overflow: hidden;
+      display: inline-block; }
+      #footer .policy ul li {
+        float: left;
+        margin-right: 15px; }
+        #footer .policy ul li:last-child {
+          margin-right: 0; }
+        #footer .policy ul li a {
+          display: block;
+          font-size: 11px;
+          color: #666;
+          font-weight: 400; }
+    #footer .policy .copyright {
+      font-size: 11px;
+      color: #666;
+      font-weight: 300;
+      font-family: 'Roboto', sans-serif; }
   @media (min-width: 768px) {
     #footer {
       padding: 45px 0 97px; }
-      #footer .company h2 {
-        font-size: 14px; }
-      #footer .company ul li address {
-        font-size: 13px;
-        line-height: 24px; }
-      #footer .company ul li dl dt {
-        font-size: 13px;
-        line-height: 24px; }
-      #footer .company ul li dl dd {
-        font-size: 13px;
-        line-height: 24px; }
+      #footer .company {
+        text-align: left; }
+        #footer .company ~ .company {
+          margin-top: 20px; }
+        #footer .company h2 {
+          font-size: 14px; }
+        #footer .company ul li:after {
+          margin: 0 10px 0 7px; }
+        #footer .company ul li address {
+          font-size: 13px;
+          line-height: 24px; }
+        #footer .company ul li dl dt {
+          font-size: 13px;
+          line-height: 24px; }
+        #footer .company ul li dl dd {
+          font-size: 13px;
+          line-height: 24px; }
       #footer hr {
         margin: 30px 0; }
-      #footer .policy ul li a {
-        font-size: 13px; }
-      #footer .policy .copyright {
-        font-size: 13px;
-        margin-top: 15px; } }
+      #footer .policy {
+        text-align: left; }
+        #footer .policy ul li a {
+          font-size: 13px; }
+        #footer .policy .copyright {
+          font-size: 13px;
+          margin-top: 10px; } }
   @media (min-width: 1200px) {
     #footer {
       padding: 60px 4% 112px; }
