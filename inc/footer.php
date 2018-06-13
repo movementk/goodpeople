@@ -2,13 +2,13 @@
 <footer id="footer">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-xl-8">
+            <div class="col-12 col-xl-9">
                 <div class="company">
                     <h2>사단법인 굿피플 인터내셔널</h2>
                     <ul>
                         <li>
                             <dl>
-                                <dt>사단법인 등록번호</dt>
+                                <dt>등록번호</dt>
                                 <dd>116-82-14727</dd>
                             </dl>
                         </li>
@@ -35,13 +35,18 @@
                         </li>
                         <li>
                             <dl>
-                                <dt>e- mail</dt>
+                                <dt>E-mail</dt>
                                 <dd><a href="mailto:help@goodpeople.or.kr">help@goodpeople.or.kr</a></dd>
                             </dl>
                         </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <h2>사회복지법인 굿피플 인터내셔널</h2>
+                    <ul>
                         <li>
                             <dl>
-                                <dt>사회복지법인 사업자등록번호</dt>
+                                <dt>등록번호</dt>
                                 <dd>107-82-13821</dd>
                             </dl>
                         </li>
@@ -54,7 +59,7 @@
                         <li>
                             <dl>
                                 <dt>팩스</dt>
-                                <dd>02-783-2533 </dd>
+                                <dd>02-783-2533</dd>
                             </dl>
                         </li>
                         <li>
@@ -63,7 +68,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="d-none d-xl-block col-xl-4">
+            <div class="d-none d-xl-block col-xl-3">
                 <div class="social">
                     <div class="information">
                         <ul class="sns-list">
@@ -98,21 +103,24 @@
         </div>
         <hr>
         <div class="row">
-            <div class="col-12 col-xl-6">
+            <div class="col-12 col-xl-7">
                 <div class="policy">
                     <ul>
-                        <li class="d-none d-md-block"><a href="/introduce/vision.php">기관소개</a></li>
+                        <!--<li class="d-none d-md-block"><a href="/introduce/vision.php">기관소개</a></li>-->
                         <li class="d-none d-md-block"><a href="/introduce/directions.php">위치 및 연락처</a></li>
                         <li><a href="/policy/terms.php">이용약관</a></li>
                         <li><a href="/policy/privacy.php">개인정보취급방침</a></li>
                         <li><a href="/policy/none_member_inquiry.php">문의하기</a></li>
+                        <li><a href="#">소식지</a></li>
+                        <li class="d-none d-md-block"><a href="#">기관소개서(KOR)</a></li>
+                        <li class="d-none d-md-block"><a href="#">기관소개서(ENG)</a></li>
                     </ul>
                     <p class="copyright">
                         (C) 2018 GOODPEOPLE. ALL RIGHT RESERVED.
                     </p>
                 </div>
             </div>
-            <div class="d-none d-xl-block col-xl-6">
+            <div class="d-none d-xl-block col-xl-5">
                 <div class="partners">
                     <ul>
                         <li>

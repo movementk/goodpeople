@@ -35,7 +35,6 @@
 		<div class="container">
             <section class="directorate">
                 <div class="section-header">
-                    <h4>이사회 및 위원회</h4>
                     <nav class="sub-tab-list">
                         <ul>
                             <li class="active"><a href="/introduce/directorate.php">이사회(사단,복지)</a></li>

@@ -184,6 +184,16 @@
                             .backdrop {
                                 opacity: 1;
                             }
+                            .progress-area {
+                                .state-bar {
+                                    transition: none !important;
+                                    width: 100% !important;
+                                    background-color: #ccc;
+                                    .d-day {
+                                        display: none !important;
+                                    }
+                                }
+                            }
                         }
                         .label {
                             position: absolute;

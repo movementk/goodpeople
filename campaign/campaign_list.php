@@ -172,6 +172,78 @@
                                 </div>
                             </a>
                         </li>
+                        <li class="col-12 col-md-6 col-xl-4">
+                            <a href="/campaign/review_view.php">
+                                <div class="item ongoing">
+                                    <span class="label">진행중</span>
+                                    <figure>
+                                        <img src="/assets/images/campaign/img_review01.jpg" class="img-fluid" alt="">
+                                    </figure>
+                                    <div class="progress-area">
+                                        <div class="state-bar" style="width: 0" data-state="85">
+                                            <p class="d-day">D-7</p>
+                                        </div>
+                                    </div>
+                                    <div class="backdrop"></div>
+                                </div>
+                                <div class="details">
+                                    <small>해외아동결연</small>
+                                    <h3>사랑의의료봉사, 고려대학교 교우회 감사패 수상</h3>
+                                    <ul class="icon-list">
+                                        <li class="calendar">2018-05-01</li>
+                                        <li class="eye">1,234</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col-12 col-md-6 col-xl-4">
+                            <a href="/campaign/review_view.php">
+                                <div class="item ongoing">
+                                    <span class="label">진행중</span>
+                                    <figure>
+                                        <img src="/assets/images/campaign/img_none_review.jpg" class="img-fluid" alt="">
+                                    </figure>
+                                    <div class="progress-area">
+                                        <div class="state-bar" style="width: 0" data-state="85">
+                                            <p class="d-day">D-7</p>
+                                        </div>
+                                    </div>
+                                    <div class="backdrop"></div>
+                                </div>
+                                <div class="details">
+                                    <small>해외아동결연</small>
+                                    <h3>사랑의의료봉사, 고려대학교 교우회 감사패 수상</h3>
+                                    <ul class="icon-list">
+                                        <li class="calendar">2018-05-01</li>
+                                        <li class="eye">1,234</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col-12 col-md-6 col-xl-4">
+                            <a href="/campaign/review_view.php">
+                                <div class="item ongoing">
+                                    <span class="label">진행중</span>
+                                    <figure>
+                                        <img src="/assets/images/campaign/img_review03.jpg" class="img-fluid" alt="">
+                                    </figure>
+                                    <div class="progress-area">
+                                        <div class="state-bar" style="width: 0" data-state="85">
+                                            <p class="d-day">D-7</p>
+                                        </div>
+                                    </div>
+                                    <div class="backdrop"></div>
+                                </div>
+                                <div class="details">
+                                    <small>해외아동결연</small>
+                                    <h3>사랑의의료봉사, 고려대학교 교우회 감사패 수상</h3>
+                                    <ul class="icon-list">
+                                        <li class="calendar">2018-05-01</li>
+                                        <li class="eye">1,234</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
                     </ul>
                     <nav class="paging">
                         <ol class="pagination">

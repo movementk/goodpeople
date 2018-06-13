@@ -371,7 +371,7 @@ a {
     .news-list article .article-content .paging {
       margin-top: 50px; } }
 
-.business-list .container .search-form {
+.business-list .container .select-search {
   margin-bottom: 30px; }
 .business-list .container .row li a {
   display: block; }
@@ -425,7 +425,7 @@ a {
     .business-list .container .row li a .details .icon-list {
       margin-top: 30px; } }
 @media (min-width: 1200px) {
-  .business-list .container .search-form {
+  .business-list .container .select-search {
     margin-bottom: 60px; }
   .business-list .container .paging {
     margin-top: 30px; } }

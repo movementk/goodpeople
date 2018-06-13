@@ -660,7 +660,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         margin: 0 auto; } }
 
 .page-intro .page-title {
-  padding: 50px 0 40px;
+  padding: 30px 0 25px;
   text-align: center; }
   .page-intro .page-title h3 {
     font-size: 28px;
@@ -709,7 +709,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         border-bottom: 2px solid #eb6100; }
 @media (min-width: 768px) {
   .page-intro .page-title {
-    padding: 90px 0 80px; }
+    padding: 60px 0; }
     .page-intro .page-title h3 {
       font-size: 40px; }
     .page-intro .page-title .summary {
@@ -721,6 +721,8 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
   .page-intro .lnb .tab-list > li a {
     font-size: 16px; } }
 @media (min-width: 992px) {
+  .page-intro .page-title {
+    padding: 90px 0 80px; }
   .page-intro .lnb .tab-list > li a {
     -webkit-transition-property: all;
     transition-property: all;

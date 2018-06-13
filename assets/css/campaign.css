@@ -454,6 +454,12 @@ a {
           background-color: #3a3d44; }
         .campaign-list .article-content > ul > li a .item.termination .backdrop {
           opacity: 1; }
+        .campaign-list .article-content > ul > li a .item.termination .progress-area .state-bar {
+          transition: none !important;
+          width: 100% !important;
+          background-color: #ccc; }
+          .campaign-list .article-content > ul > li a .item.termination .progress-area .state-bar .d-day {
+            display: none !important; }
         .campaign-list .article-content > ul > li a .item .label {
           position: absolute;
           top: 10px;

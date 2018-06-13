@@ -26,7 +26,6 @@
                 <ul class="tab-list">
                     <li class="active"><a href="/policy/news_list.php">소식지</a></li>
                     <li><a href="/member/annual_report.php">연차보고서</a></li>
-                    <li><a href="#">기관소개서</a></li>
                 </ul>
             </nav>
         </div>

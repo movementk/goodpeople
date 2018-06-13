@@ -508,15 +508,15 @@ a {
 .partner-list .tab-sponser {
   padding-top: 50px; }
   .partner-list .tab-sponser ul > li:nth-of-type(2) ~ li .sponsor-company {
-    margin-top: 30px; }
+    margin-top: 15px; }
   .partner-list .tab-sponser ul > li .sponsor-company {
     text-align: center; }
     .partner-list .tab-sponser ul > li .sponsor-company .item {
       border: 1px solid #ddd; }
     .partner-list .tab-sponser ul > li .sponsor-company > p {
-      font-size: 16px;
+      font-size: 13px;
       color: #666;
-      margin-top: 15px;
+      margin-top: 7px;
       font-family: 'NanumSquare', sans-serif; }
   .partner-list .tab-sponser .paging {
     margin-top: 80px; }
@@ -526,17 +526,17 @@ a {
     .partner-list .tab-sponser ul > li:nth-of-type(2) ~ li .sponsor-company {
       margin-top: 0; }
     .partner-list .tab-sponser ul > li:nth-of-type(3) ~ li .sponsor-company {
-      margin-top: 45px; }
+      margin-top: 30px; }
     .partner-list .tab-sponser ul > li .sponsor-company > p {
-      font-size: 18px;
-      margin-top: 20px; }
+      font-size: 15px;
+      margin-top: 10px; }
     .partner-list .tab-sponser .paging {
       margin-top: 95px; } }
 @media (min-width: 1200px) {
   .partner-list .tab-sponser ul > li:nth-of-type(3) ~ li .sponsor-company {
     margin-top: 0; }
   .partner-list .tab-sponser ul > li:nth-of-type(4) ~ li .sponsor-company {
-    margin-top: 40px !important; }
+    margin-top: 30px !important; }
   .partner-list .tab-sponser ul > li .sponsor-company > p {
     font-size: 16px; }
   .partner-list .tab-sponser .paging {

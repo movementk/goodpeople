@@ -18,7 +18,7 @@
     <div class="page-intro">
         <div class="container">
             <div class="page-title">
-                <h3>Good 피플</h3>
+                <h3>함께하는 사람들</h3>
             </div>
             <nav class="lnb">
                 <ul class="tab-list">
@@ -35,7 +35,6 @@
 		<div class="container">
 			<section class="group">
 				<div class="section-header">
-					<h4>조직도</h4>
 					<nav class="sub-tab-list">
 						<ul>
 							<li class="active"><a href="/introduce/directors.php">이사장 및 회장</a></li>
