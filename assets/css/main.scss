@@ -1180,31 +1180,43 @@
 }
 
 .sponsorship-info {
-    padding: 0 0 40px 0;
+    padding: 50px 0;
     background-color: #fff;
     .info-list {
         > ul {
             > li {
+                overflow: hidden;
                 article {
                     @include nns();
                     display: block;
-                    margin-top: 40px;
+                    &.ars {
+                        float: left;
+                        width: 50%;
+                        padding-right: 10px;
+                    }
+                    &.inquiry {
+                        float: left;
+                        width: 50%;
+                        padding-left: 10px;
+                    }
                     h3 {
                         font-size: 18px;
                         color: #333;
                         font-weight: 600;
+                        margin-bottom: 15px;
                     }
                     p {
-                        font-size: 14px;
+                        font-size: 12px;
                         color: #111;
+                        line-height: 18px;
                         font-weight: 400;
-                        margin-top: 15px;
+                        margin-top: 10px;
                     }
                     strong {
                         display: block;
-                        font-size: 35px;
+                        font-size: 16px;
                         font-weight: bold;
-                        margin-top: 20px;
+                        margin-top: 10px;
                         @include roboto();
                         &.or {
                             color: #eb6100;
@@ -1214,7 +1226,7 @@
                         }
                     }
                     .note {
-                        font-size: 13px;
+                        font-size: 12px;
                         font-weight: 400;
                         color: #eb6100;
                         display: inline-block;
@@ -1229,51 +1241,45 @@
                             font-weight: 400;
                         }
                     }
-                    .btn-area {
-                        font-size: 0;
-                        &.more {
-                            margin-top: 5px;
-                        }
-                        .btn {
-                            vertical-align: top;
-                            padding: 0;
-                            border-radius: 0;
-                            background: none;
-                            display: inline-block;
-                            margin-top: 10px;
-                            &.btn-lg {
-                                width: 100%;
-                                font-size: 14px;
-                                text-align: left;
-                                font-weight: 400;
-                                line-height: 54px;
-                                height: 54px;
-                                color: #fff;
-                                padding: 0 15px;
-                                &:after {
-                                    float: right;
-                                    font-size: 16px;
-                                    font-family: "fontello";
-                                    content: "\E80B";
+                    &.give {
+                        margin-top: 50px;
+                        .btn-area {
+                            font-size: 0;
+                            &.more {
+                                margin-top: 5px;
+                            }
+                            .btn {
+                                vertical-align: top;
+                                padding: 0;
+                                border-radius: 0;
+                                background: none;
+                                display: inline-block;
+                                margin-top: 10px;
+                                &.btn-md {
+                                    width: 49%;
+                                    font-size: 13px;
+                                    text-align: center;
+                                    font-weight: 400;
+                                    line-height: 54px;
+                                    height: 54px;
+                                    color: #fff;
+                                    padding: 0 15px;
+                                    margin-right: 2%;
                                 }
-                            }
-                            &.btn-orange {
-                                background-color: #eb6100;
-                            }
-                            &.btn-blue {
-                                background-color: #144199;
-                            }
-                            &.btn-sm {
-                                width: 49%;
-                                height: 40px;
-                                font-size: 13px;
-                                color: #111;
-                                line-height: 38px;
-                                text-align: center;
-                                margin-right: 2%;
-                                border: 1px solid #666;
-                                &:nth-of-type(2n + 2) {
+                                &:last-child {
                                     margin-right: 0;
+                                }
+                                &.btn-orange {
+                                    background-color: #eb6100;
+                                }
+                                &.btn-blue {
+                                    background-color: #144199;
+                                }
+                                &.btn-white {
+                                    color: #111;
+                                    line-height: 52px;
+                                    text-align: center;
+                                    border: 1px solid #666;
                                 }
                             }
                         }

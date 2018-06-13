@@ -1300,82 +1300,87 @@ a {
         display: none; } }
 
 .sponsorship-info {
-  padding: 0 0 40px 0;
+  padding: 50px 0;
   background-color: #fff; }
-  .sponsorship-info .info-list > ul > li article {
-    font-family: 'NanumSquare', sans-serif;
-    display: block;
-    margin-top: 40px; }
-    .sponsorship-info .info-list > ul > li article h3 {
-      font-size: 18px;
-      color: #333;
-      font-weight: 600; }
-    .sponsorship-info .info-list > ul > li article p {
-      font-size: 14px;
-      color: #111;
-      font-weight: 400;
-      margin-top: 15px; }
-    .sponsorship-info .info-list > ul > li article strong {
-      display: block;
-      font-size: 35px;
-      font-weight: bold;
-      margin-top: 20px;
-      font-family: 'Roboto', sans-serif; }
-      .sponsorship-info .info-list > ul > li article strong.or {
-        color: #eb6100; }
-      .sponsorship-info .info-list > ul > li article strong.bl {
-        color: #144199; }
-    .sponsorship-info .info-list > ul > li article .note {
-      font-size: 13px;
-      font-weight: 400;
-      color: #eb6100;
-      display: inline-block; }
-    .sponsorship-info .info-list > ul > li article dl dt {
-      margin-bottom: 10px; }
-    .sponsorship-info .info-list > ul > li article dl dd {
-      font-size: 13px;
-      color: #555;
-      font-weight: 400; }
-    .sponsorship-info .info-list > ul > li article .btn-area {
-      font-size: 0; }
-      .sponsorship-info .info-list > ul > li article .btn-area.more {
-        margin-top: 5px; }
-      .sponsorship-info .info-list > ul > li article .btn-area .btn {
-        vertical-align: top;
-        padding: 0;
-        border-radius: 0;
-        background: none;
-        display: inline-block;
+  .sponsorship-info .info-list > ul > li {
+    overflow: hidden; }
+    .sponsorship-info .info-list > ul > li article {
+      font-family: 'NanumSquare', sans-serif;
+      display: block; }
+      .sponsorship-info .info-list > ul > li article.ars {
+        float: left;
+        width: 50%;
+        padding-right: 10px; }
+      .sponsorship-info .info-list > ul > li article.inquiry {
+        float: left;
+        width: 50%;
+        padding-left: 10px; }
+      .sponsorship-info .info-list > ul > li article h3 {
+        font-size: 18px;
+        color: #333;
+        font-weight: 600;
+        margin-bottom: 15px; }
+      .sponsorship-info .info-list > ul > li article p {
+        font-size: 12px;
+        color: #111;
+        line-height: 18px;
+        font-weight: 400;
         margin-top: 10px; }
-        .sponsorship-info .info-list > ul > li article .btn-area .btn.btn-lg {
-          width: 100%;
-          font-size: 14px;
-          text-align: left;
-          font-weight: 400;
-          line-height: 54px;
-          height: 54px;
-          color: #fff;
-          padding: 0 15px; }
-          .sponsorship-info .info-list > ul > li article .btn-area .btn.btn-lg:after {
-            float: right;
-            font-size: 16px;
-            font-family: "fontello";
-            content: "\E80B"; }
-        .sponsorship-info .info-list > ul > li article .btn-area .btn.btn-orange {
-          background-color: #eb6100; }
-        .sponsorship-info .info-list > ul > li article .btn-area .btn.btn-blue {
-          background-color: #144199; }
-        .sponsorship-info .info-list > ul > li article .btn-area .btn.btn-sm {
-          width: 49%;
-          height: 40px;
-          font-size: 13px;
-          color: #111;
-          line-height: 38px;
-          text-align: center;
-          margin-right: 2%;
-          border: 1px solid #666; }
-          .sponsorship-info .info-list > ul > li article .btn-area .btn.btn-sm:nth-of-type(2n + 2) {
-            margin-right: 0; }
+      .sponsorship-info .info-list > ul > li article strong {
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 10px;
+        font-family: 'Roboto', sans-serif; }
+        .sponsorship-info .info-list > ul > li article strong.or {
+          color: #eb6100; }
+        .sponsorship-info .info-list > ul > li article strong.bl {
+          color: #144199; }
+      .sponsorship-info .info-list > ul > li article .note {
+        font-size: 12px;
+        font-weight: 400;
+        color: #eb6100;
+        display: inline-block; }
+      .sponsorship-info .info-list > ul > li article dl dt {
+        margin-bottom: 10px; }
+      .sponsorship-info .info-list > ul > li article dl dd {
+        font-size: 13px;
+        color: #555;
+        font-weight: 400; }
+      .sponsorship-info .info-list > ul > li article.give {
+        margin-top: 50px; }
+        .sponsorship-info .info-list > ul > li article.give .btn-area {
+          font-size: 0; }
+          .sponsorship-info .info-list > ul > li article.give .btn-area.more {
+            margin-top: 5px; }
+          .sponsorship-info .info-list > ul > li article.give .btn-area .btn {
+            vertical-align: top;
+            padding: 0;
+            border-radius: 0;
+            background: none;
+            display: inline-block;
+            margin-top: 10px; }
+            .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-md {
+              width: 49%;
+              font-size: 13px;
+              text-align: center;
+              font-weight: 400;
+              line-height: 54px;
+              height: 54px;
+              color: #fff;
+              padding: 0 15px;
+              margin-right: 2%; }
+            .sponsorship-info .info-list > ul > li article.give .btn-area .btn:last-child {
+              margin-right: 0; }
+            .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-orange {
+              background-color: #eb6100; }
+            .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-blue {
+              background-color: #144199; }
+            .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-white {
+              color: #111;
+              line-height: 52px;
+              text-align: center;
+              border: 1px solid #666; }
   @media (min-width: 768px) {
     .sponsorship-info {
       padding: 60px 0; }

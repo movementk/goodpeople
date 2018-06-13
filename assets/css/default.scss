@@ -979,11 +979,12 @@ body {
 //footer
 #footer {
     @include nns();
-    padding: 35px 0 70px;
+    padding: 25px 0 70px;
     background-color: #f3f5fa;
     .company {
+        text-align: center;
         & ~ .company {
-            margin-top: 20px;
+            margin-top: 5px;
         }
         h2 {
             font-size: 13px;
@@ -998,16 +999,52 @@ body {
                 word-break: keep-all;
                 &:after {
                     position: relative;
-                    top: -2px;
+                    top: -1px;
                     display: inline-block;
                     font-size: 10px;
                     content: "|";
-                    margin: 0 10px 0 7px;
+                    margin: 0 3px 0 3px;
                 }
                 &:last-child {
                     &:after {
                         content: "";
                         margin: 0;
+                    }
+                }
+                &.list-title {
+                    display: inline-block;
+                    font-size: 11px;
+                    color: #555;
+                    @media(min-width: $md) {
+                        display: none;
+                    }
+                }
+                &.responsive-after {
+                    &:after {
+                        content: "";
+                        margin: 0;
+                    }
+                    @media(min-width: $md) {
+                        &:after {
+                            content: "|";
+                            margin: 0 10px 0 7px;
+                        }
+                    }
+                }
+                &.responsive-hidden {
+                    dl {
+                        dt {
+                            display: none;
+                            @media(min-width: $md) {
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+                &.xs-none {
+                    display: none;
+                    @media(min-width: $md) {
+                        display: inline-block;
                     }
                 }
                 &.after-none {
@@ -1059,8 +1096,10 @@ body {
         border-top: 1px solid #ccc;
     }
     .policy {
+        text-align: center;
         ul {
             overflow: hidden;
+            display: inline-block;
             li {
                 float: left;
                 margin-right: 15px;
@@ -1079,18 +1118,24 @@ body {
             font-size: 11px;
             color: #666;
             font-weight: 300;
-            margin-top: 10px;
             @include roboto();
         }
     }
     @media(min-width: $md) {
         padding: 45px 0 97px;
         .company {
+            text-align: left;
+            & ~ .company {
+                margin-top: 20px;
+            }
             h2 {
                 font-size: 14px;
             }
             ul {
                 li {
+                    &:after {
+                        margin: 0 10px 0 7px;
+                    }
                     address {
                         font-size: 13px;
                         line-height: 24px;
@@ -1112,6 +1157,7 @@ body {
             margin: 30px 0;
         }
         .policy {
+            text-align: left;
             ul {
                 li {
                     a {
@@ -1121,7 +1167,7 @@ body {
             }
             .copyright {
                 font-size: 13px;
-                margin-top: 15px;
+                margin-top: 10px;
             }
         }
     }
