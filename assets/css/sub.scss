@@ -2305,53 +2305,6 @@ input, textarea {
     }
 }
 
-// 아동후원사업
-.method {
-	text-align: center;
-	li {
-		min-width: 200px;
-		text-align: center;
-		position: relative;
-		.box {
-			min-width: 200px;
-			height: 200px;
-			padding-top: 40px;
-			border: 1px solid #b3b3b3;
-		}
-		&:nth-of-type(3) {
-			&:after {
-				display: none;
-			}
-		}
-		&:last-child {
-			&:after {
-				display: none;
-			}
-		}
-		&:after {
-			position: absolute;
-			top: 50%;
-			right: 0;
-			margin-right: -8px;
-			display: inline-block;
-			content: "\F006";
-			color: #000;
-			font-size: 30px;
-			font-family: "fontello";
-		}
-	}
-	@media (min-width: $md) {
-		font-size: 0;
-		li {
-			padding: 0 48px !important; 
-			height: 200px;
-			&:nth-of-type(3) {
-				margi-right: 0;
-			}
-		}
-	}
-}
-
 //사업소개 공통 
 .dot-list {
 	.row {
@@ -2515,32 +2468,216 @@ input, textarea {
 //사업소개 공통3 abc리스트
 .abc-list {
 	li {
+		& ~ li {
+			margin-top: 30px;
+		}
 		dl {
 			dt {
+				font-size: 16px;
+				color: #333;
+				font-weight: 400;
 				i {
 					display: inline-block;
 					width: 25px;
 					height: 25px;
+					font-size: 14px;
 					line-height: 25px;
-					text-align: center;
-					font-style: normal;
-					border-radius: 50%;
-					background-color: #eb6101;
 					color: #fff;
+					font-weight: 400;
+					font-style: normal;
+					text-align: center;
+					border-radius: 50%;
+					margin-right: 10px;
+					vertical-align: top;
+					background-color: #eb6101;
+					@include roboto();
 				}
 			}
 			dd {
-					
+				font-size: 13px;
+				color: #666;
+				line-height: 22px;
+				font-weight: 400;
+				margin-top: 10px;
+			}
+		}
+	}
+	@media (min-width : $md) {
+		li {
+			& ~ li {
+				margin-top: 40px;
+			}
+			dl {
+				overflow: hidden;
+				dt {
+					float: left;  
+					clear: both;
+					width: 30%;
+				}
+				dd {
+					float: left;
+					width: 70%;
+					font-size: 14px;
+					line-height: 24px;
+					margin-top: 0;
+				}
+			}
+		}
+	}
+	@media (min-width : $xl) {
+		li {
+			& ~ li {
+				margin-top: 20px;
+			}
+			dl {
+				dt {
+					width: 22%;
+				}
+				dd {
+					width: 78%;
+				}
 			}
 		}
 	}
 }
 
+// 아동후원사업
+//.method {
+//	overflow: hidden;
+//	text-align: center;
+//	li {
+//		display: table;
+//		float: left;
+//		width: 50%;
+//		height: 135px;
+//		&:nth-of-type(odd) {
+//			padding-right: 20px;
+//		}
+//		&:nth-of-type(even) {
+//			padding-left: 20px;
+//		}
+//		&:nth-of-type(2) ~ li {
+//			margin-top: 40px;
+//		}
+//		.box {
+//			display: table-cell;
+//			vertical-align: middle;
+//			border: 1px solid #b3b3b3;
+//			.item {
+//				img {
+//					transform: scale(.7);
+//				}
+//			}
+//			.details {
+//				small {
+//					display: block;
+//					font-size: 13px;
+//					color: #333;
+//					font-weight: 500;
+//					@include roboto();
+//				}
+//				> p {
+//					font-size: 14px;
+//					color: #666;
+//					line-height: 20px;
+//					margin-top: 5px;
+//				} 
+//			}
+//		}
+//	}
+//}
+// 아동후원사업
+.method {
+	overflow: hidden;
+	text-align: center;
+	li {
+		display: table;
+		float: left;
+		width: 50%;
+		height: 135px;
+		&:nth-of-type(odd) {
+			padding-right: 20px;
+		}
+		&:nth-of-type(even) {
+			padding-left: 20px;
+		}
+		&:nth-of-type(2) ~ li {
+			margin-top: 40px;
+		}
+		.box {
+			display: table-cell;
+			vertical-align: middle;
+			border: 1px solid #b3b3b3;
+			figure {
+				img {
+					transform: scale(.7); 
+				}
+				figcaption {
+					small {
+						display: block;
+						font-size: 13px;
+						color: #333;
+						font-weight: 500;
+						@include roboto();
+					}
+					> p {
+						font-size: 14px;
+						color: #666;
+						line-height: 20px;
+						margin-top: 5px;
+					} 
+				}
+			}
+		}
+	}
+}
 
-
-
-
-
+// 아동후원사업
+//.method {
+//	text-align: center;
+//	li {
+//		min-width: 200px;
+//		text-align: center;
+//		position: relative;
+//		.box {
+//			min-width: 200px;
+//			height: 200px;
+//			padding-top: 40px;
+//			border: 1px solid #b3b3b3;
+//		}
+//		&:nth-of-type(3) {
+//			&:after {
+//				display: none;
+//			}
+//		}
+//		&:last-child {
+//			&:after {
+//				display: none;
+//			}
+//		}
+//		&:after {
+//			position: absolute;
+//			top: 50%;
+//			right: 0;
+//			margin-right: -8px;
+//			display: inline-block;
+//			content: "\F006";
+//			color: #000;
+//			font-size: 30px;
+//			font-family: "fontello";
+//		}
+//	}
+//	@media (min-width: $md) {
+//		font-size: 0;
+//		li {
+//			padding: 0 48px !important; 
+//			height: 200px;
+//			&:nth-of-type(3) {
+//				margi-right: 0;
+//			}
+//		}
+//	}
+//}
 
 
 

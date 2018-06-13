@@ -925,7 +925,8 @@
                 </div>
             </article>
             
-            <!-- 아동후원사업  -->
+
+            <!-- 아동후원사업  
             <p class="ex-txt">아동후원사업</p>
             <div class="method">
 				<ul class="row justify-content-center">
@@ -970,7 +971,8 @@
 						</div>
 					</li> 
 				</ul>
-           	</div>
+           	</div>-->
+
            	
            	<!--  사업소개 공통  -->
             <p class="ex-txt">사업소개 공통1</p>
@@ -1042,11 +1044,113 @@
 			<ul class="abc-list">
 				<li>
 					<dl>
-						<dt><i>A</i>ddd</dt>
-						<dd><i>B</i>dddfdsjf</dd>
+						<dt><i>A</i>아동선별</dt>
+						<dd>
+							가정형편, 연령 등의 선별 기준을 통해 1차 선별이 이루어지며 굿피플 현지 스탭의 가정조사와 상담을 통해 최종 선별합니다.
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt><i>b</i>프로필 작성</dt>
+						<dd>
+							대상아동 사진촬영, 프로필 작성, 대상아동자료를 굿피플본부로 발송합니다.
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt><i>C</i>후원자 연결</dt>
+						<dd>
+							굿피플 본부에서 후원아동 자료를 토대로 후원 신청자와후원이 이루어지며 후원자료를 후원자에게 전달합니다.
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt><i>D</i>아동지원 및 지역개발</dt>
+						<dd>
+							물품지원, 건강검진, 후원자 서신, 선물 전달 등의 아동 지원활동과 학교건립, 식수개발 등 지역개발사업을 함께진행 합니다.
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt><i>E</i>DB 관리</dt>
+						<dd>
+							지속적인 후원아동관리, 정기적인 업데이트, 커뮤니케이션을 지원합니다.
+						</dd>
 					</dl>
 				</li>
 			</ul>
+   	
+   			<!--아동후원사업-->
+   			<p class="ex-txt">아동후원사업</p>
+   			<ol class="method">
+   				<li>
+   					<div class="box">
+						<figure>
+							<img src="/assets/images/business/img_method_list01.png" class="img-fluid" alt="">
+							<figcaption>
+								<small>STEP 01</small>
+								<p>굿피플 회원가입</p>
+							</figcaption>
+						</figure>
+					</div>
+   				</li>
+   				<li>
+   					<div class="box">
+						<figure>
+							<img src="/assets/images/business/img_method_list02.png" class="img-fluid" alt="">
+							<figcaption>
+								<small>STEP 02</small>
+								<p>
+									정기후원<br>
+									신청하기 클릭
+								</p>
+							</figcaption>
+						</figure>
+					</div>
+   				</li>
+   				<li>
+   					<div class="box">
+						<figure>
+							<img src="/assets/images/business/img_method_list01.png" class="img-fluid" alt="">
+							<figcaption>
+								<small>STEP 01</small>
+								<p>굿피플 회원가입</p>
+							</figcaption>
+						</figure>
+					</div>
+   				</li>
+   				<li>
+   					<div class="box">
+						<figure>
+							<img src="/assets/images/business/img_method_list02.png" class="img-fluid" alt="">
+							<figcaption>
+								<small>STEP 02</small>
+								<p>
+									정기후원<br>
+									신청하기 클릭
+								</p>
+							</figcaption>
+						</figure>
+					</div>
+   				</li>
+<!--
+   				<li>
+   					<div class="box">
+   						<div class="item">
+   							<img src="/assets/images/business/img_method_list01.png" class="img-fluid" alt="">
+   						</div>
+   						<div class="details">
+   							<small>STEP 01</small>
+							<p>굿피플 회원가입</p>
+   						</div>
+					</div>
+   				</li>
+-->
+   			</ol>
     	</div>
     </main>
     
