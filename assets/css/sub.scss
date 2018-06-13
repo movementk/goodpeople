@@ -910,7 +910,7 @@ input, textarea {
 .board-list-2 {
 	ol {
 		> li {
-			padding: 25px 10px 20px;
+			padding: 15px 10px 10px;
 			border-bottom: 1px solid #dfdfdf;
 			&:first-child {
 				padding-top: 0;
@@ -921,7 +921,7 @@ input, textarea {
 					overflow: hidden;
 					text-overflow: ellipsis;
 					white-space: nowrap;
-					font-size: 14px;
+					font-size: 13px;
 					color: #333;
 					font-weight: 400;
 				}
@@ -930,12 +930,18 @@ input, textarea {
 				display: block;
                 text-align: left;
                 overflow: hidden;
-				margin-top: 10px;
+				margin-top: 5px;
 				li {
+                    font-size: 11px;
 					line-height: 25px;
 					&.calendar {
 						float: left;
+                        padding-left: 17px;
 						padding-right: 0;
+                        &:before {
+                            font-size: 10px;
+                            top: -1px;
+                        }
 					}
 					&.reply {
 						float: right;
@@ -943,7 +949,7 @@ input, textarea {
 						p {
 							width: 70px;
 							height: 25px;
-							font-size: 12px;
+							font-size: 11px;
 							color: #666;
 							text-align: center;
 							line-height: 23px;
@@ -971,6 +977,7 @@ input, textarea {
 					}
 				}
 				.icon-list {
+                    margin-top: 10px;
 					li {
 						&.calendar {
                             float: none;

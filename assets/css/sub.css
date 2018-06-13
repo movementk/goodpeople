@@ -1006,7 +1006,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         margin-top: 60px; } }
 
 .board-list-2 ol > li {
-  padding: 25px 10px 20px;
+  padding: 15px 10px 10px;
   border-bottom: 1px solid #dfdfdf; }
   .board-list-2 ol > li:first-child {
     padding-top: 0; }
@@ -1015,26 +1015,31 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-size: 14px;
+    font-size: 13px;
     color: #333;
     font-weight: 400; }
   .board-list-2 ol > li .icon-list {
     display: block;
     text-align: left;
     overflow: hidden;
-    margin-top: 10px; }
+    margin-top: 5px; }
     .board-list-2 ol > li .icon-list li {
+      font-size: 11px;
       line-height: 25px; }
       .board-list-2 ol > li .icon-list li.calendar {
         float: left;
+        padding-left: 17px;
         padding-right: 0; }
+        .board-list-2 ol > li .icon-list li.calendar:before {
+          font-size: 10px;
+          top: -1px; }
       .board-list-2 ol > li .icon-list li.reply {
         float: right;
         padding-left: 0; }
         .board-list-2 ol > li .icon-list li.reply p {
           width: 70px;
           height: 25px;
-          font-size: 12px;
+          font-size: 11px;
           color: #666;
           text-align: center;
           line-height: 23px;
@@ -1048,12 +1053,14 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     padding: 30px 10px; }
     .board-list-2 ol > li h3 a {
       font-size: 16px; }
-    .board-list-2 ol > li .icon-list li.calendar {
-      float: none;
-      padding-right: 0; }
-    .board-list-2 ol > li .icon-list li.reply {
-      float: none;
-      padding-left: 30px; } }
+    .board-list-2 ol > li .icon-list {
+      margin-top: 10px; }
+      .board-list-2 ol > li .icon-list li.calendar {
+        float: none;
+        padding-right: 0; }
+      .board-list-2 ol > li .icon-list li.reply {
+        float: none;
+        padding-left: 30px; } }
 @media (min-width: 1200px) {
   .board-list-2 {
     text-align: center; }
