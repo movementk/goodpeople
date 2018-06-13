@@ -1928,40 +1928,6 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     .gp-group .article-content > ul > li:nth-of-type(4n + 4) .people-information {
       border-right: 0; } }
 
-.method {
-  text-align: center; }
-  .method li {
-    min-width: 200px;
-    text-align: center;
-    position: relative; }
-    .method li .box {
-      min-width: 200px;
-      height: 200px;
-      padding-top: 40px;
-      border: 1px solid #b3b3b3; }
-    .method li:nth-of-type(3):after {
-      display: none; }
-    .method li:last-child:after {
-      display: none; }
-    .method li:after {
-      position: absolute;
-      top: 50%;
-      right: 0;
-      margin-right: -8px;
-      display: inline-block;
-      content: "\F006";
-      color: #000;
-      font-size: 30px;
-      font-family: "fontello"; }
-  @media (min-width: 768px) {
-    .method {
-      font-size: 0; }
-      .method li {
-        padding: 0 48px !important;
-        height: 200px; }
-        .method li:nth-of-type(3) {
-          margi-right: 0; } }
-
 .dot-list .row .col-12 ~ .col-12 .article-header {
   padding-top: 45px; }
 .dot-list .row .col-12 .article-header {
@@ -2052,15 +2018,86 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
   .dot-board .article-content ul li a:after {
     right: 20px; } }
 
-.abc-list li dl dt i {
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  text-align: center;
-  font-style: normal;
-  border-radius: 50%;
-  background-color: #eb6101;
-  color: #fff; }
+.abc-list li ~ li {
+  margin-top: 30px; }
+.abc-list li dl dt {
+  font-size: 16px;
+  color: #333;
+  font-weight: 400; }
+  .abc-list li dl dt i {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: top;
+    background-color: #eb6101;
+    font-family: 'Roboto', sans-serif; }
+.abc-list li dl dd {
+  font-size: 13px;
+  color: #666;
+  line-height: 22px;
+  font-weight: 400;
+  margin-top: 10px; }
+@media (min-width: 768px) {
+  .abc-list li ~ li {
+    margin-top: 40px; }
+  .abc-list li dl {
+    overflow: hidden; }
+    .abc-list li dl dt {
+      float: left;
+      clear: both;
+      width: 30%; }
+    .abc-list li dl dd {
+      float: left;
+      width: 70%;
+      font-size: 14px;
+      line-height: 24px;
+      margin-top: 0; } }
+@media (min-width: 1200px) {
+  .abc-list li ~ li {
+    margin-top: 20px; }
+  .abc-list li dl dt {
+    width: 22%; }
+  .abc-list li dl dd {
+    width: 78%; } }
+
+.method {
+  overflow: hidden;
+  text-align: center; }
+  .method li {
+    display: table;
+    float: left;
+    width: 50%;
+    height: 135px; }
+    .method li:nth-of-type(odd) {
+      padding-right: 20px; }
+    .method li:nth-of-type(even) {
+      padding-left: 20px; }
+    .method li:nth-of-type(2) ~ li {
+      margin-top: 40px; }
+    .method li .box {
+      display: table-cell;
+      vertical-align: middle;
+      border: 1px solid #b3b3b3; }
+      .method li .box figure img {
+        transform: scale(0.7); }
+      .method li .box figure figcaption small {
+        display: block;
+        font-size: 13px;
+        color: #333;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif; }
+      .method li .box figure figcaption > p {
+        font-size: 14px;
+        color: #666;
+        line-height: 20px;
+        margin-top: 5px; }
 
 /*# sourceMappingURL=sub.css.map */
