@@ -1034,7 +1034,8 @@
 				padding: 0 0 70px;
                 border-bottom: 0;
 				.comment {
-					overflow-y: scroll;
+					/*overflow-y: scroll;*/
+                    overflow: hidden;
 					height: 185px;
 					margin-top: 20px;
 					padding: 15px 10px 30px;
