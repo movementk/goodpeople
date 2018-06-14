@@ -32,6 +32,14 @@
     <!-- Content -->
     <main id="content" class="volunteer-schedule">
         <div class="container">
+           	<div class="info">
+           		<strong>
+           			<span>2018</span>년 <span>03</span>월 일정안내
+           		</strong>
+           		<p>
+           			전문적인 의료지원을 통해 질병을 예방하고 · 양질의 삶을 영위할 수 있도록 지원하고,<br class="d-none d-md-block"> 의료사각지대에 처해있는 분들에게 의료서비스를 제공하여 사회와 원활하게 소통할 수 있도록 힘쓰고 있습니다.
+           		</p>
+           	</div>
             <article class="schedule-list">
                 <div class="schedule-date">
                     <h4><span><i>1606</i>차</span> 이동진료 일정안내 <small>(2018년 3월)</small></h4>

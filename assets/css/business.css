@@ -526,7 +526,7 @@ a {
   margin-top: 50px; }
   .volunteer-introduce .volunteer-info {
     text-align: center;
-    padding-bottom: 100px; }
+    padding-bottom: 50px; }
     .volunteer-introduce .volunteer-info h4 {
       font-size: 24px;
       color: #eb6100;
@@ -542,16 +542,16 @@ a {
     .volunteer-introduce .volunteer-info .circle-summary {
       font-size: 0; }
       .volunteer-introduce .volunteer-info .circle-summary > li {
-        display: block;
-        width: 230px;
-        height: 230px;
-        border-radius: 50%;
+        display: inline-block;
+        width: 160px;
+        height: 160px;
         text-align: center;
-        margin: 0 auto;
-        color: #fff;
-        padding-top: 40px; }
+        border-radius: 50%;
+        padding-top: 25px; }
         .volunteer-introduce .volunteer-info .circle-summary > li figure .img-fluid {
           display: block;
+          height: 36px;
+          width: auto !important;
           margin: 0 auto; }
         .volunteer-introduce .volunteer-info .circle-summary > li figure figcaption {
           color: #fff;
@@ -559,21 +559,22 @@ a {
           .volunteer-introduce .volunteer-info .circle-summary > li figure figcaption small {
             display: block;
             font-weight: 300;
-            margin-top: 20px;
-            font-size: 18px; }
+            margin-top: 15px;
+            font-size: 12px; }
           .volunteer-introduce .volunteer-info .circle-summary > li figure figcaption strong {
             display: block;
-            font-size: 36px;
-            font-weight: 400; }
+            font-size: 24px;
+            font-weight: 400;
+            margin-top: 5px; }
         .volunteer-introduce .volunteer-info .circle-summary > li.treatment-count {
+          margin-right: -10px;
           background-color: rgba(235, 97, 0, 0.8); }
         .volunteer-introduce .volunteer-info .circle-summary > li.year-count {
-          position: relative;
-          top: -20px;
+          margin-left: -10px;
           background-color: rgba(20, 65, 153, 0.8); }
     .volunteer-introduce .volunteer-info .latest-news {
       text-align: left;
-      margin-top: 80px; }
+      margin-top: 45px; }
       .volunteer-introduce .volunteer-info .latest-news h5 {
         font-size: 18px;
         color: #222;
@@ -609,7 +610,7 @@ a {
             content: "\E80B"; }
   .volunteer-introduce .medical-association {
     text-align: center;
-    padding: 90px 0;
+    padding: 45px 0;
     background-color: #f7f7f7; }
     .volunteer-introduce .medical-association h4 {
       font-size: 26px;
@@ -637,34 +638,38 @@ a {
   @media (min-width: 768px) {
     .volunteer-introduce {
       margin-top: 100px; }
-      .volunteer-introduce .volunteer-info h4 {
-        font-size: 30px; }
-      .volunteer-introduce .volunteer-info .summary {
-        line-height: 30px;
-        margin-bottom: 60px; }
-      .volunteer-introduce .volunteer-info .circle-summary > li {
-        display: inline-block; }
-        .volunteer-introduce .volunteer-info .circle-summary > li figure .img-fluid {
-          display: inline-block;
-          line-height: 52px; }
-        .volunteer-introduce .volunteer-info .circle-summary > li.treatment-count {
-          position: relative;
-          right: -15px; }
-        .volunteer-introduce .volunteer-info .circle-summary > li.year-count {
-          position: relative;
-          top: 0;
-          left: -15px; }
-      .volunteer-introduce .volunteer-info .latest-news {
-        margin-top: 100px; }
-        .volunteer-introduce .volunteer-info .latest-news h5 {
-          font-size: 18px; }
-        .volunteer-introduce .volunteer-info .latest-news > ul > li > a {
-          font-size: 14px;
-          padding: 18px 35px; }
-          .volunteer-introduce .volunteer-info .latest-news > ul > li > a:before {
-            left: 20px; }
-          .volunteer-introduce .volunteer-info .latest-news > ul > li > a:after {
-            right: 20px; }
+      .volunteer-introduce .volunteer-info {
+        padding-bottom: 100px; }
+        .volunteer-introduce .volunteer-info h4 {
+          font-size: 30px; }
+        .volunteer-introduce .volunteer-info .summary {
+          line-height: 30px;
+          margin-bottom: 60px; }
+        .volunteer-introduce .volunteer-info .circle-summary > li {
+          width: 230px;
+          height: 230px;
+          padding-top: 40px; }
+          .volunteer-introduce .volunteer-info .circle-summary > li figure .img-fluid {
+            height: 52px; }
+          .volunteer-introduce .volunteer-info .circle-summary > li figure figcaption small {
+            font-size: 18px; }
+          .volunteer-introduce .volunteer-info .circle-summary > li figure figcaption strong {
+            font-size: 36px; }
+          .volunteer-introduce .volunteer-info .circle-summary > li.treatment-count {
+            margin-right: -15px; }
+          .volunteer-introduce .volunteer-info .circle-summary > li.year-count {
+            margin-left: -15px; }
+        .volunteer-introduce .volunteer-info .latest-news {
+          margin-top: 100px; }
+          .volunteer-introduce .volunteer-info .latest-news h5 {
+            font-size: 18px; }
+          .volunteer-introduce .volunteer-info .latest-news > ul > li > a {
+            font-size: 14px;
+            padding: 18px 35px; }
+            .volunteer-introduce .volunteer-info .latest-news > ul > li > a:before {
+              left: 20px; }
+            .volunteer-introduce .volunteer-info .latest-news > ul > li > a:after {
+              right: 20px; }
       .volunteer-introduce .medical-association {
         padding: 80px 0; }
         .volunteer-introduce .medical-association h4 {
@@ -682,6 +687,23 @@ a {
 
 .volunteer-schedule {
   margin-top: 45px; }
+  .volunteer-schedule .info {
+    text-align: center;
+    padding: 0 15px; }
+    .volunteer-schedule .info strong {
+      display: block;
+      font-size: 24px;
+      color: #222;
+      font-weight: 400; }
+      .volunteer-schedule .info strong span {
+        color: #eb6101;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif; }
+    .volunteer-schedule .info > p {
+      font-size: 13px;
+      color: #555;
+      line-height: 26px;
+      margin: 25px 0; }
   .volunteer-schedule .schedule-list > .schedule-date {
     padding: 30px 20px;
     border: 1px solid #e2e2e2;
@@ -738,6 +760,13 @@ a {
   @media (min-width: 768px) {
     .volunteer-schedule {
       margin-top: 75px; }
+      .volunteer-schedule .info {
+        padding: 0; }
+        .volunteer-schedule .info strong {
+          font-size: 30px; }
+        .volunteer-schedule .info > p {
+          font-size: 15px;
+          margin: 30px 0 65px; }
       .volunteer-schedule .schedule-list > .schedule-date {
         padding: 40px 50px; }
         .volunteer-schedule .schedule-list > .schedule-date ~ .schedule-date {
@@ -765,7 +794,7 @@ a {
         margin-top: 30px; } }
   @media (min-width: 1200px) {
     .volunteer-schedule {
-      margin-top: 70px; }
+      margin-top: 85px; }
       .volunteer-schedule .schedule-list .attention {
         margin-top: 35px; } }
 
@@ -793,10 +822,40 @@ a {
     font-size: 24px;
     color: #333;
     line-height: 32px; }
-  .sub-header > p {
+  .sub-header p {
     font-size: 13px;
     color: #666;
     line-height: 24px;
     margin-top: 25px; }
+
+.children {
+  padding-bottom: 0 !important; }
+  .children .section-content .abc-list {
+    margin-top: 40px; }
+  .children .section-content .dot-board {
+    margin-top: 80px; }
+  .children .section-content .bg-children {
+    height: 327px;
+    text-align: center;
+    background-image: url(/assets/images/business/bg_children_md.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px; }
+    .children .section-content .bg-children .logo {
+      text-align: center;
+      padding-top: 100px; }
+    .children .section-content .bg-children p {
+      font-size: 14px;
+      color: #fff;
+      margin-top: 20px;
+      text-shadow: 0px 6px 7px rgba(0, 0, 0, 0.5); }
+    .children .section-content .bg-children small {
+      display: block;
+      font-size: 13px;
+      color: #fff;
+      opacity: .5;
+      font-weight: 300;
+      margin-top: 5px; }
 
 /*# sourceMappingURL=business.css.map */

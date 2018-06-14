@@ -290,7 +290,7 @@
     margin-top: 50px;
     .volunteer-info {
         text-align: center;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
         h4 {
             font-size: 24px;
             color: #eb6100;
@@ -305,20 +305,20 @@
             line-height: 28px;
             margin-bottom: 40px;
         }
-        .circle-summary {
-            font-size: 0;
-            > li {
-                display: block;
-                width: 230px;
-                height: 230px;
-                border-radius: 50%;
+		.circle-summary {
+			font-size: 0;
+			> li {
+				display: inline-block;
+				width: 160px;  
+				height: 160px;
                 text-align: center;
-                margin: 0 auto;
-                color: #fff;
-                padding-top: 40px;
-                figure {
+				border-radius: 50%;
+				padding-top: 25px;
+				figure {
                     .img-fluid {
                         display: block;
+						height: 36px;
+						width: auto !important;
                         margin: 0 auto;
                     }
                     figcaption {
@@ -327,29 +327,30 @@
                         small {
                             display: block;
                             font-weight: 300;
-                            margin-top: 20px;
-                            font-size: 18px;
+                            margin-top: 15px;
+                            font-size: 12px;
                         }
                         strong {
                             display: block;
-                            font-size: 36px;
+                            font-size: 24px;
                             font-weight: 400;
+							margin-top: 5px;
                         }
                     }
                 }
                 &.treatment-count {
+					margin-right: -10px;
                     background-color: rgba(235, 97, 0, .8);
                 }
                 &.year-count {
-                    position: relative;
-                    top: -20px;
+					margin-left: -10px;
                     background-color: rgba(20, 65, 153, .8);
                 }
-            }
-        }
+			}
+		}
         .latest-news {
             text-align: left;
-            margin-top: 80px;
+            margin-top: 45px;
             h5 {
                 font-size: 18px;
                 color: #222;
@@ -395,7 +396,7 @@
     }
     .medical-association {
         text-align: center;
-        padding: 90px 0;
+        padding: 45px 0;
         background-color: #f7f7f7;
         h4 {
             font-size: 26px;
@@ -425,7 +426,7 @@
                     }
                     figcaption {
                         font-size: 13px;
-                        color: #333;
+                        color: #333; 
                         font-weight: 300;
                         margin-top: 15px;
                     }
@@ -436,6 +437,7 @@
     @media(min-width: $md) {
         margin-top: 100px;
         .volunteer-info {
+			padding-bottom: 100px;
             h4 {
                 font-size: 30px;
             }
@@ -443,26 +445,52 @@
                 line-height: 30px;
                 margin-bottom: 60px;
             }
-            .circle-summary {
-                > li {
-                    display: inline-block;
-                    figure {
-                        .img-fluid {
-                            display: inline-block;
-                            line-height: 52px;
-                        }
-                    }
-                    &.treatment-count {
-                        position: relative;
-                        right: -15px;
-                    }
-                    &.year-count {
-                        position: relative;
-                        top: 0;
-                        left: -15px;
-                    }
-                }
-            }
+			.circle-summary {
+				> li {
+					width: 230px;  
+					height: 230px;
+					padding-top: 40px;
+					figure {
+						.img-fluid {
+							height: 52px;
+						}
+						figcaption {
+							small {
+								font-size: 18px;
+							}
+							strong {
+								font-size: 36px;
+							}
+						}
+					}
+					&.treatment-count {
+						margin-right: -15px;
+					}
+					&.year-count {
+						margin-left: -15px;
+					}
+				}
+			}
+//            .circle-summary {
+//                > li {
+//                    display: inline-block;
+//                    figure {
+//                        .img-fluid {
+//                            display: inline-block;
+//                            line-height: 52px;
+//                        }
+//                    }
+//                    &.treatment-count {
+//                        position: relative;
+//                        right: -15px;
+//                    }
+//                    &.year-count {
+//                        position: relative;
+//                        top: 0;
+//                        left: -15px;
+//                    }
+//                }
+//            }
             .latest-news {
                 margin-top: 100px;
                 h5 {
@@ -523,6 +551,27 @@
 // 사랑의 의료봉사 이동진료 일정안내
 .volunteer-schedule {
     margin-top: 45px;
+	.info {
+		text-align: center;
+		padding: 0 15px;
+		strong {
+			display: block;
+			font-size: 24px;
+			color: #222;
+			font-weight: 400;
+			span {
+				color: #eb6101;
+				font-weight: 500;
+				@include roboto();
+			}
+		}
+		> p {
+			font-size: 13px;
+			color: #555;
+			line-height: 26px;
+			margin: 25px 0; 
+		} 
+	}
     .schedule-list {
         > .schedule-date {
             padding: 30px 20px;
@@ -596,6 +645,16 @@
     }
     @media(min-width: $md) {
         margin-top: 75px;
+		.info {
+			padding: 0;
+			strong {
+				font-size: 30px;
+			}
+			> p {
+				font-size: 15px;
+				margin: 30px 0 65px; 
+			} 
+		}
         .schedule-list {
             > .schedule-date {
                 padding: 40px 50px;
@@ -636,7 +695,7 @@
         }
     }
     @media(min-width: $xl) {
-        margin-top: 70px;
+        margin-top: 85px;
         .schedule-list {
             .attention {
                 margin-top: 35px;
@@ -690,7 +749,7 @@
 		color: #333;
 		line-height: 32px;
 	}
-	> p {
+	p {
 		font-size: 13px;
 		color: #666;
 		line-height: 24px;
@@ -700,8 +759,41 @@
 
 //사업소개 아동후원사업 (해외 & 국내 공통)
 .children {
+	padding-bottom: 0 !important;
 	.section-content {
-		
+		.abc-list {
+			margin-top: 40px;
+		}
+		.dot-board {
+			margin-top: 80px;
+		}
+		.bg-children {
+			height: 327px;
+			text-align: center;
+			background-image: url(/assets/images/business/bg_children_md.jpg);
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin-top: 70px;
+			.logo {
+				text-align: center;
+				padding-top: 100px;
+			}
+			p {
+				font-size: 14px;
+				color: #fff;
+				margin-top: 20px;
+				text-shadow: 0px 6px 7px rgba(0, 0, 0, 0.5); 
+			}
+			small {
+				display: block;
+				font-size: 13px;
+				color: #fff;
+				opacity: .5;
+				font-weight: 300;
+				margin-top: 5px;
+			}
+		}
 	}
 }
 

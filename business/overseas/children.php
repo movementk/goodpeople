@@ -33,17 +33,19 @@
     
     <!-- Content -->
     <main id="content" class="children">
-    	<div class="container">
-    		<section>
-    			<div class="section-header sub-header">
-    				<h3>아이들이 꿈꿀 수 있도록 해주세요.</h3>
-    				<p>
-    					아이들이 아이들답게 자랄 수 있는 환경은 아이들의 미래를 만드는 중요한 기반입니다.<br class="d-xl-block">
-    					매월 정기적인 후원은 아이들의 직접적인 생활환경 개선 뿐만 아니라 지역사회개발을 통해 온전한 성장 기반을 마련할 수 있도록 기여합니다
-    				</p>
-    			</div>
-    			<div class="section-content">
-    				<ol class="method">
+		<section>
+			<div class="section-header sub-header">
+				<div class="container">
+					<h3>아이들이 꿈꿀 수 있도록 해주세요.</h3>
+					<p>
+						아이들이 아이들답게 자랄 수 있는 환경은 아이들의 미래를 만드는 중요한 기반입니다.<br class="d-xl-block">
+						매월 정기적인 후원은 아이들의 직접적인 생활환경 개선 뿐만 아니라 지역사회개발을 통해 온전한 성장 기반을 마련할 수 있도록 기여합니다
+					</p>
+				</div>
+			</div>
+			<div class="section-content">
+				<div class="container">
+					<ol class="method">
 						<li>
 							<div class="box">
 								<div class="item">
@@ -107,7 +109,7 @@
 							</div>
 						</li>
 					</ol>
-   					<ul class="abc-list">
+					<ul class="abc-list">
 						<li>
 							<dl>
 								<dt><i>A</i>아동선별</dt>
@@ -172,9 +174,16 @@
 							</ul>
 						</div>
 					</article>
-    			</div>
-    		</section>
-		</div>
+				</div>
+				<div class="bg-children">
+					<div class="logo">
+						<img src="/assets/images/business/img_children_logo.png" alt="">
+					</div>
+					<p>아동은 지역과 국가의 미래입니다.</p>
+					<small>굿피플 아동후원사업</small>
+				</div>
+			</div>
+		</section>
     </main>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>
