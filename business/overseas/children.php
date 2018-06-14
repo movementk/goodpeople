@@ -23,7 +23,7 @@
             <nav class="lnb tab-business">
                 <ul class="tab-list">
                     <li class="active"><a href="/business/overseas/children.php">아동후원사업</a></li>
-                    <li><a href="#">보건의료사업</a></li>
+                    <li><a href="/business/overseas/medical.php">보건의료사업</a></li>
                     <li><a href="#">교육지원사업</a></li>
                     <li><a href="#">지역개발사업</a></li>
                 </ul>
@@ -38,8 +38,7 @@
 				<div class="container">
 					<h3>아이들이 꿈꿀 수 있도록 해주세요.</h3>
 					<p>
-						아이들이 아이들답게 자랄 수 있는 환경은 아이들의 미래를 만드는 중요한 기반입니다.<br class="d-xl-block">
-						매월 정기적인 후원은 아이들의 직접적인 생활환경 개선 뿐만 아니라 지역사회개발을 통해 온전한 성장 기반을 마련할 수 있도록 기여합니다
+						아이들이 아이들답게 자랄 수 있는 환경은 아이들의 미래를 만드는 중요한 기반입니다.<br class="d-xl-block">  매월 정기적인 후원은 아이들의 직접적인 생활환경 개선 뿐만 아니라 지역사회개발을 통해 온전한 성장 기반을 마련할 수 있도록 기여합니다
 					</p>
 				</div>
 			</div>
@@ -176,11 +175,13 @@
 					</article>
 				</div>
 				<div class="bg-children">
-					<div class="logo">
-						<img src="/assets/images/business/img_children_logo.png" alt="">
+					<div class="container">
+						<div class="logo">
+							<img src="/assets/images/business/img_children_logo.png" alt="">
+						</div>
+						<p>아동은 지역과 국가의 미래입니다.</p>
+						<small>굿피플 아동후원사업</small>
 					</div>
-					<p>아동은 지역과 국가의 미래입니다.</p>
-					<small>굿피플 아동후원사업</small>
 				</div>
 			</div>
 		</section>
