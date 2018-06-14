@@ -1013,7 +1013,32 @@
 	}
 }
 
-
+//교육지원사업
+.education {
+	.sub-header {
+		p {
+			margin-top: 0;	
+		}
+	}
+	.section-content {
+		.item {
+			.row {
+				.col-12 {
+					& ~ .col-12 {
+						figure {
+							margin-top: 10px;
+						}
+					}
+					figure {
+						img {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
 
 

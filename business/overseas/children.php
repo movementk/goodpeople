@@ -24,7 +24,7 @@
                 <ul class="tab-list">
                     <li class="active"><a href="/business/overseas/children.php">아동후원사업</a></li>
                     <li><a href="/business/overseas/medical.php">보건의료사업</a></li>
-                    <li><a href="#">교육지원사업</a></li>
+                    <li><a href="/business/overseas/education.php">교육지원사업</a></li>
                     <li><a href="#">지역개발사업</a></li>
                 </ul>
             </nav>
