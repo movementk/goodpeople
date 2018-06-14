@@ -975,4 +975,11 @@ a {
       .medical .section-content .blind .section-content .dot-board {
         margin-top: 120px; } }
 
+.education .sub-header p {
+  margin-top: 0; }
+.education .section-content .item .row .col-12 ~ .col-12 figure {
+  margin-top: 10px; }
+.education .section-content .item .row .col-12 figure img {
+  width: 100%; }
+
 /*# sourceMappingURL=business.css.map */
