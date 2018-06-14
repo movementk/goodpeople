@@ -1984,6 +1984,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     overflow: hidden;
     white-space: nowrap;
     font-size: 13px;
+    color: #333;
     padding-left: 25px;
     padding-right: 30px; }
     .dot-board .article-content ul li a:before {
