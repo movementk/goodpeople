@@ -77,7 +77,7 @@
        					<ol>
        						<li>
 								<strong>나눔실천</strong>
-								<p>개인/기업 후원자(NGO단체)</p>
+								<p>개인/기업 후원자<br class="d-xl-none">(NGO단체)</p>
        						</li>
        						<li>
        							<div class="step-img">
@@ -136,19 +136,6 @@
 								</p>
 							</div>
 						</li>
-<!--
-						<li>
-							<div class="item">
-								<img src="/assets/images/introduce/img_value_list01.png" alt="">
-							</div>
-							<h4>Mission</h4>
-							<p>
-								고통 받는 사람들을 지원하며 <br>
-								행복한 세상을 목표 한다.
-							</p>
-						</li>
--->
-					
 						<li>
 							<div class="item">
 								<img src="/assets/images/introduce/img_value_list03.png" alt="">

@@ -295,13 +295,13 @@
                         <li class="col-12 col-xl-7">
                             <article class="ars">
                                 <h3>ARS 후원</h3>
-                                <strong class="or">060-700-1544</strong>
+                                <strong class="or"><a href="tel:0607001544">060-700-1544</a></strong>
                                 <span class="note">(건당 10,000원)</span>
                                 <p>여러분의 후원으로 우리가 사는 세상이 변합니다.</p>
                             </article>
                             <article class="inquiry">
                                 <h3>후원문의</h3>
-                                <strong class="bl">1577-3034</strong>
+                                <strong class="bl"><a href="tel:15773034">1577-3034</a></strong>
                                 <p class="d-none d-xl-block title-txt">후원계좌</p>
                                 <dl>
                                     <dt>
@@ -314,13 +314,11 @@
                         <li class="col-12 col-xl-5">
                             <article class="give">
                                 <h3>후원하기</h3>
-                                <div class="btn-area more">
-                                    <a href="#" class="btn btn-md btn-orange" role="button">해외 아동후원 바로가기</a>
-                                    <a href="#" class="btn btn-md btn-blue" role="button">국내 아동후원 바로가기</a>
-                                </div>
-                                <div class="btn-area global-spon">
-                                    <a href="#" class="btn btn-md btn-white" role="button">정기 후원하기</a>
-                                    <a href="#" class="btn btn-md btn-white" role="button">일시 후원하기</a>
+                                <div class="btn-area">
+                                    <a href="#" class="btn btn-orange" role="button">해외 아동후원<br class="d-none d-md-block"> 바로가기</a>
+                                    <a href="#" class="btn btn-blue" role="button">국내 아동후원<br class="d-none d-md-block"> 바로가기</a>
+                                    <a href="#" class="btn btn-white" role="button">정기후원<br class="d-none d-md-block"> 바로가기</a>
+                                    <a href="#" class="btn btn-white" role="button">일시후원<br class="d-none d-md-block"> 바로가기</a>
                                 </div>
                             </article>
                         </li>
