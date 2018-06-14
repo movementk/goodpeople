@@ -113,7 +113,7 @@
                         <li><a href="/policy/terms.php">이용약관</a></li>
                         <li><a href="/policy/privacy.php">개인정보취급방침</a></li>
                         <li><a href="/policy/none_member_inquiry.php">문의하기</a></li>
-                        <li><a href="#">소식지</a></li>
+                        <li><a href="/policy/news_list.php">소식지</a></li>
                         <li class="d-none d-md-block"><a href="#">기관소개서(KOR)</a></li>
                         <li class="d-none d-md-block"><a href="#">기관소개서(ENG)</a></li>
                     </ul>
