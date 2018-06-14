@@ -233,6 +233,12 @@
       "css": "up",
       "code": 59417,
       "src": "mfglabs"
+    },
+    {
+      "uid": "37f6cfbb4062ed0d01b351ec35c334ff",
+      "css": "right-open-mini",
+      "code": 59418,
+      "src": "entypo"
     }
   ]
 }

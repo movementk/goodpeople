@@ -2542,51 +2542,6 @@ input, textarea {
 }
 
 // 아동후원사업
-//.method {
-//	overflow: hidden;
-//	text-align: center;
-//	li {
-//		display: table;
-//		float: left;
-//		width: 50%;
-//		height: 135px;
-//		&:nth-of-type(odd) {
-//			padding-right: 20px;
-//		}
-//		&:nth-of-type(even) {
-//			padding-left: 20px;
-//		}
-//		&:nth-of-type(2) ~ li {
-//			margin-top: 40px;
-//		}
-//		.box {
-//			display: table-cell;
-//			vertical-align: middle;
-//			border: 1px solid #b3b3b3;
-//			.item {
-//				img {
-//					transform: scale(.7);
-//				}
-//			}
-//			.details {
-//				small {
-//					display: block;
-//					font-size: 13px;
-//					color: #333;
-//					font-weight: 500;
-//					@include roboto();
-//				}
-//				> p {
-//					font-size: 14px;
-//					color: #666;
-//					line-height: 20px;
-//					margin-top: 5px;
-//				} 
-//			}
-//		}
-//	}
-//}
-// 아동후원사업
 .method {
 	overflow: hidden;
 	text-align: center;
@@ -2594,7 +2549,7 @@ input, textarea {
 		display: table;
 		float: left;
 		width: 50%;
-		height: 135px;
+		height: 140px;
 		&:nth-of-type(odd) {
 			padding-right: 20px;
 		}
@@ -2608,76 +2563,93 @@ input, textarea {
 			display: table-cell;
 			vertical-align: middle;
 			border: 1px solid #b3b3b3;
-			figure {
+			.item {
 				img {
 					transform: scale(.7); 
 				}
-				figcaption {
-					small {
-						display: block;
-						font-size: 13px;
-						color: #333;
-						font-weight: 500;
-						@include roboto();
+			}
+			.details {
+				small {
+					display: block;
+					font-size: 13px;
+					color: #333;
+					font-weight: 500;
+					@include roboto();
+				}
+				> p {
+					font-size: 14px;
+					color: #666;
+					line-height: 20px;
+					margin-top: 5px;
+				} 
+			}
+		}
+	}
+	@media (min-width : $md) {
+		margin: 0 -20px;
+		li {
+			position: relative;
+			width: 20%;
+			padding: 0 20px !important;
+			&:nth-of-type(odd) {
+				padding-right: 0;
+			}
+			&:nth-of-type(even) {
+				padding-left: 0;
+			}
+			&:nth-of-type(2) ~ li {
+				margin-top: 0;
+			}
+			&:after {
+				content: "\E81A";
+				font-family: "fontello";
+				position: absolute;
+				right: -3px;
+				top: 50%;
+				font-size: 20px;
+				color: #666;
+				margin-top: -15px;
+			}
+			&:last-child {
+				&:after {
+					display: none;
+				}
+			}
+			.box {
+				padding: 0 5px;
+			}
+		}
+	}
+	@media (min-width : $xl) {
+		li {
+			height: 200px;
+			&:after {
+				right: -4px;
+				font-size: 30px;
+				margin-top: -23px;
+				font-weight: 300;
+			}
+			.box {
+				display: block;
+				height: 200px;
+				padding-top: 45px;
+				.item {
+					height: 55px;
+					img {
+						transform: scale(1); 
 					}
+				}
+				.details {
+					margin-top: 25px;
 					> p {
-						font-size: 14px;
-						color: #666;
-						line-height: 20px;
-						margin-top: 5px;
+						font-size: 15px;
+						margin-top: 10px;
 					} 
 				}
 			}
 		}
 	}
 }
-
-// 아동후원사업
-//.method {
-//	text-align: center;
-//	li {
-//		min-width: 200px;
-//		text-align: center;
-//		position: relative;
-//		.box {
-//			min-width: 200px;
-//			height: 200px;
-//			padding-top: 40px;
-//			border: 1px solid #b3b3b3;
-//		}
-//		&:nth-of-type(3) {
-//			&:after {
-//				display: none;
-//			}
-//		}
-//		&:last-child {
-//			&:after {
-//				display: none;
-//			}
-//		}
-//		&:after {
-//			position: absolute;
-//			top: 50%;
-//			right: 0;
-//			margin-right: -8px;
-//			display: inline-block;
-//			content: "\F006";
-//			color: #000;
-//			font-size: 30px;
-//			font-family: "fontello";
-//		}
-//	}
-//	@media (min-width: $md) {
-//		font-size: 0;
-//		li {
-//			padding: 0 48px !important; 
-//			height: 200px;
-//			&:nth-of-type(3) {
-//				margi-right: 0;
-//			}
-//		}
-//	}
-//}
 
 
 

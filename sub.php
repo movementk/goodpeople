@@ -1089,57 +1089,6 @@
    			<ol class="method">
    				<li>
    					<div class="box">
-						<figure>
-							<img src="/assets/images/business/img_method_list01.png" class="img-fluid" alt="">
-							<figcaption>
-								<small>STEP 01</small>
-								<p>굿피플 회원가입</p>
-							</figcaption>
-						</figure>
-					</div>
-   				</li>
-   				<li>
-   					<div class="box">
-						<figure>
-							<img src="/assets/images/business/img_method_list02.png" class="img-fluid" alt="">
-							<figcaption>
-								<small>STEP 02</small>
-								<p>
-									정기후원<br>
-									신청하기 클릭
-								</p>
-							</figcaption>
-						</figure>
-					</div>
-   				</li>
-   				<li>
-   					<div class="box">
-						<figure>
-							<img src="/assets/images/business/img_method_list01.png" class="img-fluid" alt="">
-							<figcaption>
-								<small>STEP 01</small>
-								<p>굿피플 회원가입</p>
-							</figcaption>
-						</figure>
-					</div>
-   				</li>
-   				<li>
-   					<div class="box">
-						<figure>
-							<img src="/assets/images/business/img_method_list02.png" class="img-fluid" alt="">
-							<figcaption>
-								<small>STEP 02</small>
-								<p>
-									정기후원<br>
-									신청하기 클릭
-								</p>
-							</figcaption>
-						</figure>
-					</div>
-   				</li>
-<!--
-   				<li>
-   					<div class="box">
    						<div class="item">
    							<img src="/assets/images/business/img_method_list01.png" class="img-fluid" alt="">
    						</div>
@@ -1149,7 +1098,121 @@
    						</div>
 					</div>
    				</li>
--->
+   				<li>
+   					<div class="box">
+   						<div class="item">
+   							<img src="/assets/images/business/img_method_list02.png" class="img-fluid" alt="">
+   						</div>
+   						<div class="details">
+   							<small>STEP 02</small>
+							<p>
+								정기후원<br class="d-sm-block d-md-none">
+								신청하기 클릭
+							</p>
+   						</div>
+					</div>
+   				</li>
+   				<li>
+   					<div class="box">
+						<div class="item">
+   							<img src="/assets/images/business/img_method_list03.png" class="img-fluid" alt="">
+   						</div>
+   						<div class="details">
+   							<small>STEP 03</small>
+							<p>후원정보 입력</p>
+   						</div>
+					</div>
+   				</li>
+   				<li>
+   					<div class="box">
+						<div class="item">
+   							<img src="/assets/images/business/img_method_list04.png" class="img-fluid" alt="">
+   						</div>
+   						<div class="details">
+   							<small>STEP 04</small>
+							<p>
+								결제방법 선택
+							</p>
+   						</div>
+					</div>
+   				</li>
+   				<li>
+   					<div class="box">
+						<div class="item">
+   							<img src="/assets/images/business/img_method_list05.png" class="img-fluid" alt="">
+   						</div>
+   						<div class="details">
+   							<small>STEP 05</small>
+							<p>
+								정기후원 완료 
+							</p>
+   						</div>
+					</div>
+   				</li>
+<!--
+   				<li>
+   					<div class="box">
+						<figure>
+							<img src="/assets/images/business/img_method_list01.png" class="img-fluid" alt="">
+							<figcaption>
+								<small>STEP 01</small>
+								<p>굿피플 회원가입</p>
+							</figcaption>
+						</figure>
+					</div>
+   				</li>
+
+   				<li>
+   					<div class="box">
+						<figure>
+							<img src="/assets/images/business/img_method_list02.png" class="img-fluid" alt="">
+							<figcaption>
+								<small>STEP 02</small>
+								<p>
+									정기후원<br class="d-sm-block d-md-none">
+									신청하기 클릭
+								</p>
+							</figcaption>
+						</figure>
+					</div>
+   				</li>
+   				<li>
+   					<div class="box">
+						<figure>
+							<img src="/assets/images/business/img_method_list03.png" class="img-fluid" alt="">
+							<figcaption>
+								<small>STEP 03</small>
+								<p>후원정보 입력</p>
+							</figcaption>
+						</figure>
+					</div>
+   				</li>
+   				<li>
+   					<div class="box">
+						<figure>
+							<img src="/assets/images/business/img_method_list04.png" class="img-fluid" alt="">
+							<figcaption>
+								<small>STEP 04</small>
+								<p>
+									결제방법 선택
+								</p>
+							</figcaption>
+						</figure>
+					</div>
+   				</li>
+   				<li>
+   					<div class="box">
+						<figure>
+							<img src="/assets/images/business/img_method_list05.png" class="img-fluid" alt="">
+							<figcaption>
+								<small>STEP 05</small>
+								<p>
+									정기후원 완료 
+								</p>
+							</figcaption>
+						</figure>
+					</div>
+   				</li>-->
    			</ol>
     	</div>
     </main>

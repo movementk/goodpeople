@@ -2075,7 +2075,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     display: table;
     float: left;
     width: 50%;
-    height: 135px; }
+    height: 140px; }
     .method li:nth-of-type(odd) {
       padding-right: 20px; }
     .method li:nth-of-type(even) {
@@ -2086,18 +2086,65 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       display: table-cell;
       vertical-align: middle;
       border: 1px solid #b3b3b3; }
-      .method li .box figure img {
+      .method li .box .item img {
         transform: scale(0.7); }
-      .method li .box figure figcaption small {
+      .method li .box .details small {
         display: block;
         font-size: 13px;
         color: #333;
         font-weight: 500;
         font-family: 'Roboto', sans-serif; }
-      .method li .box figure figcaption > p {
+      .method li .box .details > p {
         font-size: 14px;
         color: #666;
         line-height: 20px;
         margin-top: 5px; }
+  @media (min-width: 768px) {
+    .method {
+      margin: 0 -20px; }
+      .method li {
+        position: relative;
+        width: 20%;
+        padding: 0 20px !important; }
+        .method li:nth-of-type(odd) {
+          padding-right: 0; }
+        .method li:nth-of-type(even) {
+          padding-left: 0; }
+        .method li:nth-of-type(2) ~ li {
+          margin-top: 0; }
+        .method li:after {
+          content: "\E81A";
+          font-family: "fontello";
+          position: absolute;
+          right: -3px;
+          top: 50%;
+          font-size: 20px;
+          color: #666;
+          margin-top: -15px; }
+        .method li:last-child:after {
+          display: none; }
+        .method li .box {
+          padding: 0 5px; } }
+  @media (min-width: 1200px) {
+    .method li {
+      height: 200px; }
+      .method li:after {
+        right: -4px;
+        font-size: 30px;
+        margin-top: -23px;
+        font-weight: 300; }
+      .method li .box {
+        display: block;
+        height: 200px;
+        padding-top: 45px; }
+        .method li .box .item {
+          height: 55px; }
+          .method li .box .item img {
+            transform: scale(1); }
+        .method li .box .details {
+          margin-top: 25px; }
+          .method li .box .details > p {
+            font-size: 15px;
+            margin-top: 10px; } }
 
 /*# sourceMappingURL=sub.css.map */
