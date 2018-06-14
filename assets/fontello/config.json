@@ -251,6 +251,12 @@
       "css": "quote-right",
       "code": 59420,
       "src": "iconic"
+    },
+    {
+      "uid": "37f6cfbb4062ed0d01b351ec35c334ff",
+      "css": "right-open-mini",
+      "code": 59421,
+      "src": "entypo"
     }
   ]
 }
