@@ -459,7 +459,63 @@ a {
         line-height: 34px; } }
 
 .vision {
-  padding-bottom: 0 !important; }
+  padding-bottom: 0 !important;
+  /*.mission {
+  	text-align: center;
+  	padding: 80px 0 85px;
+  	background-image: url(/assets/images/introduce/bg_mission.jpg);
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: cover;
+  	.section-header {
+  		h3 {
+  			font-size: 28px;
+  			color: #222;
+  			font-weight: 400;
+  		}
+  		strong {
+  			display: block;
+  			font-size: 22px;
+  			color: #eb6100;
+  			font-weight: 300;
+  			margin-top: 20px;
+  			@include roboto();
+  		}
+  	}
+  	.section-content {
+  		padding-top: 45px;
+  		figure {
+  			figcaption {
+  				font-size: 14px;
+  				color: #666;
+  				line-height: 24px;
+  				font-weight: 400;
+  				margin-top: 35px;
+  			}
+  		}
+  	}
+  	@media (min-width: $md) {
+  		padding: 85px 0 100px;
+  		.section-header {
+  			h3 {
+  				font-size: 30px;
+  			}
+  			strong {
+  				font-size: 26px;
+  			}
+  		}
+  		.section-content {
+  			figure {
+  				figcaption {
+  					font-size: 16px;
+  				}
+  			}
+  		}
+  	}
+  	@media (min-width: $xl) {
+  		padding: 90px 0 100px;
+  	}
+  }*/ }
   .vision .vision-wrap .section-header {
     text-align: center;
     padding-top: 55px; }
@@ -569,43 +625,52 @@ a {
       .vision .vision-wrap .section-content .step-wrap ol li strong {
         font-size: 22px; } }
   .vision .mission {
+    color: #fff;
     text-align: center;
-    padding: 80px 0 85px;
-    background-image: url(/assets/images/introduce/bg_mission.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; }
-    .vision .mission .section-header h3 {
+    padding: 60px 0 65px;
+    background-color: #eb6100; }
+    .vision .mission h3 {
       font-size: 28px;
-      color: #222;
-      font-weight: 400; }
-    .vision .mission .section-header strong {
-      display: block;
-      font-size: 22px;
-      color: #eb6100;
+      font-weight: 400;
+      margin-bottom: 10px; }
+    .vision .mission small {
+      font-size: 18px;
+      color: #ffc200;
       font-weight: 300;
-      margin-top: 20px;
+      letter-spacing: 1px;
       font-family: 'Roboto', sans-serif; }
-    .vision .mission .section-content {
-      padding-top: 45px; }
-      .vision .mission .section-content figure figcaption {
-        font-size: 14px;
-        color: #666;
-        line-height: 24px;
-        font-weight: 400;
-        margin-top: 35px; }
+    .vision .mission hr {
+      display: block;
+      width: 35px;
+      margin: 30px auto;
+      border-top: 1px solid #fff; }
+    .vision .mission p {
+      font-size: 18px;
+      line-height: 28px; }
     @media (min-width: 768px) {
       .vision .mission {
-        padding: 85px 0 100px; }
-        .vision .mission .section-header h3 {
-          font-size: 30px; }
-        .vision .mission .section-header strong {
-          font-size: 26px; }
-        .vision .mission .section-content figure figcaption {
-          font-size: 16px; } }
-    @media (min-width: 1200px) {
-      .vision .mission {
-        padding: 90px 0 100px; } }
+        padding: 70px 0 80px; }
+        .vision .mission h3 {
+          font-size: 30px;
+          margin-bottom: 15px; }
+        .vision .mission p {
+          font-size: 22px; }
+          .vision .mission p:before {
+            position: relative;
+            top: -10px;
+            font-size: 16px;
+            margin-right: 10px;
+            content: "\E81B";
+            font-family: "fontello";
+            display: inline-block; }
+          .vision .mission p:after {
+            position: relative;
+            top: -10px;
+            font-size: 16px;
+            margin-left: 10px;
+            content: "\E81C";
+            font-family: "fontello";
+            display: inline-block; } }
   .vision .value {
     text-align: center;
     padding-top: 70px;

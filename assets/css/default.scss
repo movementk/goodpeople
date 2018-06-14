@@ -156,8 +156,8 @@ body {
                     text-align: center;
                     line-height: 33px;
                     padding: 0;
-                    border: 1px solid #fff;
-                    background-color: #144199;
+                    /*border: 1px solid #fff;*/
+                    background-color: #eb6100;
                 }
             }
             > ul {
@@ -1491,9 +1491,6 @@ body {
                     }
                 }
                 &:nth-of-type(1) {
-                    display: none;
-                }
-                &:nth-of-type(1) {
                     a {
                         &:before {
                             content: url(/assets/images/sub/icon_quick01.png);
@@ -1515,6 +1512,7 @@ body {
                     }
                 }
                 &:nth-of-type(4) {
+                    display: none;
                     a {
                         &:before {
                             content: url(/assets/images/sub/icon_quick04.png);
@@ -1653,9 +1651,6 @@ body {
                         }
                     }
                     &:nth-of-type(1) {
-                        display: table-cell;
-                    }
-                    &:nth-of-type(1) {
                         a {
                             background-image: url(/assets/images/sub/icon_quick01.png);
                             &:hover {
@@ -1680,6 +1675,7 @@ body {
                         }
                     }
                     &:nth-of-type(4) {
+                        display: table-cell;
                         a {
                             background-image: url(/assets/images/sub/icon_quick04.png);
                             &:hover {

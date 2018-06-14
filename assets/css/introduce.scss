@@ -316,7 +316,7 @@
 			}
 		}
 	}
-	.mission {
+	/*.mission {
 		text-align: center;
 		padding: 80px 0 85px;
 		background-image: url(/assets/images/introduce/bg_mission.jpg);
@@ -371,7 +371,63 @@
 		@media (min-width: $xl) {
 			padding: 90px 0 100px;
 		}
-	}
+	}*/
+    .mission {
+        color: #fff;
+        text-align: center;
+        padding: 60px 0 65px;
+        background-color: #eb6100;
+        h3 {
+            font-size: 28px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        small {
+            font-size: 18px;
+            color: #ffc200;
+            font-weight: 300;
+            letter-spacing: 1px;
+            @include roboto();
+        }
+        hr {
+            display: block;
+            width: 35px;
+            margin: 30px auto;
+            border-top: 1px solid #fff;
+        }
+        p {
+            font-size: 18px;
+            line-height: 28px;
+        }
+        @media(min-width: $md) {
+            padding: 70px 0 80px;
+            h3 {
+                font-size: 30px;
+                margin-bottom: 15px;
+            }
+            p {
+                font-size: 22px;
+                &:before {
+                    position: relative;
+                    top: -10px;
+                    font-size: 16px;
+                    margin-right: 10px;
+                    content: "\E81B";
+                    font-family: "fontello";
+                    display: inline-block;
+                }
+                &:after {
+                    position: relative;
+                    top: -10px;
+                    font-size: 16px;
+                    margin-left: 10px;
+                    content: "\E81C";
+                    font-family: "fontello";
+                    display: inline-block;
+                }
+            }
+        }
+    }
 	.value {
 		text-align: center;
 		padding-top: 70px;

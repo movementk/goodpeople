@@ -94,23 +94,14 @@
         	</div>
         </section>
         <!--미션-->
-        <section class="mission">
+        <article class="mission">
         	<div class="container">
-        		<div class="section-header">
-					<h3>굿피플의 미션</h3>
-      				<strong>Good people Mission</strong>
-       			</div>
-       			<div class="section-content">
-       				<figure>
-       					<img src="/assets/images/introduce/img_mission.png" class="img-fluid" alt="">
-       					<figcaption>
-       						고통 받는 사람들을 지원하며 <br class="d-sm-block d-md-none">
-       						행복한 세상을 목표 한다.
-       					</figcaption>
-       				</figure>
-       			</div>
+                <h3>굿피플의 미션</h3>
+                <small>Good people Mission</small>
+                <hr>
+                <p>고통 받는 사람들을 지원하며 행복한 세상을 목표 한다.</p>
         	</div>
-        </section>
+        </article>
         
         <!--가치-->
 		<section class="value">
