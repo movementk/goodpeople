@@ -2118,7 +2118,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         .method li:nth-of-type(2) ~ li {
           margin-top: 0; }
         .method li:after {
-          content: "\E81A";
+          content: "\E81D";
           font-family: "fontello";
           position: absolute;
           right: -3px;

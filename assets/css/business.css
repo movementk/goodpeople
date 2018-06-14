@@ -909,7 +909,7 @@ a {
     margin: 40px 0 60px; }
   .medical .section-content .blind {
     text-align: center;
-    padding: 60px 0 110px;
+    padding: 50px 0px;
     background-color: #f7f7f7; }
     .medical .section-content .blind .section-header h3 {
       font-size: 24px;
@@ -937,6 +937,42 @@ a {
           margin-top: 15px; }
       .medical .section-content .blind .section-content .dot-board {
         text-align: left;
-        margin-top: 100px; }
+        margin-top: 50px; }
+        .medical .section-content .blind .section-content .dot-board .article-header h3 {
+          margin-bottom: 15px; }
+  @media (min-width: 768px) {
+    .medical .section-content .dot-list {
+      margin: 40px 0 100px; }
+    .medical .section-content .blind {
+      padding: 110px 0 130px; }
+      .medical .section-content .blind .section-header h3 {
+        font-size: 30px; }
+      .medical .section-content .blind .section-header p {
+        font-size: 14px; }
+      .medical .section-content .blind .section-content {
+        padding-top: 50px; }
+        .medical .section-content .blind .section-content .row .col-12 ~ .col-12 .figure {
+          margin-top: 0; }
+        .medical .section-content .blind .section-content .row .col-12 .figure {
+          height: 68px; }
+        .medical .section-content .blind .section-content .row .col-12 .figcaption {
+          margin-top: 30px; }
+          .medical .section-content .blind .section-content .row .col-12 .figcaption > h5 {
+            font-size: 20px; }
+          .medical .section-content .blind .section-content .row .col-12 .figcaption > p {
+            margin-top: 20px; }
+        .medical .section-content .blind .section-content .dot-board {
+          margin-top: 110px; } }
+  @media (min-width: 1200px) {
+    .medical .section-content .item .row .col-12 ~ .col-12 figure {
+      margin-top: 0; }
+    .medical .section-content .dot-list {
+      margin: 30px 0 120px; }
+    .medical .section-content .blind .section-content {
+      padding-top: 90px; }
+      .medical .section-content .blind .section-content .row .col-12 .figcaption {
+        margin-top: 35px; }
+      .medical .section-content .blind .section-content .dot-board {
+        margin-top: 120px; } }
 
 /*# sourceMappingURL=business.css.map */

@@ -98,12 +98,12 @@
 						<div class="section-header">
 							<h3>세계실명예방단 사업</h3>
 							<p>
-								질병에 쉽게 노출되어 있는 제 3국가에 병원 및 보건소 건축, 의료시설 개선, 의료기기 제공, 의약품 및 의료진 제공을 통해 수혜지역의 의료시설을 개선하고 의료서비스를 제공받지 못하는 지역주민들에게 양질의 의료서비스를 제공하여 질병의예방 및 죽음에 이르는 것을 막기 위해 의료시설 및 진료, 수술 등을 지원합니다.
+								질병에 쉽게 노출되어 있는 제 3국가에 병원 및 보건소 건축, 의료시설 개선, 의료기기 제공, 의약품 및 의료진 제공을 통해 수혜지역의 의료시설을 개선하고<br class="d-none d-xl-block"> 의료서비스를 제공받지 못하는 지역주민들에게 양질의 의료서비스를 제공하여 질병의예방 및 죽음에 이르는 것을 막기 위해 의료시설 및 진료, 수술 등을 지원합니다.
 							</p>
 						</div>
 						<div class="section-content">
 							<ul class="row justify-content-center">
-								<li class="col-12 col-md-6 col-xl-4">
+								<li class="col-12 col-md-4">
 									<div class="figure">
 										<img src="/assets/images/business/img_blind_list01.png" alt="">
 									</div>
@@ -115,7 +115,7 @@
 										</p>
 									</div>
 								</li>
-								<li class="col-12 col-md-6 col-xl-4">
+								<li class="col-12 col-md-4">
 									<div class="figure">
 										<img src="/assets/images/business/img_blind_list02.png" alt="">
 									</div>
@@ -153,7 +153,7 @@
 							</article>
 						</div>
 					</div>
-				</article>
+				</section>
 			</div>
 		</section>
     </main>
