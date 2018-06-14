@@ -1473,22 +1473,6 @@ body {
                         margin: 0 auto;
                         transform: scale(.7)
                     }
-                    > span {
-                        &.xl-txt {
-                            display: none;
-                        }
-                        &.xs-txt {
-                            display: inline-block;
-                        }
-                        @media(min-width: $xl) {
-                            &.xl-txt {
-                                display: inline-block;
-                            }
-                            &.xs-txt {
-                                display: none;
-                            }
-                        }
-                    }
                 }
                 &:nth-of-type(1) {
                     a {

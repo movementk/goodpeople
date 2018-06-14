@@ -375,15 +375,15 @@
     .mission {
         color: #fff;
         text-align: center;
-        padding: 60px 0 65px;
+        padding: 40px 0;
         background-color: #eb6100;
         h3 {
-            font-size: 28px;
+            font-size: 24px;
             font-weight: 400;
             margin-bottom: 10px;
         }
         small {
-            font-size: 18px;
+            font-size: 16px;
             color: #ffc200;
             font-weight: 300;
             letter-spacing: 1px;
@@ -392,15 +392,15 @@
         hr {
             display: block;
             width: 35px;
-            margin: 30px auto;
+            margin: 20px auto;
             border-top: 1px solid #fff;
         }
         p {
-            font-size: 18px;
+            font-size: 16px;
             line-height: 28px;
         }
         @media(min-width: $md) {
-            padding: 70px 0 80px;
+            padding: 70px 0 75px;
             h3 {
                 font-size: 30px;
                 margin-bottom: 15px;
@@ -430,21 +430,21 @@
     }
 	.value {
 		text-align: center;
-		padding-top: 70px;
-		padding-bottom: 60px;
+        padding: 50px 0 55px;
 		background-color: #f7f7f7;
 		.section-header	{
 			h3 {
-				font-size: 28px;
+				font-size: 24px;
 				color: #222;
 				font-weight: 400;
+                margin-bottom: 10px;
 			}
-			strong {
+			blockquote {
 				display: block;
-				font-size: 22px;
+				font-size: 16px;
 				color: #eb6100;
 				font-weight: 300;
-				margin-top: 20px;
+                letter-spacing: 1px;
 				@include roboto();
 			}
 			p {
@@ -485,8 +485,9 @@
 			.section-header	{
 				h3 {
 					font-size: 30px;
+                    margin-bottom: 15px;
 				}
-				strong {
+				blockquote {
 					font-size: 26px;
 				}
 				p {

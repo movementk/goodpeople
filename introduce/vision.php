@@ -108,7 +108,7 @@
 			<div class="container">
 				<div class="section-header">
 					<h3>굿피플의 가치</h3>
-					<strong>Good People International</strong>
+					<blockquote>Good People International</blockquote>
 					<p>
 						굿피플은 가난, 재난, 질병으로부터 구제하고 자립할 수<br class="d-sm-block d-md-none"> 있도록 지원하여 모두가<br class="d-none d-md-block"> 고통받지 않는 행복한 세상을 만들기 위해 존재한다.
 					</p>
