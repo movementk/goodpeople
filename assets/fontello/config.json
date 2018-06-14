@@ -239,6 +239,18 @@
       "css": "right-1",
       "code": 59418,
       "src": "mfglabs"
+    },
+    {
+      "uid": "661bd5ba1dad15ad9acbfcd8b8af76f3",
+      "css": "quote-left",
+      "code": 59419,
+      "src": "iconic"
+    },
+    {
+      "uid": "bc0af4824c8eedcad7bc0d35911dac2a",
+      "css": "quote-right",
+      "code": 59420,
+      "src": "iconic"
     }
   ]
 }
