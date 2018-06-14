@@ -1983,6 +1983,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+    font-size: 13px;
     padding-left: 25px;
     padding-right: 30px; }
     .dot-board .article-content ul li a:before {
@@ -2006,8 +2007,9 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
   .dot-board .article-content ul li {
     padding: 17px 0; }
     .dot-board .article-content ul li a {
+      font-size: 14px;
       padding-left: 35px;
-      padding-right: 100px; }
+      padding-right: 78px; }
       .dot-board .article-content ul li a:before {
         left: 20px; }
       .dot-board .article-content ul li a:after {
@@ -2015,8 +2017,10 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         right: 35px;
         font-size: 20px; } }
 @media (min-width: 1200px) {
-  .dot-board .article-content ul li a:after {
-    right: 20px; } }
+  .dot-board .article-content ul li a {
+    padding-right: 48px; }
+    .dot-board .article-content ul li a:after {
+      right: 20px; } }
 
 .abc-list li ~ li {
   margin-top: 30px; }

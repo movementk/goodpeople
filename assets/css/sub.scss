@@ -2400,6 +2400,7 @@ input, textarea {
 					text-overflow: ellipsis;
 					overflow: hidden;
 					white-space: nowrap;
+					font-size: 13px;
 					padding-left: 25px;
 					padding-right: 30px;
 					&:before {
@@ -2434,8 +2435,9 @@ input, textarea {
 				li {
 					padding: 17px 0;
 					a {
+						font-size: 14px;
 						padding-left: 35px;
-						padding-right: 100px;
+						padding-right: 78px;
 						&:before {
 							left: 20px;
 						}
@@ -2454,6 +2456,7 @@ input, textarea {
 			ul {
 				li {
 					a {
+						padding-right: 48px;
 						&:after {
 							right: 20px;
 						}
