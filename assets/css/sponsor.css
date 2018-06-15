@@ -557,41 +557,41 @@ a {
     .share-partner .dot-board {
       margin-top: 100px; } }
 
-.partner-list .tab-sponser {
+.partner-list .tab-sponsor {
   padding-top: 50px; }
-  .partner-list .tab-sponser ul > li:nth-of-type(2) ~ li .sponsor-company {
+  .partner-list .tab-sponsor ul > li:nth-of-type(2) ~ li .sponsor-company {
     margin-top: 15px; }
-  .partner-list .tab-sponser ul > li .sponsor-company {
+  .partner-list .tab-sponsor ul > li .sponsor-company {
     text-align: center; }
-    .partner-list .tab-sponser ul > li .sponsor-company .item {
+    .partner-list .tab-sponsor ul > li .sponsor-company .item {
       border: 1px solid #ddd; }
-    .partner-list .tab-sponser ul > li .sponsor-company > p {
+    .partner-list .tab-sponsor ul > li .sponsor-company > p {
       font-size: 13px;
       color: #666;
       margin-top: 7px;
       font-family: 'NanumSquare', sans-serif; }
-  .partner-list .tab-sponser .paging {
+  .partner-list .tab-sponsor .paging {
     margin-top: 80px; }
 @media (min-width: 768px) {
-  .partner-list .tab-sponser {
+  .partner-list .tab-sponsor {
     padding-top: 100px; }
-    .partner-list .tab-sponser ul > li:nth-of-type(2) ~ li .sponsor-company {
+    .partner-list .tab-sponsor ul > li:nth-of-type(2) ~ li .sponsor-company {
       margin-top: 0; }
-    .partner-list .tab-sponser ul > li:nth-of-type(3) ~ li .sponsor-company {
+    .partner-list .tab-sponsor ul > li:nth-of-type(3) ~ li .sponsor-company {
       margin-top: 30px; }
-    .partner-list .tab-sponser ul > li .sponsor-company > p {
+    .partner-list .tab-sponsor ul > li .sponsor-company > p {
       font-size: 15px;
       margin-top: 10px; }
-    .partner-list .tab-sponser .paging {
+    .partner-list .tab-sponsor .paging {
       margin-top: 95px; } }
 @media (min-width: 1200px) {
-  .partner-list .tab-sponser ul > li:nth-of-type(3) ~ li .sponsor-company {
+  .partner-list .tab-sponsor ul > li:nth-of-type(3) ~ li .sponsor-company {
     margin-top: 0; }
-  .partner-list .tab-sponser ul > li:nth-of-type(4) ~ li .sponsor-company {
+  .partner-list .tab-sponsor ul > li:nth-of-type(4) ~ li .sponsor-company {
     margin-top: 30px !important; }
-  .partner-list .tab-sponser ul > li .sponsor-company > p {
+  .partner-list .tab-sponsor ul > li .sponsor-company > p {
     font-size: 16px; }
-  .partner-list .tab-sponser .paging {
+  .partner-list .tab-sponsor .paging {
     margin-top: 75px; } }
 
 .share-store {
@@ -638,7 +638,7 @@ a {
     color: #fff;
     padding: 125px 0;
     text-align: center;
-    background-image: url(/assets/images/sponser/bg_hope_sm.jpg);
+    background-image: url(/assets/images/sponsor/bg_hope_sm.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%; }
@@ -660,7 +660,7 @@ a {
           font-size: 16px; } }
     @media (min-width: 992px) {
       .share-store .hope {
-        background-image: url(/assets/images/sponser/bg_hope_lg.jpg); } }
+        background-image: url(/assets/images/sponsor/bg_hope_lg.jpg); } }
   .share-store .information {
     text-align: center;
     padding: 50px 0;
@@ -972,12 +972,12 @@ a {
     .honors-club .join-condition .section-content .row > li ~ li .info {
       margin-top: 20px; }
     .honors-club .join-condition .section-content .row > li:first-child .info {
-      background-image: url(/assets/images/sponser/bg_join_condition01.png);
+      background-image: url(/assets/images/sponsor/bg_join_condition01.png);
       background-repeat: no-repeat;
       background-size: 96px auto;
       background-position: 50% 140px; }
     .honors-club .join-condition .section-content .row > li:nth-of-type(2) .info {
-      background-image: url(/assets/images/sponser/bg_join_condition02.png);
+      background-image: url(/assets/images/sponsor/bg_join_condition02.png);
       background-repeat: no-repeat;
       background-size: 108px auto;
       background-position: 50% 155px; }
@@ -1147,7 +1147,7 @@ a {
         .regular-sponsor .use .article-header .vertical-board {
           height: 60px;
           padding: 0 190px 0 60px;
-          background-image: url(/assets/images/sponser/bg_vertical_board.jpg);
+          background-image: url(/assets/images/sponsor/bg_vertical_board.jpg);
           background-repeat: no-repeat;
           background-position: 99% 100%;
           background-size: 100px auto; }
@@ -1177,7 +1177,7 @@ a {
     width: 100%;
     padding: 50px 30px;
     text-align: center;
-    background-image: url(/assets/images/sponser/bg_regular.jpg);
+    background-image: url(/assets/images/sponsor/bg_regular.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
@@ -1210,7 +1210,7 @@ a {
       color: #ff5442;
       font-weight: 400;
       padding-left: 40px;
-      background-image: url(/assets/images/sponser/bg_info_title.jpg);
+      background-image: url(/assets/images/sponsor/bg_info_title.jpg);
       background-repeat: no-repeat;
       background-size: contain;
       background-position: 0 0; }
@@ -1385,9 +1385,9 @@ a {
     color: #fff;
     margin-top: 20px; }
   .temporary-sponsor ul li > div.homepage {
-    background-image: url(/assets/images/sponser/bg_temporary01.gif); }
+    background-image: url(/assets/images/sponsor/bg_temporary01.gif); }
   .temporary-sponsor ul li > div.telephone {
-    background-image: url(/assets/images/sponser/bg_temporary02.gif); }
+    background-image: url(/assets/images/sponsor/bg_temporary02.gif); }
 @media (min-width: 768px) {
   .temporary-sponsor ul li > div h5 {
     font-size: 22px; }

@@ -283,7 +283,7 @@
 
 // partner_list
 .partner-list {
-	.tab-sponser {
+	.tab-sponsor {
 		padding-top: 50px;
         ul {
             > li {
@@ -311,7 +311,7 @@
         }
     }
     @media (min-width: $md) {
-        .tab-sponser {
+        .tab-sponsor {
             padding-top: 100px;
             ul {
                 > li {
@@ -339,7 +339,7 @@
         }
     }
     @media (min-width: $xl) {
-        .tab-sponser {
+        .tab-sponsor {
             ul {
                 > li {
                     &:nth-of-type(3) ~ li {
@@ -435,7 +435,7 @@
         color: #fff;
         padding: 125px 0; 
         text-align: center;
-        background-image: url(/assets/images/sponser/bg_hope_sm.jpg);
+        background-image: url(/assets/images/sponsor/bg_hope_sm.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50% 50%;
@@ -460,7 +460,7 @@
             }
         }
         @media(min-width: $lg) {
-            background-image: url(/assets/images/sponser/bg_hope_lg.jpg);
+            background-image: url(/assets/images/sponsor/bg_hope_lg.jpg);
         }
     }
 	.information {
@@ -975,7 +975,7 @@
 					}
 					&:first-child {
 						.info {
-							background-image: url(/assets/images/sponser/bg_join_condition01.png);
+							background-image: url(/assets/images/sponsor/bg_join_condition01.png);
 							background-repeat: no-repeat;
 							background-size: 96px auto;
 							background-position: 50% 140px;
@@ -983,7 +983,7 @@
 					}
 					&:nth-of-type(2) {
 						.info {
-							background-image: url(/assets/images/sponser/bg_join_condition02.png);
+							background-image: url(/assets/images/sponsor/bg_join_condition02.png);
 							background-repeat: no-repeat;
 							background-size: 108px auto;
 							background-position: 50% 155px;
@@ -1238,7 +1238,7 @@
                 .vertical-board {
                     height: 60px;
                     padding: 0 190px 0 60px;
-                    background-image: url(/assets/images/sponser/bg_vertical_board.jpg);
+                    background-image: url(/assets/images/sponsor/bg_vertical_board.jpg);
                     background-repeat: no-repeat;
                     background-position: 99% 100%;
                     background-size: 100px auto;
@@ -1283,7 +1283,7 @@
 			width: 100%;
 			padding: 50px 30px;
 			text-align: center;
-			background-image: url(/assets/images/sponser/bg_regular.jpg);
+			background-image: url(/assets/images/sponsor/bg_regular.jpg);
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: center;
@@ -1324,7 +1324,7 @@
 				color: #ff5442;
 				font-weight: 400;
 				padding-left: 40px;
-				background-image: url(/assets/images/sponser/bg_info_title.jpg);
+				background-image: url(/assets/images/sponsor/bg_info_title.jpg);
 				background-repeat: no-repeat;
 				background-size: contain;
 				background-position: 0 0;
@@ -1616,10 +1616,10 @@
 					margin-top: 20px;
 				}
 				&.homepage {
-					background-image: url(/assets/images/sponser/bg_temporary01.gif);
+					background-image: url(/assets/images/sponsor/bg_temporary01.gif);
 				}
 				&.telephone {
-					background-image: url(/assets/images/sponser/bg_temporary02.gif);
+					background-image: url(/assets/images/sponsor/bg_temporary02.gif);
 				}
 			}
 		}
