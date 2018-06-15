@@ -78,19 +78,19 @@
                             <li>
                                 <h3>해외사업</h3>
                                 <ul>
-                                    <li><a href="#">아동후원사업<span></span></a></li>
-                                    <li><a href="#">보건의료사업<span></span></a></li>
-                                    <li><a href="#">교육지원사업<span></span></a></li>
-                                    <li><a href="#">지역개발사업<span></span></a></li>
+                                    <li><a href="/business/overseas/children.php">아동후원사업<span></span></a></li>
+                                    <li><a href="/business/overseas/medical.php">보건의료사업<span></span></a></li>
+                                    <li><a href="/business/overseas/education.php">교육지원사업<span></span></a></li>
+                                    <li><a href="/business/overseas/regional.php">지역개발사업<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
                                 <h3>국내사업</h3>
                                 <ul>
-                                    <li><a href="#">국내아동후원<span></span></a></li>
-                                    <li><a href="#">아동지원사업<span></span></a></li>
-                                    <li><a href="#">위기가정지원사업<span></span></a></li>
-                                    <li><a href="#">통합지원사업 문화<span></span></a></li>
+                                    <li><a href="/business/domestic/children.php">국내아동후원<span></span></a></li>
+                                    <li><a href="/business/domestic/children_support.php">아동지원사업<span></span></a></li>
+                                    <li><a href="/business/domestic/family_crisis.php">위기가정지원사업<span></span></a></li>
+                                    <li><a href="/business/domestic/support.php">통합지원사업 문화<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
