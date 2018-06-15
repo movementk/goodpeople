@@ -103,7 +103,7 @@
 				</div>
 				<div class="section-content">
 					<ul class="row justify-content-center">
-						<li class="col-12 col-md-4">
+						<li class="col-12 col-md-5 col-xl-4">
 							<div class="figure">
 								<img src="/assets/images/business/img_blind_list01.png" alt="">
 							</div>
@@ -115,7 +115,7 @@
 								</p>
 							</div>
 						</li>
-						<li class="col-12 col-md-4">
+						<li class="col-12 col-md-5 col-xl-4">
 							<div class="figure">
 								<img src="/assets/images/business/img_blind_list02.png" alt="">
 							</div>

@@ -66,7 +66,7 @@
                         <a href="#">사업소개</a>
                         <ul class="depth-2">
                             <li>
-                                <a href="/business/overseas/children.php">해외사업</a>
+                                <a href="#">해외사업</a>
                                 <ul class="depth-3">
                                     <li><a href="/business/overseas/children.php">아동후원사업<span></span></a></li>
                                     <li><a href="/business/overseas/medical.php">보건의료사업<span></span></a></li>
@@ -75,7 +75,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="/business/domestic/children.php">국내사업</a>
+                                <a href="#">국내사업</a>
                                 <ul class="depth-3">
                                     <li><a href="/business/domestic/children.php">국내아동후원<span></span></a></li>
                                     <li><a href="/business/domestic/children_support.php">아동지원사업<span></span></a></li>
