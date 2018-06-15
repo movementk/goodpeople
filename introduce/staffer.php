@@ -54,7 +54,7 @@
 									<div class="people-information">
 										<h5>
 											김천수 <small>회장</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/100015184545757" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -67,7 +67,7 @@
 									<div class="people-information">
 										<h5>
 											정권삼 <small>운영부회장</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://goo.gl/khuVuM" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -80,7 +80,7 @@
 									<div class="people-information">
 										<h5>
 											강대성 <small>상임이사</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/bommine" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -104,7 +104,7 @@
 									<div class="people-information">
 										<h5>
 											김문길 <small>차장</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/kl2114" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -117,7 +117,7 @@
 									<div class="people-information">
 										<h5>
 											김현주 <small>대리</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/ju1515" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -130,7 +130,7 @@
 									<div class="people-information">
 										<h5>
 											김연실 <small>주임</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/100003784152783" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -154,7 +154,7 @@
 									<div class="people-information">
 										<h5>
 											박지영 <small>과장</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/100003667707971" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -167,7 +167,7 @@
 									<div class="people-information">
 										<h5>
 											박효진 <small>대리</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/starlovehj" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -180,7 +180,7 @@
 									<div class="people-information">
 										<h5>
 											김정훈 <small>간사</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/junghoon.kim.944" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -204,7 +204,7 @@
 									<div class="people-information">
 										<h5>
 											박지혜 <small>대리</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/pjhpjh" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -243,7 +243,7 @@
 									<div class="people-information">
 										<h5>
 											최지혜 <small>주임</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/jh.sophia.choi" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -256,7 +256,7 @@
 									<div class="people-information">
 										<h5>
 											최예음 <small>간사</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/yeeum.choi" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -280,7 +280,7 @@
 									<div class="people-information">
 										<h5>
 											정사파이야 <small>대리</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/100013876667551" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -304,7 +304,7 @@
 									<div class="people-information">
 										<h5>
 											조병돈 <small>차장</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/byungdonjo" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -317,7 +317,7 @@
 									<div class="people-information">
 										<h5>
 											김동현 <small>대리</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/harley7777" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -341,7 +341,7 @@
 									<div class="people-information">
 										<h5>
 											심에스더 <small>주임</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/100014058630595" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -354,7 +354,7 @@
 									<div class="people-information">
 										<h5>
 											염혜란 <small>간사</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/100003361750346" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -378,7 +378,7 @@
 									<div class="people-information">
 										<h5>
 											김기원 <small>과장</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/kiwon5811" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -391,7 +391,7 @@
 									<div class="people-information">
 										<h5>
 											전윤식 <small>주임</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/younsik.jeon.9" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -415,7 +415,7 @@
 									<div class="people-information">
 										<h5>
 											정민성 <small>대리(팀장)</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/min.s.jung.16" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -441,7 +441,7 @@
 									<div class="people-information">
 										<h5>
 											김여진 <small>주임</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/100018081096720" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -454,7 +454,7 @@
 									<div class="people-information">
 										<h5>
 											김주림 <small>간사</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/jurim.kim.5" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -467,7 +467,7 @@
 									<div class="people-information">
 										<h5>
 											장나영 <small>간사</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/100004608574332" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -491,7 +491,7 @@
 									<div class="people-information">
 										<h5>
 											박진 <small>대리(팀장)</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/qkrmwlsl" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -500,11 +500,12 @@
 										<a href="tel:0260119489" class="tel">02-6011-9489</a>
 									</div>
 								</li>
+								<blockqute></blockqute>
 								<li>
 									<div class="people-information">
 										<h5>
 											김관형 <small>대리</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/gogogokkh" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -541,7 +542,7 @@
 									<div class="people-information">
 										<h5>
 											정지혜 <small>대리(팀장)</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/jhsunny31" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -554,7 +555,7 @@
 									<div class="people-information">
 										<h5>
 											홍인영 <small>대리</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="ttps://www.facebook.com/H1124" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -567,7 +568,7 @@
 									<div class="people-information">
 										<h5>
 											김가을하늘 <small>주임</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://goo.gl/qX8gk7" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -593,7 +594,7 @@
 									<div class="people-information">
 										<h5>
 											안진우 <small>간사</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/100018145201979" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -617,7 +618,7 @@
 									<div class="people-information">
 										<h5>
 											김대성 <small>차장</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="https://www.facebook.com/learn.chris" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
