@@ -853,12 +853,12 @@ a {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 100px;
     margin-top: 50px; }
     .children .section-content .bg-children.domestic {
       background-image: url(/assets/images/business/bg_domestic_children_md.jpg); }
     .children .section-content .bg-children .logo {
-      text-align: center;
-      padding-top: 100px; }
+      text-align: center; }
     .children .section-content .bg-children p {
       font-size: 14px;
       color: #fff;
@@ -877,10 +877,10 @@ a {
     .children .section-content .bg-children {
       text-align: left;
       height: 445px;
-      margin-top: 100px; }
+      margin-top: 100px;
+      padding-top: 140px; }
       .children .section-content .bg-children .logo {
-        text-align: left;
-        padding-top: 140px; }
+        text-align: left; }
       .children .section-content .bg-children p {
         font-size: 20px;
         margin-top: 35px; }
@@ -895,11 +895,10 @@ a {
     .children .section-content .bg-children {
       height: 500px;
       background-image: url(/assets/images/business/bg_children_xl.jpg);
-      margin-top: 150px; }
+      margin-top: 150px;
+      padding-top: 150px; }
       .children .section-content .bg-children.domestic {
         background-image: url(/assets/images/business/bg_domestic_children.jpg); }
-      .children .section-content .bg-children .logo {
-        padding-top: 150px; }
       .children .section-content .bg-children p {
         font-size: 22px; } }
 

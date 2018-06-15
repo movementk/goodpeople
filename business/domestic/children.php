@@ -23,7 +23,7 @@
             <nav class="lnb tab-business">
                 <ul class="tab-list">
                     <li class="active"><a href="/business/domestic/children.php">국내아동후원</a></li>
-                    <li><a href="/business/domestic/children_support.php">아동지원사업 교육/자립 프로젝트</a></li>
+                    <li><a href="/business/domestic/children_support.php">아동지원사업</a></li>
                     <li><a href="/business/domestic/family_crisis.php">위기가정지원사업</a></li>
                     <li><a href="/business/domestic/support.php">통합지원사업 문화</a></li>
                 </ul>
