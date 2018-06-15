@@ -2023,6 +2023,8 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     .dot-board .article-content ul li a:after {
       right: 20px; } }
 
+.abc-list.bl li dl dt i {
+  background-color: #144199; }
 .abc-list li ~ li {
   margin-top: 30px; }
 .abc-list li dl dt {

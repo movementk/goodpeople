@@ -845,7 +845,7 @@ a {
   .children .section-content .abc-list {
     margin-top: 40px; }
   .children .section-content .dot-board {
-    margin-top: 80px; }
+    margin-top: 50px; }
   .children .section-content .bg-children {
     height: 327px;
     text-align: center;
@@ -853,7 +853,9 @@ a {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 70px; }
+    margin-top: 50px; }
+    .children .section-content .bg-children.domestic {
+      background-image: url(/assets/images/business/bg_domestic_children_md.jpg); }
     .children .section-content .bg-children .logo {
       text-align: center;
       padding-top: 100px; }
@@ -894,6 +896,8 @@ a {
       height: 500px;
       background-image: url(/assets/images/business/bg_children_xl.jpg);
       margin-top: 150px; }
+      .children .section-content .bg-children.domestic {
+        background-image: url(/assets/images/business/bg_domestic_children.jpg); }
       .children .section-content .bg-children .logo {
         padding-top: 150px; }
       .children .section-content .bg-children p {
@@ -901,79 +905,81 @@ a {
 
 .medical {
   padding-bottom: 0 !important; }
-  .medical .section-content .item .row .col-12 ~ .col-12 figure {
+  .medical .cloth .section-content .item .row .col-12 ~ .col-12 figure {
     margin-top: 10px; }
-  .medical .section-content .item .row .col-12 figure img {
+  .medical .cloth .section-content .item .row .col-12 figure img {
     width: 100%; }
-  .medical .section-content .dot-list {
+  .medical .cloth .section-content .dot-list {
     margin: 40px 0 60px; }
-  .medical .section-content .blind {
+  @media (min-width: 768px) {
+    .medical .cloth .section-content .dot-list {
+      margin: 40px 0 100px; } }
+  @media (min-width: 1200px) {
+    .medical .cloth .section-content .item .row .col-12 ~ .col-12 figure {
+      margin-top: 0; }
+    .medical .cloth .section-content .dot-list {
+      margin: 30px 0 120px; } }
+  .medical .blind {
     text-align: center;
     padding: 50px 0px;
     background-color: #f7f7f7; }
-    .medical .section-content .blind .section-header h3 {
+    .medical .blind .section-header h3 {
       font-size: 24px;
       color: #333;
       font-weight: 400; }
-    .medical .section-content .blind .section-header p {
+    .medical .blind .section-header p {
       font-size: 13px;
       color: #444;
       line-height: 26px;
       margin-top: 30px; }
-    .medical .section-content .blind .section-content {
+    .medical .blind .section-content {
       padding-top: 50px; }
-      .medical .section-content .blind .section-content .row .col-12 ~ .col-12 .figure {
+      .medical .blind .section-content .row .col-12 ~ .col-12 .figure {
         margin-top: 60px; }
-      .medical .section-content .blind .section-content .row .col-12 .figcaption {
+      .medical .blind .section-content .row .col-12 .figcaption {
         margin-top: 20px; }
-        .medical .section-content .blind .section-content .row .col-12 .figcaption > h5 {
+        .medical .blind .section-content .row .col-12 .figcaption > h5 {
           font-size: 18px;
           color: #333;
           font-weight: 400; }
-        .medical .section-content .blind .section-content .row .col-12 .figcaption > p {
+        .medical .blind .section-content .row .col-12 .figcaption > p {
           font-size: 15px;
           color: #666;
           line-height: 26px;
           margin-top: 15px; }
-      .medical .section-content .blind .section-content .dot-board {
+      .medical .blind .section-content .dot-board {
         text-align: left;
         margin-top: 50px; }
-        .medical .section-content .blind .section-content .dot-board .article-header h3 {
+        .medical .blind .section-content .dot-board .article-header h3 {
           margin-bottom: 15px; }
-  @media (min-width: 768px) {
-    .medical .section-content .dot-list {
-      margin: 40px 0 100px; }
-    .medical .section-content .blind {
-      padding: 110px 0 130px; }
-      .medical .section-content .blind .section-header h3 {
-        font-size: 30px; }
-      .medical .section-content .blind .section-header p {
-        font-size: 14px; }
-      .medical .section-content .blind .section-content {
-        padding-top: 50px; }
-        .medical .section-content .blind .section-content .row .col-12 ~ .col-12 .figure {
-          margin-top: 0; }
-        .medical .section-content .blind .section-content .row .col-12 .figure {
-          height: 68px; }
-        .medical .section-content .blind .section-content .row .col-12 .figcaption {
-          margin-top: 30px; }
-          .medical .section-content .blind .section-content .row .col-12 .figcaption > h5 {
-            font-size: 20px; }
-          .medical .section-content .blind .section-content .row .col-12 .figcaption > p {
-            margin-top: 20px; }
-        .medical .section-content .blind .section-content .dot-board {
-          margin-top: 110px; } }
-  @media (min-width: 1200px) {
-    .medical .section-content .item .row .col-12 ~ .col-12 figure {
-      margin-top: 0; }
-    .medical .section-content .dot-list {
-      margin: 30px 0 120px; }
-    .medical .section-content .blind .section-content {
-      padding-top: 90px; }
-      .medical .section-content .blind .section-content .row .col-12 .figcaption {
-        margin-top: 35px; }
-      .medical .section-content .blind .section-content .dot-board {
-        margin-top: 120px; } }
+    @media (min-width: 768px) {
+      .medical .blind {
+        padding: 110px 0 130px; }
+        .medical .blind .section-header h3 {
+          font-size: 30px; }
+        .medical .blind .section-header p {
+          font-size: 14px; }
+        .medical .blind .section-content {
+          padding-top: 50px; }
+          .medical .blind .section-content .row .col-12 ~ .col-12 .figure {
+            margin-top: 0; }
+          .medical .blind .section-content .row .col-12 .figure {
+            height: 68px; }
+          .medical .blind .section-content .row .col-12 .figcaption {
+            margin-top: 30px; }
+            .medical .blind .section-content .row .col-12 .figcaption > h5 {
+              font-size: 20px; }
+            .medical .blind .section-content .row .col-12 .figcaption > p {
+              margin-top: 20px; }
+          .medical .blind .section-content .dot-board {
+            margin-top: 110px; } }
+    @media (min-width: 1200px) {
+      .medical .blind .section-content {
+        padding-top: 90px; }
+        .medical .blind .section-content .row .col-12 .figcaption {
+          margin-top: 35px; }
+        .medical .blind .section-content .dot-board {
+          margin-top: 120px; } }
 
 .education .sub-header p {
   margin-top: 0; }
@@ -981,5 +987,150 @@ a {
   margin-top: 10px; }
 .education .section-content .item .row .col-12 figure img {
   width: 100%; }
+.education .section-content .dot-list {
+  margin-top: 40px; }
+.education .section-content .dot-board {
+  margin-top: 50px; }
+@media (min-width: 768px) {
+  .education .section-content .dot-board {
+    margin-top: 70px; } }
+@media (min-width: 1200px) {
+  .education .section-content .item .row .col-12 ~ .col-12 figure {
+    margin-top: 0; }
+  .education .section-content .dot-list {
+    margin-top: 30px; }
+  .education .section-content .dot-board {
+    margin-top: 100px; } }
+
+.regional {
+  padding-bottom: 0 !important; }
+  .regional .water .section-content .item .row .col-12 ~ .col-12 figure {
+    margin-top: 10px; }
+  .regional .water .section-content .item .row .col-12 figure img {
+    width: 100%; }
+  .regional .water .section-content .dot-list {
+    margin: 40px 0 50px; }
+  @media (min-width: 768px) {
+    .regional .water .section-content .dot-list {
+      margin: 40px 0 70px; } }
+  @media (min-width: 1200px) {
+    .regional .water .section-content .item .row .col-12 ~ .col-12 figure {
+      margin-top: 0; }
+    .regional .water .section-content .dot-list {
+      margin: 30px 0 120px; } }
+  .regional .local {
+    padding: 50px 0px;
+    background-color: #f7f7f7; }
+    .regional .local .section-header {
+      text-align: center; }
+      .regional .local .section-header h3 {
+        font-size: 24px;
+        color: #333;
+        font-weight: 400; }
+      .regional .local .section-header p {
+        font-size: 13px;
+        color: #444;
+        line-height: 26px;
+        margin-top: 30px; }
+    .regional .local .section-content {
+      padding-top: 50px; }
+      .regional .local .section-content .items .row .col-12 ~ .col-12 figure {
+        margin-top: 10px; }
+      .regional .local .section-content .items .row .col-12 figure img {
+        width: 100%; }
+      .regional .local .section-content .dot-list {
+        margin-top: 30px; }
+      .regional .local .section-content .dot-board {
+        margin-top: 50px; }
+        .regional .local .section-content .dot-board .article-header h3 {
+          margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      .regional .local {
+        padding: 70px 0; }
+        .regional .local .section-header h3 {
+          font-size: 30px; }
+        .regional .local .section-header p {
+          font-size: 14px; }
+        .regional .local .section-content {
+          padding-top: 50px; }
+          .regional .local .section-content .items .row .col-12 ~ .col-12 figure {
+            margin-top: 0; }
+          .regional .local .section-content .dot-list {
+            margin-top: 40px; }
+          .regional .local .section-content .dot-board {
+            margin-top: 70px; } }
+    @media (min-width: 1200px) {
+      .regional .local {
+        padding: 110px 0; }
+        .regional .local .section-content {
+          padding-top: 50px; }
+          .regional .local .section-content .dot-board {
+            margin-top: 140px; } }
+
+.domestic-list {
+  padding-top: 50px; }
+  .domestic-list li ~ li figure {
+    margin-top: 45px; }
+  .domestic-list li figure img {
+    width: 100%; }
+  .domestic-list li h4 {
+    font-size: 16px;
+    color: #eb6100;
+    font-weight: 400;
+    padding: 30px 0 10px; }
+  .domestic-list li p {
+    font-size: 13px;
+    color: #666;
+    line-height: 24px; }
+  @media (min-width: 768px) {
+    .domestic-list {
+      padding-top: 70px; }
+      .domestic-list li ~ li figure {
+        margin-top: 70px; }
+      .domestic-list li h4 {
+        font-size: 24px;
+        padding: 20px 0 10px; }
+      .domestic-list li p {
+        font-size: 14px;
+        line-height: 26px; } }
+  @media (min-width: 1200px) {
+    .domestic-list {
+      padding-top: 75px; }
+      .domestic-list li ~ li figure {
+        margin-top: 85px; }
+      .domestic-list li h4 {
+        padding: 45px 0 10px; } }
+
+.children-support .dot-board {
+  margin-top: 50px; }
+  @media (min-width: 768px) {
+    .children-support .dot-board {
+      margin-top: 70px; } }
+  @media (min-width: 1200px) {
+    .children-support .dot-board {
+      margin-top: 120px; } }
+
+.family-crisis .dot-board {
+  margin-top: 50px; }
+  @media (min-width: 768px) {
+    .family-crisis .dot-board {
+      margin-top: 70px; } }
+  @media (min-width: 1200px) {
+    .family-crisis .dot-board {
+      margin-top: 120px; } }
+
+.support .domestic-list li .row .col-12 ~ .col-12 figure {
+  margin-top: 10px; }
+@media (min-width: 768px) {
+  .support .domestic-list li .row .col-12 ~ .col-12 figure {
+    margin-top: 0; } }
+.support .dot-board {
+  margin-top: 50px; }
+  @media (min-width: 768px) {
+    .support .dot-board {
+      margin-top: 70px; } }
+  @media (min-width: 1200px) {
+    .support .dot-board {
+      margin-top: 120px; } }
 
 /*# sourceMappingURL=business.css.map */

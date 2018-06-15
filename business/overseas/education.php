@@ -25,7 +25,7 @@
                     <li><a href="/business/overseas/children.php">아동후원사업</a></li>
                     <li><a href="/business/overseas/medical.php">보건의료사업</a></li>
                     <li class="active"><a href="/business/overseas/education.php">교육지원사업</a></li>
-                    <li><a href="#">지역개발사업</a></li>
+                    <li><a href="/business/overseas/regional.php">지역개발사업</a></li>
                 </ul>
             </nav>
         </div>
@@ -34,15 +34,13 @@
     <!-- Content -->
     <main id="content" class="education">
 		<section>
-			<div class="section-header sub-header">
-				<div class="container">
+			<div class="container">
+				<div class="section-header sub-header">
 					<p>
 						질병에 쉽게 노출되어 있는 제 3국가에 병원 및 보건소 건축, 의료시설 개선, 의료기기 제공, 의약품 및 의료진 제공을 통해 수혜지역의 의료시설을 개선하고 의료서비스를 제공받지 못하는 지역주민들에게 양질의 의료서비스를 제공하여 질병의 예방 및 죽음에 이르는 것을 막기 위해 의료시설 및 진료, 수술 등을 지원합니다.
 					</p>
 				</div>
-			</div>
-			<div class="section-content">
-				<div class="container">
+				<div class="section-content">
 					<div class="item">
 						<div class="row">
 							<div class="col-12 col-xl-6">
@@ -65,11 +63,14 @@
 								</div>
 								<div class="article-content">
 									<ul>
-										<li>케냐 몸바사 보건소 운영 지원 베트남 농짱씨젠보건 소건축 사업 </li>
-										<li>DR콩고 이동진료 및 말라리아‧장티푸스 예방·치료사업 </li>
-										<li>필리핀 산타훌리아나 보건소 운영 지원</li>
-										<li>해외 백내장 수술 사업</li>
-										<li>어린이 위생/성교육 프로그램 사업 등</li>
+										<li>케냐 투르카나 임연심 굿피플 미션스쿨 운영</li>
+										<li>삼리스 희망학교 리모델링</li>
+										<li>뭉게 이마니 초등학교 건축</li>
+										<li>우간다 나말루 희망학교 건축</li>
+										<li>르완다 카나지 희망학교 건축</li>
+										<li>마다가스카르 토아마시나 희망학교 건축</li>
+										<li>마다가스카르 암테필루하 아동보호센터 건축</li>
+										<li>베트남 서비스 특화교육을 위한 여성 직업훈련 사업</li>
 									</ul>
 								</div>
 							</div>
@@ -79,16 +80,44 @@
 								</div>
 								<div class="article-content">
 									<ul>
-										<li>필리핀 결핵퇴치지원(CALOOCAN, MANILA, BATANGAS, LAGUNA, RIZAL,<br class="d-sm-none d-md-block">  CAVIT교도소, PAMPANGA 마약 수용소, 잠발레스주)</li>
-										<li>중국 연변지역 경신진 병원 지원 (중국 경신진 지역)</li>
-										<li>나망가 클리닉 센터 건축 (케냐 나망가 지역)</li>
-										<li>짬삥 보건소 건축(미얀마 짜웃단구 짬삥 지역)</li>
-										<li>일마르바 보건소 건축 및 운영지원(케냐 일마르바 지역)</li>
-										<li>아이티 콜레라 클리닉 운영지원(아이티 시티솔레이 지역)</li>
-										<li>세계실명예방단 사업(중국, 베트남, 스리랑카, 몽골, 필리핀, 방글라데시 등 제 3세계 저개발 국가)</li>
+										<li>방글라데시 섬유기술학교 지원(방글라데시 수도 다카지역)</li>
+										<li>팔레스타인 난민촌 및 빈민지역 IT센터 지원(마다바 캠프, 딸비에 캠프, 와흐다트 캠프, 마다바 고아원, 마다바 메인센터)</li>
+										<li>반뚤동 초등학교 건축(인도네시아 족자카르타 반뚤 지역)</li>
+										<li>요아띳깔레 초-중등학교 건축 (미얀마 짜웃단구 요아띳깔레 지역)</li>
+										<li>쓰리랑카 직업훈련센터 건축(쓰리랑카 감파하 지역)</li>
+										<li>필리핀 앙헬레스 기술전문학교 건축(필리핀 앙헬레스 쿠투드 노빌스 지역)</li>
+										<li>필리핀 알루난 초등학교 건축(필리핀 카파스 알루난 지역)</li>
+										<li>외찌 초중등학교, 삘레카 초등학교, 짬삥 초중등학교 건축<br class="d-none d-xl-block"> (미얀마 짜웃단구 외찌, 삘레카, 짬삥 지역)</li>
+										<li>렁싼 중고등학교 건축(라오스 홈군 렁싼 지역)</li>
+										<li>렁싼, 파라웩, 덩싼판 ICT 종합센터 건축 및 운영 지원 (라오스 홈군 렁싼, 파라웩 지역)</li>
+										<li>마사이족 일마르바 유치원 건축 및 운영지원 (케냐 앵코리키딩아이 지역)</li>
+										<li>탈레가온 기숙사 건축 (인도 뿌네 탈레가온 지역)</li>
 									</ul>
 								</div>
 							</div>
+						</div>
+					</article>
+					<article class="dot-board">
+						<div class="article-header">
+							<h3>최근 활동 소식</h3>
+						</div>
+						<div class="article-content">
+							<ul>
+								<li>
+									<a href="#">
+										&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서 
+										&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서
+										&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서
+										&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서
+										&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서
+									</a>
+								</li>
+							</ul>
 						</div>
 					</article>
 				</div>
