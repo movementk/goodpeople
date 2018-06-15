@@ -217,7 +217,7 @@
 									<div class="people-information">
 										<h5>
 											박주희 <small>주임</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="#none" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -230,7 +230,7 @@
 									<div class="people-information">
 										<h5>
 											김성철 <small>주임</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="#none" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -428,7 +428,7 @@
 									<div class="people-information">
 										<h5>
 											은현 <small>주임</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="#none" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -518,7 +518,7 @@
 									<div class="people-information">
 										<h5>
 											최소정 <small>주임</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="#none" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
@@ -581,7 +581,7 @@
 									<div class="people-information">
 										<h5>
 											이혜인 <small>간사</small>
-											<a href="#" target="_blank" class="ico-facebook">
+											<a href="#none" target="_blank" class="ico-facebook">
 												<i class="icon-facebook-rect">
 													<span class="sr-only">페이스북 이동</span>
 												</i>
