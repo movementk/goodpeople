@@ -152,7 +152,7 @@
         }
         @media(min-width: $lg) {
             margin-top: 100px;
-            background-image: url(/assets/images/sponsor/bg_dream_sm.jpg);
+            background-image: url(/assets/images/sponsor/bg_dream_lg.jpg);
         }
     }
 	.notify {
@@ -443,11 +443,13 @@
             font-size: 20px;
             margin-bottom: 15px;
             font-weight: 400;
+            text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.04);
         }
         p {
             font-size: 14px;
             font-weight: 300;
             line-height: 20px;
+            text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.04);
         }
         @media(min-width: $md) {
             padding: 160px 0;

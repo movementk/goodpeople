@@ -23,7 +23,7 @@
             <nav class="lnb">
                 <ul class="tab-list">
                     <li class="active"><a href="/sponsor/share_partner.php">나눔파트너</a></li>
-                    <li><a href="#">나눔가게</a></li>
+                    <li><a href="/sponsor/share_store.php">나눔가게</a></li>
                 </ul>
             </nav>
         </div>
