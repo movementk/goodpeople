@@ -80,7 +80,7 @@
 						<div class="row">
 							<div class="col-12 col-md-6">
 								 <figure>
-								 	<img src="/assets/images/sponser/img_variety_list01.jpg" class="img-fluid" alt="">
+								 	<img src="/assets/images/sponsor/img_variety_list01.jpg" class="img-fluid" alt="">
 								 </figure>
 							</div>
 							<div class="col-12 col-md-6">
@@ -97,7 +97,7 @@
 						<div class="row">
 							<div class="col-12 col-md-6 order-md-last">
 								 <figure>
-								 	<img src="/assets/images/sponser/img_variety_list02.jpg" class="img-fluid" alt="">
+								 	<img src="/assets/images/sponsor/img_variety_list02.jpg" class="img-fluid" alt="">
 								 </figure>
 							</div>
 							<div class="col-12 col-md-6 order-md-first">
@@ -116,7 +116,7 @@
 						<div class="row">
 							<div class="col-12 col-md-6">
 								 <figure>
-								 	<img src="/assets/images/sponser/img_variety_list03.jpg" class="img-fluid" alt="">
+								 	<img src="/assets/images/sponsor/img_variety_list03.jpg" class="img-fluid" alt="">
 								 </figure>
 							</div>
 							<div class="col-12 col-md-6">
@@ -133,7 +133,7 @@
 						<div class="row">
 							<div class="col-12 col-md-6 order-md-last">
 								 <figure>
-								 	<img src="/assets/images/sponser/img_variety_list04.jpg" class="img-fluid" alt="">
+								 	<img src="/assets/images/sponsor/img_variety_list04.jpg" class="img-fluid" alt="">
 								 </figure>
 							</div>
 							<div class="col-12 col-md-6 order-md-first">
@@ -156,8 +156,8 @@
 				<ul class="row justify-content-md-center">
 					<li class="col-12 col-md-4">
 						<figure>
-							<img src="/assets/images/sponser/img_benefit_list_md_01.jpg" class="img-fluid d-none d-md-block d-xl-none" alt="정기우편물">
-							<img src="/assets/images/sponser/img_benefit_list01.jpg" class="img-fluid d-md-none d-xl-block" alt="정기우편물">
+							<img src="/assets/images/sponsor/img_benefit_list_md_01.jpg" class="img-fluid d-none d-md-block d-xl-none" alt="정기우편물">
+							<img src="/assets/images/sponsor/img_benefit_list01.jpg" class="img-fluid d-md-none d-xl-block" alt="정기우편물">
 						</figure>
 						<div class="summary">
 							<h5>정기우편물</h5>
@@ -169,8 +169,8 @@
 					</li>
 					<li class="col-12 col-md-4">
 						<figure>
-							<img src="/assets/images/sponser/img_benefit_list_md_02.jpg" class="img-fluid d-none d-md-block d-xl-none" alt="기부금영수증">
-							<img src="/assets/images/sponser/img_benefit_list02.jpg" class="img-fluid d-md-none d-xl-block" alt="기부금영수증">
+							<img src="/assets/images/sponsor/img_benefit_list_md_02.jpg" class="img-fluid d-none d-md-block d-xl-none" alt="기부금영수증">
+							<img src="/assets/images/sponsor/img_benefit_list02.jpg" class="img-fluid d-md-none d-xl-block" alt="기부금영수증">
 						</figure>
 						<div class="summary">
 							<h5>기부금영수증</h5>
@@ -182,8 +182,8 @@
 					</li>
 					<li class="col-12 col-md-4">
 						<figure>
-							<img src="/assets/images/sponser/img_benefit_list_md_03.jpg" class="img-fluid d-none d-md-block d-xl-none" alt="특별축하">
-							<img src="/assets/images/sponser/img_benefit_list03.jpg" class="img-fluid d-md-none d-xl-block" alt="특별축하">
+							<img src="/assets/images/sponsor/img_benefit_list_md_03.jpg" class="img-fluid d-none d-md-block d-xl-none" alt="특별축하">
+							<img src="/assets/images/sponsor/img_benefit_list03.jpg" class="img-fluid d-md-none d-xl-block" alt="특별축하">
 						</figure>
 						<div class="summary">
 							<h5>특별축하</h5>
@@ -195,8 +195,8 @@
 					</li>
 					<li class="col-12 col-md-4">
 						<figure> 
-							<img src="/assets/images/sponser/img_benefit_list_md_04.jpg" class="img-fluid d-none d-md-block d-xl-none" alt="필드트립">
-							<img src="/assets/images/sponser/img_benefit_list04.jpg" class="img-fluid d-md-none d-xl-block" alt="필드트립">
+							<img src="/assets/images/sponsor/img_benefit_list_md_04.jpg" class="img-fluid d-none d-md-block d-xl-none" alt="필드트립">
+							<img src="/assets/images/sponsor/img_benefit_list04.jpg" class="img-fluid d-md-none d-xl-block" alt="필드트립">
 						</figure>
 						<div class="summary">
 							<h5>필드트립</h5>
@@ -207,8 +207,8 @@
 					</li>
 					<li class="col-12 col-md-4">
 						<figure>
-							<img src="/assets/images/sponser/img_benefit_list_md_05.jpg" class="img-fluid d-none d-md-block d-xl-none" alt="특별축하">
-							<img src="/assets/images/sponser/img_benefit_list05.jpg" class="img-fluid d-md-none d-xl-block" alt="특별축하">
+							<img src="/assets/images/sponsor/img_benefit_list_md_05.jpg" class="img-fluid d-none d-md-block d-xl-none" alt="특별축하">
+							<img src="/assets/images/sponsor/img_benefit_list05.jpg" class="img-fluid d-md-none d-xl-block" alt="특별축하">
 						</figure>
 						<div class="summary">
 							<h5>특별 행사 참여</h5>

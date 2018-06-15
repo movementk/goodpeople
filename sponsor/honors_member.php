@@ -37,7 +37,7 @@
 					<li class="col-12 col-md-4 col-xl-3">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
-								<img src="/assets/images/sponser/img_ambassadors_list01.jpg" class="img-fluid" alt="">
+								<img src="/assets/images/sponsor/img_ambassadors_list01.jpg" class="img-fluid" alt="">
 								<figcaption>
 									스타나눔대사
 									<p><i class="icon-video"></i>박수홍</p>
@@ -48,7 +48,7 @@
 					<li class="col-12 col-md-4 col-xl-3">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
-								<img src="/assets/images/sponser/img_honors_member_none.jpg" class="img-fluid" alt="">
+								<img src="/assets/images/sponsor/img_honors_member_none.jpg" class="img-fluid" alt="">
 								<figcaption>
 									스타나눔대사
 									<p>정준</p>
@@ -59,7 +59,7 @@
 					<li class="col-12 col-md-4 col-xl-3">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
-								<img src="/assets/images/sponser/img_honors_member_none.jpg" class="img-fluid" alt="">
+								<img src="/assets/images/sponsor/img_honors_member_none.jpg" class="img-fluid" alt="">
 								<figcaption>
 									문화나눔대사
 									<p>박지훈</p>
@@ -70,7 +70,7 @@
 					<li class="d-none d-md-block col-md-4 col-xl-3">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
-								<img src="/assets/images/sponser/img_honors_member_none.jpg" class="img-fluid" alt="">
+								<img src="/assets/images/sponsor/img_honors_member_none.jpg" class="img-fluid" alt="">
 								<figcaption>
 									스타나눔대사
 									<p><i class="icon-video"></i>이유리</p>
@@ -81,7 +81,7 @@
 					<li class="d-none d-md-block col-md-4 col-xl-3">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
-								<img src="/assets/images/sponser/img_honors_member_none.jpg" class="img-fluid" alt="">
+								<img src="/assets/images/sponsor/img_honors_member_none.jpg" class="img-fluid" alt="">
 								<figcaption>
 									스타나눔대사
 									<p><i class="icon-video"></i>황정음</p>
@@ -92,7 +92,7 @@
 					<li class="d-none d-md-block col-md-4 col-xl-3">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
-								<img src="/assets/images/sponser/img_honors_member_none.jpg" class="img-fluid" alt="">
+								<img src="/assets/images/sponsor/img_honors_member_none.jpg" class="img-fluid" alt="">
 								<figcaption>
 									스타나눔대사
 									<p><i class="icon-video"></i>문천식</p>
@@ -103,7 +103,7 @@
 					<li class="d-none d-xl-block col-md-4 col-xl-3">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
-								<img src="/assets/images/sponser/img_honors_member_none.jpg" class="img-fluid" alt="">
+								<img src="/assets/images/sponsor/img_honors_member_none.jpg" class="img-fluid" alt="">
 								<figcaption>
 									명예나눔대사
 									<p><i class="icon-video"></i>이한위</p>
@@ -114,7 +114,7 @@
 					<li class="d-none d-xl-block col-md-4 col-xl-3">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
 							<figure>
-								<img src="/assets/images/sponser/img_honors_member_none.jpg" class="img-fluid" alt="">
+								<img src="/assets/images/sponsor/img_honors_member_none.jpg" class="img-fluid" alt="">
 								<figcaption>
 									스타나눔대사
 									<p><i class="icon-video"></i>이진우</p>

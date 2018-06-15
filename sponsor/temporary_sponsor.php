@@ -34,7 +34,7 @@
 				<li class="col-12 col-xl-6">
 					<div class="homepage">
 						<figure>
-							<img src="/assets/images/sponser/img_temporary_com.png" alt="">
+							<img src="/assets/images/sponsor/img_temporary_com.png" alt="">
 						</figure>
 						<h5>홈페이지를 통한 온라인 후원</h5>	
 						<p>
@@ -46,7 +46,7 @@
 				<li class="col-12 col-xl-6">
 					<div class="telephone">
 						<figure>
-							<img src="/assets/images/sponser/img_temporary_tel.png" alt="">
+							<img src="/assets/images/sponsor/img_temporary_tel.png" alt="">
 						</figure>
 						<h5><a href="tel:060001544">060-700-1544</a>(한 통화 1만원)</h5>	
 						<p>

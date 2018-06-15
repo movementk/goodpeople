@@ -38,12 +38,12 @@
     	            <li class="active"><a href="/sponsor/partner_list.php">함께하는 파트너</a></li>
     	        </ul>
     	    </nav>
-    		<div class="tab-sponser">
+    		<div class="tab-sponsor">
 				<ul class="row">
                     <li class="col-6 col-md-4 col-xl-3">
                         <div class="sponsor-company">
                             <div class="item">
-                                <img src="/assets/images/sponser/img_partner01.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/sponsor/img_partner01.jpg" class="img-fluid" alt="">
                             </div>
                             <p>롯데면세점</p>
                         </div>
@@ -51,7 +51,7 @@
                     <li class="col-6 col-md-4 col-xl-3">
                         <div class="sponsor-company">
                             <div class="item">
-                                <img src="/assets/images/sponser/img_partner02.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/sponsor/img_partner02.jpg" class="img-fluid" alt="">
                             </div>
                             <p>호텔신라</p>
                         </div>
@@ -59,7 +59,7 @@
                     <li class="col-6 col-md-4 col-xl-3">
                         <div class="sponsor-company">
                             <div class="item">
-                                <img src="/assets/images/sponser/img_partner03.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/sponsor/img_partner03.jpg" class="img-fluid" alt="">
                             </div>
                             <p>참존</p>
                         </div>
@@ -67,7 +67,7 @@
                     <li class="col-6 col-md-4 col-xl-3">
                         <div class="sponsor-company">
                             <div class="item">
-                                <img src="/assets/images/sponser/img_partner04.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/sponsor/img_partner04.jpg" class="img-fluid" alt="">
                             </div>
                             <p>리젠</p>
                         </div>
@@ -75,7 +75,7 @@
                     <li class="col-6 col-md-4 col-xl-3">
                         <div class="sponsor-company">
                             <div class="item">
-                                <img src="/assets/images/sponser/img_partner03.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/sponsor/img_partner03.jpg" class="img-fluid" alt="">
                             </div>
                             <p>참존</p>
                         </div>
@@ -83,7 +83,7 @@
                     <li class="col-6 col-md-4 col-xl-3">
                         <div class="sponsor-company">
                             <div class="item">
-                                <img src="/assets/images/sponser/img_partner05.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/sponsor/img_partner05.jpg" class="img-fluid" alt="">
                             </div>
                             <p>SK 네트윅스</p>
                         </div>
@@ -91,7 +91,7 @@
                     <li class="col-6 col-md-4 col-xl-3">
                         <div class="sponsor-company">
                             <div class="item">
-                                <img src="/assets/images/sponser/img_partner06.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/sponsor/img_partner06.jpg" class="img-fluid" alt="">
                             </div>
                             <p>이랜드</p>
                         </div>
@@ -99,7 +99,7 @@
                     <li class="col-6 col-md-4 col-xl-3">
                         <div class="sponsor-company">
                             <div class="item">
-                                <img src="/assets/images/sponser/img_partner07.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/sponsor/img_partner07.jpg" class="img-fluid" alt="">
                             </div>
                             <p>엔타스 듀티프리</p>
                         </div>
@@ -107,7 +107,7 @@
                     <li class="col-6 col-md-4 col-xl-3">
                         <div class="sponsor-company">
                             <div class="item">
-                                <img src="/assets/images/sponser/img_partner01.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/sponsor/img_partner01.jpg" class="img-fluid" alt="">
                             </div>
                             <p>롯데면세점</p>
                         </div>
@@ -115,7 +115,7 @@
                     <li class="col-6 col-md-4 col-xl-3">
                         <div class="sponsor-company">
                             <div class="item">
-                                <img src="/assets/images/sponser/img_partner02.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/sponsor/img_partner02.jpg" class="img-fluid" alt="">
                             </div>
                             <p>호텔신라</p>
                         </div>
@@ -123,7 +123,7 @@
                     <li class="col-6 col-md-4 col-xl-3">
                         <div class="sponsor-company">
                             <div class="item">
-                                <img src="/assets/images/sponser/img_partner03.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/sponsor/img_partner03.jpg" class="img-fluid" alt="">
                             </div>
                             <p>참존</p>
                         </div>
@@ -131,7 +131,7 @@
                     <li class="col-6 col-md-4 col-xl-3">
                         <div class="sponsor-company">
                             <div class="item">
-                                <img src="/assets/images/sponser/img_partner03.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/sponsor/img_partner03.jpg" class="img-fluid" alt="">
                             </div>
                             <p>참존</p>
                         </div>

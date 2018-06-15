@@ -72,7 +72,7 @@
 					<ul class="row">
 						<li class="col-12 col-md-4">
 							<figure>
-								<img src="/assets/images/sponser/img_respect01.jpg" class="img-fluid" alt="">
+								<img src="/assets/images/sponsor/img_respect01.jpg" class="img-fluid" alt="">
 								<figcaption>
 									굿피플 아너스클럽 가입식<br>
 									개최 및 감사패 전달
@@ -81,7 +81,7 @@
 						</li>
 						<li class="col-12 col-md-4">
 							<figure>
-								<img src="/assets/images/sponser/img_respect02.jpg" class="img-fluid" alt="">
+								<img src="/assets/images/sponsor/img_respect02.jpg" class="img-fluid" alt="">
 								<figcaption>
 									보도자료 배포 및 소식지 게재
 								</figcaption>
@@ -89,7 +89,7 @@
 						</li>
 						<li class="col-12 col-md-4">
 							<figure>
-								<img src="/assets/images/sponser/img_respect03.jpg" class="img-fluid" alt="">
+								<img src="/assets/images/sponsor/img_respect03.jpg" class="img-fluid" alt="">
 								<figcaption>
 									각종 굿피플 행사 시 VIP 초대
 								</figcaption>
@@ -97,7 +97,7 @@
 						</li>
 						<li class="col-12 col-md-4">
 							<figure>
-								<img src="/assets/images/sponser/img_respect04.jpg" class="img-fluid" alt="">
+								<img src="/assets/images/sponsor/img_respect04.jpg" class="img-fluid" alt="">
 								<figcaption>
 									굿피플 국내 및 해외사업장<br>	방문 기회 부여
 								</figcaption>
@@ -105,7 +105,7 @@
 						</li>
 						<li class="col-12 col-md-4">
 							<figure>
-								<img src="/assets/images/sponser/img_respect05.jpg" class="img-fluid" alt="">
+								<img src="/assets/images/sponsor/img_respect05.jpg" class="img-fluid" alt="">
 								<figcaption>
 									이사장 초청 만찬 진행
 								</figcaption>
@@ -113,7 +113,7 @@
 						</li>
 						<li class="col-12 col-md-4">
 							<figure>
-								<img src="/assets/images/sponser/img_respect06.jpg" class="img-fluid" alt="">
+								<img src="/assets/images/sponsor/img_respect06.jpg" class="img-fluid" alt="">
 								<figcaption>
 									고액기부자 명판 설치 등
 								</figcaption>

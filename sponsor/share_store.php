@@ -36,68 +36,72 @@
 				<div class="section-header">
 					<h4>모금함 종류</h4>
 					<p>
-						작은 동전 하나가 희망이 됩니다. <br class="d-block  d-md-none"> 
-						식당, 편의점, 약국, 은행 등 각 가게에<br class="d-none  d-md-block">  굿피플 모금함을 설치하여 어려운 이웃을 위한  나눔 활동에 동참하실 수 있습니다.
+						작은 동전 하나가 희망이 됩니다. <br class="d-block d-md-none"> 
+						식당, 편의점, 약국, 은행 등 각 가게에<br class="d-none d-md-block">  굿피플 모금함을 설치하여 어려운 이웃을 위한  나눔 활동에 동참하실 수 있습니다.
 					</p>	
 				</div>
 				<div class="section-content">
-					<ol>
-						<li>
-							<div class="box">
-								<figure>
-									<img src="/assets/images/sponser/collection-step01.png" class="img-fluid" alt="">
-								</figure> 
-								<div class="details">
-									<small>STEP 01</small>
-									<p>모금함 신청</p>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="box">
-								<figure>
-									<img src="/assets/images/sponser/collection-step02.png" class="img-fluid" alt="">
-								</figure>
-								<div class="details">
-									<small>STEP 02</small>
-									<p>
-										모금함 발송 <br>
-										(신청 후 2주일 이내)
-									</p>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="box">
-								<figure>
-									<img src="/assets/images/sponser/collection-step03.png" class="img-fluid" alt="">
-
-								</figure>
-								<div class="details"> 
-									<small>STEP 03</small>
-									<p>
-										모금함 채우기
-									</p>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="box">
-								<figure>
-									<img src="/assets/images/sponser/collection-step04.png" class="img-fluid" alt="">
-								</figure>
-								<div class="details"> 
-									<small>STEP 04</small>
-									<p>
-										모금함 송금/수거 및 재신청
-									</p>
-								</div>
-							</div>
-						</li>
-					</ol>
+					<ol class="method">
+                        <li>
+                            <div class="box">
+                                <div class="item">
+                                    <img src="/assets/images/sponsor/collection-step01.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="details">
+                                    <small>STEP 01</small>
+                                    <p>모금함 신청</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box">
+                                <div class="item">
+                                    <img src="/assets/images/sponsor/collection-step02.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="details">
+                                    <small>STEP 02</small>
+                                    <p>
+                                        모금함 발송<br class="d-sm-block d-lg-none">
+                                        (신청 후 2주일 이내)
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box">
+                                <div class="item">
+                                    <img src="/assets/images/sponsor/collection-step03.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="details">
+                                    <small>STEP 03</small>
+                                    <p>모금함 채우기</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box">
+                                <div class="item">
+                                    <img src="/assets/images/sponsor/collection-step04.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="details">
+                                    <small>STEP 04</small>
+                                    <p>
+                                        모금함 송금/<br class="d-sm-block d-lg-none">
+                                        수거 및 재신청
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
 				</div>
 			</div>
 		</section>
+		<article class="hope">
+            <div class="container">
+                <h4>작은 동전 하나가 희망이 됩니다.</h4>
+                <p>현대사회에서 기업의 사회공헌활동은 점차 사회적으로 중요해지고 있습니다.</p>
+            </div>
+		</article>
 		<section class="information">
 			<div class="container">
 				<div class="section-header">
@@ -108,7 +112,7 @@
 						<li>
 							<div class="wrap">
 								<div class="items">
-									<img src="/assets/images/sponser/img_information01.png" class="img-fluid" alt="">
+									<img src="/assets/images/sponsor/img_information01.png" class="img-fluid" alt="">
 								</div>
 								<div class="summary">
 									<ul>
@@ -134,7 +138,7 @@
 						<li>
 							<div class="wrap">
 								<div class="items">
-									<img src="/assets/images/sponser/img_information02.png" class="img-fluid" alt="">
+									<img src="/assets/images/sponsor/img_information02.png" class="img-fluid" alt="">
 								</div>
 								<div class="summary">
 									<ul>

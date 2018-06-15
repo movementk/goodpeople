@@ -406,34 +406,73 @@ a {
           opacity: 1 !important; } }
 
 .share-partner .page-intro {
+  text-align: center;
   padding-top: 35px; }
+  .share-partner .page-intro > h4 {
+    font-size: 24px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 20px; }
   .share-partner .page-intro > p {
     font-size: 13px;
     color: #222;
-    line-height: 22px; }
-  .share-partner .page-intro figure {
-    margin-top: 40px;
-    padding-top: 40px;
-    padding-bottom: 70px;
-    background-color: #f5f5f5; }
-    .share-partner .page-intro figure img {
-      display: block;
-      margin: 0 auto; }
+    line-height: 22px;
+    font-weight: 300; }
+    .share-partner .page-intro > p b {
+      font-weight: 400;
+      color: #eb6100; }
+  .share-partner .page-intro .method {
+    margin-top: 50px; }
   @media (min-width: 768px) {
     .share-partner .page-intro {
       padding-top: 50px; }
       .share-partner .page-intro > p {
         font-size: 14px;
         line-height: 26px; }
-      .share-partner .page-intro figure {
-        padding-top: 50px;
-        padding-bottom: 80px; } }
+      .share-partner .page-intro .method li {
+        width: 33.33%; }
+        .share-partner .page-intro .method li:after {
+          display: none; }
+        .share-partner .page-intro .method li:nth-of-type(3) ~ li {
+          margin-top: 25px; } }
   @media (min-width: 1200px) {
     .share-partner .page-intro {
       padding-top: 70px; }
-      .share-partner .page-intro figure {
-        padding-top: 70px;
-        padding-bottom: 60px; } }
+      .share-partner .page-intro .method li {
+        width: 16.66%; }
+        .share-partner .page-intro .method li:after {
+          display: block; }
+        .share-partner .page-intro .method li:nth-of-type(3) ~ li {
+          margin-top: 0; }
+        .share-partner .page-intro .method li:last-child:after {
+          display: none !important; }
+        .share-partner .page-intro .method li .box {
+          height: 220px; } }
+.share-partner .dream {
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  padding: 140px 0;
+  background-image: url(/assets/images/sponsor/bg_dream_sm.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover; }
+  .share-partner .dream h4 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-shadow: 0px 6px 7px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 768px) {
+    .share-partner .dream {
+      padding: 165px 0;
+      margin-top: 80px; }
+      .share-partner .dream h4 {
+        font-size: 28px;
+        line-height: 44px; } }
+  @media (min-width: 992px) {
+    .share-partner .dream {
+      margin-top: 100px;
+      background-image: url(/assets/images/sponsor/bg_dream_sm.jpg); } }
 .share-partner .notify {
   margin-top: 40px; }
   .share-partner .notify li ~ li {
@@ -473,8 +512,7 @@ a {
       width: 250px;
       line-height: 43px; } }
 .share-partner .ask {
-  margin-top: 20px;
-  padding-bottom: 80px; }
+  margin-top: 20px; }
   .share-partner .ask li {
     font-size: 0;
     font-size: 13px;
@@ -504,6 +542,20 @@ a {
       .share-partner .ask li dl dd {
         display: inline-block;
         font-size: 13px; }
+  @media (min-width: 768px) {
+    .share-partner .ask {
+      margin-top: 50px; } }
+  @media (min-width: 1200px) {
+    .share-partner .ask {
+      margin-top: 60px; } }
+.share-partner .dot-board {
+  margin-top: 50px; }
+  @media (min-width: 768px) {
+    .share-partner .dot-board {
+      margin-top: 70px; } }
+  @media (min-width: 1200px) {
+    .share-partner .dot-board {
+      margin-top: 100px; } }
 
 .partner-list .tab-sponser {
   padding-top: 50px; }
@@ -546,7 +598,7 @@ a {
   padding-bottom: 0 !important; }
   .share-store .collection-step {
     padding-top: 50px;
-    padding-bottom: 80px; }
+    padding-bottom: 60px; }
     .share-store .collection-step .section-header {
       text-align: center; }
       .share-store .collection-step .section-header h4 {
@@ -560,49 +612,10 @@ a {
         margin-top: 25px; }
     .share-store .collection-step .section-content {
       margin-top: 40px; }
-      .share-store .collection-step .section-content ol li {
-        position: relative;
-        display: table;
-        width: 100%;
-        padding-bottom: 50px; }
-        .share-store .collection-step .section-content ol li:last-child {
-          padding-bottom: 0; }
-          .share-store .collection-step .section-content ol li:last-child:after {
-            display: none; }
-        .share-store .collection-step .section-content ol li:after {
-          content: "\F107";
-          font-family: "fontello";
-          position: absolute;
-          bottom: 0;
-          left: 50%;
-          margin-left: -10px;
-          display: block;
-          font-size: 30px;
-          color: #666;
-          font-weight: 300; }
-        .share-store .collection-step .section-content ol li .box {
-          display: table-cell;
-          vertical-align: middle;
-          width: 100%;
-          height: 200px;
-          text-align: center;
-          border: 1px solid #b3b3b3; }
-          .share-store .collection-step .section-content ol li .box .details {
-            margin-top: 15px; }
-            .share-store .collection-step .section-content ol li .box .details small {
-              font-size: 13px;
-              color: #333;
-              font-weight: 500;
-              font-family: 'Roboto', sans-serif; }
-            .share-store .collection-step .section-content ol li .box .details > p {
-              font-size: 15px;
-              color: #666;
-              line-height: 22px;
-              margin-top: 8px; }
     @media (min-width: 768px) {
       .share-store .collection-step {
         padding-top: 45px;
-        padding-bottom: 95px; }
+        padding-bottom: 70px; }
         .share-store .collection-step .section-header h4 {
           font-size: 30px; }
         .share-store .collection-step .section-header p {
@@ -610,55 +623,47 @@ a {
           line-height: 26px; }
         .share-store .collection-step .section-content {
           margin-top: 60px; }
-          .share-store .collection-step .section-content ol {
-            font-size: 0;
-            margin: 0 -10px; }
-            .share-store .collection-step .section-content ol li {
-              display: inline-block;
-              width: 25%;
-              padding: 0 10px;
-              padding-bottom: 0;
-              vertical-align: top; }
-              .share-store .collection-step .section-content ol li:after {
-                left: 100%;
-                bottom: 50%;
-                font-size: 18px;
-                margin-bottom: -14px;
-                margin-left: -4px;
-                content: "\F105"; }
-              .share-store .collection-step .section-content ol li .box {
-                display: block;
-                height: 195px;
-                padding: 0 10px; }
-                .share-store .collection-step .section-content ol li .box figure {
-                  height: 56px;
-                  margin-top: 40px; }
-                  .share-store .collection-step .section-content ol li .box figure img {
-                    display: block;
-                    margin: 0 auto; } }
+          .share-store .collection-step .section-content .method > li {
+            width: 25%; } }
     @media (min-width: 1200px) {
       .share-store .collection-step {
         padding-top: 60px;
-        padding-bottom: 140px; }
+        padding-bottom: 85px; }
         .share-store .collection-step .section-content {
           margin-top: 70px; }
-          .share-store .collection-step .section-content ol {
-            /*margin: 0 -60px;*/ }
-            .share-store .collection-step .section-content ol li {
-              /*padding: 0 60px;*/ }
-              .share-store .collection-step .section-content ol li:after {
-                font-size: 30px;
-                margin-left: -5px; }
-              .share-store .collection-step .section-content ol li .box {
-                height: 200px; } }
-    @media (min-width: 1400px) {
-      .share-store .collection-step .section-content ol {
-        margin: 0 -60px; }
-        .share-store .collection-step .section-content ol li {
-          padding: 0 60px; } }
+          .share-store .collection-step .section-content .method > li .box {
+            width: 200px;
+            margin: 0 auto; } }
+  .share-store .hope {
+    color: #fff;
+    padding: 125px 0;
+    text-align: center;
+    background-image: url(/assets/images/sponser/bg_hope_sm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%; }
+    .share-store .hope h4 {
+      font-size: 20px;
+      margin-bottom: 15px;
+      font-weight: 400; }
+    .share-store .hope p {
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 20px; }
+    @media (min-width: 768px) {
+      .share-store .hope {
+        padding: 160px 0; }
+        .share-store .hope h4 {
+          font-size: 28px;
+          margin-bottom: 25px; }
+        .share-store .hope p {
+          font-size: 16px; } }
+    @media (min-width: 992px) {
+      .share-store .hope {
+        background-image: url(/assets/images/sponser/bg_hope_lg.jpg); } }
   .share-store .information {
     text-align: center;
-    padding: 70px 0;
+    padding: 50px 0;
     background-color: #f7f7f7; }
     .share-store .information .section-header h4 {
       font-size: 28px;

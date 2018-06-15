@@ -23,7 +23,7 @@
             <nav class="lnb">
                 <ul class="tab-list">
                     <li class="active"><a href="/sponsor/share_partner.php">나눔파트너</a></li>
-                    <li><a href="#">나눔가게</a></li>
+                    <li><a href="/sponsor/share_store.php">나눔가게</a></li>
                 </ul>
             </nav>
         </div>
@@ -39,20 +39,92 @@
     	        </ul>
     	    </nav>
     		<div class="page-intro">
+    		    <h4>기업 나눔 프로세스</h4>
     			<p>
-    				기업의 나눔은 선택이 아닌 의무가 되었으며, 현대사회에서 기업의 사회공헌활동은 점차 사회적으로 중요해지고 있습니다. <br class="d-md-none"><br>
-    				기업은 나눔을 통해 기업의 긍정적인 이미지를 구축, 사회에 널리 알리고 더 나아가 임직원들의 참여를 통해 나눔 문화를 함께 만들어가며,<br class="d-md-none"><br>
-    				나눔을 통한 기쁨을 함께 느낄 수 있습니다. 하나된 마음으로 나누는 세상을 만드는 굿피플과 Partnership을 통해 아름다운 지구촌 건설에 함께 동참할 나눔 파트너를 기다립니다.
+    				기업의 나눔은 선택이 아닌 의무가 되었으며, 현대 사회에서  기업의  사회공헌활동은  점차 사회적으로 중요해지고 있습니다. 기업은 나눔을 통해 기업의 긍정적인 이미지를 구축, 사회에 널리 알리고 더 나아가 임직원들의 참여를 통해 나눔 문화를 함께 만들어가며, 나눔을 통한 기쁨을 함께 느낄 수 있습니다.  하나된 마음으로 나누는 세상을 만드는 굿피플과 <b>파트너쉽(Partnership)</b>을 통해 아름다운 지구촌 건설에 함께 동참할 나눔 파트너를 기다립니다.
     			</p>
-    			<figure>
-    				<img src="/assets/images/sponser/img_partner_intro_sm.png" class="img-fluid d-md-none" alt="">
-    				<img src="/assets/images/sponser/img_partner_intro_md.png" class="img-fluid d-none d-md-block d-xl-none" alt="">
-    				<img src="/assets/images/sponser/img_partner_intro_xl.png" class="img-fluid d-none d-xl-block" alt="">
-    				<figcaption class="sr-only">
-    					기업나눔 그래프
-    				</figcaption>
-    			</figure>
+    			<ol class="method">
+                    <li>
+                        <div class="box">
+                            <div class="item">
+                                <img src="/assets/images/sponsor/img_step_process01.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="details">
+                                <small>STEP 01</small>
+                                <p>
+                                    문의 및 상담<br>
+                                    (전화/이메일)
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <div class="item">
+                                <img src="/assets/images/sponsor/img_step_process02.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="details">
+                                <small>STEP 02</small>
+                                <p>
+                                    기업별 맞춤<br>
+                                    나눔사업 제안
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <div class="item">
+                                <img src="/assets/images/sponsor/img_step_process03.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="details">
+                                <small>STEP 03</small>
+                                <p>사업 진행</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <div class="item">
+                                <img src="/assets/images/sponsor/img_step_process04.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="details">
+                                <small>STEP 04</small>
+                                <p>나눔사업 제휴</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <div class="item">
+                                <img src="/assets/images/sponsor/img_step_process05.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="details">
+                                <small>STEP 05</small>
+                                <p>기부금 영수증 발급</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <div class="item">
+                                <img src="/assets/images/sponsor/img_step_process06.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="details">
+                                <small>STEP 06</small>
+                                <p>사업 보고</p>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
     		</div>
+        </div>
+        <article class="dream">
+            <div class="container">
+                <h4>굿피플은 나눔파트너와 함께<br> 모두가 행복한 세상을 꿈꿉니다.</h4>
+            </div>
+        </article>
+        <div class="container">
     		<ul class="notify">
     			<li>
     				<dl>
@@ -78,7 +150,6 @@
     					</dd>
     				</dl>
     			</li>
-
     		</ul>
     		<ul class="ask">
     			<li>
@@ -91,6 +162,29 @@
     				<a href="mailto:help@goodpeople.or.kr">help@goodpeople.or.kr</a>
     			</li> 
     		</ul>
+    		<article class="dot-board">
+            	<div class="article-header">
+            		<h3>최근 활동 소식</h3>
+            	</div>
+            	<div class="article-content">
+            		<ul>
+            			<li>
+            				<a href="#">
+            					&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서 
+								&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서
+								&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서
+								&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서
+								&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서
+            				</a>
+            			</li>
+            			<li>
+            				<a href="#">
+            					&lt;보고서&gt; 2016 상반기 해외지역개발사업 보고서
+            				</a>
+            			</li>
+            		</ul>
+            	</div>
+			</article>
     	</div>
     </main>
     
