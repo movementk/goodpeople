@@ -779,7 +779,7 @@
 			margin-top: 40px;
 		}
 		.dot-board {
-			margin-top: 80px;
+			margin-top: 50px;
 		}
 		.bg-children {
 			height: 327px;
@@ -788,7 +788,10 @@
 			background-position: 50% 50%;
 			background-repeat: no-repeat;
 			background-size: cover;
-			margin-top: 70px;
+			margin-top: 50px;
+			&.domestic {
+				background-image: url(/assets/images/business/bg_domestic_children_md.jpg);
+			}
 			.logo {
 				text-align: center;
 				padding-top: 100px;
@@ -805,7 +808,7 @@
 				color: #fff;
 				opacity: .5;
 				font-weight: 300;
-				margin-top: 5px;
+				margin-top: 5px; 
 			}
 		}
 	}
@@ -845,6 +848,9 @@
 				height: 500px;
 				background-image: url(/assets/images/business/bg_children_xl.jpg);
 				margin-top: 150px;
+				&.domestic {
+					background-image: url(/assets/images/business/bg_domestic_children.jpg);
+				}
 				.logo {
 					padding-top: 150px;
 				}
@@ -859,41 +865,114 @@
 //보건의료사업
 .medical {
 	padding-bottom: 0 !important;
-	.section-content {
-		.item {
-			.row {
-				.col-12 {
-					& ~ .col-12 {
-						figure {
-							margin-top: 10px;
+	.cloth {
+		.section-content {
+			.item {
+				.row {
+					.col-12 {
+						& ~ .col-12 {
+							figure {
+								margin-top: 10px;
+							}
 						}
-					}
-					figure {
-						img {
-							width: 100%;
+						figure {
+							img {
+								width: 100%;
+							}
 						}
 					}
 				}
 			}
+			.dot-list {
+				margin: 40px 0 60px;
+			}
 		}
-		.dot-list {
-			margin: 40px 0 60px;
+		@media (min-width: $md) {
+			.section-content {
+				.dot-list {
+					margin: 40px 0 100px;
+				}
+			}
 		}
-		.blind {
-			text-align: center;
-			padding: 50px 0px;
-			background-color: #f7f7f7;
+		@media (min-width: $xl) {
+			.section-content {
+				.item {
+					.row {
+						.col-12 {
+							& ~ .col-12 {
+								figure {
+									margin-top: 0; 
+								}
+							}
+						}
+					}
+				}
+				.dot-list {
+					margin: 30px 0 120px;
+				}
+			}
+		}
+	}
+	.blind {
+		text-align: center;
+		padding: 50px 0px;
+		background-color: #f7f7f7;
+		.section-header {
+			h3 {
+				font-size: 24px;
+				color: #333;
+				font-weight: 400;
+			}
+			p {
+				font-size: 13px;
+				color: #444;
+				line-height: 26px;
+				margin-top: 30px;
+			}
+		}
+		.section-content {
+			padding-top: 50px;
+			.row {
+				.col-12	{
+					& ~ .col-12 {
+						.figure {
+							margin-top: 60px;
+						}
+					}
+					.figcaption {
+						margin-top: 20px;
+						> h5 {
+							font-size: 18px;
+							color: #333;
+							font-weight: 400;
+						}
+						> p {
+							font-size: 15px;
+							color: #666;
+							line-height: 26px;
+							margin-top: 15px;
+						}
+					}
+				}
+			}
+			.dot-board {
+				text-align: left;
+				margin-top: 50px;
+				.article-header {
+					h3 {
+						margin-bottom: 15px;
+					}
+				}
+			}
+		}
+		@media (min-width: $md) {
+			padding: 110px 0 130px;
 			.section-header {
 				h3 {
-					font-size: 24px;
-					color: #333;
-					font-weight: 400;
+					font-size: 30px;
 				}
 				p {
-					font-size: 13px;
-					color: #444;
-					line-height: 26px;
-					margin-top: 30px;
+					font-size: 14px;
 				}
 			}
 			.section-content {
@@ -902,111 +981,40 @@
 					.col-12	{
 						& ~ .col-12 {
 							.figure {
-								margin-top: 60px;
+								margin-top: 0;
 							}
 						}
+						.figure {
+							height: 68px;
+						} 
 						.figcaption {
-							margin-top: 20px;
+							margin-top: 30px;
 							> h5 {
-								font-size: 18px;
-								color: #333;
-								font-weight: 400;
+								font-size: 20px;
 							}
 							> p {
-								font-size: 15px;
-								color: #666;
-								line-height: 26px;
-								margin-top: 15px;
+								margin-top: 20px;
 							}
 						}
 					}
 				}
 				.dot-board {
-					text-align: left;
-					margin-top: 50px;
-					.article-header {
-						h3 {
-							margin-bottom: 15px;
-						}
-					}
+					margin-top: 110px;
 				}
 			}
 		}
-	}
-	@media (min-width: $md) {
-		.section-content {
-			.dot-list {
-				margin: 40px 0 100px;
-			}
-			.blind {
-				padding: 110px 0 130px;
-				.section-header {
-					h3 {
-						font-size: 30px;
-					}
-					p {
-						font-size: 14px;
-					}
-				}
-				.section-content {
-					padding-top: 50px;
-					.row {
-						.col-12	{
-							& ~ .col-12 {
-								.figure {
-									margin-top: 0;
-								}
-							}
-							.figure {
-								height: 68px;
-							} 
-							.figcaption {
-								margin-top: 30px;
-								> h5 {
-									font-size: 20px;
-								}
-								> p {
-									margin-top: 20px;
-								}
-							}
-						}
-					}
-					.dot-board {
-						margin-top: 110px;
-					}
-				}
-			}
-		}
-	}
-	@media (min-width: $xl) {
-		.section-content {
-			.item {
+		@media (min-width: $xl) {
+			.section-content {
+				padding-top: 90px;
 				.row {
-					.col-12 {
-						& ~ .col-12 {
-							figure {
-								margin-top: 0; 
-							}
+					.col-12	{
+						.figcaption {
+							margin-top: 35px;
 						}
 					}
 				}
-			}
-			.dot-list {
-				margin: 30px 0 120px;
-			}
-			.blind {
-				.section-content {
-					padding-top: 90px;
-					.row {
-						.col-12	{
-							.figcaption {
-								margin-top: 35px;
-							}
-						}
-					}
-					.dot-board {
-						margin-top: 120px;
-					}
+				.dot-board {
+					margin-top: 120px;
 				}
 			}
 		}
@@ -1037,19 +1045,307 @@
 				}
 			}
 		}
+		.dot-list {
+			margin-top: 40px;
+		}
+		.dot-board {
+			margin-top: 50px;
+		}
+	}
+	@media(min-width: $md) {
+		.section-content {
+			.dot-board {
+				margin-top: 70px;
+			}
+		}
+	}
+	@media (min-width: $xl) { 
+		.section-content {
+			.item {
+				.row {
+					.col-12 {
+						& ~ .col-12 {
+							figure {
+								margin-top: 0; 
+							}
+						}
+					}
+				}
+			}
+			.dot-list {
+				margin-top: 30px;
+			}
+			.dot-board {
+				margin-top: 100px;
+			}
+		}
 	}
 }
 
+//지역개발사업
+.regional {
+	padding-bottom: 0 !important;
+	.water {
+		.section-content {
+			.item {
+				.row {
+					.col-12 {
+						& ~ .col-12 {
+							figure {
+								margin-top: 10px;
+							}
+						}
+						figure {
+							img {
+								width: 100%;
+							}
+						}
+					}
+				}
+			}
+			.dot-list {
+				margin: 40px 0 50px;
+			}
+		}
+		@media (min-width: $md) {
+			.section-content {
+				.dot-list {
+					margin: 40px 0 70px;
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			.section-content {
+				.item {
+					.row {
+						.col-12 {
+							& ~ .col-12 {
+								figure {
+									margin-top: 0; 
+								}
+							}
+						}
+					}
+				}
+				.dot-list {
+					margin: 30px 0 120px;
+				}
+			}
+		}
+	}
+	.local {
+		padding: 50px 0px;
+		background-color: #f7f7f7;
+		.section-header {
+			text-align: center;
+			h3 {
+				font-size: 24px;
+				color: #333;
+				font-weight: 400;
+			}
+			p {
+				font-size: 13px;
+				color: #444;
+				line-height: 26px;
+				margin-top: 30px;
+			}
+		}
+		.section-content {
+			padding-top: 50px;
+			.items {
+				.row {
+					.col-12	{
+						& ~ .col-12 {
+							figure {
+								margin-top: 10px;
+							}
+						}
+						figure {
+							img { 
+								width: 100%;
+							}
+						}
+					}
+				}
+			}
+			.dot-list {
+				margin-top: 30px;
+			}
+			.dot-board {
+				margin-top: 50px;
+				.article-header {
+					h3 {
+						margin-bottom: 15px;
+					}
+				}
+			}
+		}
+		@media (min-width: $md) {
+			padding: 70px 0;
+			.section-header {
+				h3 {
+					font-size: 30px;
+				}
+				p {
+					font-size: 14px;
+				}
+			}
+			.section-content {
+				padding-top: 50px;
+				.items {
+					.row {
+						.col-12	{
+							& ~ .col-12 {
+								figure {
+									margin-top: 0;
+								}
+							}
+						}
+					}
+				}
+				.dot-list {
+					margin-top: 40px;
+				}
+				.dot-board {
+					margin-top: 70px;
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			padding: 110px 0;
+			.section-content {
+				padding-top: 50px;
+				.dot-board {
+					margin-top: 140px;
+				}
+			}
+		}
+	}
+}
 
+//국내사업 공통
+.domestic-list {
+	padding-top: 50px;
+	li {
+		& ~ li {
+			figure {
+				margin-top: 45px;
+			}
+		}
+		figure {
+			img {
+				width: 100%;
+			}
+		}
+		h4 {
+			font-size: 16px;
+			color: #eb6100;
+			font-weight: 400;
+			padding: 30px 0 10px;
+		}
+		p {
+			font-size: 13px;
+			color: #666;
+			line-height: 24px;
+		}
+	}
+	@media (min-width: $md) {
+		padding-top: 70px;
+		li {
+			& ~ li {
+				figure {
+					margin-top: 70px;
+				}
+			}
+			h4 {
+				font-size: 24px;
+				padding: 20px 0 10px;
+			}
+			p {
+				font-size: 14px;
+				line-height: 26px;
+			}
+		}
+	}
+	@media (min-width: $xl) {
+		padding-top: 75px;
+		li {
+			& ~ li {
+				figure {
+					margin-top: 85px;
+				}
+			}
+			h4 {
+				padding: 45px 0 10px;
+			}
+		}
+	}
+}
 
+// 국내사업 아동지원사업
+.children-support {
+	.dot-board {
+		margin-top: 50px;
+		@media (min-width: $md) {
+			margin-top: 70px;
+		}
+		@media (min-width: $xl) {
+			margin-top: 120px;
+		}
+	}
+}
 
+// 국내사업 위기가정지원사업
+.family-crisis {
+	.dot-board {
+		margin-top: 50px;
+		@media (min-width: $md) {
+			margin-top: 70px;
+		}
+		@media (min-width: $xl) {
+			margin-top: 120px;
+		}
+	}
+}
 
-
-
-
-
-
-
+// 국내사업 통합지원사업 문화
+.support {
+	.domestic-list {
+		li {
+			.row {
+				.col-12 {
+					& ~ .col-12 {
+						figure {
+							margin-top: 10px;
+						}
+					}
+				}
+			}
+		}
+		@media (min-width: $md) {
+			li {
+				.row {
+					.col-12 {
+						& ~ .col-12 {
+							figure {
+								margin-top: 0;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.dot-board {
+		margin-top: 50px;
+		@media (min-width: $md) {
+			margin-top: 70px;
+		}
+		@media (min-width: $xl) {
+			margin-top: 120px;
+		}
+	}
+}
 
 
 

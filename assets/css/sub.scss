@@ -2471,6 +2471,17 @@ input, textarea {
 
 //사업소개 공통3 abc리스트
 .abc-list {
+	&.bl {
+		li {
+			dl {
+				dt {
+					i {
+						background-color: #144199;
+					}
+				}
+			}
+		}
+	}
 	li {
 		& ~ li {
 			margin-top: 30px;

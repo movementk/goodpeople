@@ -18,14 +18,14 @@
     <div class="page-intro">
         <div class="container">
             <div class="page-title">
-                <h3>해외사업</h3>
+                <h3>국내사업</h3>
             </div>
             <nav class="lnb tab-business">
                 <ul class="tab-list">
-                    <li class="active"><a href="/business/overseas/children.php">아동후원사업</a></li>
-                    <li><a href="/business/overseas/medical.php">보건의료사업</a></li>
-                    <li><a href="/business/overseas/education.php">교육지원사업</a></li>
-                    <li><a href="/business/overseas/regional.php">지역개발사업</a></li>
+                    <li class="active"><a href="/business/domestic/children.php">국내아동후원</a></li>
+                    <li><a href="/business/domestic/children_support.php">아동지원사업 교육/자립 프로젝트</a></li>
+                    <li><a href="/business/domestic/family_crisis.php">위기가정지원사업</a></li>
+                    <li><a href="/business/domestic/support.php">통합지원사업 문화</a></li>
                 </ul>
             </nav>
         </div>
@@ -38,7 +38,7 @@
 				<div class="container">
 					<h3>아이들이 꿈꿀 수 있도록 해주세요.</h3>
 					<p>
-						아이들이 아이들답게 자랄 수 있는 환경은 아이들의 미래를 만드는 중요한 기반입니다.<br class="d-xl-block">  매월 정기적인 후원은 아이들의 직접적인 생활환경 개선 뿐만 아니라 지역사회개발을 통해 온전한 성장 기반을 마련할 수 있도록 기여합니다
+						아이들이 아이들답게 자랄 수 있는 환경은 아이들의 미래를 만드는 중요한 기반입니다.<br class="d-none d-xl-block">  매월 정기적인 후원은 아이들의 직접적인 생활환경 개선 뿐만 아니라 지역사회개발을 통해 온전한 성장 기반을 마련할 수 있도록 기여합니다
 					</p>
 				</div>
 			</div>
@@ -48,7 +48,7 @@
 						<li>
 							<div class="box">
 								<div class="item">
-									<img src="/assets/images/business/img_method_list01.png" class="img-fluid" alt="">
+									<img src="/assets/images/business/img_bl_method_list01.png" class="img-fluid" alt="">
 								</div>
 								<div class="details">
 									<small>STEP 01</small>
@@ -59,7 +59,7 @@
 						<li>
 							<div class="box">
 								<div class="item">
-									<img src="/assets/images/business/img_method_list02.png" class="img-fluid" alt="">
+									<img src="/assets/images/business/img_bl_method_list02.png" class="img-fluid" alt="">
 								</div>
 								<div class="details">
 									<small>STEP 02</small>
@@ -73,7 +73,7 @@
 						<li>
 							<div class="box">
 								<div class="item">
-									<img src="/assets/images/business/img_method_list03.png" class="img-fluid" alt="">
+									<img src="/assets/images/business/img_bl_method_list03.png" class="img-fluid" alt="">
 								</div>
 								<div class="details">
 									<small>STEP 03</small>
@@ -84,7 +84,7 @@
 						<li>
 							<div class="box">
 								<div class="item">
-									<img src="/assets/images/business/img_method_list04.png" class="img-fluid" alt="">
+									<img src="/assets/images/business/img_bl_method_list04.png" class="img-fluid" alt="">
 								</div>
 								<div class="details">
 									<small>STEP 04</small>
@@ -97,7 +97,7 @@
 						<li>
 							<div class="box">
 								<div class="item">
-									<img src="/assets/images/business/img_method_list05.png" class="img-fluid" alt="">
+									<img src="/assets/images/business/img_bl_method_list05.png" class="img-fluid" alt="">
 								</div>
 								<div class="details">
 									<small>STEP 05</small>
@@ -108,7 +108,7 @@
 							</div>
 						</li>
 					</ol>
-					<ul class="abc-list">
+					<ul class="abc-list bl">
 						<li>
 							<dl>
 								<dt><i>A</i>아동선별</dt>
@@ -174,12 +174,15 @@
 						</div>
 					</article>
 				</div>
-				<div class="bg-children">
+				<div class="bg-children domestic">
 					<div class="container">
 						<div class="logo">
 							<img src="/assets/images/business/img_children_logo.png" alt="">
 						</div>
-						<p>아동은 지역과 국가의 미래입니다.</p>
+						<p>
+							우리의 작은 위로가 이들에게는 오늘을 이겨내는 <br>
+							힘이 되고 내일을 살아가는 희망이 될 것입니다.
+						</p>
 						<small>굿피플 아동후원사업</small>
 					</div>
 				</div>
