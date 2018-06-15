@@ -12,7 +12,7 @@
                     굿피플
                 </button>
                 <div class="dropdown-menu" aria-labelledby="depth-list-1">
-                    <a class="dropdown-item" href="#">사업소개</a>
+                    <a class="dropdown-item" href="/business/overseas/children.php">사업소개</a>
                     <a class="dropdown-item" href="#">캠페인</a>
                     <a class="dropdown-item" href="#">소식</a>
                     <a class="dropdown-item" href="#">후원</a>

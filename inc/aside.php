@@ -66,21 +66,21 @@
                         <a href="#">사업소개</a>
                         <ul class="depth-2">
                             <li>
-                                <a href="#">해외사업</a>
+                                <a href="/business/overseas/children.php">해외사업</a>
                                 <ul class="depth-3">
-                                    <li><a href="#">아동후원사업<span></span></a></li>
-                                    <li><a href="#">보건의료사업<span></span></a></li>
-                                    <li><a href="#">교육지원사업<span></span></a></li>
-                                    <li><a href="#">지역개발사업<span></span></a></li>
+                                    <li><a href="/business/overseas/children.php">아동후원사업<span></span></a></li>
+                                    <li><a href="/business/overseas/medical.php">보건의료사업<span></span></a></li>
+                                    <li><a href="/business/overseas/education.php">교육지원사업<span></span></a></li>
+                                    <li><a href="/business/overseas/regional.php">지역개발사업<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">국내사업</a>
+                                <a href="/business/domestic/children.php">국내사업</a>
                                 <ul class="depth-3">
-                                    <li><a href="#">국내아동후원<span></span></a></li>
-                                    <li><a href="#">아동지원사업<span></span></a></li>
-                                    <li><a href="#">위기가정지원사업<span></span></a></li>
-                                    <li><a href="#">통합지원사업 문화<span></span></a></li>
+                                    <li><a href="/business/domestic/children.php">국내아동후원<span></span></a></li>
+                                    <li><a href="/business/domestic/children_support.php">아동지원사업<span></span></a></li>
+                                    <li><a href="/business/domestic/family_crisis.php">위기가정지원사업<span></span></a></li>
+                                    <li><a href="/business/domestic/support.php">통합지원사업 문화<span></span></a></li>
                                 </ul>
                             </li>
                             <li>

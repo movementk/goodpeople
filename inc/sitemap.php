@@ -22,8 +22,8 @@
                 <li class="col-2">
                     <h4>사업소개</h4>
                     <ul>
-                        <li><a href="#">해외사업</a></li>
-                        <li><a href="#">국내사업</a></li>
+                        <li><a href="/business/overseas/children.php">해외사업</a></li>
+                        <li><a href="/business/domestic/children.php">국내사업</a></li>
                         <li><a href="/business/volunteer_introduce.php">사랑의 의료봉사</a></li>
                         <li><a href="/business/emergency_relief.php">긴급구호</a></li>
                         <li><a href="/business/welfare_work.php">사회복지사업</a></li>
