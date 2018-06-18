@@ -895,8 +895,9 @@
                         font-size: 15px;
                         color: #111;
                         line-height: 22px;
+                        font-weight: 400;
                         word-break: keep-all;
-                        @include iropke();
+                        @include nns();
                     }
                     .more-btn {
                         margin-top: 20px;
@@ -1180,7 +1181,7 @@
 }
 
 .sponsorship-info {
-    padding: 50px 0;
+    padding: 50px 0 30px;
     background-color: #fff;
     .info-list {
         > ul {
@@ -1464,13 +1465,15 @@
 
 //sns-issue
 .sns-issue {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     ul {
         li {
             .mobile-link {
                 text-align: center;
                 .icon-btn {
                     display: inline-block;
+                    overflow: hidden;
+                    border-radius: 50%;
                 }
             }
         }

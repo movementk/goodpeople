@@ -99,7 +99,7 @@
                 <h3>굿피플의 미션</h3>
                 <small>Good people Mission</small>
                 <hr>
-                <p>고통 받는 사람들을 지원하며 행복한 세상을 목표 한다.</p>
+                <p>굿피플은 가난, 재난, 질병으로부터 구제하고 자립할 수<br class="d-sm-block d-md-none"> 있도록 지원하여 모두가<br class="d-none d-md-block"> 고통받지 않는 행복한 세상을 만들기 위해 존재한다.</p>
         	</div>
         </article>
         

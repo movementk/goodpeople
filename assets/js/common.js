@@ -4,9 +4,9 @@
         $('body').addClass('opened');
         $(this).addClass('btn-close');
     });
-    $(document).on('click','.btn-close', function() {
-        $('body').removeClass('opened'); 
-        $(this).removeClass('btn-close');
+    $(document).on('click','.btn-close, #nav .backdrop', function() {
+        $('body').removeClass('opened');
+        $('.btn-close').removeClass('btn-close');
     });
 
     // 모바일 gnb 메뉴 관련

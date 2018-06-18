@@ -18,7 +18,7 @@
     <div class="page-intro">
         <div class="container">
             <div class="page-title">
-                <h3>캠페인 후기</h3>
+                <h3>나눔스퀘어</h3>
             </div>
         </div>
     </div>

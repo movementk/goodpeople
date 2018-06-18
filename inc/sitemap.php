@@ -32,8 +32,8 @@
                 <li class="col-2">
                     <h4>캠페인</h4>
                     <ul>
-                        <li><a href="#">캠페인</a></li>
-                        <li><a href="/campaign/campaign_review.php">캠페인 후기</a></li>
+                        <li><a href="/campaign/campaign_list.php">캠페인</a></li>
+                        <li><a href="/campaign/campaign_review.php">켐페인 후기</a></li>
                     </ul>
                 </li>
                 <li class="col-2">

@@ -138,9 +138,9 @@
                                 </ul>
                             </li>
                             <li>
-                                <h3>캠페인 후기</h3>
+                                <h3>켐페인 후기</h3>
                                 <ul>
-                                    <li><a href="/campaign/campaign_review.php">캠페인 후기<span></span></a></li>
+                                    <li><a href="/campaign/campaign_review.php">켐페인 후기<span></span></a></li>
                                 </ul>
                             </li>
                         </ul>
