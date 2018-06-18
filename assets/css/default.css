@@ -1478,12 +1478,17 @@ body {
       left: 0;
       width: 200px;
       height: 100%;
+      font-family: 'Noto Sans KR', sans-serif;
       display: block; }
       #footer .news-letter h3 {
         font-size: 15px;
         color: #555;
-        font-weight: 500;
-        font-family: 'Noto Sans KR', sans-serif; }
+        font-weight: 500; }
+      #footer .news-letter p {
+        font-size: 14px;
+        color: #999;
+        line-height: 26px;
+        margin-top: 20px; }
       #footer .news-letter .mail-form {
         position: absolute;
         bottom: 0;
@@ -1531,7 +1536,7 @@ body {
             color: rgba(0, 0, 0, 0.6); } }
   @media (min-width: 1400px) {
     #footer .news-letter {
-      left: 30px;
+      left: 20px;
       width: 230px; } }
   @media (min-width: 1600px) {
     #footer .news-letter {

@@ -73,6 +73,9 @@
             <div class="d-none d-xl-block col-xl-5">
                 <div class="news-letter">
                     <h3>소식지</h3>
+                    <p>
+                        콩닥 콩닥 가슴 뛰는 굿피플의 지구촌 감동 스토리와 함께하세요.
+                    </p>
                     <div class="mail-form">
                         <form action="#">
                             <div class="form-group">
