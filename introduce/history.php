@@ -36,9 +36,10 @@
 			<article>
 				<div class="article-header">
 					<p>
-						1999년부터 쉼 없이 걸어온 굿피플의 역사를 소개합니다.
+						굿피플이 설립된 1999년은 우리나라 구호개발 역사의 중대한 출발점입니다.<br class="d-none d-md-block">
+						지구촌 희망건설에 앞장서는 국제구호개발 NGO 역사의 태동이 시작된 순간입니다.
 					</p>
-					<ol>
+					<!--ol>
 						<li >
 							<a href="#">~ 2005</a>
 						</li>
@@ -51,7 +52,7 @@
 						<li>
 							<a href="#">2016 ~ 2018</a>
 						</li>
-					</ol>
+					</ol-->
 				</div>
 				<div class="article-content">
 					<div class="content-header">
@@ -78,7 +79,35 @@
 									</div>
 									<div class="col-12 col-md-6 order-last">
 										<div class="details">
-											<h3>2005</h3>
+											<div class="dropdown">
+												<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												2001
+												</a>
+
+												<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+													<a class="dropdown-item" href="#">1999</a>
+													<a class="dropdown-item" href="#">2000</a>
+													<a class="dropdown-item" href="#">2001</a>
+													<a class="dropdown-item" href="#">2002</a>
+													<a class="dropdown-item" href="#">2003</a>
+													<a class="dropdown-item" href="#">2004</a>
+													<a class="dropdown-item" href="#">2005</a>
+													<a class="dropdown-item" href="#">2006</a>
+													<a class="dropdown-item" href="#">2007</a>
+													<a class="dropdown-item" href="#">2007</a>
+													<a class="dropdown-item" href="#">2008</a>
+													<a class="dropdown-item" href="#">2009</a>
+													<a class="dropdown-item" href="#">2010</a>
+													<a class="dropdown-item" href="#">2011</a>
+													<a class="dropdown-item" href="#">2012</a>
+													<a class="dropdown-item" href="#">2013</a>
+													<a class="dropdown-item" href="#">2014</a>
+													<a class="dropdown-item" href="#">2015</a>
+													<a class="dropdown-item" href="#">2016</a>
+													<a class="dropdown-item" href="#">2017</a>
+													<a class="dropdown-item" href="#">2018</a>
+												</div>
+											</div>
 											<ol>
 												<li>
 													<dl>
@@ -172,7 +201,8 @@
 									</div>
 								</div>
 							</li>
-							<li>
+
+							<!--li>
 								<div class="row">
 									<div class="col-12 col-md-6 order-last d-none d-md-block">
 										<div class="item-images">
@@ -286,7 +316,8 @@
 										</div>
 									</div>
 								</div>
-							</li>
+							</li-->
+
 						</ol>
 					</div>
 				</div>
