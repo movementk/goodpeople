@@ -576,15 +576,16 @@
 
 // 소개페이지
 .history {
+	padding-bottom: 100px !important;
 	article {
 		.article-header {
 			margin-top: 50px;
 			p {
                 text-align: center;
-                font-size: 16px;
+                font-size: 14px;
                 color: #222;
                 font-weight: 400;
-                line-height: 26px;
+                line-height: 24px;
 			}
 			ol {
 				font-size: 0;
@@ -625,7 +626,8 @@
 			@media(min-width:  $md) {
                 margin-top: 65px;
 				p {
-					font-size: 28px;
+					font-size: 15px;
+					line-height: 26px;
 				}
 				ol {
 					display: table;
@@ -671,9 +673,6 @@
 			}
 			@media (min-width: $xl) {
                 margin-top: 70px;
-                p {
-                    font-size: 28px;
-                }
 				ol {
 					width: 735px;
 					margin: 60px auto 0;
@@ -681,10 +680,10 @@
 			}
 		}
 		.article-content {
-			margin-top: 80px;
+			margin-top: 60px;
 			.content-header {
 				text-align: left;
-				margin-bottom: 45px;
+				margin-bottom: 35px;
 			}
 			.history-list {
 				position: relative;
@@ -701,19 +700,12 @@
 				}
 				> ol {
 					li {
-                        .row {
-                            .col-12 {
-                                .details {
-                                    padding-bottom: 70px;
-                                }
-                            }
-                        }
 						.col-12 {
 							> .details {
 								padding-left: 40px; 
 								&:before { 
 									position: absolute;
-									top: 5px;
+									top: 10px;
 									left: 10px;
 									display: block; 
 									content: " ";
@@ -722,18 +714,65 @@
 									border-radius: 50%;
 									background-color: #eb6100;
 								}
-								> h3 {
-									position: relative;
-									top: -8px;
-									left: -5px;
-									font-size: 30px;
-									color: #000;
-									font-weight: 600;
-									@include roboto();
-									
+								> .dropdown {
+									a {
+										&.dropdown-toggle {
+											position: relative;
+											display: block;
+											width: 100%;
+											font-size: 32px;
+											color: #144199;
+											line-height: 32px;
+											font-weight: 500;
+											text-align: left;
+											border-bottom: 2px solid #144199;
+											padding-bottom: 10px;
+											@include roboto();
+											&:after {
+												position: absolute;
+												top: 0;
+												right: 0;
+												width: auto;
+												height: auto;
+												content: "\F107";
+												font-family: "fontello";
+												font-size: 22px;
+												color: #144199;
+												border: 0;
+												margin-top: 2px;
+												margin-left: 0;
+												
+											}
+										}
+									}
+									.dropdown-menu {
+										width: 100%;
+										height: 160px;
+										overflow-y: scroll;
+										padding: 0;
+										margin: 0;
+										z-index: 1;
+										border-radius: 0;
+										border: 1px solid #144199;
+										border-top: 0;
+										transform: translate3d(0px, 44px, 0px) !important;
+										.dropdown-item {
+											font-size: 16px;
+											color: #333;
+											font-weight: 500;
+											line-height: 40px;
+											padding: 0;
+											padding-left: 20px;
+											@include roboto();
+											&:hover, &:focus {
+												color: #144199;
+												background: none;
+											}
+										}
+									}
 								}
 								> ol {
-									margin-top: 30px;
+									margin-top: 40px;
 									> li {
 										line-height: 22px;
 										margin-top: 30px;
@@ -746,17 +785,16 @@
 												 float: left;
 												 font-size: 14px;
 												 color: #000;
-												 font-weight: 400;
-												 line-height: 22px;
+												 font-weight: 500;
+												 line-height: 28px;
 											 }
 											 dd {
 												 font-size: 13px;
 												 color: #777;
-												 line-height: 22px;
 												 margin-left: 40px;
 												 ul {
 													 li {
-														 line-height: 22px;
+														 line-height: 28px;
 													 }
 												 }
 											}
@@ -771,6 +809,7 @@
 			@media (min-width: $md) {
 				.content-header {
 					text-align: center;
+					margin-bottom: 55px;
 				}
 				.history-list {
 					&:before {
@@ -782,6 +821,7 @@
 								&.col-12 {
 									> .item-images {
 										text-align: right;
+										padding-top: 10px;
 										padding-bottom: 70px;
 										padding-right: 50px; 
 										ul {
@@ -791,11 +831,28 @@
 										}
 									}
 									> .details {
-										padding-left: 30px;
+										padding-left: 45px;
 										&:before { 
 											position: absolute;
 											top: 5px;
 								            left: -5px;
+										}
+										> .dropdown {
+											a {
+												&.dropdown-toggle {
+													width: 235px;
+													font-size: 34px;
+													line-height: 34px;
+													&:after {
+														font-size: 26px;
+														margin-top: 4px;
+													}
+												}
+											}
+											.dropdown-menu {
+												width: 235px;
+												top: 2px !important;
+											}
 										}
 										> ol {
 											margin-top: 40px;
@@ -809,6 +866,7 @@
 													 dd {
 														 font-size: 15px;
 														 line-height: 25px;
+														 margin-left: 60px;
 														 ul {
 															 li {
 																 line-height: 25px;
@@ -856,31 +914,47 @@
 										}
 									}
 								}
-								&.order-first {
-									> .item-images {
-										margin-top: 75px;
-									}
-								}
-								&.order-last {
+								/*&.order-last {
 									> .item-images {
 										text-align: left;
 										margin-top: 75px;
 										padding-left: 50px;
 									}
-								}
+								}*/
 							}
 						}
 					}
 				}
 			}
 			@media (min-width: $xl) {
+				.content-header {
+					margin-bottom: 60px;
+				}
 				.history-list {
 					> ol {
 						li {
 							.row {
 								.col-12 {
 									.details {
+										padding-left: 70px;
 										padding-bottom: 95px;
+										> .dropdown {
+											a {
+												&.dropdown-toggle {
+													width: 235px;
+													font-size: 34px;
+													line-height: 34px;
+													&:after {
+														font-size: 26px;
+														margin-top: 4px;
+													}
+												}
+											}
+											.dropdown-menu {
+												width: 235px;
+												top: 2px !important;
+											}
+										}
 									}
 								}
 							}
