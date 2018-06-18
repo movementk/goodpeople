@@ -301,7 +301,7 @@
                             </article>
                             <article class="inquiry">
                                 <h3>후원문의</h3>
-                                <strong class="bl"><a href="tel:15773034">1577-3034</a></strong>
+                                <strong class="bl"><a href="tel:027832291">02-783-2291</a></strong>
                                 <p class="d-none d-xl-block title-txt">후원계좌</p>
                                 <dl>
                                     <dt>

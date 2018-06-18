@@ -1117,6 +1117,9 @@ body {
             }
         }
     }
+    .news-letter {
+        display: none;
+    }
     hr {
         display: block;
         margin: 20px 0;
@@ -1226,10 +1229,10 @@ body {
         }
         .social {
             position: absolute;
-            right: 0;
+            right: 15px;
             bottom: 0;
             .information {
-                width: 300px;
+                width: 250px;
                 float: right;
                 text-align: right;
                 .sns-list {
@@ -1330,13 +1333,13 @@ body {
                 }
                 .family-site {
                     display: inline-block;
-                    width: 300px;
+                    width: 250px;
                     margin-top: 20px;
                     .btn {
                         text-align: left;
                         font-size: 15px;
                         color: #666;
-                        width: 300px;
+                        width: 250px;
                         line-height: 50px;
                         padding: 0 20px;
                         border: 0;
@@ -1358,7 +1361,7 @@ body {
                             text-align: center;
                             font-size: 15px;
                             color: #666;
-                            width: 300px;
+                            width: 250px;
                         }
                     }
                     &.show {
@@ -1391,6 +1394,104 @@ body {
             .copyright {
                 font-size: 14px;
                 margin-top: 10px;
+            }
+        }
+    }
+    @media(min-width: 1280px) {
+        .container-fluid {
+            .row {
+                .col-xl-5 {
+                    position: relative;
+                }
+            }
+        }
+        .news-letter {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            display: block;
+            h3 {
+                font-size: 15px;
+                color: #555;
+                font-weight: 500;
+                @include noto();
+            }
+            .mail-form {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                .form-group {
+                    margin-bottom: 0;
+                    .form-control {
+                        border-radius: 0;
+                        height: 50px;
+                        padding-left: 0;
+                        padding-right: 35px;
+                        border: 1px solid #f3f5fa;
+                        border-bottom: 1px solid #000;
+                        background-color: #f3f5fa;
+                        &:hover, &:focus {
+                            box-shadow: none;
+                        }
+                    }
+                    
+                }
+                .btn-mail {
+                    position: absolute;
+                    bottom: 1px;
+                    right: 0;
+                    width: 22px;
+                    text-align: center;
+                    height: 49px;
+                    font-size: 22px;
+                    color: #111;
+                    padding: 0;
+                    border: 0;
+                    border-radius: 0;
+                    box-shadow: none !important;
+                    background-color: #f3f5fa;
+                    @include transition();
+                    i {
+                        margin: 0;
+                        &:before {
+                            margin: 0;
+                        }
+                    }
+                    &:hover {
+                        color: rgba(#000, .6);
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: 1400px) {
+        .news-letter {
+            left: 30px;
+            width: 230px;
+        }
+    }
+    @media(min-width: 1600px) {
+        .news-letter {
+            left: 0;
+            width: 270px;
+        }
+        .social {
+            .information {
+                width: 300px;
+                .family-site {
+                    width: 300px;
+                    .btn {
+                        width: 300px;
+                    }
+                    .dropdown-menu {
+                        a {
+                            width: 300px;
+                        }
+                    }
+                }
             }
         }
     }

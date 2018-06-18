@@ -2,7 +2,7 @@
 <footer id="footer">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-xl-9">
+            <div class="col-12 col-xl-7">
                 <div class="company">
                     <h2 class="d-none d-md-block">사단법인 굿피플 인터내셔널</h2>
                     <ul>
@@ -70,7 +70,23 @@
                     </ul>
                 </div>
             </div>
-            <div class="d-none d-xl-block col-xl-3">
+            <div class="d-none d-xl-block col-xl-5">
+                <div class="news-letter">
+                    <h3>소식지</h3>
+                    <div class="mail-form">
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="user-email" class="sr-only"></label>
+                                <input type="text" id="user-email" class="form-control" placeholder="이메일 주소">
+                            </div>
+                            <button type="submit" class="btn btn-mail">
+                                <i class="icon-mail">
+                                    <span class="sr-only">메일 주소 보내기</span>
+                                </i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
                 <div class="social">
                     <div class="information">
                         <ul class="sns-list">
@@ -108,7 +124,6 @@
             <div class="col-12 col-xl-7">
                 <div class="policy">
                     <ul>
-                        <!--<li class="d-none d-md-block"><a href="/introduce/vision.php">기관소개</a></li>-->
                         <li class="d-none d-md-block"><a href="/introduce/directions.php">위치 및 연락처</a></li>
                         <li><a href="/policy/terms.php">이용약관</a></li>
                         <li><a href="/policy/privacy.php">개인정보취급방침</a></li>

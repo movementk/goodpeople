@@ -737,9 +737,28 @@
 
 //goodpeople-news 
 .goodpeople-news {
+    position: relative;
     @include nns();
     .slick-arrow {
-        display: none !important;
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        border: 0;
+        background: none;
+        color: #fff;
+        padding: 0;
+        font-size: 32px;
+        margin-top: -25px;
+        cursor: pointer;
+        &.slick-prev {
+            left: 0;
+        }
+        &.slick-next {
+            right: 0;
+        }
+        @media(min-width: $lg) {
+            display: none !important;
+        }
     }
     .news {
         a {

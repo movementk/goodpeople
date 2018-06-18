@@ -68,7 +68,7 @@
             ]
         });
     });*/
-
+    
     // support-business
     $(window).ready(function(){
         $('.goodpeople-news').slick({
@@ -78,6 +78,8 @@
             speed: 300,
             slidesToShow: 3,
             slidesToScroll: 3,
+            prevArrow: '<button class="slick-prev"><i class="icon-left-open-big"></i></button>',
+            nextArrow: '<button class="slick-next"><i class="icon-right-open-big"></i></button>',
             responsive: [
             {
                 breakpoint: 1200,
@@ -97,6 +99,8 @@
                     autoplay: false,
                     dots: false,
                     infinite: false,
+                    prevArrow: '<button class="slick-prev"><i class="icon-left-open-big"></i></button>',
+                    nextArrow: '<button class="slick-next"><i class="icon-right-open-big"></i></button>',
                 }
             },
             {
@@ -107,6 +111,8 @@
                     autoplay: false,
                     dots: false,
                     infinite: false,
+                    prevArrow: '<button class="slick-prev"><i class="icon-left-open-big"></i></button>',
+                    nextArrow: '<button class="slick-next"><i class="icon-right-open-big"></i></button>',
                 }
             }
             ]
