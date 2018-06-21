@@ -65,12 +65,6 @@
 											<div class="col-12 col-xl-6">
 												<img src="/assets/images/sub/img_chart02.png" class="img-fluid" alt="">
 											</div>
-											<div class="col-12 col-xl-6">
-												<img src="/assets/images/sub/img_chart01.png" class="img-fluid" alt="">
-											</div>
-											<div class="col-12 col-xl-6">
-												<img src="/assets/images/sub/img_chart02.png" class="img-fluid" alt="">
-											</div>
 										</div>
 									</div>
 								</div>
