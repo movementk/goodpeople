@@ -769,77 +769,72 @@ a {
             margin-top: 30px; } }
 
 .honors-member .members {
-  margin-top: 50px; }
-  .honors-member .members > ul > li ~ li a {
-    margin-top: 60px; }
-  .honors-member .members > ul > li a {
-    display: block; }
-    .honors-member .members > ul > li a figure img {
+  margin-top: 40px; }
+  .honors-member .members > ul li {
+    width: 100%; }
+    .honors-member .members > ul li figure {
+      position: relative;
+      padding-bottom: 40px; }
+      .honors-member .members > ul li figure .img-fluid {
+        width: 100%;
+        min-height: 150px; }
+      .honors-member .members > ul li figure figcaption {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        padding-left: 15px;
+        background-color: #144199; }
+        .honors-member .members > ul li figure figcaption h5 {
+          font-size: 13px;
+          color: #fff;
+          line-height: 40px; }
+        .honors-member .members > ul li figure figcaption small {
+          display: none; }
+        .honors-member .members > ul li figure figcaption p {
+          display: none; }
+    .honors-member .members > ul li:hover figure, .honors-member .members > ul li:focus figure {
       width: 100%; }
-    .honors-member .members > ul > li a figure figcaption {
-      font-size: 13px;
-      color: #666;
-      line-height: 24px;
-      text-align: center;
-      padding: 20px 0; }
-      .honors-member .members > ul > li a figure figcaption > p {
-        font-size: 14px;
-        color: #333;
-        font-weight: 400; }
-        .honors-member .members > ul > li a figure figcaption > p i {
-          margin-right: 5px; }
-    .honors-member .members > ul > li a:focus figure figcaption {
-      color: #fff;
-      background-color: #eb6100;
-      -webkit-transition-property: all;
-      transition-property: all;
-      -webkit-transition-duration: 0.15s;
-      transition-duration: 0.15s;
-      -webkit-transition-timing-function: linear;
-      transition-timing-function: linear;
-      -webkit-transition-delay: 0s;
-      transition-delay: 0s; }
-      .honors-member .members > ul > li a:focus figure figcaption p {
-        color: #fff; }
+      .honors-member .members > ul li:hover figure figcaption, .honors-member .members > ul li:focus figure figcaption {
+        display: table;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-color: #eb6100; }
+        .honors-member .members > ul li:hover figure figcaption .details, .honors-member .members > ul li:focus figure figcaption .details {
+          display: table-cell;
+          height: 100%;
+          vertical-align: middle; }
+          .honors-member .members > ul li:hover figure figcaption .details h5, .honors-member .members > ul li:focus figure figcaption .details h5 {
+            line-height: 24px; }
+          .honors-member .members > ul li:hover figure figcaption .details small, .honors-member .members > ul li:focus figure figcaption .details small {
+            display: block; }
+          .honors-member .members > ul li:hover figure figcaption .details p, .honors-member .members > ul li:focus figure figcaption .details p {
+            display: block; }
   .honors-member .members .paging {
     margin-top: 50px; }
 @media (min-width: 768px) {
-  .honors-member .members {
-    margin-top: 80px; }
-    .honors-member .members > ul > li ~ li a {
-      margin-top: 0; }
-    .honors-member .members > ul > li:nth-of-type(3) ~ li a {
-      margin-top: 80px; }
-    .honors-member .members > ul > li a:hover figure figcaption {
-      color: #fff;
-      background-color: #eb6100;
-      -webkit-transition-property: all;
-      transition-property: all;
-      -webkit-transition-duration: 0.15s;
-      transition-duration: 0.15s;
-      -webkit-transition-timing-function: linear;
-      transition-timing-function: linear;
-      -webkit-transition-delay: 0s;
-      transition-delay: 0s; }
-      .honors-member .members > ul > li a:hover figure figcaption p {
-        color: #fff; }
-    .honors-member .members > ul > li a figure figcaption {
-      font-size: 14px;
-      line-height: 30px;
-      padding: 15px 0; }
-      .honors-member .members > ul > li a figure figcaption > p {
-        font-size: 16px; }
-    .honors-member .members .paging {
-      margin-top: 60px; } }
+  .honors-member {
+    /*.members {
+    	margin-top: 80px;
+    	> ul {
+    			
+    	}
+    	.paging {
+    		margin-top: 60px;	
+    	}
+    }*/ } }
 @media (min-width: 1200px) {
-  .honors-member .members > ul > li:nth-of-type(3) ~ li a {
-    margin-top: 0; }
-  .honors-member .members > ul > li:nth-of-type(4) ~ li a {
-    margin-top: 70px; }
-  .honors-member .members > ul > li a figure figcaption {
-    padding: 20px 0; }
-  .honors-member .members .paging {
-    margin-top: 80px; } }
+  .honors-member {
+    /*.members {
+    	> ul {
+    			
+    	} 
+    	.paging {
+    		margin-top: 80px;	
+    	}
+    }*/ } }
 
 /********** video-modal popup **********/
 .modal-open {

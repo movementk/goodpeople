@@ -659,128 +659,90 @@
 //아너스클럽멤버
 .honors-member {
 	.members {
-		margin-top: 50px;
+		margin-top: 40px;
 		> ul {
-			> li {
-				& ~ li {
-					a {
-                        margin-top: 60px;
+			li {
+				width: 100%;
+				figure {
+					position: relative;
+					padding-bottom: 40px;
+					.img-fluid {
+						width: 100%;
+						min-height: 150px;
 					}
-				}
-				a {
-					display: block;
-					figure {
-						img {
-							width: 100%;
-						}
-						figcaption {
+					figcaption {
+						position: absolute;
+						left: 0;
+						bottom: 0;
+						width: 100%;
+						height: 40px;
+						padding-left: 15px;
+						background-color: #144199;
+						h5 {
 							font-size: 13px;
-							color: #666;
-							line-height: 24px;
-							text-align: center;
-							padding: 20px 0;
-							> p {
-								font-size: 14px;
-								color: #333;
-								font-weight: 400;
-								i {
-									margin-right: 5px;
+							color: #fff;
+							line-height: 40px;
+						}
+						small {
+							display: none;
+						}
+						p {
+							display: none;	
+						}
+					}
+				} 
+				&:hover, &:focus {
+					figure {
+						width: 100%;
+						figcaption {
+							display: table;
+							top: 0;
+							left: 0;
+							height: 100%;
+							background-color: #eb6100;
+							.details {
+								display: table-cell;
+								height: 100%;
+								vertical-align: middle;
+								h5 {
+									line-height: 24px;
+								}
+								small {
+									display: block;
+								}
+								p {
+									display: block;	
 								}
 							}
 						}
 					}
-                    &:focus {
-                        figure {
-                            figcaption {
-                                color: #fff;
-                                background-color: #eb6100;
-                                @include transition();
-                                p {
-                                    color: #fff;
-                                }
-                            }
-                        }
-                    }
 				}
-			} 	
+			}
 		}
 		.paging {
 			margin-top: 50px;	
 		}
 	}
 	@media (min-width: $md) {
-		.members {
+		/*.members {
 			margin-top: 80px;
 			> ul {
-				> li {
-					& ~ li {
-						a {
-                            margin-top: 0;
-						}
-					}
-					&:nth-of-type(3) ~ li {
-						a {
-                            margin-top: 80px;
-						}
-					}
-					a {
-						&:hover {
-							figure {
-								figcaption {
-									color: #fff;
-									background-color: #eb6100;
-									@include transition();
-									p {
-										color: #fff;
-									}
-								}
-							}
-						}
-						figure {
-							figcaption {
-								font-size: 14px;
-								line-height: 30px;
-								padding: 15px 0;
-								> p {
-									font-size: 16px;
-								}
-							}
-						}
-					}
-				} 	
+					
 			}
 			.paging {
 				margin-top: 60px;	
 			}
-		}
+		}*/
 	}
 	@media (min-width: $xl) {
-		.members {
+		/*.members {
 			> ul {
-				> li {
-					&:nth-of-type(3) ~ li {
-						a {
-                            margin-top: 0;
-						}
-					}
-                    &:nth-of-type(4) ~ li {
-						a {
-                            margin-top: 70px;
-						}
-					}
-					a {
-						figure {
-							figcaption {
-								padding: 20px 0;
-							}
-						}
-					}
-				} 	
+					
 			} 
 			.paging {
 				margin-top: 80px;	
 			}
-		}
+		}*/
 	}
 }
 
