@@ -663,60 +663,61 @@
 		> ul {
 			li {
 				width: 100%;
-				figure {
-					position: relative;
-					padding-bottom: 40px;
-					.img-fluid {
-						width: 100%;
-						min-height: 150px;
-					}
-					figcaption {
-						position: absolute;
-						left: 0;
-						bottom: 0;
-						width: 100%;
-						height: 40px;
-						padding-left: 15px;
-						background-color: #144199;
-						h5 {
-							font-size: 13px;
-							color: #fff;
-							line-height: 40px;
-						}
-						small {
-							display: none;
-						}
-						p {
-							display: none;	
-						}
-					}
-				} 
-				&:hover, &:focus {
-					figure {
-						width: 100%;
-						figcaption {
-							display: table;
-							top: 0;
-							left: 0;
-							height: 100%;
-							background-color: #eb6100;
-							.details {
-								display: table-cell;
-								height: 100%;
-								vertical-align: middle;
-								h5 {
-									line-height: 24px;
-								}
-								small {
-									display: block;
-								}
-								p {
-									display: block;	
-								}
-							}
-						}
-					}
-				}
+                a {
+                    position: relative;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    padding-bottom: 40px;
+                    figure {
+                        display: table;
+                        width: 100%;
+                        height: 100%;
+                        .img-fluid {
+                            width: 100%;
+                        }
+                        figcaption {
+                            position: absolute;
+                            left: 0;
+                            bottom: 0;
+                            overflow: hidden;
+                            width: 100%;
+                            height: 40px;
+                            display: table-cell;
+                            vertical-align: middle;
+                            padding: 0 15px;
+                            background-color: #144199;
+                            h5 {
+                                font-size: 13px;
+                                color: #fff;
+                                line-height: 40px;
+                            }
+                            .details {
+                                position: relative;
+                                small {
+                                    
+                                }
+                                p {
+                                    
+                                }
+                            }
+                        }
+                    }
+                    &:hover, &:focus {
+                        figure {
+                            figcaption {
+                                height: 100%;
+                                background-color: #eb6100;
+                                h5 {
+                                    line-height: 24px;
+                                }
+                                .details {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
 			}
 		}
 		.paging {

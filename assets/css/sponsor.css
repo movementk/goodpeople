@@ -772,46 +772,42 @@ a {
   margin-top: 40px; }
   .honors-member .members > ul li {
     width: 100%; }
-    .honors-member .members > ul li figure {
+    .honors-member .members > ul li a {
       position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
       padding-bottom: 40px; }
-      .honors-member .members > ul li figure .img-fluid {
-        width: 100%;
-        min-height: 150px; }
-      .honors-member .members > ul li figure figcaption {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 40px;
-        padding-left: 15px;
-        background-color: #144199; }
-        .honors-member .members > ul li figure figcaption h5 {
-          font-size: 13px;
-          color: #fff;
-          line-height: 40px; }
-        .honors-member .members > ul li figure figcaption small {
-          display: none; }
-        .honors-member .members > ul li figure figcaption p {
-          display: none; }
-    .honors-member .members > ul li:hover figure, .honors-member .members > ul li:focus figure {
-      width: 100%; }
-      .honors-member .members > ul li:hover figure figcaption, .honors-member .members > ul li:focus figure figcaption {
+      .honors-member .members > ul li a figure {
         display: table;
-        top: 0;
-        left: 0;
+        width: 100%;
+        height: 100%; }
+        .honors-member .members > ul li a figure .img-fluid {
+          width: 100%; }
+        .honors-member .members > ul li a figure figcaption {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          overflow: hidden;
+          width: 100%;
+          height: 40px;
+          display: table-cell;
+          vertical-align: middle;
+          padding: 0 15px;
+          background-color: #144199; }
+          .honors-member .members > ul li a figure figcaption h5 {
+            font-size: 13px;
+            color: #fff;
+            line-height: 40px; }
+          .honors-member .members > ul li a figure figcaption .details {
+            position: relative; }
+      .honors-member .members > ul li a:hover figure figcaption, .honors-member .members > ul li a:focus figure figcaption {
         height: 100%;
         background-color: #eb6100; }
-        .honors-member .members > ul li:hover figure figcaption .details, .honors-member .members > ul li:focus figure figcaption .details {
-          display: table-cell;
-          height: 100%;
-          vertical-align: middle; }
-          .honors-member .members > ul li:hover figure figcaption .details h5, .honors-member .members > ul li:focus figure figcaption .details h5 {
-            line-height: 24px; }
-          .honors-member .members > ul li:hover figure figcaption .details small, .honors-member .members > ul li:focus figure figcaption .details small {
-            display: block; }
-          .honors-member .members > ul li:hover figure figcaption .details p, .honors-member .members > ul li:focus figure figcaption .details p {
-            display: block; }
+        .honors-member .members > ul li a:hover figure figcaption h5, .honors-member .members > ul li a:focus figure figcaption h5 {
+          line-height: 24px; }
+        .honors-member .members > ul li a:hover figure figcaption .details, .honors-member .members > ul li a:focus figure figcaption .details {
+          width: 100%; }
   .honors-member .members .paging {
     margin-top: 50px; }
 @media (min-width: 768px) {

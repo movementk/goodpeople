@@ -35,18 +35,16 @@
 			<article class="members">
 				<ul class="row">
 					<li class="col-6 col-md-4 col-xl-3">
-						<figure>
-							<img src="/assets/images/sponsor/honors_member01.jpg" class="img-fluid" alt="">
-							<figcaption>
-								<div class="details">
-									
-									<h5>조용기</h5>
-									<small>여의도순복음교회 원로목사</small>
-									<p>저희도 자그마한 힘을 보내서,  많은 사람들 에게 기쁜 소식을 전하는데 힘쓰도록 하겠습니다.</p>
-								</div>
-									
-							</figcaption>
-						</figure>
+					    <a href="#none">
+                            <figure>
+                                <img src="/assets/images/sponsor/honors_member01.jpg" class="img-fluid" alt="">
+                                <figcaption>
+                                    <h5>조용기</h5>
+                                    <small>여의도순복음교회 원로목사</small>
+                                    <p>저희도 자그마한 힘을 보내서,  많은 사람들 에게 기쁜 소식을 전하는데 힘쓰도록 하겠습니다.</p>
+                                </figcaption>
+                            </figure>
+						</a>
 					</li>
 					<!--<li class="col-12 col-md-4 col-xl-3">
 						<a href="#" data-toggle="modal" data-target="#video-popup">
