@@ -572,20 +572,20 @@ a {
         .volunteer-introduce .volunteer-info .circle-summary > li.year-count {
           margin-left: -10px;
           background-color: rgba(20, 65, 153, 0.8); }
-    .volunteer-introduce .volunteer-info .latest-news {
+    .volunteer-introduce .volunteer-info .dot-board {
       text-align: left;
       margin-top: 45px; }
-      .volunteer-introduce .volunteer-info .latest-news h5 {
+      .volunteer-introduce .volunteer-info .dot-board h5 {
         font-size: 18px;
         color: #222;
         font-weight: 400;
         margin-bottom: 20px; }
-      .volunteer-introduce .volunteer-info .latest-news > ul {
+      .volunteer-introduce .volunteer-info .dot-board > ul {
         border-top: 2px solid #eb6101;
         border-bottom: 1px solid #dfdfdf; }
-        .volunteer-introduce .volunteer-info .latest-news > ul > li:last-child {
+        .volunteer-introduce .volunteer-info .dot-board > ul > li:last-child {
           border-top: 1px solid #dfdfdf; }
-        .volunteer-introduce .volunteer-info .latest-news > ul > li > a {
+        .volunteer-introduce .volunteer-info .dot-board > ul > li > a {
           position: relative;
           font-size: 13px;
           color: #333;
@@ -594,14 +594,14 @@ a {
           white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis; }
-          .volunteer-introduce .volunteer-info .latest-news > ul > li > a:before {
+          .volunteer-introduce .volunteer-info .dot-board > ul > li > a:before {
             position: absolute;
             top: 50%;
             left: 10px;
             margin-top: -10px;
             font-family: "fontello";
             content: "\E812"; }
-          .volunteer-introduce .volunteer-info .latest-news > ul > li > a:after {
+          .volunteer-introduce .volunteer-info .dot-board > ul > li > a:after {
             position: absolute;
             top: 50%;
             right: 10px;
@@ -659,16 +659,16 @@ a {
             margin-right: -15px; }
           .volunteer-introduce .volunteer-info .circle-summary > li.year-count {
             margin-left: -15px; }
-        .volunteer-introduce .volunteer-info .latest-news {
+        .volunteer-introduce .volunteer-info .dot-board {
           margin-top: 100px; }
-          .volunteer-introduce .volunteer-info .latest-news h5 {
+          .volunteer-introduce .volunteer-info .dot-board h5 {
             font-size: 18px; }
-          .volunteer-introduce .volunteer-info .latest-news > ul > li > a {
+          .volunteer-introduce .volunteer-info .dot-board > ul > li > a {
             font-size: 14px;
             padding: 18px 35px; }
-            .volunteer-introduce .volunteer-info .latest-news > ul > li > a:before {
+            .volunteer-introduce .volunteer-info .dot-board > ul > li > a:before {
               left: 20px; }
-            .volunteer-introduce .volunteer-info .latest-news > ul > li > a:after {
+            .volunteer-introduce .volunteer-info .dot-board > ul > li > a:after {
               right: 20px; }
       .volunteer-introduce .medical-association {
         padding: 80px 0; }
