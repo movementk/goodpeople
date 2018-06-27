@@ -553,4 +553,7 @@ a {
     .media-list article .article-content .paging {
       margin-top: 50px; } }
 
+.media-view .board-view .article-header {
+  border-top: 2px solid #eb6100 !important; }
+
 /*# sourceMappingURL=community.css.map */
