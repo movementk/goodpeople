@@ -15,7 +15,13 @@
 }
 
 // sub style 초기화
-
+.img-fluid {
+    &.img-center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 label {
 	font-weight: 400;
 	margin: 0;
@@ -773,11 +779,11 @@ input, textarea {
 		display: inline-block;
 		font-size: 12px;
 		color: #aaa;
-		padding-right: 25px;
 		padding-left: 20px;
+		margin-right: 25px;
 		@include roboto();
 		&:last-child {
-			padding-right: 0;
+			margin-right: 0;
 		}
 		&:before {
 			position: absolute;
@@ -798,7 +804,8 @@ input, textarea {
 				content: "\F133";
 			}
 		}
-		&.eye {			
+		&.eye {
+            width: 60px;
 			&:before {
 				/*top: 2px;*/
 				content: "\E80D";
@@ -1093,6 +1100,7 @@ input, textarea {
 					margin-top: 0;
 					text-align: right;
 					li {
+                        text-align: left;
 						font-size: 14px;
 						&.eye {			
 							&:before {
@@ -1201,6 +1209,10 @@ input, textarea {
                             color: #144199;
                             border: 2px solid #144199;
                         }
+                        &.btn-white {
+                            color: #111;
+                            border: 2px solid #666;
+                        }
                         &:hover, &:focus {
                             color: #fff;
                             &.btn-orange {
@@ -1208,6 +1220,9 @@ input, textarea {
                             }
                             &.btn-blue {
                                 background-color: #144199;
+                            }
+                            &.btn-white {
+                                background-color: #666;
                             }
                         }
                     }

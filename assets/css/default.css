@@ -418,7 +418,7 @@ body {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 201; }
+  z-index: 1001; }
   .nav-btn-area .btn-nav {
     position: relative;
     width: 60px;

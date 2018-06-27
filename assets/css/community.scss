@@ -164,11 +164,6 @@
 					&:first-child {
 						padding-top: 0;
 					}
-					.icon-list {
-						li {
-							padding-right: 30px;
-						}
-					}
 				}
 			}
 			.paging {
@@ -189,11 +184,6 @@
 					margin-top: 40px;
 					> li {
 						padding: 30px 20px;
-						.icon-list {
-							li {
-								padding-right: 35px;
-							}
-						}
 					}
 				}
 			}
@@ -207,9 +197,7 @@
 					> li {
 						padding: 25px 0;
 						.icon-list {
-							li {
-								padding-right: 30px;
-							}
+                            padding-right: 30px;
 						}
 					}
 				}

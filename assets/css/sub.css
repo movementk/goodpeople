@@ -371,6 +371,11 @@ a {
     #content {
       padding-bottom: 120px; } }
 
+.img-fluid.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 label {
   font-weight: 400;
   margin: 0; }
@@ -922,11 +927,11 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     display: inline-block;
     font-size: 12px;
     color: #aaa;
-    padding-right: 25px;
     padding-left: 20px;
+    margin-right: 25px;
     font-family: 'Roboto', sans-serif; }
     .icon-list li:last-child {
-      padding-right: 0; }
+      margin-right: 0; }
     .icon-list li:before {
       position: absolute;
       top: 0;
@@ -939,9 +944,11 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     .icon-list li.calendar:before {
       /*top: 1px;*/
       content: "\F133"; }
-    .icon-list li.eye:before {
-      /*top: 2px;*/
-      content: "\E80D"; }
+    .icon-list li.eye {
+      width: 60px; }
+      .icon-list li.eye:before {
+        /*top: 2px;*/
+        content: "\E80D"; }
 
 .board-list-1 > ul > li {
   border-bottom: 1px solid #dfdfdf;
@@ -1130,6 +1137,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         margin-top: 0;
         text-align: right; }
         .board-list-3 ol > li .icon-list li {
+          text-align: left;
           font-size: 14px; }
           .board-list-3 ol > li .icon-list li.eye:before {
             top: 2px;
@@ -1215,12 +1223,17 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         .board-view .article-content .view-content .spon-btn p .btn.btn-blue {
           color: #144199;
           border: 2px solid #144199; }
+        .board-view .article-content .view-content .spon-btn p .btn.btn-white {
+          color: #111;
+          border: 2px solid #666; }
         .board-view .article-content .view-content .spon-btn p .btn:hover, .board-view .article-content .view-content .spon-btn p .btn:focus {
           color: #fff; }
           .board-view .article-content .view-content .spon-btn p .btn:hover.btn-orange, .board-view .article-content .view-content .spon-btn p .btn:focus.btn-orange {
             background-color: #eb6100; }
           .board-view .article-content .view-content .spon-btn p .btn:hover.btn-blue, .board-view .article-content .view-content .spon-btn p .btn:focus.btn-blue {
             background-color: #144199; }
+          .board-view .article-content .view-content .spon-btn p .btn:hover.btn-white, .board-view .article-content .view-content .spon-btn p .btn:focus.btn-white {
+            background-color: #666; }
       @media (min-width: 768px) {
         .board-view .article-content .view-content .spon-btn {
           margin-top: 80px; }

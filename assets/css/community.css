@@ -445,8 +445,6 @@ a {
     padding: 25px 20px; }
     .notice-list .container .board-list-3 > ol > li:first-child {
       padding-top: 0; }
-    .notice-list .container .board-list-3 > ol > li .icon-list li {
-      padding-right: 30px; }
 .notice-list .container .board-list-3 .paging {
   margin-top: 30px; }
   .notice-list .container .board-list-3 .paging .pagination li {
@@ -456,15 +454,13 @@ a {
   .notice-list .container .board-list-3 > ol {
     margin-top: 40px; }
     .notice-list .container .board-list-3 > ol > li {
-      padding: 30px 20px; }
-      .notice-list .container .board-list-3 > ol > li .icon-list li {
-        padding-right: 35px; } }
+      padding: 30px 20px; } }
 @media (min-width: 1200px) {
   .notice-list .container .board-list-3 > ol {
     margin-top: 25px; }
     .notice-list .container .board-list-3 > ol > li {
       padding: 25px 0; }
-      .notice-list .container .board-list-3 > ol > li .icon-list li {
+      .notice-list .container .board-list-3 > ol > li .icon-list {
         padding-right: 30px; } }
 
 .business-view .board-view .article-header {
