@@ -84,6 +84,12 @@ body {
         content: "※";
     }
 }
+.essential {
+    &:after {
+        color: #eb6100;
+        content: " *";
+    }
+}
 .page-header {
     padding: 40px 0 25px;
 }
