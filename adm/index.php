@@ -26,13 +26,13 @@
                             <li>
                                 <dl>
                                     <dt>파일</dt>
-                                    <dd>aaa.jpg</dd>
+                                    <dd><a href="#">aaa.jpg</a></dd>
                                 </dl>
                             </li>
                             <li>
                                 <dl>
                                     <dt>이메일</dt>
-                                    <dd>mrhong@naver.com</dd>
+                                    <dd><a href="#">mrhong@naver.com</a></dd>
                                 </dl>
                             </li>
                             <li>
@@ -50,17 +50,179 @@
                         </ul>
                     </div>
                 </article>
-                <article class="button-txt">
-                    
+                <article class="button-link">
+                    <div class="article-header">
+                        <dl>
+                            <dt>버튼 텍스트</dt>
+                            <dd>링크</dd>
+                        </dl>
+                    </div>
+                    <div class="article-content">
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt>정기후원하기</dt>
+                                    <dd><a href="#">https://mrmweb.hsit.co.kr/default.aspx?Server=lr1HhMDaqG9L6rajdE9E4Q==&action=join&supporttype=44&inflow=6406</a></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>일시후원하기</dt>
+                                    <dd><a href="#">https://mrmweb.hsit.co.kr/default.aspx?Server=lr1HhMDaqG9L6rajdE9E4Q==&action=join&supporttype=44&inflow=6406</a></dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
                 </article>
-                <article class="">
-                    
+                <article class="attach-link">
+                    <div class="article-header">
+                        <h4>첨부이미지 목록</h4>
+                    </div>
+                    <div class="article-content">
+                        <ul>
+                            <li>    </li>
+                        </ul>
+                        <div class="btn-area">
+                            <p>
+                                <a href="#" class="btn btn-md btn-blue" role="button">등록하기</a>
+                                <a href="#" class="btn btn-md btn-gray" role="button">수정하기</a>
+                                <a href="#" class="btn btn-md btn-gray" role="button">삭제하기</a>
+                                <a href="#" class="btn btn-md btn-gray" role="button">목록으로</a>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="more-content">
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt>이전글</dt>
+                                <dd><a href="#">[해외아동보호] HOPE RUN 희망 위를 달리다</a></dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>다음글</dt>
+                                <dd><a href="#">[희망TV SBS] 다섯 남매의 유일한 소망</a></dd>
+                            </dl>
+                        </li>
+                    </ul>
                 </article>
             </div>
             
             <!-- write -->
             <div class="section-content info-write">
-                
+                <form action="#">
+					<div class="table-wrap">
+						<table class="table table-bordered type-2">
+							<colgroup>
+								<col style="width: 10%;">
+								<col style="width: 40%;">
+								<col style="width: 10%;">
+								<col style="width: 40%;">
+							</colgroup>
+							<tbody>
+								<tr>
+									<th class="essential">
+										<label for="u-id">아이디</label>
+									</th>
+									<td class="user-id">
+										<div class="form-group">
+											<input type="text" id="u-id" class="form-control">
+										</div>
+										<p class="attention">사용 가능한 아이디 입니다.</p>
+									</td>
+									<th class="essential">
+										<label for="u-name">이름</label>
+									</th>
+									<td>
+										<div class="form-group">
+											<input type="text" id="u-name" class="form-control">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th class="essential">관리자 그룹</th>
+									<td class="adm-group">
+										<div class="form-group">
+											<select class="form-control">
+												<option>헬퍼스하이</option>
+											</select>
+										</div>
+									</td>
+									<th class="essential">
+										<label for="department">소속부서</label>
+									</th>
+									<td>
+										<div class="form-group">
+											<input type="text" id="department" class="form-control">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th class="essential">
+										<label for="u-pw">비밀번호</label>
+									</th>
+									<td>
+										<div class="form-group">
+											<input type="password" id="u-pw" class="form-control">
+										</div>
+									</td>
+									<th class="essential">
+										<label for="confirm-pw">비밀번호 확인</label>
+									</th>
+									<td>
+										<div class="form-group">
+											<input type="password" id="confirm-pw" class="form-control">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th class="essential">
+										<label for="u-phone">휴대전화</label>
+									</th>	
+									<td>
+										<div class="form-group">
+											<input type="text" id="u-phone" class="form-control" placeholder="01012345678">
+										</div>
+									</td>
+									<th>
+										<label for="u-call">전화번호</label>
+									</th>
+									<td>
+										<div class="form-group">
+											<input type="text" id="u-call" class="form-control" placeholder="-">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>
+										<label for="u-email">이메일</label>
+									</th>
+									<td>
+										<div class="form-group">
+											<input type="text" id="u-email" class="form-control">
+										</div>
+									</td>
+									<th>생성일시</th>
+									<td>2018-05-16 14:41:30</td>
+								</tr>
+								<tr>
+									<th>최종 로그인</th>
+									<td>2018-05-16 14:41:30</td>
+									<th>최종수정</th>
+									<td>2018-05-16 14:41:30</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="btn-area">
+						<p>
+							<button type="submit" class="btn btn-md btn-blue">수정하기</button>
+							<a href="#" class="btn btn-md btn-gray" role="button">취소하기</a>
+						</p>
+					</div>
+				</form>
             </div>
             
             <!-- list -->

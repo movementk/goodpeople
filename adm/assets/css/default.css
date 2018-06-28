@@ -476,22 +476,22 @@ body {
   .info-view article.view-content .article-content > ul > li {
     border-bottom: 1px solid #dfdfdf; }
     .info-view article.view-content .article-content > ul > li dl {
-      position: relative;
-      overflow: hidden;
-      padding-left: 100px; }
+      display: table;
+      width: 100%; }
       .info-view article.view-content .article-content > ul > li dl dt {
-        position: absolute;
-        top: 0;
-        left: 0;
+        display: table-cell;
+        width: 100px;
+        vertical-align: middle;
         font-size: 13px;
         color: #333;
         font-weight: 400;
-        width: 100px;
         padding: 10px 10px 10px 15px; }
       .info-view article.view-content .article-content > ul > li dl dd {
         position: relative;
-        display: block;
+        display: table-cell;
+        vertical-align: middle;
         font-size: 13px;
+        color: #666;
         font-weight: 300;
         padding: 10px 30px; }
         .info-view article.view-content .article-content > ul > li dl dd:after {
@@ -502,5 +502,91 @@ body {
           margin-top: -9px;
           font-size: 11px;
           content: "|"; }
+.info-view article.button-link {
+  margin-bottom: 35px; }
+  .info-view article.button-link dl {
+    display: table;
+    width: 100%; }
+    .info-view article.button-link dl dt {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      width: 230px;
+      font-weight: 300;
+      padding: 10px 0; }
+    .info-view article.button-link dl dd {
+      display: table-cell;
+      vertical-align: middle;
+      font-weight: 300;
+      padding-left: 230px;
+      text-align: center;
+      padding: 10px 0;
+      color: #666; }
+  .info-view article.button-link .article-header {
+    background-color: #999fa9; }
+    .info-view article.button-link .article-header dl dt {
+      color: #fff; }
+    .info-view article.button-link .article-header dl dd {
+      color: #fff; }
+  .info-view article.button-link .article-content > ul > li {
+    border-bottom: 1px solid #dfdfdf; }
+.info-view article.attach-link {
+  margin-bottom: 30px; }
+  .info-view article.attach-link .article-header {
+    text-align: center;
+    background-color: #999fa9; }
+    .info-view article.attach-link .article-header h4 {
+      font-size: 13px;
+      color: #fff;
+      font-weight: 300;
+      padding: 10px 0; }
+  .info-view article.attach-link .article-content > ul > li {
+    padding: 10px 0;
+    min-height: 39px;
+    border-bottom: 1px solid #dfdfdf; }
+  .info-view article.attach-link .article-content > .btn-area {
+    text-align: right;
+    margin-top: 15px; }
+.info-view article.more-content {
+  border-top: 2px solid #999; }
+  .info-view article.more-content > ul > li {
+    border-bottom: 1px solid #dfdfdf; }
+    .info-view article.more-content > ul > li dl {
+      display: table; }
+      .info-view article.more-content > ul > li dl dt {
+        display: table-cell;
+        width: 130px;
+        font-weight: 400;
+        color: #333;
+        vertical-align: middle;
+        padding: 10px;
+        padding-left: 15px;
+        background-color: #f3f5fa; }
+      .info-view article.more-content > ul > li dl dd {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 10px 15px; }
+
+.info-write .table-wrap .table.type-2 tbody tr th {
+  border-bottom: 1px solid #dfdfdf; }
+  .info-write .table-wrap .table.type-2 tbody tr th label {
+    margin-bottom: 0; }
+.info-write .table-wrap .table.type-2 tbody tr td {
+  vertical-align: middle;
+  border-bottom: 1px solid #dfdfdf; }
+  .info-write .table-wrap .table.type-2 tbody tr td .form-group .form-control {
+    width: 190px; }
+  .info-write .table-wrap .table.type-2 tbody tr td.user-id .form-group {
+    display: inline-block; }
+  .info-write .table-wrap .table.type-2 tbody tr td.user-id .attention {
+    display: inline-block;
+    font-weight: 400;
+    margin-left: 10px; }
+  .info-write .table-wrap .table.type-2 tbody tr td.adm-group .form-group .form-control {
+    width: 130px;
+    height: 30px; }
+.info-write .btn-area {
+  text-align: right;
+  margin-top: 15px; }
 
 /*# sourceMappingURL=default.css.map */

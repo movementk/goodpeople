@@ -567,23 +567,23 @@ body {
                     > li {
                         border-bottom: 1px solid #dfdfdf;
                         dl {
-                            position: relative;
-                            overflow: hidden;
-                            padding-left: 100px;
+                            display: table;
+                            width: 100%;
                             dt {
-                                position: absolute;
-                                top: 0;
-                                left: 0;
+                                display: table-cell;
+                                width: 100px;
+                                vertical-align: middle;
                                 font-size: 13px;
                                 color: #333;
                                 font-weight: 400;
-                                width: 100px;
                                 padding: 10px 10px 10px 15px;
                             }
                             dd {
                                 position: relative;
-                                display: block;
+                                display: table-cell;
+                                vertical-align: middle;
                                 font-size: 13px;
+                                color: #666;
                                 font-weight: 300;
                                 padding: 10px 30px;
                                 &:after {
@@ -601,20 +601,150 @@ body {
                 }
             }
         }
-        &.button-txt {
-            
+        &.button-link {
+            margin-bottom: 35px;
+            dl {
+                display: table;
+                width: 100%;
+                dt {
+                    display: table-cell;
+                    vertical-align: middle;
+                    text-align: center;
+                    width: 230px;
+                    font-weight: 300;
+                    padding: 10px 0;
+                }
+                dd {
+                    display: table-cell;
+                    vertical-align: middle;
+                    font-weight: 300;
+                    padding-left: 230px;
+                    text-align: center;
+                    padding: 10px 0;
+                    color: #666;
+                }
+            }
+            .article-header {
+                background-color: #999fa9;
+                dl {
+                    dt {
+                        color: #fff;
+                    }
+                    dd {
+                        color: #fff;
+                    }
+                }
+            }
+            .article-content {
+                > ul {
+                    > li {
+                        border-bottom: 1px solid #dfdfdf;
+                    }
+                }
+            }
+        }
+        &.attach-link {
+            margin-bottom: 30px;
+            .article-header {
+                text-align: center;
+                background-color: #999fa9;
+                h4 {
+                    font-size: 13px;
+                    color: #fff;
+                    font-weight: 300;
+                    padding: 10px 0;
+                }
+            }
+            .article-content {
+                > ul {
+                    > li {
+                        padding: 10px 0;
+                        min-height: 39px;
+                        border-bottom: 1px solid #dfdfdf;
+                    }
+                }
+                > .btn-area {
+                    text-align: right;
+                    margin-top: 15px;
+                }
+            }
+        }
+        &.more-content {
+            border-top: 2px solid #999;
+            > ul {
+                > li {
+                    border-bottom: 1px solid #dfdfdf;
+                    dl {
+                        display: table;
+                        dt {
+                            display: table-cell;
+                            width: 130px;
+                            font-weight: 400;
+                            color: #333;
+                            vertical-align: middle;
+                            padding: 10px;
+                            padding-left: 15px;
+                            background-color: #f3f5fa;
+                        }
+                        dd {
+                            display: table-cell;
+                            vertical-align: middle;
+                            padding: 10px 15px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
 
 
-
-
-
-
-
-
-
-
-
-
+.info-write {
+	.table-wrap {
+		.table {
+			&.type-2 {
+				tbody {
+					tr {
+						th {
+							border-bottom: 1px solid #dfdfdf;    
+							label {
+								margin-bottom: 0;
+							}
+						}
+						td {
+							vertical-align: middle;
+							border-bottom: 1px solid #dfdfdf;
+							.form-group {
+								.form-control {
+									width: 190px;
+								}
+							}
+							&.user-id {
+								.form-group {
+									display: inline-block;
+								}
+								.attention {
+									display: inline-block;
+									font-weight: 400;
+									margin-left: 10px;
+								}
+							}
+							&.adm-group {
+								.form-group {
+									.form-control {
+										width: 130px;
+										height: 30px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.btn-area {
+		text-align: right;
+		margin-top: 15px;
+	}
+}

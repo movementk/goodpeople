@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="/adm/assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="/adm/assets/fontello/css/fontello.css">
         <link rel="stylesheet" href="/adm/assets/css/default.css">
-        <link rel="stylesheet" href="/adm/assets/css/sub.css">
         <!--[if IE 9]>
             <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
         <![endif]-->
