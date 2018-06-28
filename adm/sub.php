@@ -17,7 +17,117 @@
             
             <!-- write -->
             <div class="section-content info-write">
-                
+				<form action="#">
+					<div class="table-wrap">
+						<table class="table table-bordered type-2">
+							<colgroup>
+								<col style="width: 10%;">
+								<col style="width: 40%;">
+								<col style="width: 10%;">
+								<col style="width: 40%;">
+							</colgroup>
+							<tbody>
+								<tr>
+									<th class="essential">
+										<label for="u-id">아이디</label>
+									</th>
+									<td class="user-id">
+										<div class="form-group">
+											<input type="text" id="u-id" class="form-control">
+										</div>
+										<p class="attention">사용 가능한 아이디 입니다.</p>
+									</td>
+									<th class="essential">
+										<label for="u-name">이름</label>
+									</th>
+									<td>
+										<div class="form-group">
+											<input type="text" id="u-name" class="form-control">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th class="essential">관리자 그룹</th>
+									<td class="adm-group">
+										<div class="form-group">
+											<select class="form-control">
+												<option>헬퍼스하이</option>
+											</select>
+										</div>
+									</td>
+									<th class="essential">
+										<label for="department">소속부서</label>
+									</th>
+									<td>
+										<div class="form-group">
+											<input type="text" id="department" class="form-control">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th class="essential">
+										<label for="u-pw">비밀번호</label>
+									</th>
+									<td>
+										<div class="form-group">
+											<input type="password" id="u-pw" class="form-control">
+										</div>
+									</td>
+									<th class="essential">
+										<label for="confirm-pw">비밀번호 확인</label>
+									</th>
+									<td>
+										<div class="form-group">
+											<input type="password" id="confirm-pw" class="form-control">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th class="essential">
+										<label for="u-phone">휴대전화</label>
+									</th>	
+									<td>
+										<div class="form-group">
+											<input type="text" id="u-phone" class="form-control" placeholder="01012345678">
+										</div>
+									</td>
+									<th>
+										<label for="u-call">전화번호</label>
+									</th>
+									<td>
+										<div class="form-group">
+											<input type="text" id="u-call" class="form-control" placeholder="-">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>
+										<label for="u-email">이메일</label>
+									</th>
+									<td>
+										<div class="form-group">
+											<input type="text" id="u-email" class="form-control">
+										</div>
+									</td>
+									<th>생성일시</th>
+									<td>2018-05-16 14:41:30</td>
+								</tr>
+								<tr>
+									<th>최종 로그인</th>
+									<td>2018-05-16 14:41:30</td>
+									<th>최종수정</th>
+									<td>2018-05-16 14:41:30</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="btn-area">
+						<p>
+							<button type="submit" class="btn btn-md btn-blue">수정하기</button>
+							<a href="#" class="btn btn-md btn-gray" role="button">취소하기</a>
+						</p>
+					</div>
+				</form>
             </div>
             
             <!-- list -->
