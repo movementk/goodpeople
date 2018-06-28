@@ -379,7 +379,7 @@ body {
   left: 0;
   width: 100%;
   height: 55px;
-  z-index: 1001;
+  z-index: 200;
   background-color: #fff; }
   #header .logo {
     position: absolute;
@@ -418,7 +418,7 @@ body {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 1001; }
+  z-index: 201; }
   .nav-btn-area .btn-nav {
     position: relative;
     width: 60px;
@@ -480,8 +480,14 @@ body {
   transition-delay: 0s;
   padding-top: 106px; }
   #nav .mCSB_container {
-    height: 100% !important;
     margin-right: 0 !important; }
+  #nav .mCSB_scrollTools {
+    width: 10px !important; }
+  #nav .mCSB_dragger {
+    z-index: 300; }
+    #nav .mCSB_dragger .mCSB_dragger_bar {
+      opacity: .75;
+      background-color: #999; }
   #nav .backdrop {
     display: block;
     position: fixed;
@@ -489,11 +495,10 @@ body {
     left: 0;
     width: 0;
     height: 0;
-    z-index: 1;
     background-color: rgba(0, 0, 0, 0.7); }
   #nav .nav-wrap {
     position: relative;
-    z-index: 2;
+    z-index: 1;
     padding-bottom: 40px;
     width: 270px;
     height: 100%;
@@ -504,7 +509,7 @@ body {
       right: -100%;
       width: 0;
       height: 106px;
-      z-index: 1001;
+      z-index: 1;
       -webkit-transition-property: all;
       transition-property: all;
       -webkit-transition-duration: 0.15s;
@@ -527,7 +532,6 @@ body {
           text-align: center;
           line-height: 33px;
           padding: 0;
-          /*border: 1px solid #fff;*/
           background-color: #eb6100; }
       #nav .nav-wrap .nav-header > ul {
         display: table;

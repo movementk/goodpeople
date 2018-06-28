@@ -24,7 +24,7 @@ body {
     left: 0;
     width: 100%;
     height: 55px;
-    z-index: 1001;
+    z-index: 200;
     background-color: #fff;
     .logo {
         position: absolute;
@@ -75,7 +75,7 @@ body {
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 1001;
+    z-index: 201;
     .btn-nav {
         position: relative;
         width: 60px;
@@ -133,8 +133,17 @@ body {
     @include transition();
     padding-top: 106px;
     .mCSB_container {
-        height: 100% !important;
         margin-right: 0 !important;
+    }
+    .mCSB_scrollTools {
+        width: 10px !important;
+    }
+    .mCSB_dragger {
+        z-index: 300;
+        .mCSB_dragger_bar {
+            opacity: .75;
+            background-color: #999;
+        }
     }
     .backdrop {
         display: block;
@@ -143,12 +152,11 @@ body {
         left: 0;
         width: 0;
         height: 0;
-        z-index: 1;
         background-color: rgba(0, 0, 0, .7);
     }
     .nav-wrap {
         position: relative;
-        z-index: 2;
+        z-index: 1;
         padding-bottom: 40px;
         width: 270px;
         height: 100%;
@@ -159,7 +167,7 @@ body {
             right: -100%;
             width: 0;
             height: 106px;
-            z-index: 1001;
+            z-index: 1;
             @include transition();
             .top-nav {
                 padding-top: 10px;
@@ -175,7 +183,6 @@ body {
                     text-align: center;
                     line-height: 33px;
                     padding: 0;
-                    /*border: 1px solid #fff;*/
                     background-color: #eb6100;
                 }
             }

@@ -224,6 +224,7 @@ input, textarea {
                         margin: 0;
                         padding: 0;
                         border: 0;
+                        z-index: 100;
 						font-weight: 300;
                         border-radius: 0;
                         transform: translate3d(0px, 50px, 0px) !important;
@@ -769,7 +770,7 @@ input, textarea {
 			}
 		}
 	}
-} 
+}
 
 //icon 리스트
 .icon-list {
