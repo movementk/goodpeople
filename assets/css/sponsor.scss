@@ -658,7 +658,7 @@
 
 //아너스클럽멤버
 .honors-member {
-	.members {
+	/*.members {
 		margin-top: 40px;
 		> ul {
 			> li {
@@ -738,8 +738,8 @@
 				}
 			}
 		}
-	}
-	@media(min-width: $md) {
+	}*/
+	/*@media(min-width: $md) {
 		.members {
 			margin-top: 35px;
 			> ul {
@@ -786,8 +786,8 @@
 				}
 			}
 		}
-	}
-	@media(min-width: $xl) {
+	}*/
+	/*@media(min-width: $xl) {
 		.members {
 			margin-top: 80px;
 			> ul {
@@ -823,7 +823,115 @@
 				}
 			}
 		}
-	}
+	}*/
+    .members {
+        margin-top: 40px;
+        > ul {
+            > li {
+                > a {
+                    position: relative;
+                    display: block;
+                    width: 100%;
+                    padding-bottom: 40px;
+                    background-color: #144199;
+                    .figure {
+                        display: block;
+                        .img-fluid {
+                            display: block;
+                            width: 100%;
+                        }
+                    }
+                    .figcaption {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 40px;
+                        color: #fff;
+                        display: block;
+                        .details {
+                            position: absolute;
+                            bottom: 0;
+                            display: block;
+                            width: 100%;
+                            height: 40px;
+                            overflow: hidden;
+                            background-color: #144199;
+                            @include transition();
+                            .v-align {
+                                display: table;
+                                width: 100%;
+                                height: 100%;
+                                padding: 0 15px;
+                                > div {
+                                    display: table-cell;
+                                    width: 100%;
+                                    height: 40px;
+                                    vertical-align: middle;
+                                    h5 {
+                                        font-size: 13px;
+                                        line-height: 16px;
+                                    }
+                                    .summary {
+                                        display: none;
+                                        small {
+                                            font-size: 10px;
+                                        }
+                                        hr {
+                                            display: block;
+                                            width: 30px;
+                                            margin: 15px 0;
+                                            border-top: 1px solid #fff;
+                                        }
+                                        p {
+                                            font-size: 11px;
+                                            color: #fff;
+                                            line-height: 18px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:hover, &:focus {
+                        .figcaption {
+                            height: 100%;
+                            bottom: 0;
+                            .details {
+                                height: 100%;
+                                background-color: #eb6100;
+                                .v-align {
+                                    > div {
+                                        h5 {
+                                            margin-bottom: 5px;
+                                        }
+                                        .summary {
+                                            display: block;
+                                            small {
+
+                                            }
+                                            hr {
+
+                                            }
+                                            p {
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: $md) {
+            margin-top: 35px;
+        }
+        @media(min-width: $xl) {
+            margin-top: 80px;
+        }
+    }
 }
 
 

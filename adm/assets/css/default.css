@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul, ol {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+  dl dd {
+    margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+figure {
+  margin: 0; }
+
+button:hover, button:focus {
+  box-shadow: none; }
+
+a {
+  color: inherit;
+  text-decoration: none !important; }
+  a:hover, a:focus {
+    color: inherit; }
+
+.container {
+  width: 1200px;
+  min-width: 1200px; }
+
+body {
+  font-size: 13px;
+  font-weight: 300;
+  color: #666;
+  font-family: 'Noto Sans KR', sans-serif;
+  min-width: 1200px;
+  background-color: #f3f5fa; }
+
+.form-group {
+  margin: 0; }
+
+.form-control {
+  width: 100%;
+  height: 30px;
+  border-radius: 0;
+  border: 1px solid #dfdfdf;
+  box-shadow: none !important; }
+
+.btn-area p {
+  font-size: 0; }
+  .btn-area p .btn {
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    border-radius: 0;
+    margin-left: 10px;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; }
+    .btn-area p .btn:hover, .btn-area p .btn:focus {
+      opacity: .8; }
+    .btn-area p .btn:first-child {
+      margin-left: 0; }
+    .btn-area p .btn.btn-white {
+      padding: 5px 15px;
+      border: 1px solid #fff; }
+    .btn-area p .btn.btn-sm {
+      width: 55px;
+      color: #666;
+      line-height: 23px;
+      border: 1px solid #ccc; }
+    .btn-area p .btn.btn-md {
+      width: 95px;
+      line-height: 35px; }
+    .btn-area p .btn.btn-gray {
+      background-color: #898989; }
+    .btn-area p .btn.btn-blue {
+      background-color: #144199; }
+    .btn-area p .btn.btn-orange {
+      width: 100%;
+      font-size: 16px;
+      line-height: 50px;
+      background-color: #eb6100; }
+
+.page-title {
+  font-size: 25px;
+  color: #222;
+  font-weight: 400;
+  margin-bottom: 25px; }
+
+.attention {
+  position: relative;
+  padding-left: 20px;
+  color: #144199; }
+  .attention:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "※"; }
+
+#header {
+  display: block;
+  width: 100%;
+  height: 100px;
+  padding: 18px 0;
+  overflow: hidden;
+  background-color: #144199; }
+  #header .logo {
+    float: left; }
+    #header .logo a {
+      display: block; }
+  #header .login-state {
+    float: right;
+    text-align: right; }
+    #header .login-state p {
+      font-size: 12px;
+      color: #fff;
+      margin-bottom: 15px; }
+      #header .login-state p i {
+        color: #fff799;
+        font-style: normal; }
+
+#content {
+  position: relative;
+  margin-top: 30px; }
+
+#aside {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 200px; }
+  #aside .nav {
+    background-color: #fff; }
+
+.admin-login .login-form {
+  width: 770px;
+  padding: 100px 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.05); }
+  .admin-login .login-form .article-header {
+    margin-bottom: 50px; }
+    .admin-login .login-form .article-header p {
+      font-size: 17px;
+      color: #222;
+      line-height: 32px; }
+  .admin-login .login-form .article-content {
+    width: 370px;
+    display: block;
+    margin: 0 auto; }
+    .admin-login .login-form .article-content .form-group .form-control {
+      color: #666;
+      padding: 0 15px;
+      height: 50px;
+      background-color: #f3f5fa; }
+      .admin-login .login-form .article-content .form-group .form-control ~ .form-control {
+        margin-top: 10px; }
+    .admin-login .login-form .article-content .btn-area {
+      margin-top: 20px; }
+    .admin-login .login-form .article-content .copyright {
+      font-size: 12px;
+      color: #999;
+      margin-top: 80px;
+      font-weight: 500;
+      font-family: 'Roboto', sans-serif; }
+      .admin-login .login-form .article-content .copyright a {
+        display: inline-block; }
+
+/*# sourceMappingURL=default.css.map */
