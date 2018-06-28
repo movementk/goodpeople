@@ -770,67 +770,108 @@ a {
 
 .honors-member .members {
   margin-top: 40px; }
-  .honors-member .members > ul li {
-    width: 100%; }
-    .honors-member .members > ul li a {
-      position: relative;
-      display: block;
+  .honors-member .members > ul > li > a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px; }
+    .honors-member .members > ul > li > a figure .img-fluid {
+      width: 100%; }
+    .honors-member .members > ul > li > a figure figcaption {
+      display: table;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 40px;
+      padding: 0 15px;
+      background-color: #144199;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .honors-member .members > ul > li > a figure figcaption .details {
+        display: table-cell;
+        color: #fff;
+        vertical-align: middle; }
+        .honors-member .members > ul > li > a figure figcaption .details h5 {
+          font-size: 13px;
+          color: #fff;
+          font-weight: 400;
+          line-height: 16px; }
+        .honors-member .members > ul > li > a figure figcaption .details small {
+          display: none;
+          font-size: 10px; }
+        .honors-member .members > ul > li > a figure figcaption .details p {
+          display: none;
+          font-size: 11px;
+          line-height: 16px; }
+          .honors-member .members > ul > li > a figure figcaption .details p:before {
+            content: "";
+            display: block;
+            width: 30px;
+            height: 1px;
+            margin: 10px 0;
+            background-color: #fff; }
+    .honors-member .members > ul > li > a:hover figure figcaption, .honors-member .members > ul > li > a:focus figure figcaption {
       width: 100%;
       height: 100%;
-      padding-bottom: 40px; }
-      .honors-member .members > ul li a figure {
-        display: table;
-        width: 100%;
-        height: 100%; }
-        .honors-member .members > ul li a figure .img-fluid {
-          width: 100%; }
-        .honors-member .members > ul li a figure figcaption {
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          overflow: hidden;
-          width: 100%;
-          height: 40px;
-          display: table-cell;
-          vertical-align: middle;
-          padding: 0 15px;
-          background-color: #144199; }
-          .honors-member .members > ul li a figure figcaption h5 {
-            font-size: 13px;
-            color: #fff;
-            line-height: 40px; }
-          .honors-member .members > ul li a figure figcaption .details {
-            position: relative; }
-      .honors-member .members > ul li a:hover figure figcaption, .honors-member .members > ul li a:focus figure figcaption {
-        height: 100%;
-        background-color: #eb6100; }
-        .honors-member .members > ul li a:hover figure figcaption h5, .honors-member .members > ul li a:focus figure figcaption h5 {
-          line-height: 24px; }
-        .honors-member .members > ul li a:hover figure figcaption .details, .honors-member .members > ul li a:focus figure figcaption .details {
-          width: 100%; }
-  .honors-member .members .paging {
-    margin-top: 50px; }
+      background-color: #eb6100; }
+      .honors-member .members > ul > li > a:hover figure figcaption .details h5, .honors-member .members > ul > li > a:focus figure figcaption .details h5 {
+        line-height: 24px; }
+      .honors-member .members > ul > li > a:hover figure figcaption .details small, .honors-member .members > ul > li > a:focus figure figcaption .details small {
+        display: block; }
+      .honors-member .members > ul > li > a:hover figure figcaption .details p, .honors-member .members > ul > li > a:focus figure figcaption .details p {
+        display: block; }
+  .honors-member .members > ul > li:nth-of-type(2) ~ li {
+    margin-top: 10px; }
 @media (min-width: 768px) {
-  .honors-member {
-    /*.members {
-    	margin-top: 80px;
-    	> ul {
-    			
-    	}
-    	.paging {
-    		margin-top: 60px;	
-    	}
-    }*/ } }
+  .honors-member .members {
+    margin-top: 35px; }
+    .honors-member .members > ul li a {
+      padding-bottom: 60px; }
+      .honors-member .members > ul li a figure figcaption {
+        height: 60px;
+        padding: 0 20px; }
+        .honors-member .members > ul li a figure figcaption .details h5 {
+          font-size: 17px;
+          line-height: 20px; }
+        .honors-member .members > ul li a figure figcaption .details small {
+          font-size: 12px;
+          margin-top: 5px; }
+        .honors-member .members > ul li a figure figcaption .details p {
+          font-size: 13px;
+          line-height: 18px; }
+          .honors-member .members > ul li a figure figcaption .details p:before {
+            margin: 20px 0 25px; }
+      .honors-member .members > ul li a:hover figure figcaption, .honors-member .members > ul li a:focus figure figcaption {
+        height: 70%; }
+    .honors-member .members > ul li:nth-of-type(2) ~ li {
+      margin-top: 0; }
+    .honors-member .members > ul li:nth-of-type(3) ~ li {
+      margin-top: 20px; } }
 @media (min-width: 1200px) {
-  .honors-member {
-    /*.members {
-    	> ul {
-    			
-    	} 
-    	.paging {
-    		margin-top: 80px;	
-    	}
-    }*/ } }
+  .honors-member .members {
+    margin-top: 80px; }
+    .honors-member .members > ul li a figure figcaption .details h5 {
+      font-size: 16px; }
+    .honors-member .members > ul li a figure figcaption .details small {
+      font-size: 12px;
+      margin-top: 5px; }
+    .honors-member .members > ul li a figure figcaption .details p {
+      font-size: 13px;
+      line-height: 22px; }
+      .honors-member .members > ul li a figure figcaption .details p:before {
+        margin: 25px 0 25px; }
+    .honors-member .members > ul li:nth-of-type(3) ~ li {
+      margin-top: 0; }
+    .honors-member .members > ul li:nth-of-type(4) ~ li {
+      margin-top: 35px; } }
 
 /********** video-modal popup **********/
 .modal-open {

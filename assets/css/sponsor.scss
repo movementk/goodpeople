@@ -661,44 +661,53 @@
 	.members {
 		margin-top: 40px;
 		> ul {
-			li {
-				width: 100%;
-                a {
+			> li {
+                > a {
                     position: relative;
                     display: block;
-                    width: 100%;
-                    height: 100%;
+					width: 100%;
+					height: 100%;
                     padding-bottom: 40px;
                     figure {
-                        display: table;
-                        width: 100%;
-                        height: 100%;
                         .img-fluid {
                             width: 100%;
                         }
                         figcaption {
+							display: table;
                             position: absolute;
                             left: 0;
                             bottom: 0;
-                            overflow: hidden;
                             width: 100%;
                             height: 40px;
-                            display: table-cell;
-                            vertical-align: middle;
                             padding: 0 15px;
                             background-color: #144199;
-                            h5 {
-                                font-size: 13px;
-                                color: #fff;
-                                line-height: 40px;
-                            }
+							@include transition();
                             .details {
-                                position: relative;
+								display: table-cell;
+								color: #fff;
+								vertical-align: middle;
+								h5 {
+									font-size: 13px;
+									color: #fff;
+									font-weight: 400;
+									line-height: 16px;
+								}
                                 small {
-                                    
+                                    display: none;
+									font-size: 10px;
                                 }
                                 p {
-                                    
+                                    display: none;
+									font-size: 11px;
+									line-height: 16px;
+									&:before {
+										content: "";
+										display: block;
+										width: 30px;
+										height: 1px;
+										margin: 10px 0;
+										background-color: #fff;
+									}
                                 }
                             }
                         }
@@ -706,46 +715,117 @@
                     &:hover, &:focus {
                         figure {
                             figcaption {
+								width: 100%;
                                 height: 100%;
                                 background-color: #eb6100;
-                                h5 {
-                                    line-height: 24px;
-                                }
                                 .details {
-                                    width: 100%;
+									h5 {
+										line-height: 24px;
+									}
+									small {
+										display: block;
+									}
+									p {
+										display: block;
+									}
                                 }
                             }
                         }
                     }
                 }
+				&:nth-of-type(2) ~ li {
+					margin-top: 10px;
+				}
 			}
 		}
-		.paging {
-			margin-top: 50px;	
+	}
+	@media(min-width: $md) {
+		.members {
+			margin-top: 35px;
+			> ul {
+				li {
+					a {
+						padding-bottom: 60px;
+						figure {
+							figcaption {
+								height: 60px;
+								padding: 0 20px; 
+								.details {
+									h5 {
+										font-size: 17px;
+										line-height: 20px;
+									}
+									small {
+										font-size: 12px;
+										margin-top: 5px;
+									}
+									p {
+										font-size: 13px;
+										line-height: 18px;
+										&:before {
+											margin: 20px 0 25px;
+										}
+									}
+								}
+							}
+						}
+						&:hover, &:focus {
+							figure {
+								figcaption {
+									height: 70%;
+								}
+							}
+						}
+					}
+					&:nth-of-type(2) ~ li {
+						margin-top: 0; 
+					}
+					&:nth-of-type(3) ~ li {
+						margin-top: 20px;    
+					}
+				}
+			}
 		}
 	}
-	@media (min-width: $md) {
-		/*.members {
+	@media(min-width: $xl) {
+		.members {
 			margin-top: 80px;
 			> ul {
-					
+				li {
+					a {
+						figure {
+							figcaption {
+								.details {
+									h5 {
+										font-size: 16px;
+									}
+									small {
+										font-size: 12px;
+										margin-top: 5px;
+									}
+									p {
+										font-size: 13px;
+										line-height: 22px;
+										&:before {
+											margin: 25px 0 25px;
+										}
+									}
+								}
+							}
+						}
+					}
+					&:nth-of-type(3) ~ li {
+						margin-top: 0;    
+					}
+					&:nth-of-type(4) ~ li {
+						margin-top: 35px;    
+					}
+				}
 			}
-			.paging {
-				margin-top: 60px;	
-			}
-		}*/
-	}
-	@media (min-width: $xl) {
-		/*.members {
-			> ul {
-					
-			} 
-			.paging {
-				margin-top: 80px;	
-			}
-		}*/
+		}
 	}
 }
+
 
 
 /********** video-modal popup **********/
