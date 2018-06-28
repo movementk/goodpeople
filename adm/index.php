@@ -12,7 +12,50 @@
             </div>
             <!-- view -->
             <div class="section-content info-view">
-                
+                <article class="view-content">
+                    <div class="article-header">
+                        <h3>게시글의 제목이 노출되는 영역입니다.</h3>
+                        <ul class="user-info">
+                            <li>홍길동</li>
+                            <li>123</li>
+                            <li>2018-06-27</li>
+                        </ul>
+                    </div>
+                    <div class="article-content">
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt>파일</dt>
+                                    <dd>aaa.jpg</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>이메일</dt>
+                                    <dd>mrhong@naver.com</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>기간</dt>
+                                    <dd>2018-05-10 ~ 2018-08-31</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>요약내용</dt>
+                                    <dd>태어나자마자 엄마와 헤어진 무뇌수두증 시온이 이야기</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="button-txt">
+                    
+                </article>
+                <article class="">
+                    
+                </article>
             </div>
             
             <!-- write -->
@@ -40,13 +83,31 @@
                                     <tbody>
                                         <tr>
                                             <th>그룹</th>
-                                            <td>2</td>
-                                            <th>아이디</th>
-                                            <td>4</td>
-                                            <th>이름</th>
-                                            <td>6</td>
-                                            <th>휴대폰</th>
-                                            <td>8</td>
+                                            <td>
+                                                <div class="form-group">
+                                                    <select class="form-control">
+                                                        <option>선택</option>
+                                                    </select>
+                                                </div>
+                                            </td>
+                                            <th><label for="u-id">아이디</label></th>
+                                            <td>
+                                                <div class="form-group">
+                                                    <input type="text" id="u-id" class="form-control">
+                                                </div>
+                                            </td>
+                                            <th><label for="u-name">이름</label></th>
+                                            <td>
+                                                <div class="form-group">
+                                                    <input type="text" id="u-name" class="form-control">
+                                                </div>
+                                            </td>
+                                            <th><label for="u-phone">휴대폰</label></th>
+                                            <td>
+                                                <div class="form-group">
+                                                    <input type="text" id="u-phone" class="form-control">
+                                                </div>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -317,6 +378,22 @@
                                 </li>
                             </ol>	
                         </nav>
+                        <div class="search-form">
+                            <form action="#">
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option>선택</option>
+                                    </select>
+                                    <input type="text" id="search" class="form-control">
+                                    <label for="search" class="sr-only">검색하기</label>
+                                    <button type="submit" class="btn btn-search">
+                                        <i class="icon-search">
+                                            <span class="sr-only">검색버튼</span>
+                                        </i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </article>
             </div>
