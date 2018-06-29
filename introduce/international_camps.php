@@ -24,7 +24,7 @@
             <nav class="lnb">
                 <ul class="tab-list">
                     <li class="active"><a href="/introduce/international_camps.php">해외지부</a></li>
-                    <li><a href="#">국내지부</a></li>
+                    <li><a href="/introduce/domestic_camps.php">국내지부</a></li>
                 </ul>
             </nav>
         </div>
