@@ -703,16 +703,18 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       display: block;
       font-size: 14px;
       color: #666; }
-    .page-intro .lnb .tab-list > li.active a {
-      color: #eb6100; }
-      .page-intro .lnb .tab-list > li.active a:after {
-        position: absolute;
-        bottom: -1px;
-        left: 0;
-        display: block;
-        width: 100%;
-        content: " ";
-        border-bottom: 2px solid #eb6100; }
+    .page-intro .lnb .tab-list > li.active {
+      font-weight: 500; }
+      .page-intro .lnb .tab-list > li.active a {
+        color: #eb6100; }
+        .page-intro .lnb .tab-list > li.active a:after {
+          position: absolute;
+          bottom: -1px;
+          left: 0;
+          display: block;
+          width: 100%;
+          content: " ";
+          border-bottom: 2px solid #eb6100; }
 @media (min-width: 768px) {
   .page-intro .page-title {
     padding: 60px 0; }

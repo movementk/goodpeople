@@ -38,6 +38,7 @@ a {
   min-width: 1200px; }
 
 body {
+  word-break: keep-all;
   font-size: 13px;
   font-weight: 300;
   color: #666;
@@ -47,6 +48,11 @@ body {
 
 .form-group {
   margin: 0; }
+  .form-group textarea.form-control {
+    width: 100% !important;
+    height: 200px !important; }
+  .form-group select {
+    height: 30px !important; }
 
 .form-control {
   width: 100%;
@@ -86,7 +92,8 @@ body {
       width: 55px;
       color: #666;
       line-height: 23px;
-      border: 1px solid #ccc; }
+      border: 1px solid #ccc;
+      background-color: #fff; }
     .btn-area p .btn.btn-md {
       width: 95px;
       line-height: 35px; }
@@ -272,6 +279,16 @@ body {
     border-bottom: 1px solid #dfdfdf;
     border-right: 1px solid #dfdfdf !important;
     vertical-align: middle; }
+
+.activity_table {
+  width: 100%; }
+  .activity_table tbody tr td .form-group .form-control {
+    height: 30px !important;
+    padding: 0 15px !important;
+    border: 1px solid #dfdfdf !important; }
+  .activity_table tbody tr td .form-group span {
+    display: block;
+    margin-top: 5px; }
 
 #header {
   display: block;

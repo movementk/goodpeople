@@ -45,7 +45,7 @@
                             font-size: 14px;
                             color: #333;
                             font-weight: 400;
-                            margin-top: 15px;
+                            /*margin-top: 15px;*/
                         }
                         .icon-list {
                             margin-top: 20px;
@@ -75,11 +75,11 @@
                             }
                             h3 {
                                 font-size: 16px;
-                                margin-top: 20px;
+                                /*margin-top: 20px;*/
                             }
-                            .icon-list {
+                            /*.icon-list {
                                 margin-top: 30px;
-                            }
+                            }*/
                         }
                     }
                     & ~ li {
@@ -135,6 +135,7 @@
                 font-size: 20px;
                 line-height: 26px;
                 font-weight: 500;
+                letter-spacing: -1px;
                 @include jjmj();
             }
         }
@@ -161,7 +162,6 @@
 
 // 캠페인 리스트
 .campaign-list {
-    margin-top: 80px;
     .article-header {
         margin-bottom: 30px;
         .form-group {
@@ -244,7 +244,7 @@
                                     position: absolute;
                                     top: -46px;
                                     right: -18px;
-                                    font-size: 13px;
+                                    font-size: 11px;
                                     color: #fff;
                                     display: inline-block;
                                     width: 35px;
@@ -286,7 +286,7 @@
                             font-size: 14px;
                             color: #333;
                             font-weight: 400;
-                            margin-top: 15px;
+                            /*margin-top: 15px;*/
                         }
                         .icon-list {
                             margin-top: 20px;
@@ -305,7 +305,7 @@
         }
     }
     @media(min-width: $md) {
-        margin-top: 100px;
+        /*margin-top: 100px;*/
         .article-header {
             .form-group {
                 .form-control {
@@ -325,11 +325,11 @@
                             }
                             h3 {
                                 font-size: 16px;
-                                margin-top: 20px;
+                                /*margin-top: 20px;*/
                             }
-                            .icon-list {
+                            /*.icon-list {
                                 margin-top: 30px;
-                            }
+                            }*/
                         }
                     }
                     & ~ li {
@@ -350,7 +350,7 @@
         }
     }
     @media(min-width: $xl) {
-        margin-top: 110px;
+        /*margin-top: 110px;*/
         .article-content {
             padding: 0;
             > ul {

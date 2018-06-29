@@ -108,11 +108,11 @@
                                             <p class="d-day">D-7</p>
                                         </div>
                                     </div>
-                                    <h4>
-                                        <small>사랑의 의료봉사</small>
-                                        구멍난 뼈, 위험신호를 알려요
-                                    </h4>
-                                    <p class="more">자세히 보기</p>
+                                    <div class="table-align">
+                                        <h4>[국내아동지원] 화상의 상처를 안고 살아가야 하는 아이</h4>
+                                        <div class="space"></div>
+                                        <p class="more">자세히 보기</p>
+                                    </div>
                                 </div>
                             </a>
                         </li>
@@ -128,11 +128,10 @@
                                             <p class="d-day">D-7</p>
                                         </div>
                                     </div>
-                                    <h4>
-                                        <small>국내아동지원</small>
-                                        위풍당당 새학기
-                                    </h4>
-                                    <p class="more">자세히 보기</p>
+                                    <div class="table-align">
+                                        <h4>[세계아동노동반대의 날] YOUR DREAM</h4>
+                                        <p class="more">자세히 보기</p>
+                                    </div>
                                 </div>
                             </a>
                         </li>
@@ -148,11 +147,10 @@
                                             <p class="d-day">D-7</p>
                                         </div>
                                     </div>
-                                    <h4>
-                                        <small>해외아동결연</small>
-                                        여전히 굶주린 세계
-                                    </h4>
-                                    <p class="more">자세히 보기</p>
+                                    <div class="table-align">
+                                        <h4>여전히 굶주린 세계</h4>
+                                        <p class="more">자세히 보기</p>
+                                    </div>
                                 </div>
                             </a>
                         </li>
@@ -168,11 +166,10 @@
                                             <p class="d-day">D-7</p>
                                         </div>
                                     </div>
-                                    <h4>
-                                        <small>사랑의 의료봉사</small>
-                                        구멍난 뼈, 위험신호를 알려요
-                                    </h4>
-                                    <p class="more">자세히 보기</p>
+                                    <div class="table-align">
+                                        <h4>[국내아동지원] 화상의 상처를 안고 살아가야 하는 아이</h4>
+                                        <p class="more">자세히 보기</p>
+                                    </div>
                                 </div>
                             </a>
                         </li>
