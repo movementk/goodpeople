@@ -322,6 +322,24 @@
             }
         }
     }
+    .none-support {
+        width: 100%;
+        padding: 30px 0;
+        text-align: center;
+        border: 1px solid #e2e2e2;
+        background-color: #f9fafc;
+        > p {
+            font-size: 13px;
+            color: #333;
+            font-weight: 400;
+        }
+        @media(min-width: $md) {
+            padding: 70px 0;
+            > p {
+                font-size: 15px;
+            }
+        }
+    }
 }
 
 // 나의후원아동 상세

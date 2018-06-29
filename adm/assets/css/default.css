@@ -110,8 +110,7 @@ body {
 .page-title {
   font-size: 25px;
   color: #222;
-  font-weight: 300;
-  margin-bottom: 25px; }
+  font-weight: 300; }
 
 .attention {
   position: relative;
@@ -222,6 +221,8 @@ body {
     margin: 0;
     border: 0;
     border-top: 2px solid #999; }
+    .table-wrap .table span {
+      font-weight: 300 !important; }
     .table-wrap .table.type-1 thead tr th {
       font-weight: 400;
       color: #333;
@@ -318,7 +319,8 @@ body {
   #content.page-content {
     padding: 0 30px 30px 245px; }
   #content #sub-content {
-    padding: 0 40px;
+    min-height: 780px;
+    padding: 0 40px 0 60px;
     background-color: #fff;
     box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.05); }
 
@@ -587,9 +589,6 @@ body {
     padding: 10px 0;
     min-height: 39px;
     border-bottom: 1px solid #dfdfdf; }
-  .info-view article.attach-link .article-content > .btn-area {
-    text-align: right;
-    margin-top: 15px; }
 .info-view article.more-content {
   border-top: 2px solid #999; }
   .info-view article.more-content > ul > li {
@@ -609,6 +608,18 @@ body {
         display: table-cell;
         vertical-align: middle;
         padding: 10px 15px; }
+
+.content-area > .btn-area {
+  text-align: right;
+  margin-top: 15px; }
+.content-area .content-details {
+  display: block;
+  margin-bottom: 20px;
+  padding: 20px 0 30px;
+  border-bottom: 1px solid #dfdfdf; }
+  .content-area .content-details img {
+    display: block;
+    margin: 0 auto; }
 
 .info-write .table-wrap .table.type-2 tbody tr th {
   border-bottom: 1px solid #dfdfdf; }

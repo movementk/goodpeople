@@ -218,54 +218,12 @@
  			            </div>
  			        </li>
  			    </ul>
- 			    <!--<nav class="paging">
-                    <ol class="pagination">
-                        <li class="first">
-                            <a href="#">
-                                <i class="icon-angle-double-left">
-                                    <span class="sr-only">첫 페이지</span>
-                                </i>
-                            </a>
-                        </li>
-                        <li class="prev">
-                            <a href="#">
-                                <i class="icon-angle-left">
-                                    <span class="sr-only">이전 페이지</span>
-                                </i>
-                            </a>
-                        </li>
-                        <li class="active">
-                            <a href="#">1</a>
-                        </li>
-                        <li>
-                            <a href="#">2</a>
-                        </li>
-                        <li>
-                            <a href="#">3</a>
-                        </li>
-                        <li>
-                            <a href="#">4</a>
-                        </li>
-                        <li>
-                            <a href="#">5</a>
-                        </li>
-                        <li class="next">
-                            <a href="#">
-                                <i class="icon-angle-right">
-                                    <span class="sr-only">다음 페이지</span>
-                                </i>
-                            </a>
-                        </li>
-                        <li class="last">
-                            <a href="#">
-                                <i class="icon-angle-double-right">
-                                    <span class="sr-only">마지막 페이지</span>
-                                </i>
-                            </a>
-                        </li>
-                    </ol>	
-                </nav>-->
  			</article>
+ 			
+ 			<!-- 후원아동이 없을경우 -->
+ 			<div class="none-support">
+ 			    <p>후원 아동이 존재하지 않습니다.</p>
+ 			</div>
     	</div>
     </main>
     

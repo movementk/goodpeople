@@ -74,40 +74,47 @@
                         </ul>
                     </div>
                 </article>
-                <article class="attach-link">
-                    <div class="article-header">
-                        <h4>첨부이미지 목록</h4>
-                    </div>
-                    <div class="article-content">
-                        <ul>
-                            <li>    </li>
-                        </ul>
-                        <div class="btn-area">
-                            <p>
-                                <a href="#" class="btn btn-md btn-blue" role="button">등록하기</a>
-                                <a href="#" class="btn btn-md btn-gray" role="button">수정하기</a>
-                                <a href="#" class="btn btn-md btn-gray" role="button">삭제하기</a>
-                                <a href="#" class="btn btn-md btn-gray" role="button">목록으로</a>
-                            </p>
+                <div class="content-area">
+                    <article class="attach-link">
+                        <div class="article-header">
+                            <h4>첨부이미지 목록</h4>
                         </div>
+                        <div class="article-content">
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <duv class="content-details">
+                        <p>
+                            게시글이 노출되는 영역입니다.
+                        </p>
+                    </duv>
+                    <article class="more-content">
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt>이전글</dt>
+                                    <dd><a href="#">[해외아동보호] HOPE RUN 희망 위를 달리다</a></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>다음글</dt>
+                                    <dd><a href="#">[희망TV SBS] 다섯 남매의 유일한 소망</a></dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </article>
+                    <div class="btn-area">
+                        <p>
+                            <a href="#" class="btn btn-md btn-blue" role="button">등록하기</a>
+                            <a href="#" class="btn btn-md btn-gray" role="button">수정하기</a>
+                            <a href="#" class="btn btn-md btn-gray" role="button">삭제하기</a>
+                            <a href="#" class="btn btn-md btn-gray" role="button">목록으로</a>
+                        </p>
                     </div>
-                </article>
-                <article class="more-content">
-                    <ul>
-                        <li>
-                            <dl>
-                                <dt>이전글</dt>
-                                <dd><a href="#">[해외아동보호] HOPE RUN 희망 위를 달리다</a></dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt>다음글</dt>
-                                <dd><a href="#">[희망TV SBS] 다섯 남매의 유일한 소망</a></dd>
-                            </dl>
-                        </li>
-                    </ul>
-                </article>
+                </div>
             </div>
             
             <!-- write -->

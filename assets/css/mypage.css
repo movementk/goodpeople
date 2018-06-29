@@ -530,6 +530,21 @@ a {
     margin-top: 70px; }
   .children-list .list-type2 > .paging {
     margin-top: 80px; } }
+.children-list .none-support {
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  border: 1px solid #e2e2e2;
+  background-color: #f9fafc; }
+  .children-list .none-support > p {
+    font-size: 13px;
+    color: #333;
+    font-weight: 400; }
+  @media (min-width: 768px) {
+    .children-list .none-support {
+      padding: 70px 0; }
+      .children-list .none-support > p {
+        font-size: 15px; } }
 
 .children-view .children-details .article-content {
   padding: 30px 20px;
