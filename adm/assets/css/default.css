@@ -216,10 +216,13 @@ body {
 
 .table-wrap {
   border: 0; }
+  .table-wrap span {
+    font-weight: 300 !important; }
   .table-wrap .table {
     /*table-layout: fixed;*/
     margin: 0;
     border: 0;
+    font-size: 12px;
     border-top: 2px solid #999; }
     .table-wrap .table span {
       font-weight: 300 !important; }
@@ -228,14 +231,14 @@ body {
       color: #333;
       text-align: center;
       vertical-align: middle;
-      padding: 15px 0;
+      padding: 10px 0;
       border: 0;
       border-bottom: 1px solid #dfdfdf;
       background-color: #f3f5fa; }
     .table-wrap .table.type-1 tbody tr td {
       font-weight: 400;
       text-align: center;
-      padding: 15px 10px;
+      padding: 10px 10px;
       vertical-align: middle;
       border: 0;
       border-bottom: 1px solid #dfdfdf; }
@@ -255,15 +258,18 @@ body {
         border: 0;
         padding-left: 15px;
         vertical-align: middle;
-        background-color: #f3f5fa; }
+        background-color: #f3f5fa;
+        border-bottom: 1px solid #dfdfdf; }
       .table-wrap .table.type-2 tbody tr td {
         padding: 10px;
-        border: 0; }
+        border: 0;
+        border-bottom: 1px solid #dfdfdf; }
+        .table-wrap .table.type-2 tbody tr td #variableFiles tbody tr td {
+          padding: 0; }
 
 .write_table {
   border-top: 2px solid #999; }
   .write_table tbody tr th {
-    font-size: 13px;
     color: #222;
     font-weight: 300;
     padding: 10px;
@@ -272,7 +278,6 @@ body {
     vertical-align: middle;
     background-color: #f3f5fa; }
   .write_table tbody tr td {
-    font-size: 13px;
     font-weight: 300;
     color: #666;
     text-align: left !important;
