@@ -79,6 +79,7 @@ body {
     position: relative;
     padding-left: 20px;
     color: #144199;
+    line-height: 30px;
     &:before {
         position: absolute;
         top: 0;
@@ -230,7 +231,8 @@ body {
                     td {
                         font-weight: 400;
                         text-align: center;
-                        padding: 15px 0;
+                        padding: 15px 10px;
+                        vertical-align: middle;
                         border: 0;
                         border-bottom: 1px solid #dfdfdf;
                         &.normalit {
@@ -238,6 +240,10 @@ body {
                         }
                         &.cease {
                             color: #e61937;
+                        }
+                        img {
+                            width: 100%;
+                            display: block;
                         }
                     }
                 }
@@ -261,6 +267,33 @@ body {
                         border: 0;
                     }
                 }
+            }
+        }
+    }
+}
+.write_table {
+    border-top: 2px solid #999;
+    tbody {
+        tr {
+            th {
+                font-size: 13px;
+                color: #222;
+                font-weight: 300;
+                padding: 10px;
+                border: 0;
+                border-bottom: 1px solid #dfdfdf;
+                vertical-align: middle;
+                background-color: #f3f5fa;
+            }
+            td {
+                font-size: 13px;
+                font-weight: 300;
+                color: #666;
+                text-align: left !important;
+                border: 0;
+                border-bottom: 1px solid #dfdfdf;
+                border-right: 1px solid #dfdfdf !important;
+                vertical-align: middle;
             }
         }
     }
@@ -728,7 +761,6 @@ body {
 									font-weight: 400;
 									margin-left: 10px;
                                     vertical-align: top;
-                                    line-height: 30px;
 								}
 							}
 							&.adm-group {

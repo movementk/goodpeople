@@ -109,7 +109,8 @@ body {
 .attention {
   position: relative;
   padding-left: 20px;
-  color: #144199; }
+  color: #144199;
+  line-height: 30px; }
   .attention:before {
     position: absolute;
     top: 0;
@@ -226,13 +227,17 @@ body {
     .table-wrap .table.type-1 tbody tr td {
       font-weight: 400;
       text-align: center;
-      padding: 15px 0;
+      padding: 15px 10px;
+      vertical-align: middle;
       border: 0;
       border-bottom: 1px solid #dfdfdf; }
       .table-wrap .table.type-1 tbody tr td.normalit {
         color: #144199; }
       .table-wrap .table.type-1 tbody tr td.cease {
         color: #e61937; }
+      .table-wrap .table.type-1 tbody tr td img {
+        width: 100%;
+        display: block; }
     .table-wrap .table.type-2 {
       border-bottom: 1px solid #dfdfdf; }
       .table-wrap .table.type-2 tbody tr th {
@@ -246,6 +251,27 @@ body {
       .table-wrap .table.type-2 tbody tr td {
         padding: 10px;
         border: 0; }
+
+.write_table {
+  border-top: 2px solid #999; }
+  .write_table tbody tr th {
+    font-size: 13px;
+    color: #222;
+    font-weight: 300;
+    padding: 10px;
+    border: 0;
+    border-bottom: 1px solid #dfdfdf;
+    vertical-align: middle;
+    background-color: #f3f5fa; }
+  .write_table tbody tr td {
+    font-size: 13px;
+    font-weight: 300;
+    color: #666;
+    text-align: left !important;
+    border: 0;
+    border-bottom: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf !important;
+    vertical-align: middle; }
 
 #header {
   display: block;
@@ -582,8 +608,7 @@ body {
     display: inline-block;
     font-weight: 400;
     margin-left: 10px;
-    vertical-align: top;
-    line-height: 30px; }
+    vertical-align: top; }
   .info-write .table-wrap .table.type-2 tbody tr td.adm-group .form-group .form-control {
     width: 130px;
     height: 30px; }
