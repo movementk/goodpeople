@@ -431,7 +431,7 @@
 	.value {
 		text-align: center;
         padding: 50px 0 55px;
-		background-color: #f7f7f7;
+		background-color: #fff;
 		.section-header	{
 			h3 {
 				font-size: 24px;
@@ -482,6 +482,7 @@
 		@media (min-width: $md) {
 			padding-top: 90px;
 			padding-bottom: 110px;
+			background-color: #f7f7f7;
 			.section-header	{
 				h3 {
 					font-size: 30px;
@@ -865,7 +866,7 @@
 													 }
 													 dd {
 														 font-size: 15px;
-														 line-height: 25px;
+														 line-height: 28px;
 														 margin-left: 60px;
 														 ul {
 															 li {
@@ -2124,14 +2125,14 @@
 .committee {
 	.section-header {
 		text-align: center;
-		padding-top: 40px;
+		/*padding-top: 40px;*/
 		> h4 {
 			font-size: 22px;
 			color: #222;
 			font-weight: 400;
 		}
 		.sub-tab-list {
-			margin-top: 45px;
+			margin-top: 40px;
 			ul {
 				font-size: 0;
 				li {
@@ -2162,12 +2163,12 @@
 			}
 		}
 		@media(min-width: $md) {
-			padding-top: 70px;
+			/*padding-top: 70px;*/
 			> h4 {
 				font-size: 30px;
 			}
 			.sub-tab-list {
-				margin-top: 40px;
+				margin-top: 60px;
 				text-align: center;
 				ul {
 					display: inline-block;
@@ -2196,12 +2197,6 @@
 				}
 			}
 		}
-		@media(min-width: $xl) { 
-			padding-top: 75px;
-			.sub-tab-list { 
-				margin-top: 50px;
-			}
-		}
 	}
 	.section-content {
 		margin-top: 50px;
@@ -2228,14 +2223,14 @@
 	.group {
 		.section-header {
 			text-align: center;
-			padding-top: 40px;
+			/*padding-top: 40px;*/
 			> h4 {
 				font-size: 22px;
 				color: #222;
 				font-weight: 400;
 			}
 			.sub-tab-list {
-				margin-top: 45px;
+				margin-top: 40px;
 				ul {
 					font-size: 0;
 					li {
@@ -2266,12 +2261,12 @@
 				}
 			}
 			@media(min-width: $md) {
-				padding-top: 70px;
+				/*padding-top: 70px;*/
 				> h4 {
 					font-size: 30px;
 				}
 				.sub-tab-list {
-					margin-top: 40px;
+					margin-top: 60px;
 					text-align: center;
 					ul {
 						display: inline-block;
@@ -2300,12 +2295,6 @@
 					}
 				}
 			}
-			@media(min-width: $xl) { 
-				padding-top: 75px;
-				.sub-tab-list { 
-					margin-top: 50px;
-				}
-			}
 		}
 		.section-content {
 			margin-top: 55px;
@@ -2324,3 +2313,195 @@
 		}
 	}
 }
+
+// 국내 지부
+.domestic-camps {
+	padding-top: 50px;
+	@media(min-width: $md) { 
+		padding-top: 100px;
+	}
+	.maps {
+		p {
+			padding: 0 10%;
+			.img-fluid {
+				width: 100%;
+				display: block;
+				margin: 0 auto;
+			}
+		}
+		@media(min-width: $md) {
+			.map-lg {
+				position: relative;
+				padding: 0;
+				.img-fluid {
+					width: 342px;
+					opacity: 0;
+					&.domestic-maps {
+						transform: scale(0.5);
+						@include transition($duration: .90s);
+					}
+					&.domestic-arrow {
+						position: absolute;
+						left: 50%;
+						top: -50px;
+						margin-left: -171px;
+						@include transition($duration: .90s, $delay: 1.5s);
+					}
+				}
+				&.on {
+					.img-fluid {
+						opacity: 1;
+						&.domestic-maps {
+							transform: scale(1);
+						}
+						&.domestic-arrow {
+							top: 0;
+						}
+					}
+				}
+			}
+		}
+		@media(min-width: $lg) {
+			.map-lg {
+				.img-fluid {
+					width: auto !important;
+					&.domestic-arrow {
+						margin-left: -202.5px;
+					}
+				}
+			}
+		}
+	}
+	.summary {
+		width: 100%;
+		margin-top: 50px;
+		padding: 20px;
+		background-color: #f3f5fa;
+		.article-header {
+			padding-bottom: 20px; 
+			border-bottom: 1px solid #144199;
+			> p {
+				img {
+					transform: scale(.9);
+				}
+			}
+			h4 {
+				font-size: 18px;
+				color: #144199;
+				font-weight: 400;
+				margin-top: 5px;
+			}
+		}
+		.article-content {
+			padding-top: 20px;
+			dl {
+				overflow: hidden;
+				dt {
+					width: 70px;
+					float: left;  
+					clear: both; 
+					font-size: 12px;
+					color: #333;
+					line-height: 24px;
+					font-weight: 400;
+					&:before {
+						content: " · ";
+					}
+				}
+				dd {
+					font-size: 12px;
+					color: #333;
+					line-height: 24px;
+					padding-left: 70px;
+				}
+			}
+		}
+		@media(min-width: $md) {
+			padding: 35px 25px 40px;
+			margin-top: 50px;
+			.article-header {
+				> p {
+					img {
+						transform: scale(1);
+					}
+				}
+				h4 {
+					font-size: 20px;
+					margin-top: 10px;
+				}
+			}
+			.article-content {
+				padding-top: 30px;
+				dl {
+					dt {
+						width: 90px;
+						line-height: 30px;
+						font-size: 13px;
+						&:before {
+							margin-right: 5px;
+						}
+					}
+					dd {
+						line-height: 30px;
+						font-size: 13px;
+						padding-left: 90px;
+					}
+				}
+
+			}
+		}
+		@media(min-width: $xl) {
+			width: 460px;
+			margin-top: 80px;
+			margin-left: 40px;
+			.article-content {
+				dl {
+					dt {
+						width: 100px;
+					}
+					dd {
+						padding-left: 100px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
