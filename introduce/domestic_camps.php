@@ -53,28 +53,6 @@
 							</p>
 							<h4>굿피플 대구 · 경북 지부</h4>
 						</div>
-						<!--<div class="article-content">
-							<ul>
-								<li>
-									<dl>
-										<dt>주소</dt>
-										<dd>경상북도 구미시 박정희로 116 (상모동)경상북도 구미시 박정희로 116 (상모동)</dd>
-									</dl>
-								</li>
-								<li>
-									<dl>
-										<dt>전화번호</dt>
-										<dd>111-111-11111</dd>
-									</dl>
-								</li>
-								<li>
-									<dl>
-										<dt>팩스번호</dt>
-										<dd>111-111-11111</dd>
-									</dl>
-								</li>
-							</ul>
-						</div>-->
 						<div class="article-content">
 							<dl>
 								<dt>주소</dt>
