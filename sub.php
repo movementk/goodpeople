@@ -141,12 +141,12 @@
 						<a href="#">
 							<div class="board-info">
 								<div class="row">
-									<div class="col-12 col-md-6 col-xl-5">
+									<div class="col-12 col-md-6 col-xl-4">
 										<figure>
 											<img src="/assets/images/sub/img_board01.jpg" class="img-fluid" alt="">
 										</figure>
 									</div>
-									<div class="col-12 col-md-6 col-xl-7">
+									<div class="col-12 col-md-6 col-xl-8">
 										<div class="details">
 											<h4>사랑의의료봉사, 고려대학교 교우회 감사패 수상</h4>
 											<p>

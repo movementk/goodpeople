@@ -49,12 +49,12 @@
 								<a href="#">
 									<div class="board-info">
 										<div class="row">
-											<div class="col-12 col-md-6 col-xl-5">
+											<div class="col-12 col-md-6 col-xl-4">
 												<figure>
 													<img src="/assets/images/sub/img_board01.jpg" class="img-fluid" alt="">
 												</figure>
 											</div>
-											<div class="col-12 col-md-6 col-xl-7">
+											<div class="col-12 col-md-6 col-xl-8">
 												<div class="details">
 													<h4>사랑의의료봉사, 고려대학교 교우회 감사패 수상</h4>
 													<p>
@@ -75,12 +75,12 @@
 								<a href="#">
 									<div class="board-info">
 										<div class="row">
-											<div class="col-12 col-md-6 col-xl-5">
+											<div class="col-12 col-md-6 col-xl-4">
 												<figure>
 													<img src="/assets/images/sub/img_board_none.jpg" alt="">
 												</figure>
 											</div>
-											<div class="col-12 col-md-6 col-xl-7">
+											<div class="col-12 col-md-6 col-xl-8">
 												<div class="details">
 													<h4>한국코와주식회사, 굿피플과 함께 취약계층 건강증진에 나서</h4>
 													<p>
@@ -101,12 +101,12 @@
 								<a href="#">
 									<div class="board-info">
 										<div class="row">
-											<div class="col-12 col-md-6 col-xl-5">
+											<div class="col-12 col-md-6 col-xl-4">
 												<figure>
 													<img src="/assets/images/sub/img_board_none.jpg" alt="">
 												</figure>
 											</div>
-											<div class="col-12 col-md-6 col-xl-7">
+											<div class="col-12 col-md-6 col-xl-8">
 												<div class="details">
 													<h4>2018 기부 마라톤 대회 봉사자 모집 공고</h4>
 													<p>
@@ -127,12 +127,12 @@
 								<a href="#">
 									<div class="board-info">
 										<div class="row">
-											<div class="col-12 col-md-6 col-xl-5">
+											<div class="col-12 col-md-6 col-xl-4">
 												<figure>
 													<img src="/assets/images/sub/img_board02.jpg" alt="">
 												</figure>
 											</div>
-											<div class="col-12 col-md-6 col-xl-7">
+											<div class="col-12 col-md-6 col-xl-8">
 												<div class="details">
 													<h4>방경현 목사 굿피플 아너스클럽에 가입</h4>
 													<p>
@@ -153,12 +153,12 @@
 								<a href="#">
 									<div class="board-info">
 										<div class="row">
-											<div class="col-12 col-md-6 col-xl-5">
+											<div class="col-12 col-md-6 col-xl-4">
 												<figure>
 													<img src="/assets/images/sub/img_board03.jpg" alt="">
 												</figure>
 											</div>
-											<div class="col-12 col-md-6 col-xl-7">
+											<div class="col-12 col-md-6 col-xl-8">
 												<div class="details">
 													<h4>아프리카 태양보다 뜨거웠던 나눔대사 위촉현장</h4>
 													<p>

@@ -70,7 +70,7 @@
                     letter-spacing: -2px;
                     @include transition($duration: .80s, $delay: .30s);
                 }
-                p {
+                > p {
                     position: relative;
                     top: -50px;
                     opacity: 0;
