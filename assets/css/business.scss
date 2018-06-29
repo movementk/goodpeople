@@ -95,6 +95,10 @@
             }
         }
     }
+	.dot-board {
+        text-align: left;
+		margin-top: 45px;
+	}
     @media(min-width: $md) {
         .relief-list {
             > ul {
@@ -140,6 +144,9 @@
                 }
             }
         }
+		.dot-board {
+			margin-top: 100px;
+		}
     }
     @media(min-width: $xl) {
         .relief-list {
@@ -218,7 +225,7 @@
                     }
                 }
                 .btn-area {
-                    margin-top: 50px;
+                    margin-top: 30px;
                     p {
                         .btn-lg {
                             width: 100%;
@@ -274,13 +281,12 @@
             > ul {
                 > li {
                     & ~ li {
-                        margin-top: 170px;
+                        margin-top: 150px;
                     }
                     .details {
                         margin-top: 50px;
                     }
                     .btn-area {
-                        margin-top: 60px;
                         p {
                             .btn-lg {
                                 width: 250px;
@@ -358,49 +364,8 @@
 			}
 		}
         .dot-board {
-            /*text-align: left;*/
+            text-align: left;
             margin-top: 45px;
-            /*h5 {
-                font-size: 18px;
-                color: #222;
-                font-weight: 400;
-                margin-bottom: 20px;
-            }
-            > ul {
-                border-top: 2px solid #eb6101;
-                border-bottom: 1px solid #dfdfdf;
-                > li {
-                    &:last-child {
-                        border-top: 1px solid #dfdfdf;
-                    }
-                    > a {
-                        position: relative;
-                        font-size: 13px;
-                        color: #333;
-                        display: block;
-                        padding: 17px 25px;
-                        white-space: nowrap;
-                        overflow: hidden;
-                        text-overflow: ellipsis;
-                        &:before {
-                            position: absolute;
-                            top: 50%;
-                            left: 10px;
-                            margin-top: -10px;
-                            font-family: "fontello";
-                            content: "\E812";
-                        }
-                        &:after {
-                            position: absolute;
-                            top: 50%;
-                            right: 10px;
-                            margin-top: -10px;
-                            font-family: "fontello";
-                            content: "\E80B";
-                        }
-                    }
-                }
-            }*/
         }
     }
     .medical-association {
@@ -480,45 +445,8 @@
 					}
 				}
 			}
-//            .circle-summary {
-//                > li {
-//                    display: inline-block;
-//                    figure {
-//                        .img-fluid {
-//                            display: inline-block;
-//                            line-height: 52px;
-//                        }
-//                    }
-//                    &.treatment-count {
-//                        position: relative;
-//                        right: -15px;
-//                    }
-//                    &.year-count {
-//                        position: relative;
-//                        top: 0;
-//                        left: -15px;
-//                    }
-//                }
-//            }
             .dot-board {
                 margin-top: 100px;
-                /*h5 {
-                    font-size: 18px;
-                }
-                > ul {
-                    > li {
-                        > a {
-                            font-size: 14px;
-                            padding: 18px 35px;
-                            &:before {
-                                left: 20px;
-                            }
-                            &:after {
-                                right: 20px;
-                            }
-                        }
-                    }
-                }*/
             }
         }
         .medical-association {

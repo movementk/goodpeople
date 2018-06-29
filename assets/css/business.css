@@ -416,6 +416,9 @@ a {
           color: #333;
           font-family: "fontello";
           content: "\F105"; }
+.emergency-relief .dot-board {
+  text-align: left;
+  margin-top: 45px; }
 @media (min-width: 768px) {
   .emergency-relief .relief-list > ul > li ~ li figure {
     margin-top: 0; }
@@ -439,7 +442,9 @@ a {
         left: 20px; }
       .emergency-relief .news-list > ul > li > a:after {
         right: 30px;
-        font-size: 20px; } }
+        font-size: 20px; }
+  .emergency-relief .dot-board {
+    margin-top: 100px; } }
 @media (min-width: 1200px) {
   .emergency-relief .relief-list > ul > li ~ li figure {
     margin-top: 0; }
@@ -484,7 +489,7 @@ a {
     line-height: 26px;
     margin-top: 40px; }
 .welfare-work .business-list > ul > li .btn-area {
-  margin-top: 50px; }
+  margin-top: 30px; }
   .welfare-work .business-list > ul > li .btn-area p .btn-lg {
     width: 100%;
     height: 45px;
@@ -518,13 +523,11 @@ a {
     width: 250px; } }
 @media (min-width: 1200px) {
   .welfare-work .business-list > ul > li ~ li {
-    margin-top: 170px; }
+    margin-top: 150px; }
   .welfare-work .business-list > ul > li .details {
     margin-top: 50px; }
-  .welfare-work .business-list > ul > li .btn-area {
-    margin-top: 60px; }
-    .welfare-work .business-list > ul > li .btn-area p .btn-lg {
-      width: 250px; } }
+  .welfare-work .business-list > ul > li .btn-area p .btn-lg {
+    width: 250px; } }
 
 .volunteer-introduce {
   padding-bottom: 0 !important;
@@ -578,49 +581,8 @@ a {
           margin-left: -10px;
           background-color: rgba(20, 65, 153, 0.8); }
     .volunteer-introduce .volunteer-info .dot-board {
-      /*text-align: left;*/
-      margin-top: 45px;
-      /*h5 {
-          font-size: 18px;
-          color: #222;
-          font-weight: 400;
-          margin-bottom: 20px;
-      }
-      > ul {
-          border-top: 2px solid #eb6101;
-          border-bottom: 1px solid #dfdfdf;
-          > li {
-              &:last-child {
-                  border-top: 1px solid #dfdfdf;
-              }
-              > a {
-                  position: relative;
-                  font-size: 13px;
-                  color: #333;
-                  display: block;
-                  padding: 17px 25px;
-                  white-space: nowrap;
-                  overflow: hidden;
-                  text-overflow: ellipsis;
-                  &:before {
-                      position: absolute;
-                      top: 50%;
-                      left: 10px;
-                      margin-top: -10px;
-                      font-family: "fontello";
-                      content: "\E812";
-                  }
-                  &:after {
-                      position: absolute;
-                      top: 50%;
-                      right: 10px;
-                      margin-top: -10px;
-                      font-family: "fontello";
-                      content: "\E80B";
-                  }
-              }
-          }
-      }*/ }
+      text-align: left;
+      margin-top: 45px; }
   .volunteer-introduce .medical-association {
     text-align: center;
     padding: 45px 0;
@@ -673,24 +635,7 @@ a {
           .volunteer-introduce .volunteer-info .circle-summary > li.year-count {
             margin-left: -15px; }
         .volunteer-introduce .volunteer-info .dot-board {
-          margin-top: 100px;
-          /*h5 {
-              font-size: 18px;
-          }
-          > ul {
-              > li {
-                  > a {
-                      font-size: 14px;
-                      padding: 18px 35px;
-                      &:before {
-                          left: 20px;
-                      }
-                      &:after {
-                          right: 20px;
-                      }
-                  }
-              }
-          }*/ }
+          margin-top: 100px; }
       .volunteer-introduce .medical-association {
         padding: 80px 0; }
         .volunteer-introduce .medical-association h4 {
