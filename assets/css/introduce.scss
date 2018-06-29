@@ -1218,6 +1218,40 @@
 						}
 					}
 				}
+                .star-slide {
+                    position: relative;
+                    display: block;
+                    li {
+                        figure {
+                            .img-fluid {
+                                width: 100%;
+                                display: block;
+                            }
+                        }
+                    }
+                    .slick-arrow {
+                        position: absolute;
+                        top: 50%;
+                        font-size: 20px;
+                        color: #fff;
+                        padding: 0 !important;
+                        cursor: pointer;
+                        margin-top: -15px;
+                        border: 0 !important;
+                        background: none;
+                        z-index: 1;
+                        &.slick-prev {
+                            left: 10px;
+                        }
+                        &.slick-next {
+                            right: 10px;
+                        }
+                        @media(min-width: $md) {
+                            font-size: 28px;
+                            margin-top: -21px;
+                        }
+                    }
+                }
             }
         }
     }

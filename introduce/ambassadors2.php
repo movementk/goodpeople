@@ -1,4 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="/assets/css/sub.css">
 <link rel="stylesheet" href="/assets/css/introduce.css">
 </head>
@@ -148,8 +149,24 @@
                     </button>
                 </div>
                 <div class="modal-body">
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UksQhLeJ2qI" allowfullscreen></iframe>
+					<div class="star-slide">
+					    <ul>
+					        <li>
+					            <figure>
+					                <img src="/assets/images/introduce/slider_img01.jpg" class="img-fluid" alt="">
+					            </figure>
+					        </li>
+					        <li>
+					            <figure>
+					                <img src="/assets/images/introduce/slider_img01.jpg" class="img-fluid" alt="">
+					            </figure>
+					        </li>
+					        <li>
+					            <figure>
+					                <img src="/assets/images/introduce/slider_img01.jpg" class="img-fluid" alt="">
+					            </figure>
+					        </li>
+					    </ul>
 					</div>
                		<div class="comment">
                			<p>
@@ -181,6 +198,23 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="/assets/js/sub.js"></script>
+    <script>
+        (function($){
+            $(window).ready(function(){
+                $('#video-popup .modal-body .star-slide ul').slick({
+                    dots: false,
+                    infinite: true,
+                    autoplaySpeed: 5000,
+                    cssEase: 'linear',
+                    pauseOnHover: false,
+                    pauseOnFocus: false,
+                    prevArrow: '<button class="slick-prev"><i class="icon-left-open-big"></i></button>',
+                    nextArrow: '<button class="slick-next"><i class="icon-right-open-big"></i></button>',
+                });
+            });
+        })(jQuery);
+    </script>
 </body>
 </html>
