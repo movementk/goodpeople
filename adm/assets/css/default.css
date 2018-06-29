@@ -581,7 +581,9 @@ body {
   .info-write .table-wrap .table.type-2 tbody tr td.user-id .attention {
     display: inline-block;
     font-weight: 400;
-    margin-left: 10px; }
+    margin-left: 10px;
+    vertical-align: top;
+    line-height: 30px; }
   .info-write .table-wrap .table.type-2 tbody tr td.adm-group .form-group .form-control {
     width: 130px;
     height: 30px; }

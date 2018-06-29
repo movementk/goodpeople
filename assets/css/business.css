@@ -360,6 +360,11 @@ a {
 
 .business .page-intro .lnb.volunteer .tab-list li {
   width: 50% !important; }
+.business .page-header .page-summary {
+  background-image: url(/assets/images/business/bg_page_header_sm.jpg); }
+  @media (min-width: 768px) {
+    .business .page-header .page-summary {
+      background-image: url(/assets/images/business/bg_page_header_lg.jpg); } }
 
 .emergency-relief .relief-list > ul > li ~ li figure {
   margin-top: 70px; }

@@ -357,6 +357,12 @@ a {
     .container {
       max-width: 1200px; } }
 
+.community .page-header .page-summary {
+  background-image: url(/assets/images/community/bg_page_header_sm.jpg); }
+  @media (min-width: 768px) {
+    .community .page-header .page-summary {
+      background-image: url(/assets/images/community/bg_page_header_lg.jpg); } }
+
 .news-list article .article-header {
   padding-top: 20px; }
 .news-list article .article-content {

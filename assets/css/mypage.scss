@@ -1,5 +1,16 @@
 @import 'common';
 
+.mypage {
+    .page-header {
+        .page-summary {
+            background-image: url(/assets/images/mypage/bg_page_header_sm.jpg);
+            @media(min-width: $md) {
+                background-image: url(/assets/images/mypage/bg_page_header_lg.jpg);
+            }
+        }
+    }
+}
+
 // 나의 후원아동
 .children-list {
     // list type 1

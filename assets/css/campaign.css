@@ -357,6 +357,12 @@ a {
     .container {
       max-width: 1200px; } }
 
+.campaign .page-header .page-summary {
+  background-image: url(/assets/images/campaign/bg_page_header_sm.jpg); }
+  @media (min-width: 768px) {
+    .campaign .page-header .page-summary {
+      background-image: url(/assets/images/campaign/bg_page_header_lg.jpg); } }
+
 .campaign-review .article-header {
   margin-bottom: 30px; }
 .campaign-review .article-content > ul > li a {

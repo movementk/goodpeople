@@ -1,5 +1,16 @@
 @import 'common';
 
+.sponsor {
+    .page-header {
+        .page-summary {
+            background-image: url(/assets/images/sponsor/bg_page_header_sm.jpg);
+            @media(min-width: $md) {
+                background-image: url(/assets/images/sponsor/bg_page_header_lg.jpg);
+            }
+        }
+    }
+}
+
 .sub-tab-list {
     margin-top: 40px;
     ul {

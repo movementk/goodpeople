@@ -1,5 +1,16 @@
 @import 'common';
 
+.community {
+    .page-header {
+        .page-summary {
+            background-image: url(/assets/images/community/bg_page_header_sm.jpg);
+            @media(min-width: $md) {
+                background-image: url(/assets/images/community/bg_page_header_lg.jpg);
+            }
+        }
+    }
+}
+
 // 굿피플 소식 리스트
 .news-list {
 	article {

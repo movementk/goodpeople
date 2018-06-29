@@ -357,6 +357,12 @@ a {
     .container {
       max-width: 1200px; } }
 
+.mypage .page-header .page-summary {
+  background-image: url(/assets/images/mypage/bg_page_header_sm.jpg); }
+  @media (min-width: 768px) {
+    .mypage .page-header .page-summary {
+      background-image: url(/assets/images/mypage/bg_page_header_lg.jpg); } }
+
 .children-list .list-type1 > ul > li {
   padding: 30px 20px;
   border: 1px solid #e2e2e2;

@@ -10,7 +10,16 @@
             }
         }
     }
+    .page-header {
+        .page-summary {
+            background-image: url(/assets/images/business/bg_page_header_sm.jpg);
+            @media(min-width: $md) {
+                background-image: url(/assets/images/business/bg_page_header_lg.jpg);
+            }
+        }
+    }
 }
+
 
 // 긴급구호
 .emergency-relief {
