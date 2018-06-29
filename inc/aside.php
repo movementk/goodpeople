@@ -55,7 +55,7 @@
                                 <a href="#">지부안내</a>
                                 <ul class="depth-3">
                                     <li><a href="/introduce/international_camps.php">해외지부<span></span></a></li>
-                                    <li><a href="#">국내지부<span></span></a></li>
+                                    <li><a href="/introduce/domestic_camps.php">국내지부<span></span></a></li>
                                 </ul>
                             </li>
                             <li class="quick-link">
