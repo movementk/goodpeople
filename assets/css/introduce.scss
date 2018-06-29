@@ -2324,7 +2324,6 @@
 		p {
 			padding: 0 10%;
 			.img-fluid {
-				width: 100%;
 				display: block;
 				margin: 0 auto;
 			}
@@ -2380,11 +2379,6 @@
 		.article-header {
 			padding-bottom: 20px; 
 			border-bottom: 1px solid #144199;
-			> p {
-				img {
-					transform: scale(.9);
-				}
-			}
 			h4 {
 				font-size: 18px;
 				color: #144199;
@@ -2420,11 +2414,6 @@
 			padding: 35px 25px 40px;
 			margin-top: 50px;
 			.article-header {
-				> p {
-					img {
-						transform: scale(1);
-					}
-				}
 				h4 {
 					font-size: 20px;
 					margin-top: 10px;
