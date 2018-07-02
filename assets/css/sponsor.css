@@ -1321,7 +1321,7 @@ a {
       border: 1px solid #e0e0e0; }
       .regular-sponsor .use .article-header .vertical-board li {
         border: 0; }
-        .regular-sponsor .use .article-header .vertical-board li a {
+        .regular-sponsor .use .article-header .vertical-board li p {
           display: block;
           font-size: 13px;
           color: #666;
@@ -1329,7 +1329,7 @@ a {
           margin: 14px 0 13px;
           text-overflow: ellipsis;
           white-space: nowrap; }
-          .regular-sponsor .use .article-header .vertical-board li a b {
+          .regular-sponsor .use .article-header .vertical-board li p b {
             font-size: 14px;
             color: #333;
             font-weight: 400; }
@@ -1367,16 +1367,16 @@ a {
           background-repeat: no-repeat;
           background-position: 99% 100%;
           background-size: 100px auto; }
-          .regular-sponsor .use .article-header .vertical-board li a {
+          .regular-sponsor .use .article-header .vertical-board li p {
             font-size: 15px;
             margin: 17px 0;
             padding-left: 2px; }
-            .regular-sponsor .use .article-header .vertical-board li a:before {
+            .regular-sponsor .use .article-header .vertical-board li p:before {
               color: #eb6101;
               font-family: "fontello";
               content: "\E816";
               margin-right: 5px; }
-            .regular-sponsor .use .article-header .vertical-board li a b {
+            .regular-sponsor .use .article-header .vertical-board li p b {
               font-size: 16px; }
           .regular-sponsor .use .article-header .vertical-board .slick-arrow.icon-up-open-1 {
             top: 10px; }
