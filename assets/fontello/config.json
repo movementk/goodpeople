@@ -281,6 +281,18 @@
       "css": "cancel",
       "code": 59425,
       "src": "mfglabs"
+    },
+    {
+      "uid": "0eabe5f8d71cc838484ff39436426d2d",
+      "css": "heart-1",
+      "code": 59426,
+      "src": "entypo"
+    },
+    {
+      "uid": "248db7c0563d8cee80b7041f7736dcad",
+      "css": "database",
+      "code": 59427,
+      "src": "entypo"
     }
   ]
 }
