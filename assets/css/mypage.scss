@@ -13,6 +13,35 @@
 
 // 나의 후원아동
 .children-list {
+	//후원내역
+	.support-view {
+		height: 80px;
+		padding: 15px 10px;
+		background-color: #fdeed1;
+		> ul {
+			> li {
+				> dl {
+					dt {
+						float: left;
+						font-size: 13px;
+						color: #333;
+					}
+					dd {
+						float: right;
+						font-size: 13px;
+						color: #333;
+					}
+					&.total {
+						dt {
+							&:before {
+								content: "";
+							}
+						}
+					}
+				}
+			}
+		}
+	}
     // list type 1
     .list-type1 {
         > ul {

@@ -26,6 +26,36 @@
     <!-- Content -->
     <main id="content" class="my-support children-list">
     	<div class="container">
+    		<div class="support-view">
+    			<ul class="row">
+    				<li class="col-12 col-md-6 col-xl-4">
+    					<dl class="total">
+    						<dt>후원 금액 총액</dt>
+    						<dd>
+    							<span>123,456,789</span>원
+    						</dd>
+    					</dl>
+    				</li>
+    				<li class="col-12 col-md-6 col-xl-6">
+    					<dl class="count">
+    						<dt>납부횟수</dt>
+    						<dd>
+    							<span>12,234</span>회
+    							<div class="dropdown">
+									<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Dropdown button
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+										<a class="dropdown-item" href="#">Action</a>
+										<a class="dropdown-item" href="#">Another action</a>
+										<a class="dropdown-item" href="#">Something else here</a>
+									</div>
+								</div>
+    						</dd>
+    					</dl>
+    				</li>
+    			</ul>
+    		</div>
  			<article class="list-type1">
  			    <ul>
  			        <li>
