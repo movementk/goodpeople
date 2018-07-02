@@ -17,24 +17,85 @@
 	.support-view {
 		height: 80px;
 		padding: 15px 10px;
+		margin-bottom: 20px;
 		background-color: #fdeed1;
 		> ul {
 			> li {
+				& ~ li {
+					dl {
+						margin-top: 10px;
+					}
+				}
 				> dl {
 					dt {
 						float: left;
 						font-size: 13px;
+						font-weight: 500;
 						color: #333;
 					}
 					dd {
 						float: right;
 						font-size: 13px;
+						font-weight: 500;
 						color: #333;
+						span {
+							font-size: 15px;
+							font-weight: 500;
+							margin-right: 5px;
+							@include roboto();
+						}
 					}
 					&.total {
 						dt {
 							&:before {
-								content: "";
+								content: "\E823";
+								font-family: "fontello";
+								display: inline-block;
+								width: 20px;
+								height: 20px;
+								font-size: 12px;
+								color: #fff;
+								line-height: 20px;
+								text-align: center;
+								margin-right: 10px;
+								border-radius: 50%;
+								background-color: #eb6100;
+							}
+						}
+						dd {
+							span {
+								color: #eb6100;
+							}
+						}
+					}
+					&.count {
+						dt {
+							&:before {
+								content: "\E822";
+								font-family: "fontello";
+								display: inline-block;
+								width: 20px;
+								height: 20px;
+								font-size: 12px;
+								color: #fff;
+								line-height: 20px;
+								text-align: center;
+								margin-right: 10px;
+								border-radius: 50%;
+								background-color: #144199;
+							}
+						}
+						dd {
+							span {
+								color: #144199;
+							}
+							.dropdown {
+								margin-left: 40px;
+								display: inline-block;
+								.dropdown-menu {
+									float: right;
+									right: 0;
+								}
 							}
 						}
 					}

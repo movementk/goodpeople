@@ -366,17 +366,61 @@ a {
 .children-list .support-view {
   height: 80px;
   padding: 15px 10px;
+  margin-bottom: 20px;
   background-color: #fdeed1; }
+  .children-list .support-view > ul > li ~ li dl {
+    margin-top: 10px; }
   .children-list .support-view > ul > li > dl dt {
     float: left;
     font-size: 13px;
+    font-weight: 500;
     color: #333; }
   .children-list .support-view > ul > li > dl dd {
     float: right;
     font-size: 13px;
+    font-weight: 500;
     color: #333; }
+    .children-list .support-view > ul > li > dl dd span {
+      font-size: 15px;
+      font-weight: 500;
+      margin-right: 5px;
+      font-family: 'Roboto', sans-serif; }
   .children-list .support-view > ul > li > dl.total dt:before {
-    content: ""; }
+    content: "\E823";
+    font-family: "fontello";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #eb6100; }
+  .children-list .support-view > ul > li > dl.total dd span {
+    color: #eb6100; }
+  .children-list .support-view > ul > li > dl.count dt:before {
+    content: "\E822";
+    font-family: "fontello";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #144199; }
+  .children-list .support-view > ul > li > dl.count dd span {
+    color: #144199; }
+  .children-list .support-view > ul > li > dl.count dd .dropdown {
+    margin-left: 40px;
+    display: inline-block; }
+    .children-list .support-view > ul > li > dl.count dd .dropdown .dropdown-menu {
+      float: right;
+      right: 0; }
 .children-list .list-type1 > ul > li {
   padding: 30px 20px;
   border: 1px solid #e2e2e2;
