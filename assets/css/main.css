@@ -462,19 +462,6 @@ a {
         transition-timing-function: linear;
         -webkit-transition-delay: 0.7s;
         transition-delay: 0.7s; }
-        .jumbotrons .visual-list .container-fluid .details .btn-area p .btn {
-          display: inline-block;
-          width: 120px;
-          height: 35px;
-          font-size: 13px;
-          color: #fff;
-          line-height: 35px;
-          text-align: center;
-          margin: 0 auto;
-          padding: 0;
-          border: 0;
-          border-radius: 0;
-          background-color: #144199; }
       .jumbotrons .visual-list .container-fluid .details .bar {
         position: absolute;
         bottom: 0;
@@ -544,12 +531,7 @@ a {
             line-height: 36px;
             margin-top: 60px; }
           .jumbotrons .visual-list .container-fluid .details .btn-area {
-            margin-top: 95px; }
-            .jumbotrons .visual-list .container-fluid .details .btn-area p .btn {
-              width: 200px;
-              font-size: 15px;
-              line-height: 50px;
-              height: 50px; } }
+            margin-top: 95px; } }
   @media (min-width: 1200px) {
     .jumbotrons {
       height: 800px; }
@@ -601,21 +583,63 @@ a {
               line-height: 36px;
               margin-top: 60px; }
             .jumbotrons .visual-list .container-fluid .details .btn-area {
-              margin-top: 95px; }
-              .jumbotrons .visual-list .container-fluid .details .btn-area p .btn {
-                -webkit-transition-property: all;
-                transition-property: all;
-                -webkit-transition-duration: 0.15s;
-                transition-duration: 0.15s;
-                -webkit-transition-timing-function: linear;
-                transition-timing-function: linear;
-                -webkit-transition-delay: 0s;
-                transition-delay: 0s; }
-                .jumbotrons .visual-list .container-fluid .details .btn-area p .btn:hover, .jumbotrons .visual-list .container-fluid .details .btn-area p .btn:focus {
-                  background-color: #eb6100; } }
+              margin-top: 95px; } }
   @media (min-width: 1400) {
     .jumbotrons .visual-list {
       background-position: 50% 50%; } }
+
+.btn-area p .btn {
+  display: inline-block;
+  width: 120px;
+  height: 35px;
+  font-size: 13px;
+  color: #fff;
+  line-height: 33px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid #fff;
+  border-radius: 0; }
+  .btn-area p .btn.type-1 {
+    border-color: #144199;
+    background-color: #144199; }
+  .btn-area p .btn.type-2 {
+    border-color: #eb6100;
+    background-color: #eb6100; }
+  .btn-area p .btn.type-3 {
+    color: #111;
+    border-color: #fff;
+    background-color: #fff; }
+  .btn-area p .btn.type-4 {
+    color: #111;
+    border-color: #111;
+    background: none; }
+  .btn-area p .btn.type-5 {
+    border-color: #fff;
+    background: none; }
+@media (min-width: 768px) {
+  .btn-area p .btn {
+    width: 200px;
+    font-size: 15px;
+    line-height: 48px;
+    height: 50px; } }
+@media (min-width: 1200px) {
+  .btn-area p .btn {
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; }
+    .btn-area p .btn:hover, .btn-area p .btn:focus {
+      color: #fff;
+      border-color: #eb6100;
+      background-color: #eb6100; }
+    .btn-area p .btn.type-2:hover, .btn-area p .btn.type-2:focus {
+      border-color: #144199;
+      background-color: #144199; } }
 
 /*.support-business {
     padding: 30px 0;

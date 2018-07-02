@@ -88,22 +88,6 @@
                     opacity: 0;
                     margin-top: 30px;
                     @include transition($duration: .80s, $delay: .70s);
-                    p {
-                        .btn {
-                            display: inline-block;
-                            width: 120px;
-                            height: 35px;
-                            font-size: 13px;
-                            color: #fff;
-                            line-height: 35px;
-                            text-align: center;
-                            margin: 0 auto;
-                            padding: 0;
-                            border: 0;
-                            border-radius: 0;
-                            background-color: #144199;
-                        }
-                    }
                 }
                 .bar {
                     position: absolute;
@@ -198,14 +182,6 @@
                     }
                     .btn-area {
                         margin-top: 95px;
-                        p {
-                            .btn {
-                                width: 200px;
-                                font-size: 15px;
-                                line-height: 50px;
-                                height: 50px;
-                            }
-                        }
                     }
                 }
             }
@@ -272,14 +248,6 @@
                     }
                     .btn-area {
                         margin-top: 95px;
-                        p {
-                            .btn {
-                                @include transition();
-                                &:hover, &:focus {
-                                    background-color: #eb6100;
-                                }
-                            }
-                        }
                     }
                 }
             }
@@ -288,6 +256,74 @@
     @media(min-width: 1400) {
         .visual-list {
             background-position: 50% 50%;
+        }
+    }
+}
+
+.btn-area {
+    p {
+        .btn {
+            display: inline-block;
+            width: 120px;
+            height: 35px;
+            font-size: 13px;
+            color: #fff;
+            line-height: 33px;
+            text-align: center;
+            margin: 0 auto;
+            padding: 0;
+            border: 1px solid #fff;
+            border-radius: 0;
+            &.type-1 {
+                border-color: #144199;
+                background-color: #144199;
+            }
+            &.type-2 {
+                border-color: #eb6100;
+                background-color: #eb6100;
+            }
+            &.type-3 {
+                color: #111;
+                border-color: #fff;
+                background-color: #fff;
+            }
+            &.type-4 {
+                color: #111;
+                border-color: #111;
+                background: none;
+            }
+            &.type-5 {
+                border-color: #fff;
+                background: none;
+            }
+        }
+    }
+    @media(min-width: $md) {
+        p {
+            .btn {
+                width: 200px;
+                font-size: 15px;
+                line-height: 48px;
+                height: 50px;
+            }
+        }
+    }
+    @media(min-width: $xl) {
+        p {
+            .btn {
+                @include transition();
+                &:hover, &:focus {
+                    color: #fff;
+                    border-color: #eb6100;
+                    background-color: #eb6100;
+                }
+                &.type-2 {
+                    &:hover, &:focus {
+                        border-color: #144199;
+                        background-color: #144199;
+                    }
+                }
+            }
         }
     }
 }

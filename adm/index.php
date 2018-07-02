@@ -567,6 +567,39 @@
                 </article>
             </div>
         </section>
+        
+        <!-- modal popup -->
+        <div class="container=fluid">
+            
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#helpModal">
+                Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade help-modal" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="helpModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <i class="icon-cancel"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/adm/assets/images/img_water02.jpg" alt="">
+                        </div>
+                        <div class="modal-footer">
+                            <div class="btn-area">
+                                <p>
+                                    <button type="button" class="btn btn-sm" data-dismiss="modal">닫기</button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     </main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/adm/inc/docfoot.php'); ?>
     <script src="/adm/assets/js/common.js"></script>

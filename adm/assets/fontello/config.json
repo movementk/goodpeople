@@ -59,6 +59,12 @@
       "css": "search",
       "code": 59394,
       "src": "fontawesome"
+    },
+    {
+      "uid": "06301c50d89b5d3e651bd07ebd6d7de7",
+      "css": "cancel",
+      "code": 59395,
+      "src": "mfglabs"
     }
   ]
 }
