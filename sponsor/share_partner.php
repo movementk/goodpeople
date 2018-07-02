@@ -53,7 +53,7 @@
                                 <small>STEP 01</small>
                                 <p>
                                     문의 및 상담<br>
-                                    (전화/이메일)
+                                    <span>(전화/이메일)</span>
                                 </p>
                             </div>
                         </div>

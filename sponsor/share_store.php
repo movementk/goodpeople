@@ -61,8 +61,8 @@
                                 <div class="details">
                                     <small>STEP 02</small>
                                     <p>
-                                        모금함 발송<br class="d-sm-block d-lg-none">
-                                        (신청 후 2주일 이내)
+                                        모금함 발송<br class="d-block">
+                                        <span>(신청 후 2주일 이내)</span>
                                     </p>
                                 </div>
                             </div>

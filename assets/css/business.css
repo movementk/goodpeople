@@ -854,6 +854,8 @@ a {
         font-size: 15px;
         margin-top: 20px; } }
   @media (min-width: 1200px) {
+    .children .section-content .method li .box {
+      height: 220px; }
     .children .section-content .abc-list {
       margin-top: 60px; }
     .children .section-content .dot-board {

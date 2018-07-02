@@ -96,6 +96,18 @@
 		}
         .method {
             margin-top: 50px;
+			li {
+				.box {
+					.details {
+						p {
+							span {
+								display: block;
+								font-size: 12px;
+							}
+						}
+					}
+				}
+			}
         }
 		@media (min-width: $md) {
 			padding-top: 50px;
@@ -132,7 +144,14 @@
                         }
                     }
                     .box {
-                        height: 220px;
+                        height: 230px;
+						.details {
+							p {
+								span {
+									font-size: 13px;
+								}
+							}
+						}
                     }
                 }
             }
@@ -401,6 +420,20 @@
 		}
 		.section-content {
 			margin-top: 40px;
+			.method {
+				li {
+					.box {
+						.details {
+							p {
+								span {
+									display: block;
+									font-size: 12px;
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 		@media (min-width: $md) {
 			padding-top: 45px;
@@ -433,14 +466,20 @@
                         .box {
                             width: 200px;
                             margin: 0 auto;
+							height: 240px;
+							.details {
+								p {
+									span {
+										font-size: 13px;
+										margin-top: 2px;
+									}
+								}
+							}
                         }
                     }
                 }
 			}
 		}
-        @media(min-width: 1400px) {
-            
-        }
 	}
     .hope {
         color: #fff;

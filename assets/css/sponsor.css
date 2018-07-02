@@ -429,6 +429,9 @@ a {
       color: #eb6100; }
   .share-partner .page-intro .method {
     margin-top: 50px; }
+    .share-partner .page-intro .method li .box .details p span {
+      display: block;
+      font-size: 12px; }
   @media (min-width: 768px) {
     .share-partner .page-intro {
       padding-top: 50px; }
@@ -453,7 +456,9 @@ a {
         .share-partner .page-intro .method li:last-child:after {
           display: none !important; }
         .share-partner .page-intro .method li .box {
-          height: 220px; } }
+          height: 230px; }
+          .share-partner .page-intro .method li .box .details p span {
+            font-size: 13px; } }
 .share-partner .dream {
   color: #fff;
   text-align: center;
@@ -618,6 +623,9 @@ a {
         margin-top: 25px; }
     .share-store .collection-step .section-content {
       margin-top: 40px; }
+      .share-store .collection-step .section-content .method li .box .details p span {
+        display: block;
+        font-size: 12px; }
     @media (min-width: 768px) {
       .share-store .collection-step {
         padding-top: 45px;
@@ -639,7 +647,11 @@ a {
           margin-top: 70px; }
           .share-store .collection-step .section-content .method > li .box {
             width: 200px;
-            margin: 0 auto; } }
+            margin: 0 auto;
+            height: 240px; }
+            .share-store .collection-step .section-content .method > li .box .details p span {
+              font-size: 13px;
+              margin-top: 2px; } }
   .share-store .hope {
     color: #fff;
     padding: 125px 0;
