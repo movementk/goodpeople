@@ -775,6 +775,13 @@
 	}
 	@media (min-width: $xl) {
 		.section-content {
+			.method {
+				li {
+					.box {
+						height: 220px;
+					}	
+				}
+			}
 			.abc-list {
 				margin-top: 60px;
 			}
