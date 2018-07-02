@@ -1586,6 +1586,30 @@
 
 //지부안내 - 해외지부
 .international-camps {
+    .title {
+        text-align: center;
+        margin-top: 60px;
+        font-size: 16px;
+        color: #555;
+        font-weight: 300;
+        line-height: 24px;
+        b {
+            font-weight: 500;
+            &.or {
+                color: #eb6100;
+            }
+            &.bl {
+                color: #144199;
+            }
+        }
+        @media(min-width: $md) {
+            font-size: 18px;
+        }
+        @media(min-width: $xl) {
+            font-size: 20px;
+            margin-top: 80px;
+        }
+    }
 	.maps {
 		margin-top: 35px;
         padding: 0 6%;
@@ -1630,146 +1654,304 @@
 			margin-top: 100px;
 		}
 	}
-	ul {
-		margin-top: 40px;
-		li {
-			padding: 20px 10px;
-			border-bottom: 1px solid #ccc;
-			&:first-child {
-				border-top: 1px solid #ccc;
-			}
-			dl {
-				display: table;
-				width: 100%;
-				dt {	
-					display: table-cell;
-					width: 30%;
-					font-size: 13px;
-					color: #333;
-					font-weight: 400;
-					vertical-align: top;
-					span {
-						display: block;
-						width: 20px;
-						height: 12px;
-						border: 1px solid #111;
-						background-size: cover;
-						margin-bottom: 10px;
-					}
-				}
-				dd {
-					display: table-cell;
-					width: 70%;
-					vertical-align: top;
-					> p {
-						font-size: 13px;
-						line-height: 18px;
-						color: #333;
-						@include roboto();
-					}
-					.btn-area {
-						margin-top: 10px;
-						p {
-							.btn {
-								&.btn-default {
-									width: 110px;
-									font-size: 13px;
-									line-height: 33px;
-									color: #ccc;
-									border: 1px solid #ccc;
-									&:hover, &:focus {
-										font-weight: 400;
-										color: #111;
-										border: 1px solid #5b5b5b;
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-		@media (min-width: $md) {
-			margin-top: 60px;
-			li {
-				padding: 17px 10px 17px 20px;
-				dl {
-					dt {
-						width: 20%;
-						font-size: 15px;
-						vertical-align: middle;
-						span {
-							width: 30px;
-							height: 15px;
-						}
-					}
-					dd {
-						position: relative;
-						width: 80%;
-						vertical-align: top;
-						> p {
-							font-size: 14px;
-							line-height: 24px;
-							padding-right: 160px;
-						}
-						.btn-area {
-							position: absolute;
-							right: 0;
-							top: 50%;
-							margin-top: -23px;
-							p {
-								.btn {
-									&.btn-default {
-										width: 140px;
-										font-size: 14px;
-										line-height: 44px;
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-		@media (min-width: $xl) {
-			margin-top: 65px;
-			li {
-				padding: 27px 25px;
-				dl {
-					dt {
-						span {
-							display: inline-block;
-							margin-right: 15px;
-							margin-bottom: 0;
-						}
-						font-size: 15px;
-						line-height: 24px;
-						vertical-align: middle;
-					}
-					dd {
-						vertical-align: middle;
-						> p {
-							font-size: 14px;
-							line-height: 24px;
-							padding-right: 160px;
-						}
-						.btn-area {
-							p {
-								.btn {
-									&.btn-default {
-										width: 140px;
-										font-size: 14px;
-										line-height: 44px;
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+    .attention {
+        font-size: 13px;
+        color: #666;
+        margin-top: 30px;
+        &:before {
+            content: "※ ";
+        }
+        @media(min-width: $md) {
+            font-size: 14px;
+            margin-top: 50px;
+        }
+    }
+    .overseas-branch {
+        margin-top: 60px;
+        article {
+            display: block;
+            > h5 {
+                width: 100%;
+                font-size: 18px;
+                color: #333;
+                font-weight: 400;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #fff;
+            }
+            &.africa {
+                > h5 {
+                    border-color: #eb6100;
+                }
+            }
+            &.asia {
+                margin-top: 60px;
+                > h5 {
+                    border-color: #144199;
+                }
+            }
+            .nation-list {
+                > li {
+                    border-bottom: 1px solid #ccc;
+                    dl {
+                        dt {
+                            a {
+                                display: inline-block;
+                                color: #333;
+                                font-size: 12px;
+                                font-weight: 500;
+                                margin: 15px 0 15px 10px;
+                            }
+                        }
+                        dd {
+                            > .area-list {
+                                padding: 15px 10px;
+                                > li {
+                                    display: inline-block;
+                                    > a {
+                                        display: inline-block;
+                                        font-size: 11px;
+                                        color: #666;
+                                        font-weight: 400;
+                                        line-height: 16px;
+                                    }
+                                    &:after {
+                                        position: relative;
+                                        top: -2px;
+                                        display: inline-block;
+                                        font-size: 10px;
+                                        margin: 0 10px;
+                                        content: "|";
+                                    }
+                                    &:last-child {
+                                        &:after {
+                                            margin: 0;
+                                            content: "";
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: $md) {
+            margin-top: 80px;
+            article {
+                > h5 {
+                    font-size: 20px;
+                    padding-bottom: 20px;
+                }
+                .nation-list {
+                    > li {
+                        dl {
+                            dt {
+                                a {
+                                    font-size: 15px;
+                                    margin: 15px;
+                                    margin-right: 0;
+                                }
+                            }
+                            dd {
+                                > .area-list {
+                                    padding-left: 0;
+                                    > li {
+                                        > a {
+                                            font-size: 14px;
+                                        }
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: $xl) {
+            margin-top: 100px;
+            article {
+                > h5 {
+                    font-size: 22px;
+                    padding-bottom: 25px;
+                }
+                &.asia {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
 }
+
+/******************** Modal Popup ********************/
+.nation-popup {
+    padding-right: 0 !important;
+    .modal-dialog {
+        margin-top: 100px;
+        margin-bottom: 150px;
+        .modal-content {
+            border-radius: 0;
+            background-color: #fff;
+            .modal-header {
+                padding: 15px 20px;
+                border-radius: 0;
+                border: 0;
+                background-color: #eb6100;
+                h5 {
+                    font-size: 18px;
+                    color: #fff;
+                    font-weight: 500;
+                }
+                .close {
+                    font-size: 22px;
+                    padding: 0;
+                    color: #fff;
+                    box-shadow: none !important;
+                    margin: 0 0 0 auto;
+                    opacity: 1 !important;
+                }
+            }
+            .modal-body {
+                padding: 20px 20px;
+                border: 0;
+                .table-wrap {
+                    .table {
+                        &.type-1 {
+                            margin: 0;
+                            border: 0;
+                            border-top: 1px solid #ccc;
+                            tbody {
+                                tr {
+                                    th {
+                                        font-size: 13px;
+                                        color: #333;
+                                        font-weight: 300;
+                                        line-height: 20px;
+                                        text-align: center;
+                                        vertical-align: middle;
+                                        padding: 15px 0;
+                                        border: 0;
+                                        border-bottom: 1px solid #ccc;
+                                        background-color: #f3f5fa;
+                                    }
+                                    td {
+                                        font-size: 15px;
+                                        color: #333;
+                                        font-weight: 400;
+                                        line-height: 20px;
+                                        padding: 15px 0;
+                                        text-align: center;
+                                        vertical-align: middle;
+                                        border: 0;
+                                        border-bottom: 1px solid #ccc;
+                                    }
+                                }
+                            }
+                        }
+                        &.type-2 {
+                            margin: 0;
+                            border: 0;
+                            border-top: 1px solid #aaa;
+                            thead {
+                                tr {
+                                    th {
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        color: #333;
+                                        vertical-align: middle;
+                                        text-align: center;
+                                        padding: 15px 0;
+                                        border: 0;
+                                        border-bottom: 1px solid #aaa;
+                                        background-color: #f3f5fa;
+                                    }
+                                }
+                            }
+                            tbody {
+                                tr {
+                                    td {
+                                        font-size: 13px;
+                                        color: #333;
+                                        font-weight: 400;
+                                        line-height: 18px;
+                                        vertical-align: middle;
+                                        text-align: center;
+                                        padding: 15px 0;
+                                        border: 0;
+                                        border-bottom: 1px solid #aaa;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .introduce {
+                    margin-top: 35px;
+                    .article-header {
+                        h6 {
+                            font-size: 18px;
+                            color: #144199;
+                            padding-bottom: 15px;
+                            border-bottom: 2px solid #144199;
+                        }
+                    }
+                    .article-content {
+                        .summary {
+                            font-size: 13px;
+                            line-height: 22px;
+                            color: #666;
+                            margin: 15px 0 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.nation-modal {
+        .modal-dialog {
+            max-width: 470px;
+        }
+    }
+    &.area-modal {
+        .modal-dialog {
+            max-width: 630px;
+            .modal-body {
+                padding-top: 30px;
+                padding-bottom: 40px;
+                .modal-slider {
+                    position: relative;
+                    .slick-arrow {
+                        position: absolute;
+                        font-size: 30px;
+                        top: 50%;
+                        color: #fff;
+                        z-index: 100;
+                        padding: 0;
+                        border: 0;
+                        margin-top: -23px;
+                        cursor: pointer;
+                        background: none !important;
+                        box-shadow: none !important;
+                        @include transition();
+                        &.slick-prev {
+                            left: 0;
+                        }
+                        &.slick-next {
+                            right: 0;
+                        }
+                        &:hover {
+                            color: #eb6100;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
 
 //찾아오시는길
 .directions {

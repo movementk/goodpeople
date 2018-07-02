@@ -1030,7 +1030,7 @@ a {
       left: 0; }
     .goodpeople-news .slick-arrow.slick-next {
       right: 0; }
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
       .goodpeople-news .slick-arrow {
         display: none !important; } }
   .goodpeople-news .news a {
@@ -1151,18 +1151,19 @@ a {
             font-weight: 400;
             word-break: keep-all;
             font-family: 'NanumSquare', sans-serif; }
-          .campaign-review .review-slide .review .content .details .more-btn {
-            margin-top: 20px; }
-            .campaign-review .review-slide .review .content .details .more-btn .btn-default {
-              width: 120px;
-              height: 35px;
-              line-height: 33px;
-              font-size: 12px;
-              color: #111;
-              padding: 0;
-              border-radius: 0;
-              border: 1px solid #111;
-              background: none !important; }
+          .campaign-review .review-slide .review .content .details .btn-area {
+            margin-top: 20px;
+            /*.btn-default {
+                width: 120px;
+                height: 35px;
+                line-height: 33px;
+                font-size: 12px;
+                color: #111;
+                padding: 0;
+                border-radius: 0;
+                border: 1px solid #111;
+                background: none !important;
+            }*/ }
   @media (min-width: 768px) {
     .campaign-review .review-slide .slick-arrow {
       width: 33px;
@@ -1187,13 +1188,14 @@ a {
         .campaign-review .review-slide .review .content .details .summary {
           font-size: 25px;
           line-height: 46px; }
-        .campaign-review .review-slide .review .content .details .more-btn {
-          margin-top: 40px; }
-          .campaign-review .review-slide .review .content .details .more-btn .btn-default {
-            width: 160px;
-            height: 45px;
-            line-height: 43px;
-            font-size: 14px; } }
+        .campaign-review .review-slide .review .content .details .btn-area {
+          margin-top: 40px;
+          /*.btn-default {
+              width: 160px;
+              height: 45px;
+              line-height: 43px;
+              font-size: 14px;
+          }*/ } }
   @media (min-width: 1200px) {
     .campaign-review {
       padding: 100px 6%; }
@@ -1208,21 +1210,16 @@ a {
           .campaign-review .review-slide .review .content .details .summary {
             font-size: 28px;
             line-height: 46px; }
-          .campaign-review .review-slide .review .content .details .more-btn {
-            margin-top: 60px; }
-            .campaign-review .review-slide .review .content .details .more-btn .btn-default {
-              -webkit-transition-property: all;
-              transition-property: all;
-              -webkit-transition-duration: 0.15s;
-              transition-duration: 0.15s;
-              -webkit-transition-timing-function: linear;
-              transition-timing-function: linear;
-              -webkit-transition-delay: 0s;
-              transition-delay: 0s; }
-              .campaign-review .review-slide .review .content .details .more-btn .btn-default:hover, .campaign-review .review-slide .review .content .details .more-btn .btn-default:focus {
-                color: #fff;
-                border-color: #eb6100;
-                background: #eb6100 !important; } }
+          .campaign-review .review-slide .review .content .details .btn-area {
+            margin-top: 60px;
+            /*.btn-default {
+                @include transition();
+                &:hover, &:focus {
+                    color: #fff;
+                    border-color: #eb6100;
+                    background: #eb6100 !important;
+                }
+            }*/ } }
 
 .global-business {
   padding-bottom: 10px;

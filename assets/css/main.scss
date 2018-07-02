@@ -801,7 +801,7 @@
         &.slick-next {
             right: 0;
         }
-        @media(min-width: $lg) {
+        @media(min-width: $xl) {
             display: none !important;
         }
     }
@@ -963,9 +963,9 @@
                         word-break: keep-all;
                         @include nns();
                     }
-                    .more-btn {
+                    .btn-area {
                         margin-top: 20px;
-                        .btn-default {
+                        /*.btn-default {
                             width: 120px;
                             height: 35px;
                             line-height: 33px;
@@ -975,7 +975,7 @@
                             border-radius: 0;
                             border: 1px solid #111;
                             background: none !important;
-                        }
+                        }*/
                     }
                 }
             }
@@ -1012,14 +1012,14 @@
                             font-size: 25px;
                             line-height: 46px;
                         }
-                        .more-btn {
+                        .btn-area {
                             margin-top: 40px;
-                            .btn-default {
+                            /*.btn-default {
                                 width: 160px;
                                 height: 45px;
                                 line-height: 43px;
                                 font-size: 14px;
-                            }
+                            }*/
                         }
                     }
                 }
@@ -1043,16 +1043,16 @@
                             font-size: 28px;
                             line-height: 46px;
                         }
-                        .more-btn {
+                        .btn-area {
                             margin-top: 60px;
-                            .btn-default {
+                            /*.btn-default {
                                 @include transition();
                                 &:hover, &:focus {
                                     color: #fff;
                                     border-color: #eb6100;
                                     background: #eb6100 !important;
                                 }
-                            }
+                            }*/
                         }
                     }
                 }
