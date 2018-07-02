@@ -455,6 +455,31 @@
             </div>
         </article>
     </main>
+
+    <!-- Main Modal Popup -->
+    <div class="modal" id="mainPopup" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <figure>
+                        <img src="/assets/images/main/img_main_popup.jpg" class="img-fluid" alt="">
+                    </figure>
+                </div>
+                <div class="modal-footer">
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox">
+                            오늘하루 열지 않습니다.
+                        </label>
+                        <button type="button" class="btn btn-xs" data-dismiss="modal">닫기</button>
+                    </div>
+                    <div class="btn-more">
+                        <a href="#" class="btn btn-sm" role="button">자세히보기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/sitemap.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>

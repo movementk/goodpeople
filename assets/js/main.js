@@ -172,4 +172,7 @@
             });
         });
     });
+    
+    // main modal popup
+    $('#mainPopup').modal('show');
 })(jQuery);
