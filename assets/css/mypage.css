@@ -363,6 +363,20 @@ a {
     .mypage .page-header .page-summary {
       background-image: url(/assets/images/mypage/bg_page_header_lg.jpg); } }
 
+.children-list .support-view {
+  height: 80px;
+  padding: 15px 10px;
+  background-color: #fdeed1; }
+  .children-list .support-view > ul > li > dl dt {
+    float: left;
+    font-size: 13px;
+    color: #333; }
+  .children-list .support-view > ul > li > dl dd {
+    float: right;
+    font-size: 13px;
+    color: #333; }
+  .children-list .support-view > ul > li > dl.total dt:before {
+    content: ""; }
 .children-list .list-type1 > ul > li {
   padding: 30px 20px;
   border: 1px solid #e2e2e2;
