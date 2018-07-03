@@ -475,7 +475,7 @@ a {
           line-height: 33px;
           border: 1px solid #999;
           background: none; }
-        .children-list .list-type1 > ul > li .details .btn-area p .btn:hover, .children-list .list-type1 > ul > li .details .btn-area p .btn:focus {
+        .children-list .list-type1 > ul > li .details .btn-area p .btn:hover {
           opacity: 1;
           color: #fff;
           border-color: #eb6100;
@@ -655,7 +655,7 @@ a {
           line-height: 33px;
           border: 1px solid #999;
           background: none; }
-        .children-view .children-details .article-content .details .btn-letter p .btn:hover, .children-view .children-details .article-content .details .btn-letter p .btn:focus {
+        .children-view .children-details .article-content .details .btn-letter p .btn:hover {
           opacity: 1;
           color: #fff;
           border-color: #eb6100;
@@ -671,7 +671,7 @@ a {
     text-align: center;
     line-height: 43px;
     border: 1px solid #2b2b2b; }
-    .children-view .children-details .btn-area p .btn-white:hover, .children-view .children-details .btn-area p .btn-white:focus {
+    .children-view .children-details .btn-area p .btn-white:hover {
       opacity: 1;
       color: #fff;
       border-color: #eb6100;
@@ -860,7 +860,7 @@ a {
     font-size: 13px;
     color: #111;
     border: 1px solid #2b2b2b; }
-    .letter-list .article-content .btn-area p .btn-md:hover, .letter-list .article-content .btn-area p .btn-md:focus {
+    .letter-list .article-content .btn-area p .btn-md:hover {
       opacity: 1;
       color: #fff;
       border-color: #eb6100;

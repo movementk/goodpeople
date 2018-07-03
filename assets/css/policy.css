@@ -523,7 +523,7 @@ a {
       -webkit-transition-delay: 0s;
       transition-delay: 0s;
       background-color: #eb6100; }
-      .pw-confirm .pw-form .form .btn-area p .btn-orange:hover, .pw-confirm .pw-form .form .btn-area p .btn-orange:focus {
+      .pw-confirm .pw-form .form .btn-area p .btn-orange:hover {
         opacity: .7; }
 @media (min-width: 768px) {
   .pw-confirm .pw-form {

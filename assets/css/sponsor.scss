@@ -53,7 +53,7 @@
                     line-height: 48px;
                     height: 50px;
                     @include transition();
-                    &:hover, &:focus {
+                    &:hover/*, &:focus*/ {
                         opacity: .8;
                         border: 1px solid #eb6100;
                         background-color: #eb6100;
@@ -62,7 +62,7 @@
                 }
                 &.active {
                     a {
-                        &:hover, &:focus {
+                        &:hover/*, &:focus*/ {
                             opacity: 1 !important;
                         }
                     }
@@ -948,7 +948,7 @@
                             }
                         }
                     }
-                    &:hover, &:focus {
+                    &:hover/*, &:focus*/ {
                         .figcaption {
 							height: 100%;
                             .details {
@@ -1011,7 +1011,7 @@
 								}
 							}
 						}
-						&:hover, &:focus {
+						&:hover/*, &:focus*/ {
 							.figcaption {
 								height: 75%;
 							}
@@ -1051,7 +1051,7 @@
 								}
 							}
 						}
-						&:hover, &:focus {
+						&:hover/*, &:focus*/ {
 							.figcaption {
 								.details {
 									> div {
@@ -1110,7 +1110,7 @@
                         top: -3px;
 						text-align: right;
                     }
-                    &:hover, &:focus {
+                    &:hover/*, &:focus*/ {
                         opacity: .7;
                     }
                 }
@@ -1595,7 +1595,7 @@
 						color: #fff;
 						text-align: center;
 						border: 1px solid #fff;
-						&:hover, &:focus {
+						&:hover/*, &:focus*/ {
 							background-color: #eb6100;
 							border-color: #eb6100;
 							opacity: 1;

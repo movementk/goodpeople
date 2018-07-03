@@ -205,6 +205,7 @@
             background-repeat: no-repeat;
             background-size: 40px 78px;
             background-position: 0 0;
+            @include transition();
             &.slick-prev {
                 left: 30px;
                 z-index: 1;
@@ -312,13 +313,13 @@
         p {
             .btn {
                 @include transition();
-                &:hover, &:focus {
+                &:hover/*, &:focus*/ {
                     color: #fff;
                     border-color: #eb6100;
                     background-color: #eb6100;
                 }
                 &.type-2 {
-                    &:hover, &:focus {
+                    &:hover/*, &:focus*/ {
                         border-color: #144199;
                         background-color: #144199;
                     }
@@ -752,7 +753,7 @@
                                 border: 1px solid #fff;
                             }
                         }
-                        &:hover, &:focus {
+                        &:hover/*, &:focus*/ {
                             .details {
                                 border-color: #eb6100;
                                 background-color: #eb6100;
@@ -795,11 +796,15 @@
         font-size: 32px;
         margin-top: -25px;
         cursor: pointer;
+        @include transition();
         &.slick-prev {
             left: 0;
         }
         &.slick-next {
             right: 0;
+        }
+        &:hover {
+            color: #eb6100;
         }
         @media(min-width: $xl) {
             display: none !important;
@@ -869,7 +874,7 @@
                     left: 50px;
                     bottom: 50px;
                 }
-                &:hover, &:focus {
+                &:hover/*, &:focus*/ {
                     .item-img {
                         .img-fluid {
                             transform: scale(1.1);
@@ -916,6 +921,7 @@
             background-repeat: no-repeat;
             background-position: 50% 50%;
             background-size: 6px auto;
+            @include transition();
             &.slick-prev {
                 left: 0;
                 border-top-left-radius: 0;
@@ -1212,7 +1218,7 @@
                         font-size: 22px;
                     }
                 }
-                &:hover, &:focus {
+                &:hover/*, &:focus*/ {
                     .item-img {
                         .img-fluid {
                             transform: scale(1.1);
@@ -1441,7 +1447,7 @@
                                         color: #eb6100;
                                         background-color: #fff;
                                         border: 2px solid #eb6100;
-                                        &:hover, &:focus {
+                                        &:hover/*, &:focus*/ {
                                             color: #fff;
                                             background-color: #eb6100;
                                         }
@@ -1450,14 +1456,14 @@
                                         color: #144199;
                                         background-color: #fff;
                                         border: 2px solid #144199;
-                                        &:hover, &:focus {
+                                        &:hover/*, &:focus*/ {
                                             color: #fff;
                                             background-color: #144199;
                                         }
                                     }
                                     &.btn-white {
                                         padding: 30px 0;
-                                        &:hover, &:focus {
+                                        &:hover/*, &:focus*/ {
                                             color: #fff;
                                             border-color: #aaa;
                                             background-color: #aaa;
@@ -1700,14 +1706,14 @@
                                         line-height: 32px;
                                         @include transition();
                                         &.btn-blue {
-                                            &:hover, &:focus {
+                                            &:hover/*, &:focus*/ {
                                                 font-weight: 400;
                                                 color: #38559f;
                                                 background-color: #fff;
                                             }
                                         }
                                         &.btn-green {
-                                            &:hover, &:focus {
+                                            &:hover/*, &:focus*/ {
                                                 font-weight: 400;
                                                 color: #2db400;
                                                 background-color: #fff;
@@ -1728,7 +1734,7 @@
                                     @include transition();
                                 }
                             }
-                            &:hover, &:focus {
+                            &:hover/*, &:focus*/ {
                                 .play-icon {
                                     .icon-play {
                                         color: #ff0000;

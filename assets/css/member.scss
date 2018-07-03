@@ -128,7 +128,7 @@
                 .btn {
                     &.btn-lg {
                         @include transition();
-                        &:hover, &:focus {
+                        &:hover/*, &:focus*/ {
                             opacity: .7;
                         }
                     }

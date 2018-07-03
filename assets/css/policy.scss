@@ -285,7 +285,7 @@
                         line-height: 40px;
                         @include transition();
                         background-color: #eb6100;
-                        &:hover, &:focus {
+                        &:hover/*, &:focus*/ {
                             opacity: .7;
                         }
                     }

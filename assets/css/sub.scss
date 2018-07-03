@@ -81,7 +81,7 @@ input, textarea {
             display: inline-block;
             text-align: center;
             @include transition();
-            &:hover, &:focus {
+            &:hover/*, &:focus*/ {
                 opacity: .7;
             }
 			&.btn-black {
@@ -493,7 +493,7 @@ input, textarea {
                 > li {
                     a {
                         @include transition();
-                        &:hover, &:focus {
+                        &:hover/*, &:focus*/ {
                             color: #eb6100;
                             opacity: .7;
                             &:after {
@@ -510,7 +510,7 @@ input, textarea {
                     }
                     &.active {
                         a {
-                            &:hover, &:focus {
+                            &:hover/*, &:focus*/ {
                                 opacity: 1;
                                 &:after {
                                     opacity: 1;
@@ -575,7 +575,7 @@ input, textarea {
 			font-size: 14px;
 			color: #144199;
 			background: none !important;
-			&:hover, &:focus {
+			&:hover/*, &:focus*/ {
 				i {
 					opacity: .7;
 				}
@@ -642,7 +642,7 @@ input, textarea {
 				font-size: 14px;
 				color: #144199;
 				background: none !important;
-				&:hover, &:focus {
+				&:hover/*, &:focus*/ {
 					i {
 						opacity: .7;
 					}
@@ -1216,7 +1216,7 @@ input, textarea {
                             color: #111;
                             border: 2px solid #666;
                         }
-                        &:hover, &:focus {
+                        &:hover/*, &:focus*/ {
                             color: #fff;
                             &.btn-orange {
                                 background-color: #eb6100;
@@ -1262,7 +1262,7 @@ input, textarea {
 				a {
 					font-size: 13px;
 					color: #aaa;
-					&:hover, &:focus {
+					&:hover/*, &:focus*/ {
 						color: #666;
 					}
 				}
@@ -1867,7 +1867,7 @@ input, textarea {
                         @include transition();
                     }
                 }
-                &:hover, &:focus {
+                &:hover/*, &:focus*/ {
                     .item-ebook {
                         border-color: #f5a100;
                         .hover-box {
@@ -1953,7 +1953,7 @@ input, textarea {
 						font-weight: 300;
 						font-family: "fontello";
 					}
-					&:hover, &:focus {
+					&:hover/*, &:focus*/ {
 						text-decoration: none;
 					}
 				}

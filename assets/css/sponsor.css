@@ -403,12 +403,12 @@ a {
           transition-timing-function: linear;
           -webkit-transition-delay: 0s;
           transition-delay: 0s; }
-          .sub-tab-list ul li a:hover, .sub-tab-list ul li a:focus {
+          .sub-tab-list ul li a:hover {
             opacity: .8;
             border: 1px solid #eb6100;
             background-color: #eb6100;
             color: #fff; }
-        .sub-tab-list ul li.active a:hover, .sub-tab-list ul li.active a:focus {
+        .sub-tab-list ul li.active a:hover {
           opacity: 1 !important; } }
 
 .share-partner .page-intro {
@@ -1018,12 +1018,12 @@ a {
                   font-size: 11px;
                   color: #fff;
                   line-height: 18px; }
-      .honors-member .members > ul > li > a:hover .figcaption, .honors-member .members > ul > li > a:focus .figcaption {
+      .honors-member .members > ul > li > a:hover .figcaption {
         height: 100%; }
-        .honors-member .members > ul > li > a:hover .figcaption .details, .honors-member .members > ul > li > a:focus .figcaption .details {
+        .honors-member .members > ul > li > a:hover .figcaption .details {
           height: 100%;
           background-color: #eb6100; }
-          .honors-member .members > ul > li > a:hover .figcaption .details .v-align > div .summary, .honors-member .members > ul > li > a:focus .figcaption .details .v-align > div .summary {
+          .honors-member .members > ul > li > a:hover .figcaption .details .v-align > div .summary {
             display: block;
             margin-top: 5px; }
     @media (min-width: 768px) {
@@ -1051,7 +1051,7 @@ a {
                 .honors-member .members > ul > li > a .figcaption .details .v-align > div .summary p {
                   font-size: 13px;
                   line-height: 20px; }
-          .honors-member .members > ul > li > a:hover .figcaption, .honors-member .members > ul > li > a:focus .figcaption {
+          .honors-member .members > ul > li > a:hover .figcaption {
             height: 75%; } }
     @media (min-width: 1200px) {
       .honors-member .members {
@@ -1064,7 +1064,7 @@ a {
           font-size: 16px; }
         .honors-member .members > ul > li > a .figcaption .details .v-align > div .summary hr {
           margin: 25px 0; }
-        .honors-member .members > ul > li > a:hover .figcaption .details > div h5, .honors-member .members > ul > li > a:focus .figcaption .details > div h5 {
+        .honors-member .members > ul > li > a:hover .figcaption .details > div h5 {
           font-size: 18px; } }
 
 /********** video-modal popup **********/
@@ -1104,7 +1104,7 @@ a {
             position: relative;
             top: -3px;
             text-align: right; }
-          .video-modal .modal-dialog .modal-content .modal-header .close:hover, .video-modal .modal-dialog .modal-content .modal-header .close:focus {
+          .video-modal .modal-dialog .modal-content .modal-header .close:hover {
             opacity: .7; }
       .video-modal .modal-dialog .modal-content .modal-body {
         padding: 0 0 70px;
@@ -1426,7 +1426,7 @@ a {
         color: #fff;
         text-align: center;
         border: 1px solid #fff; }
-        .regular-sponsor .use .bg-regular .btn-area p .btn:hover, .regular-sponsor .use .bg-regular .btn-area p .btn:focus {
+        .regular-sponsor .use .bg-regular .btn-area p .btn:hover {
           background-color: #eb6100;
           border-color: #eb6100;
           opacity: 1; }

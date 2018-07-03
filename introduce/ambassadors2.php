@@ -202,18 +202,21 @@
     <script src="/assets/js/sub.js"></script>
     <script>
         (function($){
-            $(window).ready(function(){
-                $('#video-popup .modal-body .star-slide ul').slick({
-                    dots: false,
-                    infinite: true,
-                    autoplaySpeed: 5000,
-                    cssEase: 'linear',
-                    pauseOnHover: false,
-                    pauseOnFocus: false,
-                    prevArrow: '<button class="slick-prev"><i class="icon-left-open-big"></i></button>',
-                    nextArrow: '<button class="slick-next"><i class="icon-right-open-big"></i></button>',
-                });
-            });
+			$('#video-popup').on('show.bs.modal', function (e) {
+				setTimeout(function(){
+					$('#video-popup .modal-body .star-slide ul').slick({
+						autoplay: true,
+						dots: false,
+						infinite: true,
+						autoplaySpeed: 5000,
+						cssEase: 'linear',
+						pauseOnHover: false,
+						pauseOnFocus: false,
+                        prevArrow: '<button class="slick-prev"><i class="icon-left-open-big"></i></button>',
+                        nextArrow: '<button class="slick-next"><i class="icon-right-open-big"></i></button>',
+					});
+				}, 200);
+			});
         })(jQuery);
     </script>
 </body>

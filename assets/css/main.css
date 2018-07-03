@@ -550,7 +550,15 @@ a {
         background: none;
         background-repeat: no-repeat;
         background-size: 40px 78px;
-        background-position: 0 0; }
+        background-position: 0 0;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; }
         .jumbotrons .slick-arrow.slick-prev {
           left: 30px;
           z-index: 1;
@@ -633,11 +641,11 @@ a {
     transition-timing-function: linear;
     -webkit-transition-delay: 0s;
     transition-delay: 0s; }
-    .btn-area p .btn:hover, .btn-area p .btn:focus {
+    .btn-area p .btn:hover {
       color: #fff;
       border-color: #eb6100;
       background-color: #eb6100; }
-    .btn-area p .btn.type-2:hover, .btn-area p .btn.type-2:focus {
+    .btn-area p .btn.type-2:hover {
       border-color: #144199;
       background-color: #144199; } }
 
@@ -996,16 +1004,16 @@ a {
             text-align: center;
             color: #fff;
             border: 1px solid #fff; }
-        .campaign-list .section-content > ul > li > a:hover .details, .campaign-list .section-content > ul > li > a:focus .details {
+        .campaign-list .section-content > ul > li > a:hover .details {
           border-color: #eb6100;
           background-color: #eb6100; }
-          .campaign-list .section-content > ul > li > a:hover .details .table-align, .campaign-list .section-content > ul > li > a:focus .details .table-align {
+          .campaign-list .section-content > ul > li > a:hover .details .table-align {
             padding-top: 10px;
             height: 130px; }
-          .campaign-list .section-content > ul > li > a:hover .details h4, .campaign-list .section-content > ul > li > a:focus .details h4 {
+          .campaign-list .section-content > ul > li > a:hover .details h4 {
             /*color: #fff;*/
             display: none; }
-          .campaign-list .section-content > ul > li > a:hover .details .more, .campaign-list .section-content > ul > li > a:focus .details .more {
+          .campaign-list .section-content > ul > li > a:hover .details .more {
             display: block;
             position: absolute;
             top: 55%;
@@ -1025,11 +1033,21 @@ a {
     padding: 0;
     font-size: 32px;
     margin-top: -25px;
-    cursor: pointer; }
+    cursor: pointer;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; }
     .goodpeople-news .slick-arrow.slick-prev {
       left: 0; }
     .goodpeople-news .slick-arrow.slick-next {
       right: 0; }
+    .goodpeople-news .slick-arrow:hover {
+      color: #eb6100; }
     @media (min-width: 1200px) {
       .goodpeople-news .slick-arrow {
         display: none !important; } }
@@ -1082,7 +1100,7 @@ a {
     .goodpeople-news .news a .details {
       left: 50px;
       bottom: 50px; }
-    .goodpeople-news .news a:hover .item-img .img-fluid, .goodpeople-news .news a:focus .item-img .img-fluid {
+    .goodpeople-news .news a:hover .item-img .img-fluid {
       transform: scale(1.1);
       -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
@@ -1110,7 +1128,15 @@ a {
       background-color: #fff;
       background-repeat: no-repeat;
       background-position: 50% 50%;
-      background-size: 6px auto; }
+      background-size: 6px auto;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
       .campaign-review .review-slide .slick-arrow.slick-prev {
         left: 0;
         border-top-left-radius: 0;
@@ -1336,7 +1362,7 @@ a {
           margin-bottom: 15px; }
         .global-business .business > a .details h4 {
           font-size: 22px; }
-      .global-business .business > a:hover .item-img .img-fluid, .global-business .business > a:focus .item-img .img-fluid {
+      .global-business .business > a:hover .item-img .img-fluid {
         transform: scale(1.1);
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
@@ -1493,19 +1519,19 @@ a {
               color: #eb6100;
               background-color: #fff;
               border: 2px solid #eb6100; }
-              .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-orange:hover, .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-orange:focus {
+              .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-orange:hover {
                 color: #fff;
                 background-color: #eb6100; }
             .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-blue {
               color: #144199;
               background-color: #fff;
               border: 2px solid #144199; }
-              .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-blue:hover, .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-blue:focus {
+              .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-blue:hover {
                 color: #fff;
                 background-color: #144199; }
             .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-white {
               padding: 30px 0; }
-              .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-white:hover, .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-white:focus {
+              .sponsorship-info .info-list > ul > li article.give .btn-area .btn.btn-white:hover {
                 color: #fff;
                 border-color: #aaa;
                 background-color: #aaa; }
@@ -1661,11 +1687,11 @@ a {
               transition-timing-function: linear;
               -webkit-transition-delay: 0s;
               transition-delay: 0s; }
-              .sns-issue ul li .sns .details > div.content-foot .more-btn .btn-white.btn-blue:hover, .sns-issue ul li .sns .details > div.content-foot .more-btn .btn-white.btn-blue:focus {
+              .sns-issue ul li .sns .details > div.content-foot .more-btn .btn-white.btn-blue:hover {
                 font-weight: 400;
                 color: #38559f;
                 background-color: #fff; }
-              .sns-issue ul li .sns .details > div.content-foot .more-btn .btn-white.btn-green:hover, .sns-issue ul li .sns .details > div.content-foot .more-btn .btn-white.btn-green:focus {
+              .sns-issue ul li .sns .details > div.content-foot .more-btn .btn-white.btn-green:hover {
                 font-weight: 400;
                 color: #2db400;
                 background-color: #fff; }
@@ -1682,7 +1708,7 @@ a {
           transition-timing-function: linear;
           -webkit-transition-delay: 0s;
           transition-delay: 0s; }
-      .sns-issue ul li .sns.youtube a:hover .play-icon .icon-play, .sns-issue ul li .sns.youtube a:focus .play-icon .icon-play {
+      .sns-issue ul li .sns.youtube a:hover .play-icon .icon-play {
         color: #ff0000; }
       .sns-issue ul li .sns.instagram a:after {
         -webkit-transition-property: all;

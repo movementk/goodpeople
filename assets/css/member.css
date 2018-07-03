@@ -455,7 +455,7 @@ a {
         transition-timing-function: linear;
         -webkit-transition-delay: 0s;
         transition-delay: 0s; }
-        .login .login-form .btn-area .btn.btn-lg:hover, .login .login-form .btn-area .btn.btn-lg:focus {
+        .login .login-form .btn-area .btn.btn-lg:hover {
           opacity: .7; } }
 
 .annual-report {

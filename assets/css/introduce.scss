@@ -652,11 +652,11 @@
 							border-top: 1px solid #ccc; 
 						}
 						&.active {
-							&:hover, &:focus {
+							&:hover/*, &:focus*/ {
 								opacity: 1;
 							}
 						}
-						&:hover, &:focus {
+						&:hover/*, &:focus*/ {
 							opacity: .7;
 							border-color: #eb6100;
 							@include transition();
@@ -765,7 +765,7 @@
 											padding: 0;
 											padding-left: 20px;
 											@include roboto();
-											&:hover, &:focus {
+											&:hover/*, &:focus*/ {
 												color: #144199;
 												background: none;
 											}
@@ -1158,7 +1158,7 @@
                         top: -3px;
 						text-align: right;
                     }
-                    &:hover, &:focus {
+                    &:hover/*, &:focus*/ {
                         opacity: .7;
                     }
                 }
@@ -1241,11 +1241,15 @@
                         border: 0 !important;
                         background: none;
                         z-index: 1;
+                        @include transition();
                         &.slick-prev {
                             left: 10px;
                         }
                         &.slick-next {
                             right: 10px;
+                        }
+                        &:hover {
+                            color: #eb6100;
                         }
                         @media(min-width: $md) {
                             font-size: 28px;
@@ -2361,7 +2365,7 @@
 							line-height: 48px;
 							height: 50px;
 							@include transition();
-							&:hover, &:focus {
+							&:hover/*, &:focus*/ {
 								opacity: .8;
 								border: 1px solid #eb6100;
 								background-color: #eb6100;
@@ -2370,7 +2374,7 @@
 						}
 						&.active {
 							a {
-								&:hover, &:focus {
+								&:hover/*, &:focus*/ {
 									opacity: 1 !important;
 								}
 							}
@@ -2459,7 +2463,7 @@
 								line-height: 48px;
 								height: 50px;
 								@include transition();
-								&:hover, &:focus {
+								&:hover/*, &:focus*/ {
 									opacity: .8;
 									border: 1px solid #eb6100;
 									background-color: #eb6100;
@@ -2468,7 +2472,7 @@
 							}
 							&.active {
 								a {
-									&:hover, &:focus {
+									&:hover/*, &:focus*/ {
 										opacity: 1 !important;
 									}
 								}

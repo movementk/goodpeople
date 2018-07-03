@@ -432,7 +432,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     transition-timing-function: linear;
     -webkit-transition-delay: 0s;
     transition-delay: 0s; }
-    .btn-area p .btn:hover, .btn-area p .btn:focus {
+    .btn-area p .btn:hover {
       opacity: .7; }
     .btn-area p .btn.btn-black {
       width: 120px;
@@ -740,10 +740,10 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     transition-timing-function: linear;
     -webkit-transition-delay: 0s;
     transition-delay: 0s; }
-    .page-intro .lnb .tab-list > li a:hover, .page-intro .lnb .tab-list > li a:focus {
+    .page-intro .lnb .tab-list > li a:hover {
       color: #eb6100;
       opacity: .7; }
-      .page-intro .lnb .tab-list > li a:hover:after, .page-intro .lnb .tab-list > li a:focus:after {
+      .page-intro .lnb .tab-list > li a:hover:after {
         position: absolute;
         bottom: -1px;
         left: 0;
@@ -752,9 +752,9 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         content: " ";
         opacity: .6;
         border-bottom: 2px solid #eb6100; }
-  .page-intro .lnb .tab-list > li.active a:hover, .page-intro .lnb .tab-list > li.active a:focus {
+  .page-intro .lnb .tab-list > li.active a:hover {
     opacity: 1; }
-    .page-intro .lnb .tab-list > li.active a:hover:after, .page-intro .lnb .tab-list > li.active a:focus:after {
+    .page-intro .lnb .tab-list > li.active a:hover:after {
       opacity: 1; } }
 
 /************ 아라씨 작업 ************/
@@ -800,7 +800,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     font-size: 14px;
     color: #144199;
     background: none !important; }
-    .search-form .btn-search .btn-default:hover i, .search-form .btn-search .btn-default:focus i {
+    .search-form .btn-search .btn-default:hover i {
       opacity: .7; }
     .search-form .btn-search .btn-default i {
       position: relative;
@@ -848,7 +848,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       font-size: 14px;
       color: #144199;
       background: none !important; }
-      .select-search .btn-search .btn.btn-default:hover i, .select-search .btn-search .btn.btn-default:focus i {
+      .select-search .btn-search .btn.btn-default:hover i {
         opacity: .7; }
       .select-search .btn-search .btn.btn-default i {
         position: relative;
@@ -1230,13 +1230,13 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         .board-view .article-content .view-content .spon-btn p .btn.btn-white {
           color: #111;
           border: 2px solid #666; }
-        .board-view .article-content .view-content .spon-btn p .btn:hover, .board-view .article-content .view-content .spon-btn p .btn:focus {
+        .board-view .article-content .view-content .spon-btn p .btn:hover {
           color: #fff; }
-          .board-view .article-content .view-content .spon-btn p .btn:hover.btn-orange, .board-view .article-content .view-content .spon-btn p .btn:focus.btn-orange {
+          .board-view .article-content .view-content .spon-btn p .btn:hover.btn-orange {
             background-color: #eb6100; }
-          .board-view .article-content .view-content .spon-btn p .btn:hover.btn-blue, .board-view .article-content .view-content .spon-btn p .btn:focus.btn-blue {
+          .board-view .article-content .view-content .spon-btn p .btn:hover.btn-blue {
             background-color: #144199; }
-          .board-view .article-content .view-content .spon-btn p .btn:hover.btn-white, .board-view .article-content .view-content .spon-btn p .btn:focus.btn-white {
+          .board-view .article-content .view-content .spon-btn p .btn:hover.btn-white {
             background-color: #666; }
       @media (min-width: 768px) {
         .board-view .article-content .view-content .spon-btn {
@@ -1264,7 +1264,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       .board-view .article-content .attach li a {
         font-size: 13px;
         color: #aaa; }
-        .board-view .article-content .attach li a:hover, .board-view .article-content .attach li a:focus {
+        .board-view .article-content .attach li a:hover {
           color: #666; }
   .board-view .article-content .btn-area {
     padding: 30px 0;
@@ -1644,9 +1644,9 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
           transition-timing-function: linear;
           -webkit-transition-delay: 0s;
           transition-delay: 0s; }
-      .news-table-xl > .ebook-list > .news-list > a:hover .item-ebook, .news-table-xl > .ebook-list > .news-list > a:focus .item-ebook {
+      .news-table-xl > .ebook-list > .news-list > a:hover .item-ebook {
         border-color: #f5a100; }
-        .news-table-xl > .ebook-list > .news-list > a:hover .item-ebook .hover-box, .news-table-xl > .ebook-list > .news-list > a:focus .item-ebook .hover-box {
+        .news-table-xl > .ebook-list > .news-list > a:hover .item-ebook .hover-box {
           opacity: 1; }
   .news-table-xl > .ebook-list .backdrop {
     position: absolute;
@@ -1711,7 +1711,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
           opacity: .7;
           font-weight: 300;
           font-family: "fontello"; }
-        .accordion .card .card-header a.btn-link:hover, .accordion .card .card-header a.btn-link:focus {
+        .accordion .card .card-header a.btn-link:hover {
           text-decoration: none; }
       .accordion .card .card-header a.collapsed {
         background-color: #fff; }

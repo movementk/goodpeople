@@ -841,9 +841,9 @@ a {
             .history article .article-header ol li:nth-of-type(4) {
               border-left: 0;
               border-top: 1px solid #ccc; }
-            .history article .article-header ol li.active:hover, .history article .article-header ol li.active:focus {
+            .history article .article-header ol li.active:hover {
               opacity: 1; }
-            .history article .article-header ol li:hover, .history article .article-header ol li:focus {
+            .history article .article-header ol li:hover {
               opacity: .7;
               border-color: #eb6100;
               -webkit-transition-property: all;
@@ -854,7 +854,7 @@ a {
               transition-timing-function: linear;
               -webkit-transition-delay: 0s;
               transition-delay: 0s; }
-              .history article .article-header ol li:hover a, .history article .article-header ol li:focus a {
+              .history article .article-header ol li:hover a {
                 background-color: #eb6100;
                 color: #fff; }
             .history article .article-header ol li a {
@@ -939,7 +939,7 @@ a {
             padding: 0;
             padding-left: 20px;
             font-family: 'Roboto', sans-serif; }
-            .history article .article-content .history-list > ol li .col-12 > .details > .dropdown .dropdown-menu .dropdown-item:hover, .history article .article-content .history-list > ol li .col-12 > .details > .dropdown .dropdown-menu .dropdown-item:focus {
+            .history article .article-content .history-list > ol li .col-12 > .details > .dropdown .dropdown-menu .dropdown-item:hover {
               color: #144199;
               background: none; }
         .history article .article-content .history-list > ol li .col-12 > .details > ol {
@@ -1181,7 +1181,7 @@ a {
             position: relative;
             top: -3px;
             text-align: right; }
-          .video-modal .modal-dialog .modal-content .modal-header .close:hover, .video-modal .modal-dialog .modal-content .modal-header .close:focus {
+          .video-modal .modal-dialog .modal-content .modal-header .close:hover {
             opacity: .7; }
       .video-modal .modal-dialog .modal-content .modal-body {
         padding: 0 0 70px;
@@ -1246,11 +1246,21 @@ a {
             margin-top: -15px;
             border: 0 !important;
             background: none;
-            z-index: 1; }
+            z-index: 1;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
             .video-modal .modal-dialog .modal-content .modal-body .star-slide .slick-arrow.slick-prev {
               left: 10px; }
             .video-modal .modal-dialog .modal-content .modal-body .star-slide .slick-arrow.slick-next {
               right: 10px; }
+            .video-modal .modal-dialog .modal-content .modal-body .star-slide .slick-arrow:hover {
+              color: #eb6100; }
             @media (min-width: 768px) {
               .video-modal .modal-dialog .modal-content .modal-body .star-slide .slick-arrow {
                 font-size: 28px;
@@ -2035,12 +2045,12 @@ a {
             transition-timing-function: linear;
             -webkit-transition-delay: 0s;
             transition-delay: 0s; }
-            .committee .section-header .sub-tab-list ul li a:hover, .committee .section-header .sub-tab-list ul li a:focus {
+            .committee .section-header .sub-tab-list ul li a:hover {
               opacity: .8;
               border: 1px solid #eb6100;
               background-color: #eb6100;
               color: #fff; }
-          .committee .section-header .sub-tab-list ul li.active a:hover, .committee .section-header .sub-tab-list ul li.active a:focus {
+          .committee .section-header .sub-tab-list ul li.active a:hover {
             opacity: 1 !important; } }
 .committee .section-content {
   margin-top: 50px; }
@@ -2104,12 +2114,12 @@ a {
               transition-timing-function: linear;
               -webkit-transition-delay: 0s;
               transition-delay: 0s; }
-              .directors .group .section-header .sub-tab-list ul li a:hover, .directors .group .section-header .sub-tab-list ul li a:focus {
+              .directors .group .section-header .sub-tab-list ul li a:hover {
                 opacity: .8;
                 border: 1px solid #eb6100;
                 background-color: #eb6100;
                 color: #fff; }
-            .directors .group .section-header .sub-tab-list ul li.active a:hover, .directors .group .section-header .sub-tab-list ul li.active a:focus {
+            .directors .group .section-header .sub-tab-list ul li.active a:hover {
               opacity: 1 !important; } }
   .directors .group .section-content {
     margin-top: 55px; }

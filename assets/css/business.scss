@@ -235,7 +235,7 @@
                             line-height: 43px;
                             border: 1px solid #5b5b5b;
                             @include transition();
-                            &:hover, &:focus {
+                            &:hover/*, &:focus*/ {
                                 opacity: 1;
                                 color: #fff;
                                 border-color: #eb6101;

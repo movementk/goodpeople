@@ -505,7 +505,7 @@ a {
     transition-timing-function: linear;
     -webkit-transition-delay: 0s;
     transition-delay: 0s; }
-    .welfare-work .business-list > ul > li .btn-area p .btn-lg:hover, .welfare-work .business-list > ul > li .btn-area p .btn-lg:focus {
+    .welfare-work .business-list > ul > li .btn-area p .btn-lg:hover {
       opacity: 1;
       color: #fff;
       border-color: #eb6101;
