@@ -28,7 +28,7 @@
     	<div class="container">
     		<div class="support-view">
     			<ul class="row">
-    				<li class="col-12 col-md-6 col-xl-4">
+    				<li class="col-12 col-md-5 col-xl-4">
     					<dl class="total">
     						<dt>후원 금액 총액</dt>
     						<dd>
@@ -36,7 +36,7 @@
     						</dd>
     					</dl>
     				</li>
-    				<li class="col-12 col-md-6 col-xl-6">
+    				<li class="col-12 col-md-7 col-xl-8">
     					<dl class="count">
     						<dt>납부횟수</dt>
     						<dd>
@@ -44,13 +44,17 @@
     						</dd>
     					</dl>
 						<div class="dropdown">
-							<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							2018
+							<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							2018 <span>년</span>
 							</button>
-							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-								<a class="dropdown-item" href="#">Action</a>
-								<a class="dropdown-item" href="#">Another action</a>
-								<a class="dropdown-item" href="#">Something else here</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+								<a class="dropdown-item" href="#">2017 <span>년</span></a>
+								<a class="dropdown-item" href="#">2016 <span>년</span></a>
+								<a class="dropdown-item" href="#">2015 <span>년</span></a>
+								<a class="dropdown-item" href="#">2014 <span>년</span></a>
+								<a class="dropdown-item" href="#">2013 <span>년</span></a>
+								<a class="dropdown-item" href="#">2012 <span>년</span></a>
+								<a class="dropdown-item" href="#">2011 <span>년</span></a>
 							</div>
 						</div>
     				</li>
