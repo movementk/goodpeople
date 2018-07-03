@@ -175,4 +175,15 @@
     
     // main modal popup
     $('#mainPopup').modal('show');
+    $('#mainPopup .modal-dialog .modal-content .modal-body ul').slick({
+        autoplay: true,
+        dots: false,
+        infinite: true,
+        autoplaySpeed: 5000,
+        cssEase: 'linear',
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        prevArrow: '<button class="slick-prev"><i class="icon-left-open-big"></i></button>',
+        nextArrow: '<button class="slick-next"><i class="icon-right-open-big"></i></button>',
+    });
 })(jQuery);

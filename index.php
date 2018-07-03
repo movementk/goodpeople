@@ -461,9 +461,20 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
-                    <figure>
-                        <img src="/assets/images/main/img_main_popup.jpg" class="img-fluid" alt="">
-                    </figure>
+                    <ul>
+                        <li>
+                            <figure>
+                                <img src="/assets/images/main/img_main_popup.jpg" class="img-fluid" alt="">
+                            </figure>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="/assets/images/main/img_main_popup.jpg" class="img-fluid" alt="">
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="modal-footer">
                     <div class="form-group">
