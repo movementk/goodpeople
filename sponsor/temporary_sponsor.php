@@ -56,6 +56,11 @@
 					</div>
 				</li>
 			</ul>
+			<div class="btn-area">
+			    <p>
+			        <a href="https://ngo.goodpeople.or.kr/v2/default.aspx?Server=lr1HhMDaqG9L6rajdE9E4Q==&amp;action=once2&amp;inflow=6406" class="btn btn-orange" role="button" target="_blank">일시후원하기</a>
+			    </p>
+			</div>
 		</div>
     </main>
     

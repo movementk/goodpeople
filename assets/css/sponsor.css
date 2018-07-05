@@ -1616,15 +1616,44 @@ a {
     background-image: url(/assets/images/sponsor/bg_temporary01.gif); }
   .temporary-sponsor ul li > div.telephone {
     background-image: url(/assets/images/sponsor/bg_temporary02.gif); }
+.temporary-sponsor .btn-area {
+  margin-top: 30px;
+  text-align: center; }
+  .temporary-sponsor .btn-area p .btn-orange {
+    width: 200px;
+    height: 54px;
+    font-size: 15px;
+    line-height: 54px;
+    color: #fff;
+    background-color: #eb6100; }
 @media (min-width: 768px) {
   .temporary-sponsor ul li > div h5 {
     font-size: 22px; }
   .temporary-sponsor ul li > div > p {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .temporary-sponsor .btn-area {
+    margin-top: 45px; } }
 @media (min-width: 1200px) {
   .temporary-sponsor ul li ~ li > div {
     margin-top: 0; }
     .temporary-sponsor ul li ~ li > div h5 a {
-      cursor: default; } }
+      cursor: default; }
+  .temporary-sponsor .btn-area p .btn-orange {
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    line-height: 54px;
+    color: #eb6101;
+    border: 1px solid #eb6101;
+    background-color: #fff; }
+    .temporary-sponsor .btn-area p .btn-orange:hover {
+      color: #fff;
+      opacity: 1;
+      background-color: #eb6101; } }
 
 /*# sourceMappingURL=sponsor.css.map */

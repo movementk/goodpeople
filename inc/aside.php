@@ -11,17 +11,17 @@
 <!-- 모바일 태블릿 메뉴 -->
 <nav id="nav">
     <div class="backdrop"></div>
-    <div class="nav-wrap">
-        <div class="nav-header">
-            <div class="top-nav">
-                <a href="/sponsor/regular_sponsor.php" class="btn btn-spon">후원하기</a>
-            </div>
-            <ul>
-                <li><a href="/member/login.php">로그인</a></li>
-                <li><a href="#">회원가입</a></li>
-                <li><a href="/member/annual_report.php">자료실</a></li>
-            </ul>
+    <div class="nav-header">
+        <div class="top-nav">
+            <a href="/sponsor/regular_sponsor.php" class="btn btn-spon">후원하기</a>
         </div>
+        <ul>
+            <li><a href="/member/login.php">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="/member/annual_report.php">자료실</a></li>
+        </ul>
+    </div>
+    <div class="nav-wrap">
         <div class="nav-body">
             <div class="gnb-menu">
                 <ul class="depth-1">

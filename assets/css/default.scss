@@ -77,7 +77,7 @@ body {
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 301;
+    z-index: 302;
     .btn-nav {
         position: relative;
         width: 60px;
@@ -154,6 +154,54 @@ body {
         display: block;
         background-color: rgba(0, 0, 0, .7);
     }
+    .nav-header {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 0;
+        height: 106px;
+        z-index: 202;
+        background-color: #144199;
+        @include transition();
+        .top-nav {
+            padding-top: 10px;
+            height: 55px;
+            .btn-spon {
+                width: 85px;                    
+                height: 35px;
+                font-size: 13px;
+                color: #fff;
+                font-weight: 300;
+                margin-left: 10px;
+                border-radius: 0;
+                text-align: center;
+                line-height: 33px;
+                padding: 0;
+                background-color: #eb6100;
+            }
+        }
+        > ul {
+            display: table;
+            width: 100%;
+            height: 50px;
+            border-top: 1px solid #7791c4;
+            > li {
+                display: table-cell;
+                width: 1%;
+                text-align: center;
+                &:nth-of-type(2) {
+                    border-left: 1px solid #7791c4;
+                    border-right: 1px solid #7791c4;
+                }
+                a {
+                    display: block;
+                    font-size: 14px;
+                    color: #fff;
+                    line-height: 50px;
+                }
+            }
+        }
+    }
     .nav-wrap {
         position: relative;
         width: 270px;
@@ -163,54 +211,6 @@ body {
         z-index: 201;
         padding-bottom: 40px;
         background-color: #fff;
-        .nav-header {
-            position: fixed;
-            top: 0;
-            right: -100%;
-            width: 0;
-            height: 106px;
-            z-index: 201;
-            background-color: #144199;
-            @include transition();
-            .top-nav {
-                padding-top: 10px;
-                height: 55px;
-                .btn-spon {
-                    width: 85px;                    
-                    height: 35px;
-                    font-size: 13px;
-                    color: #fff;
-                    font-weight: 300;
-                    margin-left: 10px;
-                    border-radius: 0;
-                    text-align: center;
-                    line-height: 33px;
-                    padding: 0;
-                    background-color: #eb6100;
-                }
-            }
-            > ul {
-                display: table;
-                width: 100%;
-                height: 50px;
-                border-top: 1px solid #7791c4;
-                > li {
-                    display: table-cell;
-                    width: 1%;
-                    text-align: center;
-                    &:nth-of-type(2) {
-                        border-left: 1px solid #7791c4;
-                        border-right: 1px solid #7791c4;
-                    }
-                    a {
-                        display: block;
-                        font-size: 14px;
-                        color: #fff;
-                        line-height: 50px;
-                    }
-                }
-            }
-        }
         .nav-body {
             .gnb-menu {
                 > .depth-1 {
@@ -427,31 +427,31 @@ body {
     }
     @media(min-width: $md) {
         padding-top: 170px;
-        .nav-wrap {
-            width: 580px;
-            .nav-header {
-                height: 170px;
-                .top-nav {
-                    padding-top: 18px;
-                    height: 80px;
-                    .btn-spon {
-                        font-size: 15px;
-                        width: 120px;
-                        height: 45px;
-                        line-height: 43px;
-                        margin-left: 23px;
-                    }
+        .nav-header {
+            height: 170px;
+            .top-nav {
+                padding-top: 18px;
+                height: 80px;
+                .btn-spon {
+                    font-size: 15px;
+                    width: 120px;
+                    height: 45px;
+                    line-height: 43px;
+                    margin-left: 23px;
                 }
-                > ul {
-                    height: 90px;
-                    > li {
-                        a {
-                            font-size: 20px;
-                            line-height: 90px;
-                        }
+            }
+            > ul {
+                height: 90px;
+                > li {
+                    a {
+                        font-size: 20px;
+                        line-height: 90px;
                     }
                 }
             }
+        }
+        .nav-wrap {
+            width: 580px;
             .nav-body {
                 .gnb-menu {
                     > .depth-1 {
@@ -514,14 +514,14 @@ body {
             width: 100%;
             height: 100%;
         }
-        .nav-wrap {
-            .nav-header {
-                width: 270px;
-                right: 0;
-                @media(min-width: $md) {
-                    width: 580px;
-                }
+        .nav-header {
+            width: 270px;
+            right: 0;
+            @media(min-width: $md) {
+                width: 580px;
             }
+        }
+        .nav-wrap {
         }
     }
     .btn-close {
