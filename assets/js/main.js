@@ -174,7 +174,7 @@
     });
     
     // main modal popup
-    $('#mainPopup').modal('show');
+    /*$('#mainPopup').modal('show');*/
     $('#mainPopup .modal-dialog .modal-content .modal-body ul').slick({
         autoplay: true,
         dots: false,

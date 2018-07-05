@@ -42,6 +42,7 @@ a {
   padding-right: 10px; }
   .container .row,
   .container-fluid .row {
+    overflow: hidden;
     margin-left: -5px;
     margin-right: -5px; }
     .container .row .col-1,
@@ -1317,8 +1318,8 @@ a {
         .global-business .slick-dots li {
           display: inline-block; }
           .global-business .slick-dots li button {
-            width: 15px;
-            height: 15px; } }
+            width: 14px;
+            height: 14px; } }
   @media (min-width: 1200px) {
     .global-business {
       padding-bottom: 0;
@@ -1561,6 +1562,9 @@ a {
       display: inline-block;
       overflow: hidden;
       border-radius: 50%; }
+    @media (min-width: 768px) {
+      .sns-issue ul li .mobile-link {
+        display: none; } }
   @media (min-width: 768px) {
     .sns-issue {
       padding-bottom: 60px; }

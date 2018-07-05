@@ -85,6 +85,7 @@ a {
     padding-left: 10px;
     padding-right: 10px;
     .row {
+        overflow: hidden;
         margin-left: -5px;
         margin-right: -5px;
         @for $i from 1 through 12 {

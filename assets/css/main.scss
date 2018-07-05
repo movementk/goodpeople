@@ -1169,8 +1169,8 @@
             li {
                 display: inline-block;
                 button {
-                    width: 15px;
-                    height: 15px;
+                    width: 14px;
+                    height: 14px;
                 }
             }
         }
@@ -1533,6 +1533,9 @@
                     display: inline-block;
                     overflow: hidden;
                     border-radius: 50%;
+                }
+                @media(min-width: $md) {
+                    display: none;
                 }
             }
         }

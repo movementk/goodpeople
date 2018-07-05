@@ -28,9 +28,12 @@
     });
 
     // 모바일 메뉴 스크롤바 이벤트
-    $(window).on("load",function() {
-        $("#nav").mCustomScrollbar();
-    });
+    /*$(window).on("load",function() {
+        $("#nav").mCustomScrollbar({
+            contentTouchScroll: true,
+            documentTouchScroll: true
+        });
+    });*/
 
     // 모바일 넓이 클레스 제거
     $(window).on('load resize', function() {

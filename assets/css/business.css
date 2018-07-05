@@ -43,6 +43,7 @@ a {
   padding-right: 10px; }
   .container .row,
   .container-fluid .row {
+    overflow: hidden;
     margin-left: -5px;
     margin-right: -5px; }
     .container .row .col-1,

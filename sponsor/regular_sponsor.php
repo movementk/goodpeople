@@ -31,19 +31,19 @@
                 <div class="article-header">
                     <ul class="vertical-board">
                         <li>
-                            <a href="#">
+                            <p>
                                 <b>'홍길동'</b> 후원자님 따스한 사랑을 나눠주셔서 감사드립니다. 
-                            </a>
+                            </p>
                         </li>
                         <li>
-                            <a href="#">
+                            <p>
                                 <b>'임꺽정'</b> 후원자님 따스한 사랑을 나눠주셔서 감사드립니다. 
-                            </a>
+                            </p>
                         </li>
                         <li>
-                            <a href="#">
+                            <p>
                                 <b>'이순신'</b> 후원자님 따스한 사랑을 나눠주셔서 감사드립니다. 
-                            </a>
+                            </p>
                         </li>
                     </ul>
                 </div>

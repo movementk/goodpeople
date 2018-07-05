@@ -43,6 +43,7 @@ a {
   padding-right: 10px; }
   .container .row,
   .container-fluid .row {
+    overflow: hidden;
     margin-left: -5px;
     margin-right: -5px; }
     .container .row .col-1,
@@ -499,6 +500,11 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       display: inline-block;
       font-size: 13px;
       width: 50%; }
+      .page-path .breadcrumb > li.home {
+        display: none; }
+        @media (min-width: 768px) {
+          .page-path .breadcrumb > li.home {
+            display: inline-block !important; } }
       .page-path .breadcrumb > li:after {
         position: absolute;
         top: 50%;
@@ -575,10 +581,11 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
             font-size: 15px;
             line-height: 60px; }
         .page-path .breadcrumb > li.home {
-          width: 70px;
-          text-align: center; }
+          width: 70px; }
           .page-path .breadcrumb > li.home a {
             display: inline-block;
+            width: 70px;
+            text-align: center;
             line-height: 58px; }
             .page-path .breadcrumb > li.home a .icon-home {
               font-size: 17px;

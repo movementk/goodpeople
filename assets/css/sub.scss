@@ -168,6 +168,12 @@ input, textarea {
             display: inline-block;
             font-size: 13px;
             width: 50%;
+            &.home {
+                display: none;
+                @media(min-width: $md) {
+                    display: inline-block !important;
+                }
+            }
             &:after {
                 position: absolute;
                 top: 50%;
@@ -271,9 +277,10 @@ input, textarea {
                 }
                 &.home {
                     width: 70px;
-                    text-align: center;
                     a {
                         display: inline-block;
+                        width: 70px;
+                        text-align: center;
                         line-height: 58px;
                         .icon-home {
                             font-size: 17px;
