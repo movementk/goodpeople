@@ -579,8 +579,7 @@ a {
     .partner-list .tab-sponsor ul > li .sponsor-company > p {
       font-size: 13px;
       color: #666;
-      margin-top: 7px;
-      font-family: 'NanumSquare', sans-serif; }
+      margin-top: 7px; }
   .partner-list .tab-sponsor .paging {
     margin-top: 80px; }
 @media (min-width: 768px) {
