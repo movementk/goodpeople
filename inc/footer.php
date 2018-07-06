@@ -123,7 +123,7 @@
             </div>
         </div>
         <hr>
-        <div class="row">
+        <div class="row last-child">
             <div class="col-12 col-xl-7">
                 <div class="policy">
                     <ul>

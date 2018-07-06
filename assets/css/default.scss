@@ -358,10 +358,12 @@ body {
                     .dropdown-menu {
                         min-width: 100%;
                         width: 100%;
+                        top: 50px !important;
                         padding: 0;
                         margin: 0;
                         border-radius: 0;
-                        transform: translate3d(0px, -77px, 0px);
+                        /*transform: translate3d(0px, -77px, 0px);*/
+                        transform: none !important;
                         a {
                             display: block;
                             font-size: 15px;
@@ -575,19 +577,20 @@ body {
     position: relative;
     padding-left: 200px;
     .gnb-menu {
-        display: table;
+        display: block;
+        font-size: 0;
         width: 100%;
         max-width: 480px;
         > li {
-            display: table-cell;
-            width: 1%;
+            display: inline-block;
             > a {
                 font-size: 18px;
                 font-weight: 400;
+                display: block;
                 color: #111;
                 line-height: 90px;
+                padding: 0 10px;
                 text-align: center;
-                display: block;
                 @include transition();
                 &:hover {
                     color: #eb6100;
@@ -788,11 +791,12 @@ body {
                 }
                 .dropdown-menu {
                     min-width: 85px;
+                    top: 30px !important;
                     width: 85px;
                     margin: 0;
                     padding: 0;
                     border: 0;
-                    transform: translate3d(0px, 30px, 0px) !important;
+                    transform: none !important;
                     a {
                         min-width: 85px;
                         width: 85px;
@@ -872,7 +876,10 @@ body {
         .gnb-menu {
             width: 100%;
             max-width: 700px;
-            li {
+            > li {
+                > a {
+                    padding: 0 25px;
+                }
                 > div {
                     .intro {
                         width: 400px;
@@ -893,7 +900,15 @@ body {
                 }
             }
         }
-        
+    }
+    @media(min-width: 1600px) {
+        .gnb-menu {
+            > li {
+                > a {
+                    padding: 0 30px;
+                }
+            }
+        }
     }
 }
 
@@ -1034,6 +1049,9 @@ body {
             overflow: visible !important;
         }
     }
+    .last-child {
+        clear: both;
+    }
     .company {
         text-align: center;
         & ~ .company {
@@ -1151,7 +1169,13 @@ body {
         width: 100%;
         margin: 20px 0;
         clear: both;
+        float: left;
         border-top: 1px solid #ccc;
+        &:after {
+            display: inline-block;
+            clear: both;
+            content: " ";
+        }
     }
     .policy {
         text-align: center;
@@ -1383,6 +1407,8 @@ body {
                         }
                     }
                     .dropdown-menu {
+                        top: 50px !important;
+                        transform: none !important;
                         border: 0;
                         border-radius: 0;
                         a {
@@ -1431,10 +1457,8 @@ body {
                 &:first-child {
                     .col-xl-5 {
                         position: relative;
+                        height: 188px;
                     }
-                }
-                &:nth-of-type(2) {
-                    clear: both;
                 }
             }
         }

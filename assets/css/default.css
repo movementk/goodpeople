@@ -1,4 +1,5 @@
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+/*@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);*/
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 @import url("//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css");
 @import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
@@ -365,7 +366,8 @@ body {
   font-size: 13px;
   color: #111;
   font-weight: 300;
-  font-family: 'Noto Sans KR', sans-serif;
+  /*font-family: 'Noto Sans KR', sans-serif;*/
+  font-family: 'Noto Sans', sans-serif;
   word-break: keep-all;
   margin-top: 55px;
   z-index: 1; }
@@ -665,10 +667,12 @@ body {
         #nav .nav-wrap .nav-foot .family-site > .dropup .dropdown-menu {
           min-width: 100%;
           width: 100%;
+          top: 50px !important;
           padding: 0;
           margin: 0;
           border-radius: 0;
-          transform: translate3d(0px, -77px, 0px); }
+          /*transform: translate3d(0px, -77px, 0px);*/
+          transform: none !important; }
           #nav .nav-wrap .nav-foot .family-site > .dropup .dropdown-menu a {
             display: block;
             font-size: 15px;
@@ -815,19 +819,20 @@ body {
   position: relative;
   padding-left: 200px; }
   #gnb .gnb-menu {
-    display: table;
+    display: block;
+    font-size: 0;
     width: 100%;
     max-width: 480px; }
     #gnb .gnb-menu > li {
-      display: table-cell;
-      width: 1%; }
+      display: inline-block; }
       #gnb .gnb-menu > li > a {
         font-size: 18px;
         font-weight: 400;
+        display: block;
         color: #111;
         line-height: 90px;
+        padding: 0 10px;
         text-align: center;
-        display: block;
         -webkit-transition-property: all;
         transition-property: all;
         -webkit-transition-duration: 0.15s;
@@ -1020,11 +1025,12 @@ body {
             font-family: "fontello"; }
         #gnb .quick-menu .language .dropdown .dropdown-menu {
           min-width: 85px;
+          top: 30px !important;
           width: 85px;
           margin: 0;
           padding: 0;
           border: 0;
-          transform: translate3d(0px, 30px, 0px) !important; }
+          transform: none !important; }
           #gnb .quick-menu .language .dropdown .dropdown-menu a {
             min-width: 85px;
             width: 85px;
@@ -1097,16 +1103,21 @@ body {
     #gnb .gnb-menu {
       width: 100%;
       max-width: 700px; }
-      #gnb .gnb-menu li > div .intro {
+      #gnb .gnb-menu > li > a {
+        padding: 0 25px; }
+      #gnb .gnb-menu > li > div .intro {
         width: 400px;
         padding: 45px 30px 25px 50px; }
-        #gnb .gnb-menu li > div .intro figure {
+        #gnb .gnb-menu > li > div .intro figure {
           bottom: 25px;
           right: 30px; }
-      #gnb .gnb-menu li > div .page-map {
+      #gnb .gnb-menu > li > div .page-map {
         padding-left: 400px; }
-        #gnb .gnb-menu li > div .page-map .page-list > li {
+        #gnb .gnb-menu > li > div .page-map .page-list > li {
           width: 200px; } }
+  @media (min-width: 1600px) {
+    #gnb .gnb-menu > li > a {
+      padding: 0 30px; } }
 
 #site-map {
   display: none;
@@ -1203,6 +1214,8 @@ body {
   }*/ }
   #footer .container-fluid > div {
     overflow: visible !important; }
+  #footer .last-child {
+    clear: both; }
   #footer .company {
     text-align: center; }
     #footer .company ~ .company {
@@ -1289,7 +1302,12 @@ body {
     width: 100%;
     margin: 20px 0;
     clear: both;
+    float: left;
     border-top: 1px solid #ccc; }
+    #footer hr:after {
+      display: inline-block;
+      clear: both;
+      content: " "; }
   #footer .policy {
     text-align: center; }
     #footer .policy ul {
@@ -1476,6 +1494,8 @@ body {
                 content: "\F004";
                 border: 0; }
             #footer .social .information .family-site .dropdown-menu {
+              top: 50px !important;
+              transform: none !important;
               border: 0;
               border-radius: 0; }
               #footer .social .information .family-site .dropdown-menu a {
@@ -1498,16 +1518,16 @@ body {
         margin-top: 10px; } }
   @media (min-width: 1280px) {
     #footer .container-fluid .row:first-child .col-xl-5 {
-      position: relative; }
-    #footer .container-fluid .row:nth-of-type(2) {
-      clear: both; }
+      position: relative;
+      height: 188px; }
     #footer .news-letter {
       position: absolute;
       top: 0;
       left: 0;
       width: 200px;
       height: 100%;
-      font-family: 'Noto Sans KR', sans-serif;
+      /*font-family: 'Noto Sans KR', sans-serif;*/
+      font-family: 'Noto Sans', sans-serif;
       display: block; }
       #footer .news-letter h3 {
         font-size: 15px;

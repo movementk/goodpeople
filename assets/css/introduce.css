@@ -1,5 +1,6 @@
 @charset "UTF-8";
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+/*@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);*/
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 @import url("//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css");
 @import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
@@ -924,6 +925,7 @@ a {
         .history article .article-content .history-list > ol li .col-12 > .details > .dropdown .dropdown-menu {
           width: 100%;
           height: 160px;
+          top: 44px !important;
           overflow-y: scroll;
           padding: 0;
           margin: 0;
@@ -931,7 +933,7 @@ a {
           border-radius: 0;
           border: 1px solid #144199;
           border-top: 0;
-          transform: translate3d(0px, 44px, 0px) !important; }
+          transform: none !important; }
           .history article .article-content .history-list > ol li .col-12 > .details > .dropdown .dropdown-menu .dropdown-item {
             font-size: 16px;
             color: #333;
@@ -1000,7 +1002,7 @@ a {
               margin-top: 4px; }
           .history article .article-content .history-list > ol li div.col-12 > .details > .dropdown .dropdown-menu {
             width: 235px;
-            top: 2px !important; }
+            top: 46px !important; }
           .history article .article-content .history-list > ol li div.col-12 > .details > ol {
             margin-top: 40px; }
             .history article .article-content .history-list > ol li div.col-12 > .details > ol > li {
@@ -1048,10 +1050,7 @@ a {
           line-height: 34px; }
           .history article .article-content .history-list > ol li .row .col-12 .details > .dropdown a.dropdown-toggle:after {
             font-size: 26px;
-            margin-top: 4px; }
-        .history article .article-content .history-list > ol li .row .col-12 .details > .dropdown .dropdown-menu {
-          width: 235px;
-          top: 2px !important; } }
+            margin-top: 4px; } }
 
 .ambassadors .members {
   margin-top: 50px;
@@ -1751,7 +1750,8 @@ a {
       background-repeat: no-repeat;
       background-size: cover; }
     .directions .location li.addr {
-      font-family: 'Noto Sans KR', sans-serif; }
+      /*font-family: 'Noto Sans KR', sans-serif;*/
+      font-family: 'Noto Sans', sans-serif; }
       .directions .location li.addr address {
         display: inline-block;
         font-weight: 400;
@@ -1788,7 +1788,8 @@ a {
           height: 20px; }
         .directions .location li.addr {
           width: 60%;
-          font-family: 'Noto Sans KR', sans-serif; }
+          /*font-family: 'Noto Sans KR', sans-serif;*/
+          font-family: 'Noto Sans', sans-serif; }
           .directions .location li.addr address {
             font-size: 15px;
             font-weight: 300; }
@@ -1958,7 +1959,8 @@ a {
           color: #3556a7; }
         .directions .bus > ol li dl dd.shuttle {
           color: #8aba62;
-          font-family: 'Noto Sans KR', sans-serif; }
+          /*font-family: 'Noto Sans KR', sans-serif;*/
+          font-family: 'Noto Sans', sans-serif; }
   @media (min-width: 768px) {
     .directions .bus {
       padding-top: 45px; }
