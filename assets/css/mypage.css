@@ -370,48 +370,27 @@ a {
   padding: 15px 10px;
   margin-bottom: 20px;
   background-color: #fdeed1; }
-  .children-list .support-view > ul > li ~ li dl {
-    margin-top: 10px; }
-  .children-list .support-view > ul > li > dl dt {
-    font-size: 13px;
-    font-weight: 500;
-    color: #333; }
-  .children-list .support-view > ul > li > dl dd {
-    font-size: 13px;
-    font-weight: 500;
-    color: #333; }
-    .children-list .support-view > ul > li > dl dd span {
-      font-size: 15px;
+  .children-list .support-view > ul {
+    overflow: visible; }
+    .children-list .support-view > ul > li ~ li dl {
+      margin-top: 10px; }
+    .children-list .support-view > ul > li > dl dt {
+      font-size: 13px;
       font-weight: 500;
-      margin-right: 5px;
-      font-family: 'Roboto', sans-serif; }
-  .children-list .support-view > ul > li > dl.total dt {
-    float: left; }
-    .children-list .support-view > ul > li > dl.total dt:before {
-      content: "\E823";
-      font-family: "fontello";
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      font-size: 12px;
-      color: #fff;
-      line-height: 20px;
-      text-align: center;
-      margin-right: 10px;
-      border-radius: 50%;
-      background-color: #eb6100; }
-  .children-list .support-view > ul > li > dl.total dd {
-    float: right; }
-    .children-list .support-view > ul > li > dl.total dd span {
-      color: #eb6100; }
-  .children-list .support-view > ul > li > dl.count {
-    overflow: hidden;
-    float: left;
-    width: 165px; }
-    .children-list .support-view > ul > li > dl.count dt {
+      color: #333; }
+    .children-list .support-view > ul > li > dl dd {
+      font-size: 13px;
+      font-weight: 500;
+      color: #333; }
+      .children-list .support-view > ul > li > dl dd span {
+        font-size: 15px;
+        font-weight: 500;
+        margin-right: 5px;
+        font-family: 'Roboto', sans-serif; }
+    .children-list .support-view > ul > li > dl.total dt {
       float: left; }
-      .children-list .support-view > ul > li > dl.count dt:before {
-        content: "\E822";
+      .children-list .support-view > ul > li > dl.total dt:before {
+        content: "\E823";
         font-family: "fontello";
         display: inline-block;
         width: 20px;
@@ -422,61 +401,87 @@ a {
         text-align: center;
         margin-right: 10px;
         border-radius: 50%;
-        background-color: #144199; }
-    .children-list .support-view > ul > li > dl.count dd {
+        background-color: #eb6100; }
+    .children-list .support-view > ul > li > dl.total dd {
       float: right; }
-      .children-list .support-view > ul > li > dl.count dd span {
-        color: #144199; }
-  .children-list .support-view > ul > li .dropdown {
-    display: inline-block;
-    float: right;
-    margin-left: 40px;
-    margin-top: 10px; }
-    .children-list .support-view > ul > li .dropdown .btn.dropdown-toggle {
-      font-size: 15px;
-      color: #333;
-      font-weight: 500;
-      font-family: 'Roboto', sans-serif; }
-      .children-list .support-view > ul > li .dropdown .btn.dropdown-toggle:after {
-        display: none; }
-      .children-list .support-view > ul > li .dropdown .btn.dropdown-toggle > span {
-        font-size: 13px;
-        font-weight: 500;
-        /*font-family: 'Noto Sans KR', sans-serif;*/
-        font-family: 'Noto Sans', sans-serif; }
-        .children-list .support-view > ul > li .dropdown .btn.dropdown-toggle > span:before {
-          content: "\E803";
+      .children-list .support-view > ul > li > dl.total dd span {
+        color: #eb6100; }
+    .children-list .support-view > ul > li > dl.count {
+      overflow: hidden;
+      float: left;
+      width: 165px; }
+      .children-list .support-view > ul > li > dl.count dt {
+        float: left; }
+        .children-list .support-view > ul > li > dl.count dt:before {
+          content: "\E822";
           font-family: "fontello";
-          margin-left: 10px;
-          margin-right: 5px; }
-    .children-list .support-view > ul > li .dropdown .dropdown-menu {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          font-size: 12px;
+          color: #fff;
+          line-height: 20px;
+          text-align: center;
+          margin-right: 10px;
+          border-radius: 50%;
+          background-color: #144199; }
+      .children-list .support-view > ul > li > dl.count dd {
+        float: right; }
+        .children-list .support-view > ul > li > dl.count dd span {
+          color: #144199; }
+    .children-list .support-view > ul > li .dropdown {
+      display: inline-block;
       float: right;
-      overflow-y: scroll;
-      min-width: 80px;
-      height: 123px;
-      border-radius: 0;
-      padding: 0;
-      margin: 0;
-      margin-top: 10px;
-      z-index: 1;
-      transform: translate3d(-13px, 22px, 0px) !important; }
-      .children-list .support-view > ul > li .dropdown .dropdown-menu .dropdown-item {
-        display: block;
-        padding: 0;
-        padding: 10px;
-        font-size: 14px;
+      margin-left: 40px;
+      margin-top: 10px; }
+      .children-list .support-view > ul > li .dropdown .btn.dropdown-toggle {
+        font-size: 15px;
         color: #333;
         font-weight: 500;
         font-family: 'Roboto', sans-serif; }
-        .children-list .support-view > ul > li .dropdown .dropdown-menu .dropdown-item:hover {
-          color: #fff;
-          background-color: #eb6100; }
-        .children-list .support-view > ul > li .dropdown .dropdown-menu .dropdown-item span {
-          font-size: 12px;
+        .children-list .support-view > ul > li .dropdown .btn.dropdown-toggle:after {
+          display: none; }
+        .children-list .support-view > ul > li .dropdown .btn.dropdown-toggle > span {
+          font-size: 13px;
           font-weight: 500;
-          margin-left: 10px;
           /*font-family: 'Noto Sans KR', sans-serif;*/
           font-family: 'Noto Sans', sans-serif; }
+          .children-list .support-view > ul > li .dropdown .btn.dropdown-toggle > span:before {
+            content: "\E803";
+            font-family: "fontello";
+            margin-left: 10px;
+            margin-right: 5px; }
+      .children-list .support-view > ul > li .dropdown .dropdown-menu {
+        float: right;
+        overflow-y: scroll;
+        min-width: 80px;
+        height: 123px;
+        top: 32px !important;
+        left: -13px !important;
+        padding: 0;
+        margin: 0;
+        /*margin-top: 10px;*/
+        z-index: 1;
+        border-radius: 0;
+        transform: none !important;
+        /*transform: translate3d(-13px, 22px, 0px) !important;*/ }
+        .children-list .support-view > ul > li .dropdown .dropdown-menu .dropdown-item {
+          display: block;
+          padding: 0;
+          padding: 10px;
+          font-size: 14px;
+          color: #333;
+          font-weight: 500;
+          font-family: 'Roboto', sans-serif; }
+          .children-list .support-view > ul > li .dropdown .dropdown-menu .dropdown-item:hover {
+            color: #fff;
+            background-color: #eb6100; }
+          .children-list .support-view > ul > li .dropdown .dropdown-menu .dropdown-item span {
+            font-size: 12px;
+            font-weight: 500;
+            margin-left: 10px;
+            /*font-family: 'Noto Sans KR', sans-serif;*/
+            font-family: 'Noto Sans', sans-serif; }
   @media (min-width: 768px) {
     .children-list .support-view {
       padding: 25px 20px;
@@ -515,9 +520,10 @@ a {
               margin-right: 10px; }
         .children-list .support-view > ul > li .dropdown .dropdown-menu {
           min-width: 110px;
-          margin-top: 32px;
           height: 120px;
-          transform: translate3d(-1px, 22px, 0px) !important; }
+          top: 55px !important;
+          left: -10px !important;
+          /*transform: translate3d(-1px, 22px, 0px) !important;*/ }
           .children-list .support-view > ul > li .dropdown .dropdown-menu .dropdown-item {
             padding: 5px 12px;
             font-size: 15px; }
@@ -562,9 +568,9 @@ a {
             margin-right: 15px; }
         .children-list .support-view > ul > li .dropdown .dropdown-menu {
           min-width: 120px;
-          margin-top: 32px;
+          /*margin-top: 32px;*/
           height: 132px;
-          transform: translate3d(-5px, 22px, 0px) !important; }
+          /*transform: translate3d(-5px, 22px, 0px) !important;*/ }
           .children-list .support-view > ul > li .dropdown .dropdown-menu .dropdown-item {
             padding: 5px 15px;
             font-size: 15px; }

@@ -1569,68 +1569,76 @@ a {
   @media (min-width: 768px) {
     .sns-issue {
       padding-bottom: 60px; }
-      .sns-issue ul li:nth-of-type(2) ~ li .sns {
-        margin-top: 20px; }
-      .sns-issue ul li .img-fluid {
-        width: 100%; }
-      .sns-issue ul li .sns {
-        position: relative;
-        display: block;
-        width: 100%;
-        font-family: 'NanumSquare', sans-serif; }
-        .sns-issue ul li .sns .icon-img {
-          position: absolute;
-          top: 0;
-          left: 0; }
-          .sns-issue ul li .sns .icon-img img {
-            width: 60px; }
-        .sns-issue ul li .sns .play-icon {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          margin-top: -45px;
-          margin-left: -42px; }
-          .sns-issue ul li .sns .play-icon .icon-play {
-            color: #fff;
-            font-size: 60px; }
-        .sns-issue ul li .sns .details {
-          position: absolute;
-          top: 0;
-          left: 0;
+      .sns-issue ul li {
+        float: left !important; }
+        .sns-issue ul li:nth-of-type(2) ~ li .sns {
+          margin-top: 20px; }
+        .sns-issue ul li:nth-of-type(2n + 1) {
+          clear: both; } }
+      @media (min-width: 768px) and (min-width: 1200px) {
+        .sns-issue ul li:nth-of-type(2n + 1) {
+          clear: none; } }
+  @media (min-width: 768px) {
+        .sns-issue ul li .img-fluid {
+          width: 100%; }
+        .sns-issue ul li .sns {
+          position: relative;
+          display: block;
           width: 100%;
-          height: 100%;
-          padding: 80px 15% 0; }
-          .sns-issue ul li .sns .details > div {
-            width: 100%; }
-            .sns-issue ul li .sns .details > div.content-body {
-              height: 60%; }
-              .sns-issue ul li .sns .details > div.content-body .mCSB_container {
-                margin-right: 15px !important; }
-              .sns-issue ul li .sns .details > div.content-body .mCSB_draggerContainer {
-                left: 10px !important; }
-              .sns-issue ul li .sns .details > div.content-body p {
-                font-size: 14px;
-                line-height: 28px;
-                color: #fff;
-                word-break: keep-all; }
-            .sns-issue ul li .sns .details > div.content-foot {
-              height: 40%; }
-              .sns-issue ul li .sns .details > div.content-foot .more-btn {
-                margin-top: 30px; }
-                .sns-issue ul li .sns .details > div.content-foot .more-btn .btn-white {
-                  display: inline-block;
-                  width: 100%;
-                  height: 40px;
-                  font-size: 13px;
+          font-family: 'NanumSquare', sans-serif; }
+          .sns-issue ul li .sns .icon-img {
+            position: absolute;
+            top: 0;
+            left: 0; }
+            .sns-issue ul li .sns .icon-img img {
+              width: 60px; }
+          .sns-issue ul li .sns .play-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -45px;
+            margin-left: -42px; }
+            .sns-issue ul li .sns .play-icon .icon-play {
+              color: #fff;
+              font-size: 60px; }
+          .sns-issue ul li .sns .details {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 80px 15% 0; }
+            .sns-issue ul li .sns .details > div {
+              width: 100%; }
+              .sns-issue ul li .sns .details > div.content-body {
+                height: 60%; }
+                .sns-issue ul li .sns .details > div.content-body .mCSB_container {
+                  margin-right: 15px !important; }
+                .sns-issue ul li .sns .details > div.content-body .mCSB_draggerContainer {
+                  left: 10px !important; }
+                .sns-issue ul li .sns .details > div.content-body p {
+                  font-size: 14px;
+                  line-height: 28px;
                   color: #fff;
-                  font-weight: 300;
-                  line-height: 38px;
-                  text-align: center;
-                  padding: 0;
-                  border: 1px solid #fff;
-                  border-radius: 0;
-                  /*font-family: 'Noto Sans KR', sans-serif;*/
-                  font-family: 'Noto Sans', sans-serif; } }
+                  word-break: keep-all; }
+              .sns-issue ul li .sns .details > div.content-foot {
+                height: 40%; }
+                .sns-issue ul li .sns .details > div.content-foot .more-btn {
+                  margin-top: 30px; }
+                  .sns-issue ul li .sns .details > div.content-foot .more-btn .btn-white {
+                    display: inline-block;
+                    width: 100%;
+                    height: 40px;
+                    font-size: 13px;
+                    color: #fff;
+                    font-weight: 300;
+                    line-height: 38px;
+                    text-align: center;
+                    padding: 0;
+                    border: 1px solid #fff;
+                    border-radius: 0;
+                    /*font-family: 'Noto Sans KR', sans-serif;*/
+                    font-family: 'Noto Sans', sans-serif; } }
   @media (min-width: 992px) {
     .sns-issue ul li .sns .icon-img img {
       width: 65px; }

@@ -206,8 +206,18 @@
 
 // 비회원 문의 리스트
 .inquiry-list {
-    .search-form {
+    /*.search-form {
         margin-bottom: 25px;
+    }*/
+    .board-list-2 {
+        padding-top: 15px;
+        border-top: 2px solid #eb6100;
+        @media(min-width: $md) {
+            padding-top: 30px;
+        }
+        @media(min-width: $lg) {
+            padding-top: 18px;
+        }
     }
     .btn-area {
         margin-top: 30px;
@@ -217,9 +227,9 @@
         margin-top: 30px;
     }
     @media(min-width: $md) {
-        .search-form {
+        /*.search-form {
             margin-bottom: 40px;
-        }
+        }*/
         .btn-area {
             margin-top: 30px;
             p {

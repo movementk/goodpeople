@@ -1180,9 +1180,10 @@ a {
         .video-modal .modal-dialog .modal-content .modal-header .modal-title {
           font-size: 16px;
           color: #333;
+          display: block;
+          float: left;
           font-weight: 400; }
         .video-modal .modal-dialog .modal-content .modal-header .close {
-          overflow: hidden;
           float: right;
           display: block;
           width: 24px;
@@ -1628,17 +1629,21 @@ a {
         padding: 15px 20px;
         border-radius: 0;
         border: 0;
+        overflow: hidden;
         background-color: #eb6100; }
         .nation-popup .modal-dialog .modal-content .modal-header h5 {
+          float: left;
           font-size: 18px;
           color: #fff;
+          padding-right: 20px;
           font-weight: 500; }
         .nation-popup .modal-dialog .modal-content .modal-header .close {
+          float: right;
           font-size: 22px;
           padding: 0;
           color: #fff;
           box-shadow: none !important;
-          margin: 0 0 0 auto;
+          margin: 0;
           opacity: 1 !important; }
       .nation-popup .modal-dialog .modal-content .modal-body {
         padding: 20px 20px;
@@ -2012,8 +2017,7 @@ a {
         margin-top: 60px; } }
 
 .committee .section-header {
-  text-align: center;
-  /*padding-top: 40px;*/ }
+  text-align: center; }
   .committee .section-header > h4 {
     font-size: 22px;
     color: #222;
@@ -2023,6 +2027,7 @@ a {
     .committee .section-header .sub-tab-list ul {
       font-size: 0; }
       .committee .section-header .sub-tab-list ul li {
+        vertical-align: top;
         display: inline-block;
         width: 50%; }
         .committee .section-header .sub-tab-list ul li a {
@@ -2040,35 +2045,33 @@ a {
           border-color: #eb6100;
           background-color: #eb6100; }
   @media (min-width: 768px) {
-    .committee .section-header {
-      /*padding-top: 70px;*/ }
-      .committee .section-header > h4 {
-        font-size: 30px; }
-      .committee .section-header .sub-tab-list {
-        margin-top: 60px;
-        text-align: center; }
-        .committee .section-header .sub-tab-list ul {
-          display: inline-block;
-          width: 570px; }
-          .committee .section-header .sub-tab-list ul li a {
-            font-size: 16px;
-            line-height: 48px;
-            height: 50px;
-            -webkit-transition-property: all;
-            transition-property: all;
-            -webkit-transition-duration: 0.15s;
-            transition-duration: 0.15s;
-            -webkit-transition-timing-function: linear;
-            transition-timing-function: linear;
-            -webkit-transition-delay: 0s;
-            transition-delay: 0s; }
-            .committee .section-header .sub-tab-list ul li a:hover {
-              opacity: .8;
-              border: 1px solid #eb6100;
-              background-color: #eb6100;
-              color: #fff; }
-          .committee .section-header .sub-tab-list ul li.active a:hover {
-            opacity: 1 !important; } }
+    .committee .section-header > h4 {
+      font-size: 30px; }
+    .committee .section-header .sub-tab-list {
+      margin-top: 60px;
+      text-align: center; }
+      .committee .section-header .sub-tab-list ul {
+        display: inline-block;
+        width: 570px; }
+        .committee .section-header .sub-tab-list ul li a {
+          font-size: 16px;
+          line-height: 48px;
+          height: 50px;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+          .committee .section-header .sub-tab-list ul li a:hover {
+            opacity: .8;
+            color: #fff;
+            border-color: #eb6100;
+            background-color: #eb6100; }
+        .committee .section-header .sub-tab-list ul li.active a:hover {
+          opacity: 1 !important; } }
 .committee .section-content {
   margin-top: 50px; }
   @media (min-width: 768px) {
@@ -2093,7 +2096,8 @@ a {
         font-size: 0; }
         .directors .group .section-header .sub-tab-list ul li {
           display: inline-block;
-          width: 50%; }
+          width: 50%;
+          vertical-align: top; }
           .directors .group .section-header .sub-tab-list ul li a {
             display: block;
             font-size: 14px;

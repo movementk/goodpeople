@@ -20,6 +20,7 @@
 		margin-bottom: 20px;
 		background-color: #fdeed1;
 		> ul {
+            overflow: visible;
 			> li {
 				& ~ li {
 					dl {
@@ -131,12 +132,15 @@
 						overflow-y: scroll;
 						min-width: 80px;
 						height: 123px;
-						border-radius: 0;
+                        top: 32px !important;
+                        left: -13px !important;
 						padding: 0;
 						margin: 0;
-						margin-top: 10px;
+						/*margin-top: 10px;*/
 						z-index: 1;
-						transform: translate3d(-13px, 22px, 0px) !important;
+						border-radius: 0;
+                        transform: none !important;
+						/*transform: translate3d(-13px, 22px, 0px) !important;*/
 						.dropdown-item {
 							display: block;
 							padding: 0;
@@ -223,9 +227,10 @@
 						}
 						.dropdown-menu {
 							min-width: 110px;
-							margin-top: 32px;
 							height: 120px;
-							transform: translate3d(-1px, 22px, 0px) !important;
+                            top: 55px !important;
+                            left: -10px !important;
+							/*transform: translate3d(-1px, 22px, 0px) !important;*/
 							.dropdown-item {
 								padding: 5px 12px;
 								font-size: 15px;
@@ -297,9 +302,9 @@
 						}
 						.dropdown-menu {
 							min-width: 120px;
-							margin-top: 32px;
+							/*margin-top: 32px;*/
 							height: 132px;
-							transform: translate3d(-5px, 22px, 0px) !important;
+							/*transform: translate3d(-5px, 22px, 0px) !important;*/
 							.dropdown-item {
 								padding: 5px 15px;
 								font-size: 15px;

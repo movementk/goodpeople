@@ -464,20 +464,33 @@ a {
   .inquiry-write .write-wrap .table-wrap .table tbody tr td.e-mail .form-group .form-control, .inquiry-write .write-wrap .table-wrap .table tbody tr td.contact .form-group .form-control {
     width: 370px; } }
 
-.inquiry-list .search-form {
-  margin-bottom: 25px; }
-.inquiry-list .btn-area {
-  margin-top: 30px;
-  text-align: right; }
-.inquiry-list .paging {
-  margin-top: 30px; }
-@media (min-width: 768px) {
-  .inquiry-list .search-form {
-    margin-bottom: 40px; }
+.inquiry-list {
+  /*.search-form {
+      margin-bottom: 25px;
+  }*/ }
+  .inquiry-list .board-list-2 {
+    padding-top: 15px;
+    border-top: 2px solid #eb6100; }
+    @media (min-width: 768px) {
+      .inquiry-list .board-list-2 {
+        padding-top: 30px; } }
+    @media (min-width: 992px) {
+      .inquiry-list .board-list-2 {
+        padding-top: 18px; } }
   .inquiry-list .btn-area {
+    margin-top: 30px;
+    text-align: right; }
+  .inquiry-list .paging {
     margin-top: 30px; }
-    .inquiry-list .btn-area p .btn-md {
-      width: 170px; } }
+  @media (min-width: 768px) {
+    .inquiry-list {
+      /*.search-form {
+          margin-bottom: 40px;
+      }*/ }
+      .inquiry-list .btn-area {
+        margin-top: 30px; }
+        .inquiry-list .btn-area p .btn-md {
+          width: 170px; } }
 
 .news-list {
   padding-top: 70px; }

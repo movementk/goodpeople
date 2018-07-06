@@ -72,82 +72,87 @@
 				</div>
 			</div>	
 		</article>
-			
+		
 		<article class="variety">
-			<div class="container">
-				<ul>
-					<li>
-						<div class="row">
-							<div class="col-12 col-md-6">
-								 <figure>
-								 	<img src="/assets/images/sponsor/img_variety_list01.jpg" class="img-fluid" alt="">
-								 </figure>
-							</div>
-							<div class="col-12 col-md-6">
-								<div class="details">
-									<div>
-										<h4>해외아동지원</h4>
-										<p>아동들로 하여금 더 나은 삶을 실현할 수 있도록 생활개선, 기초교육, 의료지원, 영양공급 등의 서비스 제공이 이루어지며, 이를 기반으로 신체적, 정서적, 사회적으로 건강한 성인으로 자립할 수 있도록 지원합니다.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="row">
-							<div class="col-12 col-md-6 order-md-last">
-								 <figure>
-								 	<img src="/assets/images/sponsor/img_variety_list02.jpg" class="img-fluid" alt="">
-								 </figure>
-							</div>
-							<div class="col-12 col-md-6 order-md-first">
-								<div class="details">
-									<div>
-										<h4>국내아동지원</h4>
-										<p>
-										국내 저소득층 아이들에게 공정한 복지와 교육의 기회를 제공해 <br class="d-none d-xl-block">
-										꿈과 희망을 가지도록 지원합니다.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="row">
-							<div class="col-12 col-md-6">
-								 <figure>
-								 	<img src="/assets/images/sponsor/img_variety_list03.jpg" class="img-fluid" alt="">
-								 </figure>
-							</div>
-							<div class="col-12 col-md-6">
-								<div class="details">
-									<div>
-										<h4>아동후원</h4>
-										<p>후원자님과 해외아동이 결연을 맺고 교육, 의료, 생계, 시설 지원 등을 통해 결연아동의<br class="d-none d-xl-block"> 건강한 성장한 돕습니다.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="row">
-							<div class="col-12 col-md-6 order-md-last">
-								 <figure>
-								 	<img src="/assets/images/sponsor/img_variety_list04.jpg" class="img-fluid" alt="">
-								 </figure>
-							</div>
-							<div class="col-12 col-md-6 order-md-first">
-								<div class="details">
-									<div>
-										<h4>긴급구호</h4>
-										<p>천재지변이나 각종 재해 등으로 긴급하게 지원이나 도움이 필요한 <br class="d-none d-xl-block"> 상황이 발생한 경우 신속하게 지원합니다.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
+		    <div class="container">
+		        <div class="summary-box">
+		            <div class="figure">
+		                <figure>
+		                    <img src="/assets/images/sponsor/img_variety_list01.jpg" class="img-fluid" alt="">
+		                </figure>
+		            </div>
+		            <div class="details">
+                        <img src="/assets/images/sponsor/bg_none_img.png" class="img-fluid bg-details" alt="">
+                        <div class="v-align">
+                            <div class="middle-box">
+                                <div>
+                                    <h4>해외아동지원</h4>
+                                    <p>아동들로 하여금 더 나은 삶을 실현할 수 있도록 생활개선, 기초교육, 의료지원, 영양공급 등의 서비스 제공이 이루어지며, 이를 기반으로 신체적, 정서적, 사회적으로 건강한 성인으로 자립할 수 있도록 지원합니다.</p>
+                                </div>
+                            </div>
+                        </div>
+		            </div>
+		        </div>
+		        
+		        <div class="summary-box">
+		            <div class="figure">
+		                <figure>
+		                    <img src="/assets/images/sponsor/img_variety_list02.jpg" class="img-fluid" alt="">
+		                </figure>
+		            </div>
+		            <div class="details">
+                        <img src="/assets/images/sponsor/bg_none_img.png" class="img-fluid bg-details" alt="">
+                        <div class="v-align">
+                            <div class="middle-box">
+                                <div>
+                                    <h4>국내아동지원</h4>
+                                    <p>
+                                    국내 저소득층 아이들에게 공정한 복지와 교육의 기회를 제공해 <br class="d-none d-xl-block">
+                                    꿈과 희망을 가지도록 지원합니다.</p>
+                                </div>
+                            </div>
+                        </div>
+		            </div>
+		        </div>
+		        
+		        <div class="summary-box">
+		            <div class="figure">
+		                <figure>
+		                    <img src="/assets/images/sponsor/img_variety_list03.jpg" class="img-fluid" alt="">
+		                </figure>
+		            </div>
+		            <div class="details">
+                        <img src="/assets/images/sponsor/bg_none_img.png" class="img-fluid bg-details" alt="">
+                        <div class="v-align">
+                            <div class="middle-box">
+                                <div>
+                                    <h4>아동후원</h4>
+                                    <p>후원자님과 해외아동이 결연을 맺고 교육, 의료, 생계, 시설 지원 등을 통해 결연아동의<br class="d-none d-xl-block"> 건강한 성장한 돕습니다.</p>
+                                </div>
+                            </div>
+                        </div>
+		            </div>
+		        </div>
+		        
+		        <div class="summary-box">
+		            <div class="figure">
+		                <figure>
+		                    <img src="/assets/images/sponsor/img_variety_list04.jpg" class="img-fluid" alt="">
+		                </figure>
+		            </div>
+		            <div class="details">
+                        <img src="/assets/images/sponsor/bg_none_img.png" class="img-fluid bg-details" alt="">
+                        <div class="v-align">
+                            <div class="middle-box">
+                                <div>
+                                    <h4>긴급구호</h4>
+                                    <p>천재지변이나 각종 재해 등으로 긴급하게 지원이나 도움이 필요한 <br class="d-none d-xl-block"> 상황이 발생한 경우 신속하게 지원합니다.</p>
+                                </div>
+                            </div>
+                        </div>
+		            </div>
+		        </div>
+		    </div>
 		</article>
 			
 		<article class="benefit">

@@ -209,7 +209,6 @@ body {
         overflow: auto;
         float: right;
         z-index: 201;
-        padding-bottom: 40px;
         background-color: #fff;
         .nav-body {
             .gnb-menu {
@@ -330,6 +329,7 @@ body {
         }
         .nav-foot {
             margin-top: 60px;
+            margin-bottom: 50px;
             .family-site {
                 > .dropup {
                     width: 100%;

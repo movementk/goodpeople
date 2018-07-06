@@ -558,7 +558,6 @@ body {
     overflow: auto;
     float: right;
     z-index: 201;
-    padding-bottom: 40px;
     background-color: #fff; }
     #nav .nav-wrap .nav-body .gnb-menu > .depth-1 > li > a {
       display: block;
@@ -641,7 +640,8 @@ body {
     #nav .nav-wrap .nav-body .gnb-menu > .depth-1 > li.active > .depth-2 {
       display: block; }
     #nav .nav-wrap .nav-foot {
-      margin-top: 60px; }
+      margin-top: 60px;
+      margin-bottom: 50px; }
       #nav .nav-wrap .nav-foot .family-site > .dropup {
         width: 100%;
         min-width: 100%; }
