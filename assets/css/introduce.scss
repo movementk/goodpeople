@@ -984,9 +984,29 @@
         }
 		> ul {
 			> li {
+				float: left !important;
 				&:nth-of-type(2) ~ li {
 					a {
                         margin-top: 60px;
+					}
+				}
+				&:nth-of-type(2n + 1) {
+					clear: both;
+				}
+				@media(min-width: $md) {
+					&:nth-of-type(2n + 1) {
+						clear: none;
+					}
+					&:nth-of-type(4n + 1) {
+						clear: both;
+					}
+				}
+				@media(min-width: $lg) {
+					&:nth-of-type(4n + 1) {
+						clear: none;
+					}
+					&:nth-of-type(6n + 1) {
+						clear: both;
 					}
 				}
 				a {
