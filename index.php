@@ -334,7 +334,7 @@
                                 <img src="/assets/images/main/btn_facebook_sm.jpg" alt="facebook">
                             </a>
                         </div>
-                        <div class="sns facebook d-none d-md-block">
+                        <a href="#" class="sns facebook d-none d-md-block">
                             <div class="bg-backdrop">
                                 <img src="/assets/images/main/bg_backdrop_facebook.jpg" class="img-fluid" alt="facebook background">
                             </div>
@@ -362,11 +362,11 @@
                                 </div>
                                 <div class="content-foot">
                                     <div class="more-btn">
-                                        <a href="#" class="btn btn-white btn-blue" role="button">더 보기</a>
+                                        <p class="btn btn-white btn-blue" role="button">더 보기</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </li>
                     <li class="col-3 col-md-6 col-xl-3">
                         <div class="mobile-link d-md-none">

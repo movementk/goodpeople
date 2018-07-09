@@ -749,7 +749,7 @@ body {
                 a {
                     color: #999;
                     &:hover, &:focus {
-                        text-decoration: underline;
+                        text-decoration: none;
                     }
                 }
             }
@@ -1001,7 +1001,7 @@ body {
                             color: #666;
                             line-height: 35px;
                             &:hover, &:focus {
-                                text-decoration: underline;
+                                text-decoration: none;
                             }
                         }
                     }
