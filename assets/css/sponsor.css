@@ -1499,8 +1499,10 @@ a {
       font-size: 0; }
       .regular-sponsor .variety .summary-box ~ .summary-box {
         margin-top: 50px; }
-      .regular-sponsor .variety .summary-box .figure .img-fluid {
+      .regular-sponsor .variety .summary-box .figure {
         width: 100%; }
+        .regular-sponsor .variety .summary-box .figure .img-fluid {
+          width: 100%; }
       .regular-sponsor .variety .summary-box .details {
         padding-top: 30px; }
         .regular-sponsor .variety .summary-box .details .bg-details {
@@ -1543,7 +1545,7 @@ a {
               padding-right: 10px; }
           .regular-sponsor .variety .summary-box > div {
             display: inline-block;
-            width: 50%; }
+            width: 50% !important; }
           .regular-sponsor .variety .summary-box .details {
             position: relative;
             height: 100%;

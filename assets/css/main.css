@@ -1611,7 +1611,8 @@ a {
             .sns-issue ul li .sns .details > div {
               width: 100%; }
               .sns-issue ul li .sns .details > div.content-body {
-                height: 60%; }
+                height: 60%;
+                overflow: hidden; }
                 .sns-issue ul li .sns .details > div.content-body .mCSB_container {
                   margin-right: 15px !important; }
                 .sns-issue ul li .sns .details > div.content-body .mCSB_draggerContainer {

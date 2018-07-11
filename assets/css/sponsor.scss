@@ -1696,6 +1696,7 @@
                 margin-top: 50px;
             }
             .figure {
+                width: 100%;
                 .img-fluid {
                     width: 100%;
                 }
@@ -1763,7 +1764,7 @@
                 }
                 > div {
                     display: inline-block;
-                    width: 50%;
+                    width: 50% !important;
                 }
                 .details {
                     position: relative;

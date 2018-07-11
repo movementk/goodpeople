@@ -1594,6 +1594,7 @@
                             width: 100%;
                             &.content-body {
                                 height: 60%;
+                                overflow: hidden;
                                 .mCSB_container {
                                     margin-right: 15px !important;
                                 }
