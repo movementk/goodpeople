@@ -1531,18 +1531,24 @@ a {
           .regular-sponsor .variety .summary-box:nth-of-type(odd) .details {
             float: right;
             text-align: left;
-            padding-left: 10px; }
+            padding-left: 10px;
+            padding-right: 10px; }
             .regular-sponsor .variety .summary-box:nth-of-type(odd) .details .v-align {
-              padding-left: 10px; }
+              left: 10px;
+              padding-left: 10px;
+              padding-right: 10px; }
           .regular-sponsor .variety .summary-box:nth-of-type(even) .figure {
             float: right;
             padding-left: 10px; }
           .regular-sponsor .variety .summary-box:nth-of-type(even) .details {
             float: left;
             text-align: right;
-            padding-right: 10px; }
+            padding-right: 10px;
+            padding-left: 10px; }
             .regular-sponsor .variety .summary-box:nth-of-type(even) .details .v-align {
-              padding-right: 10px; }
+              right: 10px;
+              padding-right: 10px;
+              padding-left: 10px; }
           .regular-sponsor .variety .summary-box > div {
             display: inline-block;
             width: 50% !important; }
@@ -1580,13 +1586,17 @@ a {
         .regular-sponsor .variety .summary-box:nth-of-type(odd) .details {
           padding-left: 40px; }
           .regular-sponsor .variety .summary-box:nth-of-type(odd) .details .v-align {
-            padding-left: 40px; }
+            left: 40px;
+            padding-left: 40px;
+            padding-right: 40px; }
         .regular-sponsor .variety .summary-box:nth-of-type(even) .figure {
           padding-left: 40px; }
         .regular-sponsor .variety .summary-box:nth-of-type(even) .details {
           padding-right: 40px; }
           .regular-sponsor .variety .summary-box:nth-of-type(even) .details .v-align {
-            padding-right: 40px; }
+            right: 40px;
+            padding-right: 40px;
+            padding-left: 40px; }
         .regular-sponsor .variety .summary-box .details .v-align .middle-box > div h4 {
           margin-bottom: 30px; } }
   .regular-sponsor .benefit {

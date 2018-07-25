@@ -845,81 +845,96 @@ a {
     color: #111;
     font-weight: 400;
     margin-bottom: 20px; }
-  .campaign-list .section-content > ul > li > a {
-    display: block; }
-    .campaign-list .section-content > ul > li > a .item {
-      position: relative; }
-      .campaign-list .section-content > ul > li > a .item .ongoing {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        width: 70px;
-        display: block;
-        font-size: 12px;
-        line-height: 30px;
-        text-align: center;
-        color: #fff;
-        background-color: #f5a100; }
-      .campaign-list .section-content > ul > li > a .item .img-fluid {
-        width: 100%; }
-    .campaign-list .section-content > ul > li > a .details {
-      position: relative;
-      text-align: center;
-      padding: 30px 3% 20px;
-      border: 1px solid #ccc;
-      border-top: 0; }
-      .campaign-list .section-content > ul > li > a .details .progress-area {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 10px;
-        background-color: #ccc; }
-        .campaign-list .section-content > ul > li > a .details .progress-area .state-bar {
-          position: relative;
-          height: 10px;
+  .campaign-list .section-content > ul > li {
+    padding-left: 20px !important;
+    padding-right: 20px !important; }
+    @media (min-width: 768px) {
+      .campaign-list .section-content > ul > li {
+        padding-left: 17px !important;
+        padding-right: 17px !important; } }
+    @media (min-width: 992px) {
+      .campaign-list .section-content > ul > li {
+        padding-left: 20px !important;
+        padding-right: 20px !important; } }
+    .campaign-list .section-content > ul > li > a {
+      display: block; }
+      .campaign-list .section-content > ul > li > a .item {
+        position: relative; }
+        .campaign-list .section-content > ul > li > a .item .ongoing {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          width: 70px;
           display: block;
-          background-color: #ee7500;
-          -webkit-transition-property: all;
-          transition-property: all;
-          -webkit-transition-duration: 1.5s;
-          transition-duration: 1.5s;
-          -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-          -webkit-transition-delay: 0s;
-          transition-delay: 0s; }
-          .campaign-list .section-content > ul > li > a .details .progress-area .state-bar .d-day {
-            position: absolute;
-            top: -46px;
-            right: -18px;
-            font-size: 11px;
-            color: #fff;
-            display: inline-block;
-            width: 35px;
-            height: 42px;
-            line-height: 38px;
-            font-weight: bold;
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
-            background-image: url(/assets/images/main/bg_d_day.png);
-            background-repeat: no-repeat;
-            background-size: 35px 42px;
-            background-position: 0 0; }
-      .campaign-list .section-content > ul > li > a .details h4 {
-        font-size: 16px;
-        color: #111;
-        /*small {
+          font-size: 12px;
+          line-height: 30px;
+          text-align: center;
+          color: #fff;
+          background-color: #f5a100; }
+        .campaign-list .section-content > ul > li > a .item .img-fluid {
+          width: 100%; }
+      .campaign-list .section-content > ul > li > a .details {
+        position: relative;
+        text-align: center;
+        padding: 30px 3% 20px;
+        border: 1px solid #ccc;
+        border-top: 0; }
+        .campaign-list .section-content > ul > li > a .details .progress-area {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 10px;
+          background-color: #ccc; }
+          .campaign-list .section-content > ul > li > a .details .progress-area .state-bar {
+            position: relative;
+            height: 10px;
             display: block;
-            font-size: 13px;
-            color: #555;
-            margin-bottom: 10px;
-        }*/ }
-      .campaign-list .section-content > ul > li > a .details .more {
-        display: none; }
-  .campaign-list .section-content > ul > li ~ li a {
-    margin-top: 10px; }
+            background-color: #ee7500;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 1.5s;
+            transition-duration: 1.5s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
+            .campaign-list .section-content > ul > li > a .details .progress-area .state-bar .d-day {
+              position: absolute;
+              top: -46px;
+              right: -18px;
+              font-size: 11px;
+              color: #fff;
+              display: inline-block;
+              width: 35px;
+              height: 42px;
+              line-height: 38px;
+              font-weight: bold;
+              text-align: center;
+              font-family: 'Roboto', sans-serif;
+              background-image: url(/assets/images/main/bg_d_day.png);
+              background-repeat: no-repeat;
+              background-size: 35px 42px;
+              background-position: 0 0; }
+        .campaign-list .section-content > ul > li > a .details h4 {
+          font-size: 16px;
+          color: #111;
+          /*small {
+              display: block;
+              font-size: 13px;
+              color: #555;
+              margin-bottom: 10px;
+          }*/ }
+        .campaign-list .section-content > ul > li > a .details .more {
+          display: none; }
+    .campaign-list .section-content > ul > li ~ li a {
+      margin-top: 10px; }
   .campaign-list .section-content .btn-area {
-    margin-top: 20px; }
+    margin-top: 20px;
+    padding: 0 15px; }
+    @media (min-width: 768px) {
+      .campaign-list .section-content .btn-area {
+        padding: 0; } }
     .campaign-list .section-content .btn-area p .btn-gray {
       display: inline-block;
       width: 100%;

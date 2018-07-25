@@ -1648,6 +1648,8 @@ a {
       .nation-popup .modal-dialog .modal-content .modal-body {
         padding: 20px 20px;
         border: 0; }
+        .nation-popup .modal-dialog .modal-content .modal-body .img-fluid {
+          width: 100% !important; }
         .nation-popup .modal-dialog .modal-content .modal-body .table-wrap .table.type-1 {
           margin: 0;
           border: 0;

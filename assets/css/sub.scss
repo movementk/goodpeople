@@ -1172,6 +1172,9 @@ input, textarea {
 				padding: 30px 0 60px;
 				
 			}
+            b, strong {
+                font-weight: bold !important;
+            }
 			> p {
 				text-align: left;
 				font-size: 13px;
@@ -1242,6 +1245,10 @@ input, textarea {
                             color: #111;
                             border: 2px solid #666;
                         }
+                        &.btn-gray {
+                            color: #111;
+                            border: 2px solid #ccc;
+                        }
                         &:hover/*, &:focus*/ {
                             color: #fff;
                             &.btn-orange {
@@ -1252,6 +1259,9 @@ input, textarea {
                             }
                             &.btn-white {
                                 background-color: #666;
+                            }
+                            &.btn-gray {
+                                background-color: #ccc;
                             }
                         }
                     }
@@ -1415,6 +1425,11 @@ input, textarea {
 					max-width: 725px;
 					padding: 50px 0 60px;
 				}
+                &.center {
+					margin: 0 auto;
+					max-width: 725px;
+					padding: 50px 0 60px;
+				}
 				.reply {
 					margin-top: 50px;
 					padding: 40px;
@@ -1484,9 +1499,25 @@ input, textarea {
 					}
 				}
 				&.space {
-					max-width: 725px;
+					max-width: 800px;
 					margin: 0 auto;
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                    p {
+                        padding-left: 0 !important;
+                        padding-right: 0 !important;
+                    }
 				}
+                &.center {
+                    max-width: 800px !important;
+                    margin: 0 auto;
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                    p {
+                        padding-left: 0 !important;
+                        padding-right: 0 !important;
+                    }
+                }
 			}
 			.page-link-list {
 				ul {
@@ -1980,7 +2011,7 @@ input, textarea {
 						font-weight: 300;
 						font-family: "fontello";
 					}
-					&:hover/*, &:focus*/ {
+					&:hover, &:focus {
 						text-decoration: none;
 					}
 				}

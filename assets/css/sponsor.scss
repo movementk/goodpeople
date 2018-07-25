@@ -1743,8 +1743,11 @@
                         float: right;
                         text-align: left;
                         padding-left: 10px;
+                        padding-right: 10px;
                         .v-align {
+                            left: 10px;
                             padding-left: 10px;
+                            padding-right: 10px;
                         }
                     }
                 }
@@ -1757,8 +1760,11 @@
                         float: left;
                         text-align: right;
                         padding-right: 10px;
+                        padding-left: 10px;
                         .v-align {
+                            right: 10px;
                             padding-right: 10px;
+                            padding-left: 10px;
                         }
                     }
                 }
@@ -1811,7 +1817,9 @@
                     .details {
                         padding-left: 40px;
                         .v-align {
+                            left: 40px;
                             padding-left: 40px;
+                            padding-right: 40px;
                         }
                     }
                 }
@@ -1822,7 +1830,9 @@
                     .details {
                         padding-right: 40px;
                         .v-align {
+                            right: 40px;
                             padding-right: 40px;
+                            padding-left: 40px;
                         }
                     }
                 }

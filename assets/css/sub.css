@@ -1186,6 +1186,8 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
     .board-view .article-content .view-content.space {
       text-align: center;
       padding: 30px 0 60px; }
+    .board-view .article-content .view-content b, .board-view .article-content .view-content strong {
+      font-weight: bold !important; }
     .board-view .article-content .view-content > p {
       text-align: left;
       font-size: 13px;
@@ -1249,6 +1251,9 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         .board-view .article-content .view-content .spon-btn p .btn.btn-white {
           color: #111;
           border: 2px solid #666; }
+        .board-view .article-content .view-content .spon-btn p .btn.btn-gray {
+          color: #111;
+          border: 2px solid #ccc; }
         .board-view .article-content .view-content .spon-btn p .btn:hover {
           color: #fff; }
           .board-view .article-content .view-content .spon-btn p .btn:hover.btn-orange {
@@ -1257,6 +1262,8 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
             background-color: #144199; }
           .board-view .article-content .view-content .spon-btn p .btn:hover.btn-white {
             background-color: #666; }
+          .board-view .article-content .view-content .spon-btn p .btn:hover.btn-gray {
+            background-color: #ccc; }
       @media (min-width: 768px) {
         .board-view .article-content .view-content .spon-btn {
           margin-top: 80px; }
@@ -1362,6 +1369,10 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
         margin: 0 auto;
         max-width: 725px;
         padding: 50px 0 60px; }
+      .board-view .article-content .view-content.center {
+        margin: 0 auto;
+        max-width: 725px;
+        padding: 50px 0 60px; }
       .board-view .article-content .view-content .reply {
         margin-top: 50px;
         padding: 40px; }
@@ -1406,8 +1417,21 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
       .board-view .article-content .view-content > .item > p {
         margin-top: 40px; }
       .board-view .article-content .view-content.space {
-        max-width: 725px;
-        margin: 0 auto; }
+        max-width: 800px;
+        margin: 0 auto;
+        padding-left: 0 !important;
+        padding-right: 0 !important; }
+        .board-view .article-content .view-content.space p {
+          padding-left: 0 !important;
+          padding-right: 0 !important; }
+      .board-view .article-content .view-content.center {
+        max-width: 800px !important;
+        margin: 0 auto;
+        padding-left: 0 !important;
+        padding-right: 0 !important; }
+        .board-view .article-content .view-content.center p {
+          padding-left: 0 !important;
+          padding-right: 0 !important; }
     .board-view .article-content .page-link-list ul li dl dt {
       padding-right: 50px; }
     .board-view .article-content .page-link-list ul li dl dd:before {
@@ -1731,7 +1755,7 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
           opacity: .7;
           font-weight: 300;
           font-family: "fontello"; }
-        .accordion .card .card-header a.btn-link:hover {
+        .accordion .card .card-header a.btn-link:hover, .accordion .card .card-header a.btn-link:focus {
           text-decoration: none; }
       .accordion .card .card-header a.collapsed {
         background-color: #fff; }

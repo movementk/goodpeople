@@ -557,6 +557,16 @@
     .section-content {
         > ul {
             > li {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+                @media(min-width: $md) {
+                    padding-left: 17px !important;
+                    padding-right: 17px !important;
+                }
+                @media(min-width: $lg) {
+                    padding-left: 20px !important;
+                    padding-right: 20px !important;
+                }
                 > a {
                     display: block;
                     .item {
@@ -640,6 +650,10 @@
         }
         .btn-area {
             margin-top: 20px;
+            padding: 0 15px;
+            @media(min-width: $md) {
+                padding: 0;
+            }
             p {
                 .btn-gray {
                     display: inline-block;

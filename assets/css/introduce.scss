@@ -1840,6 +1840,9 @@
             .modal-body {
                 padding: 20px 20px;
                 border: 0;
+                .img-fluid {
+                    width: 100% !important;
+                }
                 .table-wrap {
                     .table {
                         &.type-1 {

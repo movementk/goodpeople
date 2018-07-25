@@ -178,6 +178,12 @@
         padding: 0 15px;
         > ul {
             > li {
+                padding-left: 17px !important;
+                padding-right: 17px !important;
+                @media(min-width: $md) {
+                    padding-left: 20px !important;
+                    padding-right: 20px !important;
+                }
                 a {
                     position: relative;
                     display: block;
