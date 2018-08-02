@@ -500,7 +500,6 @@
 										<a href="tel:0260119489" class="tel">02-6011-9489</a>
 									</div>
 								</li>
-								<blockqute></blockqute>
 								<li>
 									<div class="people-information">
 										<h5>
