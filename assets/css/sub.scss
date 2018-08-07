@@ -2743,7 +2743,23 @@ input, textarea {
 	}
 }
 
-
+.sub {
+    #content {
+        &.campaign {
+            background-image: url(/assets/images/sub/bg_sub2.jpg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: auto 5998px;
+            padding-bottom: 0 !important;
+        }
+        figure {
+            .img-fluid {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}
 
 
 

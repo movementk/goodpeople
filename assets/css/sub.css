@@ -2216,4 +2216,14 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
             font-size: 15px;
             margin-top: 10px; } }
 
+.sub #content.campaign {
+  background-image: url(/assets/images/sub/bg_sub2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: auto 5998px;
+  padding-bottom: 0 !important; }
+.sub #content figure .img-fluid {
+  display: block;
+  margin: 0 auto; }
+
 /*# sourceMappingURL=sub.css.map */
