@@ -2226,4 +2226,17 @@ input.form-control:-moz-placeholder, textarea.form-control:-moz-placeholder {
   display: block;
   margin: 0 auto; }
 
+.sub-2 {
+  margin: 0 !important;
+  position: relative; }
+  .sub-2 .page-logo {
+    position: absolute;
+    top: 40px;
+    left: 40px; }
+  .sub-2 #quick-nav {
+    opacity: 0;
+    display: none !important; }
+    .sub-2 #quick-nav .btn-area {
+      display: none !important; }
+
 /*# sourceMappingURL=sub.css.map */
