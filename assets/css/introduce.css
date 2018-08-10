@@ -2268,6 +2268,8 @@ a {
         .domestic-camps .summary .article-content dl dd {
           padding-left: 100px; } }
 
+.staffer .group .section-content .space {
+  min-height: auto; }
 .staffer .group .section-content .group-wrap {
   margin-top: 60px; }
   .staffer .group .section-content .group-wrap > h3 {
@@ -2282,7 +2284,7 @@ a {
     margin: 0 auto -2px; }
   .staffer .group .section-content .group-wrap .gp-group {
     background-color: #f5f5f5; }
-    .staffer .group .section-content .group-wrap .gp-group .article-content ul .leader {
+    .staffer .group .section-content .group-wrap .gp-group .article-content ul li.leader {
       padding: 15px 0 15px 35px; }
     .staffer .group .section-content .group-wrap .gp-group ~ .gp-group {
       margin-top: 0;
@@ -2292,9 +2294,9 @@ a {
       margin-top: 80px; }
       .staffer .group .section-content .group-wrap > h3 {
         width: 150px;
-        font-size: 23px;
+        font-size: 26px;
         padding-bottom: 15px; }
-      .staffer .group .section-content .group-wrap .gp-group .article-content ul .leader {
+      .staffer .group .section-content .group-wrap .gp-group .article-content ul li.leader {
         padding: 40px 0 40px 55px; }
       .staffer .group .section-content .group-wrap .gp-group ~ .gp-group {
         padding: 80px 25px 0; } }
@@ -2303,9 +2305,9 @@ a {
       margin-top: 150px; }
       .staffer .group .section-content .group-wrap > h3 {
         width: 220px;
-        font-size: 24px;
+        font-size: 28px;
         padding-bottom: 20px; }
-      .staffer .group .section-content .group-wrap .gp-group .article-content ul .leader {
+      .staffer .group .section-content .group-wrap .gp-group .article-content ul li.leader {
         padding: 50px 0 50px 55px; }
       .staffer .group .section-content .group-wrap .gp-group ~ .gp-group {
         padding: 80px 40px 0; } }
