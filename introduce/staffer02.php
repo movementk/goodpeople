@@ -47,7 +47,7 @@
 						<div class="article-content">
 							<ul>
 								<li>
-									<div class="people-information">
+									<div class="people-information space">
 										<h5>
 											김천수 <small>회장</small>
 											<a href="https://www.facebook.com/100015184545757" target="_blank" class="ico-facebook">
@@ -60,7 +60,7 @@
 									</div>
 								</li>
 								<li>
-									<div class="people-information">
+									<div class="people-information space">
 										<h5>
 											정권삼 <small>운영부회장</small>
 											<a href="https://goo.gl/khuVuM" target="_blank" class="ico-facebook">
@@ -73,7 +73,7 @@
 									</div>
 								</li>
 								<li>
-									<div class="people-information">
+									<div class="people-information space">
 										<h5>
 											강대성 <small>상임이사</small>
 											<a href="https://www.facebook.com/bommine" target="_blank" class="ico-facebook">
