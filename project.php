@@ -70,8 +70,8 @@
    			</div>
     	</article>
     </main>
-    <div class="quick-top">
-    	<a href="#" class="quick-btn">
+    <div class="sponsor-btn">
+    	<a href="#">
     		<img src="/assets/images/project/quick_btn.png" alt="">
     	</a>
     </div>

@@ -19,7 +19,6 @@
 		background-image: url(/assets/images/project/bg_content01.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: cover;
 		.video {
 			width: 930px;
 			height: 555px;
@@ -38,7 +37,6 @@
 		background-image: url(/assets/images/project/bg_content02.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: cover; 
 		.text1 {
 			float: right;
 			padding-right: 80px; 
@@ -62,7 +60,6 @@
 		background-image: url(/assets/images/project/bg_content04.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: cover;
 		.text1 {
 			float: right;
 			padding-right: 80px;
@@ -74,7 +71,6 @@
 		background-image: url(/assets/images/project/bg_content05.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: cover;   
 	}
 	.content06 {
 		height: 442px;
@@ -93,7 +89,6 @@
 		background-image: url(/assets/images/project/bg_content07.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: cover;  
 		.text1 {
 			img {
 				display: block;
@@ -138,8 +133,8 @@
 }
 
 
-.quick-top {
-	.quick-btn {
+.sponsor-btn {
+	a {
 		position: fixed;
 		right: 240px;
 		bottom: 45px;
