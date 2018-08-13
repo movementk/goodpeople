@@ -375,8 +375,7 @@ a {
     padding-top: 240px;
     background-image: url(/assets/images/project/bg_content01.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; }
+    background-position: center; }
     .project .content01 .video {
       width: 930px;
       height: 555px;
@@ -391,8 +390,7 @@ a {
     padding-top: 135px;
     background-image: url(/assets/images/project/bg_content02.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; }
+    background-position: center; }
     .project .content02 .text1 {
       float: right;
       padding-right: 80px; }
@@ -409,8 +407,7 @@ a {
     padding-top: 160px;
     background-image: url(/assets/images/project/bg_content04.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; }
+    background-position: center; }
     .project .content04 .text1 {
       float: right;
       padding-right: 80px; }
@@ -419,8 +416,7 @@ a {
     padding-top: 95px;
     background-image: url(/assets/images/project/bg_content05.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; }
+    background-position: center; }
   .project .content06 {
     height: 442px;
     padding-top: 30px;
@@ -433,8 +429,7 @@ a {
     padding-top: 125px;
     background-image: url(/assets/images/project/bg_content07.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; }
+    background-position: center; }
     .project .content07 .text1 img {
       display: block;
       margin: 0 auto; }
@@ -480,7 +475,7 @@ a {
             color: #fff;
             background-color: #eb6100; }
 
-.quick-top .quick-btn {
+.sponsor-btn a {
   position: fixed;
   right: 240px;
   bottom: 45px;
@@ -491,7 +486,7 @@ a {
   padding-top: 25px;
   background-color: #eb6100;
   box-shadow: 2px 3px 4.8px 1.2px rgba(0, 0, 0, 0.15); }
-  .quick-top .quick-btn img {
+  .sponsor-btn a img {
     display: block;
     margin: 0 auto; }
 
