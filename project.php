@@ -10,24 +10,94 @@
    				<img src="/assets/images/sub/logo.png" alt="">
    			</a>
    		</h1>
-   		<section class="content01">
+   		<article class="content01">
    			<div class="container">
+   				<div class="text1">
+   					<img src="/assets/images/project/img_content01.png" alt="">
+				</div>
+   				<div class="video"></div>
+   				<div class="text2">
+   					<img src="/assets/images/project/img_content01_2.png" alt="">
+   				</div>
     		</div>
-   		</section>
-   		<section class="content02"></section>
-   		<section class="content03"></section>
-   		<section class="content04"></section>
-    	<section class="content05"></section>
-    	<section class="content06"></section>
-    	<section class="content07">
-    		<div class="btn-area">
-    			<p>
-    				<a href="#" class="btn btn-white" role="button">일시후원</a>
-    				<a href="#" class="btn btn-orange" role="button">정기후원</a>
-    			</p>
-    		</div>
-    	</section>
+   		</article>
+   		<article class="content02">
+   			<div class="container">
+				<div class="text1">
+					<img src="/assets/images/project/img_content02.png" alt="">
+				</div>
+   			</div>
+   		</article>
+   		<article class="content03">
+   			<div class="container">
+				<div class="text1">
+					<img src="/assets/images/project/img_content03.png" alt="">
+				</div>
+   			</div>
+   		</article>
+   		<article class="content04">
+   			<div class="container">
+				<div class="text1">
+					<img src="/assets/images/project/img_content04.png" alt="">
+				</div>
+   			</div>
+   		</article>
+    	<article class="content05">
+    		<div class="container">
+				<div class="text1">
+					<img src="/assets/images/project/img_content05.png" alt="">
+				</div>
+   			</div>
+    	</article>
+    	<article class="content06">
+    		<div class="container">
+				<div class="text1">
+					<img src="/assets/images/project/img_content06.png" alt="">
+				</div>
+   			</div>
+    	</article>
+    	<article class="content07">
+    		<div class="container">
+				<div class="text1">
+					<img src="/assets/images/project/img_content07.png" alt="">
+				</div>
+				<div class="btn-area">
+					<p>
+						<a href="#" class="btn btn-white" role="button">일시후원</a>
+						<a href="#" class="btn btn-orange" role="button">정기후원</a>
+					</p>
+				</div>
+   			</div>
+    	</article>
     </main>
+    <div class="quick-top">
+    	<a href="#" class="quick-btn">
+    		<img src="/assets/images/project/quick_btn.png" alt="">
+    	</a>
+    </div>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 </body>
+<script>
+ // quick menu
+    $(window).on('scroll', function() {
+        if ($(this).scrollTop() >= 100) {
+            $('#quick-top').show('slow');
+            $('#quick-banner').stop().animate({
+                top: $(this).scrollTop() + 231
+            }, 'slow');
+        } else {
+            $('#quick-top').hide('slow');
+            $('#quick-banner').stop().animate({
+                top: 231
+            }, 'slow');
+        }
+    });
+    
+    $(document).on('click', '#quick-top .top', function(e) {
+        $('html, body').stop().animate({
+            scrollTop: 0
+        });
+        e.preventDefault();
+    });
+</script>
 </html>

@@ -363,55 +363,84 @@ a {
   margin-top: 0;
   min-width: 1300px;
   font-family: 'RixGo B' !important; }
+  .project .container {
+    max-width: 1300px;
+    width: 1300px !important; }
   .project .logo {
     position: absolute;
     top: 40px;
     left: 40px; }
   .project .content01 {
     height: 2188px;
+    padding-top: 240px;
     background-image: url(/assets/images/project/bg_content01.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }
+    .project .content01 .video {
+      width: 930px;
+      height: 555px;
+      margin: 0 auto;
+      margin-top: 250px;
+      background-color: black; }
+    .project .content01 .text2 {
+      margin-top: 140px; }
   .project .content02 {
+    overflow: hidden;
     height: 798px;
+    padding-top: 135px;
     background-image: url(/assets/images/project/bg_content02.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }
+    .project .content02 .text1 {
+      float: right;
+      padding-right: 80px; }
   .project .content03 {
     height: 230px;
-    background-image: url(/assets/images/project/bg_content03.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; }
+    padding-top: 70px;
+    background-color: #835346; }
+    .project .content03 .text1 img {
+      display: block;
+      margin: 0 auto; }
   .project .content04 {
+    overflow: hidden;
     height: 770px;
+    padding-top: 160px;
     background-image: url(/assets/images/project/bg_content04.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }
+    .project .content04 .text1 {
+      float: right;
+      padding-right: 80px; }
   .project .content05 {
     height: 624px;
+    padding-top: 95px;
     background-image: url(/assets/images/project/bg_content05.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }
   .project .content06 {
     height: 442px;
-    background-image: url(/assets/images/project/bg_content06.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; }
+    padding-top: 30px;
+    background-color: #eb6100; }
+    .project .content06 .text1 img {
+      display: block;
+      margin: 0 auto; }
   .project .content07 {
     height: 927px;
-    padding-top: 725px;
+    padding-top: 125px;
     background-image: url(/assets/images/project/bg_content07.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }
+    .project .content07 .text1 img {
+      display: block;
+      margin: 0 auto; }
     .project .content07 .btn-area {
-      text-align: center; }
+      text-align: center;
+      margin-top: 110px; }
       .project .content07 .btn-area p {
         font-size: 0; }
         .project .content07 .btn-area p .btn {
@@ -433,33 +462,37 @@ a {
           transition-timing-function: linear;
           -webkit-transition-delay: 0s;
           transition-delay: 0s; }
+          .project .content07 .btn-area p .btn:hover {
+            opacity: .8;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
           .project .content07 .btn-area p .btn:last-child {
             margin-right: 0; }
           .project .content07 .btn-area p .btn.btn-white {
             background-color: #fff; }
-            .project .content07 .btn-area p .btn.btn-white:hover {
-              opacity: .8;
-              -webkit-transition-property: all;
-              transition-property: all;
-              -webkit-transition-duration: 0.15s;
-              transition-duration: 0.15s;
-              -webkit-transition-timing-function: linear;
-              transition-timing-function: linear;
-              -webkit-transition-delay: 0s;
-              transition-delay: 0s; }
           .project .content07 .btn-area p .btn.btn-orange {
             color: #fff;
             background-color: #eb6100; }
-            .project .content07 .btn-area p .btn.btn-orange:hover {
-              opacity: .8;
-              background-color: #153a7e;
-              -webkit-transition-property: all;
-              transition-property: all;
-              -webkit-transition-duration: 0.15s;
-              transition-duration: 0.15s;
-              -webkit-transition-timing-function: linear;
-              transition-timing-function: linear;
-              -webkit-transition-delay: 0s;
-              transition-delay: 0s; }
+
+.quick-top .quick-btn {
+  position: fixed;
+  right: 240px;
+  bottom: 45px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 25px;
+  background-color: #eb6100;
+  box-shadow: 2px 3px 4.8px 1.2px rgba(0, 0, 0, 0.15); }
+  .quick-top .quick-btn img {
+    display: block;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=project.css.map */

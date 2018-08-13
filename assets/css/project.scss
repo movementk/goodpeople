@@ -4,6 +4,10 @@
 	margin-top: 0;
 	min-width: 1300px;
 	font-family: 'RixGo B' !important;
+	.container {
+		max-width: 1300px;
+		width: 1300px !important;
+	}
 	.logo {
 		position: absolute;
 		top: 40px;
@@ -11,34 +15,62 @@
 	}
 	.content01 {
 		height: 2188px;
+		padding-top: 240px;
 		background-image: url(/assets/images/project/bg_content01.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: cover;   
+		background-size: cover;
+		.video {
+			width: 930px;
+			height: 555px;
+			margin: 0 auto;
+			margin-top: 250px;  
+			background-color: black;
+		}
+		.text2 {
+			margin-top: 140px;
+		}
 	}
 	.content02 {
+		overflow: hidden;
 		height: 798px;
+		padding-top: 135px;
 		background-image: url(/assets/images/project/bg_content02.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: cover;   
+		background-size: cover; 
+		.text1 {
+			float: right;
+			padding-right: 80px; 
+		}
 	}
 	.content03 {
 		height: 230px;
-		background-image: url(/assets/images/project/bg_content03.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;   
+		padding-top: 70px;  
+		background-color: #835346;
+		.text1 {
+			img {
+				display: block;
+				margin: 0 auto;
+			} 
+		}
 	}
 	.content04 {
+		overflow: hidden;
 		height: 770px;
+		padding-top: 160px;  
 		background-image: url(/assets/images/project/bg_content04.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: cover;   
+		background-size: cover;
+		.text1 {
+			float: right;
+			padding-right: 80px;
+		}
 	}
 	.content05 {
 		height: 624px;
+		padding-top: 95px;
 		background-image: url(/assets/images/project/bg_content05.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
@@ -46,20 +78,31 @@
 	}
 	.content06 {
 		height: 442px;
-		background-image: url(/assets/images/project/bg_content06.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;   
+		padding-top: 30px;
+		background-color: #eb6100;
+		.text1 {
+			img {
+				display: block;
+				margin: 0 auto;
+			} 
+		}
 	}
 	.content07 {
 		height: 927px;
-		padding-top: 725px;
+		padding-top: 125px;
 		background-image: url(/assets/images/project/bg_content07.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: cover;   
+		background-size: cover;  
+		.text1 {
+			img {
+				display: block;
+				margin: 0 auto;
+			} 
+		}
 		.btn-area {
 			text-align: center;
+			margin-top: 110px;
 			p {
 				font-size: 0;
 				.btn {
@@ -74,24 +117,19 @@
 					font-family: 'RixGo B';
 					margin-right: 20px;
 					@include transition();
+					&:hover {
+						opacity: .8;
+						@include transition();
+					}
 					&:last-child {
 						margin-right: 0;
 					}
 					&.btn-white {
 						background-color: #fff;
-						&:hover {
-							opacity: .8;
-							@include transition();
-						}
 					}
 					&.btn-orange {
 						color: #fff;
 						background-color: #eb6100;
-						&:hover {
-							opacity: .8;
-							background-color: #153a7e;
-							@include transition();
-						}
 					}
 				}
 			}
@@ -100,7 +138,25 @@
 }
 
 
-
+.quick-top {
+	.quick-btn {
+		position: fixed;
+		right: 240px;
+		bottom: 45px;
+		width: 150px;
+		height: 150px;
+		text-align: center;
+		border-radius: 50%;
+		padding-top: 25px;
+		background-color: #eb6100;
+		box-shadow: 2px 3px 4.8px 1.2px rgba(0, 0, 0, 0.15); 
+		img {
+			display: block;
+			margin: 0 auto;
+			
+		}
+	}
+}
 
 
 
