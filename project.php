@@ -77,27 +77,4 @@
     </div>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 </body>
-<script>
- // quick menu
-    $(window).on('scroll', function() {
-        if ($(this).scrollTop() >= 100) {
-            $('#quick-top').show('slow');
-            $('#quick-banner').stop().animate({
-                top: $(this).scrollTop() + 231
-            }, 'slow');
-        } else {
-            $('#quick-top').hide('slow');
-            $('#quick-banner').stop().animate({
-                top: 231
-            }, 'slow');
-        }
-    });
-    
-    $(document).on('click', '#quick-top .top', function(e) {
-        $('html, body').stop().animate({
-            scrollTop: 0
-        });
-        e.preventDefault();
-    });
-</script>
 </html>
