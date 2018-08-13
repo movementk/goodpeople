@@ -1,6 +1,6 @@
 @import 'common';
 
-.project {
+.landing-180816 {
 	margin-top: 0;
 	min-width: 1300px;
 	font-family: 'RixGo B' !important;
@@ -21,10 +21,8 @@
 		background-position: center;
 		.video {
 			width: 930px;
-			height: 555px;
 			margin: 0 auto;
 			margin-top: 250px;  
-			background-color: black;
 		}
 		.text2 {
 			margin-top: 140px;
@@ -134,12 +132,16 @@
 
 
 .sponsor-btn {
+    position: absolute;
+    top: 400px;
+    right: 50%;
+    width: 1600px;
+    margin-right: -800px;
 	a {
-		position: fixed;
-		right: 240px;
-		bottom: 45px;
+        display: inline-block;
 		width: 150px;
 		height: 150px;
+        float: right;
 		text-align: center;
 		border-radius: 50%;
 		padding-top: 25px;
@@ -148,7 +150,6 @@
 		img {
 			display: block;
 			margin: 0 auto;
-			
 		}
 	}
 }

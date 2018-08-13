@@ -359,86 +359,84 @@ a {
     .container {
       max-width: 1200px; } }
 
-.project {
+.landing-180816 {
   margin-top: 0;
   min-width: 1300px;
   font-family: 'RixGo B' !important; }
-  .project .container {
+  .landing-180816 .container {
     max-width: 1300px;
     width: 1300px !important; }
-  .project .logo {
+  .landing-180816 .logo {
     position: absolute;
     top: 40px;
     left: 40px; }
-  .project .content01 {
+  .landing-180816 .content01 {
     height: 2188px;
     padding-top: 240px;
     background-image: url(/assets/images/project/bg_content01.jpg);
     background-repeat: no-repeat;
     background-position: center; }
-    .project .content01 .video {
+    .landing-180816 .content01 .video {
       width: 930px;
-      height: 555px;
       margin: 0 auto;
-      margin-top: 250px;
-      background-color: black; }
-    .project .content01 .text2 {
+      margin-top: 250px; }
+    .landing-180816 .content01 .text2 {
       margin-top: 140px; }
-  .project .content02 {
+  .landing-180816 .content02 {
     overflow: hidden;
     height: 798px;
     padding-top: 135px;
     background-image: url(/assets/images/project/bg_content02.jpg);
     background-repeat: no-repeat;
     background-position: center; }
-    .project .content02 .text1 {
+    .landing-180816 .content02 .text1 {
       float: right;
       padding-right: 80px; }
-  .project .content03 {
+  .landing-180816 .content03 {
     height: 230px;
     padding-top: 70px;
     background-color: #835346; }
-    .project .content03 .text1 img {
+    .landing-180816 .content03 .text1 img {
       display: block;
       margin: 0 auto; }
-  .project .content04 {
+  .landing-180816 .content04 {
     overflow: hidden;
     height: 770px;
     padding-top: 160px;
     background-image: url(/assets/images/project/bg_content04.jpg);
     background-repeat: no-repeat;
     background-position: center; }
-    .project .content04 .text1 {
+    .landing-180816 .content04 .text1 {
       float: right;
       padding-right: 80px; }
-  .project .content05 {
+  .landing-180816 .content05 {
     height: 624px;
     padding-top: 95px;
     background-image: url(/assets/images/project/bg_content05.jpg);
     background-repeat: no-repeat;
     background-position: center; }
-  .project .content06 {
+  .landing-180816 .content06 {
     height: 442px;
     padding-top: 30px;
     background-color: #eb6100; }
-    .project .content06 .text1 img {
+    .landing-180816 .content06 .text1 img {
       display: block;
       margin: 0 auto; }
-  .project .content07 {
+  .landing-180816 .content07 {
     height: 927px;
     padding-top: 125px;
     background-image: url(/assets/images/project/bg_content07.jpg);
     background-repeat: no-repeat;
     background-position: center; }
-    .project .content07 .text1 img {
+    .landing-180816 .content07 .text1 img {
       display: block;
       margin: 0 auto; }
-    .project .content07 .btn-area {
+    .landing-180816 .content07 .btn-area {
       text-align: center;
       margin-top: 110px; }
-      .project .content07 .btn-area p {
+      .landing-180816 .content07 .btn-area p {
         font-size: 0; }
-        .project .content07 .btn-area p .btn {
+        .landing-180816 .content07 .btn-area p .btn {
           padding: 0;
           border: 0;
           border-radius: 0;
@@ -457,7 +455,7 @@ a {
           transition-timing-function: linear;
           -webkit-transition-delay: 0s;
           transition-delay: 0s; }
-          .project .content07 .btn-area p .btn:hover {
+          .landing-180816 .content07 .btn-area p .btn:hover {
             opacity: .8;
             -webkit-transition-property: all;
             transition-property: all;
@@ -467,27 +465,32 @@ a {
             transition-timing-function: linear;
             -webkit-transition-delay: 0s;
             transition-delay: 0s; }
-          .project .content07 .btn-area p .btn:last-child {
+          .landing-180816 .content07 .btn-area p .btn:last-child {
             margin-right: 0; }
-          .project .content07 .btn-area p .btn.btn-white {
+          .landing-180816 .content07 .btn-area p .btn.btn-white {
             background-color: #fff; }
-          .project .content07 .btn-area p .btn.btn-orange {
+          .landing-180816 .content07 .btn-area p .btn.btn-orange {
             color: #fff;
             background-color: #eb6100; }
 
-.sponsor-btn a {
-  position: fixed;
-  right: 240px;
-  bottom: 45px;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  border-radius: 50%;
-  padding-top: 25px;
-  background-color: #eb6100;
-  box-shadow: 2px 3px 4.8px 1.2px rgba(0, 0, 0, 0.15); }
-  .sponsor-btn a img {
-    display: block;
-    margin: 0 auto; }
+.sponsor-btn {
+  position: absolute;
+  top: 400px;
+  right: 50%;
+  width: 1600px;
+  margin-right: -800px; }
+  .sponsor-btn a {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    float: right;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 25px;
+    background-color: #eb6100;
+    box-shadow: 2px 3px 4.8px 1.2px rgba(0, 0, 0, 0.15); }
+    .sponsor-btn a img {
+      display: block;
+      margin: 0 auto; }
 
-/*# sourceMappingURL=project.css.map */
+/*# sourceMappingURL=landing.css.map */

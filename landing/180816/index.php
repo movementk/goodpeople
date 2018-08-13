@@ -1,8 +1,8 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" href="/assets/css/project.css">
+<link rel="stylesheet" href="/assets/css/landing.css">
 <link rel="stylesheet" type="text/css" href="http://api.typolink.co.kr/css?family=RixGo+L:400|RixGo+M:400|RixGo+B:400" />
 </head>
-<body class="sub project">
+<body class="sub landing-180816">
     <!-- Content -->
     <main id="content" class="">
     	<h1 class="logo">
@@ -15,7 +15,11 @@
    				<div class="text1">
    					<img src="/assets/images/project/img_content01.png" alt="">
 				</div>
-   				<div class="video"></div>
+   				<div class="video">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dHydw9N_1cY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+   				</div>
    				<div class="text2">
    					<img src="/assets/images/project/img_content01_2.png" alt="">
    				</div>
@@ -76,5 +80,20 @@
     	</a>
     </div>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+    <script>
+        (function($){
+            $(window).on('scroll', function() {
+                if ($(this).scrollTop() >= 100) {
+                    $('.sponsor-btn').stop().animate({
+                        top: $(this).scrollTop() + 350
+                    }, 'slow');
+                } else {
+                    $('.sponsor-btn').stop().animate({
+                        top: 350
+                    }, 'slow');
+                }
+            });
+        })(jQuery);
+    </script>
 </body>
 </html>
