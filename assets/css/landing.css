@@ -4,6 +4,7 @@
 @import url("//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css");
 @import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
 @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url(http://api.typolink.co.kr/css?family=RixGo+L:400|RixGo+M:400|RixGo+B:400);
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }

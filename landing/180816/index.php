@@ -1,6 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link rel="stylesheet" href="/assets/css/landing.css">
-<link rel="stylesheet" type="text/css" href="http://api.typolink.co.kr/css?family=RixGo+L:400|RixGo+M:400|RixGo+B:400" />
 </head>
 <body class="sub landing-180816">
     <!-- Content -->
@@ -17,7 +16,7 @@
 				</div>
    				<div class="video">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dHydw9N_1cY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/dHydw9N_1cY" allowfullscreen></iframe>
                     </div>
    				</div>
    				<div class="text2">
