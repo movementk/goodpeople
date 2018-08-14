@@ -133,11 +133,12 @@
 
 
 .sponsor-btn {
-    position: absolute;
-    top: 400px;
-    right: 50%;
+    position: fixed;
+    top: 250px;
+    right: 50px;
+    /*right: 50%;
     width: 1600px;
-    margin-right: -800px;
+    margin-right: -800px;*/
 	a {
         display: inline-block;
 		width: 150px;
