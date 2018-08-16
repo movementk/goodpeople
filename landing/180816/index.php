@@ -86,7 +86,7 @@
    		</article>
         <!-- sponsor-btn -->
         <div class="sponsor-btn">
-            <a href="#">
+            <a href="/sponsor/regular_sponsor.php">
                 <img src="/assets/images/landing/btn_xs_spon.png" class="d-xl-none" alt="">
                 <img src="/assets/images/landing/btn_xl_spon.png" class="d-none d-xl-block" alt="">
             </a>
