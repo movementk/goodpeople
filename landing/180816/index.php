@@ -73,11 +73,11 @@
    		            <img src="/assets/images/landing/img_xl_content08.png" class="img-fluid d-none d-xl-block" alt="">
    		        </p>
                 <div class="btn-area">
-                    <a href="#" class="btn" target="_blank" role="button">
+                    <a href="#" class="btn" role="button">
                         <img src="/assets/images/landing/btn_xs_white.jpg" class="img-fluid d-xl-none" alt="">
                         <img src="/assets/images/landing/btn_xl_white.jpg" class="img-fluid d-none d-xl-block" alt="">
                     </a>
-                    <a href="#" class="btn" target="_blank" role="button">
+                    <a href="#" class="btn" role="button">
                         <img src="/assets/images/landing/btn_xs_orange.jpg" class="img-fluid d-xl-none" alt="">
                         <img src="/assets/images/landing/btn_xl_orange.jpg" class="img-fluid d-none d-xl-block" alt="">
                     </a>
