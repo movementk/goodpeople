@@ -1,98 +1,98 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link rel="stylesheet" href="/assets/css/landing.css">
 </head>
-<body class="sub landing-180816">
+<body class="sub landing">
     <!-- Content -->
-    <main id="content" class="">
+    <main id="content" class="campaign-201808">
     	<h1 class="logo">
    			<a href="/">
    				<img src="/assets/images/sub/logo.png" alt="">
    			</a>
    		</h1>
    		<article class="content01">
-   			<div class="container">
-   				<div class="text1">
-   					<img src="/assets/images/project/img_content01.png" alt="">
-				</div>
-   				<div class="video">
+   		    <div class="container">
+   		        <p>
+   		            <img src="/assets/images/landing/img_xs_content01.png" class="img-fluid d-xl-none" alt="">
+   		            <img src="/assets/images/landing/img_xl_content01.png" class="img-fluid d-none d-xl-block" alt="">
+   		        </p>
+   		        <div class="video">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe src="https://www.youtube.com/embed/dHydw9N_1cY" allowfullscreen></iframe>
                     </div>
    				</div>
-   				<div class="text2">
-   					<img src="/assets/images/project/img_content01_2.png" alt="">
-   				</div>
-    		</div>
+   		        <p>
+   		            <img src="/assets/images/landing/img_xs_content02.png" class="img-fluid d-xl-none" alt="">
+   		            <img src="/assets/images/landing/img_xl_content02.png" class="img-fluid d-none d-xl-block" alt="">
+   		        </p>
+   		    </div>
    		</article>
    		<article class="content02">
-   			<div class="container">
-				<div class="text1">
-					<img src="/assets/images/project/img_content02.png" alt="">
-				</div>
-   			</div>
+   		    <div class="container">
+   		        <p>
+   		            <img src="/assets/images/landing/img_xs_content03.png" class="img-fluid d-xl-none" alt="">
+   		            <img src="/assets/images/landing/img_xl_content03.png" class="img-fluid d-none d-xl-block" alt="">
+   		        </p>
+   		    </div>
    		</article>
    		<article class="content03">
-   			<div class="container">
-				<div class="text1">
-					<img src="/assets/images/project/img_content03.png" alt="">
-				</div>
-   			</div>
+   		    <div class="container">
+   		        <p>
+   		            <img src="/assets/images/landing/img_xs_content04.png" class="img-fluid d-xl-none" alt="">
+   		            <img src="/assets/images/landing/img_xl_content04.png" class="img-fluid d-none d-xl-block" alt="">
+   		        </p>
+   		    </div>
    		</article>
    		<article class="content04">
-   			<div class="container">
-				<div class="text1">
-					<img src="/assets/images/project/img_content04.png" alt="">
-				</div>
-   			</div>
+   		    <div class="container">
+   		        <p>
+   		            <img src="/assets/images/landing/img_xs_content05.png" class="img-fluid d-xl-none" alt="">
+   		            <img src="/assets/images/landing/img_xl_content05.png" class="img-fluid d-none d-xl-block" alt="">
+   		        </p>
+   		    </div>
    		</article>
-    	<article class="content05">
-    		<div class="container">
-				<div class="text1">
-					<img src="/assets/images/project/img_content05.png" alt="">
-				</div>
-   			</div>
-    	</article>
-    	<article class="content06">
-    		<div class="container">
-				<div class="text1">
-					<img src="/assets/images/project/img_content06.png" alt="">
-				</div>
-   			</div>
-    	</article>
-    	<article class="content07">
-    		<div class="container">
-				<div class="text1">
-					<img src="/assets/images/project/img_content07.png" alt="">
-				</div>
-				<div class="btn-area">
-					<p>
-						<a href="#" class="btn btn-white" role="button">일시후원</a>
-						<a href="#" class="btn btn-orange" role="button">정기후원</a>
-					</p>
-				</div>
-   			</div>
-    	</article>
+   		<article class="content05">
+   		    <div class="container">
+   		        <p>
+   		            <img src="/assets/images/landing/img_xs_content06.png" class="img-fluid d-xl-none" alt="">
+   		            <img src="/assets/images/landing/img_xl_content06.png" class="img-fluid d-none d-xl-block" alt="">
+   		        </p>
+   		    </div>
+   		</article>
+   		<article class="content06">
+   		    <div class="container">
+   		        <p>
+   		            <img src="/assets/images/landing/img_xs_content07.png" class="img-fluid d-xl-none" alt="">
+   		            <img src="/assets/images/landing/img_xl_content07.png" class="img-fluid d-none d-xl-block" alt="">
+   		        </p>
+   		    </div>
+   		</article>
+   		<article class="content07">
+   		    <div class="container">
+   		        <p>
+   		            <img src="/assets/images/landing/img_xs_content08.png" class="img-fluid d-xl-none" alt="">
+   		            <img src="/assets/images/landing/img_xl_content08.png" class="img-fluid d-none d-xl-block" alt="">
+   		        </p>
+                <div class="btn-area">
+                    <a href="#" class="btn" target="_blank" role="button">
+                        <img src="/assets/images/landing/btn_xs_white.jpg" class="img-fluid d-xl-none" alt="">
+                        <img src="/assets/images/landing/btn_xl_white.jpg" class="img-fluid d-none d-xl-block" alt="">
+                    </a>
+                    <a href="#" class="btn" target="_blank" role="button">
+                        <img src="/assets/images/landing/btn_xs_orange.jpg" class="img-fluid d-xl-none" alt="">
+                        <img src="/assets/images/landing/btn_xl_orange.jpg" class="img-fluid d-none d-xl-block" alt="">
+                    </a>
+                </div>
+   		    </div>
+   		</article>
+        <!-- sponsor-btn -->
+        <div class="sponsor-btn">
+            <a href="#">
+                <img src="/assets/images/landing/btn_xs_spon.png" class="d-xl-none" alt="">
+                <img src="/assets/images/landing/btn_xl_spon.png" class="d-none d-xl-block" alt="">
+            </a>
+        </div>
     </main>
-    <div class="sponsor-btn">
-    	<a href="#">
-    		<img src="/assets/images/project/quick_btn.png" alt="">
-    	</a>
-    </div>
+    
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
-    <script>
-        (function($){
-            $(window).on('scroll', function() {
-                if ($(this).scrollTop() >= 100) {
-                    $('.sponsor-btn').stop().animate({
-                        top: $(this).scrollTop() + 350
-                    }, 'slow');
-                } else {
-                    $('.sponsor-btn').stop().animate({
-                        top: 350
-                    }, 'slow');
-                }
-            });
-        })(jQuery);
-    </script>
 </body>
 </html>

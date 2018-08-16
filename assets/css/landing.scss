@@ -1,165 +1,151 @@
 @import 'common';
-@import url(https://api.typolink.co.kr/css?family=RixGo+L:400|RixGo+M:400|RixGo+B:400);
 
-.landing-180816 {
-	margin-top: 0;
-	min-width: 1300px;
-	font-family: 'RixGo B' !important;
-	.container {
-		max-width: 1300px;
-		width: 1300px !important;
-	}
-	.logo {
-		position: absolute;
-		top: 40px;
-		left: 40px;
-	}
-	.content01 {
-		height: 2188px;
-		padding-top: 240px;
-		background-image: url(/assets/images/project/bg_content01.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		.video {
-			width: 930px;
-			margin: 0 auto;
-			margin-top: 250px;  
-		}
-		.text2 {
-			margin-top: 140px;
-		}
-	}
-	.content02 {
-		overflow: hidden;
-		height: 798px;
-		padding-top: 135px;
-		background-image: url(/assets/images/project/bg_content02.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		.text1 {
-			float: right;
-			padding-right: 80px; 
-		}
-	}
-	.content03 {
-		height: 230px;
-		padding-top: 70px;  
-		background-color: #835346;
-		.text1 {
-			img {
-				display: block;
-				margin: 0 auto;
-			} 
-		}
-	}
-	.content04 {
-		overflow: hidden;
-		height: 770px;
-		padding-top: 160px;  
-		background-image: url(/assets/images/project/bg_content04.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		.text1 {
-			float: right;
-			padding-right: 80px;
-		}
-	}
-	.content05 {
-		height: 624px;
-		padding-top: 95px;
-		background-image: url(/assets/images/project/bg_content05.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-	}
-	.content06 {
-		height: 442px;
-		padding-top: 30px;
-		background-color: #eb6100;
-		.text1 {
-			img {
-				display: block;
-				margin: 0 auto;
-			} 
-		}
-	}
-	.content07 {
-		height: 927px;
-		padding-top: 125px;
-		background-image: url(/assets/images/project/bg_content07.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		.text1 {
-			img {
-				display: block;
-				margin: 0 auto;
-			} 
-		}
-		.btn-area {
-			text-align: center;
-			margin-top: 110px;
-			p {
-				font-size: 0;
-				.btn {
-					padding: 0;
-					border: 0;
-					border-radius: 0;
-					width: 375px;
-					font-size: 18px;
-					color: #222;
-					line-height: 60px;
-					font-weight: bold;
-					font-family: 'RixGo B';
-					margin-right: 20px;
-					@include transition();
-					&:hover {
-						opacity: .8;
-						@include transition();
-					}
-					&:last-child {
-						margin-right: 0;
-					}
-					&.btn-white {
-						background-color: #fff;
-					}
-					&.btn-orange {
-						color: #fff;
-						background-color: #eb6100;
-					}
-				}
-			}
-		}
-	}
+.landing {
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    @media(min-width: 1400px) {
+        .container {
+            min-width: 1300px !important;
+        }
+    }
 }
 
-
-.sponsor-btn {
-    position: fixed;
-    top: 250px;
-    right: 50px;
-    /*right: 50%;
-    width: 1600px;
-    margin-right: -800px;*/
-	a {
+// landing-201808
+.campaign-201808 {
+    position: relative;
+    margin: 0;
+    .img-fluid {
+        display: block;
+        margin: 0 auto;
+    }
+    .logo {
+        position: absolute;
+        top: 10px;
+        left: 10px;
         display: inline-block;
-		width: 150px;
-		height: 150px;
-        float: right;
-		text-align: center;
-		border-radius: 50%;
-		padding-top: 25px;
-		background-color: #eb6100;
-		box-shadow: 2px 3px 4.8px 1.2px rgba(0, 0, 0, 0.15); 
-		img {
-			display: block;
-			margin: 0 auto;
-		}
-	}
+        a {
+            display: block;
+            img {
+                width: 80px;
+                @media(min-width: $md) {
+                    width: 108px;
+                }
+            }
+        }
+        @media(min-width: $xl) {
+            top: 40px;
+            left: 40px;
+        }
+    }
+    > article {
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: 0 50%;
+        &.content01 {
+            background-image: url(/assets/images/landing/bg_xs_campaign01.jpg);
+        }
+        &.content02 {
+            background-image: url(/assets/images/landing/bg_xs_campaign02.jpg);
+        }
+        &.content03 {
+            background-image: url(/assets/images/landing/bg_xs_campaign03.jpg);
+        }
+        &.content04 {
+            background-image: url(/assets/images/landing/bg_xs_campaign04.jpg);
+        }
+        &.content05 {
+            background-image: url(/assets/images/landing/bg_xs_campaign05.jpg);
+        }
+        &.content06 {
+            background-image: url(/assets/images/landing/bg_xs_campaign06.jpg);
+        }
+        &.content07 {
+            background-image: url(/assets/images/landing/bg_xs_campaign07.jpg);
+        }
+        .video {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            @media(min-width: $lg) {
+                width: 930px;
+            }
+        }
+        .btn-area {
+            padding-bottom: 30%;
+            .btn {
+                display: block;
+                padding: 0;
+                @include transition();
+                &:first-child {
+                    margin-bottom: 3%;
+                }
+                &:hover {
+                    opacity: .7;
+                }
+            }
+            @media(min-width: $xl) {
+                text-align: center;
+                .btn {
+                    display: inline-block;
+                    &:first-child {
+                        margin-bottom: 0;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+        @media(min-width: $xl) {
+            background-size: auto 100%;
+            &.content01 {
+                background-image: url(/assets/images/landing/bg_xl_campaign01.jpg);
+            }
+            &.content02 {
+                background-image: url(/assets/images/landing/bg_xl_campaign02.jpg);
+            }
+            &.content03 {
+                background-image: url(/assets/images/landing/bg_xl_campaign03.jpg);
+            }
+            &.content04 {
+                background-image: url(/assets/images/landing/bg_xl_campaign04.jpg);
+            }
+            &.content05 {
+                background-image: url(/assets/images/landing/bg_xl_campaign05.jpg);
+            }
+            &.content06 {
+                background-image: url(/assets/images/landing/bg_xl_campaign06.jpg);
+            }
+            &.content07 {
+                background-image: url(/assets/images/landing/bg_xl_campaign07.jpg);
+            }
+        }
+    }
+    // sponsor-btn
+    .sponsor-btn {
+        position: fixed;
+        top: 80px;
+        right: 10px;
+        z-index: 1;
+        a {
+            display: block;
+            width: 49px;
+            height: 49px;
+            border-radius: 50%;
+            box-shadow: 2px 3px 4.8px 1.2px rgba(0, 0, 0, 0.15);
+            img {
+                width: 100%;
+            }
+        }
+        @media(min-width: $xl) {
+            top: 250px;
+            right: 50px;
+            a {
+                width: 148px;
+                height: 148px;
+            }
+        }
+    }
 }
-
-
-
-
-
 
 
 
