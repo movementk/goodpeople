@@ -2693,6 +2693,9 @@
 				.gp-group {
                     text-align: left;
 					.article-content {
+                        &.space {
+                            padding: 0 15px;
+                        }
 						ul {
 							li {
 								&.leader {
@@ -2716,11 +2719,14 @@
 					}
 					.gp-group {
 						.article-content {
+                            &.space {
+                                padding: 0 25px;
+                            }
 							ul {
 								li {
 									
 									&.leader {
-										padding: 40px 0 40px 55px;
+										padding: 40px 0 40px 45px;
 									}
 								}
 							}
@@ -2739,11 +2745,14 @@
 					}
 					.gp-group {
 						.article-content {
+                            &.space {
+                                padding: 0 40px;
+                            }
 							ul {
 								li {
 									
 									&.leader {
-										padding: 50px 0 50px 55px;
+										padding: 50px 0 50px 60px;
 									}
 								}
 							}
@@ -2757,36 +2766,3 @@
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
