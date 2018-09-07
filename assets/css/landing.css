@@ -373,19 +373,10 @@ a {
   .campaign-201808 .img-fluid {
     display: block;
     margin: 0 auto;
-    width: 70%; }
+    width: 76%; }
     @media (min-width: 1200px) {
       .campaign-201808 .img-fluid {
         width: auto; } }
-  .campaign-201808 .align-left {
-    padding-left: 10%; }
-    .campaign-201808 .align-left .img-fluid {
-      margin-left: 0; }
-    @media (min-width: 1200px) {
-      .campaign-201808 .align-left {
-        padding-left: 0; }
-        .campaign-201808 .align-left .img-fluid {
-          margin-left: auto; } }
   .campaign-201808 .logo {
     position: absolute;
     top: 10px;
@@ -404,19 +395,44 @@ a {
         left: 40px; } }
   .campaign-201808 > article {
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: 0 50%; }
+    background-size: cover;
+    background-position: 50% 30%;
+    /*&.content01 {
+        padding-top: 5%;
+        background-image: url(/assets/images/landing/bg_xs_campaign01.jpg);
+    }
+    &.content02 {
+        background-image: url(/assets/images/landing/bg_xs_campaign02.jpg);
+    }
+    &.content03 {
+        background-image: url(/assets/images/landing/bg_xs_campaign03.jpg);
+    }
+    &.content04 {
+        background-image: url(/assets/images/landing/bg_xs_campaign04.jpg);
+    }
+    &.content05 {
+        background-image: url(/assets/images/landing/bg_xs_campaign05.jpg);
+    }
+    &.content06 {
+        background-image: url(/assets/images/landing/bg_xs_campaign06.jpg);
+    }
+    &.content07 {
+        background-image: url(/assets/images/landing/bg_xs_campaign07.jpg);
+    }*/ }
     .campaign-201808 > article.content01 {
       padding-top: 5%;
       background-image: url(/assets/images/landing/bg_xs_campaign01.jpg); }
     .campaign-201808 > article.content02 {
-      background-image: url(/assets/images/landing/bg_xs_campaign02.jpg); }
+      background-image: url(/assets/images/landing/bg_xs_campaign02.jpg);
+      background-position: 50% 80%; }
     .campaign-201808 > article.content03 {
       background-image: url(/assets/images/landing/bg_xs_campaign03.jpg); }
     .campaign-201808 > article.content04 {
-      background-image: url(/assets/images/landing/bg_xs_campaign04.jpg); }
+      background-image: url(/assets/images/landing/bg_xs_campaign04.jpg);
+      background-position: 50% 80%; }
     .campaign-201808 > article.content05 {
-      background-image: url(/assets/images/landing/bg_xs_campaign05.jpg); }
+      background-image: url(/assets/images/landing/bg_xs_campaign05.jpg);
+      background-position: 50% 100%; }
     .campaign-201808 > article.content06 {
       background-image: url(/assets/images/landing/bg_xs_campaign06.jpg); }
     .campaign-201808 > article.content07 {
@@ -456,7 +472,8 @@ a {
               margin-right: 20px; } }
     @media (min-width: 1200px) {
       .campaign-201808 > article {
-        background-size: auto 100%; }
+        background-size: auto 100%;
+        background-position: 50% 50% !important; }
         .campaign-201808 > article.content01 {
           padding-top: 0;
           background-image: url(/assets/images/landing/bg_xl_campaign01.jpg); }
@@ -472,6 +489,10 @@ a {
           background-image: url(/assets/images/landing/bg_xl_campaign06.jpg); }
         .campaign-201808 > article.content07 {
           background-image: url(/assets/images/landing/bg_xl_campaign07.jpg); } }
+    @media (min-width: 1900px) {
+      .campaign-201808 > article {
+        background-size: cover !important;
+        background-position: 50% 5% !important; } }
   .campaign-201808 .sponsor-btn {
     position: fixed;
     top: 80px;

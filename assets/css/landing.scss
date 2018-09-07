@@ -18,21 +18,9 @@
     .img-fluid {
         display: block;
         margin: 0 auto;
-        width: 70%;
+        width: 76%;
         @media(min-width: $xl) {
             width: auto;
-        }
-    }
-    .align-left {
-        padding-left: 10%;
-        .img-fluid {
-            margin-left: 0;
-        }
-        @media(min-width: $xl) {
-            padding-left: 0;
-            .img-fluid {
-                margin-left: auto;
-            }
         }
     }
     .logo {
@@ -56,9 +44,9 @@
     }
     > article {
         background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: 0 50%;
-        &.content01 {
+        background-size: cover;
+        background-position: 50% 30%;
+        /*&.content01 {
             padding-top: 5%;
             background-image: url(/assets/images/landing/bg_xs_campaign01.jpg);
         }
@@ -73,6 +61,31 @@
         }
         &.content05 {
             background-image: url(/assets/images/landing/bg_xs_campaign05.jpg);
+        }
+        &.content06 {
+            background-image: url(/assets/images/landing/bg_xs_campaign06.jpg);
+        }
+        &.content07 {
+            background-image: url(/assets/images/landing/bg_xs_campaign07.jpg);
+        }*/
+        &.content01 {
+            padding-top: 5%;
+            background-image: url(/assets/images/landing/bg_xs_campaign01.jpg);
+        }
+        &.content02 {
+            background-image: url(/assets/images/landing/bg_xs_campaign02.jpg);
+            background-position: 50% 80%;
+        }
+        &.content03 {
+            background-image: url(/assets/images/landing/bg_xs_campaign03.jpg);
+        }
+        &.content04 {
+            background-image: url(/assets/images/landing/bg_xs_campaign04.jpg);
+            background-position: 50% 80%;
+        }
+        &.content05 {
+            background-image: url(/assets/images/landing/bg_xs_campaign05.jpg);
+            background-position: 50% 100%;
         }
         &.content06 {
             background-image: url(/assets/images/landing/bg_xs_campaign06.jpg);
@@ -115,6 +128,7 @@
         }
         @media(min-width: $xl) {
             background-size: auto 100%;
+            background-position: 50% 50% !important;
             &.content01 {
                 padding-top: 0;
                 background-image: url(/assets/images/landing/bg_xl_campaign01.jpg);
@@ -137,6 +151,10 @@
             &.content07 {
                 background-image: url(/assets/images/landing/bg_xl_campaign07.jpg);
             }
+        }
+        @media(min-width: 1900px) {
+            background-size: cover !important;
+            background-position: 50% 5% !important;
         }
     }
     // sponsor-btn

@@ -20,7 +20,7 @@
                         <iframe src="https://www.youtube.com/embed/dHydw9N_1cY" allowfullscreen></iframe>
                     </div>
    				</div>
-   		        <p class="align-left">
+   		        <p>
    		            <img src="/assets/images/landing/img_xs_content02.png" class="img-fluid d-xl-none" alt="">
    		            <img src="/assets/images/landing/img_xl_content02.png" class="img-fluid d-none d-xl-block" alt="">
    		        </p>
@@ -52,7 +52,7 @@
    		</article>
    		<article class="content05">
    		    <div class="container">
-   		        <p class="align-left">
+   		        <p>
    		            <img src="/assets/images/landing/img_xs_content06.png" class="img-fluid d-xl-none" alt="">
    		            <img src="/assets/images/landing/img_xl_content06.png" class="img-fluid d-none d-xl-block" alt="">
    		        </p>
