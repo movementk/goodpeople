@@ -1056,7 +1056,7 @@ body {
         clear: both;
     }
     .company {
-        text-align: center;
+        /*text-align: center;*/
         & ~ .company {
             margin-top: 5px;
         }
@@ -1165,10 +1165,49 @@ body {
         }
     }
     .news-letter {
-        display: none;
+        margin-top: 15px;
+        padding-bottom: 15px;
+        h3 {
+            font-size: 12px;
+            font-weight: 500;
+        }
+        p {
+            font-size: 11px;
+            color: #999;
+            line-height: 25px;
+            margin: 10px 0 0;
+        }
+        .mail-form {
+            position: relative;
+            .form-control {
+                width: 100%;
+                height: 38px;
+                font-size: 13px;
+                padding: 0;
+                padding-right: 40px;
+                border-radius: 0;
+                border: 1px solid transparent;
+                background-color: transparent;
+                border-bottom: 1px solid #000;
+            }
+            .btn-mail {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 38px;
+                height: 38px;
+                font-size: 13px;
+                color: #000;
+                border-radius: 0;
+                border: 0;
+                padding: 0;
+                background: none;
+            }
+        }
     }
     hr {
-        display: block;
+        display: none;
+        /*display: block;*/
         width: 100%;
         margin: 20px 0;
         clear: both;
@@ -1181,7 +1220,7 @@ body {
         }
     }
     .policy {
-        text-align: center;
+        /*text-align: center;*/
         ul {
             overflow: hidden;
             display: inline-block;
@@ -1238,9 +1277,25 @@ body {
                 }
             }
         }
-        hr {
-            margin: 30px 0;
+        .news-letter {
+            margin-top: 40px;
+            padding-bottom: 40px;
+            h3 {
+                font-size: 14px;
+            }
+            .mail-form {
+                position: relative;
+                .form-control {
+                    font-size: 14px;
+                }
+                .btn-mail {
+                    font-size: 14px;
+                }
+            }
         }
+        /*hr {
+            margin: 30px 0;
+        }*/
         .policy {
             text-align: left;
             ul {
@@ -1278,6 +1333,69 @@ body {
                             font-size: 14px;
                             line-height: 28px;
                         }
+                    }
+                }
+            }
+        }
+        .news-letter {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            margin-top: 0;
+            padding-bottom: 0;
+            h3 {
+                font-size: 15px;
+                font-weight: 500;
+            }
+            p {
+                
+            }
+            .mail-form {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                .form-group {
+                    margin-bottom: 0;
+                    .form-control {
+                        border-radius: 0;
+                        height: 50px;
+                        padding-left: 0;
+                        padding-right: 35px;
+                        border: 1px solid #f3f5fa;
+                        border-bottom: 1px solid #000;
+                        background-color: #f3f5fa;
+                        &:hover, &:focus {
+                            box-shadow: none;
+                        }
+                    }
+                    
+                }
+                .btn-mail {
+                    position: absolute;
+                    bottom: 1px;
+                    right: 0;
+                    width: 22px;
+                    text-align: center;
+                    height: 49px;
+                    font-size: 22px;
+                    color: #111;
+                    padding: 0;
+                    border: 0;
+                    border-radius: 0;
+                    box-shadow: none !important;
+                    background-color: #f3f5fa;
+                    @include transition();
+                    i {
+                        margin: 0;
+                        &:before {
+                            margin: 0;
+                        }
+                    }
+                    &:hover {
+                        color: rgba(#000, .6);
                     }
                 }
             }
@@ -1388,7 +1506,7 @@ body {
                 }
                 .family-site {
                     display: inline-block;
-                    width: 250px;
+                    width: 200px;
                     margin-top: 20px;
                     .btn {
                         text-align: left;
@@ -1432,6 +1550,7 @@ body {
             }
         }
         hr {
+            display: block;
             margin: 40px 0;
         }
         .policy {
@@ -1466,13 +1585,7 @@ body {
             }
         }
         .news-letter {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 200px;
-            height: 100%;
-            @include noto();
-            display: block;
+            /*@include noto();*/
             h3 {
                 font-size: 15px;
                 color: #555;
@@ -1483,53 +1596,6 @@ body {
                 color: #999;
                 line-height: 26px;
                 margin-top: 20px;
-            }
-            .mail-form {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                .form-group {
-                    margin-bottom: 0;
-                    .form-control {
-                        border-radius: 0;
-                        height: 50px;
-                        padding-left: 0;
-                        padding-right: 35px;
-                        border: 1px solid #f3f5fa;
-                        border-bottom: 1px solid #000;
-                        background-color: #f3f5fa;
-                        &:hover, &:focus {
-                            box-shadow: none;
-                        }
-                    }
-                    
-                }
-                .btn-mail {
-                    position: absolute;
-                    bottom: 1px;
-                    right: 0;
-                    width: 22px;
-                    text-align: center;
-                    height: 49px;
-                    font-size: 22px;
-                    color: #111;
-                    padding: 0;
-                    border: 0;
-                    border-radius: 0;
-                    box-shadow: none !important;
-                    background-color: #f3f5fa;
-                    @include transition();
-                    i {
-                        margin: 0;
-                        &:before {
-                            margin: 0;
-                        }
-                    }
-                    &:hover {
-                        color: rgba(#000, .6);
-                    }
-                }
             }
         }
     }
@@ -1871,6 +1937,163 @@ body {
                             &:hover {
                                 background-image: url(/assets/images/sub/icon_on_quick04.png);
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#mailModal {
+    .modal-dialog {
+        max-width: 300px;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        .modal-content {
+            border: 0;
+            border-radius: 0;
+            .modal-body {
+                overflow: hidden;
+                padding: 0;
+                @include nns();
+                text-align: center;
+                .close {
+                    font-size: 13px;
+                    opacity: 1 !important;
+                    width: 40px;
+                    height: 40px;
+                    float: right;
+                    color: #fff;
+                    @include transition();
+                    background-color: #eb6100;
+                    &:hover {
+                        opacity: .7 !important;
+                    }
+                }
+                .content-modal {
+                    padding: 20px 30px 30px;
+                    .align-box {
+                        display: inline-block;
+                        text-align: left;
+                        margin: 0 auto;
+                        h3 {
+                            display: inline-block;
+                            font-size: 13px;
+                            font-weight: 600;
+                            color: #333;
+                            line-height: 18px;
+                        }
+                        > p {
+                            display: inline-block;
+                            font-size: 12px;
+                            color: #666;
+                            letter-spacing: -.5px;
+                            line-height: 26px;
+                            margin-top: 10px;
+                            > a {
+                                display: inline-block;
+                                color: #fff;
+                                padding: 0 4px;
+                                letter-spacing: -.5px;
+                                line-height: 26px;
+                                margin-left: 5px;
+                                background-color: #333;
+                            }
+                        }
+                    }
+                    .btn-area {
+                        text-align: center;
+                        margin-top: 20px;
+                        > p {
+                            font-size: 0;
+                            > .btn {
+                                display: inline-block;
+                                width: 110px;
+                                font-size: 13px;
+                                text-align: center;
+                                padding: 0;
+                                border: 0;
+                                line-height: 35px;
+                                margin-right: 10px;
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                                &.btn-or {
+                                    margin-left: 0;
+                                    color: #fff;
+                                    background-color: #eb6100;
+                                }
+                                &.btn-gr {
+                                    color: #333;
+                                    background-color: #ebebeb;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: $md) {
+            max-width: 425px;
+            .modal-content {
+                .modal-body {
+                    .close {
+                        font-size: 15px;
+                        width: 50px;
+                        height: 50px;
+                    }
+                    .content-modal {
+                        clear: both;
+                        padding: 15px 30px 40px;
+                        .align-box {
+                            h3 {
+                                font-size: 16px;
+                                line-height: 22px;
+                            }
+                            p {
+                                font-size: 14px;
+                                line-height: 30px;
+                                a {
+                                    padding-left: 5px;
+                                    padding-right: 5px;
+                                    line-height: 30px;
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                        .btn-area {
+                            p {
+                                .btn {
+                                    width: 140px;
+                                    font-size: 14px;
+                                    height: 40px;
+                                    line-height: 40px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: $lg) {
+            margin-top: 300px;
+            .modal-content {
+                .modal-body {
+                    .content-modal {
+                        .align-box {
+                            h3 {
+                                font-size: 16px;
+                                line-height: 24px;
+                            }
+                            p {
+                                font-size: 14px;
+                                margin-top: 15px;
+                            }
+                        }
+                        .btn-area {
+                            margin-top: 30px;
                         }
                     }
                 }

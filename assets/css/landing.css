@@ -37,6 +37,9 @@ a {
     box-shadow: none;
     text-decoration: none; }
 
+input[type=text]::-ms-clear {
+  display: none !important; }
+
 .container,
 .container-fluid {
   padding-left: 10px;
